@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import Masthead from './Masthead.svelte';
 	import CommunityChart from './CommunityChart.svelte';
 	import {
@@ -16,6 +17,11 @@
 		COMMUNITY_KIND_LABELS,
 		normalizeCommunity
 	} from '$lib/community';
+	import {
+		fetchLiveQuote,
+		LIVE_QUOTE_POLL_MS,
+		type LiveQuote
+	} from '$lib/gmeLiveQuote';
 	import type { GmeBriefing, SparkPoint } from '$lib/types';
 
 	interface Props {
@@ -24,11 +30,21 @@
 
 	let { briefing }: Props = $props();
 
-	const quote = $derived(briefing.quote);
-	const up = $derived((quote?.change ?? 0) >= 0);
+	const snapshot = $derived(briefing.quote);
 	const stories = $derived(sortStoriesByWeight(briefing.stories));
 	const fmt = $derived(makeFormatters(briefing.timezone ?? 'Europe/Berlin'));
-	const asOf = $derived(toDate(quote?.asOf));
+	const snapshotAsOf = $derived(toDate(snapshot?.asOf));
+	const community = $derived(normalizeCommunity(briefing.community));
+	const cohen = $derived(briefing.cohen);
+	const showCommunity = $derived(Boolean(community) || Boolean(cohen));
+
+	let live = $state.raw<LiveQuote | null>(null);
+	let liveStatus = $state<'idle' | 'loading' | 'ok' | 'error'>('idle');
+
+	const display = $derived(live ?? snapshot);
+	const up = $derived((display?.change ?? 0) >= 0);
+	const liveAsOf = $derived(toDate(live?.fetchedAt));
+	const showingLive = $derived(live != null);
 
 	function sparkPath(points: SparkPoint[]): string {
 		if (!points?.length) return '';
@@ -49,9 +65,37 @@
 	}
 
 	const path = $derived(sparkPath(briefing.sparkline ?? []));
-	const community = $derived(normalizeCommunity(briefing.community));
-	const cohen = $derived(briefing.cohen);
-	const showCommunity = $derived(Boolean(community) || Boolean(cohen));
+
+	onMount(() => {
+		const symbol = snapshot?.symbol || 'GME';
+		let cancelled = false;
+		let timer: ReturnType<typeof setInterval> | undefined;
+		const controller = new AbortController();
+
+		async function poll() {
+			if (cancelled) return;
+			liveStatus = live ? 'ok' : 'loading';
+			try {
+				const next = await fetchLiveQuote(symbol, controller.signal);
+				if (cancelled) return;
+				live = next;
+				liveStatus = 'ok';
+			} catch {
+				if (cancelled) return;
+				// Soft-fail: keep snapshot price; never blank the desk.
+				liveStatus = live ? 'ok' : 'error';
+			}
+		}
+
+		void poll();
+		timer = setInterval(() => void poll(), LIVE_QUOTE_POLL_MS);
+
+		return () => {
+			cancelled = true;
+			controller.abort();
+			if (timer) clearInterval(timer);
+		};
+	});
 </script>
 
 <svelte:head>
@@ -72,25 +116,57 @@
 	<section class="hero" style="padding-bottom: 0.4rem;">
 		<div class="gme-quote">
 			<div class="gme-price">
-				{quote ? formatMoney(quote.price, quote.currency) : '—'}
+				{display ? formatMoney(display.price, display.currency) : '—'}
 			</div>
-			{#if quote}
+			{#if display}
 				<div class="gme-chg" class:up class:down={!up}>
-					{formatSigned(quote.change)} ({formatPct(quote.changePct)})
+					{formatSigned(display.change)} ({formatPct(display.changePct)})
 				</div>
 			{/if}
+			{#if showingLive}
+				<span class="quote-badge quote-badge--live">Polled</span>
+			{:else if liveStatus === 'loading'}
+				<span class="quote-badge">Refreshing…</span>
+			{:else}
+				<span class="quote-badge">As of briefing</span>
+			{/if}
 		</div>
-		<p class="gme-qmeta">
-			{briefing.headline}
-			{#if asOf}
-				· as of {fmt.dayTime(asOf)}
+
+		<p class="gme-qmeta">{briefing.headline}</p>
+
+		<div class="gme-quote-sources" aria-live="polite">
+			{#if live && liveAsOf}
+				<p class="quote-line quote-line--live">
+					<span class="quote-label">Live</span>
+					{formatMoney(live.price, live.currency)}
+					· delayed poll · {fmt.dayTime(liveAsOf)}
+					{#if safeHref(live.source.url)}
+						· <a href={safeHref(live.source.url)!} rel="noopener noreferrer" target="_blank"
+							>{live.source.label}</a
+						>
+					{/if}
+				</p>
+			{:else if liveStatus === 'error'}
+				<p class="quote-line quote-line--muted">
+					<span class="quote-label">Live</span>
+					unavailable — showing briefing snapshot
+				</p>
 			{/if}
-			{#if quote?.source?.url && safeHref(quote.source.url)}
-				· <a href={safeHref(quote.source.url)!} rel="noopener noreferrer" target="_blank"
-					>{quote.source.label}</a
-				>
+			{#if snapshot}
+				<p class="quote-line" class:quote-line--muted={showingLive}>
+					<span class="quote-label">As of briefing</span>
+					{formatMoney(snapshot.price, snapshot.currency)}
+					{#if snapshotAsOf}
+						· {fmt.dayTime(snapshotAsOf)}
+					{/if}
+					{#if snapshot.source?.url && safeHref(snapshot.source.url)}
+						· <a href={safeHref(snapshot.source.url)!} rel="noopener noreferrer" target="_blank"
+							>{snapshot.source.label}</a
+						>
+					{/if}
+				</p>
 			{/if}
-		</p>
+		</div>
 
 		{#if path}
 			<svg class="gme-spark" viewBox="0 0 300 72" preserveAspectRatio="none" aria-hidden="true">
@@ -244,6 +320,10 @@
 
 	<footer class="foot" style="margin-top:0;">
 		<p>{briefing.disclaimer || "Today's read from the news, not investment advice."}</p>
-		<p>Quote via Yahoo Finance, delayed. Desk page is self-contained — no tracking.</p>
+		<p>
+			Briefing quote via Yahoo Finance (snapshot). Live price is a delayed client-side poll of
+			TradingView's public scanner — not a websocket tick feed. Desk page is self-contained — no
+			tracking.
+		</p>
 	</footer>
 </main>
