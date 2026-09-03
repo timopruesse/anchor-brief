@@ -102,7 +102,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 5.5rem; }
 
 body {
   margin: 0;
@@ -271,6 +271,24 @@ a { color: inherit; }
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line-soft);
+}
+
+/* Phone: the topic chips wrapped to four rows, so the sticky bar ate ~28% of the
+   viewport. Keep them on one swipeable row and tuck content under a soft edge. */
+@media (max-width: 30rem) {
+  .chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.15rem;
+  }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; }
+  .controls {
+    padding-block: 0.7rem;
+    box-shadow: 0 10px 16px -14px rgba(0, 0, 0, 0.55);
+  }
 }
 .controls__inner { display: grid; gap: 0.7rem; }
 .chips {
