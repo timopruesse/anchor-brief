@@ -32,7 +32,7 @@
   color-scheme: dark;
 
   --bg:            #14110f;
-  --bg-veil:       rgba(20, 17, 15, 0.86);
+  --bg-veil:       rgba(20, 17, 15, 0.985);
   --surface:       #1b1714;
   --surface-2:     #221d19;
   --line:          #2e2822;
@@ -40,7 +40,7 @@
   --ink:           #f3ece4;
   --ink-2:         #cfc5b9;
   --ink-3:         #a1968a;
-  --ink-4:         #7d7267;
+  --ink-4:         #8f8478;
   --accent:        #e0a267;
   --accent-ink:    #1a1512;
   --accent-soft:   rgba(224, 162, 103, 0.13);
@@ -62,7 +62,7 @@
   color-scheme: light;
 
   --bg:            #f6f2ec;
-  --bg-veil:       rgba(246, 242, 236, 0.88);
+  --bg-veil:       rgba(246, 242, 236, 0.985);
   --surface:       #fffdf9;
   --surface-2:     #f1eae0;
   --line:          #e0d6c8;
@@ -83,7 +83,7 @@
   :root:not([data-theme="dark"]) {
     color-scheme: light;
     --bg:            #f6f2ec;
-    --bg-veil:       rgba(246, 242, 236, 0.88);
+    --bg-veil:       rgba(246, 242, 236, 0.985);
     --surface:       #fffdf9;
     --surface-2:     #f1eae0;
     --line:          #e0d6c8;
@@ -214,6 +214,12 @@ a { color: inherit; }
 .masthead__meta time,
 .masthead__meta .coverage { font-variant-numeric: tabular-nums; }
 
+/* At phone widths the edition pill takes its own line, which left the decorative
+   separator dangling after it. Drop the dots and tighten the row instead. */
+@media (max-width: 30rem) {
+  .masthead__meta { gap: 0.25rem 0.55rem; }
+  .masthead__meta .dot { display: none; }
+}
 /* ---- icon buttons ---- */
 .iconbtn {
   flex: none;
