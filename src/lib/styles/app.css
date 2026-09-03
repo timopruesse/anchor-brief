@@ -1168,13 +1168,124 @@ a {
 	margin: 0 0 0.8rem;
 }
 
-.community ul {
-	margin: 0;
-	padding-left: 1.1rem;
+.comm-summary {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.45rem 0.85rem;
+	margin: 0 0 0.85rem;
+	font-size: 0.88rem;
+	color: var(--ink-2);
 }
 
-.community li {
-	margin: 0.4rem 0;
+.comm-total {
+	font-weight: 600;
+	color: var(--ink);
+}
+
+.comm-meta {
+	color: var(--ink-4);
+	font-size: 0.8rem;
+}
+
+.comm-kinds {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem 0.65rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.comm-kinds li {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.3rem;
+	margin: 0;
+	font-size: 0.78rem;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--ink-3);
+}
+
+.comm-kinds .n {
+	font-variant-numeric: tabular-nums;
+	color: var(--ink-2);
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.comm-kinds [data-kind='dd'] .k {
+	color: var(--accent);
+}
+.comm-kinds [data-kind='daily'] .k {
+	color: #c48a4a;
+}
+.comm-kinds [data-kind='news'] .k {
+	color: #8a7460;
+}
+.comm-kinds [data-kind='junk'] .k {
+	color: #6a6158;
+}
+
+.comm-posts {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.comm-posts li {
+	margin: 0.55rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.25rem 0.45rem;
+}
+
+.kind-pill {
+	flex: 0 0 auto;
+	font-size: 0.62rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	padding: 0.12rem 0.4rem;
+	border-radius: 4px;
+	border: 1px solid var(--line);
+	color: var(--ink-3);
+	background: var(--surface-2);
+}
+
+.comm-posts [data-kind='dd'] .kind-pill {
+	color: var(--accent);
+	border-color: var(--accent-line);
+	background: var(--accent-soft);
+}
+.comm-posts [data-kind='daily'] .kind-pill {
+	color: #c48a4a;
+}
+.comm-posts [data-kind='news'] .kind-pill {
+	color: #8a7460;
+}
+
+.comm-posts a {
+	color: var(--accent);
+	text-decoration: none;
+}
+
+.comm-posts a:hover {
+	text-decoration: underline;
+}
+
+.comm-posts .meta {
+	color: var(--ink-4);
+	font-size: 0.8rem;
+}
+
+.comm-posts .outbound {
+	font-size: 0.72rem;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--ink-3);
 }
 
 .community a {

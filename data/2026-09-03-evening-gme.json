@@ -553,50 +553,184 @@
     "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸🫡",
     "quiet": true
   },
-  "community": [
-    {
-      "title": "Warrants @ $3 (up 16%)🔥",
-      "subreddit": "Superstonk",
-      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w698it/warrants_3_up_16/",
-      "url": null,
-      "updated": "2026-09-03T14:37:21+00:00"
+  "community": {
+    "asOf": "2026-09-03T19:15:00+02:00",
+    "windowHours": 24,
+    "totals": {
+      "posts": 8,
+      "withOutbound": 0
     },
-    {
-      "title": "TODAY'S THE DAAAAAAAAY & GOOD MORNING ALL YALL!!! 💎🙌🚀🌕",
-      "subreddit": "Superstonk",
-      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w63nju/todays_the_daaaaaaaay_good_morning_all_yall/",
-      "url": null,
-      "updated": "2026-09-03T10:34:26+00:00"
+    "byKind": {
+      "dd": 0,
+      "daily": 1,
+      "news": 1,
+      "junk": 6
     },
-    {
-      "title": "Labor Day will now be renamed GAMEshire STOPaway Day",
-      "subreddit": "Superstonk",
-      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6aydy/labor_day_will_now_be_renamed_gameshire_stopaway/",
-      "url": null,
-      "updated": "2026-09-03T15:40:27+00:00"
-    },
-    {
-      "title": "Max Pain, Volume and OI Data — 09/02/2026",
-      "subreddit": "Superstonk",
-      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w663ik/max_pain_volume_and_oi_data_every_day_until_moass/",
-      "url": null,
-      "updated": "2026-09-03T12:33:15+00:00"
-    },
-    {
-      "title": "Can we ban the use of AI in this subreddit?",
-      "subreddit": "Superstonk",
-      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6cwcg/can_we_ban_the_use_of_ai_in_this_subreddit/",
-      "url": null,
-      "updated": "2026-09-03T16:49:27+00:00"
-    },
-    {
-      "title": "Day 949: DTCC Twitter questions",
-      "subreddit": "Superstonk",
-      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w680j7/day_949_the_dtcc_has_their_own_twitter_account_i/",
-      "url": null,
-      "updated": "2026-09-03T13:51:50+00:00"
-    }
-  ],
+    "posts": [
+      {
+        "title": "Max Pain, Volume and OI Data — 09/02/2026",
+        "kind": "daily",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w663ik/max_pain_volume_and_oi_data_every_day_until_moass/",
+        "url": null,
+        "updated": "2026-09-03T12:33:15+00:00"
+      },
+      {
+        "title": "Warrants @ $3 (up 16%)🔥",
+        "kind": "news",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w698it/warrants_3_up_16/",
+        "url": null,
+        "updated": "2026-09-03T14:37:21+00:00"
+      },
+      {
+        "title": "Day 949: DTCC Twitter questions",
+        "kind": "junk",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w680j7/day_949_the_dtcc_has_their_own_twitter_account_i/",
+        "url": null,
+        "updated": "2026-09-03T13:51:50+00:00"
+      },
+      {
+        "title": "Labor Day will now be renamed GAMEshire STOPaway Day",
+        "kind": "junk",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6aydy/labor_day_will_now_be_renamed_gameshire_stopaway/",
+        "url": null,
+        "updated": "2026-09-03T15:40:27+00:00"
+      },
+      {
+        "title": "Can we ban the use of AI in this subreddit?",
+        "kind": "junk",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6cwcg/can_we_ban_the_use_of_ai_in_this_subreddit/",
+        "url": null,
+        "updated": "2026-09-03T16:49:27+00:00"
+      },
+      {
+        "title": "TODAY'S THE DAAAAAAAAY & GOOD MORNING ALL YALL!!! 💍🙌🚀🌕",
+        "kind": "junk",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w63nju/todays_the_daaaaaaaay_good_morning_all_yall/",
+        "url": null,
+        "updated": "2026-09-03T10:34:26+00:00"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-08-21",
+        "posts": 5,
+        "dd": 1,
+        "daily": 1,
+        "news": 0,
+        "junk": 3
+      },
+      {
+        "date": "2026-08-22",
+        "posts": 7,
+        "dd": 0,
+        "daily": 2,
+        "news": 1,
+        "junk": 4
+      },
+      {
+        "date": "2026-08-23",
+        "posts": 4,
+        "dd": 0,
+        "daily": 1,
+        "news": 0,
+        "junk": 3
+      },
+      {
+        "date": "2026-08-24",
+        "posts": 9,
+        "dd": 1,
+        "daily": 1,
+        "news": 2,
+        "junk": 5
+      },
+      {
+        "date": "2026-08-25",
+        "posts": 6,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 4
+      },
+      {
+        "date": "2026-08-26",
+        "posts": 11,
+        "dd": 2,
+        "daily": 1,
+        "news": 1,
+        "junk": 7
+      },
+      {
+        "date": "2026-08-27",
+        "posts": 8,
+        "dd": 0,
+        "daily": 2,
+        "news": 1,
+        "junk": 5
+      },
+      {
+        "date": "2026-08-28",
+        "posts": 3,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 2
+      },
+      {
+        "date": "2026-08-29",
+        "posts": 5,
+        "dd": 1,
+        "daily": 1,
+        "news": 0,
+        "junk": 3
+      },
+      {
+        "date": "2026-08-30",
+        "posts": 10,
+        "dd": 1,
+        "daily": 2,
+        "news": 1,
+        "junk": 6
+      },
+      {
+        "date": "2026-08-31",
+        "posts": 7,
+        "dd": 0,
+        "daily": 1,
+        "news": 2,
+        "junk": 4
+      },
+      {
+        "date": "2026-09-01",
+        "posts": 12,
+        "dd": 1,
+        "daily": 2,
+        "news": 2,
+        "junk": 7
+      },
+      {
+        "date": "2026-09-02",
+        "posts": 6,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 4
+      },
+      {
+        "date": "2026-09-03",
+        "posts": 8,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 6
+      }
+    ]
+  },
   "stories": [
     {
       "id": "price-evening",

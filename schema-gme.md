@@ -65,12 +65,37 @@ interface Cohen {
   quiet?: boolean | string;
 }
 
+type Kind = "dd" | "daily" | "news" | "junk";
+
 interface CommunityPost {
   title: string;
-  subreddit: string;
-  permalink: string;
-  url: string | null;
-  updated: string;
+  kind: Kind;
+  subreddit: string;          // Superstonk
+  permalink: string;          // reddit thread
+  url: string | null;         // outbound article only
+  updated: string;            // ISO
+}
+
+interface CommunityDay {
+  date: string;               // YYYY-MM-DD Berlin
+  posts: number;
+  dd: number;
+  daily: number;
+  news: number;
+  junk: number;
+}
+
+/**
+ * Community snapshot — breaking change from the former CommunityPost[] array.
+ * Publisher (Anchor) owns this shape; the site soft-handles missing/partial/legacy array forms.
+ */
+interface CommunitySnapshot {
+  asOf: string;
+  windowHours: number;
+  totals: { posts: number; withOutbound: number };
+  byKind: Record<Kind, number>;
+  posts: CommunityPost[];     // high-signal first; junk capped
+  history: CommunityDay[];    // rolling ~14 days — chart series
 }
 
 interface GmeBriefing {
@@ -87,10 +112,16 @@ interface GmeBriefing {
   quote: Quote;
   sparkline: SparkPoint[];
   cohen?: Cohen;
-  community?: CommunityPost[];
+  community?: CommunitySnapshot;
   stories: Story[];           // desk bullets only — not main-feed stories
 }
 ```
+
+## Community notes
+
+- `history` is the series for the Superstonk volume chart (stacked by kind over ~14 Berlin days).
+- `posts` is a curated list for the desk UI — high-signal first, junk capped — not necessarily every counted post.
+- Older editions may still ship `community` as a bare `CommunityPost[]` (without `kind`). The site normalizes that to a posts-only view and skips the chart when `history` is absent.
 
 ## Routes (GME)
 

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Masthead from './Masthead.svelte';
+	import CommunityChart from './CommunityChart.svelte';
 	import {
 		editionLabel,
 		formatMoney,
@@ -10,6 +11,11 @@
 		toDate,
 		makeFormatters
 	} from '$lib/format';
+	import {
+		COMMUNITY_KINDS,
+		COMMUNITY_KIND_LABELS,
+		normalizeCommunity
+	} from '$lib/community';
 	import type { GmeBriefing, SparkPoint } from '$lib/types';
 
 	interface Props {
@@ -43,8 +49,9 @@
 	}
 
 	const path = $derived(sparkPath(briefing.sparkline ?? []));
-	const community = $derived(briefing.community ?? []);
+	const community = $derived(normalizeCommunity(briefing.community));
 	const cohen = $derived(briefing.cohen);
+	const showCommunity = $derived(Boolean(community) || Boolean(cohen));
 </script>
 
 <svelte:head>
@@ -115,7 +122,10 @@
 					</ul>
 				{/if}
 				{#if story.whyItMatters}
-					<p class="why" style="border:0;background:transparent;padding:0;margin-top:0.7rem;color:var(--ink-3);font-size:0.9rem;">
+					<p
+						class="why"
+						style="border:0;background:transparent;padding:0;margin-top:0.7rem;color:var(--ink-3);font-size:0.9rem;"
+					>
 						{story.whyItMatters}
 					</p>
 				{/if}
@@ -144,33 +154,73 @@
 		{/each}
 	</section>
 
-	{#if community.length || cohen}
+	{#if showCommunity}
 		<section class="community">
 			<h2>Community — not reporting</h2>
 			<p class="note">
 				Superstonk and $GME chatter. Sentiment only. Nothing here is a fact until a filing or a
 				reporter says so.
 			</p>
-			{#if community.length}
-				<ul>
-					{#each community as post (post.permalink || post.title)}
-						<li>
-							{#if safeHref(post.permalink) || safeHref(post.url)}
-								<a
-									href={safeHref(post.permalink) ?? safeHref(post.url)!}
-									rel="noopener noreferrer"
-									target="_blank"
-								>
-									{post.title}
-								</a>
-							{:else}
-								{post.title}
+
+			{#if community}
+				{#if community.history.length}
+					<CommunityChart history={community.history} />
+				{/if}
+
+				{#if community.totals.posts > 0 || COMMUNITY_KINDS.some((k) => community.byKind[k] > 0)}
+					<div class="comm-summary" aria-label="Community totals">
+						<span class="comm-total"
+							>{community.totals.posts}
+							{community.totals.posts === 1 ? 'post' : 'posts'}
+							{#if community.windowHours > 0}
+								· {community.windowHours}h window
 							{/if}
-							<span style="color:var(--ink-4);font-size:0.8rem;"> · r/{post.subreddit}</span>
-						</li>
-					{/each}
-				</ul>
+						</span>
+						{#if community.totals.withOutbound > 0}
+							<span class="comm-meta">{community.totals.withOutbound} with outbound</span>
+						{/if}
+						<ul class="comm-kinds">
+							{#each COMMUNITY_KINDS as kind (kind)}
+								{#if community.byKind[kind] > 0}
+									<li data-kind={kind}>
+										<span class="k">{COMMUNITY_KIND_LABELS[kind]}</span>
+										<span class="n">{community.byKind[kind]}</span>
+									</li>
+								{/if}
+							{/each}
+						</ul>
+					</div>
+				{/if}
+
+				{#if community.posts.length}
+					<ul class="comm-posts">
+						{#each community.posts as post (post.permalink || post.title)}
+							<li data-kind={post.kind}>
+								<span class="kind-pill">{COMMUNITY_KIND_LABELS[post.kind]}</span>
+								{#if safeHref(post.permalink)}
+									<a href={safeHref(post.permalink)!} rel="noopener noreferrer" target="_blank">
+										{post.title}
+									</a>
+								{:else}
+									{post.title}
+								{/if}
+								<span class="meta"> · r/{post.subreddit}</span>
+								{#if safeHref(post.url)}
+									<a
+										class="outbound"
+										href={safeHref(post.url)!}
+										rel="noopener noreferrer"
+										target="_blank"
+									>
+										outbound
+									</a>
+								{/if}
+							</li>
+						{/each}
+					</ul>
+				{/if}
 			{/if}
+
 			{#if cohen}
 				<div class="cohen">
 					{#if cohen.quiet}
