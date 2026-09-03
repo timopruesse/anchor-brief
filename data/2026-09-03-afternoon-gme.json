@@ -1,0 +1,680 @@
+{
+  "id": "2026-09-03-afternoon-gme",
+  "parentId": "2026-09-03-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-03T18:49:13+02:00",
+  "timezone": "Europe/Berlin",
+  "headline": "GME holds $19.23 into today's convertible-note exchange close — 55.5m new shares, dilution now capped.",
+  "stance": "mixed",
+  "stanceWhy": "The stock is up on the day and at a one-month high into a deal that retires $1.4bn of convertibles, but 55.5 million new shares land and $358m cash walks out the door. That is a cleaner cap on dilution, not a free lunch.",
+  "disclaimer": "Today's read from the news, not investment advice.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 19.215,
+    "change": 0.245,
+    "changePct": 1.292,
+    "currency": "USD",
+    "dayHigh": 19.295,
+    "dayLow": 19,
+    "prevClose": 18.97,
+    "volume": 2528642,
+    "week52High": 28.1,
+    "week52Low": 17.79,
+    "asOf": "2026-09-03T16:47:24+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-03-03",
+      "c": 23.82
+    },
+    {
+      "t": "2026-03-04",
+      "c": 23.87
+    },
+    {
+      "t": "2026-03-05",
+      "c": 23.88
+    },
+    {
+      "t": "2026-03-06",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-09",
+      "c": 24.8
+    },
+    {
+      "t": "2026-03-10",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-11",
+      "c": 24.46
+    },
+    {
+      "t": "2026-03-12",
+      "c": 24.43
+    },
+    {
+      "t": "2026-03-13",
+      "c": 23.53
+    },
+    {
+      "t": "2026-03-16",
+      "c": 23.28
+    },
+    {
+      "t": "2026-03-17",
+      "c": 23.59
+    },
+    {
+      "t": "2026-03-18",
+      "c": 23.36
+    },
+    {
+      "t": "2026-03-19",
+      "c": 23.23
+    },
+    {
+      "t": "2026-03-20",
+      "c": 22.57
+    },
+    {
+      "t": "2026-03-23",
+      "c": 23.03
+    },
+    {
+      "t": "2026-03-24",
+      "c": 22.81
+    },
+    {
+      "t": "2026-03-25",
+      "c": 23.08
+    },
+    {
+      "t": "2026-03-26",
+      "c": 22.56
+    },
+    {
+      "t": "2026-03-27",
+      "c": 22.1
+    },
+    {
+      "t": "2026-03-30",
+      "c": 22.27
+    },
+    {
+      "t": "2026-03-31",
+      "c": 23.04
+    },
+    {
+      "t": "2026-04-01",
+      "c": 22.76
+    },
+    {
+      "t": "2026-04-02",
+      "c": 23.36
+    },
+    {
+      "t": "2026-04-06",
+      "c": 23.08
+    },
+    {
+      "t": "2026-04-07",
+      "c": 23.43
+    },
+    {
+      "t": "2026-04-08",
+      "c": 22.91
+    },
+    {
+      "t": "2026-04-09",
+      "c": 22.87
+    },
+    {
+      "t": "2026-04-10",
+      "c": 23.22
+    },
+    {
+      "t": "2026-04-13",
+      "c": 23.4
+    },
+    {
+      "t": "2026-04-14",
+      "c": 24.03
+    },
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.215
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "lastPostAt": "2026-07-04T16:29:35+00:00",
+    "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
+    "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February.",
+    "quiet": true
+  },
+  "stories": [
+    {
+      "id": "note-exchange-close",
+      "title": "Convertible-note exchange expected to close today",
+      "topics": [
+        "Company",
+        "Dilution"
+      ],
+      "facts": [
+        "About $1.4bn of 0% convertibles due 2030 and 2032 are being exchanged and cancelled.",
+        "Holders get about 55.5 million Class A shares (73%) and $358.4 million cash (27%), funded from cash on hand.",
+        "An August 31 amendment killed the remaining VWAP window, so no more shares can be issued on this deal.",
+        "After close, about $2.8bn of those convertibles stay outstanding.",
+        "This is a note exchange, not a private-equity deal — that claim circulating on X today is wrong."
+      ],
+      "whyItMatters": "Share count jumps by 55.5 million, but the issuance is now a known number instead of an open-ended VWAP print.",
+      "image": null,
+      "weight": "lead",
+      "sources": [
+        {
+          "label": "GameStop IR",
+          "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Announces-Amendment-to-Convertible-Notes-Exchange-Approximately-358-4-Million-to-be-Settled-in-Cash-in-Lieu-of-Stock/default.aspx",
+          "kind": "primary"
+        },
+        {
+          "label": "8-K via StockTitan",
+          "url": "https://www.stocktitan.net/sec-filings/GME/8-k-game-stop-corp-reports-material-event-c1e060086c1d.html",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "price-today",
+      "title": "Highest daily print since 10 August",
+      "topics": [
+        "Market"
+      ],
+      "facts": [
+        "Last 19.21 USD, +1.29% on the day.",
+        "Session range 19.00–19.30.",
+        "52-week range 17.79–28.10.",
+        "Volume about 2,528,642."
+      ],
+      "whyItMatters": "Price is firm into a known dilution event, not selling off ahead of it.",
+      "image": null,
+      "weight": "normal",
+      "sources": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "q2-prelim",
+      "title": "Q2 prelims: sales down, profit lifted by the eBay stake",
+      "topics": [
+        "Earnings"
+      ],
+      "facts": [
+        "Quarter ended 1 August: net sales $780–800m, vs $972.2m a year earlier.",
+        "The lap is Switch 2 launch, store closures and the France sale.",
+        "Operating income $150–170m; net income $290–310m, including about $238m from converting an eBay derivative into 43.4 million shares.",
+        "Cash and securities just over $5.0bn, down from $8.7bn.",
+        "Full results due 8 September."
+      ],
+      "whyItMatters": "The print is an investment-portfolio quarter more than a retail-recovery quarter. Superstonk is already pointing at 8–9 September.",
+      "image": null,
+      "weight": "normal",
+      "sources": [
+        {
+          "label": "8-K via StockTitan",
+          "url": "https://www.stocktitan.net/sec-filings/GME/8-k-game-stop-corp-reports-material-event-c1e060086c1d.html",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "cohen-quiet",
+      "title": "Ryan Cohen has been quiet since 4 July",
+      "topics": [
+        "X"
+      ],
+      "facts": [
+        "Last original post, 4 July: “Your Bell is safe. Your job is here when you get back. See you in February.”",
+        "No new Cohen post in this window. Today's $GME timeline is mostly greetings and memes.",
+        "Ignore the “PE deal closes today” posts — the close is the note exchange above."
+      ],
+      "image": null,
+      "weight": "brief",
+      "sources": [
+        {
+          "label": "Ryan Cohen on X",
+          "url": "https://x.com/ryancohen/status/2073444118538359104",
+          "kind": "x"
+        }
+      ]
+    }
+  ],
+  "community": [
+    {
+      "title": "Warrants @ $3 (up 16%)",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w698it/warrants_3_up_16/",
+      "url": null,
+      "updated": "2026-09-03T16:00:00+00:00"
+    },
+    {
+      "title": "TODAY'S THE DAAAAAAAAY & GOOD MORNING ALL YALL!!!",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w63nju/todays_the_daaaaaaaay_good_morning_all_yall/",
+      "url": null,
+      "updated": "2026-09-03T15:00:00+00:00"
+    },
+    {
+      "title": "WHY THE FUCK IS NOBODY TALKING ABOUT 9/8-9/9",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w613fs/why_the_fuck_is_nobody_talking_about_9899/",
+      "url": null,
+      "updated": "2026-09-03T14:30:00+00:00"
+    }
+  ],
+  "coverage": "last ~12 hours"
+}
