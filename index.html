@@ -172,9 +172,25 @@ a { color: inherit; }
   background: var(--bg);
 }
 .masthead__row {
-  display: flex; align-items: flex-start; justify-content: space-between;
+  display: flex; align-items: center; justify-content: space-between;
   gap: 1rem;
 }
+.desk-link {
+  align-self: center;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+  border: 1px solid var(--accent-line);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.22rem 0.62rem;
+}
+.desk-link:hover { text-decoration: none; filter: brightness(1.08); }
+.masthead__row { align-items: center; }
+
 .brand {
   display: flex; align-items: baseline; gap: 0.6rem;
   min-width: 0;
@@ -652,6 +668,7 @@ a { color: inherit; }
         <span class="brand__mark" aria-hidden="true"></span>
         <span class="brand__name">Anchor&nbsp;Brief</span>
       </div>
+      <a class="desk-link" id="gme-link" href="./gme.html">GME desk</a>
       <button type="button" class="iconbtn" id="theme-toggle" aria-pressed="false">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true" id="theme-icon">
           <circle cx="12" cy="12" r="4.2"></circle>
@@ -1355,6 +1372,12 @@ a { color: inherit; }
   $('foot-sources').textContent = sourceCount + (sourceCount === 1 ? ' source' : ' sources');
 
   /* ---------------- theme ---------------- */
+
+
+  var gmeLink = $('gme-link');
+  if (gmeLink) {
+    gmeLink.href = /\/archive\//.test(location.pathname) ? './' + data.id + '-gme.html' : './gme.html';
+  }
 
   var themeToggle = $('theme-toggle');
   var themeLabel = $('theme-label');
