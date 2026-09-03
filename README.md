@@ -26,11 +26,11 @@ BASE_PATH= npm run build && BASE_PATH= npm run preview
 ## Publishing workflow (for Anchor)
 
 1. **Write JSON only** — stop generating `index.html` / `gme.html` / `archive/*.html`.
-2. Drop each edition at `data/<id>.json` where `<id>` matches the JSON `id` field.
-   - Main: `data/2026-09-03-evening.json`
-   - GME desk: `data/2026-09-03-evening-gme.json` (`id` ends with `-gme`, include `parentId`)
+2. Drop each edition under `data/`:
+   - Main (`schema.md`): `data/2026-09-03-evening.json`
+   - GME (`schema-gme.md`): `data/2026-09-03-evening-gme.json` (`id` ends with `-gme`, include `parentId`)
 3. Commit and push to `main`. The [Deploy GitHub Pages](.github/workflows/deploy.yml) workflow rebuilds the site.
-4. See [schema.md](./schema.md) for the full contract.
+4. **Do not** fold GME JSON into the main feed — `/` and archive story search use main editions only; `/gme` uses the GME schema/UI.
 
 Do **not** delete or overwrite unrelated files in `data/` — other editions (and in-flight publishes) live there.
 
@@ -38,10 +38,10 @@ Do **not** delete or overwrite unrelated files in `data/` — other editions (an
 
 | Path | Content |
 |------|---------|
-| `/` | Latest main briefing |
-| `/gme` | Latest GME desk |
-| `/archive` | Edition list + **cross-day** search & topic filters |
-| `/brief/[id]` | Single edition (main or GME) |
+| `/` | Latest **main** briefing |
+| `/gme` | Latest **GME** desk (separate schema) |
+| `/archive` | Main edition list + cross-day search over **main** stories |
+| `/brief/[id]` | Single edition (main or GME renderer by id) |
 
 ## Coexistence with legacy HTML
 

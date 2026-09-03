@@ -80,15 +80,15 @@ export function getEditionSummaries(): EditionSummary[] {
 }
 
 export function getIndexedStories(): IndexedStory[] {
+	/** Main-desk stories only — GME must not enter cross-day main search. */
 	const rows: IndexedStory[] = [];
-	for (const b of getAllBriefings()) {
-		const desk = isGmeBriefing(b) ? 'gme' : 'main';
+	for (const b of getMainBriefings()) {
 		for (const story of b.stories) {
 			rows.push({
 				editionId: b.id,
 				edition: b.edition,
 				generatedAt: b.generatedAt,
-				desk,
+				desk: 'main',
 				headline: b.headline,
 				story
 			});

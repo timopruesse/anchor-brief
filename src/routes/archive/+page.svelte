@@ -24,7 +24,11 @@
 	</p>
 </div>
 
-<ArchiveView editions={data.editions} indexed={data.indexed} />
+<ArchiveView
+	editions={data.editions}
+	gmeEditions={data.gmeEditions}
+	indexed={data.indexed}
+/>
 
 <footer class="foot">
 	<div class="wrap">

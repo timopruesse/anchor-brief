@@ -6,21 +6,25 @@
 	import type { EditionSummary, IndexedStory } from '$lib/types';
 
 	interface Props {
+		/** Main-desk edition summaries only (for the archive list). */
 		editions: EditionSummary[];
+		/** GME siblings keyed for archive cards — never mixed into story search. */
+		gmeEditions: EditionSummary[];
+		/** Main-desk stories only for cross-day search/filters. */
 		indexed: IndexedStory[];
 	}
 
-	let { editions, indexed }: Props = $props();
+	let { editions, gmeEditions, indexed }: Props = $props();
 
 	let activeTopic = $state<string | null>(null);
 	let query = $state('');
-	let deskFilter = $state<'all' | 'main' | 'gme'>('all');
 
 	const mainEditions = $derived(editions.filter((e) => e.desk === 'main'));
+
 	const gmeByParent = $derived.by(() => {
 		const map = new Map<string, EditionSummary>();
-		for (const e of editions) {
-			if (e.desk === 'gme' && e.parentId) map.set(e.parentId, e);
+		for (const e of gmeEditions) {
+			if (e.parentId) map.set(e.parentId, e);
 		}
 		return map;
 	});
@@ -28,7 +32,6 @@
 	const topicCounts = $derived.by(() => {
 		const map = new Map<string, number>();
 		for (const row of indexed) {
-			if (deskFilter !== 'all' && row.desk !== deskFilter) continue;
 			for (const t of row.story.topics ?? []) map.set(t, (map.get(t) ?? 0) + 1);
 		}
 		return [...map.entries()]
@@ -39,7 +42,6 @@
 	const filtered = $derived.by(() => {
 		const q = fold(query.trim());
 		return indexed.filter((row) => {
-			if (deskFilter !== 'all' && row.desk !== deskFilter) return false;
 			if (activeTopic && !(row.story.topics ?? []).includes(activeTopic)) return false;
 			if (!q) return true;
 			const hay = fold(
@@ -56,21 +58,22 @@
 		});
 	});
 
-	const searching = $derived(Boolean(activeTopic || query.trim() || deskFilter !== 'all'));
+	const searching = $derived(Boolean(activeTopic || query.trim()));
 
 	const statusText = $derived.by(() => {
 		if (!searching) {
-			return `${indexed.length} stories across ${mainEditions.length} briefings — search to filter across days`;
+			return `${indexed.length} main-desk stories across ${mainEditions.length} briefings — search to filter across days`;
 		}
-		return `Showing ${filtered.length} stor${filtered.length === 1 ? 'y' : 'ies'} across editions`;
+		return `Showing ${filtered.length} stor${filtered.length === 1 ? 'y' : 'ies'} across main editions`;
 	});
 </script>
 
 <section class="page-intro wrap">
 	<h1>Archive</h1>
 	<p>
-		Browse past editions, or search and filter stories across every day. Topic chips and search
-		combine results from all published JSON briefings.
+		Browse past main editions, or search and filter <strong>main-desk</strong> stories across days.
+		GME desk editions stay on their own schema and pages — linked from each card, not mixed into this
+		feed.
 	</p>
 </section>
 
@@ -79,45 +82,21 @@
 	{activeTopic}
 	{query}
 	{statusText}
-	searchPlaceholder="Search across all editions…"
+	searchPlaceholder="Search main editions across days…"
 	onTopic={(t) => (activeTopic = t)}
 	onQuery={(q) => (query = q)}
 	onReset={() => {
 		activeTopic = null;
 		query = '';
-		deskFilter = 'all';
 	}}
 />
-
-<div class="wrap" style="padding-top:0.85rem;">
-	<div class="chips" role="group" aria-label="Desk filter">
-		<button
-			type="button"
-			class="chip"
-			aria-pressed={deskFilter === 'all'}
-			onclick={() => (deskFilter = 'all')}>All desks</button
-		>
-		<button
-			type="button"
-			class="chip"
-			aria-pressed={deskFilter === 'main'}
-			onclick={() => (deskFilter = deskFilter === 'main' ? 'all' : 'main')}>Main</button
-		>
-		<button
-			type="button"
-			class="chip"
-			aria-pressed={deskFilter === 'gme'}
-			onclick={() => (deskFilter = deskFilter === 'gme' ? 'all' : 'gme')}>GME</button
-		>
-	</div>
-</div>
 
 {#if searching}
 	<section class="wrap cross-results" aria-label="Cross-day results">
 		{#if filtered.length}
 			<div class="stories" id="stories">
 				{#each filtered as row (`${row.editionId}:${row.story.id}`)}
-					{@const edLabel = `${editionLabel(row.edition)}${row.desk === 'gme' ? ' · GME' : ''}`}
+					{@const edLabel = editionLabel(row.edition)}
 					<StoryCard
 						story={row.story}
 						query={query.trim()}
@@ -130,14 +109,13 @@
 		{:else}
 			<div class="empty">
 				<p class="empty__title">Nothing matches</p>
-				<p class="empty__body">No story across editions matches the current filters.</p>
+				<p class="empty__body">No main-desk story matches the current filters.</p>
 				<button
 					type="button"
 					class="iconbtn"
 					onclick={() => {
 						activeTopic = null;
 						query = '';
-						deskFilter = 'all';
 					}}
 				>
 					Clear filters
@@ -168,5 +146,8 @@
 				</li>
 			{/each}
 		</ul>
+		{#if gmeEditions.length && !mainEditions.length}
+			<p class="empty__body">No main editions yet. GME desks live at <a href={resolve('/gme')}>/gme</a>.</p>
+		{/if}
 	</section>
 {/if}
