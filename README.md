@@ -43,6 +43,12 @@ Do **not** delete or overwrite unrelated files in `data/` — other editions (an
 | `/archive` | Main edition list + cross-day search over **main** stories |
 | `/brief/[id]` | Single edition (main or GME renderer by id) |
 
+## GME live quote (client-side)
+
+The `/gme` desk always renders the briefing JSON snapshot first. After load, the browser polls TradingView’s public America scanner (`POST /america/scan` with a `text/plain` JSON body) for a more current delayed price. Yahoo Finance is **not** used from the browser — those endpoints lack usable CORS (and often 429).
+
+If the poll is blocked or fails, the snapshot quote stays on screen (soft fail). This is a delayed poll, not a websocket tick feed.
+
 ## Stack
 
 - SvelteKit 2 + Svelte 5 + TypeScript
