@@ -75,12 +75,42 @@ export interface Cohen {
 	quiet?: boolean | string;
 }
 
+/** Superstonk / community post classification. */
+export type CommunityKind = 'dd' | 'daily' | 'news' | 'junk';
+
 export interface CommunityPost {
 	title: string;
+	kind: CommunityKind;
 	subreddit: string;
 	permalink: string;
+	/** Outbound article URL only — null for Reddit-native threads. */
 	url: string | null;
 	updated: string;
+}
+
+/** One Berlin calendar day of community volume. */
+export interface CommunityDay {
+	date: string; // YYYY-MM-DD Berlin
+	posts: number;
+	dd: number;
+	daily: number;
+	news: number;
+	junk: number;
+}
+
+/**
+ * Community snapshot on a GME desk edition.
+ * Breaking change: was `CommunityPost[]`; now a single object with history for charts.
+ */
+export interface CommunitySnapshot {
+	asOf: string;
+	windowHours: number;
+	totals: { posts: number; withOutbound: number };
+	byKind: Record<CommunityKind, number>;
+	/** High-signal first; junk capped. */
+	posts: CommunityPost[];
+	/** Rolling ~14 days — chart series. */
+	history: CommunityDay[];
 }
 
 export interface GmeBriefing {
@@ -97,7 +127,8 @@ export interface GmeBriefing {
 	quote: Quote;
 	sparkline: SparkPoint[];
 	cohen?: Cohen;
-	community?: CommunityPost[];
+	/** Prefer CommunitySnapshot. Legacy editions may still ship a bare posts array — soft-handled at render. */
+	community?: CommunitySnapshot | CommunityPost[];
 	stories: Story[];
 }
 
