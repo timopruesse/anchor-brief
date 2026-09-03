@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="dark light" />
+		<script>
+			/* Theme boot: runs before paint so there is no flash of the wrong theme. */
+			(function () {
+				try {
+					var stored = localStorage.getItem('anchor-brief:theme');
+					if (stored === 'dark' || stored === 'light') {
+						document.documentElement.setAttribute('data-theme', stored);
+						return;
+					}
+				} catch (e) {
+					/* private mode */
+				}
+				var light =
+					window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+				document.documentElement.setAttribute('data-theme', light ? 'light' : 'dark');
+			})();
+		</script>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

@@ -1,0 +1,678 @@
+{
+  "id": "2026-09-03-evening-gme",
+  "parentId": "2026-09-03-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-03T19:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "headline": "GME closes the session near $19.20 (+1.2%) — warrants chatter, Cohen still quiet.",
+  "stance": "mixed",
+  "stanceWhy": "Price finished the day green near a one-month high while Superstonk fixates on warrants and calendar hype. No new company news and Ryan Cohen is still silent since 4 July — sentiment is loud, fundamentals aren't.",
+  "disclaimer": "Today's read from the news, not investment advice.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 19.198,
+    "change": 0.228,
+    "changePct": 1.202,
+    "currency": "USD",
+    "dayHigh": 19.295,
+    "dayLow": 19,
+    "prevClose": 18.97,
+    "volume": 2600245,
+    "week52High": 28.1,
+    "week52Low": 17.79,
+    "asOf": "2026-09-03T17:01:25+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-03-03",
+      "c": 23.82
+    },
+    {
+      "t": "2026-03-04",
+      "c": 23.87
+    },
+    {
+      "t": "2026-03-05",
+      "c": 23.88
+    },
+    {
+      "t": "2026-03-06",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-09",
+      "c": 24.8
+    },
+    {
+      "t": "2026-03-10",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-11",
+      "c": 24.46
+    },
+    {
+      "t": "2026-03-12",
+      "c": 24.43
+    },
+    {
+      "t": "2026-03-13",
+      "c": 23.53
+    },
+    {
+      "t": "2026-03-16",
+      "c": 23.28
+    },
+    {
+      "t": "2026-03-17",
+      "c": 23.59
+    },
+    {
+      "t": "2026-03-18",
+      "c": 23.36
+    },
+    {
+      "t": "2026-03-19",
+      "c": 23.23
+    },
+    {
+      "t": "2026-03-20",
+      "c": 22.57
+    },
+    {
+      "t": "2026-03-23",
+      "c": 23.03
+    },
+    {
+      "t": "2026-03-24",
+      "c": 22.81
+    },
+    {
+      "t": "2026-03-25",
+      "c": 23.08
+    },
+    {
+      "t": "2026-03-26",
+      "c": 22.56
+    },
+    {
+      "t": "2026-03-27",
+      "c": 22.1
+    },
+    {
+      "t": "2026-03-30",
+      "c": 22.27
+    },
+    {
+      "t": "2026-03-31",
+      "c": 23.04
+    },
+    {
+      "t": "2026-04-01",
+      "c": 22.76
+    },
+    {
+      "t": "2026-04-02",
+      "c": 23.36
+    },
+    {
+      "t": "2026-04-06",
+      "c": 23.08
+    },
+    {
+      "t": "2026-04-07",
+      "c": 23.43
+    },
+    {
+      "t": "2026-04-08",
+      "c": 22.91
+    },
+    {
+      "t": "2026-04-09",
+      "c": 22.87
+    },
+    {
+      "t": "2026-04-10",
+      "c": 23.22
+    },
+    {
+      "t": "2026-04-13",
+      "c": 23.4
+    },
+    {
+      "t": "2026-04-14",
+      "c": 24.03
+    },
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.1981
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "lastPostAt": "2026-07-04T16:29:35+00:00",
+    "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
+    "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸🫡",
+    "quiet": true
+  },
+  "community": [
+    {
+      "title": "Warrants @ $3 (up 16%)🔥",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w698it/warrants_3_up_16/",
+      "url": null,
+      "updated": "2026-09-03T14:37:21+00:00"
+    },
+    {
+      "title": "TODAY'S THE DAAAAAAAAY & GOOD MORNING ALL YALL!!! 💎🙌🚀🌕",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w63nju/todays_the_daaaaaaaay_good_morning_all_yall/",
+      "url": null,
+      "updated": "2026-09-03T10:34:26+00:00"
+    },
+    {
+      "title": "Labor Day will now be renamed GAMEshire STOPaway Day",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6aydy/labor_day_will_now_be_renamed_gameshire_stopaway/",
+      "url": null,
+      "updated": "2026-09-03T15:40:27+00:00"
+    },
+    {
+      "title": "Max Pain, Volume and OI Data — 09/02/2026",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w663ik/max_pain_volume_and_oi_data_every_day_until_moass/",
+      "url": null,
+      "updated": "2026-09-03T12:33:15+00:00"
+    },
+    {
+      "title": "Can we ban the use of AI in this subreddit?",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6cwcg/can_we_ban_the_use_of_ai_in_this_subreddit/",
+      "url": null,
+      "updated": "2026-09-03T16:49:27+00:00"
+    },
+    {
+      "title": "Day 949: DTCC Twitter questions",
+      "subreddit": "Superstonk",
+      "permalink": "https://www.reddit.com/r/Superstonk/comments/1w680j7/day_949_the_dtcc_has_their_own_twitter_account_i/",
+      "url": null,
+      "updated": "2026-09-03T13:51:50+00:00"
+    }
+  ],
+  "stories": [
+    {
+      "id": "price-evening",
+      "title": "Session finish near $19.20",
+      "topics": [
+        "GME"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Last: $19.198 (+0.228 / +1.20%)",
+        "Day range $19.0–$19.295; prev close $18.97",
+        "Volume 2,600,245; 52-week $17.79–$28.1",
+        "Quote as of 2026-09-03T17:01:25+00:00 via Yahoo Finance"
+      ],
+      "whyItMatters": "A quiet green close after the convertible-note exchange day — not a blow-off, not a dump.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary",
+          "time": "2026-09-03T17:01:25+00:00"
+        }
+      ]
+    },
+    {
+      "id": "warrants-chatter",
+      "title": "Community: warrants and calendar noise",
+      "topics": [
+        "Community"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Superstonk: warrants posted around $3 / +16% in one thread",
+        "Morning hype posts framed today as 'the day'; Labor Day rename jokes followed",
+        "Also: DTCC daily Q&A streak, AI-ban meta thread — classic board mix"
+      ],
+      "whyItMatters": "Sentiment, not reporting — treat as temperature, not thesis.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Superstonk (warrants)",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1w698it/warrants_3_up_16/",
+          "kind": "article",
+          "time": "2026-09-03T16:37:21+02:00"
+        },
+        {
+          "label": "Superstonk (morning hype)",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1w63nju/todays_the_daaaaaaaay_good_morning_all_yall/",
+          "kind": "article",
+          "time": "2026-09-03T12:34:26+02:00"
+        }
+      ]
+    },
+    {
+      "id": "cohen-still-quiet",
+      "title": "Ryan Cohen still quiet since 4 July",
+      "topics": [
+        "GME"
+      ],
+      "weight": "brief",
+      "facts": [
+        "Last original post 4 Jul 2026: 'Your Bell is safe… See you in February'",
+        "No new posts in the evening window; X fetch confirms quiet=true"
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Ryan Cohen on X",
+          "url": "https://x.com/ryancohen/status/2073444118538359104",
+          "kind": "x",
+          "time": "2026-07-04T18:29:35+02:00"
+        }
+      ]
+    }
+  ],
+  "coverage": "session + community window"
+}

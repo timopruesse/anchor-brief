@@ -1,0 +1,335 @@
+{
+  "id": "2026-09-03-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-03T19:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning / last ~12 hours",
+  "headline": "Germany's hybrid-threat ledger fills up, Audacity ships a Qt rebuild, and BepiColombo drops its transfer module at Mercury.",
+  "gmeHref": "./2026-09-03-evening-gme.html",
+  "stories": [
+    {
+      "id": "bka-sabotage-lagebild",
+      "title": "BKA counts 165 sabotage suspects this year",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Confidential BKA Lagebild (to end-Aug): 165+ sabotage-suspicion cases nationwide",
+        "24 espionage probes opened this year, 12 of them cyber-espionage; 40 more under review",
+        "Police logged 112 espionage-related offences; 60+ were illegal filming of military/defence sites",
+        "747 drone incidents, 1,068 drones over critical infra, military sites and arms firms",
+        "Recent grid attacks: improvised rockets with copper wire at Jänschwalde (BB) and Bergheim (NRW); terror/verfassungsfeindliche Sabotage probes",
+        "July: Moldovan arrested in Bavaria after drone recon of KNDS; investigators suspect Russian state tasking"
+      ],
+      "whyItMatters": "The hybrid-defence centre's own ledger now puts numbers on a threat Germany has been talking about in headlines — grid, drones, and spying in one package.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau (NDR/WDR/SZ)",
+          "url": "https://www.tagesschau.de/investigativ/ndr-wdr/bka-lagebericht-sabotage-100.html",
+          "kind": "article",
+          "time": "2026-09-03T16:00:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2095551593047523437",
+          "kind": "x",
+          "time": "2026-09-03T16:36:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "audacity-4",
+      "title": "Audacity 4 rebuilds on Qt",
+      "topics": [
+        "Tech",
+        "Open source"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Audacity 4.0 released: UI rebuilt on Qt with native high-DPI",
+        "New clip model: multi-select, groups, freer mono/stereo moves; dedicated split tool (S)",
+        "Workspaces (Modern/Classic/Music), themes, Home screen with project thumbnails",
+        "New .aup4 format; .aup3 opens and converts one-way",
+        "Gone for now: Time Tracks, Note/MIDI, Mixer, Macro Manager, VAMP/LADSPA, play-at-speed",
+        "Windows builds gain ASIO; VST3/Nyquist/LV2/AU plugin path kept"
+      ],
+      "whyItMatters": "The default open-source audio editor just took its biggest interface break in years — expect muscle-memory pain and a flood of 3.x holdouts.",
+      "image": {
+        "url": "https://opengraph.githubassets.com/bda56dd5fb280eb5e9f6e49e854d8cc7fd1ced9647d8f5a85966c6196bd079c1/audacity/audacity/releases/tag/Audacity-4.0.0",
+        "alt": "Audacity 4.0 Audacity 4 rebuilds the application interface on Qt and introduces many new quality-of-life improvements, including a new clip-editing model. Most Audacity 3 workflows remain available...",
+        "credit": "Audacity 4.0 release",
+        "creditUrl": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0"
+      },
+      "sources": [
+        {
+          "label": "Audacity 4.0 release",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+          "kind": "primary",
+          "time": "2026-09-03T12:19:48+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49548395",
+          "kind": "article",
+          "time": "2026-09-03T12:53:08+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bepicolombo-mtm-separation",
+      "title": "BepiColombo sheds its transfer module at Mercury",
+      "topics": [
+        "Space"
+      ],
+      "weight": "normal",
+      "facts": [
+        "ESA confirmed MTM separation today: signal acquired via Cebreros and Malargüe (~15:52 CEST)",
+        "Telemetry nominal; MPO solar panels charging the stack",
+        "After ~8 years and >200 million km, ESA MPO + JAXA Mio now head to Mercury orbit",
+        "Orbit insertion planned 21 Nov 2026; MPO/Mio separate 9–10 Dec; science phase April 2027"
+      ],
+      "whyItMatters": "Europe and Japan are finally turning the cruise into an orbital mission at the Solar System's hardest inner planet.",
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/03/mercury_transfer_module_separation3/17405480-1-eng-GB/Mercury_Transfer_Module_separation_pillars.jpg",
+        "alt": "Mercury Transfer Module separation",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+      },
+      "sources": [
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
+          "kind": "primary",
+          "time": "2026-09-03T15:52:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "polars-2-rc",
+      "title": "Polars 2.0 RC makes streaming the default",
+      "topics": [
+        "Tech",
+        "Dev"
+      ],
+      "weight": "normal",
+      "facts": [
+        "First Polars 2.0 release candidate; final 2.0 due in coming weeks",
+        "LazyFrame.collect now defaults to the streaming engine (claimed ~5× aggregate speedups)",
+        "Row order no longer guaranteed for join/group_by/unpivot unless maintain_order is set",
+        "Stricter is_in and horizontal concat; many silent casts removed",
+        "Install: pip install polars==2.0rc1; migration guide published"
+      ],
+      "whyItMatters": "A major-version bump that is mostly about safer defaults and memory — data pipelines will need order and cast audits.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Polars blog",
+          "url": "https://pola.rs/posts/announcing-polars-2/",
+          "kind": "primary",
+          "time": "2026-09-02T00:00:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49546753",
+          "kind": "article",
+          "time": "2026-09-03T08:59:08+02:00"
+        }
+      ]
+    },
+    {
+      "id": "de-datacenter-gewerbesteuer",
+      "title": "Berlin rewires Gewerbesteuer for data centres",
+      "topics": [
+        "Germany",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Cabinet draft for Einkommensteuerreformgesetz 2027 changes trade-tax splitting for pure data-centre operators",
+        "~90% of Gewerbesteuer would stick at the server-farm site (via non-redundant electrical capacity), only ~10% by wages",
+        "Today's wage-heavy formula leaves host towns with infrastructure costs and little tax",
+        "Rule starts Erhebungszeitraum 2027; framed as fulfilling the federal data-centre strategy and damping local protests"
+      ],
+      "whyItMatters": "Germany is trying to buy local acceptance for AI power plants with tax cash, not just zoning papers.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Steuer-Coup-gegen-Buergerproteste-Milliarden-Umschichtung-fuer-Rechenzentren-11440618.html",
+          "kind": "article",
+          "time": "2026-09-03T18:14:00+02:00"
+        },
+        {
+          "label": "Washington Post on X (US polling)",
+          "url": "https://x.com/washingtonpost/status/2095557512271458599",
+          "kind": "x",
+          "time": "2026-09-03T19:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-voice-workspace",
+      "title": "Gemini voice reaches Gmail, Docs and Keep",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Sundar Pichai: new Gemini voice can search Gmail, organize Keep, and create Docs conversationally",
+        "GoogleAI also launched WeatherNext 3, rolling into Search, Gemini, Maps and Earth Engine",
+        "Workspace voice features (Gmail Live / Docs Live / Keep) have been staged for AI Pro/Ultra and business tiers"
+      ],
+      "whyItMatters": "Google is pushing voice as the Workspace front door the same day its weather model lands in consumer surfaces.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Sundar Pichai on X",
+          "url": "https://x.com/sundarpichai/status/2095552297099198689",
+          "kind": "x",
+          "time": "2026-09-03T18:39:00+02:00"
+        },
+        {
+          "label": "Google AI on X (WeatherNext 3)",
+          "url": "https://x.com/GoogleAI/status/2095544944190788064",
+          "kind": "x",
+          "time": "2026-09-03T18:10:00+02:00"
+        },
+        {
+          "label": "TechCrunch on X",
+          "url": "https://x.com/TechCrunch/status/2095543616638697661",
+          "kind": "x",
+          "time": "2026-09-03T18:05:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "cursor-vercel-sandbox",
+      "title": "Cursor Cloud Agents can run in Vercel Sandbox",
+      "topics": [
+        "Dev",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Cursor Cloud Agents can execute in Vercel Sandbox instead of Cursor-hosted machines",
+        "Cursor keeps the harness/inference loop; Self-Hosted Machines APIs need Cursor Enterprise",
+        "Each agent request gets an isolated Firecracker microVM; Functions + Workflow claim/cleanup workers",
+        "Pitch: scale-to-zero pool, durable retries, short-lived user-scoped credentials"
+      ],
+      "whyItMatters": "Agent runtimes are becoming a cloud product surface — useful if you already live on Vercel and want isolation without owning VMs.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+          "kind": "primary",
+          "time": "2026-09-03T17:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "name-tld-termination",
+      "title": "ICANN greenlights killing .name third-levels",
+      "topics": [
+        "Tech",
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        "Verisign proposed ending the entire 3rd-level .name hierarchy (Apr); ICANN approved 28 Jul",
+        "Neil Fraser: neil.fraser.name (paid to 2040) vanishes in February; ~22,000 registrants affected",
+        "Risk: vacant 2nd-levels re-registered, then old emails/IoT auth hijacked"
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Neil Fraser",
+          "url": "https://neil.fraser.name/news/2026/09/03/",
+          "kind": "primary",
+          "time": "2026-09-03T00:00:00+02:00"
+        },
+        {
+          "label": "Lobsters",
+          "url": "https://lobste.rs/s/6tsncg/name_termination",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "ai-outages-resolved",
+      "title": "ChatGPT/Claude/Grok outage marked resolved",
+      "topics": [
+        "AI"
+      ],
+      "weight": "brief",
+      "facts": [
+        "OpenAI status: elevated ChatGPT/Codex errors resolved (monitoring from ~11:17 PT, resolved ~12:55 PT)",
+        "Anthropic and xAI also posted elevated-error incidents earlier; Gemini had no official outage",
+        "9to5Google: Cursor reported impact from Claude/Grok; Azure outage reports spiked in parallel (causation unconfirmed)"
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M1KWEDH417T2CF44YYHZDFCR",
+          "kind": "primary",
+          "time": "2026-09-03T21:55:00+02:00"
+        },
+        {
+          "label": "Anthropic Status",
+          "url": "https://status.claude.com/incidents/461yvfrzpwtt",
+          "kind": "primary",
+          "time": "2026-09-03T18:23:12+02:00"
+        },
+        {
+          "label": "9to5Google",
+          "url": "https://9to5google.com/2026/09/03/chatgpt-claude-grok-outages/",
+          "kind": "article",
+          "time": "2026-09-03T17:07:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "also-evening",
+      "title": "Also this evening",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        "ISRO GSLV Mk II / GISAT-1A (EOS-05) NET ~23:25 CEST tonight from Satish Dhawan",
+        "heise: Lego announces first PlayStation set (\"Playsi\")",
+        "Svelte 5.57.0 shipped (RenderOutput exports, createContext.has, select defaultValue) — only notable dep release in the last week",
+        "Reddit germany/world/hardware/space/energy groups 429'd this run; used Atom tips from AI/dev/photo only"
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Launch Library (GISAT-1A)",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/",
+          "kind": "primary",
+          "time": "2026-09-03T21:25:00+00:00"
+        },
+        {
+          "label": "heise (Lego Playsi)",
+          "url": "https://www.heise.de/news/Playsi-zum-Zusammenbauen-Lego-kuendigt-die-erste-Playstation-als-Set-an-11440580.html",
+          "kind": "article",
+          "time": "2026-09-03T18:47:00+02:00"
+        },
+        {
+          "label": "Svelte 5.57.0",
+          "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.0",
+          "kind": "primary",
+          "time": "2026-08-29T01:31:40+02:00"
+        }
+      ]
+    }
+  ]
+}
