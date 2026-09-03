@@ -25,7 +25,7 @@ BASE_PATH= npm run build && BASE_PATH= npm run preview
 
 ## Publishing workflow (for Anchor)
 
-1. **Write JSON only** — stop generating `index.html` / `gme.html` / `archive/*.html`.
+1. **Write JSON only** — the site is built from `data/*.json` via SvelteKit. Do not add hand-rolled HTML pages.
 2. Drop each edition under `data/`:
    - Main (`schema.md`): `data/2026-09-03-evening.json`
    - GME (`schema-gme.md`): `data/2026-09-03-evening-gme.json` (`id` ends with `-gme`, include `parentId`)
@@ -42,10 +42,6 @@ Do **not** delete or overwrite unrelated files in `data/` — other editions (an
 | `/gme` | Latest **GME** desk (separate schema) |
 | `/archive` | Main edition list + cross-day search over **main** stories |
 | `/brief/[id]` | Single edition (main or GME renderer by id) |
-
-## Coexistence with legacy HTML
-
-Root `index.html`, `gme.html`, and `archive/*.html` remain in the repo until JSON coverage is complete and Anchor has switched over. Once GitHub Pages is set to deploy from Actions (this workflow), those files are no longer served — safe to delete in a follow-up PR.
 
 ## Stack
 
