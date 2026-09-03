@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark light">
 <meta name="robots" content="noindex, nofollow">
-<title>Anchor Brief — Afternoon edition, Thu, 3 Sept 2026</title>
+<title>Anchor Brief — Evening edition, Thu, 3 Sept 2026</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314110f'/%3E%3Cpath d='M9 22.5 16 9l7 13.5' stroke='%23e0a267' stroke-width='2.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.8 18h8.4' stroke='%23e0a267' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E">
 <script>
 /* Theme boot: runs before paint so there is no flash of the wrong theme. */
@@ -760,451 +760,339 @@ a { color: inherit; }
 <!-- BRIEFING_JSON_START -->
 <script type="application/json" id="briefing-data">
 {
-  "coverage": "last ~12 hours",
-  "edition": "afternoon",
-  "generatedAt": "2026-09-03T17:55:00+02:00",
-  "headline": "AI infrastructure is concentrating fast—from open-model platforms to agentic coding—while a same-day outage exposed shared-cloud fragility.",
-  "id": "2026-09-03-afternoon",
+  "id": "2026-09-03-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-03T19:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning / last ~12 hours",
+  "headline": "Germany's hybrid-threat ledger fills up, Audacity ships a Qt rebuild, and BepiColombo drops its transfer module at Mercury.",
+  "gmeHref": "./2026-09-03-evening-gme.html",
   "stories": [
     {
-      "facts": [
-        "Drone-style perception stack, LiDAR-guided mopping arm with 123° swing",
-        "Steps over ledges up to 8.5 cm",
-        "Local Data Mode cuts the app off the internet; cameras/mic can be disabled",
-        "Europe pricing: ROMO P2 from €1,299, ROMO A2 from €1,199, orders in September",
-        "Roborock is showing a stair-climbing prototype and a pool cleaner in the same hall"
-      ],
-      "id": "dji-romo-2-ifa",
-      "image": {
-        "url": "https://www.engadget.com/img/gallery/dji-launches-new-robot-vacuums-with-an-eye-toward-data-privacy/l-intro-1788387767.jpg",
-        "alt": "DJI ROMO 2 robot vacuum on a hardwood floor",
-        "credit": "Engadget",
-        "creditUrl": "https://www.engadget.com/2250009/dji-launches-new-robot-vacuums-with-an-eye-toward-data-privacy/"
-      },
-      "sources": [
-        {
-          "kind": "article",
-          "label": "Engadget",
-          "time": "2026-09-03T14:00:00+02:00",
-          "url": "https://www.engadget.com/2250009/dji-launches-new-robot-vacuums-with-an-eye-toward-data-privacy/"
-        },
-        {
-          "kind": "x",
-          "label": "Engadget on X",
-          "url": "https://x.com/engadget/status/2095482990465855954"
-        },
-        {
-          "kind": "x",
-          "label": "Android Central on Roborock stairs",
-          "url": "https://x.com/androidcentral/status/2095477345175961756"
-        }
-      ],
-      "title": "DJI ROMO 2 lands at IFA",
+      "id": "bka-sabotage-lagebild",
+      "title": "BKA counts 165 sabotage suspects this year",
       "topics": [
-        "Tech",
-        "Hardware"
-      ],
-      "weight": "normal",
-      "whyItMatters": "Consumer hardware is converging on the same perception problem industrial and kitchen appliances face, and DJI is treating on-device data isolation as a selling point."
-    },
-    {
-      "facts": [
-        "€705 million to 421 early-career researchers",
-        "Record 4,807 proposals; only 8.8% funded",
-        "Germany hosts the most grants (89), then UK (47), France (38)",
-        "21 winners currently based outside Europe, 20 of them in the US",
-        "'Choose Europe' top-up can reach €2m for setting up a new lab"
-      ],
-      "id": "erc-starting-grants-2026",
-      "image": {
-        "url": "https://erc.europa.eu/sites/default/files/2026-08/StG%202026%20Press%20Release%20Webpage%20Cover%20Image%20%281%29.png",
-        "alt": "Visual for the press release of the Starting Grants 2026",
-        "credit": "European Research Council",
-        "creditUrl": "https://erc.europa.eu/news-events/news/erc-2026-starting-grants-results"
-      },
-      "sources": [
-        {
-          "kind": "primary",
-          "label": "European Research Council",
-          "time": "2026-09-03T00:00:00+02:00",
-          "url": "https://erc.europa.eu/news-events/news/erc-2026-starting-grants-results"
-        },
-        {
-          "kind": "x",
-          "label": "European Commission on X",
-          "url": "https://x.com/EU_Commission/status/2095478060631908610"
-        }
-      ],
-      "title": "ERC hands out €705m, and 21 researchers leave North America",
-      "topics": [
-        "Europe",
-        "Science"
-      ],
-      "weight": "normal",
-      "whyItMatters": "This is the clearest funded signal yet of research talent moving toward Europe rather than away from it."
-    },
-    {
-      "facts": [
-        "SMA1000 zero-days CVE-2026-83548 (CVSS 10.0 SSRF) and CVE-2026-83549 chained for RCE",
-        "Affects SMA1000 6210, 7210, 8200v; not firewall SSL-VPN or SMA 100",
-        "Shadowserver tracked 400+ SMA1000 appliances exposed online",
-        "China-nexus 'Fire Ant' turned Cisco IOS XR routers into traffic-collection platforms, exfiltrating PCAPs over FTP",
-        "The long-running Sality botnet was finally disrupted"
-      ],
-      "id": "sonicwall-sma1000-cisco-routers",
-      "image": null,
-      "sources": [
-        {
-          "kind": "article",
-          "label": "BleepingComputer",
-          "time": "2026-09-02T08:39:00+02:00",
-          "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/"
-        },
-        {
-          "kind": "article",
-          "label": "Rapid7",
-          "url": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild/"
-        },
-        {
-          "kind": "article",
-          "label": "The Record",
-          "url": "https://therecord.media/router-hacks-fire-ant-group-china"
-        },
-        {
-          "kind": "x",
-          "label": "Sami Laiho on X",
-          "url": "https://x.com/samilaiho/status/2095479047706796220"
-        }
-      ],
-      "title": "SonicWall zero-days chained in the wild, Cisco routers turned into listening posts",
-      "topics": [
+        "Germany",
         "Security"
       ],
-      "weight": "normal",
-      "whyItMatters": "Edge access appliances and routers are being used as the vantage point, not just the entry point."
-    },
-    {
+      "weight": "lead",
       "facts": [
-        "Kanu Olympian and ZDF pundit Ronald Rauhe becomes Staatsminister für Sport und Ehrenamt",
-        "Succeeds Christiane Schenderlein, moved to the health ministry in July",
-        "UEFA's Nadine Keßler had turned the job down",
-        "Announced by Merz on Instagram; ends the reshuffle triggered by Jens Spahn's withdrawal"
+        "Confidential BKA Lagebild (to end-Aug): 165+ sabotage-suspicion cases nationwide",
+        "24 espionage probes opened this year, 12 of them cyber-espionage; 40 more under review",
+        "Police logged 112 espionage-related offences; 60+ were illegal filming of military/defence sites",
+        "747 drone incidents, 1,068 drones over critical infra, military sites and arms firms",
+        "Recent grid attacks: improvised rockets with copper wire at Jänschwalde (BB) and Bergheim (NRW); terror/verfassungsfeindliche Sabotage probes",
+        "July: Moldovan arrested in Bavaria after drone recon of KNDS; investigators suspect Russian state tasking"
       ],
-      "id": "merz-sport-staatsminister",
-      "image": {
-        "url": "https://www.zdfheute.de/assets/ronald-rauhe-118~1280x720?cb=1788439828859",
-        "alt": "Ronald Rauhe speaking in a television studio",
-        "credit": "ZDFheute",
-        "creditUrl": "https://www.zdfheute.de/sport/sportpolitik-zdf-experte-ronald-rauhe-sport-staatsminister-100.html"
-      },
-      "sources": [
-        {
-          "kind": "article",
-          "label": "ZDFheute",
-          "time": "2026-09-03T14:01:00+02:00",
-          "url": "https://www.zdfheute.de/sport/sportpolitik-zdf-experte-ronald-rauhe-sport-staatsminister-100.html"
-        },
-        {
-          "kind": "article",
-          "label": "SPIEGEL",
-          "url": "https://www.spiegel.de/politik/friedrich-merz-olympiasieger-ronald-rauhe-wird-sport-staatsminister-a-ae1cf6bd-3e22-4b17-8415-19f521a3c2b4"
-        },
-        {
-          "kind": "x",
-          "label": "DER SPIEGEL on X",
-          "url": "https://x.com/derspiegel/status/2095484971658207698"
-        }
-      ],
-      "title": "Merz finally fills the sport post",
-      "topics": [
-        "Germany"
-      ],
-      "weight": "normal"
-    },
-    {
-      "facts": [
-        "Persistence through February 2027 put at nearly 100%",
-        "Expected to peak late 2026",
-        "Toxic wildfire haze already spreading across South East Asia"
-      ],
-      "id": "wmo-el-nino-very-strong",
-      "image": {
-        "url": "https://wmo.int/sites/default/files/2026-09/Thumbnails%202026.jpg",
-        "alt": "Ocean waves splash against rocks at sunset, with the sun visible through water droplets and an orange sky in the background.",
-        "credit": "WMO",
-        "creditUrl": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
-      },
-      "sources": [
-        {
-          "kind": "primary",
-          "label": "WMO",
-          "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
-        },
-        {
-          "kind": "x",
-          "label": "BBC World on X",
-          "url": "https://x.com/BBCWorld/status/2095476701769707915"
-        }
-      ],
-      "title": "WMO calls it a very strong El Niño",
-      "topics": [
-        "Climate"
-      ],
-      "weight": "normal",
-      "whyItMatters": "Food systems and waste volumes are downstream of this, which is directly relevant to Mill's problem space."
-    },
-    {
-      "facts": [
-        "Overnight firebombing at a Munich site near Rohde & Schwarz and Helsing; two detained, little damage",
-        "Moscow closing Goethe-Institut sites after Leipzig drone sanctions",
-        "Gas stores around 53% this early in September; Hormuz fighting is the driver",
-        "E10 hit €2.215/l, above the March 2022 peak",
-        "Ifo still raised 2026 German growth to 1.4%, crediting the investment package"
-      ],
-      "id": "energy-hybrid-threat-backdrop",
+      "whyItMatters": "The hybrid-defence centre's own ledger now puts numbers on a threat Germany has been talking about in headlines — grid, drones, and spying in one package.",
       "image": null,
       "sources": [
         {
+          "label": "tagesschau (NDR/WDR/SZ)",
+          "url": "https://www.tagesschau.de/investigativ/ndr-wdr/bka-lagebericht-sabotage-100.html",
           "kind": "article",
-          "label": "Süddeutsche Zeitung",
-          "url": "https://www.sueddeutsche.de/muenchen/muenchen-brandanschlag-ruestungsfirmen-rohde-schwarz-helsing-li.3541542"
+          "time": "2026-09-03T16:00:00+02:00"
         },
         {
-          "kind": "article",
-          "label": "tagesschau",
-          "url": "https://www.tagesschau.de/ausland/goethe-institut-russland-schliessung-100.html"
-        },
-        {
-          "kind": "article",
-          "label": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/Merz-besorgt-wegen-niedriger-Gasfuellstaende-id31259439.html"
-        },
-        {
-          "kind": "article",
-          "label": "FAZ",
-          "url": "https://www.faz.net/aktuell/finanzen/finanzmarkt/so-teuer-war-e10-noch-nie-warum-der-benzinpreis-einen-rekord-erreicht-accg-201187038.html"
-        },
-        {
-          "kind": "article",
-          "label": "WELT",
-          "url": "https://www.welt.de/wirtschaft/article6a993062dde98c923617fcd7/wirtschaftswachstum-institute-erhoehen-konjunkturprognose-kraeftig-ifo-erwartet-1-4-prozent-fuer-2026.html"
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2095551593047523437",
+          "kind": "x",
+          "time": "2026-09-03T16:36:00+02:00"
         }
+      ]
+    },
+    {
+      "id": "audacity-4",
+      "title": "Audacity 4 rebuilds on Qt",
+      "topics": [
+        "Tech",
+        "Open source"
       ],
-      "title": "Energy and hybrid-threat backdrop",
+      "weight": "normal",
+      "facts": [
+        "Audacity 4.0 released: UI rebuilt on Qt with native high-DPI",
+        "New clip model: multi-select, groups, freer mono/stereo moves; dedicated split tool (S)",
+        "Workspaces (Modern/Classic/Music), themes, Home screen with project thumbnails",
+        "New .aup4 format; .aup3 opens and converts one-way",
+        "Gone for now: Time Tracks, Note/MIDI, Mixer, Macro Manager, VAMP/LADSPA, play-at-speed",
+        "Windows builds gain ASIO; VST3/Nyquist/LV2/AU plugin path kept"
+      ],
+      "whyItMatters": "The default open-source audio editor just took its biggest interface break in years — expect muscle-memory pain and a flood of 3.x holdouts.",
+      "image": {
+        "url": "https://opengraph.githubassets.com/bda56dd5fb280eb5e9f6e49e854d8cc7fd1ced9647d8f5a85966c6196bd079c1/audacity/audacity/releases/tag/Audacity-4.0.0",
+        "alt": "Audacity 4.0 Audacity 4 rebuilds the application interface on Qt and introduces many new quality-of-life improvements, including a new clip-editing model. Most Audacity 3 workflows remain available...",
+        "credit": "Audacity 4.0 release",
+        "creditUrl": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0"
+      },
+      "sources": [
+        {
+          "label": "Audacity 4.0 release",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+          "kind": "primary",
+          "time": "2026-09-03T12:19:48+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49548395",
+          "kind": "article",
+          "time": "2026-09-03T12:53:08+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bepicolombo-mtm-separation",
+      "title": "BepiColombo sheds its transfer module at Mercury",
+      "topics": [
+        "Space"
+      ],
+      "weight": "normal",
+      "facts": [
+        "ESA confirmed MTM separation today: signal acquired via Cebreros and Malargüe (~15:52 CEST)",
+        "Telemetry nominal; MPO solar panels charging the stack",
+        "After ~8 years and \u003e200 million km, ESA MPO + JAXA Mio now head to Mercury orbit",
+        "Orbit insertion planned 21 Nov 2026; MPO/Mio separate 9–10 Dec; science phase April 2027"
+      ],
+      "whyItMatters": "Europe and Japan are finally turning the cruise into an orbital mission at the Solar System's hardest inner planet.",
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/03/mercury_transfer_module_separation3/17405480-1-eng-GB/Mercury_Transfer_Module_separation_pillars.jpg",
+        "alt": "Mercury Transfer Module separation",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+      },
+      "sources": [
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
+          "kind": "primary",
+          "time": "2026-09-03T15:52:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "polars-2-rc",
+      "title": "Polars 2.0 RC makes streaming the default",
+      "topics": [
+        "Tech",
+        "Dev"
+      ],
+      "weight": "normal",
+      "facts": [
+        "First Polars 2.0 release candidate; final 2.0 due in coming weeks",
+        "LazyFrame.collect now defaults to the streaming engine (claimed ~5× aggregate speedups)",
+        "Row order no longer guaranteed for join/group_by/unpivot unless maintain_order is set",
+        "Stricter is_in and horizontal concat; many silent casts removed",
+        "Install: pip install polars==2.0rc1; migration guide published"
+      ],
+      "whyItMatters": "A major-version bump that is mostly about safer defaults and memory — data pipelines will need order and cast audits.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Polars blog",
+          "url": "https://pola.rs/posts/announcing-polars-2/",
+          "kind": "primary",
+          "time": "2026-09-02T00:00:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49546753",
+          "kind": "article",
+          "time": "2026-09-03T08:59:08+02:00"
+        }
+      ]
+    },
+    {
+      "id": "de-datacenter-gewerbesteuer",
+      "title": "Berlin rewires Gewerbesteuer for data centres",
       "topics": [
         "Germany",
         "Energy"
       ],
-      "weight": "brief"
-    },
-    {
+      "weight": "normal",
       "facts": [
-        "Gloria Steinem died at 92",
-        "VW board paper points to winding down Seat by end-2029",
-        "LUX-ZEPLIN reported a 2.6 sigma dark-matter candidate event",
-        "A study found Google AI Mode showing the same SKUs about 22% more expensive"
+        "Cabinet draft for Einkommensteuerreformgesetz 2027 changes trade-tax splitting for pure data-centre operators",
+        "~90% of Gewerbesteuer would stick at the server-farm site (via non-redundant electrical capacity), only ~10% by wages",
+        "Today's wage-heavy formula leaves host towns with infrastructure costs and little tax",
+        "Rule starts Erhebungszeitraum 2027; framed as fulfilling the federal data-centre strategy and damping local protests"
       ],
-      "id": "also-today",
+      "whyItMatters": "Germany is trying to buy local acceptance for AI power plants with tax cash, not just zoning papers.",
       "image": null,
       "sources": [
         {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Steuer-Coup-gegen-Buergerproteste-Milliarden-Umschichtung-fuer-Rechenzentren-11440618.html",
           "kind": "article",
-          "label": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o"
+          "time": "2026-09-03T18:14:00+02:00"
         },
         {
-          "kind": "article",
-          "label": "WirtschaftsWoche",
-          "url": "https://www.wiwo.de/unternehmen/auto/vw-sparmassnahmen-volkswagen-stellt-marke-seat-bis-spaetestens-ende-2029-ein/100251673.html"
-        },
-        {
-          "kind": "article",
-          "label": "BBC on LZ",
-          "url": "https://www.bbc.co.uk/news/articles/cvgypvnx1jgo"
-        },
-        {
-          "kind": "primary",
-          "label": "Productrise",
-          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+          "label": "Washington Post on X (US polling)",
+          "url": "https://x.com/washingtonpost/status/2095557512271458599",
+          "kind": "x",
+          "time": "2026-09-03T19:00:00+02:00"
         }
-      ],
-      "title": "Also today",
-      "topics": [
-        "Worth a look"
-      ],
-      "weight": "brief"
+      ]
     },
     {
-      "facts": [
-        "Rust 1.98.1 fixes a rustc miscompilation in trait-object vtable generation.",
-        "Rust 1.98.0 could emit a null pointer where a function pointer belonged, causing undefined behavior.",
-        "Update stable toolchains with rustup update stable if they use Rust 1.98.0."
-      ],
-      "id": "rust-1981",
-      "image": null,
-      "sources": [
-        {
-          "kind": "primary",
-          "label": "The Rust Programming Language",
-          "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/"
-        }
-      ],
-      "title": "Rust 1.98.1 is out",
+      "id": "gemini-voice-workspace",
+      "title": "Gemini voice reaches Gmail, Docs and Keep",
       "topics": [
-        "Tech",
-        "Dev"
+        "AI",
+        "Tech"
       ],
       "weight": "normal",
-      "whyItMatters": "Correctness and safety fix: update CI and developer toolchains using Rust 1.98.0."
-    },
-    {
       "facts": [
-        "NVIDIA agreed to acquire Hugging Face for $12.9303bn: $11.9bn purchase price plus up to $1bn in employee retention awards.",
-        "The deal is expected to close in H1 2027, subject to regulatory approvals.",
-        "Hugging Face says it will remain open, multi-cloud and multi-accelerator; NVIDIA hardware will not be required.",
-        "NVIDIA says the platform has 18m+ users, 3m+ models, 500,000 datasets and 1m applications."
+        "Sundar Pichai: new Gemini voice can search Gmail, organize Keep, and create Docs conversationally",
+        "GoogleAI also launched WeatherNext 3, rolling into Search, Gemini, Maps and Earth Engine",
+        "Workspace voice features (Gmail Live / Docs Live / Keep) have been staged for AI Pro/Ultra and business tiers"
       ],
-      "id": "hugging-face-nvidia",
+      "whyItMatters": "Google is pushing voice as the Workspace front door the same day its weather model lands in consumer surfaces.",
       "image": null,
       "sources": [
         {
-          "label": "NVIDIA",
-          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-          "kind": "primary"
+          "label": "Sundar Pichai on X",
+          "url": "https://x.com/sundarpichai/status/2095552297099198689",
+          "kind": "x",
+          "time": "2026-09-03T18:39:00+02:00"
         },
         {
-          "label": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/03/nvidia-buys-hugging-face-for-129b-promises-not-to-squeeze-too-hard/5294208",
-          "kind": "article"
-        }
-      ],
-      "title": "NVIDIA agrees to acquire Hugging Face",
-      "topics": [
-        "AI",
-        "Hardware",
-        "Tech"
-      ],
-      "weight": "lead",
-      "whyItMatters": "NVIDIA is moving up the stack into model distribution and developer workflow; the open-platform promise is the key thing to watch after closing."
-    },
-    {
-      "id": "gemini-38-flash",
-      "title": "Google ships Gemini 3.8 Flash and Flash Cyber",
-      "topics": [
-        "AI",
-        "Security",
-        "Dev"
-      ],
-      "facts": [
-        "Gemini 3.8 Flash targets software engineering, agentic workflows and multi-step reasoning.",
-        "Introductory API price: $0.75/1M input tokens and $3.75/1M output tokens through 31 Dec 2026.",
-        "Available via Gemini API, AI Studio, Android Studio, Antigravity, Stitch, Gemini Enterprise and to Pro/Ultra users.",
-        "Flash Cyber targets vulnerability discovery and automated patching; access is limited to trusted defenders through Fairwind."
-      ],
-      "whyItMatters": "Google is packaging stronger long-horizon coding and defensive security capability at Flash pricing.",
-      "image": {
-        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png",
-        "alt": "Gemini 3.8 Flash announcement graphic",
-        "credit": "Google",
-        "creditUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
-      },
-      "sources": [
+          "label": "Google AI on X (WeatherNext 3)",
+          "url": "https://x.com/GoogleAI/status/2095544944190788064",
+          "kind": "x",
+          "time": "2026-09-03T18:10:00+02:00"
+        },
         {
-          "label": "Google",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-          "kind": "primary"
+          "label": "TechCrunch on X",
+          "url": "https://x.com/TechCrunch/status/2095543616638697661",
+          "kind": "x",
+          "time": "2026-09-03T18:05:00+02:00"
         }
-      ],
-      "weight": "lead"
+      ]
     },
     {
-      "id": "ai-platform-outages",
-      "title": "ChatGPT, Claude and Grok fail at once",
+      "id": "cursor-vercel-sandbox",
+      "title": "Cursor Cloud Agents can run in Vercel Sandbox",
       "topics": [
-        "AI",
-        "Tech"
+        "Dev",
+        "AI"
       ],
+      "weight": "normal",
       "facts": [
-        "OpenAI, Anthropic and X confirmed outages on 3 September, alongside a spike in DownDetector reports.",
-        "Cursor also reported an outage tied to the Claude and Grok failures.",
-        "9to5Google notes all three use Microsoft Azure among their cloud providers; Azure also saw a report spike.",
-        "No confirmed root cause or restoration time was available at publication; Gemini appeared unaffected."
+        "Cursor Cloud Agents can execute in Vercel Sandbox instead of Cursor-hosted machines",
+        "Cursor keeps the harness/inference loop; Self-Hosted Machines APIs need Cursor Enterprise",
+        "Each agent request gets an isolated Firecracker microVM; Functions + Workflow claim/cleanup workers",
+        "Pitch: scale-to-zero pool, durable retries, short-lived user-scoped credentials"
       ],
-      "whyItMatters": "A shared dependency can turn separate AI products into one incident surface; Azure was a possibility, not a confirmed cause.",
+      "whyItMatters": "Agent runtimes are becoming a cloud product surface — useful if you already live on Vercel and want isolation without owning VMs.",
       "image": null,
       "sources": [
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+          "kind": "primary",
+          "time": "2026-09-03T17:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "name-tld-termination",
+      "title": "ICANN greenlights killing .name third-levels",
+      "topics": [
+        "Tech",
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        "Verisign proposed ending the entire 3rd-level .name hierarchy (Apr); ICANN approved 28 Jul",
+        "Neil Fraser: neil.fraser.name (paid to 2040) vanishes in February; ~22,000 registrants affected",
+        "Risk: vacant 2nd-levels re-registered, then old emails/IoT auth hijacked"
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Neil Fraser",
+          "url": "https://neil.fraser.name/news/2026/09/03/",
+          "kind": "primary",
+          "time": "2026-09-03T00:00:00+02:00"
+        },
+        {
+          "label": "Lobsters",
+          "url": "https://lobste.rs/s/6tsncg/name_termination",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "ai-outages-resolved",
+      "title": "ChatGPT/Claude/Grok outage marked resolved",
+      "topics": [
+        "AI"
+      ],
+      "weight": "brief",
+      "facts": [
+        "OpenAI status: elevated ChatGPT/Codex errors resolved (monitoring from ~11:17 PT, resolved ~12:55 PT)",
+        "Anthropic and xAI also posted elevated-error incidents earlier; Gemini had no official outage",
+        "9to5Google: Cursor reported impact from Claude/Grok; Azure outage reports spiked in parallel (causation unconfirmed)"
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M1KWEDH417T2CF44YYHZDFCR",
+          "kind": "primary",
+          "time": "2026-09-03T21:55:00+02:00"
+        },
+        {
+          "label": "Anthropic Status",
+          "url": "https://status.claude.com/incidents/461yvfrzpwtt",
+          "kind": "primary",
+          "time": "2026-09-03T18:23:12+02:00"
+        },
         {
           "label": "9to5Google",
           "url": "https://9to5google.com/2026/09/03/chatgpt-claude-grok-outages/",
-          "kind": "article"
+          "kind": "article",
+          "time": "2026-09-03T17:07:00+02:00"
         }
-      ],
-      "weight": "normal"
+      ]
     },
     {
-      "id": "dlss-5-blackwell-only",
-      "title": "DLSS 5 is RTX 50-only",
+      "id": "also-evening",
+      "title": "Also this evening",
       "topics": [
-        "Hardware",
-        "Tech"
+        "Worth a look"
       ],
+      "weight": "brief",
       "facts": [
-        "NVIDIA confirmed DLSS 5 runs on Blackwell fifth-generation Tensor cores with no supported RTX 40-or-older fallback.",
-        "The neural-rendering stage adds learned lighting and material appearance while preserving game geometry and silhouettes.",
-        "DLSS 5 launched with NBA 2K27 and supports RTX 50 GPUs, RTX 50 laptops and GeForce NOW.",
-        "Modders have forced leaked code onto older cards, but that is not NVIDIA-supported compatibility."
+        "ISRO GSLV Mk II / GISAT-1A (EOS-05) NET ~23:25 CEST tonight from Satish Dhawan",
+        "heise: Lego announces first PlayStation set (\"Playsi\")",
+        "Svelte 5.57.0 shipped (RenderOutput exports, createContext.has, select defaultValue) — only notable dep release in the last week",
+        "Reddit germany/world/hardware/space/energy groups 429'd this run; used Atom tips from AI/dev/photo only"
       ],
-      "whyItMatters": "Official DLSS 5 support requires Blackwell, even though unofficial experiments show older cards can execute the code.",
-      "image": {
-        "url": "https://www.techpowerup.com/review/nvidia-dlss-5-technical-preview/images/title.jpg",
-        "alt": "DLSS 5 technical preview rendered game scene",
-        "credit": "TechPowerUp",
-        "creditUrl": "https://www.techpowerup.com/review/nvidia-dlss-5-technical-preview/"
-      },
+      "whyItMatters": null,
+      "image": null,
       "sources": [
         {
-          "label": "TechPowerUp",
-          "url": "https://www.techpowerup.com/review/nvidia-dlss-5-technical-preview/",
-          "kind": "article"
+          "label": "Launch Library (GISAT-1A)",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/",
+          "kind": "primary",
+          "time": "2026-09-03T21:25:00+00:00"
         },
         {
-          "label": "TechPowerUp follow-up",
-          "url": "https://www.techpowerup.com/352223/dlss-5-officially-goes-live-september-3-with-nba-2k27-exclusive-to-rtx-50-series-blackwell-gpus",
-          "kind": "article"
-        }
-      ],
-      "weight": "normal"
-    },
-    {
-      "id": "neovim-013-multiple-cursors",
-      "title": "Neovim 0.13 gets native multiple cursors",
-      "topics": [
-        "Dev",
-        "Tech"
-      ],
-      "facts": [
-        "Multiple cursors landed in Neovim core in PR #41587 and are scheduled for Neovim 0.13.",
-        "The feature is in Nightly at the time of the guide.",
-        "Q adds cursors, 1Q places one at every search match, and visual selections can create one per line."
-      ],
-      "whyItMatters": "A long-standing plugin workflow is moving into core while keeping Vim-style commands and registers.",
-      "image": {
-        "url": "https://blog.olimorris.com/assets/images/posts/2026-09-02-multiple-cursors-in-neovim-0.13/cover.png",
-        "alt": "Neovim multicursors",
-        "credit": "Oli Morris",
-        "creditUrl": "https://blog.olimorris.com/2026/09/02/multiple-cursors-in-neovim-0.13/"
-      },
-      "sources": [
+          "label": "heise (Lego Playsi)",
+          "url": "https://www.heise.de/news/Playsi-zum-Zusammenbauen-Lego-kuendigt-die-erste-Playstation-als-Set-an-11440580.html",
+          "kind": "article",
+          "time": "2026-09-03T18:47:00+02:00"
+        },
         {
-          "label": "Oli Morris",
-          "url": "https://blog.olimorris.com/2026/09/02/multiple-cursors-in-neovim-0.13/",
-          "kind": "article"
+          "label": "Svelte 5.57.0",
+          "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.0",
+          "kind": "primary",
+          "time": "2026-08-29T01:31:40+02:00"
         }
-      ],
-      "weight": "normal"
+      ]
     }
-  ],
-  "timezone": "Europe/Berlin"
+  ]
 }
 </script>
 <!-- BRIEFING_JSON_END -->
