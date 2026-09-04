@@ -2,7 +2,8 @@
 	import { resolve } from '$app/paths';
 	import StoryCard from './StoryCard.svelte';
 	import StoryFilters from './StoryFilters.svelte';
-	import { editionLabel, fold, makeFormatters, toDate } from '$lib/format';
+	import { editionLabel, makeFormatters, toDate } from '$lib/format';
+	import { StoryFilterEngine } from '$lib/storyFilter.svelte';
 	import type { EditionSummary, IndexedStory } from '$lib/types';
 
 	interface Props {
@@ -16,9 +17,6 @@
 
 	let { editions, gmeEditions, indexed }: Props = $props();
 
-	let activeTopic = $state<string | null>(null);
-	let query = $state('');
-
 	const mainEditions = $derived(editions.filter((e) => e.desk === 'main'));
 
 	const gmeByParent = $derived.by(() => {
@@ -29,43 +27,27 @@
 		return map;
 	});
 
-	const topicCounts = $derived.by(() => {
-		const map = new Map<string, number>();
-		for (const row of indexed) {
-			for (const t of row.story.topics ?? []) map.set(t, (map.get(t) ?? 0) + 1);
+	const filterEngine = new StoryFilterEngine<IndexedStory>({
+		getItems: () => indexed,
+		extractTopics: (row) => row.story.topics ?? [],
+		extractSearchFields: (row) => [
+			row.story.title,
+			...(row.story.facts ?? []),
+			row.story.whyItMatters ?? '',
+			...(row.story.topics ?? []),
+			row.headline,
+			row.editionId
+		],
+		sortByTopicsFrequency: true,
+		formatStatusText: (n, total, hasFilters) => {
+			if (!hasFilters) {
+				return `${total} main-desk stories across ${mainEditions.length} briefings — search to filter across days`;
+			}
+			return `Showing ${n} stor${n === 1 ? 'y' : 'ies'} across main editions`;
 		}
-		return [...map.entries()]
-			.map(([topic, count]) => ({ topic, count }))
-			.sort((a, b) => b.count - a.count || a.topic.localeCompare(b.topic));
 	});
 
-	const filtered = $derived.by(() => {
-		const q = fold(query.trim());
-		return indexed.filter((row) => {
-			if (activeTopic && !(row.story.topics ?? []).includes(activeTopic)) return false;
-			if (!q) return true;
-			const hay = fold(
-				[
-					row.story.title,
-					...(row.story.facts ?? []),
-					row.story.whyItMatters,
-					...(row.story.topics ?? []),
-					row.headline,
-					row.editionId
-				].join(' ')
-			);
-			return hay.includes(q);
-		});
-	});
-
-	const searching = $derived(Boolean(activeTopic || query.trim()));
-
-	const statusText = $derived.by(() => {
-		if (!searching) {
-			return `${indexed.length} main-desk stories across ${mainEditions.length} briefings — search to filter across days`;
-		}
-		return `Showing ${filtered.length} stor${filtered.length === 1 ? 'y' : 'ies'} across main editions`;
-	});
+	const searching = $derived(filterEngine.hasFilters);
 </script>
 
 <section class="page-intro wrap">
@@ -78,28 +60,25 @@
 </section>
 
 <StoryFilters
-	topics={topicCounts}
-	{activeTopic}
-	{query}
-	{statusText}
+	topics={filterEngine.topicFacets}
+	activeTopic={filterEngine.activeTopic}
+	query={filterEngine.query}
+	statusText={filterEngine.statusText}
 	searchPlaceholder="Search main editions across days…"
-	onTopic={(t) => (activeTopic = t)}
-	onQuery={(q) => (query = q)}
-	onReset={() => {
-		activeTopic = null;
-		query = '';
-	}}
+	onTopic={(t) => filterEngine.setTopic(t)}
+	onQuery={(q) => filterEngine.setQuery(q)}
+	onReset={() => filterEngine.reset()}
 />
 
 {#if searching}
 	<section class="wrap cross-results" aria-label="Cross-day results">
-		{#if filtered.length}
+		{#if filterEngine.filtered.length}
 			<div class="stories" id="stories">
-				{#each filtered as row (`${row.editionId}:${row.story.id}`)}
+				{#each filterEngine.filtered as row (`${row.editionId}:${row.story.id}`)}
 					{@const edLabel = editionLabel(row.edition)}
 					<StoryCard
 						story={row.story}
-						query={query.trim()}
+						query={filterEngine.query.trim()}
 						generatedAt={row.generatedAt}
 						editionHref={resolve(`/brief/${row.editionId}`)}
 						editionLabel={edLabel}
@@ -113,10 +92,7 @@
 				<button
 					type="button"
 					class="iconbtn"
-					onclick={() => {
-						activeTopic = null;
-						query = '';
-					}}
+					onclick={() => filterEngine.reset()}
 				>
 					Clear filters
 				</button>

@@ -1,27 +1,20 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { applyTheme, bootTheme, type Theme } from '$lib/theme';
-
-	let theme = $state<Theme>('dark');
+	import { theme } from '$lib/theme.svelte';
 
 	onMount(() => {
-		theme = bootTheme();
+		theme.init();
 	});
-
-	function toggle() {
-		theme = theme === 'light' ? 'dark' : 'light';
-		applyTheme(theme, true);
-	}
 </script>
 
 <button
 	type="button"
 	class="iconbtn"
-	onclick={toggle}
-	aria-pressed={theme === 'light'}
-	aria-label={theme === 'light' ? 'Switch to dark theme' : 'Switch to light theme'}
+	onclick={() => theme.toggle()}
+	aria-pressed={theme.current === 'light'}
+	aria-label={theme.current === 'light' ? 'Switch to dark theme' : 'Switch to light theme'}
 >
-	{#if theme === 'light'}
+	{#if theme.current === 'light'}
 		<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
 			<path d="M20 14.4A8.2 8.2 0 0 1 9.6 4a8.4 8.4 0 1 0 10.4 10.4z"></path>
 		</svg>

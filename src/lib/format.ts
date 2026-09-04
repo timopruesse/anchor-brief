@@ -23,6 +23,7 @@ export function editionLabel(edition: string | undefined): string {
 
 export function fold(value: unknown): string {
 	return String(value ?? '')
+		.trim()
 		.toLowerCase()
 		.replace(/\u00df/g, 'ss')
 		.normalize('NFD')

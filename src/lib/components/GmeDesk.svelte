@@ -3,6 +3,7 @@
 	import Masthead from './Masthead.svelte';
 	import CommunityChart from './CommunityChart.svelte';
 	import GmeSparkline from './GmeSparkline.svelte';
+	import StoryCard from './StoryCard.svelte';
 	import {
 		editionLabel,
 		formatMoney,
@@ -189,45 +190,14 @@
 		{/if}
 	</section>
 
-	<section class="gme-stories" aria-label="GME stories">
+	<section class="gme-stories stories" aria-label="GME stories">
 		{#each stories as story (story.id)}
-			<article class="gme-story">
-				{#if story.weight === 'lead'}
-					<div class="flag">Lead</div>
-				{/if}
-				<h2>{story.title}</h2>
-				{#if story.facts?.length}
-					<ul>
-						{#each story.facts as fact (fact)}
-							<li>{fact}</li>
-						{/each}
-					</ul>
-				{/if}
-				{#if story.whyItMatters}
-					<p class="gme-why">{story.whyItMatters}</p>
-				{/if}
-				{#if story.sources?.length}
-					<nav class="sources" aria-label="Sources">
-						<ul>
-							{#each story.sources as src (src.url + src.label)}
-								{#if safeHref(src.url)}
-									<li>
-										<a
-											class="source"
-											class:primary={src.kind === 'primary'}
-											href={safeHref(src.url)!}
-											rel="noopener noreferrer"
-											target="_blank"
-										>
-											{src.label}
-										</a>
-									</li>
-								{/if}
-							{/each}
-						</ul>
-					</nav>
-				{/if}
-			</article>
+			<StoryCard
+				{story}
+				desk="gme"
+				generatedAt={briefing.generatedAt}
+				timezone={briefing.timezone}
+			/>
 		{/each}
 	</section>
 

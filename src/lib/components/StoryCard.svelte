@@ -6,6 +6,7 @@
 		gradientFor,
 		safeHref
 	} from '$lib/format';
+	import { theme } from '$lib/theme.svelte';
 	import type { Story } from '$lib/types';
 
 	const VISIBLE_FACTS = 3;
@@ -17,6 +18,7 @@
 		timezone?: string;
 		editionHref?: string | null;
 		editionLabel?: string | null;
+		desk?: 'main' | 'gme';
 	}
 
 	let {
@@ -25,7 +27,8 @@
 		generatedAt,
 		timezone = 'Europe/Berlin',
 		editionHref = null,
-		editionLabel = null
+		editionLabel = null,
+		desk = 'main'
 	}: Props = $props();
 
 	let expanded = $state(false);
@@ -41,16 +44,10 @@
 			.filter((s) => s.href)
 	);
 
-	const ph = $derived(
-		gradientFor(
-			story.id || story.title,
-			typeof document !== 'undefined' &&
-				document.documentElement.getAttribute('data-theme') === 'light'
-		)
-	);
+	const ph = $derived(gradientFor(story.id || story.title, theme.isLight));
 </script>
 
-<article class="story" data-weight={weight} id={story.id}>
+<article class="story" class:story--gme={desk === 'gme'} data-weight={weight} id={story.id}>
 	<div class="story__eyebrow">
 		{#if weight === 'lead'}
 			<span class="flag">Lead</span>
