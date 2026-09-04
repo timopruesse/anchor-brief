@@ -18,9 +18,10 @@
 		{ key: 'YTD', label: 'YTD' }
 	];
 
-	const W = 360;
-	const H = 148;
-	const PAD = { top: 16, right: 48, bottom: 26, left: 10 };
+	let containerWidth = $state(560);
+	const W = $derived(Math.max(300, containerWidth || 560));
+	const H = 180;
+	const PAD = { top: 20, right: 0, bottom: 22, left: 0 };
 
 	let range = $state<RangeKey>('1M');
 	let hoverIdx = $state<number | null>(null);
@@ -142,6 +143,13 @@
 		return geom.coords[hoverIdx] ?? null;
 	});
 
+	const hoverDelta = $derived.by(() => {
+		if (!activeHover || !geom) return null;
+		const delta = activeHover.p.c - geom.start.c;
+		const pct = geom.start.c !== 0 ? (delta / geom.start.c) * 100 : 0;
+		return { delta, pct, up: delta >= 0 };
+	});
+
 	const summary = $derived.by(() => {
 		if (!geom || !windowChange) return 'Price chart unavailable.';
 		const dir = windowChange.up ? 'up' : 'down';
@@ -155,12 +163,26 @@
 
 	function onPointerMove(event: PointerEvent & { currentTarget: SVGSVGElement }) {
 		if (!geom || geom.coords.length < 2) return;
-		// Prefer fine pointers (mouse / stylus); skip sticky hover on coarse touch.
-		if (event.pointerType === 'touch') return;
 
-		const rect = event.currentTarget.getBoundingClientRect();
-		if (rect.width <= 0) return;
-		const x = ((event.clientX - rect.left) / rect.width) * W;
+		const svg = event.currentTarget;
+		let x: number;
+
+		try {
+			const pt = svg.createSVGPoint();
+			pt.x = event.clientX;
+			pt.y = event.clientY;
+			const ctm = svg.getScreenCTM();
+			if (ctm) {
+				x = pt.matrixTransform(ctm.inverse()).x;
+			} else {
+				const rect = svg.getBoundingClientRect();
+				x = ((event.clientX - rect.left) / rect.width) * W;
+			}
+		} catch {
+			const rect = svg.getBoundingClientRect();
+			x = ((event.clientX - rect.left) / rect.width) * W;
+		}
+
 		let best = 0;
 		let bestDist = Infinity;
 		for (let i = 0; i < geom.coords.length; i++) {
@@ -179,14 +201,22 @@
 </script>
 
 {#if usable && geom && windowChange}
-	<figure class="spark">
+	<figure class="spark" bind:clientWidth={containerWidth}>
 		<div class="spark-head">
 			<div class="spark-window">
-				<span class="spark-window__label">{range} window</span>
-				<span class="spark-window__price">{formatMoney(geom.end.c, currency)}</span>
-				<span class={['spark-window__chg', windowChange.up ? 'up' : 'down']}>
-					{formatSigned(windowChange.delta, 2)} ({formatPct(windowChange.pct)})
-				</span>
+				<div class="spark-title-row">
+					<span class="spark-tag">{range} Price Action</span>
+					<span class="spark-dates">{formatDayLabel(geom.start.t)} — {formatDayLabel(geom.end.t)}</span>
+				</div>
+				<div class="spark-price-row">
+					<span class="spark-window__price">{formatMoney(geom.end.c, currency)}</span>
+					<span class={['spark-window__chg', windowChange.up ? 'up' : 'down']}>
+						{formatSigned(windowChange.delta, 2)} ({formatPct(windowChange.pct)})
+					</span>
+					<span class="spark-range-summary">
+						Low {formatMoney(geom.min, currency)} · High {formatMoney(geom.max, currency)}
+					</span>
+				</div>
 			</div>
 
 			<div class="spark-ranges" role="group" aria-label="Price chart range">
@@ -203,115 +233,166 @@
 			</div>
 		</div>
 
-		<svg
-			class="spark-svg"
-			viewBox="0 0 {W} {H}"
-			role="img"
-			aria-label={summary}
-			onpointermove={onPointerMove}
-			onpointerleave={onPointerLeave}
-		>
-			<title>{summary}</title>
-
-			<!-- subtle mid / min / max guides -->
-			<line class="grid" x1={PAD.left} y1={geom.maxY} x2={W - PAD.right} y2={geom.maxY} />
-			<line class="grid" x1={PAD.left} y1={geom.midY} x2={W - PAD.right} y2={geom.midY} />
-			<line class="grid" x1={PAD.left} y1={geom.minY} x2={W - PAD.right} y2={geom.minY} />
-
-			<text class="axis-label" x={W - PAD.right + 6} y={geom.maxY + 3}>{formatMoney(geom.max, currency)}</text>
-			<text class="axis-label" x={W - PAD.right + 6} y={geom.minY + 3}>{formatMoney(geom.min, currency)}</text>
-
-			<path class="area" d={geom.area}></path>
-			<path class="line" d={geom.path}></path>
-
-			<!-- start / end markers -->
-			<circle class="dot start" cx={geom.coords[0].x} cy={geom.coords[0].y} r="3.2" />
-			<circle
-				class={['dot', 'end', windowChange.up ? 'up' : 'down']}
-				cx={geom.coords[geom.coords.length - 1].x}
-				cy={geom.coords[geom.coords.length - 1].y}
-				r="3.6"
-			/>
-
-			{#if activeHover}
-				<line
-					class="cross"
-					x1={activeHover.x}
-					y1={PAD.top}
-					x2={activeHover.x}
-					y2={H - PAD.bottom}
-				/>
-				<circle class="dot hover" cx={activeHover.x} cy={activeHover.y} r="4" />
-			{/if}
-
-			<text class="xlabel" x={PAD.left} y={H - 6}>{formatDayLabel(geom.start.t)}</text>
-			<text class="xlabel" x={W - PAD.right} y={H - 6} text-anchor="end"
-				>{formatDayLabel(geom.end.t)}</text
+		<div class="spark-chart-box">
+			<svg
+				class="spark-svg"
+				viewBox="0 0 {W} {H}"
+				preserveAspectRatio="none"
+				role="img"
+				aria-label={summary}
+				onpointerdown={onPointerMove}
+				onpointermove={onPointerMove}
+				onpointerup={onPointerLeave}
+				onpointercancel={onPointerLeave}
+				onpointerleave={onPointerLeave}
 			>
-		</svg>
+				<title>{summary}</title>
 
-		{#if activeHover}
-			<p class="spark-readout" aria-live="polite">
-				{formatDayLabel(activeHover.p.t)} · {formatMoney(activeHover.p.c, currency)}
-			</p>
-		{:else}
-			<p class="spark-readout spark-readout--muted">
-				{formatDayLabel(geom.start.t)} → {formatDayLabel(geom.end.t)} · min
-				{formatMoney(geom.min, currency)} · max {formatMoney(geom.max, currency)}
-			</p>
-		{/if}
+				<defs>
+					<linearGradient id="spark-gradient" x1="0" y1="0" x2="0" y2="1">
+						<stop offset="0%" stop-color="var(--accent)" stop-opacity="0.25" />
+						<stop offset="85%" stop-color="var(--accent)" stop-opacity="0.03" />
+						<stop offset="100%" stop-color="var(--accent)" stop-opacity="0" />
+					</linearGradient>
+				</defs>
+
+				<!-- horizontal grid lines spanning full width 0 to W -->
+				<line class="grid" x1="0" y1={geom.maxY} x2={W} y2={geom.maxY} />
+				<line class="grid" x1="0" y1={geom.midY} x2={W} y2={geom.midY} />
+				<line class="grid" x1="0" y1={geom.minY} x2={W} y2={geom.minY} />
+
+				<!-- Max / Min reference price labels floating near right edge -->
+				<text class="axis-label" x={W - 14} y={geom.maxY - 5} text-anchor="end">{formatMoney(geom.max, currency)}</text>
+				{#if Math.abs(geom.minY - geom.maxY) >= 20}
+					<text class="axis-label" x={W - 14} y={geom.minY - 5} text-anchor="end">{formatMoney(geom.min, currency)}</text>
+				{/if}
+
+				<!-- Area and trendline spanning full width -->
+				<path class="area" d={geom.area} fill="url(#spark-gradient)"></path>
+				<path class="line" d={geom.path}></path>
+
+				<!-- End marker (shown when idle; inset by radius so it does not get clipped by right border) -->
+				{#if !activeHover}
+					<circle
+						class={['dot', 'end', windowChange.up ? 'up' : 'down']}
+						cx={Math.min(W - 4, geom.coords[geom.coords.length - 1].x)}
+						cy={geom.coords[geom.coords.length - 1].y}
+						r="3.5"
+					/>
+				{/if}
+
+				<!-- Active Hover Crosshair and Markers -->
+				{#if activeHover}
+					<line
+						class="cross"
+						x1={activeHover.x}
+						y1={0}
+						x2={activeHover.x}
+						y2={H - PAD.bottom}
+					/>
+					<circle class="dot-hover-ring" cx={activeHover.x} cy={activeHover.y} r="7" />
+					<circle class="dot hover" cx={activeHover.x} cy={activeHover.y} r="3.5" />
+				{/if}
+
+				<!-- Period date labels -->
+				<text class="xlabel" x={14} y={H - 7} text-anchor="start">{formatDayLabel(geom.start.t)}</text>
+				<text class="xlabel" x={W - 14} y={H - 7} text-anchor="end">{formatDayLabel(geom.end.t)}</text>
+			</svg>
+		</div>
+
+		<div class="spark-footer">
+			{#if activeHover && hoverDelta}
+				<p class="spark-readout" aria-live="polite">
+					<span class="readout-date">{formatDayLabel(activeHover.p.t)}</span>
+					<span class="readout-sep">·</span>
+					<span class="readout-price">{formatMoney(activeHover.p.c, currency)}</span>
+					<span class="readout-sep">·</span>
+					<span class={['readout-delta', hoverDelta.up ? 'up' : 'down']}>
+						{formatSigned(hoverDelta.delta, 2)} ({formatPct(hoverDelta.pct)} vs window start)
+					</span>
+				</p>
+			{:else}
+				<p class="spark-readout spark-readout--muted">
+					<span>Inspect session: hover across chart</span>
+					<span class="readout-sep">·</span>
+					<span>{geom.coords.length} sessions in window</span>
+					<span class="readout-sep">·</span>
+					<span>Low {formatMoney(geom.min, currency)} — High {formatMoney(geom.max, currency)}</span>
+				</p>
+			{/if}
+		</div>
 	</figure>
 {/if}
 
 <style>
 	.spark {
-		margin: 1rem 0 0;
-		padding: 0.75rem 0.8rem 0.65rem;
-		background: var(--surface);
-		border: 1px solid var(--line);
-		border-radius: 12px;
+		margin: 0;
+		padding: 0;
+		background: transparent;
+		border: none;
+		border-radius: 0;
 		min-width: 0;
-		max-width: 100%;
+		width: 100%;
 		overflow: hidden;
 	}
 
 	.spark-head {
 		display: flex;
 		flex-wrap: wrap;
-		align-items: flex-end;
+		align-items: flex-start;
 		justify-content: space-between;
-		gap: 0.65rem 0.85rem;
-		margin-bottom: 0.55rem;
+		gap: 0.65rem 1rem;
+		padding: 1rem 1.25rem 0.65rem;
 		min-width: 0;
 	}
 
 	.spark-window {
-		display: grid;
-		gap: 0.12rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
 		min-width: 0;
 	}
 
-	.spark-window__label {
+	.spark-title-row {
+		display: flex;
+		align-items: baseline;
+		gap: 0.5rem;
+	}
+
+	.spark-tag {
+		font-size: 0.68rem;
+		font-weight: 750;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		font-size: 0.68rem;
-		font-weight: 650;
+		color: var(--accent);
+	}
+
+	.spark-dates {
+		font-size: 0.72rem;
 		color: var(--ink-4);
+		font-variant-numeric: tabular-nums;
+	}
+
+	.spark-price-row {
+		display: flex;
+		align-items: baseline;
+		flex-wrap: wrap;
+		gap: 0.45rem 0.75rem;
 	}
 
 	.spark-window__price {
 		font-family: var(--serif);
-		font-size: 1.15rem;
+		font-size: 1.25rem;
 		font-weight: 600;
 		letter-spacing: -0.02em;
 		font-variant-numeric: tabular-nums;
-		line-height: 1.15;
+		line-height: 1.1;
 		color: var(--ink);
 	}
 
 	.spark-window__chg {
-		font-size: 0.88rem;
-		font-weight: 650;
+		font-size: 0.85rem;
+		font-weight: 700;
 		font-variant-numeric: tabular-nums;
 		line-height: 1.2;
 	}
@@ -324,81 +405,82 @@
 		color: var(--down);
 	}
 
-	.spark-ranges {
-		display: flex;
-		flex-wrap: nowrap;
-		gap: 0.35rem;
-		margin: 0;
-		padding: 0;
-		min-width: 0;
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
-		scrollbar-width: none;
+	.spark-range-summary {
+		font-size: 0.74rem;
+		color: var(--ink-4);
+		font-variant-numeric: tabular-nums;
 	}
 
-	.spark-ranges::-webkit-scrollbar {
-		display: none;
+	.spark-ranges {
+		display: inline-flex;
+		align-items: center;
+		padding: 2px;
+		background: var(--surface-2);
+		border: 1px solid var(--line);
+		border-radius: var(--radius-sm);
+		gap: 2px;
 	}
 
 	.spark-chip {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		min-height: var(--tap);
-		min-width: 2.75rem;
-		padding: 0.35rem 0.72rem;
-		border: 1px solid var(--line);
-		border-radius: 999px;
-		background: var(--surface-2);
-		color: var(--ink-2);
+		min-height: 1.75rem;
+		min-width: 2.25rem;
+		padding: 0.2rem 0.55rem;
+		border: none;
+		border-radius: calc(var(--radius-sm) - 2px);
+		background: transparent;
+		color: var(--ink-3);
 		font: inherit;
-		font-size: 0.78rem;
-		font-weight: 600;
-		letter-spacing: 0.02em;
-		line-height: 1.2;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.04em;
 		cursor: pointer;
 		flex: 0 0 auto;
 		transition:
-			color 140ms ease,
-			border-color 140ms ease,
 			background-color 140ms ease,
-			transform 140ms ease;
+			color 140ms ease;
 	}
 
 	.spark-chip:hover {
 		color: var(--ink);
-		border-color: var(--accent-line);
-	}
-
-	.spark-chip:active {
-		transform: scale(0.98);
+		background: rgba(255, 255, 255, 0.04);
 	}
 
 	.spark-chip[aria-pressed='true'] {
 		background: var(--accent);
-		border-color: var(--accent);
 		color: var(--accent-ink);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	}
+
+	.spark-chart-box {
+		width: 100%;
+		position: relative;
+		overflow: hidden;
 	}
 
 	.spark-svg {
 		display: block;
 		width: 100%;
-		height: auto;
-		min-height: 120px;
-		max-height: 160px;
+		height: 180px;
 		overflow: visible;
 		touch-action: pan-y;
 		cursor: crosshair;
+		user-select: none;
+	}
+
+	.spark-svg * {
+		pointer-events: none;
 	}
 
 	.grid {
 		stroke: var(--line-soft);
 		stroke-width: 1;
-		stroke-dasharray: 3 4;
+		stroke-dasharray: 2 4;
 	}
 
 	.area {
-		fill: var(--accent-soft);
 		stroke: none;
 	}
 
@@ -416,10 +498,6 @@
 		stroke-width: 1.5;
 	}
 
-	.dot.start {
-		fill: var(--ink-3);
-	}
-
 	.dot.end.up {
 		fill: var(--up);
 	}
@@ -430,58 +508,94 @@
 
 	.dot.hover {
 		fill: var(--ink);
+		stroke: var(--accent);
+		stroke-width: 2;
+	}
+
+	.dot-hover-ring {
+		fill: none;
+		stroke: var(--accent);
+		stroke-width: 1.5;
+		opacity: 0.6;
 	}
 
 	.cross {
-		stroke: var(--ink-4);
+		stroke: var(--ink-3);
 		stroke-width: 1;
 		stroke-dasharray: 2 3;
-		opacity: 0.7;
+		opacity: 0.6;
 	}
 
 	.axis-label {
 		fill: var(--ink-4);
-		font-size: 9px;
-		font-family: var(--sans, system-ui, sans-serif);
+		font-size: 8.5px;
+		font-family: var(--mono);
 		font-variant-numeric: tabular-nums;
 	}
 
 	.xlabel {
 		fill: var(--ink-4);
-		font-size: 9px;
-		font-family: var(--sans, system-ui, sans-serif);
+		font-size: 8.5px;
+		font-family: var(--sans);
+	}
+
+	.spark-footer {
+		border-top: 1px solid var(--line-soft);
+		padding: 0.55rem 1.25rem 0.75rem;
+		background: var(--surface-2);
 	}
 
 	.spark-readout {
-		margin: 0.4rem 0 0;
-		font-size: 0.78rem;
+		margin: 0;
+		font-size: 0.76rem;
 		color: var(--ink-2);
 		font-variant-numeric: tabular-nums;
 		line-height: 1.35;
-		min-height: 1.2em;
+		min-height: 1.3em;
+		display: flex;
+		align-items: baseline;
+		flex-wrap: wrap;
+		gap: 0.35rem;
+		font-family: var(--mono);
 	}
 
-	.spark-readout--muted {
+	.readout-date {
 		color: var(--ink-3);
 	}
 
+	.readout-price {
+		font-weight: 700;
+		color: var(--ink);
+	}
+
+	.readout-delta.up {
+		color: var(--up);
+	}
+
+	.readout-delta.down {
+		color: var(--down);
+	}
+
+	.spark-readout--muted {
+		color: var(--ink-4);
+		font-family: var(--sans);
+	}
+
+	.readout-sep {
+		color: var(--line);
+	}
+
 	@media (max-width: 40rem) {
-		.spark {
-			padding: 0.7rem 0.65rem 0.55rem;
-			border-radius: 10px;
+		.spark-head {
+			padding: 0.75rem 0.85rem 0.5rem;
 		}
 
-		.spark-svg {
-			min-height: 132px;
+		.spark-footer {
+			padding: 0.45rem 0.85rem 0.65rem;
 		}
 
-		.spark-window__price {
-			font-size: 1.05rem;
-		}
-
-		.axis-label,
-		.xlabel {
-			font-size: 8px;
+		.spark-range-summary {
+			display: none;
 		}
 	}
 

@@ -8,6 +8,7 @@ import {
 	formatMoney,
 	formatPct,
 	formatSigned,
+	formatVolume,
 	domainFromUrl,
 	faviconUrl
 } from '../src/lib/format';
@@ -59,6 +60,11 @@ describe('format utilities', () => {
 		expect(formatPct(-2.5)).toBe('-2.50%');
 		expect(formatSigned(0.42, 2)).toBe('+0.42');
 		expect(formatSigned(-0.15, 2)).toBe('-0.15');
+		expect(formatVolume(7162214)).toBe('7.16M');
+		expect(formatVolume(1450000000)).toBe('1.45B');
+		expect(formatVolume(45200)).toBe('45.2K');
+		expect(formatVolume(850)).toBe('850');
+		expect(formatVolume(null)).toBe('—');
 	});
 
 	it('extracts domains from URLs and generates favicon URLs', () => {

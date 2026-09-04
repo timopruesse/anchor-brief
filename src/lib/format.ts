@@ -143,3 +143,11 @@ export function formatSigned(n: number, digits = 3): string {
 	const sign = n > 0 ? '+' : '';
 	return `${sign}${n.toFixed(digits)}`;
 }
+
+export function formatVolume(n: number | undefined | null): string {
+	if (n == null || !Number.isFinite(n) || n <= 0) return '—';
+	if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(2)}B`;
+	if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(2)}M`;
+	if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
+	return n.toLocaleString('en-US');
+}
