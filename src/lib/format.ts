@@ -35,6 +35,22 @@ export function safeHref(url: string | undefined | null): string | null {
 	return /^https?:\/\//i.test(s) ? s : null;
 }
 
+export function domainFromUrl(url: string | undefined | null): string | null {
+	const href = safeHref(url);
+	if (!href) return null;
+	try {
+		const u = new URL(href);
+		return u.hostname.replace(/^www\./, '').toLowerCase();
+	} catch {
+		return null;
+	}
+}
+
+export function faviconUrl(domain: string | null | undefined): string | null {
+	if (!domain) return null;
+	return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=32`;
+}
+
 export function toDate(iso: string | undefined | null): Date | null {
 	if (!iso) return null;
 	const d = new Date(iso);

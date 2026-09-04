@@ -1077,6 +1077,34 @@ a {
 	transform: translate(1px, -1px);
 }
 
+.source-chip__icon-wrap {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex: none;
+	width: 14px;
+	height: 14px;
+}
+
+.source-chip__favicon {
+	width: 14px;
+	height: 14px;
+	border-radius: 2px;
+	object-fit: contain;
+	display: block;
+	flex: none;
+}
+
+.source-chip__fallback {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--ink-4);
+	flex: none;
+	width: 14px;
+	height: 14px;
+}
+
 .source-chip__badge {
 	display: inline-flex;
 	align-items: center;
@@ -1092,8 +1120,16 @@ a {
 }
 
 .source-chip__badge--x {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 15px;
+	height: 15px;
+	padding: 0;
+	border-radius: 3px;
 	background: var(--ink);
 	color: var(--bg);
+	flex: none;
 }
 
 :root[data-theme='dark'] .source-chip__badge--x {

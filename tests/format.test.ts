@@ -7,7 +7,9 @@ import {
 	sortStoriesByWeight,
 	formatMoney,
 	formatPct,
-	formatSigned
+	formatSigned,
+	domainFromUrl,
+	faviconUrl
 } from '../src/lib/format';
 
 describe('format utilities', () => {
@@ -57,5 +59,16 @@ describe('format utilities', () => {
 		expect(formatPct(-2.5)).toBe('-2.50%');
 		expect(formatSigned(0.42, 2)).toBe('+0.42');
 		expect(formatSigned(-0.15, 2)).toBe('-0.15');
+	});
+
+	it('extracts domains from URLs and generates favicon URLs', () => {
+		expect(domainFromUrl('https://www.zeit.de/news/2026-09')).toBe('zeit.de');
+		expect(domainFromUrl('https://x.com/derspiegel/status/123')).toBe('x.com');
+		expect(domainFromUrl('https://berlin.de/news')).toBe('berlin.de');
+		expect(domainFromUrl('invalid-url')).toBeNull();
+		expect(domainFromUrl(null)).toBeNull();
+
+		expect(faviconUrl('zeit.de')).toBe('https://www.google.com/s2/favicons?domain=zeit.de&sz=32');
+		expect(faviconUrl(null)).toBeNull();
 	});
 });

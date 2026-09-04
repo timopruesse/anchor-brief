@@ -4,7 +4,9 @@
 		KIND_LABELS,
 		formatSourceTime,
 		gradientFor,
-		safeHref
+		safeHref,
+		domainFromUrl,
+		faviconUrl
 	} from '$lib/format';
 	import { theme } from '$lib/theme.svelte';
 	import type { Story } from '$lib/types';
@@ -53,6 +55,15 @@
 	);
 
 	const ph = $derived(gradientFor(story.id || story.title, theme.isLight));
+
+	function handleFaviconError(e: Event) {
+		const img = e.currentTarget as HTMLImageElement | null;
+		if (img) {
+			img.style.display = 'none';
+			const fb = img.nextElementSibling as HTMLElement | null;
+			if (fb) fb.style.display = 'inline-flex';
+		}
+	}
 </script>
 
 <article
@@ -152,6 +163,9 @@
 			<span class="sources__label">Sources</span>
 			<ul class="sources__list">
 				{#each sources as src (src.href + src.label)}
+					{@const domain = domainFromUrl(src.href)}
+					{@const isX = src.kind === 'x' || domain === 'x.com' || domain === 'twitter.com'}
+					{@const fav = isX ? null : faviconUrl(domain)}
 					<li class="sources__item">
 						<a
 							class="source-chip"
@@ -160,25 +174,44 @@
 							rel="noopener noreferrer"
 							target="_blank"
 						>
-							{#if src.kind === 'x'}
-								<span class="source-chip__badge source-chip__badge--x" title="Post on X">
-									<svg viewBox="0 0 24 24" width="9" height="9" fill="currentColor" aria-hidden="true">
+							{#if isX}
+								<span class="source-chip__badge source-chip__badge--x" title="Post on X" aria-label="X post">
+									<svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor" aria-hidden="true">
 										<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
 									</svg>
-									<span>X</span>
 								</span>
-							{:else if src.kind === 'primary'}
-								<span class="source-chip__badge source-chip__badge--primary" title="Primary reporting or filing">
-									<span class="primary-dot" aria-hidden="true"></span>
-									<span>Primary</span>
+							{:else if fav}
+								<span class="source-chip__icon-wrap">
+									<img
+										class="source-chip__favicon"
+										src={fav}
+										alt=""
+										width="14"
+										height="14"
+										loading="lazy"
+										decoding="async"
+										onerror={handleFaviconError}
+									/>
+									<span class="source-chip__fallback" style="display: none;" aria-hidden="true">
+										<svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+											<path d="M8 7h8M8 11h8M8 15h5"/>
+										</svg>
+									</span>
 								</span>
 							{:else}
-								<span class="source-chip__badge source-chip__badge--article" title="News reporting">
-									<svg viewBox="0 0 24 24" width="9" height="9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<span class="source-chip__fallback" aria-hidden="true">
+									<svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 										<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
 										<path d="M8 7h8M8 11h8M8 15h5"/>
 									</svg>
-									<span>Article</span>
+								</span>
+							{/if}
+
+							{#if src.kind === 'primary'}
+								<span class="source-chip__badge source-chip__badge--primary" title="Primary reporting or filing">
+									<span class="primary-dot" aria-hidden="true"></span>
+									<span>Primary</span>
 								</span>
 							{/if}
 
