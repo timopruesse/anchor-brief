@@ -213,11 +213,37 @@
       ],
       "weight": "brief",
       "facts": [
-        "Zelenskyy: US envoys (Witkoff + team) due in Ukraine and Russia in coming days",
-        "NHTSA Audit Query into Cybercab FMVSS certification still the post-Austin story; TechCrunch: under-13 ban stricter than Model Y robotaxi",
-        "Hawaii under state of emergency as Hurricane Lowell aims at western islands Monday",
-        "GoPro founder says the firm isn’t done making consumer cameras",
-        "Google Translate app gets two live-translate upgrades across 70+ languages"
+        {
+          "text": "Zelenskyy: US envoys (Witkoff + team) due in Ukraine and Russia in coming days",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "NHTSA Audit Query into Cybercab FMVSS certification still the post-Austin story; TechCrunch: under-13 ban stricter than Model Y robotaxi",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Hawaii under state of emergency as Hurricane Lowell aims at western islands Monday",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "GoPro founder says the firm isn’t done making consumer cameras",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Google Translate app gets two live-translate upgrades across 70+ languages",
+          "sourceIndexes": [
+            5
+          ]
+        }
       ],
       "whyItMatters": null,
       "image": null,
@@ -268,8 +294,18 @@
       ],
       "weight": "brief",
       "facts": [
-        "The AI Corner: Perplexity split its agent — cloud reasons, Mac keeps the secrets",
-        "Design Better: staff product designer roundup on getting used to change"
+        {
+          "text": "The AI Corner: Perplexity split its agent — cloud reasons, Mac keeps the secrets",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Design Better: staff product designer roundup on getting used to change",
+          "sourceIndexes": [
+            1
+          ]
+        }
       ],
       "whyItMatters": null,
       "image": null,
@@ -296,11 +332,38 @@
       ],
       "weight": "brief",
       "facts": [
-        "Notion MCP: Custom Agents can join the chat via ChatGPT / Claude / Grok Bot",
-        "Google AI: Gemini 3.8 Flash shipping recap (coding + agentic workflows); Lyria 3.5 music in Gemini",
-        "ProductRise: Google AI Mode shows same products ~21.6% more expensive than classic search",
-        "Satya: HydraFusion in GitHub Copilot — model orchestration over model picking",
-        "Ars: how Fairphone built the Gen 6+; svelte@5.57.0 tagged last week"
+        {
+          "text": "Notion MCP: Custom Agents can join the chat via ChatGPT / Claude / Grok Bot",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Google AI: Gemini 3.8 Flash shipping recap (coding + agentic workflows); Lyria 3.5 music in Gemini",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ProductRise: Google AI Mode shows same products ~21.6% more expensive than classic search",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Satya: HydraFusion in GitHub Copilot — model orchestration over model picking",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Ars: how Fairphone built the Gen 6+; svelte@5.57.0 tagged last week",
+          "sourceIndexes": [
+            5,
+            6
+          ]
+        }
       ],
       "whyItMatters": null,
       "image": {
