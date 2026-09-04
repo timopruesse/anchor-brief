@@ -22,7 +22,7 @@
 		LIVE_QUOTE_POLL_MS,
 		type LiveQuote
 	} from '$lib/gmeLiveQuote';
-	import type { GmeBriefing, GmeVoice, SparkPoint } from '$lib/types';
+	import type { GmeBriefing, SparkPoint } from '$lib/types';
 
 	interface Props {
 		briefing: GmeBriefing;
@@ -35,35 +35,8 @@
 	const fmt = $derived(makeFormatters(briefing.timezone ?? 'Europe/Berlin'));
 	const snapshotAsOf = $derived(toDate(snapshot?.asOf));
 	const community = $derived(normalizeCommunity(briefing.community));
-
-	/** Prefer `voices`; else wrap legacy `cohen` as a single Ryan Cohen voice. */
-	const voices = $derived.by((): GmeVoice[] => {
-		if (briefing.voices?.length) return briefing.voices;
-		const cohen = briefing.cohen;
-		if (!cohen) return [];
-		return [
-			{
-				handle: cohen.handle || 'ryancohen',
-				userId: cohen.userId,
-				name: 'Ryan Cohen',
-				lastPostAt: cohen.lastPostAt,
-				lastPostUrl: cohen.lastPostUrl,
-				lastPostText: cohen.lastPostText,
-				quiet: cohen.quiet
-			}
-		];
-	});
-	const showCommunity = $derived(Boolean(community) || voices.length > 0);
-
-	function truncateText(text: string, max = 160): string {
-		const t = text?.trim() ?? '';
-		if (t.length <= max) return t;
-		return `${t.slice(0, max - 1).trimEnd()}…`;
-	}
-
-	function isQuiet(quiet: GmeVoice['quiet']): boolean {
-		return Boolean(quiet) && quiet !== 'false' && quiet !== '0';
-	}
+	const cohen = $derived(briefing.cohen);
+	const showCommunity = $derived(Boolean(community) || Boolean(cohen));
 
 	let live = $state.raw<LiveQuote | null>(null);
 	let liveStatus = $state<'idle' | 'loading' | 'ok' | 'error'>('idle');
@@ -321,43 +294,22 @@
 				{/if}
 			{/if}
 
-			{#if voices.length}
-				<div class="voices">
-					<h3 class="voices-label">X voices</h3>
-					<ul class="voices-list">
-						{#each voices as voice (voice.userId || voice.handle)}
-							<li class="voice">
-								<div class="voice-head">
-									<span class="voice-name">
-										{voice.name?.trim() || `@${voice.handle}`}
-									</span>
-									{#if voice.role?.trim()}
-										<span class="voice-role">{voice.role.trim()}</span>
-									{/if}
-									{#if isQuiet(voice.quiet)}
-										<span class="quiet">Quiet</span>
-									{/if}
-								</div>
-								{#if voice.name?.trim()}
-									<p class="voice-handle">@{voice.handle}</p>
-								{/if}
-								{#if safeHref(voice.lastPostUrl)}
-									<p class="voice-post">
-										<a href={safeHref(voice.lastPostUrl)!} rel="noopener noreferrer" target="_blank"
-											>last post</a
-										>
-										{#if voice.lastPostText}
-											<span class="voice-text"> — {truncateText(voice.lastPostText)}</span>
-										{/if}
-									</p>
-								{:else if voice.lastPostText}
-									<p class="voice-post">
-										<span class="voice-text">{truncateText(voice.lastPostText)}</span>
-									</p>
-								{/if}
-							</li>
-						{/each}
-					</ul>
+			{#if cohen}
+				<div class="cohen">
+					{#if cohen.quiet}
+						<div class="quiet">Quiet since last post</div>
+					{/if}
+					<p class="cohen__handle">
+						@{cohen.handle}
+						{#if safeHref(cohen.lastPostUrl)}
+							— <a href={safeHref(cohen.lastPostUrl)!} rel="noopener noreferrer" target="_blank"
+								>last post</a
+							>
+						{/if}
+					</p>
+					{#if cohen.lastPostText}
+						<p class="cohen__text">{cohen.lastPostText}</p>
+					{/if}
 				</div>
 			{/if}
 		</section>

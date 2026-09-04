@@ -66,19 +66,6 @@ export interface SparkPoint {
 	c: number;
 }
 
-/** One X account on the GME desk watchlist. */
-export interface GmeVoice {
-	handle: string;
-	userId: string;
-	name?: string;
-	role?: string;
-	lastPostAt: string;
-	lastPostUrl: string;
-	lastPostText: string;
-	quiet?: boolean | string;
-}
-
-/** Ryan Cohen mirror for older JSON — prefer `voices` when present. */
 export interface Cohen {
 	handle: string;
 	userId: string;
@@ -139,9 +126,6 @@ export interface GmeBriefing {
 	disclaimer?: string;
 	quote: Quote;
 	sparkline: SparkPoint[];
-	/** Multi-account X watchlist — Anchor fills from X at briefing time. */
-	voices?: GmeVoice[];
-	/** Ryan Cohen mirror for older JSON / backward compatibility. */
 	cohen?: Cohen;
 	/** Prefer CommunitySnapshot. Legacy editions may still ship a bare posts array — soft-handled at render. */
 	community?: CommunitySnapshot | CommunityPost[];
