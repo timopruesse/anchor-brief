@@ -113,7 +113,7 @@
 />
 
 <main class="wrap" id="main">
-	<section class="hero" style="padding-bottom: 0.4rem;">
+	<section class="hero gme-hero">
 		<div class="gme-quote">
 			<div class="gme-price">
 				{display ? formatMoney(display.price, display.currency) : '—'}
@@ -198,12 +198,7 @@
 					</ul>
 				{/if}
 				{#if story.whyItMatters}
-					<p
-						class="why"
-						style="border:0;background:transparent;padding:0;margin-top:0.7rem;color:var(--ink-3);font-size:0.9rem;"
-					>
-						{story.whyItMatters}
-					</p>
+					<p class="gme-why">{story.whyItMatters}</p>
 				{/if}
 				{#if story.sources?.length}
 					<nav class="sources" aria-label="Sources">
@@ -273,24 +268,26 @@
 						{#each community.posts as post (post.permalink || post.title)}
 							<li data-kind={post.kind}>
 								<span class="kind-pill">{COMMUNITY_KIND_LABELS[post.kind]}</span>
-								{#if safeHref(post.permalink)}
-									<a href={safeHref(post.permalink)!} rel="noopener noreferrer" target="_blank">
+								<span class="comm-post__body">
+									{#if safeHref(post.permalink)}
+										<a href={safeHref(post.permalink)!} rel="noopener noreferrer" target="_blank">
+											{post.title}
+										</a>
+									{:else}
 										{post.title}
-									</a>
-								{:else}
-									{post.title}
-								{/if}
-								<span class="meta"> · r/{post.subreddit}</span>
-								{#if safeHref(post.url)}
-									<a
-										class="outbound"
-										href={safeHref(post.url)!}
-										rel="noopener noreferrer"
-										target="_blank"
-									>
-										outbound
-									</a>
-								{/if}
+									{/if}
+									<span class="meta">r/{post.subreddit}</span>
+									{#if safeHref(post.url)}
+										<a
+											class="outbound"
+											href={safeHref(post.url)!}
+											rel="noopener noreferrer"
+											target="_blank"
+										>
+											outbound
+										</a>
+									{/if}
+								</span>
 							</li>
 						{/each}
 					</ul>
@@ -302,7 +299,7 @@
 					{#if cohen.quiet}
 						<div class="quiet">Quiet since last post</div>
 					{/if}
-					<p style="margin:0.35rem 0;">
+					<p class="cohen__handle">
 						@{cohen.handle}
 						{#if safeHref(cohen.lastPostUrl)}
 							— <a href={safeHref(cohen.lastPostUrl)!} rel="noopener noreferrer" target="_blank"
@@ -311,14 +308,14 @@
 						{/if}
 					</p>
 					{#if cohen.lastPostText}
-						<p style="margin:0;color:var(--ink-2);font-size:0.9rem;">{cohen.lastPostText}</p>
+						<p class="cohen__text">{cohen.lastPostText}</p>
 					{/if}
 				</div>
 			{/if}
 		</section>
 	{/if}
 
-	<footer class="foot" style="margin-top:0;">
+	<footer class="foot gme-foot">
 		<p>{briefing.disclaimer || "Today's read from the news, not investment advice."}</p>
 		<p>
 			Briefing quote via Yahoo Finance (snapshot). Live price is a delayed client-side poll of

@@ -18,8 +18,8 @@
 
 <Masthead showArchive={false} />
 
-<div class="wrap" style="padding-top:1rem;" id="archive-main">
-	<p style="margin:0;">
+<div class="wrap archive-jump" id="archive-main">
+	<p>
 		<a class="nav-link nav-link--ghost" href={resolve('/')}>← Latest briefing</a>
 	</p>
 </div>
