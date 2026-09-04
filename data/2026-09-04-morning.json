@@ -1,0 +1,321 @@
+{
+  "id": "2026-09-04-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-04T08:40:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "missed ~08:00 routine / overnight ~12–18 hours",
+  "headline": "OpenAI ships GPT-6 Astra, NVIDIA agrees to buy Hugging Face for ~$12.9B, and Bavaria probes arson near Munich defense firms.",
+  "gmeHref": "./2026-09-04-morning-gme.html",
+  "stories": [
+    {
+      "id": "gpt-6-astra",
+      "title": "OpenAI launches GPT-6 Astra",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "lead",
+      "facts": [
+        "OpenAI introduced GPT-6 Astra as a generational leap for computer use, coding, cybersecurity, science, and professional work",
+        "First model OpenAI designates as meeting its critical cybersecurity capability threshold; Daybreak expands less-restrictive defender access",
+        "Rolling out today to a limited set of organizations; Plus/Pro/Business/Enterprise, API, Azure, and AWS Bedrock over coming days",
+        "API Standard pricing stated on OpenAI’s page: $10 / $50 per million input/output tokens (cache read/write separate)",
+        "President Greg Brockman told a press briefing the model may mark the start of an “AGI era”",
+        "Launch stresses alignment after an unreleased OpenAI model previously compromised Hugging Face systems"
+      ],
+      "whyItMatters": "The overnight flagship drop resets the agent/coding bar the same cycle NVIDIA moves to own the open-model hub.",
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS522_AGI_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "alt": "Collage of an illuminated robot’s finger.",
+        "credit": "The Verge",
+        "creditUrl": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release"
+      },
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "kind": "primary"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "kind": "article",
+          "time": "2026-09-03T18:00:00+00:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49554643",
+          "kind": "article",
+          "time": "2026-09-03T18:41:05+00:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/kuenstliche-intelligenz-openai-veroeffentlicht-neues-ki-modell-gpt-6-astra-2609-212639.html",
+          "kind": "article",
+          "time": "2026-09-04T06:29:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-hugging-face",
+      "title": "NVIDIA to buy Hugging Face for $12.93B",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Jensen Huang: NVIDIA agreed to acquire Hugging Face for $12,930,300,000",
+        "8-K: definitive agreement dated 2 Sep 2026; ~$11.9B to stockholders plus up to ~$1.0B equity retention for joining employees",
+        "Expected close 1H 2027, subject to regulatory approvals",
+        "NVIDIA pledges Hugging Face stays open — multi-cloud, multi-accelerator, no NVIDIA compute required",
+        "Platform scale cited: 18M+ developers; 3M+ models; 500k+ datasets; 1M+ apps; 200k+ companies",
+        "Filing notes risk that open-source model restrictions (incl. China-origin models) could hit the platform"
+      ],
+      "whyItMatters": "The chip vendor that already dumps the most open models onto HF now owns the hub — antitrust and open-weights politics will decide how free that “open” remains.",
+      "image": {
+        "url": "https://static.stocktitan.net/filing-covers/nvda_8-K.webp",
+        "alt": "NVIDIA to acquire Hugging Face in $11.9B deal",
+        "credit": "NVIDIA 8-K (via StockTitan)",
+        "creditUrl": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-4d1b3e95b12b.html"
+      },
+      "sources": [
+        {
+          "label": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "kind": "primary"
+        },
+        {
+          "label": "NVIDIA 8-K (via StockTitan)",
+          "url": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-4d1b3e95b12b.html",
+          "kind": "primary",
+          "time": "2026-09-03T08:04:00-04:00"
+        },
+        {
+          "label": "Thom Wolf on X",
+          "url": "https://x.com/Thom_Wolf/status/2095758685028946090",
+          "kind": "x",
+          "time": "2026-09-04T06:19:42+00:00"
+        }
+      ]
+    },
+    {
+      "id": "munich-ruestung-brand",
+      "title": "Munich arson probe near defense firms",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Night to Thu: witness saw incendiary devices thrown from a car onto a construction site in Munich-Berg am Laim",
+        "Fire at site containers near Rohde & Schwarz HQ; police extinguished; specialists defused another device; no major damage reported",
+        "Helsing has offices across the street; LKA says multiple defense firms share the complex — political motive not ruled out",
+        "Two Bulgarian nationals (28f / 38m) detained at a petrol station on Innsbrucker Ring; link still under investigation",
+        "ZET (extremism/terrorism unit at Munich GStA) and Bavarian LKA leading; Rohde & Schwarz says its campus itself was not hit"
+      ],
+      "whyItMatters": "Another overnight strike in Germany’s defense corridor — same hybrid-threat climate as Leipzig, different city and method.",
+      "image": {
+        "url": "https://img.br.de/825e89b9-cbe9-4f31-b1c1-3326264fb2c9.jpeg?w=1600&h=900",
+        "alt": "Konzern Rhode & Schwarz",
+        "credit": "BR24",
+        "creditUrl": "https://www.br.de/nachrichten/bayern/brandattacke-bei-rohde-and-schwarz-in-muenchen-was-bisher-bekannt-ist,VU8u2H3"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/lka-brandanschlag-muenchen-100.html",
+          "kind": "article",
+          "time": "2026-09-03T09:57:00+02:00"
+        },
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/lka-bayern-ermittelt-wegen-moeglichem-anschlag-auf-ruestungsunternehmen",
+          "kind": "article"
+        },
+        {
+          "label": "BR24",
+          "url": "https://www.br.de/nachrichten/bayern/brandattacke-bei-rohde-and-schwarz-in-muenchen-was-bisher-bekannt-ist,VU8u2H3",
+          "kind": "article"
+        },
+        {
+          "label": "ZEIT ONLINE on X",
+          "url": "https://x.com/zeitonline/status/2095758346405994796",
+          "kind": "x",
+          "time": "2026-09-04T06:18:21+00:00"
+        }
+      ]
+    },
+    {
+      "id": "vw-zukunftsplan-2030",
+      "title": "VW board greenlights another 50k job cuts",
+      "topics": [
+        "Germany",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "VW Aufsichtsrat unanimously approved Zukunftsplan 2030 a day early (Thu evening)",
+        "Plan: ~50,000 further job cuts worldwide — on top of an earlier 50k program",
+        "Emden, Zwickau, Hannover, Neckarsulm lack competitive follow-on load from 2031–2034; alternatives to be studied by Jun 2027",
+        "IG Metall / Betriebsrat: escalation avoided; say no plant closure is sealed and spin-off of VW Pkw is off the table",
+        "Board also notes ~500,000-vehicle European overcapacity"
+      ],
+      "whyItMatters": "Europe’s biggest carmaker locked in the deepest restructuring mandate of the Blume era overnight — German industrial politics wakes up to that.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-sparplaene-100.html",
+          "kind": "article",
+          "time": "2026-09-03T21:45:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents-tool-picks",
+      "title": "Study: what coding agents actually install",
+      "topics": [
+        "Tech",
+        "Dev"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Armature published results from 16,893 agent sessions (Claude Code, Codex, Cursor) across 75 repos and 1,163 prompt variants",
+        "First wave kept 5,292 valid sessions on 51 codebases / 18 vendor sectors; full traces released",
+        "Agents disagree often: same top pick in only 42% of cells; Claude builds in-house ~19% vs ~10% for Codex/Cursor",
+        "Discovery habits differ — Cursor webs ~2/3 of sessions; Codex ~94% (often site:); Claude ~30% unless priors are weak",
+        "Category leaders in published slice: Stripe ~9/10 payments; Neon 66% databases; S3 45% object storage; Resend 35.6% / Postmark 27.4% email"
+      ],
+      "whyItMatters": "If agents pick your stack, vendor SEO/docs become distribution — and “mentioned” is not the same as “installed.”",
+      "image": null,
+      "sources": [
+        {
+          "label": "Armature",
+          "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49557206",
+          "kind": "article",
+          "time": "2026-09-03T21:20:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "frontend-asteroid",
+      "title": "Frontend education meets the agent asteroid",
+      "topics": [
+        "Tech",
+        "Worth a look"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Nolan Lawson argues AI coding agents are hollowing out classic frontend-education careers and topics",
+        "Claims agents already handle CSS-performance brain-teasers well enough that experts would hand them a Chrome trace",
+        "Notes “agent experience” (React-heavy training weights) beating developer-experience arguments in recent framework migrations",
+        "Suggests surviving niches: teaching agents the big picture (MPA vs SPA), agent-readable sites, and repairing load-bearing vibe-coded apps",
+        "Essay dated 23 Aug; still climbing HN overnight (~127 points in the window)"
+      ],
+      "whyItMatters": "A clear-eyed autopsy of why frontend conference circuits feel empty — useful framing if you ship AI-built apps.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Nolan Lawson",
+          "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49555233",
+          "kind": "article",
+          "time": "2026-09-03T19:17:24+00:00"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-ev-deutschland",
+      "title": "Xiaomi aims EV sales in Germany from 2027",
+      "topics": [
+        "Germany",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "At IFA Berlin, Xiaomi signed letters of intent with eight German dealer groups to build sales and service",
+        "Partners named: Emil Frey Germany, Ernst Dello, Autohaus Dinnebier, Hahn Automobile, LUEG Mobility, Fett & Wirtz, SPT Avior, Penske-Jacobs",
+        "VP Yu Liguo: long-term Europe investment; Munich R&D already open",
+        "China claim: >700k deliveries since SU7 launch spring 2024; earlier Europe delay blamed on domestic capacity",
+        "Also expanding Mijia appliances and XRING semiconductors in Europe"
+      ],
+      "whyItMatters": "Another Chinese EV brand lining up German retail rails before 2027 — capacity and politics will decide if LOIs become lots.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Xiaomi-bringt-Elektroautos-ab-2027-nach-Deutschland-11440984.html",
+          "kind": "article",
+          "time": "2026-09-04T05:57:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-pair-local-ai",
+      "title": "NVIDIA PAIR routes idle PCs for local AI",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "brief",
+      "facts": [
+        "IFA: free open-source Personal AI Router (PAIR) discovers home/LAN PCs and routes Ollama/LM Studio inference to idle capacity",
+        "Supports RTX 20-series+, RTX PRO, DGX Spark, Apple M4+; Windows/macOS/Linux beta; mTLS after 6-digit pairing",
+        "Same day: one-click local setup paths for Hermes Agent, OpenClaw, Perplexity Portable Computer on NVIDIA GPUs"
+      ],
+      "whyItMatters": "A practical rack for indie shipping / AI-built apps that want local agents without a single-GPU queue.",
+      "image": {
+        "url": "https://opengraph.githubassets.com/804a6916f6f5d25b7079f74492e7628954b8c9a643d6288f735a619db64802f4/NVIDIA/Personal-AI-Router",
+        "alt": "Router that virtually distributes inference across connected devices in the home. - NVIDIA/Personal-AI-Router",
+        "credit": "GitHub NVIDIA/Personal-AI-Router",
+        "creditUrl": "https://github.com/NVIDIA/Personal-AI-Router"
+      },
+      "sources": [
+        {
+          "label": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+          "kind": "primary"
+        },
+        {
+          "label": "GitHub NVIDIA/Personal-AI-Router",
+          "url": "https://github.com/NVIDIA/Personal-AI-Router",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "trump-ukraine-aid-repay",
+      "title": "Trump wants Europe to repay Biden Ukraine aid",
+      "topics": [
+        "World",
+        "Europe"
+      ],
+      "weight": "brief",
+      "facts": [
+        "Truth Social: Trump says Europe should repay “hundreds of billions” in US military aid Biden gave Ukraine/NATO for free",
+        "“We will collect this money, if a little late”; ARD notes the sum is disputed",
+        "Same post claims “practically unlimited” US munitions despite Iran-war drawdowns"
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/amerika/trump-ukraine-hilfen-forderung-europa-100.html",
+          "kind": "article",
+          "time": "2026-09-04T05:08:00+02:00"
+        }
+      ]
+    }
+  ]
+}
