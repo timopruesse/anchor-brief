@@ -2,11 +2,11 @@
   "id": "2026-09-04-morning-gme",
   "parentId": "2026-09-04-morning",
   "edition": "morning",
-  "generatedAt": "2026-09-04T08:40:00+02:00",
+  "generatedAt": "2026-09-04T08:45:00+02:00",
   "timezone": "Europe/Berlin",
-  "headline": "GME finished Wed near $19.23 (+1.37%) — Superstonk silent in the window, Cohen still quiet.",
-  "stance": "quiet",
-  "stanceWhy": "US cash session closed green near $19.23 with no fresh company news. Superstonk returned zero posts in the 24h snapshot (Reddit rate-limited), and Ryan Cohen’s last original post remains 4 July — temperature without a catalyst.",
+  "headline": "GME closed $19.23 (+1.37%); Cohen 13D/A resets stake to 8.3% with no shares sold.",
+  "stance": "mixed",
+  "stanceWhy": "Green close and a clean \"I didn't sell\" 13D after the convertible-note share count rose — math dilution, not an exit. Cohen still silent on X since 4 July; Superstonk is filing-watching, not thesis-shifting.",
   "disclaimer": "Today's read from the news, not investment advice.",
   "quote": {
     "symbol": "GME",
@@ -535,30 +535,83 @@
     {
       "t": "2026-09-02",
       "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
     }
   ],
   "cohen": {
     "handle": "ryancohen",
     "userId": "1146058067244486656",
-    "lastPostAt": "2026-07-04T16:29:35.000Z",
+    "lastPostAt": "2026-07-04T16:29:35+00:00",
     "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
     "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸🫡",
     "quiet": true
   },
   "community": {
-    "asOf": "2026-09-04T08:39:56.502138+02:00",
+    "asOf": "2026-09-04T08:41:05.205169+02:00",
     "windowHours": 24,
     "totals": {
-      "posts": 0,
-      "withOutbound": 0
+      "posts": 10,
+      "withOutbound": 3
     },
     "byKind": {
       "dd": 0,
       "daily": 0,
-      "news": 0,
-      "junk": 0
+      "news": 3,
+      "junk": 7
     },
-    "posts": [],
+    "posts": [
+      {
+        "title": "SEC Proposes Removing Political Contribution Rule for Investment Advisers",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6mh42/sec_proposes_removing_political_contribution_rule/",
+        "url": "https://www.sec.gov/newsroom/speeches-statements/aktins-statement-proposal-rescind-pay-play-rule-090326-statement-proposal-rescind-pay-play-rule",
+        "updated": "2026-09-03T22:35:04+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "New 13D! Wut mean?",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6mr1x/new_13d_wut_mean/",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326380/000092189526002474/xslSCHEDULE_13D_X02/primary_doc.xml",
+        "updated": "2026-09-03T22:46:16+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "Ryan Cohen Files Updated 13D - No Shares Sold, Ownership Drops to 8.3% Following Convertible-Note Exchange - HODL",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6ruz5/ryan_cohen_files_updated_13d_no_shares_sold/",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326380/000092189526002474/xslSCHEDULE_13D_X02/primary_doc.xml",
+        "updated": "2026-09-04T02:35:41+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "When Volume?",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6hse9/when_volume/",
+        "url": null,
+        "updated": "2026-09-03T19:40:44+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "+1.37%/26¢ • GameStop Closing Price $19.23 – Market Cap $8.63 Billion (Thursday, September 3, 2026)",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6id9z/13726_gamestop_closing_price_1923_market_cap_863/",
+        "url": null,
+        "updated": "2026-09-03T20:00:52+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "The Y/Y Numbers Don’t Lie",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6iybg/the_yy_numbers_dont_lie/",
+        "url": null,
+        "updated": "2026-09-03T20:21:29+00:00",
+        "kind": "junk"
+      }
+    ],
     "history": [
       {
         "date": "2026-09-03",
@@ -570,29 +623,29 @@
       },
       {
         "date": "2026-09-04",
-        "posts": 0,
+        "posts": 10,
         "dd": 0,
         "daily": 0,
-        "news": 0,
-        "junk": 0
+        "news": 3,
+        "junk": 7
       }
     ]
   },
   "stories": [
     {
       "id": "price-morning",
-      "title": "Wed close near $19.23",
+      "title": "Thursday close $19.23",
       "topics": [
         "GME"
       ],
       "weight": "lead",
       "facts": [
-        "Last: $19.23 (+0.42 / +1.371%)",
+        "Last: $19.23 (+$0.42 / +1.37%)",
         "Day range $19.0–$19.39; prev close $18.81",
         "Volume 7,162,214; 52-week $17.79–$28.1",
         "Quote as of 2026-09-03T20:00:02+00:00 via Yahoo Finance"
       ],
-      "whyItMatters": "Green finish into the overnight window — still range-bound under the $28 52-week high.",
+      "whyItMatters": "Second green session into the convertible-exchange settle — volume picked up vs Wednesday.",
       "image": null,
       "sources": [
         {
@@ -604,49 +657,56 @@
       ]
     },
     {
-      "id": "community-quiet",
-      "title": "Community: empty Superstonk window",
+      "id": "cohen-13d-a15",
+      "title": "Cohen 13D/A: 8.3%, no sales",
       "topics": [
+        "Filings",
         "Community"
       ],
       "weight": "normal",
       "facts": [
-        "gme.py Superstonk snapshot: 0 posts in 24h (byKind all zeros)",
-        "History: 3 Sep had 8 posts (1 daily, 1 news, 6 junk); 4 Sep so far empty",
-        "Reddit returned HTTP 429 during the pull — treat silence as missing data, not bearish proof"
+        "Amendment No. 15 filed 3 Sep: still 42,082,626 shares beneficially owned (incl. 3,734,784 warrant shares)",
+        "Ownership % now 8.3% on 504,500,979 shares outstanding — down from ~9.3% after note exchanges",
+        "Filing text: triggered solely by more shares outstanding; \"Reporting Person has not sold any Shares\"; no transactions in past 60 days",
+        "Exchange backdrop: ~$1.4B notes → ~55.5M shares + ~$358.4M cash"
       ],
-      "whyItMatters": "Sentiment, not reporting — and today the thermometer is broken.",
+      "whyItMatters": "Dilution arithmetic, not an insider dump — community treated it as confirmation rather than a sell signal.",
       "image": null,
       "sources": [
         {
-          "label": "r/Superstonk",
-          "url": "https://www.reddit.com/r/Superstonk/",
-          "kind": "article"
+          "label": "StockTitan (13D/A summary)",
+          "url": "https://www.stocktitan.net/sec-filings/GME/schedule-13d-a-game-stop-corp-amended-major-shareholder-report-b4e23911c195.html",
+          "kind": "primary"
+        },
+        {
+          "label": "Superstonk (13D thread)",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1w6ruz5/ryan_cohen_files_updated_13d_no_shares_sold/",
+          "kind": "article",
+          "time": "2026-09-04T04:35:41+02:00"
         }
       ]
     },
     {
       "id": "cohen-quiet",
-      "title": "Ryan Cohen still quiet",
+      "title": "Ryan Cohen still quiet on X",
       "topics": [
         "Cohen"
       ],
       "weight": "brief",
       "facts": [
-        "Last original post 4 Jul 2026 (quoted send-off / “see you in February”)",
-        "No new posts in the overnight X pull"
+        "Last original post 4 Jul 2026 (Bell/February message); no new posts overnight"
       ],
       "whyItMatters": null,
       "image": null,
       "sources": [
         {
-          "label": "Ryan Cohen on X",
+          "label": "@ryancohen",
           "url": "https://x.com/ryancohen/status/2073444118538359104",
           "kind": "x",
-          "time": "2026-07-04T16:29:35.000Z"
+          "time": "2026-07-04T18:29:35+02:00"
         }
       ]
     }
   ],
-  "coverage": "session close + Superstonk window"
+  "coverage": "since last night / last ~12 hours"
 }
