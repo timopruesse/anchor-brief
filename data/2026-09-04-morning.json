@@ -1,10 +1,10 @@
 {
   "id": "2026-09-04-morning",
   "edition": "morning",
-  "generatedAt": "2026-09-04T08:45:00+02:00",
+  "generatedAt": "2026-09-04T08:50:00+02:00",
   "timezone": "Europe/Berlin",
   "coverage": "since last night / last ~12 hours",
-  "headline": "OpenAI ships GPT-6 Astra into the AGI debate, Tesla opens Cybercab rides in Austin, and Berlin's ransomware deadline hits today.",
+  "headline": "OpenAI ships GPT-6 Astra, NVIDIA locks in Hugging Face for $12.93B, and Germany juggles Berlin ransomware plus a Munich defense-site arson probe.",
   "gmeHref": "./2026-09-04-morning-gme.html",
   "stories": [
     {
@@ -75,6 +75,49 @@
       ]
     },
     {
+      "id": "nvidia-hugging-face",
+      "title": "NVIDIA to buy Hugging Face for $12.93B",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Jensen Huang: NVIDIA agreed to acquire Hugging Face for $12,930,300,000",
+        "8-K: definitive agreement dated 2 Sep 2026; ~$11.9B to stockholders plus up to ~$1.0B equity retention for joining employees",
+        "Expected close 1H 2027, subject to regulatory approvals",
+        "NVIDIA pledges Hugging Face stays open — multi-cloud, multi-accelerator, no NVIDIA compute required",
+        "Platform scale cited: 18M+ developers; 3M+ models; 500k+ datasets; 1M+ apps; 200k+ companies",
+        "Filing notes risk that open-source model restrictions (incl. China-origin models) could hit the platform"
+      ],
+      "whyItMatters": "The chip vendor that already dumps the most open models onto HF now owns the hub — antitrust and open-weights politics will decide how free that “open” remains.",
+      "image": {
+        "url": "https://static.stocktitan.net/filing-covers/nvda_8-K.webp",
+        "alt": "NVIDIA to acquire Hugging Face in $11.9B deal",
+        "credit": "NVIDIA 8-K (via StockTitan)",
+        "creditUrl": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-4d1b3e95b12b.html"
+      },
+      "sources": [
+        {
+          "label": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "kind": "primary"
+        },
+        {
+          "label": "NVIDIA 8-K (via StockTitan)",
+          "url": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-4d1b3e95b12b.html",
+          "kind": "primary",
+          "time": "2026-09-03T08:04:00-04:00"
+        },
+        {
+          "label": "Thom Wolf on X",
+          "url": "https://x.com/Thom_Wolf/status/2095758685028946090",
+          "kind": "x",
+          "time": "2026-09-04T06:19:42+00:00"
+        }
+      ]
+    },
+    {
       "id": "tesla-cybercab-austin",
       "title": "Tesla opens Cybercab rides in Austin",
       "topics": [
@@ -107,6 +150,47 @@
           "url": "https://x.com/aelluswamy/status/2095758417323270513",
           "kind": "x",
           "time": "2026-09-04T08:18:38+02:00"
+        }
+      ]
+    },
+    {
+      "id": "munich-ruestung-brand",
+      "title": "Munich arson probe near defense firms",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Night to Thu: witness saw incendiary devices thrown from a car onto a construction site in Munich-Berg am Laim",
+        "Fire at site containers near Rohde & Schwarz HQ; police extinguished; specialists defused another device; no major damage reported",
+        "Helsing has offices across the street; LKA says multiple defense firms share the complex — political motive not ruled out",
+        "Two Bulgarian nationals (28f / 38m) detained at a petrol station on Innsbrucker Ring; link still under investigation",
+        "ZET (extremism/terrorism unit at Munich GStA) and Bavarian LKA leading; Rohde & Schwarz says its campus itself was not hit"
+      ],
+      "whyItMatters": "Another overnight strike in Germany’s defense corridor — same hybrid-threat climate as Leipzig, different city and method.",
+      "image": {
+        "url": "https://img.br.de/825e89b9-cbe9-4f31-b1c1-3326264fb2c9.jpeg?w=1600&h=900",
+        "alt": "Konzern Rhode & Schwarz",
+        "credit": "BR24",
+        "creditUrl": "https://www.br.de/nachrichten/bayern/brandattacke-bei-rohde-and-schwarz-in-muenchen-was-bisher-bekannt-ist,VU8u2H3"
+      },
+      "sources": [
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/lka-bayern-ermittelt-wegen-moeglichem-anschlag-auf-ruestungsunternehmen",
+          "kind": "article"
+        },
+        {
+          "label": "BR24",
+          "url": "https://www.br.de/nachrichten/bayern/brandattacke-bei-rohde-and-schwarz-in-muenchen-was-bisher-bekannt-ist,VU8u2H3",
+          "kind": "article"
+        },
+        {
+          "label": "ZEIT ONLINE on X",
+          "url": "https://x.com/zeitonline/status/2095758346405994796",
+          "kind": "x",
+          "time": "2026-09-04T06:18:21+00:00"
         }
       ]
     },
