@@ -148,7 +148,7 @@ Default accounts Anchor will populate (documentation only — not hardcoded post
 | handle | userId | name | role |
 |--------|--------|------|------|
 | `ryancohen` | `1146058067244486656` | Ryan Cohen | CEO |
-| `larrycheng` | `14506006` | Larry Cheng | Board |
+| `larryvc` | `26281090` | Larry Cheng | Board |
 | `TheRoaringKitty` | `2902349190` | Roaring Kitty | Community |
 
 `TheRoaringKitty` is the real Keith Gill account. Do **not** confuse it with `@RoaringKitty`, which is unaffiliated.
