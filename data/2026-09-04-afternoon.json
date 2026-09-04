@@ -1,0 +1,279 @@
+{
+  "id": "2026-09-04-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-04T14:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning / last ~6 hours",
+  "headline": "Berlin’s Rhysida auction window closes this afternoon, police fan out after grid-sabotage letters, VW’s board locks in ~50k cuts, and NHTSA opens a Cybercab audit hours after Austin rides began.",
+  "gmeHref": "./2026-09-04-afternoon-gme.html",
+  "stories": [
+    {
+      "id": "berlin-rhysida-auction",
+      "title": "Berlin Rhysida auction ends this afternoon",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Rhysida’s darknet auction of claimed ~5.7–5.8 TB Berlin admin data runs to Friday afternoon; minimum bid 30 BTC (~€2M)",
+        "Senate Press Office (4 Sep): publication of stolen data “cannot be ruled out,” possibly as early as today",
+        "CDO Florian Hauer: “The State of Berlin will not give in to blackmail”; no sign the state network remains compromised",
+        "Personal data of state employees, citizens and businesses may be affected; victims told to report via Berlin Police helpdesk",
+        "CCC’s Joachim Selzer expects at least partial publication if Berlin does not pay; Senat still refuses"
+      ],
+      "whyItMatters": "The morning briefing’s deadline is now live — Germany’s capital is hours from either a quiet miss or a mass data dump.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Berlin.de (Senate)",
+          "url": "https://www.berlin.de/en/news/10611709-5559700-cyberattack-on-the-national-network-data.en.html",
+          "kind": "primary",
+          "time": "2026-09-04T00:00:00+02:00"
+        },
+        {
+          "label": "DIE ZEIT (dpa)",
+          "url": "https://www.zeit.de/news/2026-09/04/hackerangriff-in-berlin-ultimatum-der-erpresser-laeuft-ab",
+          "kind": "article",
+          "time": "2026-09-04T04:01:00+02:00"
+        },
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-hackerangriff-auf-berliner-landesnetz-auch-buerger-daten-wohl-betroffen-100.html",
+          "kind": "article",
+          "time": "2026-09-03T19:59:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "umspannwerk-sabotage",
+      "title": "Grid sabotage letters send police to more substations",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Thu evening: walker finds suspected launch devices at a Dormagen (NRW) substation — same style as Bergheim cable-shooting attacks; police call it sabotage, no damage there",
+        "Bekennerschreiben (postmarked NRW) claim Brandenburg + NRW hits; author said to be a man from Gevelsberg — police checking suspect vs. copycat",
+        "Fri morning: forensics in protective gear search fields/scrub near Weisweiler power plant / Eschweiler substation after the letter named that site",
+        "Overnight/Fri: police + EWE check Ganderkesee (Lower Saxony) after an irregularity on plant grounds — EWE: no confirmed manipulation, no supply impact",
+        "Brandenburg interior ministry earlier flagged coordinated Kritische-Infrastruktur risk after Jänschwalde/Bergheim"
+      ],
+      "whyItMatters": "A second hybrid-pressure storyboard beside Berlin’s ransomware clock — physical shots at the grid while digital extortion runs in the capital.",
+      "image": null,
+      "sources": [
+        {
+          "label": "n-tv (dpa)",
+          "url": "https://www.n-tv.de/politik/Sabotage-an-Umspannwerken-Polizei-jagt-moeglichen-Taeter-id31268629.html",
+          "kind": "article",
+          "time": "2026-09-04T11:48:00+02:00"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/inland/polizei-spricht-von-sabotage-an-umspannwerk-in-dormagen-accg-201190271.html",
+          "kind": "article",
+          "time": "2026-09-04T05:21:00+02:00"
+        },
+        {
+          "label": "SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2095828606161412548",
+          "kind": "x",
+          "time": "2026-09-04T10:57:32+00:00"
+        },
+        {
+          "label": "SPIEGEL",
+          "url": "https://www.spiegel.de/panorama/justiz/kraftwerk-weisweiler-polizeieinsatz-an-umspannwerk-bei-aachen-a-67c44e53-dfe4-4132-9d7d-40b6ecb8a99b",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "vw-zukunftsplan-50k",
+      "title": "VW board green-lights ~50,000 job cuts",
+      "topics": [
+        "Germany",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Thu evening (moved-up Präsidium): Aufsichtsrat unanimously approves Vorstand “Zukunftsplan 2030” / transformation program",
+        "Plan: group-wide cut of ~50,000 roles incl. management; ~half in Germany per ZEIT/dpa framing",
+        "Emden, Zwickau, Hannover, Neckarsulm: no competitive follow-on occupancy currently guaranteed from 2031–2034; alternative uses to be studied",
+        "European plant concept due by end-June 2027; model-range halving also cited in DLF coverage",
+        "IG Metall/Cavallo: escalation avoided; “no plant abandoned / no closure sealed” — Vorstand still must deliver site solutions"
+      ],
+      "whyItMatters": "Europe’s biggest carmaker just locked a historic headcount reset that morning’s briefing missed — German industrial politics shift from veto to implementation.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/mobilitaet/2026-09/vw-aufsichtsrat-stimmt-sparplan-des-vorstands-zu",
+          "kind": "article"
+        },
+        {
+          "label": "DIE ZEIT (dpa, 3 Sep)",
+          "url": "https://www.zeit.de/news/2026-09/03/einigung-bei-vw-weitere-rund-50-000-jobs-sollen-wegfallen",
+          "kind": "article",
+          "time": "2026-09-03T21:24:00+02:00"
+        },
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2250927/volkswagen-confirms-future-plan-2030-50000-job-cuts/",
+          "kind": "article"
+        },
+        {
+          "label": "Engadget on X",
+          "url": "https://x.com/engadget/status/2095842240262205589",
+          "kind": "x",
+          "time": "2026-09-04T11:51:43+00:00"
+        },
+        {
+          "label": "FAZ on X",
+          "url": "https://x.com/faznet/status/2095844924021227629",
+          "kind": "x",
+          "time": "2026-09-04T12:02:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nhtsa-cybercab-audit",
+      "title": "NHTSA opens Cybercab compliance audit",
+      "topics": [
+        "Tech",
+        "Hardware"
+      ],
+      "weight": "normal",
+      "facts": [
+        "NHTSA opened an audit of ~1,000 Tesla Cybercabs hours after Thu commercial deployment began in Austin",
+        "Focus: process/technical data behind Tesla’s FMVSS self-certification and which standards Tesla treated as inapplicable",
+        "Agency notes Cybercab lacks permanently attached steering wheel, brake/accelerator pedals and mirrors",
+        "Texas roster Fri morning: 420 autonomous vehicles registered incl. 45 Cybercabs (state records via Reuters)",
+        "Public Robotaxi-app Cybercab fares still slated from Fri 5:00 p.m. CT per morning coverage"
+      ],
+      "whyItMatters": "The no-controls robotaxi thesis now has a same-week federal paper trail — deployment and regulation are colliding in real time.",
+      "image": null,
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
+          "kind": "article",
+          "time": "2026-09-04T14:01:00+02:00"
+        },
+        {
+          "label": "TechCrunch on X",
+          "url": "https://x.com/TechCrunch/status/2095845609429213509",
+          "kind": "x",
+          "time": "2026-09-04T12:05:06+00:00"
+        },
+        {
+          "label": "Reuters via SRN",
+          "url": "https://srnnews.com/us-auto-safety-regulator-opens-probe-into-nearly-1000-tesla-cybercabs/",
+          "kind": "article",
+          "time": "2026-09-04T00:00:00+02:00"
+        },
+        {
+          "label": "Teslarati on X",
+          "url": "https://x.com/Teslarati/status/2095832325615386778",
+          "kind": "x",
+          "time": "2026-09-04T11:12:19+00:00"
+        }
+      ]
+    },
+    {
+      "id": "idscan-nexus-breach",
+      "title": "ID scanner leak: 153M licenses on dark web",
+      "topics": [
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "KrebsOnSecurity: dark-web service “Nexus” offered 153M+ US/Canada driver’s-license scans (plus millions of other IDs)",
+        "Traced to Louisiana verifier IDScan.net (clients cited incl. Hertz, Target, FedEx, dispensaries); FBI New Orleans opened an inquiry",
+        "Operators claimed continuous exfil “for over a year”; listings grew ~400k licenses in 24 hours before takedown",
+        "Scans allegedly include IR/UV captures used in authenticity checks; Nexus went offline after the story",
+        "HN discussion overnight/morning: ~233 points / ~88 comments on the Techdirt write-up"
+      ],
+      "whyItMatters": "Age/ID-verification mandates keep expanding while a mainstream scanner pipeline looks like it streamed government IDs in near-real time.",
+      "image": null,
+      "sources": [
+        {
+          "label": "KrebsOnSecurity",
+          "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+          "kind": "article"
+        },
+        {
+          "label": "Techdirt",
+          "url": "https://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/",
+          "kind": "article",
+          "time": "2026-09-03T10:57:00-07:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49561320",
+          "kind": "article",
+          "time": "2026-09-04T06:47:51+00:00"
+        },
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-dlss5-rtx40",
+      "title": "NVIDIA will bring DLSS 5 to RTX 40",
+      "topics": [
+        "Tech",
+        "Hardware"
+      ],
+      "weight": "brief",
+      "facts": [
+        "NVIDIA spokesman to The Verge (via heise): official DLSS 5 neural rendering support planned for GeForce RTX 40 after RTX 50 tuning (no date); no pledge for RTX 30/20",
+        "DLSS 5 shipped Thu with NBA 2K27 on RTX 50 only; mods already ran the DLL on older cards",
+        "NVIDIA paper: ~8 ms/frame at 4K on a 5090 — heise notes that alone can roughly halve headroom at 60 fps"
+      ],
+      "whyItMatters": "The generation lock looks temporary — but the latency budget may keep DLSS 5 niche even on new silicon.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/DLSS-5-Nvidia-bringt-neuronales-Rendering-doch-noch-auf-RTX-40-Karten-11441699.html",
+          "kind": "article",
+          "time": "2026-09-04T13:37:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "basf-trinamix-face-id",
+      "title": "BASF unit sues Apple over Face ID",
+      "topics": [
+        "Tech",
+        "Germany"
+      ],
+      "weight": "brief",
+      "facts": [
+        "trinamiX GmbH (BASF subsidiary, Ludwigshafen) sued Apple in Midland, Texas over Face ID anti-spoofing patents",
+        "Claim: patented material/skin recognition used from iPhone 15 / later iPad Pro (2023+) — seven patents cited; damages + injunction sought",
+        "Tech originated in organic-solar R&D; trinamiX cites ~800 patents filed/granted; Apple had no immediate comment"
+      ],
+      "whyItMatters": "A German chemicals spin-out is aiming at Apple’s core biometric lock screen in a plaintiff-friendly Texas venue.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/BASF-Tochter-verklagt-Apple-wegen-Face-ID-11441209.html",
+          "kind": "article",
+          "time": "2026-09-04T13:17:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/patentstreit-basf-tochter-verklagt-apple-wegen-face-id-2609-212664.html",
+          "kind": "article",
+          "time": "2026-09-04T13:45:02+02:00"
+        }
+      ]
+    }
+  ]
+}
