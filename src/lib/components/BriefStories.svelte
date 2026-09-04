@@ -1,6 +1,7 @@
 <script lang="ts">
 	import StoryCard from './StoryCard.svelte';
 	import StoryFilters from './StoryFilters.svelte';
+	import { factText } from '$lib/facts';
 	import { sortStoriesByWeight } from '$lib/format';
 	import { StoryFilterEngine } from '$lib/storyFilter.svelte';
 	import type { Story } from '$lib/types';
@@ -49,7 +50,7 @@
 		extractTopics: (s) => s.topics ?? [],
 		extractSearchFields: (s) => [
 			s.title,
-			...(s.facts ?? []),
+			...(s.facts ?? []).map(factText),
 			s.whyItMatters ?? '',
 			...(s.topics ?? [])
 		]

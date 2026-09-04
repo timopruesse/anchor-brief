@@ -43,12 +43,17 @@ interface StoryImage {
   creditUrl?: string;
 }
 
+/** Plain string (lead/normal) or object with per-fact source links (roundups). */
+type Fact =
+  | string
+  | { text: string; sourceIndexes?: number[] }; // 0-based into this story's sources[]
+
 interface Story {
   id: string;
   title: string;
   topics: string[];
   weight: Weight;
-  facts: string[];
+  facts: Fact[];
   whyItMatters: string;
   image: StoryImage | null;
   sources: Source[];
@@ -59,9 +64,27 @@ interface Story {
 
 `sources` — citations with `kind` (`article` | `x` | `primary`), `label`, `url`, and optional `time`.
 
+`facts` — bulleted takeaways. Two shapes:
+
+| Shape | When | UI |
+|-------|------|-----|
+| `string` | Lead / normal cards (and legacy brief cards) | Fact text only; sources stay in the shared footnotes list |
+| `{ text, sourceIndexes? }` | **Roundup / brief catch-alls** | Fact text plus compact per-line source chip(s) for `sources[i]` |
+
+`sourceIndexes` are **0-based** indexes into that story’s `sources[]`. Out-of-range indexes are ignored at render and warned by validation. Older string-only roundups remain valid (soft-fail — no per-line chips).
+
+Example roundup fact:
+
+```json
+{
+  "text": "Neovim 0.13 ships treesitter queries rewrite",
+  "sourceIndexes": [0]
+}
+```
+
 ## Catch-all roundups (In brief)
 
-Same *topic* from multiple sources → **one** `lead`/`normal` card with several `sources`.
+Same *topic* from multiple sources → **one** `lead`/`normal` card with several plain-string `facts` and a shared `sources` footnotes list.
 
 Small items that are not worth their own card → pack into **few** `weight: "brief"` roundup stories instead of one brief card per scrap. Prefer these reusable ids/topics when they fit:
 
@@ -71,7 +94,7 @@ Small items that are not worth their own card → pack into **few** `weight: "br
 | `from-substack` | `From Substack` | Substack tips that aren't a main story |
 | `dev-notes` | `Dev notes` | HN/Lobsters/GitHub/tooling odds and ends |
 
-Each roundup: 3–6 one-liner `facts`, each backed by a matching `sources[]` entry. Skip an empty bucket. Don't invent filler to pad a roundup.
+Each roundup: 3–6 one-liner `facts` in the **object form** (`{ text, sourceIndexes }`), each pointing at one (or a few) matching `sources[]` entries so readers can tell which footnote goes with which bullet. Skip an empty bucket. Don't invent filler to pad a roundup.
 
 ## Main briefing
 

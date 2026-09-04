@@ -24,7 +24,7 @@ The atomic editorial reporting unit shared across both desks:
 - `title`: Succinct news headline.
 - `weight`: Editorial priority (`lead` | `normal` | `brief`).
 - `topics`: Categorical tags (e.g. `AI`, `Tech`, `Defense`, `Worth a look`, `From Substack`, `Dev notes`).
-- `facts`: Bulleted takeaways (top 3 visible, rest expandable).
+- `facts`: Bulleted takeaways (top 3 visible, rest expandable). Plain strings for lead/normal cards; optional `{ text, sourceIndexes }` objects on brief roundups so each bullet can show which source it cites.
 - `whyItMatters`: Concise analytical context explaining significance.
 - `sources`: Primary or secondary citations (`article`, `x`, `primary`).
 - `image`: Optional hero visual with attribution.

@@ -2,6 +2,7 @@
 	import { resolve } from '$app/paths';
 	import StoryCard from './StoryCard.svelte';
 	import StoryFilters from './StoryFilters.svelte';
+	import { factText } from '$lib/facts';
 	import { editionLabel, makeFormatters, toDate } from '$lib/format';
 	import { StoryFilterEngine } from '$lib/storyFilter.svelte';
 	import type { EditionSummary, IndexedStory } from '$lib/types';
@@ -32,7 +33,7 @@
 		extractTopics: (row) => row.story.topics ?? [],
 		extractSearchFields: (row) => [
 			row.story.title,
-			...(row.story.facts ?? []),
+			...(row.story.facts ?? []).map(factText),
 			row.story.whyItMatters ?? '',
 			...(row.story.topics ?? []),
 			row.headline,
