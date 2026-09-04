@@ -9,8 +9,6 @@
 	import { theme } from '$lib/theme.svelte';
 	import type { Story } from '$lib/types';
 
-	const VISIBLE_FACTS = 3;
-
 	interface Props {
 		story: Story;
 		query?: string;
@@ -19,6 +17,7 @@
 		editionHref?: string | null;
 		editionLabel?: string | null;
 		desk?: 'main' | 'gme';
+		density?: 'editorial' | 'compact';
 	}
 
 	let {
@@ -28,7 +27,8 @@
 		timezone = 'Europe/Berlin',
 		editionHref = null,
 		editionLabel = null,
-		desk = 'main'
+		desk = 'main',
+		density = 'editorial'
 	}: Props = $props();
 
 	let expanded = $state(false);
@@ -36,8 +36,16 @@
 
 	const weight = $derived(story.weight || 'normal');
 	const facts = $derived(story.facts ?? []);
-	const hiddenCount = $derived(Math.max(0, facts.length - VISIBLE_FACTS));
-	const visibleFacts = $derived(expanded ? facts : facts.slice(0, VISIBLE_FACTS));
+
+	const defaultVisibleCount = $derived.by(() => {
+		if (density === 'compact') return 0;
+		if (weight === 'lead') return 3;
+		if (weight === 'brief') return 1;
+		return 2;
+	});
+
+	const hiddenCount = $derived(Math.max(0, facts.length - defaultVisibleCount));
+	const visibleFacts = $derived(expanded ? facts : facts.slice(0, defaultVisibleCount));
 	const sources = $derived(
 		(story.sources ?? [])
 			.map((s) => ({ ...s, href: safeHref(s.url) }))
@@ -47,7 +55,15 @@
 	const ph = $derived(gradientFor(story.id || story.title, theme.isLight));
 </script>
 
-<article class="story" class:story--gme={desk === 'gme'} data-weight={weight} id={story.id}>
+<article
+	class="story"
+	class:story--gme={desk === 'gme'}
+	class:story--lead={weight === 'lead'}
+	class:story--brief={weight === 'brief'}
+	class:story--compact={density === 'compact'}
+	data-weight={weight}
+	id={story.id}
+>
 	<div class="story__eyebrow">
 		{#if weight === 'lead'}
 			<span class="flag">Lead</span>
@@ -125,22 +141,31 @@
 	{/if}
 
 	{#if story.whyItMatters}
-		<div class="why">
-			<div class="why__label">Why it matters</div>
-			<p>{story.whyItMatters}</p>
+		<div class="story__takeaway" class:story__takeaway--lead={weight === 'lead'}>
+			<span class="takeaway-label">Why it matters &mdash;</span>
+			<span class="takeaway-text">{story.whyItMatters}</span>
 		</div>
 	{/if}
 
 	{#if sources.length}
-		<nav class="sources" aria-label="Sources">
-			<ul>
+		<nav class="story__sources" aria-label="Sources">
+			<span class="sources__label">Sources:</span>
+			<ul class="sources__list">
 				{#each sources as src (src.href + src.label)}
-					<li>
-						<a class="source" href={src.href!} rel="noopener noreferrer" target="_blank">
-							<span class="kind" data-kind={src.kind}>{KIND_LABELS[src.kind] ?? src.kind}</span>
-							<span class="source__label">{src.label}</span>
+					<li class="sources__item">
+						<a
+							class="source-link"
+							class:source-link--primary={src.kind === 'primary'}
+							href={src.href!}
+							rel="noopener noreferrer"
+							target="_blank"
+						>
+							{#if src.kind === 'primary'}
+								<span class="source-dot" title="Primary reporting/filing" aria-hidden="true"></span>
+							{/if}
+							<span class="source-link__text">{src.label}</span>
 							{#if src.time}
-								<time class="source__time" datetime={src.time}>
+								<time class="source-link__time" datetime={src.time}>
 									{formatSourceTime(src.time, generatedAt, timezone)}
 								</time>
 							{/if}
