@@ -65,6 +65,27 @@ describe('pure search module', () => {
 		expect(res[0].id).toBe('1');
 	});
 
+	it('matches object-form fact text via factText extraction', () => {
+		const withObjects = [
+			{
+				id: 'obj',
+				title: 'Roundup',
+				topics: ['Worth a look'],
+				facts: [{ text: 'Neovim treesitter rewrite landed', sourceIndexes: [0] }]
+			}
+		];
+		const res = filterItems(withObjects, 'neovim treesitter', null, {
+			extractTopics: (s) => s.topics,
+			extractSearchFields: (s) => [
+				s.title,
+				...s.facts.map((f) => (typeof f === 'string' ? f : f.text)),
+				...s.topics
+			]
+		});
+		expect(res.length).toBe(1);
+		expect(res[0].id).toBe('obj');
+	});
+
 	it('performs multi-token search matching German diacritics', () => {
 		// "gross" in query matches "Groß-Berlin" in facts
 		const res = filterItems(mockStories, 'gross berlin', null, options);

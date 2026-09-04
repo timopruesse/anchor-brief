@@ -924,6 +924,27 @@ a {
 	line-height: 1.5;
 }
 
+.facts__item--linked {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.35rem 0.5rem;
+}
+
+.facts__text {
+	flex: 1 1 12rem;
+	min-width: 0;
+}
+
+.facts__sources {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.3rem;
+	flex: 0 1 auto;
+	max-width: 100%;
+}
+
 .story[data-weight='lead'] .facts li {
 	font-size: 0.98rem;
 	line-height: 1.55;
@@ -1076,6 +1097,29 @@ a {
 		color 120ms ease,
 		border-color 120ms ease,
 		background-color 120ms ease;
+}
+
+.source-chip--compact {
+	min-height: 1.35rem;
+	padding: 0.1rem 0.4rem;
+	font-size: 0.68rem;
+	gap: 0.25rem;
+}
+
+.source-chip--compact .source-chip__label {
+	max-width: 10rem;
+}
+
+.source-chip--compact .source-chip__favicon,
+.source-chip--compact .source-chip__icon-wrap,
+.source-chip--compact .source-chip__fallback {
+	width: 12px;
+	height: 12px;
+}
+
+.source-chip--compact .source-chip__badge--x {
+	width: 13px;
+	height: 13px;
 }
 
 .source-chip:hover {

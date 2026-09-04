@@ -17,12 +17,20 @@ export interface StoryImage {
 	creditUrl?: string;
 }
 
+/** Plain string (lead/normal) or object with per-fact source links (roundups). */
+export type Fact = string | { text: string; sourceIndexes?: number[] };
+
+export interface FactObject {
+	text: string;
+	sourceIndexes?: number[];
+}
+
 export interface Story {
 	id: string;
 	title: string;
 	topics: string[];
 	weight: Weight | string;
-	facts: string[];
+	facts: Fact[];
 	whyItMatters: string;
 	image: StoryImage | null;
 	sources: Source[];

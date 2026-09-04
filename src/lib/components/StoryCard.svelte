@@ -1,13 +1,8 @@
 <script lang="ts">
 	import Highlight from './Highlight.svelte';
-	import {
-		KIND_LABELS,
-		formatSourceTime,
-		gradientFor,
-		safeHref,
-		domainFromUrl,
-		faviconUrl
-	} from '$lib/format';
+	import SourceChip from './SourceChip.svelte';
+	import { normalizeFact } from '$lib/facts';
+	import { gradientFor, safeHref } from '$lib/format';
 	import { theme } from '$lib/theme.svelte';
 	import type { Story } from '$lib/types';
 
@@ -37,7 +32,7 @@
 	let imgFailed = $state(false);
 
 	const weight = $derived(story.weight || 'normal');
-	const facts = $derived(story.facts ?? []);
+	const facts = $derived((story.facts ?? []).map(normalizeFact));
 
 	const defaultVisibleCount = $derived.by(() => {
 		if (density === 'compact') return 0;
@@ -48,21 +43,28 @@
 
 	const hiddenCount = $derived(Math.max(0, facts.length - defaultVisibleCount));
 	const visibleFacts = $derived(expanded ? facts : facts.slice(0, defaultVisibleCount));
+	/** Footnotes list — only sources with a safe http(s) href. */
 	const sources = $derived(
 		(story.sources ?? [])
 			.map((s) => ({ ...s, href: safeHref(s.url) }))
-			.filter((s) => s.href)
+			.filter((s): s is typeof s & { href: string } => Boolean(s.href))
 	);
 
 	const ph = $derived(gradientFor(story.id || story.title, theme.isLight));
 
-	function handleFaviconError(e: Event) {
-		const img = e.currentTarget as HTMLImageElement | null;
-		if (img) {
-			img.style.display = 'none';
-			const fb = img.nextElementSibling as HTMLElement | null;
-			if (fb) fb.style.display = 'inline-flex';
+	/** Resolve per-fact chips by original `sources[]` index (schema contract). */
+	function factSources(indexes: number[] | undefined) {
+		if (!indexes?.length) return [];
+		const raw = story.sources ?? [];
+		const out: Array<(typeof raw)[number] & { href: string }> = [];
+		for (const i of indexes) {
+			const s = raw[i];
+			if (!s) continue;
+			const href = safeHref(s.url);
+			if (!href) continue;
+			out.push({ ...s, href });
 		}
+		return out;
 	}
 </script>
 
@@ -131,8 +133,18 @@
 
 	{#if visibleFacts.length}
 		<ul class="facts">
-			{#each visibleFacts as fact (fact)}
-				<li><Highlight text={fact} {query} /></li>
+			{#each visibleFacts as fact, i (`${i}:${fact.text}`)}
+				{@const linked = factSources(fact.sourceIndexes)}
+				<li class:facts__item--linked={linked.length > 0}>
+					<span class="facts__text"><Highlight text={fact.text} {query} /></span>
+					{#if linked.length}
+						<span class="facts__sources">
+							{#each linked as src (src.href + src.label)}
+								<SourceChip {src} compact {generatedAt} {timezone} />
+							{/each}
+						</span>
+					{/if}
+				</li>
 			{/each}
 		</ul>
 	{/if}
@@ -163,73 +175,8 @@
 			<span class="sources__label">Sources</span>
 			<ul class="sources__list">
 				{#each sources as src (src.href + src.label)}
-					{@const domain = domainFromUrl(src.href)}
-					{@const isX = src.kind === 'x' || domain === 'x.com' || domain === 'twitter.com'}
-					{@const fav = isX ? null : faviconUrl(domain)}
 					<li class="sources__item">
-						<a
-							class="source-chip"
-							data-kind={src.kind}
-							href={src.href!}
-							rel="noopener noreferrer"
-							target="_blank"
-						>
-							{#if isX}
-								<span class="source-chip__badge source-chip__badge--x" title="Post on X" aria-label="X post">
-									<svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor" aria-hidden="true">
-										<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-									</svg>
-								</span>
-							{:else if fav}
-								<span class="source-chip__icon-wrap">
-									<img
-										class="source-chip__favicon"
-										src={fav}
-										alt=""
-										width="14"
-										height="14"
-										loading="lazy"
-										decoding="async"
-										onerror={handleFaviconError}
-									/>
-									<span class="source-chip__fallback" style="display: none;" aria-hidden="true">
-										<svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-											<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-											<path d="M8 7h8M8 11h8M8 15h5"/>
-										</svg>
-									</span>
-								</span>
-							{:else}
-								<span class="source-chip__fallback" aria-hidden="true">
-									<svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
-										<path d="M8 7h8M8 11h8M8 15h5"/>
-									</svg>
-								</span>
-							{/if}
-
-							{#if src.kind === 'primary'}
-								<span class="source-chip__badge source-chip__badge--primary" title="Primary reporting or filing">
-									<span class="primary-dot" aria-hidden="true"></span>
-									<span>Primary</span>
-								</span>
-							{/if}
-
-							<span class="source-chip__label">{src.label}</span>
-
-							{#if src.time}
-								{@const timeStr = formatSourceTime(src.time, generatedAt, timezone)}
-								{#if timeStr}
-									<time class="source-chip__time" datetime={src.time} title="Published {src.time}">
-										{timeStr}
-									</time>
-								{/if}
-							{/if}
-
-							<svg class="source-chip__outbound" viewBox="0 0 12 12" width="8" height="8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-								<path d="M3.5 8.5 8.5 3.5M4 3.5h4.5V8"/>
-							</svg>
-						</a>
+						<SourceChip {src} {generatedAt} {timezone} />
 					</li>
 				{/each}
 			</ul>
