@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import Masthead from './Masthead.svelte';
 	import CommunityChart from './CommunityChart.svelte';
+	import GmeSparkline from './GmeSparkline.svelte';
 	import {
 		editionLabel,
 		formatMoney,
@@ -22,7 +23,7 @@
 		LIVE_QUOTE_POLL_MS,
 		type LiveQuote
 	} from '$lib/gmeLiveQuote';
-	import type { GmeBriefing, GmeVoice, SparkPoint } from '$lib/types';
+	import type { GmeBriefing, GmeVoice } from '$lib/types';
 
 	interface Props {
 		briefing: GmeBriefing;
@@ -72,26 +73,6 @@
 	const up = $derived((display?.change ?? 0) >= 0);
 	const liveAsOf = $derived(toDate(live?.fetchedAt));
 	const showingLive = $derived(live != null);
-
-	function sparkPath(points: SparkPoint[]): string {
-		if (!points?.length) return '';
-		const w = 300;
-		const h = 72;
-		const pad = 4;
-		const vals = points.map((p) => p.c);
-		const min = Math.min(...vals);
-		const max = Math.max(...vals);
-		const span = max - min || 1;
-		return points
-			.map((p, i) => {
-				const x = pad + (i / Math.max(1, points.length - 1)) * (w - pad * 2);
-				const y = pad + (1 - (p.c - min) / span) * (h - pad * 2);
-				return `${i === 0 ? 'M' : 'L'}${x.toFixed(2)} ${y.toFixed(2)}`;
-			})
-			.join(' ');
-	}
-
-	const path = $derived(sparkPath(briefing.sparkline ?? []));
 
 	onMount(() => {
 		const symbol = snapshot?.symbol || 'GME';
@@ -195,12 +176,10 @@
 			{/if}
 		</div>
 
-		{#if path}
-			<svg class="gme-spark" viewBox="0 0 300 72" preserveAspectRatio="none" aria-hidden="true">
-				<line x1="0" y1="36" x2="300" y2="36"></line>
-				<path d={path}></path>
-			</svg>
-		{/if}
+		<GmeSparkline
+			points={briefing.sparkline ?? []}
+			currency={display?.currency ?? snapshot?.currency ?? 'USD'}
+		/>
 
 		{#if briefing.stance || briefing.stanceWhy}
 			<div class="stance">
