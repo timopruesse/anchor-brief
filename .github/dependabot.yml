@@ -1,0 +1,28 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 10
+    groups:
+      svelte-ecosystem:
+        patterns:
+          - "@sveltejs/*"
+          - "svelte"
+          - "svelte-check"
+      build-tools:
+        patterns:
+          - "vite"
+          - "typescript"
+          - "@types/*"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      github-actions:
+        patterns:
+          - "*"
