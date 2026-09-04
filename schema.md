@@ -55,6 +55,24 @@ interface Story {
 }
 ```
 
+`topics` — categorical tags (e.g. `AI`, `Tech`, `Defense`, `Worth a look`, `From Substack`, `Dev notes`).
+
+`sources` — citations with `kind` (`article` | `x` | `primary`), `label`, `url`, and optional `time`.
+
+## Catch-all roundups (In brief)
+
+Same *topic* from multiple sources → **one** `lead`/`normal` card with several `sources`.
+
+Small items that are not worth their own card → pack into **few** `weight: "brief"` roundup stories instead of one brief card per scrap. Prefer these reusable ids/topics when they fit:
+
+| id | topics | use for |
+|----|--------|---------|
+| `worth-a-look` | `Worth a look` | misc shorts that don't share a theme |
+| `from-substack` | `From Substack` | Substack tips that aren't a main story |
+| `dev-notes` | `Dev notes` | HN/Lobsters/GitHub/tooling odds and ends |
+
+Each roundup: 3–6 one-liner `facts`, each backed by a matching `sources[]` entry. Skip an empty bucket. Don't invent filler to pad a roundup.
+
 ## Main briefing
 
 ```ts

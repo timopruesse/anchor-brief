@@ -23,7 +23,7 @@ The atomic editorial reporting unit shared across both desks:
 - `id`: Unique slug.
 - `title`: Succinct news headline.
 - `weight`: Editorial priority (`lead` | `normal` | `brief`).
-- `topics`: Categorical tags (e.g. `AI`, `Tech`, `Defense`).
+- `topics`: Categorical tags (e.g. `AI`, `Tech`, `Defense`, `Worth a look`, `From Substack`, `Dev notes`).
 - `facts`: Bulleted takeaways (top 3 visible, rest expandable).
 - `whyItMatters`: Concise analytical context explaining significance.
 - `sources`: Primary or secondary citations (`article`, `x`, `primary`).
