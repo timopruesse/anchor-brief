@@ -5,22 +5,30 @@ Editions are plain JSON under `data/`; GitHub Actions builds and deploys to GitH
 
 ## Quick start
 
+Requires [Bun](https://bun.sh/).
+
 ```sh
-npm install
-npm run dev
+bun install
+bun run dev
 ```
 
 Production build (uses `paths.base = /anchor-brief` for GitHub Pages):
 
 ```sh
-npm run build
-npm run preview
+bun run build
+bun run preview
+```
+
+Type-check:
+
+```sh
+bun run check
 ```
 
 For a root-relative local preview without the Pages base path:
 
 ```sh
-BASE_PATH= npm run build && BASE_PATH= npm run preview
+BASE_PATH= bun run build && BASE_PATH= bun run preview
 ```
 
 ## Publishing workflow (for Anchor)
@@ -52,5 +60,7 @@ If the poll is blocked or fails, the snapshot quote stays on screen (soft fail).
 ## Stack
 
 - SvelteKit 2 + Svelte 5 + TypeScript
+- Bun (package manager + CI)
 - `@sveltejs/adapter-static`
 - `paths.base = '/anchor-brief'`
+- Dependabot (weekly npm + GitHub Actions updates)
