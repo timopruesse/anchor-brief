@@ -1,0 +1,766 @@
+{
+  "id": "2026-09-04-afternoon-gme",
+  "parentId": "2026-09-04-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-04T14:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning / last ~6 hours",
+  "headline": "GME still $19.23 Thu close (+1.37%); US cash open later; Cohen/Cheng/Kitty quiet on X.",
+  "stance": "quiet",
+  "stanceWhy": "No fresh tape yet this afternoon in Berlin — yesterday’s green close and the no-sale 13D/A still frame the board. All three watched X voices remain quiet; Superstonk is still chewing the filing, not a new catalyst.",
+  "disclaimer": "Today's read from the news, not investment advice.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 19.23,
+    "change": 0.26,
+    "changePct": 1.371,
+    "currency": "USD",
+    "dayHigh": 19.39,
+    "dayLow": 19.0,
+    "prevClose": 18.97,
+    "volume": 7162214,
+    "week52High": 28.1,
+    "week52Low": 17.79,
+    "asOf": "2026-09-03T20:00:02+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-03-04",
+      "c": 23.87
+    },
+    {
+      "t": "2026-03-05",
+      "c": 23.88
+    },
+    {
+      "t": "2026-03-06",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-09",
+      "c": 24.8
+    },
+    {
+      "t": "2026-03-10",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-11",
+      "c": 24.46
+    },
+    {
+      "t": "2026-03-12",
+      "c": 24.43
+    },
+    {
+      "t": "2026-03-13",
+      "c": 23.53
+    },
+    {
+      "t": "2026-03-16",
+      "c": 23.28
+    },
+    {
+      "t": "2026-03-17",
+      "c": 23.59
+    },
+    {
+      "t": "2026-03-18",
+      "c": 23.36
+    },
+    {
+      "t": "2026-03-19",
+      "c": 23.23
+    },
+    {
+      "t": "2026-03-20",
+      "c": 22.57
+    },
+    {
+      "t": "2026-03-23",
+      "c": 23.03
+    },
+    {
+      "t": "2026-03-24",
+      "c": 22.81
+    },
+    {
+      "t": "2026-03-25",
+      "c": 23.08
+    },
+    {
+      "t": "2026-03-26",
+      "c": 22.56
+    },
+    {
+      "t": "2026-03-27",
+      "c": 22.1
+    },
+    {
+      "t": "2026-03-30",
+      "c": 22.27
+    },
+    {
+      "t": "2026-03-31",
+      "c": 23.04
+    },
+    {
+      "t": "2026-04-01",
+      "c": 22.76
+    },
+    {
+      "t": "2026-04-02",
+      "c": 23.36
+    },
+    {
+      "t": "2026-04-06",
+      "c": 23.08
+    },
+    {
+      "t": "2026-04-07",
+      "c": 23.43
+    },
+    {
+      "t": "2026-04-08",
+      "c": 22.91
+    },
+    {
+      "t": "2026-04-09",
+      "c": 22.87
+    },
+    {
+      "t": "2026-04-10",
+      "c": 23.22
+    },
+    {
+      "t": "2026-04-13",
+      "c": 23.4
+    },
+    {
+      "t": "2026-04-14",
+      "c": 24.03
+    },
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
+    }
+  ],
+  "voices": [
+    {
+      "handle": "ryancohen",
+      "userId": "1146058067244486656",
+      "name": "Ryan Cohen",
+      "role": "CEO",
+      "lastPostAt": "2026-07-04T16:29:35+00:00",
+      "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
+      "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸🫡",
+      "quiet": true
+    },
+    {
+      "handle": "larrycheng",
+      "userId": "14506006",
+      "name": "Larry Cheng",
+      "role": "Board",
+      "lastPostAt": "2025-06-19T20:34:51+00:00",
+      "lastPostUrl": "https://x.com/larrycheng/status/1935798452266360886",
+      "lastPostText": "Just registering that I've lost control of my x account @larryvc.  This must be related to the significant security breach that happened today. I have reported it to @x but until I specify otherwise, what is posted under the @larryvc handle is not from me for the time being.",
+      "quiet": true
+    },
+    {
+      "handle": "TheRoaringKitty",
+      "userId": "2902349190",
+      "name": "Roaring Kitty",
+      "role": "Community",
+      "lastPostAt": "2025-01-23T01:00:36+00:00",
+      "lastPostUrl": "https://x.com/TheRoaringKitty/status/1882231930021949446",
+      "lastPostText": "https://t.co/cQLyEYs5Wl",
+      "quiet": true
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "lastPostAt": "2026-07-04T16:29:35+00:00",
+    "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
+    "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸🫡",
+    "quiet": true
+  },
+  "community": {
+    "asOf": "2026-09-04T14:06:25.976280+02:00",
+    "windowHours": 24,
+    "totals": {
+      "posts": 10,
+      "withOutbound": 4
+    },
+    "byKind": {
+      "dd": 0,
+      "daily": 0,
+      "news": 4,
+      "junk": 6
+    },
+    "posts": [
+      {
+        "title": "SEC Proposes Removing Political Contribution Rule for Investment Advisers",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6mh42/sec_proposes_removing_political_contribution_rule/",
+        "url": "https://www.sec.gov/newsroom/speeches-statements/aktins-statement-proposal-rescind-pay-play-rule-090326-statement-proposal-rescind-pay-play-rule",
+        "updated": "2026-09-03T22:35:04+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "New 13D! Wut mean?",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6mr1x/new_13d_wut_mean/",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326380/000092189526002474/xslSCHEDULE_13D_X02/primary_doc.xml",
+        "updated": "2026-09-03T22:46:16+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "Ryan Cohen Files Updated 13D - No Shares Sold, Ownership Drops to 8.3% Following Convertible-Note Exchange - HODL",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6ruz5/ryan_cohen_files_updated_13d_no_shares_sold/",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326380/000092189526002474/xslSCHEDULE_13D_X02/primary_doc.xml",
+        "updated": "2026-09-04T02:35:41+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "Roaring Kitty Live Stream - June 7, 2024",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6uqgm/roaring_kitty_live_stream_june_7_2024/",
+        "url": "https://www.youtube.com/live/U1prSyyIco0?si=jo41eNMeXrkVFuCn",
+        "updated": "2026-09-04T04:59:26+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "Anyone else think recent action looks a lot like Apr-May 2024?",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6kf13/anyone_else_think_recent_action_looks_a_lot_like/",
+        "url": null,
+        "updated": "2026-09-03T21:15:03+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "I disappeared for a few years. Apparently the tinfoil did not.",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6meb1/i_disappeared_for_a_few_years_apparently_the/",
+        "url": null,
+        "updated": "2026-09-03T22:31:55+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "Title",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w6qula/title/",
+        "url": null,
+        "updated": "2026-09-04T01:48:05+00:00",
+        "kind": "junk"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-09-03",
+        "posts": 8,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 6
+      },
+      {
+        "date": "2026-09-04",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 4,
+        "junk": 6
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "price-afternoon",
+      "title": "Still Thursday’s $19.23 close",
+      "topics": [
+        "GME"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Last regular close $19.23 (+1.371%) on Yahoo asOf 2026-09-03T20:00:02+00:00",
+        "Day range $19.0–$19.39; volume 7,162,214",
+        "52-week $17.79–$28.1",
+        "US cash session not yet open as of this Berlin afternoon desk (~14:20 CEST)"
+      ],
+      "whyItMatters": "Nothing to mark-to-market until the open — overnight thesis is still the 13D math, not a Friday print.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary",
+          "time": "2026-09-03T20:00:02+00:00"
+        }
+      ]
+    },
+    {
+      "id": "voices-quiet",
+      "title": "Cohen, Cheng, Kitty all quiet",
+      "topics": [
+        "GME"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Ryan Cohen last original post 4 Jul 2026 (“See you in February”)",
+        "Larry Cheng last post 19 Jun 2025 (account-control notice) — quiet",
+        "Roaring Kitty last post 23 Jan 2025 — quiet"
+      ],
+      "whyItMatters": "No executive or meme-catalyst signal on the watchlist this window.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Ryan Cohen on X",
+          "url": "https://x.com/ryancohen/status/2073444118538359104",
+          "kind": "x",
+          "time": "2026-07-04T16:29:35+00:00"
+        },
+        {
+          "label": "Larry Cheng on X",
+          "url": "https://x.com/larrycheng/status/1935798452266360886",
+          "kind": "x",
+          "time": "2025-06-19T20:34:51+00:00"
+        },
+        {
+          "label": "Roaring Kitty on X",
+          "url": "https://x.com/TheRoaringKitty/status/1882231930021949446",
+          "kind": "x",
+          "time": "2025-01-23T01:00:36+00:00"
+        }
+      ]
+    },
+    {
+      "id": "superstonk-13d-echo",
+      "title": "Superstonk still on the 13D/A",
+      "topics": [
+        "GME"
+      ],
+      "weight": "brief",
+      "facts": [
+        "Community snapshot window 24h: 10 posts — byKind {'dd': 0, 'daily': 0, 'news': 4, 'junk': 6}",
+        "Top news-tagged threads still point at Cohen’s updated 13D/A (ownership to 8.3%, no shares sold after convertible-note share count)",
+        "Sentiment only — not reporting"
+      ],
+      "whyItMatters": "Retail attention has not rotated off yesterday’s filing.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Superstonk (13D thread)",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1w6ruz5/ryan_cohen_files_updated_13d_no_shares_sold/",
+          "kind": "article",
+          "time": "2026-09-04T02:35:41+00:00"
+        },
+        {
+          "label": "SEC 13D/A",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326380/000092189526002474/xslSCHEDULE_13D_X02/primary_doc.xml",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
