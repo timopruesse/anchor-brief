@@ -21,10 +21,21 @@
 
 	const domain = $derived(domainFromUrl(src.href));
 	const isX = $derived(src.kind === 'x' || domain === 'x.com' || domain === 'twitter.com');
+	const isPrimary = $derived(src.kind === 'primary');
 	const fav = $derived(isX ? null : faviconUrl(domain));
-	const timeStr = $derived(
-		!compact && src.time ? formatSourceTime(src.time, generatedAt, timezone) : null
+	const formattedTime = $derived(
+		src.time ? formatSourceTime(src.time, generatedAt, timezone) : null
 	);
+	const timeStr = $derived(!compact && formattedTime ? formattedTime : null);
+
+	const tooltipText = $derived.by(() => {
+		if (!compact) return undefined;
+		const parts = [src.label];
+		if (isPrimary) parts.push('Primary reporting');
+		if (formattedTime) parts.push(formattedTime);
+		if (domain) parts.push(`(${domain})`);
+		return parts.join(' · ');
+	});
 
 	function handleFaviconError(e: Event) {
 		onFaviconError?.(e);
@@ -45,7 +56,11 @@
 	rel="noopener noreferrer"
 	target="_blank"
 	aria-label={src.label}
+	title={tooltipText}
 >
+	{#if compact && isPrimary}
+		<span class="source-chip__primary-dot" aria-hidden="true"></span>
+	{/if}
 	{#if isX}
 		<span class="source-chip__badge source-chip__badge--x" title="Post on X" aria-hidden="true">
 			<svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor" aria-hidden="true">

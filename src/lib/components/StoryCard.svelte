@@ -135,15 +135,18 @@
 		<ul class="facts">
 			{#each visibleFacts as fact, i (`${i}:${fact.text}`)}
 				{@const linked = factSources(fact.sourceIndexes)}
-				<li class:facts__item--linked={linked.length > 0}>
-					<span class="facts__text"><Highlight text={fact.text} {query} /></span>
-					{#if linked.length}
-						<span class="facts__sources">
-							{#each linked as src (src.href + src.label)}
-								<SourceChip {src} compact {generatedAt} {timezone} />
-							{/each}
-						</span>
-					{/if}
+				<li class="facts__item" class:facts__item--linked={linked.length > 0}>
+					<span class="facts__text"
+						><Highlight text={fact.text} {query} />{#if linked.length}<span
+								class="facts__sources"
+								role="group"
+								aria-label="Sources for this fact"
+							>
+								{#each linked as src (src.href + src.label)}
+									<SourceChip {src} compact {generatedAt} {timezone} />
+								{/each}
+							</span>{/if}</span
+					>
 				</li>
 			{/each}
 		</ul>
