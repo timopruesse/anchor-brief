@@ -149,26 +149,53 @@
 
 	{#if sources.length}
 		<nav class="story__sources" aria-label="Sources">
-			<span class="sources__label">Sources:</span>
+			<span class="sources__label">Sources</span>
 			<ul class="sources__list">
 				{#each sources as src (src.href + src.label)}
 					<li class="sources__item">
 						<a
-							class="source-link"
-							class:source-link--primary={src.kind === 'primary'}
+							class="source-chip"
+							data-kind={src.kind}
 							href={src.href!}
 							rel="noopener noreferrer"
 							target="_blank"
 						>
-							{#if src.kind === 'primary'}
-								<span class="source-dot" title="Primary reporting/filing" aria-hidden="true"></span>
+							{#if src.kind === 'x'}
+								<span class="source-chip__badge source-chip__badge--x" title="Post on X">
+									<svg viewBox="0 0 24 24" width="9" height="9" fill="currentColor" aria-hidden="true">
+										<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+									</svg>
+									<span>X</span>
+								</span>
+							{:else if src.kind === 'primary'}
+								<span class="source-chip__badge source-chip__badge--primary" title="Primary reporting or filing">
+									<span class="primary-dot" aria-hidden="true"></span>
+									<span>Primary</span>
+								</span>
+							{:else}
+								<span class="source-chip__badge source-chip__badge--article" title="News reporting">
+									<svg viewBox="0 0 24 24" width="9" height="9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+										<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+										<path d="M8 7h8M8 11h8M8 15h5"/>
+									</svg>
+									<span>Article</span>
+								</span>
 							{/if}
-							<span class="source-link__text">{src.label}</span>
+
+							<span class="source-chip__label">{src.label}</span>
+
 							{#if src.time}
-								<time class="source-link__time" datetime={src.time}>
-									{formatSourceTime(src.time, generatedAt, timezone)}
-								</time>
+								{@const timeStr = formatSourceTime(src.time, generatedAt, timezone)}
+								{#if timeStr}
+									<time class="source-chip__time" datetime={src.time} title="Published {src.time}">
+										{timeStr}
+									</time>
+								{/if}
 							{/if}
+
+							<svg class="source-chip__outbound" viewBox="0 0 12 12" width="8" height="8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+								<path d="M3.5 8.5 8.5 3.5M4 3.5h4.5V8"/>
+							</svg>
 						</a>
 					</li>
 				{/each}
