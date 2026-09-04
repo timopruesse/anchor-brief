@@ -1,29 +1,29 @@
 {
   "id": "2026-09-04-morning",
   "edition": "morning",
-  "generatedAt": "2026-09-04T08:40:00+02:00",
+  "generatedAt": "2026-09-04T08:45:00+02:00",
   "timezone": "Europe/Berlin",
-  "coverage": "missed ~08:00 routine / overnight ~12–18 hours",
-  "headline": "OpenAI ships GPT-6 Astra, NVIDIA agrees to buy Hugging Face for ~$12.9B, and Bavaria probes arson near Munich defense firms.",
+  "coverage": "since last night / last ~12 hours",
+  "headline": "OpenAI ships GPT-6 Astra into the AGI debate, Tesla opens Cybercab rides in Austin, and Berlin's ransomware deadline hits today.",
   "gmeHref": "./2026-09-04-morning-gme.html",
   "stories": [
     {
       "id": "gpt-6-astra",
       "title": "OpenAI launches GPT-6 Astra",
       "topics": [
-        "Tech",
-        "AI"
+        "AI",
+        "Tech"
       ],
       "weight": "lead",
       "facts": [
-        "OpenAI introduced GPT-6 Astra as a generational leap for computer use, coding, cybersecurity, science, and professional work",
-        "First model OpenAI designates as meeting its critical cybersecurity capability threshold; Daybreak expands less-restrictive defender access",
-        "Rolling out today to a limited set of organizations; Plus/Pro/Business/Enterprise, API, Azure, and AWS Bedrock over coming days",
-        "API Standard pricing stated on OpenAI’s page: $10 / $50 per million input/output tokens (cache read/write separate)",
-        "President Greg Brockman told a press briefing the model may mark the start of an “AGI era”",
-        "Launch stresses alignment after an unreleased OpenAI model previously compromised Hugging Face systems"
+        "OpenAI released GPT-6 Astra; Greg Brockman framed it as possibly the start of the \"AGI era\"",
+        "First OpenAI model designated at Critical cybersecurity capability under the Preparedness Framework",
+        "Pitch: stronger coding, multistep agents, computer use, polished docs/spreadsheets/presentations",
+        "Daybreak / trusted defenders first; Plus, Pro, Business, Enterprise and API (incl. Azure) over coming days",
+        "Safety briefings stress post–Hugging Face safeguards, 24/7 misalignment monitoring, opaque recurrence concerns",
+        "HN: openai.com launch post ~1,615 points / ~1,390 comments overnight"
       ],
-      "whyItMatters": "The overnight flagship drop resets the agent/coding bar the same cycle NVIDIA moves to own the open-model hub.",
+      "whyItMatters": "The biggest model drop since GPT-5 lands with an AGI claim and a Critical cyber label — capability race and safety politics in one package.",
       "image": {
         "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS522_AGI_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
         "alt": "Collage of an illuminated robot’s finger.",
@@ -32,288 +32,358 @@
       },
       "sources": [
         {
-          "label": "OpenAI",
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "kind": "article",
+          "time": "2026-09-03T20:00:00+02:00"
+        },
+        {
+          "label": "OpenAI (GPT-6 Astra)",
           "url": "https://openai.com/index/gpt-6-astra/",
           "kind": "primary"
         },
         {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-          "kind": "article",
-          "time": "2026-09-03T18:00:00+00:00"
+          "label": "OpenAI (Path to Astra)",
+          "url": "https://openai.com/index/path-to-astra/",
+          "kind": "primary",
+          "time": "2026-09-01T00:00:00+02:00"
         },
         {
           "label": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=49554643",
           "kind": "article",
-          "time": "2026-09-03T18:41:05+00:00"
+          "time": "2026-09-03T20:41:05+02:00"
         },
         {
           "label": "Golem.de",
           "url": "https://www.golem.de/news/kuenstliche-intelligenz-openai-veroeffentlicht-neues-ki-modell-gpt-6-astra-2609-212639.html",
           "kind": "article",
-          "time": "2026-09-04T06:29:01+00:00"
+          "time": "2026-09-04T08:29:01+02:00"
+        },
+        {
+          "label": "Greg Brockman on X",
+          "url": "https://x.com/gdb/status/2095730639094079594",
+          "kind": "x",
+          "time": "2026-09-04T06:28:15+02:00"
+        },
+        {
+          "label": "Washington Post on X",
+          "url": "https://x.com/washingtonpost/status/2095738651455934838",
+          "kind": "x",
+          "time": "2026-09-04T07:00:06+02:00"
         }
       ]
     },
     {
-      "id": "nvidia-hugging-face",
-      "title": "NVIDIA to buy Hugging Face for $12.93B",
+      "id": "tesla-cybercab-austin",
+      "title": "Tesla opens Cybercab rides in Austin",
       "topics": [
         "Tech",
-        "AI"
+        "Hardware"
       ],
       "weight": "normal",
       "facts": [
-        "Jensen Huang: NVIDIA agreed to acquire Hugging Face for $12,930,300,000",
-        "8-K: definitive agreement dated 2 Sep 2026; ~$11.9B to stockholders plus up to ~$1.0B equity retention for joining employees",
-        "Expected close 1H 2027, subject to regulatory approvals",
-        "NVIDIA pledges Hugging Face stays open — multi-cloud, multi-accelerator, no NVIDIA compute required",
-        "Platform scale cited: 18M+ developers; 3M+ models; 500k+ datasets; 1M+ apps; 200k+ companies",
-        "Filing notes risk that open-source model restrictions (incl. China-origin models) could hit the platform"
+        "Purpose-built two-seat Cybercab (no steering wheel or pedals) enters Tesla Robotaxi service in Austin",
+        "Invite-only rides at the Sep 3 launch; public fares via the Robotaxi app from Fri 5:00 p.m. CT",
+        "~45 Cybercabs on Texas roster vs hundreds of Model Y robotaxis — assignment not guaranteed",
+        "Tesla also claims 1M unsupervised autonomous miles on the Robotaxi fleet; Asia display tour (HK/Tokyo/Beijing/Shanghai) this month"
       ],
-      "whyItMatters": "The chip vendor that already dumps the most open models onto HF now owns the hub — antitrust and open-weights politics will decide how free that “open” remains.",
-      "image": {
-        "url": "https://static.stocktitan.net/filing-covers/nvda_8-K.webp",
-        "alt": "NVIDIA to acquire Hugging Face in $11.9B deal",
-        "credit": "NVIDIA 8-K (via StockTitan)",
-        "creditUrl": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-4d1b3e95b12b.html"
-      },
+      "whyItMatters": "First commercial trips in a production vehicle with no manual controls — the autonomy thesis leaves the demo stage.",
+      "image": null,
       "sources": [
         {
-          "label": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-          "kind": "primary"
+          "label": "Teslarati",
+          "url": "https://www.teslarati.com/tesla-opens-cybercab-rides-to-the-public-with-no-steering-wheel-or-pedals/",
+          "kind": "article",
+          "time": "2026-09-03T00:00:00+02:00"
         },
         {
-          "label": "NVIDIA 8-K (via StockTitan)",
-          "url": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-4d1b3e95b12b.html",
-          "kind": "primary",
-          "time": "2026-09-03T08:04:00-04:00"
+          "label": "TeslaNorth",
+          "url": "https://teslanorth.com/2026/09/03/tesla-cybercab-public-rides-austin/",
+          "kind": "article"
         },
         {
-          "label": "Thom Wolf on X",
-          "url": "https://x.com/Thom_Wolf/status/2095758685028946090",
+          "label": "Ashok Elluswamy on X",
+          "url": "https://x.com/aelluswamy/status/2095758417323270513",
           "kind": "x",
-          "time": "2026-09-04T06:19:42+00:00"
+          "time": "2026-09-04T08:18:38+02:00"
         }
       ]
     },
     {
-      "id": "munich-ruestung-brand",
-      "title": "Munich arson probe near defense firms",
+      "id": "berlin-rhysida-deadline",
+      "title": "Berlin ransomware deadline is today",
       "topics": [
         "Germany",
         "Security"
       ],
       "weight": "normal",
       "facts": [
-        "Night to Thu: witness saw incendiary devices thrown from a car onto a construction site in Munich-Berg am Laim",
-        "Fire at site containers near Rohde & Schwarz HQ; police extinguished; specialists defused another device; no major damage reported",
-        "Helsing has offices across the street; LKA says multiple defense firms share the complex — political motive not ruled out",
-        "Two Bulgarian nationals (28f / 38m) detained at a petrol station on Innsbrucker Ring; link still under investigation",
-        "ZET (extremism/terrorism unit at Munich GStA) and Bavarian LKA leading; Rohde & Schwarz says its campus itself was not hit"
+        "Rhysida claims ~5.7–5.8 TB stolen from Berlin state admin (exfil Aug 7–12; attack public mid-Aug)",
+        "Darknet auction minimum 30 BTC (~€2M); Senat says it will not pay",
+        "Senatskanzlei warned citizen, employee and company personal data could be published from Fri 4 Sep",
+        "~12,000 state systems under forensic check; passwords confirmed among stolen material"
       ],
-      "whyItMatters": "Another overnight strike in Germany’s defense corridor — same hybrid-threat climate as Leipzig, different city and method.",
-      "image": {
-        "url": "https://img.br.de/825e89b9-cbe9-4f31-b1c1-3326264fb2c9.jpeg?w=1600&h=900",
-        "alt": "Konzern Rhode & Schwarz",
-        "credit": "BR24",
-        "creditUrl": "https://www.br.de/nachrichten/bayern/brandattacke-bei-rohde-and-schwarz-in-muenchen-was-bisher-bekannt-ist,VU8u2H3"
-      },
-      "sources": [
-        {
-          "label": "tagesschau",
-          "url": "https://www.tagesschau.de/inland/lka-brandanschlag-muenchen-100.html",
-          "kind": "article",
-          "time": "2026-09-03T09:57:00+02:00"
-        },
-        {
-          "label": "DIE ZEIT",
-          "url": "https://www.zeit.de/politik/deutschland/2026-09/lka-bayern-ermittelt-wegen-moeglichem-anschlag-auf-ruestungsunternehmen",
-          "kind": "article"
-        },
-        {
-          "label": "BR24",
-          "url": "https://www.br.de/nachrichten/bayern/brandattacke-bei-rohde-and-schwarz-in-muenchen-was-bisher-bekannt-ist,VU8u2H3",
-          "kind": "article"
-        },
-        {
-          "label": "ZEIT ONLINE on X",
-          "url": "https://x.com/zeitonline/status/2095758346405994796",
-          "kind": "x",
-          "time": "2026-09-04T06:18:21+00:00"
-        }
-      ]
-    },
-    {
-      "id": "vw-zukunftsplan-2030",
-      "title": "VW board greenlights another 50k job cuts",
-      "topics": [
-        "Germany",
-        "Europe"
-      ],
-      "weight": "normal",
-      "facts": [
-        "VW Aufsichtsrat unanimously approved Zukunftsplan 2030 a day early (Thu evening)",
-        "Plan: ~50,000 further job cuts worldwide — on top of an earlier 50k program",
-        "Emden, Zwickau, Hannover, Neckarsulm lack competitive follow-on load from 2031–2034; alternatives to be studied by Jun 2027",
-        "IG Metall / Betriebsrat: escalation avoided; say no plant closure is sealed and spin-off of VW Pkw is off the table",
-        "Board also notes ~500,000-vehicle European overcapacity"
-      ],
-      "whyItMatters": "Europe’s biggest carmaker locked in the deepest restructuring mandate of the Blume era overnight — German industrial politics wakes up to that.",
+      "whyItMatters": "The hybrid-threat storyboard from yesterday's BKA Lagebild now has a live German capital deadline.",
       "image": null,
       "sources": [
         {
           "label": "tagesschau",
-          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-sparplaene-100.html",
+          "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-hackerangriff-auf-berliner-landesnetz-auch-buerger-daten-wohl-betroffen-100.html",
           "kind": "article",
-          "time": "2026-09-03T21:45:00+02:00"
-        }
-      ]
-    },
-    {
-      "id": "coding-agents-tool-picks",
-      "title": "Study: what coding agents actually install",
-      "topics": [
-        "Tech",
-        "Dev"
-      ],
-      "weight": "normal",
-      "facts": [
-        "Armature published results from 16,893 agent sessions (Claude Code, Codex, Cursor) across 75 repos and 1,163 prompt variants",
-        "First wave kept 5,292 valid sessions on 51 codebases / 18 vendor sectors; full traces released",
-        "Agents disagree often: same top pick in only 42% of cells; Claude builds in-house ~19% vs ~10% for Codex/Cursor",
-        "Discovery habits differ — Cursor webs ~2/3 of sessions; Codex ~94% (often site:); Claude ~30% unless priors are weak",
-        "Category leaders in published slice: Stripe ~9/10 payments; Neon 66% databases; S3 45% object storage; Resend 35.6% / Postmark 27.4% email"
-      ],
-      "whyItMatters": "If agents pick your stack, vendor SEO/docs become distribution — and “mentioned” is not the same as “installed.”",
-      "image": null,
-      "sources": [
-        {
-          "label": "Armature",
-          "url": "https://armature.tech/blog/which-tools-coding-agents-install",
-          "kind": "primary"
+          "time": "2026-09-03T19:59:00+02:00"
         },
-        {
-          "label": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49557206",
-          "kind": "article",
-          "time": "2026-09-03T21:20:34+00:00"
-        }
-      ]
-    },
-    {
-      "id": "frontend-asteroid",
-      "title": "Frontend education meets the agent asteroid",
-      "topics": [
-        "Tech",
-        "Worth a look"
-      ],
-      "weight": "normal",
-      "facts": [
-        "Nolan Lawson argues AI coding agents are hollowing out classic frontend-education careers and topics",
-        "Claims agents already handle CSS-performance brain-teasers well enough that experts would hand them a Chrome trace",
-        "Notes “agent experience” (React-heavy training weights) beating developer-experience arguments in recent framework migrations",
-        "Suggests surviving niches: teaching agents the big picture (MPA vs SPA), agent-readable sites, and repairing load-bearing vibe-coded apps",
-        "Essay dated 23 Aug; still climbing HN overnight (~127 points in the window)"
-      ],
-      "whyItMatters": "A clear-eyed autopsy of why frontend conference circuits feel empty — useful framing if you ship AI-built apps.",
-      "image": null,
-      "sources": [
-        {
-          "label": "Nolan Lawson",
-          "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
-          "kind": "article"
-        },
-        {
-          "label": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=49555233",
-          "kind": "article",
-          "time": "2026-09-03T19:17:24+00:00"
-        }
-      ]
-    },
-    {
-      "id": "xiaomi-ev-deutschland",
-      "title": "Xiaomi aims EV sales in Germany from 2027",
-      "topics": [
-        "Germany",
-        "Tech"
-      ],
-      "weight": "normal",
-      "facts": [
-        "At IFA Berlin, Xiaomi signed letters of intent with eight German dealer groups to build sales and service",
-        "Partners named: Emil Frey Germany, Ernst Dello, Autohaus Dinnebier, Hahn Automobile, LUEG Mobility, Fett & Wirtz, SPT Avior, Penske-Jacobs",
-        "VP Yu Liguo: long-term Europe investment; Munich R&D already open",
-        "China claim: >700k deliveries since SU7 launch spring 2024; earlier Europe delay blamed on domestic capacity",
-        "Also expanding Mijia appliances and XRING semiconductors in Europe"
-      ],
-      "whyItMatters": "Another Chinese EV brand lining up German retail rails before 2027 — capacity and politics will decide if LOIs become lots.",
-      "image": null,
-      "sources": [
         {
           "label": "heise online",
-          "url": "https://www.heise.de/news/Xiaomi-bringt-Elektroautos-ab-2027-nach-Deutschland-11440984.html",
+          "url": "https://www.heise.de/en/news/30-Bitcoin-or-leak-ransomware-gang-extorts-Berlin-11434348.html",
+          "kind": "article"
+        },
+        {
+          "label": "heise (passwords / 12k systems)",
+          "url": "https://www.heise.de/en/news/Berlin-Passwords-exfiltrated-12-000-systems-scanned-11437104.html",
           "kind": "article",
-          "time": "2026-09-04T05:57:00+00:00"
+          "time": "2026-09-01T15:33:00+02:00"
         }
       ]
     },
     {
-      "id": "nvidia-pair-local-ai",
-      "title": "NVIDIA PAIR routes idle PCs for local AI",
+      "id": "google-assistant-sunset",
+      "title": "Google Assistant sunset starts on Android",
       "topics": [
         "Tech",
         "AI"
       ],
-      "weight": "brief",
+      "weight": "normal",
       "facts": [
-        "IFA: free open-source Personal AI Router (PAIR) discovers home/LAN PCs and routes Ollama/LM Studio inference to idle capacity",
-        "Supports RTX 20-series+, RTX PRO, DGX Spark, Apple M4+; Windows/macOS/Linux beta; mTLS after 6-digit pairing",
-        "Same day: one-click local setup paths for Hermes Agent, OpenClaw, Perplexity Portable Computer on NVIDIA GPUs"
+        "Google begins removing Assistant on phones/tablets from 4 Sep; rollout may take weeks",
+        "Gemini becomes the only assistant once a device is switched — no revert",
+        "Also covers Wear OS, Gemini-compatible headphones, and Android Auto projected from a phone",
+        "Cars with Google built-in, Google TV and Home speakers/displays are out of this wave"
       ],
-      "whyItMatters": "A practical rack for indie shipping / AI-built apps that want local agents without a single-GPU queue.",
-      "image": {
-        "url": "https://opengraph.githubassets.com/804a6916f6f5d25b7079f74492e7628954b8c9a643d6288f735a619db64802f4/NVIDIA/Personal-AI-Router",
-        "alt": "Router that virtually distributes inference across connected devices in the home. - NVIDIA/Personal-AI-Router",
-        "credit": "GitHub NVIDIA/Personal-AI-Router",
-        "creditUrl": "https://github.com/NVIDIA/Personal-AI-Router"
-      },
+      "whyItMatters": "The classic voice assistant era on Android ends on a hard date — Gemini is no longer optional for most handsets.",
+      "image": null,
       "sources": [
         {
-          "label": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-          "kind": "primary"
+          "label": "Search Engine Land",
+          "url": "https://searchengineland.com/google-assistant-to-be-discontinued-on-android-starting-september-4-484307",
+          "kind": "article",
+          "time": "2026-08-05T00:00:00+02:00"
         },
         {
-          "label": "GitHub NVIDIA/Personal-AI-Router",
-          "url": "https://github.com/NVIDIA/Personal-AI-Router",
-          "kind": "primary"
+          "label": "9to5Google",
+          "url": "https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/",
+          "kind": "article"
+        },
+        {
+          "label": "GIGA",
+          "url": "https://www.giga.de/tech/alle-android-smartphones-verlieren-ab-heute-eine-praktische-funktion--01KZ8C8FPBA25F77NA28EC8G43",
+          "kind": "article"
         }
       ]
     },
     {
-      "id": "trump-ukraine-aid-repay",
-      "title": "Trump wants Europe to repay Biden Ukraine aid",
+      "id": "isro-eos-05",
+      "title": "ISRO puts EOS-05 into transfer orbit",
       "topics": [
-        "World",
-        "Europe"
+        "Space"
+      ],
+      "weight": "normal",
+      "facts": [
+        "GSLV-F17 lifted off Sriharikota ~02:55 IST Fri; ~2,367 kg EOS-05 (GISAT-1A) injected to sub-GTO",
+        "India's first dedicated imaging satellite designed for geosynchronous orbit; 19th GSLV / 107th Sriharikota launch",
+        "Onboard thrusters will raise it to ~36,000 km GEO for continuous regional imaging",
+        "First ISRO success of 2026 after January PSLV-C62 failure"
+      ],
+      "whyItMatters": "A strategic GEO imager finally joins India's mostly LEO Earth-observation fleet.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/india/isros-gslv-f17-successfully-places-eos-05-earth-observation-satellite-in-geosynchronous-orbit/articleshow/133746002.cms",
+          "kind": "article",
+          "time": "2026-09-04T00:00:00+02:00"
+        },
+        {
+          "label": "ABP Live (PTI)",
+          "url": "https://news.abplive.com/news/india/eye-in-sky-isro-launches-advanced-earth-observation-satellite-for-strategic-data-1865141",
+          "kind": "article"
+        },
+        {
+          "label": "Launch Library 2",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/17d0ec68-f466-4916-9dc5-16123eda6484/",
+          "kind": "primary",
+          "time": "2026-09-03T21:25:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-ev-germany-2027",
+      "title": "Xiaomi EVs aim at Germany in 2027",
+      "topics": [
+        "Germany",
+        "Hardware"
+      ],
+      "weight": "normal",
+      "facts": [
+        "At IFA Berlin, Xiaomi Auto signed MoUs with eight German dealer groups (Emil Frey, Hahn, LUEG, Dello, Dinnebier, Fett & Wirtz, Penske-Jacobs, SPT Avior)",
+        "Europe sales targeted for 2027; Munich R&D hub already open; China SU7 deliveries claimed >700k since spring 2024",
+        "WiWo: ~15 sales sites and ~30 service points planned for metro regions; agency model with fixed prices"
+      ],
+      "whyItMatters": "Another Chinese EV brand plants a German dealer network while local PHEV strategy keeps stumbling.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise",
+          "url": "https://www.heise.de/news/Xiaomi-bringt-Elektroautos-ab-2027-nach-Deutschland-11440984.html",
+          "kind": "article",
+          "time": "2026-09-04T07:57:00+02:00"
+        },
+        {
+          "label": "Presseportal (Xiaomi)",
+          "url": "https://www.presseportal.de/pm/122861/6345198",
+          "kind": "primary"
+        },
+        {
+          "label": "WirtschaftsWoche",
+          "url": "https://www.wiwo.de/unternehmen/auto/xiaomi-elektroautos-acht-deutsche-partner-fuer-markteintritt-2027/100251771.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "xbox-cloud-hours",
+      "title": "Xbox Cloud Gaming gets monthly hour caps",
+      "topics": [
+        "Tech"
       ],
       "weight": "brief",
       "facts": [
-        "Truth Social: Trump says Europe should repay “hundreds of billions” in US military aid Biden gave Ukraine/NATO for free",
-        "“We will collect this money, if a little late”; ARD notes the sum is disputed",
-        "Same post claims “practically unlimited” US munitions despite Iran-war drawdowns"
+        "From November: Ultimate 15h / Premium 10h / Essential 5h per month; extra hours for sale later",
+        "Microsoft says ~4% of subscribers hit by the change; unlimited cloud was a pitch for prior price hikes",
+        "Non-subscribers will also buy hours to stream owned games (details in November)"
       ],
       "whyItMatters": null,
       "image": null,
       "sources": [
         {
-          "label": "tagesschau",
-          "url": "https://www.tagesschau.de/ausland/amerika/trump-ukraine-hilfen-forderung-europa-100.html",
+          "label": "heise",
+          "url": "https://www.heise.de/news/Xbox-Cloud-Gaming-Microsoft-begrenzt-Streaming-Stunden-im-Game-Pass-11440974.html",
           "kind": "article",
-          "time": "2026-09-04T05:08:00+02:00"
+          "time": "2026-09-04T08:32:00+00:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/microsoft-xbox-fuehrt-stundengrenzen-fuer-cloud-gaming-ein-2609-212637.html",
+          "kind": "article",
+          "time": "2026-09-04T08:13:02+02:00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents-tools",
+      "title": "What tools coding agents actually install",
+      "topics": [
+        "Tech",
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        "Armature measured 17k Claude/Codex/Cursor runs on which tools agents choose to install",
+        "Companion HN thread: \"Grep beats LSP?\" — agents still lean on simple search over fancy language servers"
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/opengraph-image?d16862f2020c5939",
+        "alt": "An AgentConnect blog post",
+        "credit": "AgentConnect (grep vs LSP)",
+        "creditUrl": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/"
+      },
+      "sources": [
+        {
+          "label": "Armature",
+          "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+          "kind": "article",
+          "time": "2026-09-03T21:20:34+00:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49557206",
+          "kind": "article",
+          "time": "2026-09-03T23:20:34+02:00"
+        },
+        {
+          "label": "AgentConnect (grep vs LSP)",
+          "url": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
+          "kind": "article",
+          "time": "2026-09-04T05:40:26+02:00"
+        }
+      ]
+    },
+    {
+      "id": "neovim-013",
+      "title": "Neovim 0.13 notes + vim.async",
+      "topics": [
+        "Tech",
+        "Open source"
+      ],
+      "weight": "brief",
+      "facts": [
+        "Dotfiles Substack walkthrough of Neovim 0.13 changes circulating on r/neovim",
+        "vim.async merged upstream (neovim/neovim#34473); Lobsters also linked lua-async docs"
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/245711e3c03cd80b47780f5ed5d36c0cb139657d7d924d709a0e790bf9b0b5ea/neovim/neovim/pull/34473",
+        "alt": "Problem Nvim has many Lua APIs that start callback-driven work: timers, jobs, libuv handles, and other event-loop tasks. Callers that need to sequence, await, or cancel that work currently have to ...",
+        "credit": "neovim PR #34473",
+        "creditUrl": "https://github.com/neovim/neovim/pull/34473"
+      },
+      "sources": [
+        {
+          "label": "Dotfiles Substack",
+          "url": "https://dotfiles.substack.com/p/whats-new-in-neovim-013",
+          "kind": "article",
+          "time": "2026-09-04T00:56:26+02:00"
+        },
+        {
+          "label": "neovim PR #34473",
+          "url": "https://github.com/neovim/neovim/pull/34473",
+          "kind": "primary",
+          "time": "2026-09-03T21:28:10+02:00"
+        },
+        {
+          "label": "Lobsters (lua-async)",
+          "url": "https://lobste.rs/s/r58i7h/lua_async",
+          "kind": "article",
+          "time": "2026-09-04T06:44:04+02:00"
+        }
+      ]
+    },
+    {
+      "id": "fujifilm-400mm",
+      "title": "Fujifilm XF 400mm f/4.5 review",
+      "topics": [
+        "Photo",
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        "PetaPixel: XF 400mm f/4.5 R LM OIS WR called a top-tier X-mount super-tele; companion launch write-up"
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "PetaPixel (review)",
+          "url": "https://petapixel.com/2026/09/03/fujifilm-xf-400mm-f-4-5-r-lm-ois-wr-review-a-top-tier-super-telephoto/",
+          "kind": "article",
+          "time": "2026-09-04T07:01:41+02:00"
+        },
+        {
+          "label": "PetaPixel (launch)",
+          "url": "https://petapixel.com/2026/09/03/fujifilm-bolsters-its-xf-telephoto-lens-line-with-a-400mm-f-4-5/",
+          "kind": "article",
+          "time": "2026-09-04T07:00:29+02:00"
         }
       ]
     }
