@@ -2,7 +2,7 @@
 
 **Separate contract** from the main briefing (`schema.md`). GME desk editions must not be folded into the main feed or rendered with main story components — that would misrepresent market/community content as the daily brief.
 
-The SvelteKit site renders these only on `/gme` and `/brief/<id>-gme` via the GME desk UI (quote, sparkline, stance, community, Cohen).
+The SvelteKit site renders these only on `/gme` and `/brief/<id>-gme` via the GME desk UI (quote, sparkline, stance, community, X voices).
 
 ## File layout
 
@@ -56,6 +56,25 @@ interface SparkPoint {
   c: number;   // close
 }
 
+/**
+ * One X account on the GME desk watchlist.
+ * Anchor fills these from X at briefing time — do not invent tweet text in fixtures.
+ */
+interface GmeVoice {
+  handle: string;
+  userId: string;
+  name?: string;
+  role?: string;
+  lastPostAt: string;
+  lastPostUrl: string;
+  lastPostText: string;
+  quiet?: boolean | string;
+}
+
+/**
+ * Ryan Cohen mirror for older JSON — same shape as today's `cohen` block.
+ * Prefer `voices` when present; keep emitting `cohen` for backward compatibility.
+ */
 interface Cohen {
   handle: string;
   userId: string;
@@ -111,11 +130,28 @@ interface GmeBriefing {
   disclaimer?: string;
   quote: Quote;
   sparkline: SparkPoint[];
+  /** Multi-account X watchlist — Anchor populates at briefing time. */
+  voices?: GmeVoice[];
+  /** Ryan Cohen mirror (same shape as today) for older JSON / backward compatibility. */
   cohen?: Cohen;
   community?: CommunitySnapshot;
   stories: Story[];           // desk bullets only — not main-feed stories
 }
 ```
+
+## X voices (watchlist)
+
+Anchor fills `voices` from X at briefing time. The site prefers `voices` when non-empty; otherwise it falls back to wrapping `cohen` as a single voice.
+
+Default accounts Anchor will populate (documentation only — not hardcoded posts in the site):
+
+| handle | userId | name | role |
+|--------|--------|------|------|
+| `ryancohen` | `1146058067244486656` | Ryan Cohen | CEO |
+| `larrycheng` | `14506006` | Larry Cheng | Board |
+| `TheRoaringKitty` | `2902349190` | Roaring Kitty | Community |
+
+`TheRoaringKitty` is the real Keith Gill account. Do **not** confuse it with `@RoaringKitty`, which is unaffiliated.
 
 ## Community notes
 
