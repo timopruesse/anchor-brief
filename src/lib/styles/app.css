@@ -204,18 +204,16 @@ a {
 .masthead__row {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	gap: 0.75rem 1rem;
+	gap: 0.65rem 0.85rem;
 	min-width: 0;
 }
 
-.masthead__actions {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	gap: 0.45rem;
-	min-width: 0;
-	flex: 0 1 auto;
+.masthead__row--nav {
+	flex-wrap: nowrap;
+}
+
+.masthead__theme {
+	flex: none;
 }
 
 .masthead__nav {
@@ -225,6 +223,7 @@ a {
 	justify-content: flex-end;
 	gap: 0.4rem;
 	min-width: 0;
+	margin-left: auto;
 }
 
 .brand {
@@ -232,7 +231,7 @@ a {
 	align-items: baseline;
 	gap: 0.55rem;
 	min-width: 0;
-	flex: 1 1 auto;
+	flex: 0 1 auto;
 	text-decoration: none;
 	color: inherit;
 }
@@ -251,8 +250,6 @@ a {
 	font-size: clamp(1.22rem, 4vw, 1.6rem);
 	font-weight: 600;
 	letter-spacing: -0.015em;
-	overflow: hidden;
-	text-overflow: ellipsis;
 	white-space: nowrap;
 }
 
@@ -333,10 +330,38 @@ a {
 	min-width: 0;
 }
 
-@media (max-width: 36rem) {
+@media (max-width: 40rem) {
+	.masthead__row--nav {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		grid-template-areas:
+			'brand theme'
+			'nav nav';
+		align-items: center;
+		column-gap: 0.65rem;
+		row-gap: 0.55rem;
+	}
+
+	.brand {
+		grid-area: brand;
+		flex: none;
+	}
+
+	.masthead__theme {
+		grid-area: theme;
+		margin-left: 0;
+	}
+
+	.masthead__nav {
+		grid-area: nav;
+		justify-content: flex-start;
+		margin-left: 0;
+	}
+
 	.desk-link__full {
 		display: none;
 	}
+
 	.desk-link__short {
 		display: inline;
 	}
