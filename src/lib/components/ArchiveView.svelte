@@ -124,7 +124,7 @@
 		{/if}
 	</section>
 {:else}
-	<section class="wrap" style="padding-block:1.4rem 2.5rem;" aria-label="Past editions">
+	<section class="wrap archive-list-wrap" aria-label="Past editions">
 		<ul class="archive-list">
 			{#each mainEditions as ed (ed.id)}
 				{@const gme = gmeByParent.get(ed.id)}

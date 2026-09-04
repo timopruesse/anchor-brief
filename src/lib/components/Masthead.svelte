@@ -27,9 +27,10 @@
 
 	const fmt = $derived(makeFormatters(timezone));
 	const generated = $derived(toDate(generatedAt));
-	const label = $derived(
-		desk === 'gme' ? 'GME desk' : editionLabel(edition)
-	);
+	const label = $derived(desk === 'gme' ? 'GME desk' : editionLabel(edition));
+	const briefingHref = $derived(resolve(parentId ? `/brief/${parentId}` : '/'));
+	const hasDeskNav = $derived((desk === 'main' && Boolean(gmeId)) || desk === 'gme');
+	const hasNav = $derived(showArchive || hasDeskNav);
 </script>
 
 <header class="masthead">
@@ -40,15 +41,23 @@
 				<span class="brand__name">Anchor&nbsp;Brief</span>
 			</a>
 			<div class="masthead__actions">
-				{#if showArchive}
-					<a class="nav-link nav-link--ghost" href={resolve('/archive')}>Archive</a>
-				{/if}
-				{#if desk === 'main' && gmeId}
-					<a class="desk-link" href={resolve(`/brief/${gmeId}`)}>GME desk</a>
-				{:else if desk === 'gme'}
-					<a class="nav-link nav-link--ghost" href={resolve(parentId ? `/brief/${parentId}` : '/')}>
-						← Briefing
-					</a>
+				{#if hasNav}
+					<nav class="masthead__nav" aria-label="Desk navigation">
+						{#if showArchive}
+							<a class="nav-link nav-link--ghost" href={resolve('/archive')}>Archive</a>
+						{/if}
+						{#if desk === 'main' && gmeId}
+							<a class="desk-link" href={resolve(`/brief/${gmeId}`)}>
+								<span class="desk-link__full">GME desk</span>
+								<span class="desk-link__short">GME</span>
+							</a>
+						{:else if desk === 'gme'}
+							<a class="nav-link nav-link--ghost" href={briefingHref}>
+								<span class="desk-link__full">← Briefing</span>
+								<span class="desk-link__short">← Brief</span>
+							</a>
+						{/if}
+					</nav>
 				{/if}
 				<ThemeToggle />
 			</div>

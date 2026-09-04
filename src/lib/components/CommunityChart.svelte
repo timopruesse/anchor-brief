@@ -137,6 +137,7 @@
 		background: var(--surface);
 		border: 1px solid var(--line);
 		border-radius: 12px;
+		min-width: 0;
 	}
 
 	.comm-chart svg {
@@ -179,19 +180,22 @@
 	.legend {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.55rem 0.9rem;
-		margin: 0.45rem 0 0;
-		padding: 0 0.15rem;
-		font-size: 0.72rem;
+		gap: 0.45rem 0.75rem;
+		margin: 0.5rem 0 0;
+		padding: 0.15rem 0 0;
+		font-size: 0.7rem;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		color: var(--ink-3);
+		border-top: 1px solid var(--line-soft);
+		padding-top: 0.55rem;
 	}
 
 	.leg {
 		display: inline-flex;
 		align-items: center;
 		gap: 0.35rem;
+		min-height: 1.6rem;
 	}
 
 	.leg::before {
@@ -213,6 +217,23 @@
 	}
 	.leg-junk {
 		color: #6a6158;
+	}
+
+	@media (max-width: 40rem) {
+		.comm-chart {
+			padding: 0.65rem 0.55rem 0.5rem;
+			border-radius: 10px;
+		}
+
+		.tick,
+		.xlabel {
+			font-size: 8px;
+		}
+
+		.legend {
+			gap: 0.35rem 0.65rem;
+			font-size: 0.66rem;
+		}
 	}
 
 	@media (prefers-color-scheme: light) {
