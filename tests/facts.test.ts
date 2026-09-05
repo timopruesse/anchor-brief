@@ -56,11 +56,42 @@ describe('validateFact', () => {
 		expect(validateFact({ text: 'ok', sourceIndexes: [0, 2] }, 3)).toEqual([]);
 	});
 
+	it('errors on empty string or empty text', () => {
+		expect(validateFact('', 1)[0].level).toBe('error');
+		expect(validateFact('   ', 1)[0].level).toBe('error');
+		expect(validateFact({ text: '' }, 1)[0].level).toBe('error');
+	});
+
+	it('warns when text exceeds 220 chars', () => {
+		const long = 'x'.repeat(221);
+		const stringIssues = validateFact(long, 0);
+		expect(stringIssues).toHaveLength(1);
+		expect(stringIssues[0].level).toBe('warn');
+		expect(stringIssues[0].message).toContain('220');
+
+		const objectIssues = validateFact({ text: long, sourceIndexes: [0] }, 1);
+		expect(objectIssues.some((i) => i.level === 'warn' && i.message.includes('220'))).toBe(true);
+	});
+
 	it('warns on out-of-range sourceIndexes', () => {
 		const issues = validateFact({ text: 'x', sourceIndexes: [5] }, 2);
 		expect(issues).toHaveLength(1);
 		expect(issues[0].level).toBe('warn');
 		expect(issues[0].message).toContain('out of range');
+	});
+
+	it('errors on negative sourceIndexes', () => {
+		const issues = validateFact({ text: 'x', sourceIndexes: [-1] }, 2);
+		expect(issues).toHaveLength(1);
+		expect(issues[0].level).toBe('error');
+		expect(issues[0].message).toContain('non-negative');
+	});
+
+	it('warns on unknown keys without hard-failing', () => {
+		const issues = validateFact({ text: 'ok', extra: true }, 0);
+		expect(issues).toHaveLength(1);
+		expect(issues[0].level).toBe('warn');
+		expect(issues[0].message).toContain('unknown key');
 	});
 
 	it('errors on malformed shapes', () => {

@@ -1,5 +1,8 @@
 import type { Fact, FactObject } from './types';
 
+const FACT_TEXT_SOFT_MAX = 220;
+const FACT_OBJECT_KEYS = new Set(['text', 'sourceIndexes']);
+
 /**
  * Soft-normalize a fact wire value to `{ text, sourceIndexes? }`.
  * Strings become `{ text }`; invalid values yield `{ text: '' }`.
@@ -33,9 +36,42 @@ export interface FactValidationIssue {
 	message: string;
 }
 
+function unknownKeys(
+	obj: Record<string, unknown>,
+	allowed: Set<string>,
+	path: string
+): FactValidationIssue[] {
+	const issues: FactValidationIssue[] = [];
+	for (const key of Object.keys(obj)) {
+		if (!allowed.has(key)) {
+			issues.push({
+				level: 'warn',
+				message: `${path}: unknown key "${key}" (ignored)`
+			});
+		}
+	}
+	return issues;
+}
+
+function validateFactText(text: string, path: string): FactValidationIssue[] {
+	const issues: FactValidationIssue[] = [];
+	if (!text.trim()) {
+		issues.push({ level: 'error', message: `${path}: expected non-empty string` });
+		return issues;
+	}
+	if (text.length > FACT_TEXT_SOFT_MAX) {
+		issues.push({
+			level: 'warn',
+			message: `${path}: text length ${text.length} > ${FACT_TEXT_SOFT_MAX}`
+		});
+	}
+	return issues;
+}
+
 /**
  * Validate one fact against a story's sources length.
- * Strings are always valid. Objects need a string `text`; out-of-range indexes warn.
+ * Accepts plain non-empty strings or `{ text, sourceIndexes? }`.
+ * Out-of-range indexes and unknown keys warn; negatives / empty text error.
  */
 export function validateFact(
 	raw: unknown,
@@ -45,17 +81,24 @@ export function validateFact(
 	const issues: FactValidationIssue[] = [];
 
 	if (typeof raw === 'string') {
-		return issues;
+		return validateFactText(raw, path);
 	}
 
 	if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
-		issues.push({ level: 'error', message: `${path}: expected string or { text, sourceIndexes? }` });
+		issues.push({
+			level: 'error',
+			message: `${path}: expected string or { text, sourceIndexes? }`
+		});
 		return issues;
 	}
 
 	const obj = raw as Record<string, unknown>;
+	issues.push(...unknownKeys(obj, FACT_OBJECT_KEYS, path));
+
 	if (typeof obj.text !== 'string') {
-		issues.push({ level: 'error', message: `${path}.text: expected string` });
+		issues.push({ level: 'error', message: `${path}.text: expected non-empty string` });
+	} else {
+		issues.push(...validateFactText(obj.text, `${path}.text`));
 	}
 
 	if (obj.sourceIndexes !== undefined) {
@@ -63,14 +106,14 @@ export function validateFact(
 			issues.push({ level: 'error', message: `${path}.sourceIndexes: expected number[]` });
 		} else {
 			obj.sourceIndexes.forEach((idx, j) => {
-				if (typeof idx !== 'number' || !Number.isInteger(idx)) {
+				if (typeof idx !== 'number' || !Number.isInteger(idx) || idx < 0) {
 					issues.push({
 						level: 'error',
-						message: `${path}.sourceIndexes[${j}]: expected integer`
+						message: `${path}.sourceIndexes[${j}]: expected non-negative integer`
 					});
 					return;
 				}
-				if (idx < 0 || idx >= sourcesLength) {
+				if (idx >= sourcesLength) {
 					issues.push({
 						level: 'warn',
 						message: `${path}.sourceIndexes[${j}]=${idx} out of range (sources length ${sourcesLength})`
