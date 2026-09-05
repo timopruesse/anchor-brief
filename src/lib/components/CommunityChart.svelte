@@ -83,9 +83,22 @@
 	}
 
 	const showEvery = $derived(series.length > 8 ? 2 : 1);
+	/** Sparse early history reads better as a warm-up notice than a near-empty chart. */
+	const warmingUp = $derived(series.length > 0 && series.length < 5);
 </script>
 
-{#if series.length}
+{#if warmingUp}
+	<figure class="comm-chart comm-chart--warming" aria-label="Community chart warming up">
+		<div class="comm-warm">
+			<span class="comm-warm__rule"></span>
+			<p class="comm-warm__title">Chart warming up</p>
+			<p class="comm-warm__copy">
+				{series.length} day{series.length === 1 ? '' : 's'} logged so far — the 14-day velocity stack
+				needs a few more sessions before the pattern holds.
+			</p>
+		</div>
+	</figure>
+{:else if series.length}
 	<figure class="comm-chart">
 		<svg
 			viewBox="0 0 {W} {H}"
@@ -138,6 +151,42 @@
 		border: 1px solid var(--line);
 		border-radius: 12px;
 		min-width: 0;
+	}
+
+	.comm-chart--warming {
+		padding: 1rem 0.95rem 0.95rem;
+	}
+
+	.comm-warm {
+		display: grid;
+		gap: 0.4rem;
+		min-height: 6.5rem;
+		align-content: center;
+	}
+
+	.comm-warm__rule {
+		display: block;
+		width: 2.5rem;
+		height: 2px;
+		background: var(--accent);
+		border-radius: 1px;
+		margin-bottom: 0.15rem;
+	}
+
+	.comm-warm__title {
+		margin: 0;
+		font-family: var(--serif);
+		font-size: 1.05rem;
+		letter-spacing: -0.015em;
+		color: var(--ink);
+	}
+
+	.comm-warm__copy {
+		margin: 0;
+		max-width: 36rem;
+		font-size: 0.82rem;
+		line-height: 1.45;
+		color: var(--ink-3);
 	}
 
 	.comm-chart svg {

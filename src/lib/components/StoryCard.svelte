@@ -52,6 +52,15 @@
 
 	const ph = $derived(gradientFor(story.id || story.title, theme.isLight));
 
+	/** Typographic panel for lead/normal cards missing an image URL (briefs stay compact). */
+	const showEditorialPanel = $derived(!story.image?.url && weight !== 'brief');
+	const topicKicker = $derived(story.topics?.find((t) => t.trim()) ?? '');
+	const dropInitial = $derived.by(() => {
+		const raw = String(story.title ?? '').trim();
+		const match = raw.match(/[\p{L}\p{N}]/u);
+		return (match?.[0] ?? '·').toLocaleUpperCase();
+	});
+
 	/** Resolve per-fact chips by original `sources[]` index (schema contract). */
 	function factSources(indexes: number[] | undefined) {
 		if (!indexes?.length) return [];
@@ -128,6 +137,23 @@
 					{/if}
 				</figcaption>
 			{/if}
+		</figure>
+	{:else if showEditorialPanel}
+		<figure
+			class="figure figure--editorial"
+			class:figure--editorial-lead={weight === 'lead'}
+			aria-hidden="true"
+		>
+			<div class="figure__frame figure__frame--editorial" style:--ph-gradient={ph}>
+				<div class="editorial-panel">
+					<span class="editorial-panel__rule"></span>
+					{#if topicKicker}
+						<span class="editorial-panel__kicker">{topicKicker}</span>
+					{/if}
+					<span class="editorial-panel__initial">{dropInitial}</span>
+					<span class="editorial-panel__mark">Anchor Brief</span>
+				</div>
+			</div>
 		</figure>
 	{/if}
 
