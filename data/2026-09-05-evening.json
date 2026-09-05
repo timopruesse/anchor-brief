@@ -1,0 +1,444 @@
+{
+  "id": "2026-09-05-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-05T19:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning (~08:00 Berlin) / last ~12 hours — afternoon edition skipped",
+  "headline": "Witkoff and Kushner land in Moscow as Putin pauses Kyiv strikes; German police publish wanted photos in the power-grid sabotage manhunt; Dutch central bank shifts gold out of the US and Canada.",
+  "stories": [
+    {
+      "id": "witkoff-kushner-moscow",
+      "title": "Witkoff & Kushner in Moscow; Putin orders a Kyiv strike pause",
+      "topics": [
+        "World",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "CNN: Steve Witkoff and Jared Kushner arrived in Moscow Sat with a Trump “proposal to end the war”; Kyiv visit planned for Sunday",
+        "Kremlin: Putin ordered a three-day halt to strikes on Kyiv from midnight Sat local — capital only, not the rest of Ukraine — tied to the US contacts",
+        "Zelenskyy: Ukraine ready to refrain from strikes on Moscow through Monday if Russia matches on Kyiv; says he spoke with the envoys Sat",
+        "Earlier Sat Zelenskyy said Russian missiles hit airports near Kyiv (incl. Boryspil) amid talk of a US aircraft arrival",
+        "Peskov downplayed “new ideas”; Russian officials still insist any deal must reflect “realities on the ground”"
+      ],
+      "whyItMatters": "First Kyiv trip for Trump’s envoys this term, paired with a narrow capital-only strike pause — a live diplomacy window, not a ceasefire.",
+      "image": {
+        "url": "https://media.cnn.com/api/v1/images/stellar/prod/e665f5af-c837-47dc-9e5e-177b9c741614.jpg?c=16x9&q=w_800,c_fill",
+        "alt": "Kirill Dmitriev welcomes Jared Kushner and Steve Witkoff in Moscow",
+        "credit": "CNN",
+        "creditUrl": "https://www.cnn.com/2026/09/05/europe/witkoff-kushner-moscow-kyiv-proposal-war-intl"
+      },
+      "sources": [
+        {
+          "label": "CNN",
+          "url": "https://www.cnn.com/2026/09/05/europe/witkoff-kushner-moscow-kyiv-proposal-war-intl",
+          "kind": "article",
+          "time": "2026-09-05T18:35:00+02:00"
+        },
+        {
+          "label": "TIME on X",
+          "url": "https://x.com/TIME/status/2096284583520301414",
+          "kind": "x",
+          "time": "2026-09-05T19:09:26+02:00"
+        },
+        {
+          "label": "RBC-Ukraine",
+          "url": "https://newsukraine.rbc.ua/news/trump-s-envoys-arrive-in-moscow-with-a-new-1788609248.html",
+          "kind": "article",
+          "time": "2026-09-05T14:54:00+02:00"
+        },
+        {
+          "label": "POLITICO",
+          "url": "https://www.politico.eu/article/steve-witkoff-jared-kushner-donald-trump-visit-moscow-and-kyiv/",
+          "kind": "article",
+          "time": "2026-09-04T19:58:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "germany-grid-sabotage",
+      "title": "Wanted photos out: manhunt for grid-sabotage suspect Daniel V.",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "ZEIT/dpa Sat: police + prosecutors publish a wanted notice with two photos of the 48-year-old from Gevelsberg; public tips sought",
+        "Suspect still missing after SEK stormed his flat (explosives found) and a converted truck at Hambacher Forst — he wasn’t in either",
+        "Bekennerschreiben claim attacks near brown-coal sites in NRW + Brandenburg; Dobrindt calls it likely “Klimaterrorismus” / Einzeltäter",
+        "Sachsen: police secured multiple Sprengvorrichtungen near Umspannwerke (Bärwalde / Graustein area); link to other cases under review",
+        "Amprion CEO: public grid maps make attacks too easy — wants looser transparency rules + broader drone/camera surveillance rights"
+      ],
+      "whyItMatters": "A live critical-infra manhunt with published faces, plus a policy fight over how much grid detail stays online.",
+      "image": {
+        "url": "https://img.zeit.de/news/2026-09/05/strom-sabotage-suche-nach-verdaechtigem-laeuft-image-group/wide__1300x731",
+        "alt": "Converted truck linked to the German power-grid sabotage suspect",
+        "credit": "DIE ZEIT / dpa",
+        "creditUrl": "https://www.zeit.de/news/2026-09/05/strom-sabotage-suche-nach-verdaechtigem-laeuft"
+      },
+      "sources": [
+        {
+          "label": "DIE ZEIT (dpa)",
+          "url": "https://www.zeit.de/news/2026-09/05/strom-sabotage-suche-nach-verdaechtigem-laeuft",
+          "kind": "article",
+          "time": "2026-09-05T17:00:00+02:00"
+        },
+        {
+          "label": "tagesschau.de",
+          "url": "https://www.tagesschau.de/inland/fahndung-sabotage-stromnetz-100.html",
+          "kind": "article",
+          "time": "2026-09-05T09:41:00+02:00"
+        },
+        {
+          "label": "FAZ on X",
+          "url": "https://x.com/faznet/status/2096272501852488086",
+          "kind": "x",
+          "time": "2026-09-05T18:21:25+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/hintergrund/Draht-statt-Sprengstoff-Angriffe-auf-Umspannwerke-und-Grenzen-der-Netzredundanz-11442322.html",
+          "kind": "article",
+          "time": "2026-09-05T16:41:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "netherlands-gold",
+      "title": "Netherlands shifts dozens of tonnes of gold out of the US and Canada",
+      "topics": [
+        "World",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        "ABC: De Nederlandsche Bank moved 86 tonnes of gold held in the US/Canada (of 313 there) to the Bank of England between March and August",
+        "DNB cites “crisis preparedness” and “increasing geopolitical unrest”; gold at BoE is “most easily tradable” in a crunch",
+        "Mix of physical shipments to Zeist then UK, plus sell-in-NY / buy-in-London for 59 tonnes to cut relocation risk",
+        "Netherlands total reserves ~612 tonnes; France also replaced New York holdings with Europe-stored gold in 2025",
+        "HN #1 Sat (~296 pts / 190 comments) — feed is reading it as a trust-in-US story"
+      ],
+      "whyItMatters": "A quiet central-bank logistics story that the tech feed is treating as a geopolitical signal.",
+      "image": {
+        "url": "https://live-production.wcms.abc-cdn.net.au/8d210aff4e95385e1e96d3b8dfcc3f2f?impolicy=wcms_watermark_news&cropH=2204&cropW=3918",
+        "alt": "Gold bullion bars",
+        "credit": "ABC News",
+        "creditUrl": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990"
+      },
+      "sources": [
+        {
+          "label": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
+          "kind": "article",
+          "time": "2026-09-04T06:54:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49575034",
+          "kind": "article",
+          "time": "2026-09-05T12:14:28+02:00"
+        }
+      ]
+    },
+    {
+      "id": "tech-ai-layoffs",
+      "title": "Bay Area tech cuts already past all of 2025 — AI as the stated reason",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "heise (Mercury News WARN data): Bay Area firms have filed ~12,947 tech layoffs YTD through early Sep — ~27% above the full-year 2025 total (10,170)",
+        "Meta leads the Bay Area tally (~3,715 local of a ~10% global cut framed as funding AI spend); Amazon 917, Cisco 706, Oracle 652 in the Valley counts",
+        "TrueUp via Yahoo: >180k global tech layoffs logged for 2026 after >245k in 2025; trackers attribute >92k cuts explicitly to AI",
+        "Oracle’s annual report: ~21k roles cut worldwide (~13%) with AI scaling cited; Block ~40% workforce cut also in the heise roundup"
+      ],
+      "whyItMatters": "The layoff wave is no longer a 2023 hangover story — firms are openly trading headcount for AI capex mid-year.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/5/9/7/1/9/shutterstock_2103114116-8544d16fdaba394a.jpg?func=bound&height=1200&org_if_sml=1",
+        "alt": "Illustration for heise coverage of tech-sector job cuts",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Tech-Branche-streicht-mehr-Stellen-KI-Boom-fordert-Zehntausende-Jobs-11442676.html"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Tech-Branche-streicht-mehr-Stellen-KI-Boom-fordert-Zehntausende-Jobs-11442676.html",
+          "kind": "article",
+          "time": "2026-09-05T18:51:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "openai-astra-deepsec",
+      "title": "Astra tops DeepsecBench on X as OpenAI’s Critical cyber model lands",
+      "topics": [
+        "AI",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "OpenAI (3–4 Sep): GPT-6 Astra is first model at Critical cyber capability under the Preparedness Framework — autonomous vuln discovery/exploit potential",
+        "The Hacker News: Astra scores 100% on ExploitBench (vs ~78.5% for GPT-5.6 Sol); public build refuses PoC exploit requests, focuses on review/patching",
+        "Vercel / @rauchg Sat: Astra leads DeepsecBench — ~49 min vs ~4h for Sol on their cited run, similar cost, claimed better score",
+        "Advanced offensive cyber access stays gated (Daybreak); Saturday Following feed is mostly benchmark + harness chatter"
+      ],
+      "whyItMatters": "Morning skipped the Astra drop; Saturday’s feed is the first big Following-wave on the cyber-capability framing.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+          "kind": "article",
+          "time": "2026-09-04T00:00:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
+          "kind": "article",
+          "time": "2026-09-01T00:00:00+02:00"
+        },
+        {
+          "label": "Guillermo Rauch on X",
+          "url": "https://x.com/rauchg/status/2096285043094405491",
+          "kind": "x",
+          "time": "2026-09-05T19:11:16+02:00"
+        },
+        {
+          "label": "Vercel Developers on X",
+          "url": "https://x.com/vercel_dev/status/2096281878072635737",
+          "kind": "x",
+          "time": "2026-09-05T18:58:41+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Greek air-force jet crashes at Athens Flying Week — both pilots killed (SPIEGEL / FAZ / AP)",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Sachsen-Anhalt state election day: ~1.7M voters; SPIEGEL/ZEIT features on AfD vs civil resistance",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Italian GP: Gasly takes surprise pole; Piastri dropped P3→P6 for impeding Lawson",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Meta AI: AIRA₃ autonomous research agents took a Kaggle/NVIDIA Nemotron fine-tune challenge",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "IFA Berlin 2026 still rolling — CNET live roundup of Samsung/Dyson/LG and friends",
+          "sourceIndexes": [
+            7
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2096269943822287227",
+          "kind": "x",
+          "time": "2026-09-05T18:11:16+02:00"
+        },
+        {
+          "label": "FAZ on X",
+          "url": "https://x.com/faznet/status/2096285689000177991",
+          "kind": "x",
+          "time": "2026-09-05T19:13:50+02:00"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2096281293768311151",
+          "kind": "x",
+          "time": "2026-09-05T18:56:22+02:00"
+        },
+        {
+          "label": "DIE ZEIT on X",
+          "url": "https://x.com/zeitonline/status/2096284716294979972",
+          "kind": "x",
+          "time": "2026-09-05T19:09:58+02:00"
+        },
+        {
+          "label": "FAZ on X",
+          "url": "https://x.com/faznet/status/2096278802812854522",
+          "kind": "x",
+          "time": "2026-09-05T18:46:28+02:00"
+        },
+        {
+          "label": "F1 on X",
+          "url": "https://x.com/F1/status/2096275738110353494",
+          "kind": "x",
+          "time": "2026-09-05T18:34:17+02:00"
+        },
+        {
+          "label": "AI at Meta on X",
+          "url": "https://x.com/AIatMeta/status/2096271545589190927",
+          "kind": "x",
+          "time": "2026-09-05T18:17:37+02:00"
+        },
+        {
+          "label": "CNET",
+          "url": "https://www.cnet.com/tech/mobile/ifa-berlin-2026-live/",
+          "kind": "article",
+          "time": "2026-09-05T13:54:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: Instinct as an “employ, don’t operate” AI assistant — playbook + prompts",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The Substack Post: “arm children with tools against loneliness” — teacher essay excerpt",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Five Minute Reads: Nagoski burnout book → a 2-column open-cycle ledger",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/instinct-ai-agent-playbook-prompts-workflows-invite-2026",
+          "kind": "article",
+          "time": "2026-09-05T17:23:29+02:00"
+        },
+        {
+          "label": "The Substack Post",
+          "url": "https://post.substack.com/p/a-teachers-job-he-told-us-was-to",
+          "kind": "article",
+          "time": "2026-09-05T15:02:59+02:00"
+        },
+        {
+          "label": "Five Minute Reads",
+          "url": "https://fiveminutereads1.substack.com/p/burnout-by-the-nagoskis-is-about",
+          "kind": "article",
+          "time": "2026-09-05T12:48:55+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN: AI handles incidents → engineers lose touch (Ironies of Automation for SREs) — 289 pts",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "pushin.eu: “Git hosting that never leaves Europe” — 218 pts on HN",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Lobsters: trusting-trust attack via strip against a whole Linux distro (arXiv 2607.24888)",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Playwright v1.63.0: named test locks so shared-resource tests don’t run concurrently",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "DEV: German EPC QR invoices via Codex + qrencode TUI (“90s post office” vibes)",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Sylvain Kalache",
+          "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+          "kind": "article",
+          "time": "2026-09-05T09:52:50+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49574167",
+          "kind": "article",
+          "time": "2026-09-05T09:52:50+02:00"
+        },
+        {
+          "label": "pushin.eu",
+          "url": "https://pushin.eu",
+          "kind": "primary",
+          "time": "2026-09-05T08:31:49+02:00"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2607.24888",
+          "kind": "primary",
+          "time": "2026-09-05T07:58:49+02:00"
+        },
+        {
+          "label": "Playwright v1.63.0",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.63.0",
+          "kind": "primary",
+          "time": "2026-09-05T00:40:31+02:00"
+        },
+        {
+          "label": "DEV Community on X",
+          "url": "https://x.com/ThePracticalDev/status/2096283725512266058",
+          "kind": "x",
+          "time": "2026-09-05T19:06:01+02:00"
+        }
+      ]
+    }
+  ]
+}
