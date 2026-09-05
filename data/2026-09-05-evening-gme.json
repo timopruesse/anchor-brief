@@ -1,0 +1,755 @@
+{
+  "id": "2026-09-05-evening-gme",
+  "parentId": "2026-09-05-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-05T19:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "Fri US cash close (markets closed Sat) / last ~24h Superstonk",
+  "headline": "GME $19.16 Fri (-0.36%); Cohen/Kitty quiet; Larry’s last X still UNC civic-life (1 Sep); Superstonk mostly junk.",
+  "stance": "quiet",
+  "stanceWhy": "Weekend — cash still Friday’s $19.16 print. No fresh voice posts on the ticker; Yahoo tips recycle the $358M note-exchange cash/dilution angle; Superstonk is thin and meme-heavy — desk read, not a trade call.",
+  "disclaimer": "Today's read from the news, not investment advice.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 19.16,
+    "change": -0.07,
+    "changePct": -0.364,
+    "currency": "USD",
+    "dayHigh": 19.5,
+    "dayLow": 19.04,
+    "prevClose": 19.23,
+    "volume": 6355077,
+    "week52High": 28.1,
+    "week52Low": 17.79,
+    "asOf": "2026-09-04T20:00:02+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-03-05",
+      "c": 23.88
+    },
+    {
+      "t": "2026-03-06",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-09",
+      "c": 24.8
+    },
+    {
+      "t": "2026-03-10",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-11",
+      "c": 24.46
+    },
+    {
+      "t": "2026-03-12",
+      "c": 24.43
+    },
+    {
+      "t": "2026-03-13",
+      "c": 23.53
+    },
+    {
+      "t": "2026-03-16",
+      "c": 23.28
+    },
+    {
+      "t": "2026-03-17",
+      "c": 23.59
+    },
+    {
+      "t": "2026-03-18",
+      "c": 23.36
+    },
+    {
+      "t": "2026-03-19",
+      "c": 23.23
+    },
+    {
+      "t": "2026-03-20",
+      "c": 22.57
+    },
+    {
+      "t": "2026-03-23",
+      "c": 23.03
+    },
+    {
+      "t": "2026-03-24",
+      "c": 22.81
+    },
+    {
+      "t": "2026-03-25",
+      "c": 23.08
+    },
+    {
+      "t": "2026-03-26",
+      "c": 22.56
+    },
+    {
+      "t": "2026-03-27",
+      "c": 22.1
+    },
+    {
+      "t": "2026-03-30",
+      "c": 22.27
+    },
+    {
+      "t": "2026-03-31",
+      "c": 23.04
+    },
+    {
+      "t": "2026-04-01",
+      "c": 22.76
+    },
+    {
+      "t": "2026-04-02",
+      "c": 23.36
+    },
+    {
+      "t": "2026-04-06",
+      "c": 23.08
+    },
+    {
+      "t": "2026-04-07",
+      "c": 23.43
+    },
+    {
+      "t": "2026-04-08",
+      "c": 22.91
+    },
+    {
+      "t": "2026-04-09",
+      "c": 22.87
+    },
+    {
+      "t": "2026-04-10",
+      "c": 23.22
+    },
+    {
+      "t": "2026-04-13",
+      "c": 23.4
+    },
+    {
+      "t": "2026-04-14",
+      "c": 24.03
+    },
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
+    },
+    {
+      "t": "2026-09-04",
+      "c": 19.16
+    }
+  ],
+  "voices": [
+    {
+      "handle": "ryancohen",
+      "userId": "1146058067244486656",
+      "name": "Ryan Cohen",
+      "role": "CEO",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    },
+    {
+      "handle": "larryvc",
+      "userId": "26281090",
+      "name": "Larry Cheng",
+      "role": "Board",
+      "lastPostAt": "2026-09-01T14:48:59+02:00",
+      "lastPostUrl": "https://x.com/larryvc/status/2094769485899010134",
+      "lastPostText": "Interesting: Great initiative by UNC to launch a new School of Civic Life and Leadership focused on civil discourse across disciplines, and if this article is correct, their biggest challenge is their own faculty. Probably not an uncommon dynamic at other schools as well.",
+      "quiet": true
+    },
+    {
+      "handle": "TheRoaringKitty",
+      "userId": "2902349190",
+      "name": "Roaring Kitty",
+      "role": "Community",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "lastPostAt": null,
+    "lastPostUrl": null,
+    "lastPostText": null,
+    "quiet": true
+  },
+  "community": {
+    "asOf": "2026-09-05T19:14:13.818247+02:00",
+    "windowHours": 24,
+    "totals": {
+      "posts": 10,
+      "withOutbound": 1
+    },
+    "byKind": {
+      "dd": 0,
+      "daily": 1,
+      "news": 0,
+      "junk": 9
+    },
+    "posts": [
+      {
+        "title": "$GME Daily Directory | New? Start Here! | Discussion, DRS Guide, DD Library, Monthly Forum, and FAQs",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w7uhzu/gme_daily_directory_new_start_here_discussion_drs/",
+        "url": "https://fliphtml5.com/bookcase/kosyg",
+        "updated": "2026-09-05T08:00:49+00:00",
+        "kind": "daily"
+      },
+      {
+        "title": "One of you made me read the GMEWS agreement.... I'm a sucker for pain.",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w7ie2d/one_of_you_made_me_read_the_gmews_agreement_im_a/",
+        "url": null,
+        "updated": "2026-09-04T22:04:43+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "Stock > warrant volume 09/04/26",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w7lzlz/stock_warrant_volume_090426/",
+        "url": null,
+        "updated": "2026-09-05T00:41:04+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "When in Texas - volume 2",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w7ng9q/when_in_texas_volume_2/",
+        "url": null,
+        "updated": "2026-09-05T01:50:28+00:00",
+        "kind": "junk"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-09-03",
+        "posts": 8,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 6
+      },
+      {
+        "date": "2026-09-04",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 5,
+        "junk": 5
+      },
+      {
+        "date": "2026-09-05",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 0,
+        "junk": 9
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "gme-note-cash",
+      "title": "Yahoo tip still: $358M cash to cut note-exchange dilution",
+      "topics": [
+        "GME",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Yahoo Finance GME RSS (4 Sep): GameStop plans to use $358M of cash to reduce dilution in its convertible-note exchange",
+        "Same feed still circulating “eBay bet hides bigger problem” analysis — tip only, verify against filings",
+        "Fri cash close: $19.16 (-0.36%), range $19.04–$19.5, vol ~6.36M (Yahoo)"
+      ],
+      "whyItMatters": "Dilution math remains the live corporate story while X voices stay dark on the ticker over the weekend.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-gme-plans-358m-cash-165918904.html",
+          "kind": "article",
+          "time": "2026-09-04T18:59:18+02:00"
+        },
+        {
+          "label": "Yahoo Finance quote",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary",
+          "time": "2026-09-04T20:00:02+00:00"
+        },
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gamestops-surprise-ebay-bet-hides-141455676.html",
+          "kind": "article",
+          "time": "2026-09-04T16:14:55+02:00"
+        }
+      ]
+    },
+    {
+      "id": "gme-community",
+      "title": "Superstonk Saturday: daily dir + junk tape",
+      "topics": [
+        "GME",
+        "Community"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "24h Superstonk: 10 posts (1 daily / 0 news / 9 junk) — no DD signal",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Pinned-style daily directory still the main structured post",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Rest of the board: GMEWS agreement pain, warrant volume charts, Texas memes — sentiment only",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Superstonk (via gme.py)",
+          "url": "https://www.reddit.com/r/Superstonk/",
+          "kind": "article",
+          "time": "2026-09-05T19:14:13.818247+02:00"
+        },
+        {
+          "label": "r/Superstonk",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1w7uhzu/gme_daily_directory_new_start_here_discussion_drs/",
+          "kind": "article",
+          "time": "2026-09-05T10:00:49+02:00"
+        },
+        {
+          "label": "r/Superstonk",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1w7ie2d/one_of_you_made_me_read_the_gmews_agreement_im_a/",
+          "kind": "article"
+        },
+        {
+          "label": "r/Superstonk",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1w7lzlz/stock_warrant_volume_090426/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
