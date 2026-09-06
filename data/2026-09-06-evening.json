@@ -66,14 +66,9 @@
           "time": "2026-09-06T18:19:07+02:00"
         },
         {
-          "label": "ZDFheute",
-          "url": "https://kurz.zdf.de/p19Uc/",
-          "kind": "article",
-          "via": {
-            "label": "ZDFheute on X",
-            "url": "https://x.com/ZDFheute/status/2096637934220841093",
-            "kind": "x"
-          },
+          "label": "ZDFheute on X",
+          "url": "https://x.com/ZDFheute/status/2096637934220841093",
+          "kind": "x",
           "time": "2026-09-06T18:33:31+02:00"
         },
         {
@@ -271,9 +266,9 @@
           "time": "2026-09-06T16:38:47+02:00"
         },
         {
-          "label": "Washington Post",
-          "url": "https://wapo.st/4xfEQRh",
-          "kind": "article",
+          "label": "Washington Post on X",
+          "url": "https://x.com/washingtonpost/status/2096614468822176238",
+          "kind": "x",
           "via": {
             "label": "Washington Post on X",
             "url": "https://x.com/washingtonpost/status/2096614468822176238",
