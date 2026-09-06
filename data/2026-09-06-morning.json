@@ -1,0 +1,455 @@
+{
+  "id": "2026-09-06-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-06T08:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since last night (~19:00 Berlin) / last ~12 hours",
+  "headline": "Isar Aerospace’s Spectrum reaches orbit from Andøya — first private orbital launch from continental Europe; Witkoff & Kushner head to Kyiv after three hours with Putin; Sachsen-Anhalt votes with AfD polling ~42%.",
+  "stories": [
+    {
+      "id": "isar-aerospace-orbit",
+      "title": "Isar Aerospace reaches orbit from Andøya — first from continental Europe",
+      "topics": [
+        "Space",
+        "Germany",
+        "Tech"
+      ],
+      "weight": "lead",
+      "facts": [
+        "ESA / Space.com: Spectrum lifted off Andøya Spaceport (Norway) Sat 22:12 CEST (20:12 UTC) on mission “Onward and Upward” — second flight after the March 2025 pad-clearing failure",
+        "Company + EC: first privately developed rocket to reach orbit from continental Europe; payloads deployed to LEO (~2h after launch per Space.com / Isar)",
+        "Vehicle: two-stage, ~28 m / 2 m dia, ten engines, targeting up to ~1,000 kg to LEO; carried five CubeSats + one non-separable experiment (ESA Boost! / DLR microlauncher competition)",
+        "ESA DG Aschbacher: first European Launcher Challenger to hit the Challenge’s orbital milestone (required by 2027); Isar founded ~8 years ago",
+        "HN overnight #1 (~477 pts / 250 comments) on the Space.com write-up; EC Defence Industry & Space + Isar press also out Sat"
+      ],
+      "whyItMatters": "A German launcher startup just opened a real commercial path off European soil — big for Europe’s autonomous access-to-space push, not just a PR flight.",
+      "image": {
+        "url": "https://cdn.mos.cms.futurecdn.net/CQvDAjNriBWKJva9TUiy4Z.jpg",
+        "alt": "Isar Aerospace Spectrum rocket launching at night from Andøya, Norway",
+        "credit": "Space.com / Isar Aerospace",
+        "creditUrl": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket"
+      },
+      "sources": [
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe",
+          "kind": "primary",
+          "time": "2026-09-05T22:24:00+02:00"
+        },
+        {
+          "label": "Space.com",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+          "kind": "article",
+          "time": "2026-09-05T22:51:00+02:00"
+        },
+        {
+          "label": "European Commission",
+          "url": "https://defence-industry-space.ec.europa.eu/isar-aerospace-second-launch-strengthening-europes-autonomous-access-space-2026-09-05_en",
+          "kind": "primary"
+        },
+        {
+          "label": "Isar Aerospace (PDF)",
+          "url": "https://isaraerospace.com/images/Press-Release_History-for-European-spaceflight-Isar-Aerospace-reaches-orbit-and-deploys-payloads-on-second-flight.pdf",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49580369",
+          "kind": "article",
+          "time": "2026-09-05T22:31:00+02:00"
+        },
+        {
+          "label": "ZEIT ONLINE on X",
+          "url": "https://x.com/zeitonline/status/2096372381778362553",
+          "kind": "x",
+          "time": "2026-09-06T00:58:19+02:00"
+        }
+      ]
+    },
+    {
+      "id": "witkoff-kushner-kyiv",
+      "title": "After ~3h with Putin, Witkoff & Kushner fly on to Kyiv",
+      "topics": [
+        "World",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "ABC / Kremlin: Putin met Steve Witkoff and Jared Kushner ~3 hours Sat at the Kremlin; Ushakov called talks “highly useful” / candid — no breakthrough announced",
+        "White House official to ABC: envoys discussed “substantive plans for next steps” to be “announced in the coming weeks”; Kyiv meetings Sunday",
+        "RFE/RL: Americans left Kremlin ~23:00 local Sat, departed Moscow after midnight; Zelenskyy says Ukraine ready for substantive talks",
+        "Capital-only restraint still in play: Putin says Kyiv strike halt ordered from midnight Fri/Sat; rejects Ukraine’s broader three-day truce ask (TASS / Kremlin transcript)",
+        "BBC on X overnight: “US envoys set for Ukraine talks after meeting Putin in Moscow”"
+      ],
+      "whyItMatters": "Diplomacy moved from Moscow to Kyiv overnight — still a narrow capital pause and Russian territory demands, not a ceasefire.",
+      "image": null,
+      "sources": [
+        {
+          "label": "ABC News",
+          "url": "https://abcnews.com/International/witkoff-kushner-meet-putin-discuss-ukraine-war/story?id=136231643",
+          "kind": "article",
+          "time": "2026-09-06T04:54:00+02:00"
+        },
+        {
+          "label": "RFE/RL",
+          "url": "https://www.rferl.org/a/kushner-witkoff-putin-zelenskyy-ukraine-russia/33847622.html",
+          "kind": "article",
+          "time": "2026-09-06T00:03:00+02:00"
+        },
+        {
+          "label": "Kremlin (EN)",
+          "url": "http://en.kremlin.ru/events/president/news/80699",
+          "kind": "primary"
+        },
+        {
+          "label": "BBC World on X",
+          "url": "https://x.com/BBCWorld/status/2096425174492938646",
+          "kind": "x",
+          "time": "2026-09-06T04:28:05+02:00"
+        },
+        {
+          "label": "ZEIT ONLINE on X",
+          "url": "https://x.com/zeitonline/status/2096428857062543516",
+          "kind": "x",
+          "time": "2026-09-06T04:42:43+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sachsen-anhalt-election",
+      "title": "Sachsen-Anhalt votes today — AfD ~42% in last polls",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "MDR / tagesschau: ~1.7–1.8M eligible; polls open 08:00–18:00; AfD Landesverband rated gesichert rechtsextremistisch by state Verfassungsschutz",
+        "ARD Infratest dimap pre-election: AfD 42%, CDU 22% (historic low), Linke 11%, SPD 8%, Grüne 6%; BSW 4% / FDP 3% under threshold",
+        "All other parties rule out coalition with AfD → likely messy minority options even if AfD finishes first without absolute majority",
+        "Spiegel on X: Monika Schnitzer (Wirtschaftsweise) warns an AfD-led government could scare off skilled workers and investment",
+        "First projections due ~18:00 — Magdeburg Demokratiefest on Domplatz overnight drew thousands ahead of the vote (MDR)"
+      ],
+      "whyItMatters": "First realistic shot since WWII at a Verfassungsschutz-flagged party leading a Land — national politics will read tonight’s numbers hard.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-sachsen-anhalt-fragen-antworten-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/ticker-news-122,wahl-560.html",
+          "kind": "article",
+          "time": "2026-09-06T02:40:00+02:00"
+        },
+        {
+          "label": "ARD Deutschlandtrend",
+          "url": "https://www.tagesschau.de/inland/deutschlandtrend/deutschlandtrend-vorwahl-sachsen-anhalt-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2096448992792187201",
+          "kind": "x",
+          "time": "2026-09-06T06:02:44+02:00"
+        },
+        {
+          "label": "ZEIT ONLINE on X",
+          "url": "https://x.com/zeitonline/status/2096454340038844706",
+          "kind": "x",
+          "time": "2026-09-06T06:23:59+02:00"
+        },
+        {
+          "label": "Berliner Morgenpost",
+          "url": "https://www.morgenpost.de/interaktiv/article412946823/wahl-sachsen-anhalt-prognose-hochrechnung-ergebnisse-live-landtag.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "us-iran-tankers",
+      "title": "CENTCOM hits three Iranian oil tankers after IRGC missiles at US ships",
+      "topics": [
+        "World",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "CNN / CENTCOM Sat: IRGC ballistic missiles toward a US carrier + destroyer — ships evaded; no US casualties reported",
+        "Response: permanently disabled M/T Downy (near Kharg) and M/T Stark 1 (near Jask); destroyed unladen M/T Kylo (aka Noxen) in the Gulf of Oman after abandon-ship warnings",
+        "Adm. Brad Cooper: “If you shoot at two of our ships, we will impose an even higher economic cost — taking out three of yours”; Hegseth on X echoes sink-tankers warning",
+        "CENTCOM frames the three as part of an IRGC shadow financing network; Iran MFA calls strikes illegal / threat to commercial shipping",
+        "WaPo / CNN overnight: story still leading Sunday US wires"
+      ],
+      "whyItMatters": "Another turn in the Hormuz shipping fight — economic hits on Iran’s tanker fleet instead of (or alongside) shore targets.",
+      "image": {
+        "url": "https://gcaptain.com/wp-content/uploads/2026/09/Kylo-strike.jpg",
+        "alt": "M/T Kylo oil tanker burns after being struck by U.S. forces in the Gulf of Oman on September 5, 2026.",
+        "credit": "gCaptain",
+        "creditUrl": "https://gcaptain.com/u-s-destroys-iranian-tanker-disables-two-others-after-missile-attacks-on-navy-warships/"
+      },
+      "sources": [
+        {
+          "label": "CNN",
+          "url": "https://www.cnn.com/2026/09/05/middleeast/iran-us-tanker-kharg-intl",
+          "kind": "article",
+          "time": "2026-09-05T15:52:00+02:00"
+        },
+        {
+          "label": "DVIDS / CENTCOM",
+          "url": "https://www.dvidshub.net/news/574030/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships",
+          "kind": "primary",
+          "time": "2026-09-05T15:40:00+02:00"
+        },
+        {
+          "label": "gCaptain",
+          "url": "https://gcaptain.com/u-s-destroys-iranian-tanker-disables-two-others-after-missile-attacks-on-navy-warships/",
+          "kind": "article"
+        },
+        {
+          "label": "Washington Post (GN)",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXUyT3djU2gxZUJQcWxaN3ZwMGRzU1VJSmhsNWVzYmpXTmtnR2dFYnpXN3BUa3hmUkhLVG9FSnZMdXJ5NmRqanBGLS1oS3VQcWJ3SndiT1lsS3hkb3VJUGFzbWQ5UmVDUjJweTBYdkN4X2JFWHNMUVRxLVdQWS1jTVJub014WFRRdG02M0gyNXRna2FDRE42OEFPRWtuTmx1S3Z0bEg2VU5SMFlpd1k4ZWVrMDJDUWZF?oc=5",
+          "kind": "article",
+          "time": "2026-09-06T03:18:18+00:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "ZEIT/BSI: after Rhysida’s ~5.8 TB Berlin admin leak, BSI warns of hack-and-leak / phishing risk ahead of the 20 Sep Abgeordnetenhauswahl",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Tagesspiegel: Bundesregierung zieht Zusammenhang zur Berlin-Wahl Der Hackerangriff beschäftigt jetzt auch die Bundeswehr-Füh",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Anak Krakatau eruption — Jakarta airport flight suspensions",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Hurricane Lowell threatens Hawaiian islands with life-threatening surf",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Google WeatherNext 3 AI weather model rolling into Search/Maps/Gemini",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/digital/2026-09/hackerangriff-berliner-verwaltung-rhysida-bsi-datenleck",
+          "kind": "article",
+          "time": "2026-09-05T07:13:00+02:00"
+        },
+        {
+          "label": "Tagesspiegel (GN)",
+          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQZ0Q4RS1FT2Z6aEQyWWFlUlRTRXQ4V2dDeGl0ZklHZUFraGQyaDJ5QUZ5SUo1ZHpFbkR4UG4xand1Mmxob3RlSHRNS2RyZ1FobUtDRDNGcU5fazg0N0dVWGQyaUlMWm03ZEV3U2dRZHBua1c5VWFQa3FnZnJSYnlTNnRjdFdwc0hlZEtHejZIMV96LUV3cFNhakxZdm5US3hDWkVRaklQcGJFb3RaN1BJa1gyTm5fQmJESHhzakxIU3Jic0pRU29hN1B4RERiNkVEelp4RUF5aVc1dXpzRFBXcjRWQl9pdWpOMVZhN2U2dVZ2eS1uX2hJaUtPZGdGTmQ4c1pHRmJZV2pZRE55dGl0TjE3M1dUV0VCSVBkalE4YjVjdTZsRy1iT0R5TEx5XzRK?oc=5",
+          "kind": "article",
+          "time": "2026-09-05T18:36:16+00:00"
+        },
+        {
+          "label": "BBC World on X",
+          "url": "https://x.com/BBCWorld/status/2096467053016187029",
+          "kind": "x",
+          "time": "2026-09-06T07:14:30+02:00"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVFOM3VHYmFqUkdXQjU1RGt6OFZuTEYxY0hIZ0dqUlUzOHQ0Z25relZGS2VUbzVmZG4yc3NDWGZjV0p4eHdOY20tOHRXclBEdFFLR1lMcGlRQzdJR0ZnUldnVTlXb3R1OG50VWVyX3FXUmJyRFRTOXJuS050cDJSc0ZvRmRzNUxvckpTYVRTVmJKV0lpTjRuc293dzdnRFV3R3czZGR5MzgwMG8?oc=5",
+          "kind": "article",
+          "time": "2026-09-06T00:52:00+00:00"
+        },
+        {
+          "label": "pixeluibygoogle on X",
+          "url": "https://x.com/pixeluibygoogle/status/2096476143268642995",
+          "kind": "x",
+          "time": "2026-09-06T07:50:37+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "shit you should care about — “not your mothers book review: Wild Dark Shore”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The Art of Noticing (Rob Walker) — “Outstandingly Boring”",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/not-your-mothers-book-review-wild",
+          "kind": "article",
+          "time": "2026-09-05T21:05:11+02:00"
+        },
+        {
+          "label": "The Art of Noticing",
+          "url": "https://robwalker.substack.com/p/outstandingly-boring",
+          "kind": "article",
+          "time": "2026-09-05T21:00:51+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes",
+        "Tech"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN: Chrome again exempts Google from user site-data settings (lapcatsoftware) — ~249 pts",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "HN: Cloud in a Bottle — self-hosting launch post (~282 pts)",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Bryan Cantrill: “The revolt of the reader” — top Lobsters + strong HN",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "heise Missing Link: KI-Debatte between Apokalypse und Aufbruch",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Golem: “Zizianer” — Gewalt aus dem Silicon Valley",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "Playwright v1.63.0 — named test locks across files/workers",
+          "sourceIndexes": [
+            8
+          ]
+        },
+        {
+          "text": "r/rust tip: ESP32 as SWD programmer for STM32",
+          "sourceIndexes": [
+            9
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/d8f5f63da889f366a13c062ab44481646afcdca3ee31e71c9c9e47a19e6010ea/microsoft/playwright/releases/tag/v1.63.0",
+        "alt": "🔒 Test locks Tests that access a shared resource — an external service, a global account setting — can now declare a named lock. Tests that share a lock name never run concurrently, across files, w...",
+        "credit": "Playwright v1.63.0",
+        "creditUrl": "https://github.com/microsoft/playwright/releases/tag/v1.63.0"
+      },
+      "sources": [
+        {
+          "label": "lapcatsoftware",
+          "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+          "kind": "article",
+          "time": "2026-09-06T01:39:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49581870",
+          "kind": "article",
+          "time": "2026-09-06T01:39:00+02:00"
+        },
+        {
+          "label": "Cloud in a Bottle",
+          "url": "https://cloudinabottle.org/blog/launch-post",
+          "kind": "article",
+          "time": "2026-09-06T02:03:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49582000",
+          "kind": "article",
+          "time": "2026-09-06T02:03:00+02:00"
+        },
+        {
+          "label": "bcantrill.dtrace.org",
+          "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+          "kind": "article",
+          "time": "2026-09-05T23:37:00+02:00"
+        },
+        {
+          "label": "Lobsters",
+          "url": "https://lobste.rs/s/xnqxqe/revolt_reader",
+          "kind": "article"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/hintergrund/Missing-Link-Ausser-Kontrolle-Die-KI-Debatte-zwischen-Apokalypse-und-Aufbruch-11441447.html",
+          "kind": "article",
+          "time": "2026-09-06T07:58:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/zizianer-gewalt-aus-dem-silicon-valley-2609-212532.html",
+          "kind": "article",
+          "time": "2026-09-06T07:30:00+02:00"
+        },
+        {
+          "label": "Playwright v1.63.0",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.63.0",
+          "kind": "primary",
+          "time": "2026-09-05T00:40:00+02:00"
+        },
+        {
+          "label": "r/rust",
+          "url": "https://www.reddit.com/r/rust/comments/1w8ms3v/using_an_esp32_as_an_swd_programmer_for_stm32/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
