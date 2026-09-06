@@ -24,10 +24,10 @@
       ],
       "whyItMatters": "A German launcher startup just opened a real commercial path off European soil — big for Europe’s autonomous access-to-space push, not just a PR flight.",
       "image": {
-        "url": "https://cdn.mos.cms.futurecdn.net/CQvDAjNriBWKJva9TUiy4Z.jpg",
-        "alt": "Isar Aerospace Spectrum rocket launching at night from Andøya, Norway",
-        "credit": "Space.com / Isar Aerospace",
-        "creditUrl": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket"
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/spectrum_launches_to_orbit/27452129-2-eng-GB/Spectrum_launches_to_orbit_pillars.jpg",
+        "alt": "Spectrum launches to orbit",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe"
       },
       "sources": [
         {
@@ -59,9 +59,14 @@
           "time": "2026-09-05T22:31:00+02:00"
         },
         {
-          "label": "ZEIT ONLINE on X",
-          "url": "https://x.com/zeitonline/status/2096372381778362553",
-          "kind": "x",
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/Smnseox",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2096372381778362553",
+            "kind": "x"
+          },
           "time": "2026-09-06T00:58:19+02:00"
         }
       ]
@@ -107,15 +112,25 @@
           "kind": "primary"
         },
         {
-          "label": "BBC World on X",
-          "url": "https://x.com/BBCWorld/status/2096425174492938646",
-          "kind": "x",
+          "label": "BBC World",
+          "url": "https://bbc.in/4xLRTei",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2096425174492938646",
+            "kind": "x"
+          },
           "time": "2026-09-06T04:28:05+02:00"
         },
         {
-          "label": "ZEIT ONLINE on X",
-          "url": "https://x.com/zeitonline/status/2096428857062543516",
-          "kind": "x",
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/zQ9BdJb",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2096428857062543516",
+            "kind": "x"
+          },
           "time": "2026-09-06T04:42:43+02:00"
         }
       ]
@@ -160,15 +175,25 @@
           "kind": "article"
         },
         {
-          "label": "DER SPIEGEL on X",
-          "url": "https://x.com/derspiegel/status/2096448992792187201",
-          "kind": "x",
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/landtagswahl-sachsen-anhalt-wirtschaftsweise-warnt-vor-risiken-fuer-arbeitsmarkt-bei-afd-regierung-a-20e0ba57-a47e-4f3e-85bf-83c69fa9e6a8?sara_ref=re-so-x-rss#ref=rss",
+          "kind": "article",
+          "via": {
+            "label": "DER SPIEGEL on X",
+            "url": "https://x.com/derspiegel/status/2096448992792187201",
+            "kind": "x"
+          },
           "time": "2026-09-06T06:02:44+02:00"
         },
         {
-          "label": "ZEIT ONLINE on X",
-          "url": "https://x.com/zeitonline/status/2096454340038844706",
-          "kind": "x",
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/3e0zRYH",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2096454340038844706",
+            "kind": "x"
+          },
           "time": "2026-09-06T06:23:59+02:00"
         },
         {
@@ -286,9 +311,14 @@
           "time": "2026-09-05T18:36:16+00:00"
         },
         {
-          "label": "BBC World on X",
-          "url": "https://x.com/BBCWorld/status/2096467053016187029",
-          "kind": "x",
+          "label": "BBC World",
+          "url": "https://bbc.in/4gEZdCm",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2096467053016187029",
+            "kind": "x"
+          },
           "time": "2026-09-06T07:14:30+02:00"
         },
         {
