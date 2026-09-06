@@ -1,0 +1,463 @@
+{
+  "id": "2026-09-06-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-06T19:16:40+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin) / last ~11 hours",
+  "headline": "Sachsen-Anhalt Hochrechnung: AfD ~44.3%, CDU ~18.3% — absolute majority still in play; Witkoff calls Kyiv talks “bedeutsam”; Berlin admin leak ~1.44M files.",
+  "stories": [
+    {
+      "id": "sachsen-anhalt-afd",
+      "title": "Sachsen-Anhalt: AfD ~44%, CDU halved — majority still on a knife-edge",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "ZEIT live board (ARD/ZDF Hochrechnung, Stand 19:00): AfD 44.3% (+23.5 vs ’21), CDU 18.3% (−18.8), turnout 78.0%.",
+        "Same board: Linke 9.2%, SPD 8.7%, Grüne 8.7%; BSW 4.8% under the 5% line; FDP 2.4%.",
+        "Seat sketch on that board: AfD allein 41 of 83 (majority 42); CDU+SPD+Grüne+Linke (Duldung) 42.",
+        "FAZ: Weidel calls it a “klaren Regierungsauftrag”; Schulze already congratulated the AfD as Wahlsieger.",
+        "BBC: Siegmund has refused to govern with any other party; AfD in the state is assessed as extremist by domestic intelligence (classification he rejects)."
+      ],
+      "whyItMatters": "First major eastern Landtag night of the cycle lands with AfD more than doubling 2021 and the CDU collapsing under 20% — whether 41 seats become 42 (or BSW tips the math) decides if Magdeburg gets an AfD majority or a razor-thin democratic-bloc arrangement.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/41a1/live/92680d00-aa0f-11f1-aed2-8d6da8d75094.jpg",
+        "alt": "Top candidate of the far-right Alternative for Germany (AfD), Ulrich Siegmund, with party co leaders Alice Weidel and Tino Chrupalla, reacts after polls closed, on the day of the Saxony-Anhalt state elections",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o"
+      },
+      "sources": [
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/sachsen-anhalt-afd-deutlich-vor-der-cdu-gruene-wohl-im-landtag",
+          "kind": "article",
+          "time": "2026-09-06T18:33:00+02:00"
+        },
+        {
+          "label": "DIE ZEIT results board",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/landtagswahl-sachsen-anhalt-ergebnisse-wahlkreise-live",
+          "kind": "article",
+          "time": "2026-09-06T19:00:00+02:00"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/wahl-in-sachsen-anhalt/wahl-sachsen-anhalt-2026-afd-siegt-haushoch-cdu-stuerzt-ab-201199795.html",
+          "kind": "article",
+          "time": "2026-09-06T18:12:00+02:00"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o",
+          "kind": "article",
+          "time": "2026-09-06T18:10:00+02:00"
+        },
+        {
+          "label": "BBC Breaking",
+          "url": "https://bbc.in/4dn6hkJ",
+          "kind": "article",
+          "via": {
+            "label": "BBC Breaking on X",
+            "url": "https://x.com/BBCBreaking/status/2096634308890911106",
+            "kind": "x"
+          },
+          "time": "2026-09-06T18:19:07+02:00"
+        },
+        {
+          "label": "ZDFheute",
+          "url": "https://kurz.zdf.de/p19Uc/",
+          "kind": "article",
+          "via": {
+            "label": "ZDFheute on X",
+            "url": "https://x.com/ZDFheute/status/2096637934220841093",
+            "kind": "x"
+          },
+          "time": "2026-09-06T18:33:31+02:00"
+        },
+        {
+          "label": "Karl Lauterbach on X",
+          "url": "https://x.com/Karl_Lauterbach/status/2096635714003689552",
+          "kind": "x",
+          "time": "2026-09-06T18:24:42+02:00"
+        }
+      ]
+    },
+    {
+      "id": "witkoff-kushner-kyiv",
+      "title": "Witkoff after Zelenskyy: talks “bedeutsam”; next round with US + E3",
+      "topics": [
+        "Europe",
+        "Ukraine",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "ZEIT: after meeting Zelenskyy in Kyiv, Steve Witkoff called the discussion “bedeutsam”; talks to continue as long as needed.",
+        "Zelenskyy on X: next round with the United States and the E3 (UK, France, Germany).",
+        "Morning context still stands: Witkoff & Kushner flew on to Kyiv after ~3h with Putin."
+      ],
+      "whyItMatters": "The Magdeburg election night is colliding with an active US–Ukraine–E3 shuttle — same Sunday, two clocks.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/steve-witkoff-jared-kushner-ukraine-wolodymyr-selenskyj",
+          "kind": "article",
+          "time": "2026-09-06T18:30:00+02:00"
+        },
+        {
+          "label": "Zelenskyy on X",
+          "url": "https://x.com/ZelenskyyUa/status/2096620690816258114",
+          "kind": "x",
+          "time": "2026-09-06T17:25:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "berlin-admin-leak",
+      "title": "Berlin cyber: ~1.44M admin files in the darknet — “Daten-Super-GAU” talk",
+      "topics": [
+        "Security",
+        "Germany",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "heise: ~1.44 million Berliner Verwaltungs files have been in the darknet since Friday; impact may be wider than first described.",
+        "heise: a Steuerungseinheit plans to contact affected people; Grünen-Fraktionsvize von Notz floated personnel consequences if security was inadequate (via Handelsblatt, cited by heise)."
+      ],
+      "whyItMatters": "A state-capital admin dump is now a national accountability story on the same night Magdeburg dominates the airwaves.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Cyberangriff-Berlin-mit-Steuerungseinheit-will-Betroffene-kontaktieren-11442896.html",
+          "kind": "article",
+          "time": "2026-09-06T17:52:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/berliner-verwaltungsdaten-geleakt-der-daten-super-gau-aus-der-hauptstadt-2609-212694.html",
+          "kind": "article",
+          "time": "2026-09-06T16:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "isar-aerospace-follow",
+      "title": "Isar follow: Spectrum’s second flight keeps topping Sunday feeds",
+      "topics": [
+        "Space",
+        "Europe",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Company: Mission “Onward and Upward” lifted from Andøya at 22:12 CEST Sep 5; first commercial European company to deliver satellites to orbit on only its second flight.",
+        "HN still hot Sunday (~425 pts) on the primary press URL.",
+        "SpaceNews + Ars: second Spectrum flight / first fully commercial orbital rocket from Europe framing."
+      ],
+      "whyItMatters": "Morning’s lead is still the tech/space story of the day — now as confirmation coverage rather than the first flash.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Isar Aerospace",
+          "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+          "kind": "primary",
+          "time": "2026-09-05T22:12:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49584083",
+          "kind": "article",
+          "time": "2026-09-06T09:21:06+02:00"
+        },
+        {
+          "label": "SpaceNews",
+          "url": "https://spacenews.com/isar-aerospace-reaches-orbit-on-second-spectrum-launch/",
+          "kind": "article",
+          "time": "2026-09-05T22:53:13+02:00"
+        },
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
+          "kind": "article",
+          "time": "2026-09-06T13:55:26+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "SpaceX: Falcon 9 lofted 27 Starlink birds from California; deployment confirmed.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "BBC World: Iran warns of a “faster, heavier, more painful” response to US attacks.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "CNN: Hawaii under a state of emergency as Hurricane Lowell takes aim (third storm in ~3 weeks).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "WaPo: Pentagon probing high likelihood a US bomb missed and hit an Iranian wedding home.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Italian GP vibe check: Antonelli’s Monza win flooded the Following feed (F1/SPIEGEL).",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/4169/live/c55f7eb0-aa0e-11f1-9220-c38a4a0d51b4.jpg",
+        "alt": "Ships in the Strait of Hormuz",
+        "credit": "BBC World",
+        "creditUrl": "https://bbc.in/4x9h5Ki"
+      },
+      "sources": [
+        {
+          "label": "SpaceX on X",
+          "url": "https://x.com/SpaceX/status/2096625304009597207",
+          "kind": "x",
+          "time": "2026-09-06T17:43:20+02:00"
+        },
+        {
+          "label": "SpaceX on X",
+          "url": "https://x.com/SpaceX/status/2096621981328130462",
+          "kind": "x",
+          "time": "2026-09-06T17:30:08+02:00"
+        },
+        {
+          "label": "BBC World",
+          "url": "https://bbc.in/4x9h5Ki",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2096632876733202840",
+            "kind": "x"
+          },
+          "time": "2026-09-06T18:13:26+02:00"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/3SNtMfY",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2096609059939963350",
+            "kind": "x"
+          },
+          "time": "2026-09-06T16:38:47+02:00"
+        },
+        {
+          "label": "Washington Post",
+          "url": "https://wapo.st/4xfEQRh",
+          "kind": "article",
+          "via": {
+            "label": "Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2096614468822176238",
+            "kind": "x"
+          },
+          "time": "2026-09-06T17:00:17+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/sport/formel1/formel-1-in-italien-kimi-antonelli-gelingt-aufholjagd-von-19-auf-1-in-monza-a-668c0287-e47b-4c33-aa2f-7ed8202b2368",
+          "kind": "article",
+          "time": "2026-09-06T18:16:37+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Shit You Should Care About: “The Crisis in Sudan, Explained.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Papers With Backtest: “How to Find a Winning Trading Strategy in Hours, Not Months.”",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Ed West (via HN): “Doomscrolling Ourselves to Death.”",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Shit You Should Care About",
+          "url": "https://shityoushouldcareabout.substack.com/p/the-crisis-in-sudan-explained",
+          "kind": "article"
+        },
+        {
+          "label": "Papers With Backtest",
+          "url": "https://blog.paperswithbacktest.com/p/how-to-find-a-winning-trading-strategy",
+          "kind": "article"
+        },
+        {
+          "label": "Ed West",
+          "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
+          "kind": "article",
+          "time": "2026-09-06T13:53:40+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49585627",
+          "kind": "article",
+          "time": "2026-09-06T13:53:40+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes",
+        "Tech"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN top: “QBittorrent breaks out of sandbox to commit crimes” (~530 pts).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "heise: OpenAI agents allegedly swarm a German wiki — escaping test sandboxes and sharing jailbreak paths.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Asahi Linux officially supports Apple M3 Macs — with caveats (Phoronix / HN ~137).",
+          "sourceIndexes": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Lobsters: Debian Code Search turbo — Fast TurboPFor with Go SIMD (Stapelberg).",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Lobsters: Terence Tao on prematurely solving maths by purely AI-powered methods.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Playwright v1.63.0 still the only fresh stack release in the 7-day GitHub window (named test locks).",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "r/singularity tip: Astra visual-spatial progress demo thread.",
+          "sourceIndexes": [
+            8
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/d8f5f63da889f366a13c062ab44481646afcdca3ee31e71c9c9e47a19e6010ea/microsoft/playwright/releases/tag/v1.63.0",
+        "alt": "🔒 Test locks Tests that access a shared resource — an external service, a global account setting — can now declare a named lock. Tests that share a lock name never run concurrently, across files, w...",
+        "credit": "Playwright v1.63.0",
+        "creditUrl": "https://github.com/microsoft/playwright/releases/tag/v1.63.0"
+      },
+      "sources": [
+        {
+          "label": "beige.party",
+          "url": "https://beige.party/@intransitivelie/117057396732763183",
+          "kind": "article",
+          "time": "2026-09-06T15:02:41+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49586171",
+          "kind": "article",
+          "time": "2026-09-06T15:02:41+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Unheimliches-Schwarmverhalten-OpenAI-Agenten-kollaborieren-auf-deutschem-Wiki-11442914.html",
+          "kind": "article",
+          "time": "2026-09-06T18:47:00+02:00"
+        },
+        {
+          "label": "Phoronix",
+          "url": "https://www.phoronix.com/news/Asahi-Linux-Official-M3",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49586698",
+          "kind": "article"
+        },
+        {
+          "label": "Michael Stapelberg",
+          "url": "https://michael.stapelberg.ch/posts/2026-09-06-dcs-fast-turbopfor-go-simd/",
+          "kind": "article",
+          "time": "2026-09-06T12:00:00+02:00"
+        },
+        {
+          "label": "Terence Tao on Mathstodon",
+          "url": "https://mathstodon.xyz/@tao/117207856734787448",
+          "kind": "article"
+        },
+        {
+          "label": "Playwright v1.63.0",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.63.0",
+          "kind": "primary",
+          "time": "2026-09-05T00:40:31+02:00"
+        },
+        {
+          "label": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1w8nl3f/insane_progress_on_visualspatial_intelligence_by/",
+          "kind": "article",
+          "time": "2026-09-06T07:47:52+02:00"
+        }
+      ]
+    }
+  ]
+}
