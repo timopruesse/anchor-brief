@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { formatSourceTime, domainFromUrl, faviconUrl } from '$lib/format';
+	import { formatSourceTime, domainFromUrl, faviconUrl, safeHref } from '$lib/format';
 	import type { Source } from '$lib/types';
 
 	interface Props {
@@ -28,12 +28,30 @@
 	);
 	const timeStr = $derived(!compact && formattedTime ? formattedTime : null);
 
+	/** Soft-fail: only show discovery trail when via.url is a safe http(s) link. */
+	const viaHref = $derived(safeHref(src.via?.url));
+	const viaDomain = $derived(viaHref ? domainFromUrl(viaHref) : null);
+	const viaIsX = $derived(
+		Boolean(
+			viaHref &&
+				(src.via?.kind === 'x' || viaDomain === 'x.com' || viaDomain === 'twitter.com')
+		)
+	);
+	const viaLabel = $derived((src.via?.label ?? '').trim() || (viaIsX ? 'X' : 'source'));
+	const viaAria = $derived.by(() => {
+		const label = viaLabel;
+		const alreadyMentionsX = /\bon\s+x\b/i.test(label) || /^x$/i.test(label);
+		if (viaIsX && !alreadyMentionsX) return `Discovered via ${label} on X`;
+		return `Discovered via ${label}`;
+	});
+
 	const tooltipText = $derived.by(() => {
 		if (!compact) return undefined;
 		const parts = [src.label];
 		if (isPrimary) parts.push('Primary reporting');
 		if (formattedTime) parts.push(formattedTime);
 		if (domain) parts.push(`(${domain})`);
+		if (viaHref) parts.push(viaIsX ? `via X` : `via ${viaLabel}`);
 		return parts.join(' · ');
 	});
 
@@ -48,40 +66,58 @@
 	}
 </script>
 
-<a
-	class="source-chip"
-	class:source-chip--compact={compact}
-	data-kind={src.kind}
-	href={src.href}
-	rel="noopener noreferrer"
-	target="_blank"
-	aria-label={src.label}
-	title={tooltipText}
->
-	{#if compact && isPrimary}
-		<span class="source-chip__primary-dot" aria-hidden="true"></span>
-	{/if}
-	{#if isX}
-		<span class="source-chip__badge source-chip__badge--x" title="Post on X" aria-hidden="true">
-			<svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor" aria-hidden="true">
-				<path
-					d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+<span class="source-chip-group" class:source-chip-group--compact={compact}>
+	<a
+		class="source-chip"
+		class:source-chip--compact={compact}
+		data-kind={src.kind}
+		href={src.href}
+		rel="noopener noreferrer"
+		target="_blank"
+		aria-label={src.label}
+		title={tooltipText}
+	>
+		{#if compact && isPrimary}
+			<span class="source-chip__primary-dot" aria-hidden="true"></span>
+		{/if}
+		{#if isX}
+			<span class="source-chip__badge source-chip__badge--x" title="Post on X" aria-hidden="true">
+				<svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor" aria-hidden="true">
+					<path
+						d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+					/>
+				</svg>
+			</span>
+		{:else if fav}
+			<span class="source-chip__icon-wrap">
+				<img
+					class="source-chip__favicon"
+					src={fav}
+					alt=""
+					width="14"
+					height="14"
+					loading="lazy"
+					decoding="async"
+					onerror={handleFaviconError}
 				/>
-			</svg>
-		</span>
-	{:else if fav}
-		<span class="source-chip__icon-wrap">
-			<img
-				class="source-chip__favicon"
-				src={fav}
-				alt=""
-				width="14"
-				height="14"
-				loading="lazy"
-				decoding="async"
-				onerror={handleFaviconError}
-			/>
-			<span class="source-chip__fallback" style="display: none;" aria-hidden="true">
+				<span class="source-chip__fallback" style="display: none;" aria-hidden="true">
+					<svg
+						viewBox="0 0 24 24"
+						width="10"
+						height="10"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+						<path d="M8 7h8M8 11h8M8 15h5" />
+					</svg>
+				</span>
+			</span>
+		{:else}
+			<span class="source-chip__fallback" aria-hidden="true">
 				<svg
 					viewBox="0 0 24 24"
 					width="10"
@@ -96,52 +132,74 @@
 					<path d="M8 7h8M8 11h8M8 15h5" />
 				</svg>
 			</span>
-		</span>
-	{:else}
-		<span class="source-chip__fallback" aria-hidden="true">
-			<svg
-				viewBox="0 0 24 24"
-				width="10"
-				height="10"
-				fill="none"
-				stroke="currentColor"
-				stroke-width="2"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			>
-				<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
-				<path d="M8 7h8M8 11h8M8 15h5" />
-			</svg>
-		</span>
+		{/if}
+
+		{#if !compact && src.kind === 'primary'}
+			<span class="source-chip__badge source-chip__badge--primary" title="Primary reporting or filing">
+				<span class="primary-dot" aria-hidden="true"></span>
+				<span>Primary</span>
+			</span>
+		{/if}
+
+		<span class="source-chip__label">{src.label}</span>
+
+		{#if timeStr}
+			<time class="source-chip__time" datetime={src.time} title="Published {src.time}">
+				{timeStr}
+			</time>
+		{/if}
+
+		<svg
+			class="source-chip__outbound"
+			viewBox="0 0 12 12"
+			width="8"
+			height="8"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="1.8"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			aria-hidden="true"
+		>
+			<path d="M3.5 8.5 8.5 3.5M4 3.5h4.5V8" />
+		</svg>
+	</a>
+
+	{#if viaHref}
+		<a
+			class="source-via"
+			class:source-via--compact={compact}
+			class:source-via--x={viaIsX}
+			href={viaHref}
+			rel="noopener noreferrer"
+			target="_blank"
+			aria-label={viaAria}
+			title={viaAria}
+		>
+			{#if viaIsX}
+				<svg
+					class="source-via__x"
+					viewBox="0 0 24 24"
+					width="9"
+					height="9"
+					fill="currentColor"
+					aria-hidden="true"
+				>
+					<path
+						d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+					/>
+				</svg>
+				{#if compact}
+					<span class="source-via__text">via</span>
+				{:else}
+					<span class="source-via__text">via X</span>
+				{/if}
+			{:else}
+				<span class="source-via__text">via</span>
+				{#if !compact}
+					<span class="source-via__label">{viaLabel}</span>
+				{/if}
+			{/if}
+		</a>
 	{/if}
-
-	{#if !compact && src.kind === 'primary'}
-		<span class="source-chip__badge source-chip__badge--primary" title="Primary reporting or filing">
-			<span class="primary-dot" aria-hidden="true"></span>
-			<span>Primary</span>
-		</span>
-	{/if}
-
-	<span class="source-chip__label">{src.label}</span>
-
-	{#if timeStr}
-		<time class="source-chip__time" datetime={src.time} title="Published {src.time}">
-			{timeStr}
-		</time>
-	{/if}
-
-	<svg
-		class="source-chip__outbound"
-		viewBox="0 0 12 12"
-		width="8"
-		height="8"
-		fill="none"
-		stroke="currentColor"
-		stroke-width="1.8"
-		stroke-linecap="round"
-		stroke-linejoin="round"
-		aria-hidden="true"
-	>
-		<path d="M3.5 8.5 8.5 3.5M4 3.5h4.5V8" />
-	</svg>
-</a>
+</span>

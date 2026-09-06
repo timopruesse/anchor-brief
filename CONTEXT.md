@@ -26,7 +26,7 @@ The atomic editorial reporting unit shared across both desks:
 - `topics`: Categorical tags (e.g. `AI`, `Tech`, `Defense`, `Worth a look`, `From Substack`, `Dev notes`).
 - `facts`: Bulleted takeaways (top 3 visible, rest expandable). Plain strings for lead/normal cards; optional `{ text, sourceIndexes }` objects on brief roundups so each bullet can show which source it cites.
 - `whyItMatters`: Concise analytical context explaining significance.
-- `sources`: Primary or secondary citations (`article`, `x`, `primary`).
+- `sources`: Primary or secondary citations (`article`, `x`, `primary`). Optional nested `via` records a discovery trail (e.g. X → outbound article); UI soft-fails to a single chip when absent.
 - `image`: Optional hero visual with attribution.
 
 ### 4. Edition Archive

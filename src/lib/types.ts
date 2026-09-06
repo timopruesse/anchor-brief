@@ -3,11 +3,20 @@
 export type Weight = 'lead' | 'normal' | 'brief';
 export type SourceKind = 'article' | 'x' | 'primary';
 
-export interface Source {
+/** Citation link fields shared by a source and its optional discovery trail. */
+export interface SourceLink {
 	kind: SourceKind | string;
 	label: string;
 	url: string;
 	time?: string;
+}
+
+/**
+ * Story citation. Optional `via` is the discovery trail (e.g. X post that
+ * linked an outbound article). Soft-fail when missing — UI stays single-chip.
+ */
+export interface Source extends SourceLink {
+	via?: SourceLink;
 }
 
 export interface StoryImage {
