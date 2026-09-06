@@ -713,7 +713,7 @@
       "weight": "normal",
       "facts": [
         "24h snapshot: 4 posts (news 1, junk 3).",
-        "Top news-tagged post: “Tokenized Stocks…” linking an SEC Corp Fin statement on tokenized securities (Jan 2026 statement URL).",
+        "Top news-tagged post: “Tokenized Stocks…” — outbound points at an SEC Corp Fin statement on tokenized securities (linked from the Reddit post; SEC HTML 403s from this host).",
         "Cohen / Cheng / Roaring Kitty: no fresh posts in the pull window — desk keeps last known Cheng civic-school post as quiet."
       ],
       "whyItMatters": "Sentiment-only: one outbound SEC link in an otherwise quiet Sunday Superstonk.",
@@ -724,12 +724,6 @@
           "url": "https://www.reddit.com/r/Superstonk/comments/1w8hy7h/tokenized_stocks_how_they_impact_gamestop_and_why/",
           "kind": "article",
           "time": "2026-09-06T03:02:30+02:00"
-        },
-        {
-          "label": "SEC Corp Fin statement",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
-          "kind": "primary",
-          "time": "2026-01-28T12:00:00+01:00"
         },
         {
           "label": "Larry Cheng on X (last known)",
