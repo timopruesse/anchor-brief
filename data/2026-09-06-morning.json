@@ -82,7 +82,12 @@
         "BBC on X overnight: “US envoys set for Ukraine talks after meeting Putin in Moscow”"
       ],
       "whyItMatters": "Diplomacy moved from Moscow to Kyiv overnight — still a narrow capital pause and Russian territory demands, not a ceasefire.",
-      "image": null,
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/f8dc/live/731248d0-a997-11f1-a291-b542ee92de7c.jpg",
+        "alt": "Jared Kushner, U.S. President Donald Trump's son-in-law, and U.S. Special Envoy Steve Witkoff wait before a meeting with Russian President Vladimir Putin at the Kremlin in Moscow, Russia",
+        "credit": "BBC World",
+        "creditUrl": "https://bbc.in/4xLRTei"
+      },
       "sources": [
         {
           "label": "ABC News",
@@ -131,7 +136,12 @@
         "First projections due ~18:00 — Magdeburg Demokratiefest on Domplatz overnight drew thousands ahead of the vote (MDR)"
       ],
       "whyItMatters": "First realistic shot since WWII at a Verfassungsschutz-flagged party leading a Land — national politics will read tonight’s numbers hard.",
-      "image": null,
+      "image": {
+        "url": "https://pbs.twimg.com/card_img/2096448996508303361/rJE_0Djt?format=jpg&name=800x419",
+        "alt": "Landtagswahl Sachsen-Anhalt: Wirtschaftsweise warnt vor Risiken für Arbeitsmarkt bei AfD-Regierung",
+        "credit": "DER SPIEGEL",
+        "creditUrl": "https://www.spiegel.de/politik/landtagswahl-sachsen-anhalt-wirtschaftsweise-warnt-vor-risiken-fuer-arbeitsmarkt-bei-afd-regierung-a-20e0ba57-a47e-4f3e-85bf-83c69fa9e6a8?sara_ref=re-so-x-rss#ref=rss"
+      },
       "sources": [
         {
           "label": "tagesschau",
@@ -256,7 +266,12 @@
         }
       ],
       "whyItMatters": null,
-      "image": null,
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/9193/live/bc786310-a9bf-11f1-a47c-49756d8d78ae.jpg",
+        "alt": "Mount Anak Krakatau spewing volcanic materials into the air following an eruption in Sunda Strait, Indonesia",
+        "credit": "BBC World",
+        "creditUrl": "https://bbc.in/4gEZdCm"
+      },
       "sources": [
         {
           "label": "DIE ZEIT",
