@@ -1,0 +1,743 @@
+{
+  "id": "2026-09-06-evening-gme",
+  "parentId": "2026-09-06-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-06T19:16:40+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "cash quote as of Fri close; press/community ~48h / 24h",
+  "headline": "Weekend quiet: GME last $19.16 (−0.36%) Fri; no Cohen/Cheng/Kitty ticker posts — Superstonk tip on tokenized stocks + SEC statement.",
+  "stance": "quiet",
+  "stanceWhy": "Cash market still at Friday’s $19.16 close. Watchlist voices quiet on the ticker; press is recycled tip-wire (eBay/Cohen, $1.4B buy reason) plus one Superstonk SEC-tokenized-stocks tip — no fresh catalyst into Sunday evening.",
+  "disclaimer": "Today's read from the news, not investment advice.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 19.16,
+    "change": -0.07,
+    "changePct": -0.364,
+    "currency": "USD",
+    "dayHigh": 19.5,
+    "dayLow": 19.04,
+    "prevClose": 19.23,
+    "volume": 6355077,
+    "week52High": 28.1,
+    "week52Low": 17.79,
+    "asOf": "2026-09-04T20:00:02+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-03-05",
+      "c": 23.88
+    },
+    {
+      "t": "2026-03-06",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-09",
+      "c": 24.8
+    },
+    {
+      "t": "2026-03-10",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-11",
+      "c": 24.46
+    },
+    {
+      "t": "2026-03-12",
+      "c": 24.43
+    },
+    {
+      "t": "2026-03-13",
+      "c": 23.53
+    },
+    {
+      "t": "2026-03-16",
+      "c": 23.28
+    },
+    {
+      "t": "2026-03-17",
+      "c": 23.59
+    },
+    {
+      "t": "2026-03-18",
+      "c": 23.36
+    },
+    {
+      "t": "2026-03-19",
+      "c": 23.23
+    },
+    {
+      "t": "2026-03-20",
+      "c": 22.57
+    },
+    {
+      "t": "2026-03-23",
+      "c": 23.03
+    },
+    {
+      "t": "2026-03-24",
+      "c": 22.81
+    },
+    {
+      "t": "2026-03-25",
+      "c": 23.08
+    },
+    {
+      "t": "2026-03-26",
+      "c": 22.56
+    },
+    {
+      "t": "2026-03-27",
+      "c": 22.1
+    },
+    {
+      "t": "2026-03-30",
+      "c": 22.27
+    },
+    {
+      "t": "2026-03-31",
+      "c": 23.04
+    },
+    {
+      "t": "2026-04-01",
+      "c": 22.76
+    },
+    {
+      "t": "2026-04-02",
+      "c": 23.36
+    },
+    {
+      "t": "2026-04-06",
+      "c": 23.08
+    },
+    {
+      "t": "2026-04-07",
+      "c": 23.43
+    },
+    {
+      "t": "2026-04-08",
+      "c": 22.91
+    },
+    {
+      "t": "2026-04-09",
+      "c": 22.87
+    },
+    {
+      "t": "2026-04-10",
+      "c": 23.22
+    },
+    {
+      "t": "2026-04-13",
+      "c": 23.4
+    },
+    {
+      "t": "2026-04-14",
+      "c": 24.03
+    },
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
+    },
+    {
+      "t": "2026-09-04",
+      "c": 19.16
+    }
+  ],
+  "voices": [
+    {
+      "handle": "ryancohen",
+      "userId": "1146058067244486656",
+      "name": "Ryan Cohen",
+      "role": "CEO",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    },
+    {
+      "handle": "larryvc",
+      "userId": "26281090",
+      "name": "Larry Cheng",
+      "role": "Board",
+      "lastPostAt": "2026-09-01T14:48:59+02:00",
+      "lastPostUrl": "https://x.com/larryvc/status/2094769485899010134",
+      "lastPostText": "Interesting: Great initiative by UNC to launch a new School of Civic Life and Leadership focused on civil discourse across disciplines, and if this article is correct, their biggest challenge is their own faculty. Probably not an uncommon dynamic at other schools as well.",
+      "quiet": true
+    },
+    {
+      "handle": "TheRoaringKitty",
+      "userId": "2902349190",
+      "name": "Roaring Kitty",
+      "role": "Community",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "lastPostAt": null,
+    "lastPostUrl": null,
+    "lastPostText": null,
+    "quiet": true
+  },
+  "community": {
+    "asOf": "2026-09-06T19:10:20.742542+02:00",
+    "windowHours": 24,
+    "totals": {
+      "posts": 4,
+      "withOutbound": 1
+    },
+    "byKind": {
+      "dd": 0,
+      "daily": 0,
+      "news": 1,
+      "junk": 3
+    },
+    "posts": [
+      {
+        "title": "Tokenized Stocks - How they impact GameStop and why the current Robinhood listings are a really big deal.",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w8hy7h/tokenized_stocks_how_they_impact_gamestop_and_why/",
+        "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
+        "updated": "2026-09-06T01:02:30+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "One of the funniest parts about this epic adventure, is every day that MSM doesn't post about GameStop, I get more excited about my warrants",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w8glf8/one_of_the_funniest_parts_about_this_epic/",
+        "url": null,
+        "updated": "2026-09-05T23:59:31+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "What’d you say?",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w8jkst/whatd_you_say/",
+        "url": null,
+        "updated": "2026-09-06T02:22:53+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "💲 G M E 💵 Now a Deeper Discount than Both Pre-Sneezes",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1w8mmwd/g_m_e_now_a_deeper_discount_than_both_presneezes/",
+        "url": null,
+        "updated": "2026-09-06T04:56:34+00:00",
+        "kind": "junk"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-09-03",
+        "posts": 8,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 6
+      },
+      {
+        "date": "2026-09-04",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 5,
+        "junk": 5
+      },
+      {
+        "date": "2026-09-05",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 0,
+        "junk": 9
+      },
+      {
+        "date": "2026-09-06",
+        "posts": 4,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 3
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "gme-weekend-tape",
+      "title": "Tape: still Friday’s $19.16 — weekend press is tip-wire",
+      "topics": [
+        "GME",
+        "Markets"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Yahoo: GME $19.16 (-0.364%), day range 19.04–19.5, vol 6,355,077, asOf 2026-09-04T20:00:02+00:00.",
+        "Tip-wire still looping Cohen/eBay commitment and performance-award framing (Stocktwits cluster via Google News).",
+        "Barchart tip still circulating: “A $1.4 Billion Reason to Buy GameStop Stock Now.”"
+      ],
+      "whyItMatters": "Nothing on the tape moved since Friday’s close; the desk is watching whether Monday opens on recycled M&A chatter or something new.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary",
+          "time": "2026-09-04T20:00:02+00:00"
+        },
+        {
+          "label": "Barchart",
+          "url": "https://www.barchart.com/story/news/4462807/a-1-4-billion-reason-to-buy-gamestop-stock-now",
+          "kind": "article",
+          "time": "2026-09-05T19:30:02+02:00"
+        },
+        {
+          "label": "Google News (Ryan Cohen / eBay)",
+          "url": "https://news.google.com/rss/search?q=%22Ryan%20Cohen%22%20eBay%20GameStop%20when:2d&hl=en-US&gl=US&ceid=US:en",
+          "kind": "article",
+          "time": "2026-09-06T08:03:35+02:00"
+        }
+      ]
+    },
+    {
+      "id": "gme-community",
+      "title": "Superstonk: tokenized-stocks tip + light junk",
+      "topics": [
+        "GME",
+        "Community"
+      ],
+      "weight": "normal",
+      "facts": [
+        "24h snapshot: 4 posts (news 1, junk 3).",
+        "Top news-tagged post: “Tokenized Stocks…” linking an SEC Corp Fin statement on tokenized securities (Jan 2026 statement URL).",
+        "Cohen / Cheng / Roaring Kitty: no fresh posts in the pull window — desk keeps last known Cheng civic-school post as quiet."
+      ],
+      "whyItMatters": "Sentiment-only: one outbound SEC link in an otherwise quiet Sunday Superstonk.",
+      "image": null,
+      "sources": [
+        {
+          "label": "r/Superstonk",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1w8hy7h/tokenized_stocks_how_they_impact_gamestop_and_why/",
+          "kind": "article",
+          "time": "2026-09-06T03:02:30+02:00"
+        },
+        {
+          "label": "SEC Corp Fin statement",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
+          "kind": "primary",
+          "time": "2026-01-28T12:00:00+01:00"
+        },
+        {
+          "label": "Larry Cheng on X (last known)",
+          "url": "https://x.com/larryvc/status/2094769485899010134",
+          "kind": "x",
+          "time": "2026-09-01T14:48:59+02:00"
+        }
+      ]
+    }
+  ]
+}
