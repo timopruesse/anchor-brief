@@ -38,9 +38,12 @@
 		)
 	);
 	const viaLabel = $derived((src.via?.label ?? '').trim() || (viaIsX ? 'X' : 'source'));
-	const viaAria = $derived(
-		viaIsX ? `Discovered via ${viaLabel} on X` : `Discovered via ${viaLabel}`
-	);
+	const viaAria = $derived.by(() => {
+		const label = viaLabel;
+		const alreadyMentionsX = /\bon\s+x\b/i.test(label) || /^x$/i.test(label);
+		if (viaIsX && !alreadyMentionsX) return `Discovered via ${label} on X`;
+		return `Discovered via ${label}`;
+	});
 
 	const tooltipText = $derived.by(() => {
 		if (!compact) return undefined;
