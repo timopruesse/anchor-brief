@@ -51,6 +51,75 @@ export function faviconUrl(domain: string | null | undefined): string | null {
 	return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=32`;
 }
 
+export interface FormattedVia {
+	viaHref: string;
+	viaDomain: string | null;
+	viaIsX: boolean;
+	isSelfPost: boolean;
+	curator: string | null;
+	viaLabel: string;
+	ariaLabel: string;
+}
+
+/**
+ * Normalizes provenance metadata for story sources discovered via social posts or aggregators.
+ * Soft-fails when via.url is missing or non-http(s).
+ */
+export function formatVia(
+	srcLabel: string,
+	via: { kind?: string; label?: string; url?: string } | null | undefined
+): FormattedVia | null {
+	const viaHref = safeHref(via?.url);
+	if (!viaHref) return null;
+
+	const viaDomain = domainFromUrl(viaHref);
+	const viaIsX = Boolean(
+		via?.kind === 'x' || viaDomain === 'x.com' || viaDomain === 'twitter.com'
+	);
+
+	const rawViaLabel = (via?.label ?? '').trim();
+	const normalizedSrc = fold(srcLabel);
+	const normalizedVia = fold(rawViaLabel);
+
+	const isSelfPost =
+		!rawViaLabel ||
+		normalizedVia === 'x' ||
+		normalizedVia === 'twitter' ||
+		normalizedVia === normalizedSrc ||
+		normalizedVia.startsWith(normalizedSrc) ||
+		normalizedVia.includes(normalizedSrc);
+
+	const curator =
+		!isSelfPost && rawViaLabel
+			? rawViaLabel.replace(/\s+on\s+(x|twitter)$/i, '').trim() || null
+			: null;
+
+	const viaLabel = rawViaLabel || (viaIsX ? 'X' : 'source');
+
+	let ariaLabel: string;
+	if (viaIsX) {
+		if (curator) {
+			ariaLabel = `View discovery post by ${curator} on X`;
+		} else if (isSelfPost) {
+			ariaLabel = `View original post by ${srcLabel} on X`;
+		} else {
+			ariaLabel = `View discovery post on X`;
+		}
+	} else {
+		ariaLabel = `Discovered via ${viaLabel}`;
+	}
+
+	return {
+		viaHref,
+		viaDomain,
+		viaIsX,
+		isSelfPost,
+		curator,
+		viaLabel,
+		ariaLabel
+	};
+}
+
 export function toDate(iso: string | undefined | null): Date | null {
 	if (!iso) return null;
 	const d = new Date(iso);

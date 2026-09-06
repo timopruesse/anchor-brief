@@ -10,7 +10,8 @@ import {
 	formatSigned,
 	formatVolume,
 	domainFromUrl,
-	faviconUrl
+	faviconUrl,
+	formatVia
 } from '../src/lib/format';
 
 describe('format utilities', () => {
@@ -76,5 +77,54 @@ describe('format utilities', () => {
 
 		expect(faviconUrl('zeit.de')).toBe('https://www.google.com/s2/favicons?domain=zeit.de&sz=32');
 		expect(faviconUrl(null)).toBeNull();
+	});
+
+	it('normalizes provenance via metadata cleanly without duplicate X labels', () => {
+		// Self-post by same outlet: DER SPIEGEL -> DER SPIEGEL on X
+		const spiegel = formatVia('DER SPIEGEL', {
+			kind: 'x',
+			label: 'DER SPIEGEL on X',
+			url: 'https://x.com/derspiegel/status/2096448992792187201'
+		});
+		expect(spiegel).not.toBeNull();
+		expect(spiegel?.viaIsX).toBe(true);
+		expect(spiegel?.isSelfPost).toBe(true);
+		expect(spiegel?.curator).toBeNull();
+		expect(spiegel?.ariaLabel).toBe('View original post by DER SPIEGEL on X');
+
+		// Third-party discovery: article from Handelsblatt discovered via Lilith Wittmann on X
+		const thirdParty = formatVia('Handelsblatt', {
+			kind: 'x',
+			label: 'Lilith Wittmann on X',
+			url: 'https://x.com/lilith/status/12345'
+		});
+		expect(thirdParty?.viaIsX).toBe(true);
+		expect(thirdParty?.isSelfPost).toBe(false);
+		expect(thirdParty?.curator).toBe('Lilith Wittmann');
+		expect(thirdParty?.ariaLabel).toBe('View discovery post by Lilith Wittmann on X');
+
+		// Generic X label or empty label
+		const genericX = formatVia('Reuters', {
+			url: 'https://x.com/reuters/status/999'
+		});
+		expect(genericX?.viaIsX).toBe(true);
+		expect(genericX?.isSelfPost).toBe(true);
+		expect(genericX?.curator).toBeNull();
+		expect(genericX?.ariaLabel).toBe('View original post by Reuters on X');
+
+		// Non-X via source
+		const stockTitan = formatVia('8-K Filing', {
+			kind: 'article',
+			label: 'StockTitan',
+			url: 'https://stocktitan.net/news/gme'
+		});
+		expect(stockTitan?.viaIsX).toBe(false);
+		expect(stockTitan?.viaLabel).toBe('StockTitan');
+		expect(stockTitan?.ariaLabel).toBe('Discovered via StockTitan');
+
+		// Soft fails on invalid or missing url
+		expect(formatVia('Article', null)).toBeNull();
+		expect(formatVia('Article', { url: '' })).toBeNull();
+		expect(formatVia('Article', { url: 'javascript:alert(1)' })).toBeNull();
 	});
 });

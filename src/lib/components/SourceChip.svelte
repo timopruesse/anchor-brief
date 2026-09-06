@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { formatSourceTime, domainFromUrl, faviconUrl, safeHref } from '$lib/format';
+	import { formatSourceTime, domainFromUrl, faviconUrl, formatVia } from '$lib/format';
 	import type { Source } from '$lib/types';
 
 	interface Props {
@@ -29,29 +29,24 @@
 	const timeStr = $derived(!compact && formattedTime ? formattedTime : null);
 
 	/** Soft-fail: only show discovery trail when via.url is a safe http(s) link. */
-	const viaHref = $derived(safeHref(src.via?.url));
-	const viaDomain = $derived(viaHref ? domainFromUrl(viaHref) : null);
-	const viaIsX = $derived(
-		Boolean(
-			viaHref &&
-				(src.via?.kind === 'x' || viaDomain === 'x.com' || viaDomain === 'twitter.com')
-		)
-	);
-	const viaLabel = $derived((src.via?.label ?? '').trim() || (viaIsX ? 'X' : 'source'));
-	const viaAria = $derived.by(() => {
-		const label = viaLabel;
-		const alreadyMentionsX = /\bon\s+x\b/i.test(label) || /^x$/i.test(label);
-		if (viaIsX && !alreadyMentionsX) return `Discovered via ${label} on X`;
-		return `Discovered via ${label}`;
-	});
+	const viaInfo = $derived(formatVia(src.label, src.via));
 
-	const tooltipText = $derived.by(() => {
-		if (!compact) return undefined;
+	const mainAria = $derived(
+		viaInfo ? `${src.label} (opens article in new tab)` : src.label
+	);
+
+	const mainTooltip = $derived.by(() => {
 		const parts = [src.label];
 		if (isPrimary) parts.push('Primary reporting');
 		if (formattedTime) parts.push(formattedTime);
 		if (domain) parts.push(`(${domain})`);
-		if (viaHref) parts.push(viaIsX ? `via X` : `via ${viaLabel}`);
+		if (compact && viaInfo) {
+			if (viaInfo.viaIsX) {
+				parts.push(viaInfo.curator ? `via ${viaInfo.curator} on X` : 'via X');
+			} else {
+				parts.push(`via ${viaInfo.viaLabel}`);
+			}
+		}
 		return parts.join(' · ');
 	});
 
@@ -66,16 +61,24 @@
 	}
 </script>
 
-<span class="source-chip-group" class:source-chip-group--compact={compact}>
+<span
+	class="source-chip-group"
+	class:source-chip-group--compact={compact}
+	class:source-chip-group--combined={Boolean(viaInfo)}
+	data-kind={src.kind}
+	role={viaInfo ? 'group' : undefined}
+	aria-label={viaInfo ? `${src.label} citation with discovery trail` : undefined}
+>
 	<a
 		class="source-chip"
 		class:source-chip--compact={compact}
+		class:source-chip--combined-main={Boolean(viaInfo)}
 		data-kind={src.kind}
 		href={src.href}
 		rel="noopener noreferrer"
 		target="_blank"
-		aria-label={src.label}
-		title={tooltipText}
+		aria-label={mainAria}
+		title={mainTooltip}
 	>
 		{#if compact && isPrimary}
 			<span class="source-chip__primary-dot" aria-hidden="true"></span>
@@ -165,23 +168,29 @@
 		</svg>
 	</a>
 
-	{#if viaHref}
+	{#if viaInfo}
 		<a
-			class="source-via"
+			class="source-via source-via--combined"
 			class:source-via--compact={compact}
-			class:source-via--x={viaIsX}
-			href={viaHref}
+			class:source-via--x={viaInfo.viaIsX}
+			href={viaInfo.viaHref}
 			rel="noopener noreferrer"
 			target="_blank"
-			aria-label={viaAria}
-			title={viaAria}
+			aria-label={viaInfo.ariaLabel}
+			title={viaInfo.ariaLabel}
 		>
-			{#if viaIsX}
+			{#if viaInfo.viaIsX}
+				{#if !compact}
+					<span class="source-via__prefix">via</span>
+					{#if viaInfo.curator}
+						<span class="source-via__curator">{viaInfo.curator}</span>
+					{/if}
+				{/if}
 				<svg
 					class="source-via__x"
 					viewBox="0 0 24 24"
-					width="9"
-					height="9"
+					width={compact ? '8.5' : '9.5'}
+					height={compact ? '8.5' : '9.5'}
 					fill="currentColor"
 					aria-hidden="true"
 				>
@@ -189,15 +198,24 @@
 						d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
 					/>
 				</svg>
-				{#if compact}
-					<span class="source-via__text">via</span>
-				{:else}
-					<span class="source-via__text">via X</span>
-				{/if}
 			{:else}
-				<span class="source-via__text">via</span>
+				<span class="source-via__prefix">via</span>
+				<span class="source-via__label">{compact ? (viaInfo.curator ?? viaInfo.viaLabel) : viaInfo.viaLabel}</span>
 				{#if !compact}
-					<span class="source-via__label">{viaLabel}</span>
+					<svg
+						class="source-via__outbound"
+						viewBox="0 0 12 12"
+						width="7"
+						height="7"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.8"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						aria-hidden="true"
+					>
+						<path d="M3.5 8.5 8.5 3.5M4 3.5h4.5V8" />
+					</svg>
 				{/if}
 			{/if}
 		</a>
