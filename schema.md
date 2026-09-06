@@ -29,11 +29,16 @@ Do **not** put GME desk files under a main id. GME files use `{parentId}-gme` �
 type Weight = 'lead' | 'normal' | 'brief';
 type SourceKind = 'article' | 'x' | 'primary';
 
-interface Source {
+interface SourceLink {
   kind: SourceKind;
   label: string;
   url: string;          // http(s) only; others ignored at render
   time?: string;        // ISO-8601 timestamp
+}
+
+interface Source extends SourceLink {
+  /** Discovery trail (e.g. X post that linked the article). Soft-fail when absent. */
+  via?: SourceLink;
 }
 
 interface StoryImage {
@@ -62,7 +67,7 @@ interface Story {
 
 `topics` — categorical tags (e.g. `AI`, `Tech`, `Defense`, `Worth a look`, `From Substack`, `Dev notes`).
 
-`sources` — citations with `kind` (`article` | `x` | `primary`), `label`, `url`, and optional `time`.
+`sources` — citations with `kind` (`article` | `x` | `primary`), `label`, `url`, and optional `time`. Optional nested `via` records the discovery trail (often an X post) when the primary URL was found outbound from another post; the site renders the main chip plus a muted “via” control. Missing or invalid `via` soft-fails to a single chip.
 
 `facts` — bulleted takeaways. Two shapes:
 

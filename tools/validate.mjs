@@ -2,6 +2,7 @@
 /**
  * Soft-validate main/GME briefing JSON under data/.
  * Accepts string facts and { text, sourceIndexes? } objects.
+ * Accepts optional source.via discovery trails (soft-warn when malformed).
  * Warns on long facts (>220) and out-of-range sourceIndexes;
  * string-only roundups remain valid.
  *
@@ -13,6 +14,8 @@ import { join } from 'node:path';
 const dataDir = process.argv[2] || join(process.cwd(), 'data');
 const FACT_TEXT_SOFT_MAX = 220;
 const FACT_OBJECT_KEYS = new Set(['text', 'sourceIndexes']);
+const SOURCE_KEYS = new Set(['kind', 'label', 'url', 'time', 'via']);
+const SOURCE_LINK_KEYS = new Set(['kind', 'label', 'url', 'time']);
 
 /** @typedef {{ level: 'error' | 'warn'; message: string }} Issue */
 
@@ -55,6 +58,85 @@ function validateFactText(text, path) {
 			message: `${path}: text length ${text.length} > ${FACT_TEXT_SOFT_MAX}`
 		});
 	}
+	return issues;
+}
+
+/**
+ * Soft-validate one source citation. Optional nested `via` (discovery trail).
+ * Missing via is fine; malformed via warns and is ignored at render.
+ * Source field checks are soft — pre-via editions were not deeply validated.
+ * @param {unknown} raw
+ * @param {string} path
+ * @returns {Issue[]}
+ */
+function validateSource(raw, path) {
+	/** @type {Issue[]} */
+	const issues = [];
+
+	if (!raw || typeof raw !== 'object' || Array.isArray(raw)) {
+		issues.push({ level: 'warn', message: `${path}: expected object (ignored)` });
+		return issues;
+	}
+
+	const obj = /** @type {Record<string, unknown>} */ (raw);
+	issues.push(...unknownKeys(obj, SOURCE_KEYS, path));
+
+	if (typeof obj.label !== 'string' || !obj.label.trim()) {
+		issues.push({ level: 'warn', message: `${path}.label: expected non-empty string` });
+	}
+	if (typeof obj.url !== 'string' || !obj.url.trim()) {
+		issues.push({ level: 'warn', message: `${path}.url: expected non-empty string` });
+	} else if (!/^https?:\/\//i.test(obj.url.trim())) {
+		issues.push({
+			level: 'warn',
+			message: `${path}.url: non-http(s) URL ignored at render`
+		});
+	}
+	if (obj.kind !== undefined && (typeof obj.kind !== 'string' || !obj.kind.trim())) {
+		issues.push({ level: 'warn', message: `${path}.kind: expected non-empty string` });
+	}
+	if (obj.time !== undefined && typeof obj.time !== 'string') {
+		issues.push({ level: 'warn', message: `${path}.time: expected string` });
+	}
+
+	if (obj.via !== undefined) {
+		if (!obj.via || typeof obj.via !== 'object' || Array.isArray(obj.via)) {
+			issues.push({
+				level: 'warn',
+				message: `${path}.via: expected object { kind, label, url, time? } (ignored)`
+			});
+		} else {
+			const via = /** @type {Record<string, unknown>} */ (obj.via);
+			issues.push(...unknownKeys(via, SOURCE_LINK_KEYS, `${path}.via`));
+			if (typeof via.label !== 'string' || !via.label.trim()) {
+				issues.push({
+					level: 'warn',
+					message: `${path}.via.label: expected non-empty string (ignored)`
+				});
+			}
+			if (typeof via.url !== 'string' || !via.url.trim()) {
+				issues.push({
+					level: 'warn',
+					message: `${path}.via.url: expected non-empty string (ignored)`
+				});
+			} else if (!/^https?:\/\//i.test(via.url.trim())) {
+				issues.push({
+					level: 'warn',
+					message: `${path}.via.url: non-http(s) URL ignored at render`
+				});
+			}
+			if (via.kind !== undefined && (typeof via.kind !== 'string' || !via.kind.trim())) {
+				issues.push({
+					level: 'warn',
+					message: `${path}.via.kind: expected non-empty string`
+				});
+			}
+			if (via.time !== undefined && typeof via.time !== 'string') {
+				issues.push({ level: 'warn', message: `${path}.via.time: expected string` });
+			}
+		}
+	}
+
 	return issues;
 }
 
@@ -143,6 +225,9 @@ function validateBriefing(data, file) {
 		}
 		const s = /** @type {Record<string, unknown>} */ (story);
 		const sources = Array.isArray(s.sources) ? s.sources : [];
+		sources.forEach((src, sci) => {
+			issues.push(...validateSource(src, `${file} stories[${si}].sources[${sci}]`));
+		});
 		const facts = Array.isArray(s.facts) ? s.facts : null;
 		if (facts === null) {
 			issues.push({ level: 'error', message: `${file} stories[${si}].facts: expected array` });
