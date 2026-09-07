@@ -1,0 +1,262 @@
+{
+  "id": "2026-09-07-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-07T19:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:00 Berlin / ~6h)",
+  "headline": "Merz calls Magdeburg the CDU’s worst defeat in decades and refuses to quit; Berlin’s second ransomware dump gets a KI triage plan; BepiColombo’s transfer module is gone.",
+  "stories": [
+    {
+      "id": "merz-magdeburg-fallout",
+      "title": "Merz: Magdeburg is the CDU’s worst defeat in decades — and he won’t quit",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "tagesschau (~14:56): after CDU Spitzengremien, Merz calls it “die schwerste Wahlniederlage … seit Jahrzehnten”; “zutiefst schockiert”; “Konsequenzen” without naming them.",
+        "Same briefing: “Aufgeben ist für mich keine Option”; reforms stay, but he’ll talk SPD on pension/tax volume and try to reach people “in ihrer ganzen Emotionalität.”",
+        "Institutions line: “wehrhaft und stabil”; Grundgesetz will be enforced — message also aimed at European partners.",
+        "Schulze: CDU “keinen Regierungsauftrag mehr … Opposition”; Regierungsauftrag “liegt jetzt bei der AfD”; will put a Land board proposal tonight.",
+        "Handelsblatt BPK: Siegmund’s “Hand ist ausgestreckt” to all Fraktionen/Abgeordnete; needs a “stabile Mehrheit” (not the absolute majority he once demanded); BSW path not ruled out."
+      ],
+      "whyItMatters": "Afternoon tracked Brandmauer math; evening is the federal shock — Merz owns the scale of the hit, refuses to resign, and Magdeburg’s majority hunt (BSW/abstention/CDU defectors) is still the only path to an AfD MP.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/merz-wahl-sachsen-anhalt-104.html",
+          "kind": "article",
+          "time": "2026-09-07T14:56:00+02:00"
+        },
+        {
+          "label": "SZ liveblog",
+          "url": "https://www.sueddeutsche.de/politik/wahl-sachsen-anhalt-2026-liveblog-news-hochrechnung-ergebnis-afd-merz-cdu-li.3540501",
+          "kind": "article",
+          "time": "2026-09-07T17:28:00+02:00"
+        },
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-die-hand-ist-ausgestreckt-so-will-siegmunds-afd-regieren/100252557.html",
+          "kind": "article"
+        },
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/ulrich-siegmund-afd-ministerpraesident-sachsen-anhalt",
+          "kind": "article",
+          "time": "2026-09-07T11:42:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "berlin-ransomware-ki",
+      "title": "Berlin ransomware: second dump (~550k files); KI to triage risk",
+      "topics": [
+        "Germany",
+        "Security",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "heise (Mon): CDO Florian Hauer — overnight Sat→Sun another ~550–560k files hit the darknet; total now ~1.3M.",
+        "Plan: KI tools to classify/risk-rank files so the hottest packages get human review first (manual review of >1M is impractical).",
+        "Ransom was ~30 BTC (~€2M); Berlin refused. Slotty: origin still unclear; Rhysida often phishing.",
+        "BSI weekend note conflict: TerminalFix + fake Captcha needed an employee to open Windows Terminal — not a pure drive-by."
+      ],
+      "whyItMatters": "Weekend’s dump becomes Monday’s ops problem: without automated triage, a Land-scale leak sits unassessed while politics is glued to Magdeburg.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Berlin-Zweites-Datenpaket-veroeffentlicht-KI-soll-Risiko-bewerten-11444369.html",
+          "kind": "article",
+          "time": "2026-09-07T18:03:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bepicolombo-mtm",
+      "title": "BepiColombo: Mercury Transfer Module separated — arrival sequence on",
+      "topics": [
+        "Space",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "ESA: MTM separated 3 Sep; GO at 12:00 CEST, sep ~14:00, Doppler hint 14:20, AOS confirmation 15:49 CEST from ~200M km.",
+        "After ~8 years / 9.9B km / nine flybys, MTM’s solar-electric job is done; inert module stays in a solar orbit.",
+        "Next: MPO chemical propulsion to Mercury orbit insertion 21 Nov; Mio deploy early Dec; MPO science orbit Mar 2027; dual-orbiter science from ~Apr 2027.",
+        "Afternoon only had a one-liner in Dev notes — this is ESA’s full arrival write-up."
+      ],
+      "whyItMatters": "Europe/JAXA’s Mercury stack just dropped its cruise stage; the hard choreography (two orbiters, six-month arrival) is now live ops out of Darmstadt.",
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/mtm_separation_signal_confirmation/27452584-1-eng-GB/MTM_separation_signal_confirmation_pillars.jpg",
+        "alt": "MTM separation signal confirmation",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success"
+      },
+      "sources": [
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
+          "kind": "primary",
+          "time": "2026-09-07T10:25:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Right to Repair Europe / Register: ~1y into EU phone/tablet repair rules, only ~18% of 2,334 EPREL records link real spare-parts/repair info; blanks & self-A scores common.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Sony WH-1000XM4C (IFA): classic ANC cans back at €250 with user-swappable battery (EU battery rules → Feb 2027); also CH730N €120 / CH530 €60.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "UNITED24 / RBC-Ukraine: EU JV starts BARS jet-drone production early Sep; first units to Ukraine ~10 Oct; newest config ~1,000 km / ≤60 kg warhead; jet engines are the bottleneck.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Atlantic via HN: Tiny ~$70 Xteink X3 e-reader write-up.",
+          "sourceIndexes": [
+            3,
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The Register",
+          "url": "https://www.theregister.com/personal-tech/2026/09/07/smartphone_makers_dont_bother_to_comply-with-eu-repairability-requirements/5294532",
+          "kind": "article",
+          "time": "2026-09-07T12:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/WH-1000XM4-Sony-legt-Klassiker-mit-austauschbarem-Akku-neu-auf-11444068.html",
+          "kind": "article",
+          "time": "2026-09-07T18:00:00+02:00"
+        },
+        {
+          "label": "UNITED24 Media",
+          "url": "https://united24media.com/world/ukraines-700-kmh-bars-jet-drone-enters-production-in-europe-with-1000-km-range-22312",
+          "kind": "article",
+          "time": "2026-09-07T17:58:00+02:00"
+        },
+        {
+          "label": "The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/09/xteink-e-reader-best-technology-years/688539/",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49596629",
+          "kind": "article",
+          "time": "2026-09-07T12:41:29+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: Andrew Ng — AI already does ~30–40% of many jobs; common LLM use is “terrible for learning” (cognitive offloading).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/andrew-ng-ai-handles-jobs",
+          "kind": "article",
+          "time": "2026-09-07T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes",
+        "Tech"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Merged sveltejs/kit#17049 (index for filenames) + #17047 (copy `_redirects` for edge deploys).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Lobsters: Dan Luu — how well do agents use test/verification techniques?",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "DEV.to tip: cut agent token use ~85% with local MCP (Julian Brown).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/512de3a5158a35074eca5dc76a756b76267f7dc3ddfc4cd4d6eec15c28a63aaa/sveltejs/kit/pull/17049",
+        "alt": "This PR swaps out the error-prone serverless function file naming of replacing symbols in the route id to using an index (similar to the Vercel adapter). This fixes a situation where a /foo.bar rou...",
+        "credit": "sveltejs/kit#17049",
+        "creditUrl": "https://github.com/sveltejs/kit/pull/17049"
+      },
+      "sources": [
+        {
+          "label": "sveltejs/kit#17049",
+          "url": "https://github.com/sveltejs/kit/pull/17049",
+          "kind": "primary",
+          "time": "2026-09-07T18:42:39+02:00"
+        },
+        {
+          "label": "sveltejs/kit#17047",
+          "url": "https://github.com/sveltejs/kit/pull/17047",
+          "kind": "primary",
+          "time": "2026-09-07T18:38:22+02:00"
+        },
+        {
+          "label": "Dan Luu",
+          "url": "https://danluu.com/agentic-testing/",
+          "kind": "article"
+        },
+        {
+          "label": "DEV.to",
+          "url": "https://dev.to/julianbrown/how-we-cut-ai-agent-token-usage-by-85-with-local-mcp-1p9o",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
