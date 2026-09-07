@@ -23,7 +23,12 @@
         "Handelsblatt BPK: Siegmund’s “Hand ist ausgestreckt” to all Fraktionen/Abgeordnete; needs a “stabile Mehrheit” (not the absolute majority he once demanded); BSW path not ruled out."
       ],
       "whyItMatters": "Afternoon tracked Brandmauer math; evening is the federal shock — Merz owns the scale of the hit, refuses to resign, and Magdeburg’s majority hunt (BSW/abstention/CDU defectors) is still the only path to an AfD MP.",
-      "image": null,
+      "image": {
+        "url": "https://images.tagesschau.de/image/a838d116-c746-4c36-99cd-969b2bef8468/AAABoHu6fAA/AAABnSSvrFg/16x9-big/merz-1528.jpg?width=1280",
+        "alt": "Friedrich Merz speaking after CDU leadership meetings on the Sachsen-Anhalt election result",
+        "credit": "tagesschau",
+        "creditUrl": "https://www.tagesschau.de/inland/merz-wahl-sachsen-anhalt-104.html"
+      },
       "sources": [
         {
           "label": "tagesschau",
