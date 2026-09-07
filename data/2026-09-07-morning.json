@@ -1,0 +1,430 @@
+{
+  "id": "2026-09-07-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-07T08:40:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h)",
+  "headline": "Sachsen-Anhalt vorläufig: AfD 43.8% / 39 Sitze — absolute Mehrheit verfehlt; Amazon freighter kills 5 in Miami; Australia drafts algorithm opt-out.",
+  "stories": [
+    {
+      "id": "sachsen-anhalt-final",
+      "title": "Sachsen-Anhalt: AfD 43.8% / 39 seats — majority missed; Musk “Well done!”",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Landeswahlleitung (vorläufiges Endergebnis, Nacht zum Montag): AfD 43.8% (39 of 83), CDU 17.2% (15), SPD 9.3% / Grüne 8.9% / Linke 8.6% (8 each), BSW 5.3% (5); FDP 2.6% out; turnout 77.8%.",
+        "Absolute majority needs 42 seats — AfD is three short; other parties together hold 44.",
+        "Evening Hochrechnung had AfD ~44.3% / ~41 seats — overnight count locked the miss and BSW’s entry.",
+        "Guardian: Musk wrote “Well done!” (German) to Weidel; Siegmund thanked him on X and floated “strong and constructive cooperation.”",
+        "tagesschau: BSW’s Thomas Schulze says he’ll talk to AfD (shared Russia/energy lines); Siegmund still rejects compromise coalitions and floats Neuwahlen.",
+        "France’s Europe minister Haddad called it a “serious moment”; Poland’s Tusk: only “idiots or traitors” rejoice."
+      ],
+      "whyItMatters": "Material overnight update: the knife-edge Hochrechnung is now a locked near-miss, so Magdeburg’s coalition math (and Berlin’s reaction) starts from 39—not 41—AfD seats, with Musk’s congratulations already in the international frame.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/a6be/live/08c19210-aa82-11f1-a291-b542ee92de7c.jpg",
+        "alt": "Ulrich Siegmund, leader of the AfD in the state, raises a thumbs up at the election party.",
+        "credit": "BBC World",
+        "creditUrl": "https://bbc.in/4ibSot7"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-sachsen-anhalt-180.html",
+          "kind": "article",
+          "time": "2026-09-07T03:14:00+02:00"
+        },
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/landtagswahl-sachsen-anhalt-afd-cdu-koop-positionen",
+          "kind": "article",
+          "time": "2026-09-07T04:52:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/07/afd-thanks-elon-musk-german-state-elections-2026-win",
+          "kind": "article"
+        },
+        {
+          "label": "DIE ZEIT",
+          "url": "https://trib.al/kGPGrMg",
+          "kind": "article",
+          "via": {
+            "label": "DIE ZEIT on X",
+            "url": "https://x.com/zeitonline/status/2096819579171307640",
+            "kind": "x"
+          },
+          "time": "2026-09-07T06:35:19+02:00"
+        },
+        {
+          "label": "BBC World",
+          "url": "https://bbc.in/4ibSot7",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2096813483790660087",
+            "kind": "x"
+          },
+          "time": "2026-09-07T06:11:06+02:00"
+        },
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/afd-wants-to-form-a-government-in-saxony-anhalt-but-how/a-79107331",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "amazon-miami-crash",
+      "title": "Amazon Air freighter overruns Miami runway — 5 dead, 5 hurt",
+      "topics": [
+        "World",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "BBC: Boeing 767-300 Amazon Air cargo (21 Air Flight 7598) from San Juan overshot MIA ~14:00 local / 19:00 GMT Sunday; hit ground vehicles and caught fire.",
+        "Miami-Dade mayor: at least 5 dead, 5 injured (3 critical per fire chief); 200+ firefighters; NTSB briefing planned Monday.",
+        "FlightRadar24: ~112 knots as it exited usable runway; Amazon’s Kelly Nantel offered condolences and pledged cooperation.",
+        "FAA grounded ops during Labor Day weekend at a top US freight hub."
+      ],
+      "whyItMatters": "A Prime Air–branded freighter killing ground workers next to an Amazon warehouse site puts logistics safety and contractor oversight on Monday’s NTSB mic.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/9d36/live/ead9f6b0-aa73-11f1-8722-09fc3b051866.jpg",
+        "alt": "A Prime Air plane rests next to a car park after crashing. The nose of the plane is crumpled and there are black marks on the side of the plane.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/c0e3p1j7n3ro"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c0e3p1j7n3ro",
+          "kind": "article"
+        },
+        {
+          "label": "BBC World",
+          "url": "https://bbc.in/4hbGLBk",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2096761429101559815",
+            "kind": "x"
+          },
+          "time": "2026-09-07T02:44:15+02:00"
+        },
+        {
+          "label": "Washington Post on X",
+          "url": "https://x.com/washingtonpost/status/2096727655169003647",
+          "kind": "x",
+          "time": "2026-09-07T00:30:02+02:00"
+        }
+      ]
+    },
+    {
+      "id": "australia-algorithm-optout",
+      "title": "Australia: draft Digital Duty of Care would let users switch off algorithms",
+      "topics": [
+        "Tech",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "BBC/ABC: Communications Minister Anika Wells to table exposure draft this week — platforms must offer algorithm opt-out (pop-ups: algorithmic vs following-only feed).",
+        "Duty of care would push platforms to identify/mitigate harm (illegal porn; youth psycho-social risks); breaches could mean fines >A$100m.",
+        "Wells still taking advice on opt-in vs opt-out default; opposition leader Angus Taylor is “deeply sceptical”; Greens want opt-in."
+      ],
+      "whyItMatters": "After the under-16 social-media ban, Canberra is moving from age gates to feed design — a template other regulators watch.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/db8d/live/68beaa90-aa69-11f1-aed2-8d6da8d75094.jpg",
+        "alt": "A woman in a tartan jacket and white dress speaks. Several flags can be seen in the background",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cn9wyvxn95vo"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cn9wyvxn95vo",
+          "kind": "article"
+        },
+        {
+          "label": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-09-06/opt-out-laws-social-media-algorithm-parliament-government/107121192",
+          "kind": "article",
+          "time": "2026-09-06T09:15:00+10:00"
+        },
+        {
+          "label": "BBC World",
+          "url": "https://bbc.in/4x7QbT5",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2096806133688086591",
+            "kind": "x"
+          },
+          "time": "2026-09-07T05:41:53+02:00"
+        }
+      ]
+    },
+    {
+      "id": "china-bank-injection",
+      "title": "China pumps ~$54bn into state banks and insurers",
+      "topics": [
+        "World",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        "BBC citing Xinhua: finance ministry-led package totals 360bn yuan (~$53.6bn) across eight state banks/insurers.",
+        "Named beneficiaries include ICBC, Agricultural Bank of China, China Export & Credit Insurance; aim is capital, risk buffers, and credit to the real economy.",
+        "Context: Q2 GDP 4.3% below annual target band; property slump + trade/tech rivalry with the US."
+      ],
+      "whyItMatters": "Beijing is using the fiscal balance sheet to pre-load bank/insurer capital before deeper growth stress shows up in credit.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/6782/live/9df185f0-aa6b-11f1-a525-873a5928ac64.jpg",
+        "alt": "People sit and rest in front of a closed ICBC credit card service centre, shielding themselves from the sun with umbrellas, on 19 April, 2025 in Chongqing, China.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cx2z37qj4wno"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cx2z37qj4wno",
+          "kind": "article"
+        },
+        {
+          "label": "BBC World",
+          "url": "https://bbc.in/4gXJNYL",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2096788015255302323",
+            "kind": "x"
+          },
+          "time": "2026-09-07T04:29:53+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Indonesia volcano: BBC — ~270k stranded as airports extend closures.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Zelenskyy overnight: three Kyiv rounds with Witkoff/Kushner called “very substantive”; territorial issues still for leaders.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "heise: German court — X can’t block “Tweet” / old Twitter logo use (Markenrechte).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "DJI Osmo 360 II: flagship 360 cam with new 1-inch HDR sensor (Fstoppers).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Ohio: armed person lunged at Dem gubernatorial candidate Amy Acton; several injured (CNN).",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/795f/live/1420e5d0-aa72-11f1-8fb5-49eca7c7c503.jpg",
+        "alt": "Stranded passengers rest as Soekarno Hatta International Airport closed its operations",
+        "credit": "BBC World",
+        "creditUrl": "https://bbc.in/4zUu3yt"
+      },
+      "sources": [
+        {
+          "label": "BBC World",
+          "url": "https://bbc.in/4zUu3yt",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2096831543738057200",
+            "kind": "x"
+          },
+          "time": "2026-09-07T07:22:51+02:00"
+        },
+        {
+          "label": "Zelenskyy on X",
+          "url": "https://x.com/ZelenskyyUa/status/2096697809022120202",
+          "kind": "x",
+          "time": "2026-09-06T22:31:27+02:00"
+        },
+        {
+          "label": "Washington Post on X",
+          "url": "https://x.com/washingtonpost/status/2096788049363349925",
+          "kind": "x",
+          "time": "2026-09-07T04:30:02+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Markenrechte-X-kann-Nutzung-von-Tweet-und-dem-Twitterlogo-nicht-verhindern-11443046.html",
+          "kind": "article",
+          "time": "2026-09-07T07:44:00+02:00"
+        },
+        {
+          "label": "Fstoppers",
+          "url": "https://fstoppers.com/news/dji-launches-osmo-360-ii-flagship-360-degree-camera-new-1-inch-hdr-sensor-and-904446",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4gMLWGA",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2096734461765239013",
+            "kind": "x"
+          },
+          "time": "2026-09-07T00:57:05+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Smart is Sexy: “Seductive Intellect: Power, Perspective & Modern Ambition.”",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Smart is Sexy",
+          "url": "https://smartissexy.substack.com/p/seductive-intellect-power-perspective",
+          "kind": "article",
+          "time": "2026-09-07T03:30:35+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes",
+        "Tech"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN ~626: Nitter/XCancel resume after legal advice (zedeus commit).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "OpenAI: “An Alien Mind” essay — AGI-era framing (also on Greg Brockman’s feed).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "GrapheneOS: overhauled default apps + secure clipboard (HN ~254).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Anubis: year to ship WebAssembly (HN ~219).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Merged overnight: vite#23333 feat(devtools) server integration; sveltejs/kit#17036 HEAD without body.",
+          "sourceIndexes": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "DEV.to tip: AI coding-agent latency as the unexpected bottleneck.",
+          "sourceIndexes": [
+            7
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/7f6sLIUC3tdeliJMQ3PwOq/c47109c8b3f00ccbf881271c9c720877/og-an-alien-mind.png?w=1600&h=900&fit=fill",
+        "alt": "“An Alien Mind” in white text over an abstract green and teal background with refracted light.",
+        "credit": "OpenAI",
+        "creditUrl": "https://openai.com/index/an-alien-mind/"
+      },
+      "sources": [
+        {
+          "label": "Nitter commit",
+          "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+          "kind": "primary",
+          "time": "2026-09-06T19:49:47+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49588988",
+          "kind": "article"
+        },
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/an-alien-mind/",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49590512",
+          "kind": "article"
+        },
+        {
+          "label": "Anubis",
+          "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+          "kind": "article"
+        },
+        {
+          "label": "vite#23333",
+          "url": "https://github.com/vitejs/vite/pull/23333",
+          "kind": "primary",
+          "time": "2026-09-07T07:29:06+02:00"
+        },
+        {
+          "label": "sveltejs/kit#17036",
+          "url": "https://github.com/sveltejs/kit/pull/17036",
+          "kind": "primary",
+          "time": "2026-09-07T07:35:46+02:00"
+        },
+        {
+          "label": "DEV.to",
+          "url": "https://dev.to/prasad_rane_dev/the-part-of-ai-coding-agents-i-didnt-expect-to-care-about-latency-44ak",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
