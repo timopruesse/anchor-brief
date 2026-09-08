@@ -2,7 +2,7 @@
   "id": "2026-09-08-afternoon-gme",
   "parentId": "2026-09-08-afternoon",
   "edition": "afternoon",
-  "generatedAt": "2026-09-08T15:16:08+02:00",
+  "generatedAt": "2026-09-08T15:30:12+02:00",
   "timezone": "Europe/Berlin",
   "coverage": "since morning (~08:00 Berlin); IR update mid-afternoon",
   "headline": "Official Q2 results are up on IR — sales down, record 2Q operating income; cash+digital ~$5.4B + ~$4.9B eBay stake.",
@@ -735,5 +735,168 @@
         }
       ]
     }
-  ]
+  ],
+  "earnings": {
+    "asOf": "2026-09-08",
+    "source": {
+      "label": "GameStop IR — Q2 2026 Results",
+      "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Discloses-Second-Quarter-2026-Results/default.aspx",
+      "kind": "primary"
+    },
+    "comparisons": {
+      "yoy": {
+        "label": "Q2 FY2026 vs Q2 FY2025",
+        "periods": [
+          {
+            "id": "q2-2025",
+            "label": "Q2'25",
+            "end": "2025-08-02"
+          },
+          {
+            "id": "q2-2026",
+            "label": "Q2'26",
+            "end": "2026-08-01"
+          }
+        ],
+        "metrics": [
+          {
+            "id": "netSales",
+            "label": "Net sales",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 972.2,
+              "q2-2026": 790.2
+            }
+          },
+          {
+            "id": "collectiblesSales",
+            "label": "Collectibles sales",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 227.6,
+              "q2-2026": 356.3
+            }
+          },
+          {
+            "id": "operatingIncome",
+            "label": "Operating income",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 66.4,
+              "q2-2026": 160.2
+            }
+          },
+          {
+            "id": "netIncome",
+            "label": "Net income",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 168.6,
+              "q2-2026": 298.7
+            }
+          },
+          {
+            "id": "adjEbitda",
+            "label": "Adjusted EBITDA",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 75.7,
+              "q2-2026": 174.0
+            }
+          }
+        ]
+      },
+      "qoq": {
+        "label": "Q2 FY2026 vs Q1 FY2026",
+        "periods": [
+          {
+            "id": "q1-2026",
+            "label": "Q1'26",
+            "end": "2026-05-02"
+          },
+          {
+            "id": "q2-2026",
+            "label": "Q2'26",
+            "end": "2026-08-01"
+          }
+        ],
+        "metrics": [
+          {
+            "id": "netSales",
+            "label": "Net sales",
+            "unit": "USD_M",
+            "values": {
+              "q1-2026": 835.3,
+              "q2-2026": 790.2
+            }
+          },
+          {
+            "id": "operatingIncome",
+            "label": "Operating income",
+            "unit": "USD_M",
+            "values": {
+              "q1-2026": 143.3,
+              "q2-2026": 160.2
+            }
+          },
+          {
+            "id": "netIncome",
+            "label": "Net income",
+            "unit": "USD_M",
+            "values": {
+              "q1-2026": 389.6,
+              "q2-2026": 298.7
+            }
+          },
+          {
+            "id": "liquidity",
+            "label": "Cash + securities + digital (+ Q1 collateral)",
+            "unit": "USD_B",
+            "values": {
+              "q1-2026": 9.7,
+              "q2-2026": 5.4
+            },
+            "note": "Q1 IR includes collateral pledged for derivative asset; Q2 IR cash+digital+securities $5.4B — not perfectly like-for-like"
+          }
+        ],
+        "sources": [
+          {
+            "label": "GameStop IR — Q1 2026 Results",
+            "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Discloses-First-Quarter-2026-Results/default.aspx",
+            "kind": "primary"
+          }
+        ]
+      }
+    },
+    "mix": {
+      "label": "Q2'26 sales mix",
+      "unit": "pct",
+      "segments": [
+        {
+          "id": "collectibles",
+          "label": "Collectibles",
+          "value": 45.1
+        },
+        {
+          "id": "videoGames",
+          "label": "Video Games",
+          "value": 33.3
+        },
+        {
+          "id": "preOwned",
+          "label": "Pre-Owned and Refurbished",
+          "value": 21.6
+        }
+      ],
+      "note": "Video Games 33.3% and Pre-Owned 21.6% from IR sales-mix table (Collectibles 45.1% stated in highlights)."
+    },
+    "outlook": {
+      "adjEbitdaFy2026": {
+        "op": ">",
+        "value": 650,
+        "unit": "USD_M",
+        "prior": 600
+      }
+    }
+  }
 }
