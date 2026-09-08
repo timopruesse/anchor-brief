@@ -75,9 +75,38 @@
 	let liveStatus = $state<'idle' | 'loading' | 'ok' | 'error'>('idle');
 
 	const display = $derived(live ?? snapshot);
-	const up = $derived((display?.change ?? 0) >= 0);
+
+	/** Headline quote: active ETH session last when present, else live/snapshot. */
+	const heroQuote = $derived.by(() => {
+		if (live?.session === 'pre' && live.preMarket) {
+			return {
+				price: live.preMarket.price,
+				change: live.preMarket.change,
+				changePct: live.preMarket.changePct,
+				currency: live.currency
+			};
+		}
+		if (live?.session === 'post' && live.postMarket) {
+			return {
+				price: live.postMarket.price,
+				change: live.postMarket.change,
+				changePct: live.postMarket.changePct,
+				currency: live.currency
+			};
+		}
+		return display;
+	});
+
+	const up = $derived((heroQuote?.change ?? 0) >= 0);
 	const liveAsOf = $derived(toDate(live?.fetchedAt));
 	const showingLive = $derived(live != null);
+	const showEthStrip = $derived(Boolean(live?.preMarket || live?.postMarket));
+	const feedPillLabel = $derived.by(() => {
+		if (live?.session === 'pre') return 'Premarket';
+		if (live?.session === 'post') return 'After hours';
+		return 'Delayed Poll (~15m)';
+	});
+	const feedPillEth = $derived(live?.session === 'pre' || live?.session === 'post');
 
 	const dayHigh = $derived(display?.dayHigh ?? snapshot?.dayHigh);
 	const dayLow = $derived(display?.dayLow ?? snapshot?.dayLow);
@@ -167,9 +196,13 @@
 
 			<div class="board-feed-status">
 				{#if showingLive}
-					<span class="feed-pill feed-pill--live" title="Client-side delayed scanner poll (~15 min delayed)">
+					<span
+						class="feed-pill feed-pill--live"
+						class:feed-pill--eth={feedPillEth}
+						title="Client-side delayed scanner poll (~15 min delayed)"
+					>
 						<span class="feed-pulse" aria-hidden="true"></span>
-						<span>Delayed Poll (~15m)</span>
+						<span>{feedPillLabel}</span>
 					</span>
 				{:else if liveStatus === 'loading'}
 					<span class="feed-pill feed-pill--loading">
@@ -188,16 +221,43 @@
 		<div class="gme-price-block">
 			<div class="price-primary">
 				<div class="price-figure">
-					{display ? formatMoney(display.price, display.currency) : '—'}
+					{heroQuote ? formatMoney(heroQuote.price, heroQuote.currency) : '—'}
 				</div>
-				{#if display}
+				{#if heroQuote}
 					<div class="price-delta-badge" class:up class:down={!up}>
 						<span class="delta-arrow" aria-hidden="true">{up ? '▲' : '▼'}</span>
-						<span class="delta-val">{formatSigned(display.change, 2)}</span>
-						<span class="delta-pct">({formatPct(display.changePct)})</span>
+						<span class="delta-val">{formatSigned(heroQuote.change, 2)}</span>
+						<span class="delta-pct">({formatPct(heroQuote.changePct)})</span>
 					</div>
 				{/if}
 			</div>
+
+			{#if showEthStrip && live}
+				<div class="eth-strip" aria-label="Extended hours quotes">
+					{#if live.preMarket}
+						{@const preUp = live.preMarket.change >= 0}
+						<div class="eth-chip eth-chip--pre" class:up={preUp} class:down={!preUp}>
+							<span class="eth-chip__label">Premarket</span>
+							<span class="eth-chip__price">{formatMoney(live.preMarket.price, live.currency)}</span>
+							<span class="eth-chip__delta">
+								{formatSigned(live.preMarket.change, 2)}
+								<span class="eth-chip__pct">({formatPct(live.preMarket.changePct)})</span>
+							</span>
+						</div>
+					{/if}
+					{#if live.postMarket}
+						{@const postUp = live.postMarket.change >= 0}
+						<div class="eth-chip eth-chip--post" class:up={postUp} class:down={!postUp}>
+							<span class="eth-chip__label">After hours</span>
+							<span class="eth-chip__price">{formatMoney(live.postMarket.price, live.currency)}</span>
+							<span class="eth-chip__delta">
+								{formatSigned(live.postMarket.change, 2)}
+								<span class="eth-chip__pct">({formatPct(live.postMarket.changePct)})</span>
+							</span>
+						</div>
+					{/if}
+				</div>
+			{/if}
 
 			<p class="gme-headline">{briefing.headline}</p>
 		</div>
@@ -516,8 +576,8 @@
 		<p>{briefing.disclaimer || "Today's read from the news, not investment advice."}</p>
 		<p>
 			Briefing quote via Yahoo Finance (session snapshot). Live price is a delayed client-side poll of
-			TradingView's public scanner — not a websocket tick stream. Desk page is self-contained — no
-			tracking.
+			TradingView's public scanner — not a websocket tick stream; when present, the poll may include
+			premarket / after-hours. Desk page is self-contained — no tracking.
 		</p>
 	</footer>
 </main>

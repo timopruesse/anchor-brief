@@ -2,7 +2,7 @@
 
 **Separate contract** from the main briefing (`schema.md`). GME desk editions must not be folded into the main feed or rendered with main story components — that would misrepresent market/community content as the daily brief.
 
-The SvelteKit site renders these only on `/gme` and `/brief/<id>-gme` via the GME desk UI (quote, sparkline, stance, community, X voices).
+The SvelteKit site renders these only on `/gme` and `/brief/<id>-gme` via the GME desk UI (quote, sparkline, stance, community, X voices). The client-side live quote poll may include optional premarket / after-hours fields when TradingView returns them.
 
 ## File layout
 
