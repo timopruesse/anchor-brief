@@ -1,0 +1,392 @@
+{
+  "id": "2026-09-08-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-08T08:35:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h); X Following skipped (credits depleted)",
+  "headline": "CDU Sachsen-Anhalt resets: Schulze won’t re-run; Sepp Müller bids for Landesvorsitz after Merz rebuke. Autistici/Inventati shuts down; Kyiv drones resume; Mistral raises €3B.",
+  "stories": [
+    {
+      "id": "cdu-magdeburg-reset",
+      "title": "CDU Sachsen-Anhalt: Schulze out of Landesvorsitz race; Sepp Müller runs",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "n-tv (~21:03 Mon): after Landesvorstand in Magdeburg, MdB Sepp Müller — Fraktionsvize — says “Ich kandidiere als Landesvorsitzender.”",
+        "Schulze: whole Landesvorstand up for re-election late Nov / early Dec; re-running as Landeschef “nicht sein Plan.” GenSek Kaschunke also stepping aside (MDR).",
+        "Hours earlier Merz publicly rebuked (without naming) a Fraktionsvize for undercutting Spitzenkandidat Schulze pre-election; Müller replies he “teilt die Äußerung … nicht” (SZ/dpa).",
+        "Context: CDU 17.2% (from 37.1%), 15 seats (from 40); Schulze: “keinen Regierungsauftrag mehr … Opposition”; Regierungsauftrag “liegt jetzt bei der AfD.”",
+        "Evening already had Merz’s shock/no-quit line — overnight is the Land reset + open power fight."
+      ],
+      "whyItMatters": "Magdeburg’s Brandmauer math is still unsettled; overnight the CDU’s own leadership vacuum becomes the story — Müller vs. Merz’s rebuke while AfD hunts a majority.",
+      "image": {
+        "url": "https://images.mdr.de/image/4a72ec70-6c1d-4b7e-b4c6-245302f6cf4e/AAABoHywJrA/AAABnSSvrFg/16x9-big/cdu-landesvorstand-sitzung-106.webp?width=1920",
+        "alt": "CDU Sachsen-Anhalt state board meeting after the election defeat",
+        "credit": "MDR",
+        "creditUrl": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/neuwahl-landesvorstand-100,cdu-fuehrung-wahlniederlage-sonderparteitag-100.html"
+      },
+      "sources": [
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/politik/Sepp-Mueller-kandidiert-als-neuer-CDU-Landeschef-id31280168.html",
+          "kind": "article",
+          "time": "2026-09-07T21:03:00+02:00"
+        },
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/neuwahl-landesvorstand-100,cdu-fuehrung-wahlniederlage-sonderparteitag-100.html",
+          "kind": "article",
+          "time": "2026-09-07T21:41:00+02:00"
+        },
+        {
+          "label": "SZ / dpa",
+          "url": "https://www.sueddeutsche.de/politik/cdu-in-sachsen-anhalt-mueller-geht-nach-merz-kritik-in-die-offensive-dpa.urn-newsml-dpa-com-20090101-260907-930-647047",
+          "kind": "article"
+        },
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/sepp-mueller-will-sich-fuer-cdu-vorsitz-in-sachsen-anhalt-bewerben",
+          "kind": "article",
+          "time": "2026-09-07T21:05:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "autistici-shutdown",
+      "title": "Hacktivist host Autistici/Inventati shuts down after US “terror” label",
+      "topics": [
+        "Security",
+        "Tech",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "heise (Tue ~08:01 Berlin): <2 weeks after the Trump admin designated Italian collective Autistici/Inventati (A/I) a global terrorist org, A/I says it’s closing all services.",
+        "State Dept claimed A/I ran infra for “violent Antifa cells”; A/I rejects that — “Antifaschismus und Antikapitalismus ist kein Terrorismus.”",
+        "Scale cited by State: ~16k mail accounts, 1.5k sites, 5.5k lists, 10k blogs (+ video/streaming); NoBlogs.org among casualties.",
+        "Bank account already frozen; weekend note: continuing would risk legal/financial harm to people near them — “Jetzt schaltet eure PCs aus…”"
+      ],
+      "whyItMatters": "A 25-year European non-commercial privacy host is gone overnight because a US designation hit payments and legal exposure — a hard signal for other activist infra.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/0/6/7/5/shutterstock_2496406671-c14a93e593829d12.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Illustration of a laptop with a padlock symbolizing locked-down activist hosting",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Von-US-Regierung-als-Terroristen-eingestuft-Hackerkollektiv-A-I-gibt-auf-11444557.html"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Von-US-Regierung-als-Terroristen-eingestuft-Hackerkollektiv-A-I-gibt-auf-11444557.html",
+          "kind": "article",
+          "time": "2026-09-08T08:01:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "kyiv-drones-resume",
+      "title": "Kyiv: drones resume after three-day pause for US mediators",
+      "topics": [
+        "Europe",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "SPIEGEL (~03:45 Tue): after Putin’s 3-day strike pause tied to Kushner/Witkoff talks, Russia resumed drone attacks on/near Kyiv once the US party left.",
+        "Ukraine emergency service (Telegram, late Mon): drones hit Boryspil and Fastiv districts; two residential buildings damaged; air-raid alert in the capital.",
+        "TASS had confirmed the pause expired. Witkoff on Mon called Moscow/Kyiv talks “successful” and floated possible trilateral follow-ups."
+      ],
+      "whyItMatters": "The pause was diplomatic theater timed to the envoys — overnight fire resumes the baseline, not a ceasefire.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/6caf1075-2072-42c2-bc81-5f6afd2ecf98_w1200_r1.778_fpx33.33_fpy49.99.jpg",
+        "alt": "People sheltering in a Kyiv metro station during an air-raid alert",
+        "credit": "DER SPIEGEL / Reuters",
+        "creditUrl": "https://www.spiegel.de/ausland/ukraine-krieg-neue-russische-drohnenangriffe-auf-kyjiw-nach-us-besuch-a-c9ef94f8-c602-4121-84cb-549f3d01923b"
+      },
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/ausland/ukraine-krieg-neue-russische-drohnenangriffe-auf-kyjiw-nach-us-besuch-a-c9ef94f8-c602-4121-84cb-549f3d01923b",
+          "kind": "article",
+          "time": "2026-09-08T03:45:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "mistral-series-d",
+      "title": "Mistral raises €3B Series D at >€21B — Samsung leads",
+      "topics": [
+        "AI",
+        "Tech",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Mistral: €3B Series D, post-money >€21B — “largest equity fundraising round ever completed by a European technology company,” three years after launch.",
+        "Samsung Electronics led; co-leads Scaleup Europe Fund (EQT) + existing PSG Equity. New: Advent, BlackRock accounts, Luxembourg; ASML/a16z/NVIDIA et al. re-up.",
+        "Use of proceeds: frontier research, training compute, infra, commercial/international expansion (claims 20 countries, 125+ enterprises incl. Airbus, ASML, HSBC).",
+        "Pitch: full-stack “sovereign” open-weight AI — models + infra/compute + products, data staying inside customer walls."
+      ],
+      "whyItMatters": "Europe’s open-weight champion just got industrial-scale capital from Samsung/ASML-class backers — the sovereignty bet is now a balance-sheet story.",
+      "image": {
+        "url": "https://mistral.ai/cms-media/api/media/file/fundraise.jpg",
+        "alt": "Mistral fundraising announcement artwork",
+        "credit": "Mistral",
+        "creditUrl": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+      },
+      "sources": [
+        {
+          "label": "Mistral",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49605767",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "intel-high-na",
+      "title": "Intel: 1M wafers exposed with High-NA EUV (incl. Panther Lake)",
+      "topics": [
+        "Tech",
+        "Hardware"
+      ],
+      "weight": "normal",
+      "facts": [
+        "heise (SPIE Photomask/EUV): Intel Foundry says it has exposed >1M wafers on High-NA EUV — from early certification through research to volume for Core Ultra 300 / Panther Lake.",
+        "Intel is currently the only foundry using High-NA in series production; ASML Twinscan EXE:5200B costs ≥€350M (~2× Low-NA).",
+        "18A compute die: most via Low-NA multi-patterning; a portion in Oregon on High-NA (skips some multi-patterning).",
+        "High-NA NA 0.33→0.55, resolution ~13.5→9 nm; reticle field halves to 26×16.5 mm — Intel researching stitching + future 6×12\" masks. TSMC still aiming High-NA ~2030."
+      ],
+      "whyItMatters": "High-NA left the slide deck: Intel is already counting production wafers while rivals stay on Low-NA longer.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/0/6/0/5/Intel-High-NA-EUV-2-c6efb1d11e86895e.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Intel High-NA EUV lithography tool",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Meilenstein-Intel-hat-eine-Million-Wafer-mit-High-NA-EUV-belichtet-11444419.html"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Meilenstein-Intel-hat-eine-Million-Wafer-mit-High-NA-EUV-belichtet-11444419.html",
+          "kind": "article",
+          "time": "2026-09-08T08:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Jellyfin 12.0 stable: drops the leading “10.”; DB migrations on first boot — backup required; episode multi-versions; books/comics first-class; security fixes; need 10.10.7+.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Broadcom pulled public VDDK downloads — Azure Migrate / Red Hat MTV / Nutanix Move / virt-v2v paths hit; support points to TAP partners; Proxmox import less affected.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Matthew McPherrin factored 512-bit E-Certify RSA roots shipped in Netscape 4.51 (~1999) on a desktop (~30h each) — museum MitM, not modern WebPKI.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Leica FY25/26 revenue €573M (−3.8% vs record €596M) — four-year record streak ends; Photo still core, Mobile strong; Germany best growth market.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "heise: Abliteration AI sells API access to a refusal-weakened GLM-5.3 for red-team/agent testing — weights not public; still blocks self-harm/CSAM.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Jellyfin",
+          "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49604861",
+          "kind": "article"
+        },
+        {
+          "label": "Virtualization Howto",
+          "url": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+          "kind": "article"
+        },
+        {
+          "label": "Matthew McPherrin",
+          "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+          "kind": "article"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/07/leicas-impressive-four-year-streak-of-record-setting-revenue-just-ended/",
+          "kind": "article",
+          "time": "2026-09-08T08:00:19+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Abliteration-AI-verdient-Geld-mit-enthemmten-KI-Modellen-11444569.html",
+          "kind": "article",
+          "time": "2026-09-08T07:54:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Books Worth Reading: E.M. Forster on the joy of being alive.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "shit you should care about: overnight Magdeburg/AfD explainer — tip only; verify against primary German reporting above.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Books Worth Reading",
+          "url": "https://booksworthreading.substack.com/p/em-forster-on-the-joy-of-being-alive",
+          "kind": "article",
+          "time": "2026-09-07T20:01:40+02:00"
+        },
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/something-really-scary-is-happening",
+          "kind": "article",
+          "time": "2026-09-08T04:05:49+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes",
+        "Tech"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Merged sveltejs/kit#17053 (relative client paths in dev) + #17051 (repro test).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "vite#23446 merged: skip settling seen preload deps for build perf.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "bun#41861: size each chunk’s renamer table from the chunk, not the whole bundle.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Lobsters: Rust debugging survey 2026 results (rust-lang.org).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "HN: TALA layout engine is open-source (d2lang).",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Reddit tip r/golang: Go 1.27 GC helping memory-heavy servers — anecdote, not a release note.",
+          "sourceIndexes": [
+            6
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/ee6782cd0653d9a70cf74ad47c5f7edde33298921b1c12f9b6f26b7d84d8e94c/sveltejs/kit/pull/17053",
+        "alt": "fixes #10828 Please don't delete this checklist! Before submitting the PR, please make sure you do the following: It's really useful if your PR references an issue where it is discussed ...",
+        "credit": "sveltejs/kit#17053",
+        "creditUrl": "https://github.com/sveltejs/kit/pull/17053"
+      },
+      "sources": [
+        {
+          "label": "sveltejs/kit#17053",
+          "url": "https://github.com/sveltejs/kit/pull/17053",
+          "kind": "primary",
+          "time": "2026-09-08T06:28:07+02:00"
+        },
+        {
+          "label": "sveltejs/kit#17051",
+          "url": "https://github.com/sveltejs/kit/pull/17051",
+          "kind": "primary",
+          "time": "2026-09-08T06:28:06+02:00"
+        },
+        {
+          "label": "vitejs/vite#23446",
+          "url": "https://github.com/vitejs/vite/pull/23446",
+          "kind": "primary",
+          "time": "2026-09-08T07:09:35+02:00"
+        },
+        {
+          "label": "oven-sh/bun#41861",
+          "url": "https://github.com/oven-sh/bun/pull/41861",
+          "kind": "primary",
+          "time": "2026-09-08T01:58:56+02:00"
+        },
+        {
+          "label": "Rust blog",
+          "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
+          "kind": "primary"
+        },
+        {
+          "label": "d2lang",
+          "url": "https://d2lang.com/blog/tala-is-open-source/",
+          "kind": "article"
+        },
+        {
+          "label": "r/golang",
+          "url": "https://www.reddit.com/r/golang/comments/1w9wp8r/new_garbage_collection_127_seems_to_help_on/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
