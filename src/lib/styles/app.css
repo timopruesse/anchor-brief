@@ -2595,6 +2595,32 @@ a {
 	color: var(--accent);
 }
 
+/* --- IR Earnings --- */
+.earnings-desk {
+	margin-top: clamp(2rem, 4.5vw, 3rem);
+	border-top: 1px solid var(--line);
+	padding-top: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.earnings-head {
+	margin-bottom: 1rem;
+}
+
+.earnings-head__title {
+	font-family: var(--serif);
+	font-size: clamp(1.35rem, 3.5vw, 1.65rem);
+	margin: 0 0 0.35rem;
+	color: var(--ink);
+}
+
+.earnings-head__note {
+	margin: 0;
+	color: var(--ink-3);
+	font-size: 0.86rem;
+	line-height: 1.5;
+	max-width: 52rem;
+}
+
 /* --- Community Flow & Watchlist --- */
 .community-desk {
 	margin-top: clamp(2rem, 4.5vw, 3rem);
