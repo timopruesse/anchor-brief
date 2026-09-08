@@ -1,0 +1,306 @@
+{
+  "id": "2026-09-08-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-08T13:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~6h); X Following skipped (credits depleted)",
+  "headline": "Liquid sidechain: ~4,000 BTC drained Sunday; wires say ~3,400 back. Australia drafts algorithm opt-out. Buckmaster blasts OpenAI over Euler/AI math drama. PISA 2025 reading freefall.",
+  "stories": [
+    {
+      "id": "liquid-btc-drain",
+      "title": "Liquid Network: ~4,000 BTC out Sunday; Tuesday wires say ~3,400 returned",
+      "topics": [
+        "Security",
+        "Crypto",
+        "Tech"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Sun: purported white-hats withdrew ~4,000 BTC (~$320M) from Liquid’s federation wallet that backs L-BTC — ~95% of ~4,200 BTC reserves (Cointelegraph / Decrypt).",
+        "Path: bug-minted unbacked L-BTC pegged out via SideSwap’s PAK; federation keys not compromised; bridge nodes disabled; other Liquid assets (USDT etc.) untouched.",
+        "On-chain negotiation: actors demand Elements patch on every node before returning most coins; Blockstream exchanged PGP-signed BTC messages (Cointelegraph update).",
+        "Tue midday DE wire (Golem ~12:39): “Hacker stehlen 4.000 Bitcoin und geben 3.400 wieder zurück.” EN Google News also headlines CoinDesk/Yellow: ~3,400 returned / ~598 still out — treat as tip until publisher page loads."
+      ],
+      "whyItMatters": "A federated Bitcoin sidechain lost nearly all reserve BTC without a key theft — mint-then-peg-out — and recovery is still incomplete while the bridge stays paused.",
+      "image": {
+        "url": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
+        "alt": "liquid bitcoin blockstream",
+        "credit": "Decrypt",
+        "creditUrl": "https://decrypt.co/377528/purported-white-hat-hackers-withdraw-320m-in-bitcoin-from-liquid"
+      },
+      "sources": [
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/liquid-network-hacker-stehlen-4-000-bitcoin-und-geben-3-400-wieder-zurueck-2609-212767.html",
+          "kind": "article",
+          "time": "2026-09-08T12:39:01+02:00"
+        },
+        {
+          "label": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/liquid-network-pauses-320m-bitcoin-withdrawal",
+          "kind": "article"
+        },
+        {
+          "label": "Decrypt",
+          "url": "https://decrypt.co/377528/purported-white-hat-hackers-withdraw-320m-in-bitcoin-from-liquid",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "australia-my-feed",
+      "title": "Australia: “My Feed, My Way” — draft duty of care with algorithm opt-out",
+      "topics": [
+        "Tech",
+        "Policy",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "PM Albanese / Comms Minister Wells (Tue): draft Digital Duty of Care for targeted consultation; legislation aimed this year.",
+        "“My Feed, My Way”: platforms must notify users 16+ and let them opt out of personalized algorithm feeds — follow-only default instead.",
+        "Also covers games/apps/AI chatbots for under-18s (eating disorders, misogyny, porn, crime/stunts, severe distress); eSafety can issue removal notices.",
+        "Non-compliance penalties up to A$109.2m; Albanese to push the pitch at UNGA later this month (Guardian / pm.gov.au)."
+      ],
+      "whyItMatters": "After the under-16 social ban, Canberra is exporting a recommender-opt-out model with nine-figure fines — a template Europe will watch.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Prime Minister of Australia",
+          "url": "https://www.pm.gov.au/media/my-feed-my-way",
+          "kind": "primary"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/08/australia-social-media-algorithm-switch-off-opt-out-digital-duty-of-care",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49605782",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "buckmaster-openai",
+      "title": "Buckmaster: forced Euler blowup with LLMs — and an OpenAI pressure story",
+      "topics": [
+        "AI",
+        "Science",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "NYU’s Tristan Buckmaster + Anthropic’s Levent Alpöge publish finite-time blowup (smooth forcing) for incompressible porous media, Boussinesq, and 3D Euler; hypo-dissipative Navier–Stokes Lean not ready (statement.pdf).",
+        "Credit Córdoba / Martínez-Zoroa’s forced-blowup program; heavy Claude / Codex (GPT-5.6 Sol) / Astra use — Euler writeup called “AI slop” under time pressure.",
+        "Claims: after rumors reached OpenAI, Sebastien Bubeck joined Sun calls; internal model supposedly had forced NS; proposals included joint posting and removing Alpöge from authorship; “Why would you ruin your career?”",
+        "Buckmaster: has not seen OpenAI’s proof; not accusing training theft; stating what was said. HN ~276 on the PDF."
+      ],
+      "whyItMatters": "A Clay-adjacent fluid breakthrough collides with lab rivalry and credit politics — the math and the conduct claims both need primary reading, not summary-of-summaries.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Tristan Buckmaster (PDF)",
+          "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49605915",
+          "kind": "article"
+        },
+        {
+          "label": "Lobsters",
+          "url": "https://lobste.rs/s/b7k94m/statement_on_finite_time_blowup_for",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "pisa-2025-reading",
+      "title": "PISA 2025: OECD reading freefall; Germany worse again",
+      "topics": [
+        "Germany",
+        "Education",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "heise on OECD release: OECD reading −28 pts 2015→2025; math −22; science “comparatively stable” over 10y (Cormann).",
+        "Germany vs 2022: science 486 (was 492), reading 465 (480), math 464 (475) — below PISA 2000 too.",
+        "“Flüchtiges Lesen” nearly doubled globally 2018–2025; Schleicher ties habits to social feeds / less leisure reading.",
+        "New domain “Lernen in der digitalen Welt” — detailed results autumn 2027; DE ~498 vs OECD 500 on early LDW cut."
+      ],
+      "whyItMatters": "Reading is the load-bearing skill for everything else — and Germany’s slide continues while half of 15-year-olds already use AI chatbots weekly for learning.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/PISA-2025-Wer-nicht-intensiv-lesen-kann-kann-auch-nichts-lernen-11444413.html",
+          "kind": "article",
+          "time": "2026-09-08T12:07:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "iran-internet-vp",
+      "title": "Iran VP: blanket internet blocks “failed” — VPNs won",
+      "topics": [
+        "World",
+        "Tech",
+        "Security"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise/Irna: VP Mohammed Resa Aref in Qom — “Der Ansatz, Technologie zu verbieten, funktioniert nicht”; VPNs nullified control; wartime full cuts hurt the digital economy; no concrete alternative named.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Irans-Vizepraesident-erklaert-Internetsperren-fuer-gescheitert-11445184.html",
+          "kind": "article",
+          "time": "2026-09-08T12:23:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "PetaPixel: historian Fernando Penco “convinced” Gerda Taro shot The Falling Soldier (6×6 Korelle that day; Capa on 35mm Leica) — Telegraph interview / Córdoba exhibition.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "ESA Sentinel-3: Anak Krakatau ash/lava plume imaged Sat 5 Sep; Jakarta airport disruptions over weekend, now reopened.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN ~120: “Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare” (CipherCue).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Lobsters: “The state of European cloud providers in 2026” (crescentro.se).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Golem: Pixel 11 series hands-on — “Ein bisschen Hardware und viel Software.”",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/anak_krakatau_eruption_by_sentinel-3/27456765-1-eng-GB/Anak_Krakatau_eruption_by_Sentinel-3_pillars.jpg",
+        "alt": "Copernicus Sentinel-3 captured a plume from the eruption of Anak Krakatau on Saturday, 5 September.",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Anak_Krakatau_eruption_by_Sentinel-3"
+      },
+      "sources": [
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/08/experts-claim-gerda-taro-took-the-falling-soldier-not-robert-capa/",
+          "kind": "article",
+          "time": "2026-09-08T12:27:59+02:00"
+        },
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Anak_Krakatau_eruption_by_Sentinel-3",
+          "kind": "primary",
+          "time": "2026-09-08T10:45:00+02:00"
+        },
+        {
+          "label": "CipherCue",
+          "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
+          "kind": "article",
+          "via": {
+            "label": "Hacker News",
+            "url": "https://news.ycombinator.com/item?id=49607443",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "crescentro.se",
+          "url": "https://crescentro.se/posts/euro-cloud-providers-2026/",
+          "kind": "article",
+          "via": {
+            "label": "Lobsters",
+            "url": "https://lobste.rs/s/6licoy/state_european_cloud_providers_2026",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/pixel-11-serie-im-praxistest-ein-bisschen-hardware-und-viel-software-2609-212616.html",
+          "kind": "article",
+          "time": "2026-09-08T12:04:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "oven-sh/bun#41965 merged (~12:48 Berlin): node test common reports ASan builds via common.isASan (fixes test-crypto-dh-leak on asan lane) — Jarred-Sumner.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "r/programming tip: gRPC+Protobuf vs HTTP+JSON benchmarking writeup (packagemain.tech).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/23be30e1ac9a5dcc3497e7284e154c5f71cdff4f50062ee2ce1584f513ca7724/oven-sh/bun/pull/41965",
+        "alt": "What was failing test/js/node/test/parallel/test-crypto-dh-leak.js fails on the linux x64-asan lane of every PR build since Sept 6: AssertionError: before=276205568 after=299896832 // delta 23.7 ...",
+        "credit": "oven-sh/bun#41965",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/41965"
+      },
+      "sources": [
+        {
+          "label": "oven-sh/bun#41965",
+          "url": "https://github.com/oven-sh/bun/pull/41965",
+          "kind": "primary",
+          "time": "2026-09-08T12:48:34+02:00"
+        },
+        {
+          "label": "packagemain.tech",
+          "url": "https://packagemain.tech/p/protobuf-grpc-vs-json-http",
+          "kind": "article",
+          "via": {
+            "label": "r/programming",
+            "url": "https://www.reddit.com/r/programming/comments/1wajcq8/performance_benchmarking_grpcprotobuf_vs_httpjson/",
+            "kind": "article"
+          }
+        }
+      ]
+    }
+  ]
+}
