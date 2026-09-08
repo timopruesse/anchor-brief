@@ -2,12 +2,12 @@
   "id": "2026-09-08-afternoon-gme",
   "parentId": "2026-09-08-afternoon",
   "edition": "afternoon",
-  "generatedAt": "2026-09-08T13:05:00+02:00",
+  "generatedAt": "2026-09-08T15:16:08+02:00",
   "timezone": "Europe/Berlin",
-  "coverage": "since morning (~08:00 Berlin / ~6h); X voices quiet (credits depleted)",
-  "headline": "Earnings day on the calendar — cash still Friday’s $19.16; full Q2 IR page not up yet; Superstonk thin.",
-  "stance": "quiet",
-  "stanceWhy": "US regular session not open yet (~15:30 Berlin). Yahoo still prints Fri Labor Day–weekend $19.16. Complete Q2 IR release URL 404 at lunch; press is preview/tip-wire around the Aug 31 prelims (eBay mark / cash). X watchlist couldn’t refresh.",
+  "coverage": "since morning (~08:00 Berlin); IR update mid-afternoon",
+  "headline": "Official Q2 results are up on IR — sales down, record 2Q operating income; cash+digital ~$5.4B + ~$4.9B eBay stake.",
+  "stance": "event",
+  "stanceWhy": "Full Q2 IR package posted today (not just Aug 31 prelims). Tape still reflects last cash session until the next regular print.",
   "disclaimer": "Today's read from the news, not investment advice.",
   "quote": {
     "symbol": "GME",
@@ -676,13 +676,50 @@
   },
   "stories": [
     {
+      "id": "gme-press",
+      "title": "Official Q2 results (IR)",
+      "topics": [
+        "GME",
+        "Earnings",
+        "IR"
+      ],
+      "weight": "lead",
+      "facts": [
+        "GameStop IR (Sep 8): Q2 net sales $790.2M vs $972.2M YoY; collectibles $356.3M (+57% YoY), 45.1% of sales.",
+        "Operating income $160.2M — highest second-quarter op. income in company history (vs $66.4M YoY); adj. op. income $158.7M.",
+        "Net income $298.7M (vs $168.6M); adj. net income $161.1M; adj. EBITDA $174.0M (vs $75.7M).",
+        "Cash, cash equivalents, marketable securities + digital assets/receivables $5.4B; ~43.4M eBay shares FV ~$4.9B as of Aug 1, 2026.",
+        "FY2026 Adjusted EBITDA outlook raised to >$650M (from >$600M)."
+      ],
+      "whyItMatters": "This is the primary filing-adjacent release — use investor.gamestop.com over tip wires for the numbers.",
+      "image": null,
+      "sources": [
+        {
+          "label": "GameStop IR — Q2 2026 Results",
+          "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Discloses-Second-Quarter-2026-Results/default.aspx",
+          "kind": "primary",
+          "time": "2026-09-08T12:00:00+00:00"
+        },
+        {
+          "label": "GameStop IR — Q2 prelim (Aug 31)",
+          "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Announces-Second-Quarter-2026-Preliminary-Results/default.aspx",
+          "kind": "primary"
+        },
+        {
+          "label": "GameStop IR overview",
+          "url": "https://investor.gamestop.com/overview/default.aspx",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
       "id": "gme-tape",
       "title": "Tape",
       "topics": [
         "GME",
         "Markets"
       ],
-      "weight": "lead",
+      "weight": "normal",
       "facts": [
         "Yahoo: last $19.16 (-0.36% / $-0.07) on 6,355,077 vol; day $19.04–$19.5; 52w $17.79–$28.1 — asOf Fri 2026-09-04 16:00 ET (Labor Day Mon closed).",
         "Tue Berlin lunch: US regular session not open yet (~15:30 Berlin). Earnings day on the calendar per prior IR note."
@@ -695,52 +732,6 @@
           "url": "https://finance.yahoo.com/quote/GME/",
           "kind": "primary",
           "time": "2026-09-04T20:00:02+00:00"
-        }
-      ]
-    },
-    {
-      "id": "gme-press",
-      "title": "Press / community",
-      "topics": [
-        "GME",
-        "Press"
-      ],
-      "weight": "normal",
-      "facts": [
-        "Aug 31 prelims still the last IR primary: sales $780–800M; opinc $150–170M; NI $290–310M incl. ~$238M eBay-related gains vs ~$75M digital-asset loss; cash ~$5.05–5.07B; ~43.4M EBAY shares (~$4.95B FV).",
-        "Complete Q2 results page expected today per that release — investor.gamestop.com …/Second-Quarter-2026-Results returned 404 at lunch.",
-        "Google News tips: “Earnings Today: eBay Mark Is $459 Million Below Quarter-End” (TechStock²); EBC “What’s Left after Q2 Pre-Release?” — tip-wire, not filings.",
-        "Superstonk (6h): 3 posts — daily directory + thin news (GF Value overvalued claim); no DD."
-      ],
-      "whyItMatters": "Prelim already priced the eBay conversion story; today’s catalyst is the full package + call, not another preview blog.",
-      "image": null,
-      "sources": [
-        {
-          "label": "GameStop IR (prelim)",
-          "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Announces-Second-Quarter-2026-Preliminary-Results/default.aspx",
-          "kind": "primary"
-        },
-        {
-          "label": "Yahoo / Business Wire",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-announces-second-quarter-2026-100500405.html",
-          "kind": "article"
-        },
-        {
-          "label": "TechStock² (via Google News)",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSGh5NEVsUEpXX0g3TmFUTzhOX0dBYUVuSE1SekJ4QmZFZ08tMk9pb091R0dSd19yWi1KYk1tYUdWTG5SMTJyYk1FU3lnX2MzNXpoNXMtczBtcEpINGhxM2RXRHMwdzhnVzhGc2RobERtVHR4VkF6MnFhZzg5NGtaYkNXUzFEb3MwRk5ZSFFkSFo?oc=5",
-          "kind": "article",
-          "time": "2026-09-08T09:46:50+02:00"
-        },
-        {
-          "label": "EBC (via Google News)",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mSm5DRkZUMFFsUUpGRGt5M2wydllTOXBtQXdObl9QX19iUTB2M0hIT3J3STg0bjVTV3JOMElwMjJSTEZtWHhfSGRYVC1QTmxQT2JjbTExbGxyMEtUOWxHWTJEd3NZZw?oc=5",
-          "kind": "article",
-          "time": "2026-09-08T09:30:00+02:00"
-        },
-        {
-          "label": "r/Superstonk daily",
-          "url": "https://www.reddit.com/r/Superstonk/comments/1wai1zg/gme_daily_directory_new_start_here_discussion_drs/",
-          "kind": "article"
         }
       ]
     }
