@@ -2,7 +2,7 @@
 
 **Separate contract** from the main briefing (`schema.md`). GME desk editions must not be folded into the main feed or rendered with main story components — that would misrepresent market/community content as the daily brief.
 
-The SvelteKit site renders these only on `/gme` and `/brief/<id>-gme` via the GME desk UI (quote, sparkline, stance, community, X voices). The client-side live quote poll may include optional premarket / after-hours fields when TradingView returns them.
+The SvelteKit site renders these only on `/gme` and `/brief/<id>-gme` via the GME desk UI (quote, sparkline, stance, community, X voices, optional IR earnings). The client-side live quote poll may include optional premarket / after-hours fields when TradingView returns them.
 
 ## File layout
 
@@ -32,6 +32,7 @@ GME editions may include a short `stories[]` list (same story shape as main — 
 interface QuoteSource {
   label: string;
   url: string;
+  kind?: string;              // optional on IR citations (e.g. "primary")
 }
 
 interface Quote {
@@ -117,6 +118,56 @@ interface CommunitySnapshot {
   history: CommunityDay[];    // rolling ~14 days — chart series
 }
 
+interface EarningsPeriod {
+  id: string;
+  label: string;
+  end?: string;               // period end date YYYY-MM-DD
+}
+
+interface EarningsMetric {
+  id: string;
+  label: string;
+  unit: string;               // USD_M | USD_B | pct
+  values: Record<string, number>; // keyed by period id
+  note?: string;              // e.g. QoQ liquidity not like-for-like
+}
+
+interface EarningsComparison {
+  label: string;
+  periods: EarningsPeriod[];
+  metrics: EarningsMetric[];
+  sources?: QuoteSource[];    // secondary IR links (e.g. prior quarter)
+  note?: string;
+}
+
+interface EarningsMixSegment {
+  id: string;
+  label: string;
+  value: number;
+}
+
+interface EarningsMix {
+  label: string;
+  unit: string;               // typically pct
+  segments: EarningsMixSegment[];
+  note?: string;
+}
+
+/**
+ * Optional IR earnings block. Absent on older editions — desk soft-fails (no panel).
+ * Publisher (Anchor) fills from GameStop IR; do not invent figures in fixtures.
+ */
+interface GmeEarnings {
+  asOf: string;
+  source: QuoteSource;        // primary IR URL (may include kind: "primary")
+  comparisons: {
+    yoy?: EarningsComparison;
+    qoq?: EarningsComparison;
+  };
+  mix?: EarningsMix;
+  outlook?: Record<string, unknown>; // e.g. adjEbitdaFy2026 guidance
+}
+
 interface GmeBriefing {
   id: string;                 // e.g. "2026-09-03-evening-gme"
   parentId: string;           // matching main briefing id
@@ -135,9 +186,19 @@ interface GmeBriefing {
   /** Ryan Cohen mirror (same shape as today) for older JSON / backward compatibility. */
   cohen?: Cohen;
   community?: CommunitySnapshot;
+  /** Optional IR earnings — charts on /gme when present. */
+  earnings?: GmeEarnings;
   stories: Story[];           // desk bullets only — not main-feed stories
 }
 ```
+
+## Earnings notes
+
+- `earnings` is optional. When missing or empty after soft-normalize, the GME desk omits the Earnings section entirely (no empty panel, no crash).
+- Comparison charts toggle YoY / QoQ when both `comparisons.yoy` and `comparisons.qoq` are present.
+- Metric `unit` drives formatting (`USD_M` → `$790.2M`, `USD_B` → `$5.4B`, `pct` → `45.1%`).
+- Surface metric / mix `note` strings when present (e.g. QoQ liquidity like-for-like caveats).
+- `outlook` is free-form; the desk may quietly chip known shapes such as `adjEbitdaFy2026`.
 
 ## X voices (watchlist)
 

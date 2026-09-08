@@ -59,6 +59,8 @@ export interface MainBriefing {
 export interface QuoteSource {
 	label: string;
 	url: string;
+	/** Present on some IR / citation payloads (e.g. earnings.source). */
+	kind?: SourceKind | string;
 }
 
 export interface Quote {
@@ -143,6 +145,60 @@ export interface CommunitySnapshot {
 	history: CommunityDay[];
 }
 
+/** Earnings comparison period (YoY / QoQ). */
+export interface EarningsPeriod {
+	id: string;
+	label: string;
+	end?: string;
+}
+
+/** One metric series keyed by period id. */
+export interface EarningsMetric {
+	id: string;
+	label: string;
+	unit: string; // e.g. USD_M | USD_B | pct
+	values: Record<string, number>;
+	note?: string;
+}
+
+export interface EarningsComparison {
+	label: string;
+	periods: EarningsPeriod[];
+	metrics: EarningsMetric[];
+	sources?: QuoteSource[];
+	note?: string;
+}
+
+export interface EarningsMixSegment {
+	id: string;
+	label: string;
+	value: number;
+}
+
+export interface EarningsMix {
+	label: string;
+	unit: string; // typically pct
+	segments: EarningsMixSegment[];
+	note?: string;
+}
+
+/**
+ * Optional IR earnings block on a GME desk edition.
+ * Soft-absent on older editions — desk must not crash when missing.
+ */
+export interface GmeEarnings {
+	asOf: string;
+	/** Primary IR release URL. */
+	source: QuoteSource;
+	comparisons: {
+		yoy?: EarningsComparison;
+		qoq?: EarningsComparison;
+	};
+	mix?: EarningsMix;
+	/** Free-form outlook (e.g. adj EBITDA guidance). */
+	outlook?: Record<string, unknown>;
+}
+
 export interface GmeBriefing {
 	id: string;
 	parentId: string;
@@ -162,6 +218,8 @@ export interface GmeBriefing {
 	cohen?: Cohen;
 	/** Prefer CommunitySnapshot. Legacy editions may still ship a bare posts array — soft-handled at render. */
 	community?: CommunitySnapshot | CommunityPost[];
+	/** Optional IR earnings charts — absent on older editions. */
+	earnings?: GmeEarnings;
 	stories: Story[];
 }
 

@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import Masthead from './Masthead.svelte';
 	import CommunityChart from './CommunityChart.svelte';
+	import GmeEarnings from './GmeEarnings.svelte';
 	import GmeSparkline from './GmeSparkline.svelte';
 	import StoryCard from './StoryCard.svelte';
 	import {
@@ -20,6 +21,7 @@
 		COMMUNITY_KIND_LABELS,
 		normalizeCommunity
 	} from '$lib/community';
+	import { normalizeEarnings } from '$lib/earnings';
 	import {
 		fetchLiveQuote,
 		LIVE_QUOTE_POLL_MS,
@@ -38,6 +40,7 @@
 	const fmt = $derived(makeFormatters(briefing.timezone ?? 'Europe/Berlin'));
 	const snapshotAsOf = $derived(toDate(snapshot?.asOf));
 	const community = $derived(normalizeCommunity(briefing.community));
+	const earnings = $derived(normalizeEarnings(briefing.earnings));
 
 	/** Prefer `voices`; else wrap legacy `cohen` as a single Ryan Cohen voice. */
 	const voices = $derived.by((): GmeVoice[] => {
@@ -386,6 +389,21 @@
 			</div>
 		{/if}
 	</section>
+
+	{#if earnings}
+		<section class="earnings-desk" aria-label="IR earnings">
+			<header class="earnings-head">
+				<div class="earnings-head__title-group">
+					<span class="desk-section-badge">Investor Relations</span>
+					<h2 class="earnings-head__title">Earnings</h2>
+				</div>
+				<p class="earnings-head__note">
+					Figures from GameStop IR releases. Comparison charts toggle YoY / QoQ when both are present.
+				</p>
+			</header>
+			<GmeEarnings {earnings} />
+		</section>
+	{/if}
 
 	<!-- Market Intelligence Dossier & Filings -->
 	<section class="gme-stories-section" aria-label="GME market intelligence">
