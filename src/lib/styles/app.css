@@ -2105,6 +2105,12 @@ a {
 	border-color: var(--up-line);
 }
 
+.feed-pill--live.feed-pill--eth {
+	background: var(--surface);
+	border-color: var(--accent-line);
+	color: var(--ink);
+}
+
 .feed-pulse {
 	width: 6px;
 	height: 6px;
@@ -2197,6 +2203,68 @@ a {
 	line-height: 1.5;
 	color: var(--ink-2);
 	max-width: 54rem;
+}
+
+/* --- Extended hours (premarket / after-hours) --- */
+.eth-strip {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 0.75rem;
+	align-items: stretch;
+}
+
+.eth-chip {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.35rem 0.65rem;
+	padding: 0.35rem 0.7rem;
+	border: 1px solid var(--line);
+	border-radius: var(--radius-sm);
+	background: var(--surface-2);
+	font-variant-numeric: tabular-nums;
+	line-height: 1.25;
+	min-width: 0;
+}
+
+.eth-chip__label {
+	font-size: 0.68rem;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var(--ink-3);
+}
+
+.eth-chip__price {
+	font-size: 0.92rem;
+	font-weight: 650;
+	color: var(--ink);
+}
+
+.eth-chip__delta {
+	font-size: 0.82rem;
+	font-weight: 650;
+}
+
+.eth-chip__pct {
+	font-weight: 600;
+	opacity: 0.9;
+}
+
+.eth-chip.up .eth-chip__delta {
+	color: var(--up);
+}
+
+.eth-chip.down .eth-chip__delta {
+	color: var(--down);
+}
+
+.eth-chip--pre {
+	border-color: var(--accent-line);
+}
+
+.eth-chip--post {
+	border-color: var(--line);
 }
 
 /* --- Financial Metrics Ribbon (Market Matrix) --- */
