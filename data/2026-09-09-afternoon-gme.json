@@ -1,0 +1,912 @@
+{
+  "id": "2026-09-09-afternoon-gme",
+  "parentId": "2026-09-09-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-09T13:09+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~5–6h); US cash still Tue close (Wed premarket Berlin midday); X voices skipped (credits depleted)",
+  "headline": "Quiet midday desk: tape still $18.89 (−1.4% Tue). IR collectibles mix (45% / +57% YoY) still the print; Superstonk mostly noise.",
+  "stance": "quiet",
+  "stanceWhy": "No fresh IR or tape print this window — Wed US cash hasn’t opened yet; mainstream Q2 mix coverage and a soft Superstonk board don’t move the morning’s mixed Cheng+Q2 read. Not advice.",
+  "disclaimer": "Today's read from the news, not investment advice.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 18.89,
+    "change": -0.27,
+    "changePct": -1.409,
+    "currency": "USD",
+    "dayHigh": 19.5,
+    "dayLow": 18.72,
+    "prevClose": 19.16,
+    "volume": 10013393,
+    "week52High": 28.1,
+    "week52Low": 17.79,
+    "asOf": "2026-09-08T20:00:02+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-03-09",
+      "c": 24.8
+    },
+    {
+      "t": "2026-03-10",
+      "c": 24.37
+    },
+    {
+      "t": "2026-03-11",
+      "c": 24.46
+    },
+    {
+      "t": "2026-03-12",
+      "c": 24.43
+    },
+    {
+      "t": "2026-03-13",
+      "c": 23.53
+    },
+    {
+      "t": "2026-03-16",
+      "c": 23.28
+    },
+    {
+      "t": "2026-03-17",
+      "c": 23.59
+    },
+    {
+      "t": "2026-03-18",
+      "c": 23.36
+    },
+    {
+      "t": "2026-03-19",
+      "c": 23.23
+    },
+    {
+      "t": "2026-03-20",
+      "c": 22.57
+    },
+    {
+      "t": "2026-03-23",
+      "c": 23.03
+    },
+    {
+      "t": "2026-03-24",
+      "c": 22.81
+    },
+    {
+      "t": "2026-03-25",
+      "c": 23.08
+    },
+    {
+      "t": "2026-03-26",
+      "c": 22.56
+    },
+    {
+      "t": "2026-03-27",
+      "c": 22.1
+    },
+    {
+      "t": "2026-03-30",
+      "c": 22.27
+    },
+    {
+      "t": "2026-03-31",
+      "c": 23.04
+    },
+    {
+      "t": "2026-04-01",
+      "c": 22.76
+    },
+    {
+      "t": "2026-04-02",
+      "c": 23.36
+    },
+    {
+      "t": "2026-04-06",
+      "c": 23.08
+    },
+    {
+      "t": "2026-04-07",
+      "c": 23.43
+    },
+    {
+      "t": "2026-04-08",
+      "c": 22.91
+    },
+    {
+      "t": "2026-04-09",
+      "c": 22.87
+    },
+    {
+      "t": "2026-04-10",
+      "c": 23.22
+    },
+    {
+      "t": "2026-04-13",
+      "c": 23.4
+    },
+    {
+      "t": "2026-04-14",
+      "c": 24.03
+    },
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
+    },
+    {
+      "t": "2026-09-04",
+      "c": 19.16
+    },
+    {
+      "t": "2026-09-08",
+      "c": 18.89
+    }
+  ],
+  "voices": [
+    {
+      "handle": "ryancohen",
+      "userId": "1146058067244486656",
+      "name": "Ryan Cohen",
+      "role": "CEO",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    },
+    {
+      "handle": "larryvc",
+      "userId": "26281090",
+      "name": "Larry Cheng",
+      "role": "Board",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    },
+    {
+      "handle": "TheRoaringKitty",
+      "userId": "2902349190",
+      "name": "Roaring Kitty",
+      "role": "Community",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "lastPostAt": null,
+    "lastPostUrl": null,
+    "lastPostText": null,
+    "quiet": true
+  },
+  "community": {
+    "asOf": "2026-09-09T13:03:20.914075+02:00",
+    "windowHours": 24,
+    "totals": {
+      "posts": 10,
+      "withOutbound": 2
+    },
+    "byKind": {
+      "dd": 0,
+      "daily": 0,
+      "news": 2,
+      "junk": 8
+    },
+    "posts": [
+      {
+        "title": "LC buys 55,000 shares!",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wb2z1b/lc_buys_55000_shares/",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326380/000186828826000004/xslF345X06/wk-form4_1788905495.xml",
+        "updated": "2026-09-08T22:14:25+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "Fun Fact: This chart showing an increasing amount of net income for GME since May 2021 is actually a bad thing and you should definitely short the stock. Because fundamentals are for clowns who like to lose money. /s",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wb68xx/fun_fact_this_chart_showing_an_increasing_amount/",
+        "url": "https://www.macrotrends.net/stocks/charts/GME/gamestop/net-income",
+        "updated": "2026-09-09T00:31:05+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "-1.41%/27¢ • GameStop Closing Price $18.89 – Market Cap $9.5 Billion (Tuesday, September 8, 2026)",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wb017i/14127_gamestop_closing_price_1889_market_cap_95/",
+        "url": null,
+        "updated": "2026-09-08T20:25:03+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "New all time high borrow rate for GME warrants … 276.50% !!",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wb1tdd/new_all_time_high_borrow_rate_for_gme_warrants/",
+        "url": null,
+        "updated": "2026-09-08T21:30:19+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "Added 8800 more",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wb3i2c/added_8800_more/",
+        "url": null,
+        "updated": "2026-09-08T22:35:08+00:00",
+        "kind": "junk"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-09-03",
+        "posts": 8,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 6
+      },
+      {
+        "date": "2026-09-04",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 5,
+        "junk": 5
+      },
+      {
+        "date": "2026-09-05",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 0,
+        "junk": 9
+      },
+      {
+        "date": "2026-09-06",
+        "posts": 4,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 3
+      },
+      {
+        "date": "2026-09-07",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 8
+      },
+      {
+        "date": "2026-09-08",
+        "posts": 10,
+        "dd": 4,
+        "daily": 0,
+        "news": 1,
+        "junk": 5
+      },
+      {
+        "date": "2026-09-09",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      }
+    ]
+  },
+  "earnings": {
+    "asOf": "2026-09-08",
+    "source": {
+      "label": "GameStop IR — Q2 2026 Results",
+      "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Discloses-Second-Quarter-2026-Results/default.aspx",
+      "kind": "primary"
+    },
+    "comparisons": {
+      "yoy": {
+        "label": "Q2 FY2026 vs Q2 FY2025",
+        "periods": [
+          {
+            "id": "q2-2025",
+            "label": "Q2'25",
+            "end": "2025-08-02"
+          },
+          {
+            "id": "q2-2026",
+            "label": "Q2'26",
+            "end": "2026-08-01"
+          }
+        ],
+        "metrics": [
+          {
+            "id": "netSales",
+            "label": "Net sales",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 972.2,
+              "q2-2026": 790.2
+            }
+          },
+          {
+            "id": "collectiblesSales",
+            "label": "Collectibles sales",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 227.6,
+              "q2-2026": 356.3
+            }
+          },
+          {
+            "id": "operatingIncome",
+            "label": "Operating income",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 66.4,
+              "q2-2026": 160.2
+            }
+          },
+          {
+            "id": "netIncome",
+            "label": "Net income",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 168.6,
+              "q2-2026": 298.7
+            }
+          },
+          {
+            "id": "adjEbitda",
+            "label": "Adjusted EBITDA",
+            "unit": "USD_M",
+            "values": {
+              "q2-2025": 75.7,
+              "q2-2026": 174.0
+            }
+          }
+        ]
+      },
+      "qoq": {
+        "label": "Q2 FY2026 vs Q1 FY2026",
+        "periods": [
+          {
+            "id": "q1-2026",
+            "label": "Q1'26",
+            "end": "2026-05-02"
+          },
+          {
+            "id": "q2-2026",
+            "label": "Q2'26",
+            "end": "2026-08-01"
+          }
+        ],
+        "metrics": [
+          {
+            "id": "netSales",
+            "label": "Net sales",
+            "unit": "USD_M",
+            "values": {
+              "q1-2026": 835.3,
+              "q2-2026": 790.2
+            }
+          },
+          {
+            "id": "operatingIncome",
+            "label": "Operating income",
+            "unit": "USD_M",
+            "values": {
+              "q1-2026": 143.3,
+              "q2-2026": 160.2
+            }
+          },
+          {
+            "id": "netIncome",
+            "label": "Net income",
+            "unit": "USD_M",
+            "values": {
+              "q1-2026": 389.6,
+              "q2-2026": 298.7
+            }
+          },
+          {
+            "id": "liquidity",
+            "label": "Cash + securities + digital (+ Q1 collateral)",
+            "unit": "USD_B",
+            "values": {
+              "q1-2026": 9.7,
+              "q2-2026": 5.4
+            },
+            "note": "Q1 IR includes collateral pledged for derivative asset; Q2 IR cash+digital+securities $5.4B — not perfectly like-for-like"
+          }
+        ],
+        "sources": [
+          {
+            "label": "GameStop IR — Q1 2026 Results",
+            "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Discloses-First-Quarter-2026-Results/default.aspx",
+            "kind": "primary"
+          }
+        ]
+      }
+    },
+    "mix": {
+      "label": "Q2'26 sales mix",
+      "unit": "pct",
+      "segments": [
+        {
+          "id": "collectibles",
+          "label": "Collectibles",
+          "value": 45.1
+        },
+        {
+          "id": "videoGames",
+          "label": "Video Games",
+          "value": 33.3
+        },
+        {
+          "id": "preOwned",
+          "label": "Pre-Owned and Refurbished",
+          "value": 21.6
+        }
+      ],
+      "note": "Video Games 33.3% and Pre-Owned 21.6% from IR sales-mix table (Collectibles 45.1% stated in highlights)."
+    },
+    "outlook": {
+      "adjEbitdaFy2026": {
+        "op": ">",
+        "value": 650,
+        "unit": "USD_M",
+        "prior": 600
+      }
+    }
+  },
+  "stories": [
+    {
+      "id": "gme-tape",
+      "title": "Tape + Q2 mix still the print",
+      "topics": [
+        "GME"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Last US cash close still Tue: $18.89 (-1.409%), range $18.72–$19.5, vol ~10,013,393. Wed cash not open yet at Berlin midday.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "IR Q2 still the load-bearing print: collectibles net sales +57% YoY to $356.3M = 45.1% of total (was 23.4%); revenue $790.2M; adj. EPS $0.27.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Superstonk 24h: 10 posts (2 news / 8 junk) — Cheng Form4 + warrant-borrow chatter, no fresh DD lead.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "No new IR this window; desk is waiting on Wed’s cash open with yesterday’s mix story still doing the rounds.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary",
+          "time": "2026-09-08T20:00:02+00:00"
+        },
+        {
+          "label": "GameStop IR — Q2 2026 Results",
+          "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Discloses-Second-Quarter-2026-Results/default.aspx",
+          "kind": "primary",
+          "time": "2026-09-08T00:00:00+00:00"
+        },
+        {
+          "label": "r/Superstonk",
+          "url": "https://www.reddit.com/r/Superstonk/",
+          "kind": "article",
+          "time": "2026-09-09T13:03:20.914075+02:00"
+        }
+      ]
+    }
+  ]
+}
