@@ -1,0 +1,353 @@
+{
+  "id": "2026-09-09-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-09T13:09+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5–6h); X Following skipped (credits still depleted)",
+  "headline": "Merz–Weidel Generaldebatte after Sachsen-Anhalt; Android Sep patch enables remote privilege escalation without taps; Brent briefly clears $100.",
+  "stories": [
+    {
+      "id": "merz-weidel-generaldebatte",
+      "title": "Merz vs Weidel: Generaldebatte after Sachsen-Anhalt",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "tagesschau liveblog (Wed): three days after AfD’s Sachsen-Anhalt win, AfD chief Weidel opens the Bundestag Generaldebatte; Chancellor Merz answers in the Elefantenrunde on the 2027 budget week.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Weidel: coalition “unseriöse Haushaltsführung,” planned new borrowing “beispiellos,” draft “verfassungswidrig”; paints deindustrialization / energy-crisis picture and pushes cheap Russian gas.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Merz: AfD is a “destruktive Kraft”; calls AfD “Remigration” “nichts anderes als eine ethnische Säuberung nach Hautfarbe und Herkunft”; says AfD won’t win absolute majorities elsewhere.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Bundestagspräsidentin Klöckner warns AfD benches (“nicht auf dem Fußballplatz”) and threatens ejection amid interruptions; SPD’s Miersch urges democrats not to “zerlegen” each other.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Greens’ Dröge renews call to examine an AfD ban procedure; debate still running into early afternoon.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "First full Merz–Weidel clash in the chamber after the CDU’s Sachsen-Anhalt rout — sets the tone for budget week and coalition reform fights.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/liveblog-generaldebatte-106.html",
+          "kind": "article",
+          "time": "2026-09-09T12:55:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "android-september-patch",
+      "title": "Android Sep patch: critical remote privilege escalation, no user tap",
+      "topics": [
+        "Security",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "heise on Google’s mid-September Android Security Bulletin: >90 fixed issues — 26 critical, 68 high — across Framework, Kernel, and System on Android 14–17 (incl. 16-qpr2).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Worst Framework/System bugs: remote privilege escalation without extra execution rights and without user interaction (Google). Patch levels 2026-09-01 and 2026-09-05.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Some fixes ship via Play services; most need OEM OTA. Pixel/Samsung starting rollouts; Motorola/Xiaomi/Oppo/Nothing often slower. Google: no known in-the-wild abuse yet.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Golem same window: frames the bug class as remote device takeover without Nutzerinteraktion.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Classic “install now” month — zero-interaction remote EoP is the kind of bulletin that should bump patch SLAs on fleets still lagging OEM OTAs.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Patchday-Kritische-Luecken-ermoeglichen-Attacken-auf-Android-14-15-16-und-17-11446782.html",
+          "kind": "article",
+          "time": "2026-09-09T10:53:00+00:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/ohne-nutzerinteraktion-angreifer-koennen-android-geraete-aus-der-ferne-kapern-2609-212819.html",
+          "kind": "article",
+          "time": "2026-09-09T10:57:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "brent-over-100",
+      "title": "Brent briefly clears $100 after overnight tanker escalation",
+      "topics": [
+        "Energy",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Guardian / dpa-AFX (Wed): Brent clears $100 for the first time since late July — Guardian notes ~+2.1% through the milestone; Börsennews: early trade peak ~$100.19 (+~2.3%).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Tied to overnight Centcom tanker strikes + Iran’s Jordan/Hormuz claims (morning lead) and Houthi attacks on Saudi cities/energy sites.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Europe gas also jumps: Dutch TTF ~+4% to €78.73/MWh (highest since Jan 2023); UK contract highest since Dec 2022 (Guardian).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "BoE’s Bailey (Tue, via Guardian): oil-driven inflation risks “on the upside.” Brent ~+25% since early August; >60% YTD.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Material market follow-through on this morning’s tanker/Hormuz story — energy inflation back on the midday tape.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates",
+          "kind": "article",
+          "time": "2026-09-09T07:28:00+00:00"
+        },
+        {
+          "label": "Börsennews (dpa-AFX)",
+          "url": "https://www.boersennews.de/nachrichten/artikel/dpa-afx/oelpreise-brent-steigt-ueber-die-marke-von-100-dollar/5270256/",
+          "kind": "article",
+          "time": "2026-09-09T09:41:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "D. Del. prelim (3 Sep, noted on HN): X v. Project Bluebird — court finds TWEET mark + bird logo likely abandoned (public-domain path); TWITTER mark still held via “formerly known as” App Store use.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "SPIEGEL: Stone/Parker rename season 29 “South Park” → “South America,” mocking Trump’s Lake Ontario→Lake America push and Apple/Google map compliance.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "NASA Curiosity blog: rover marks 5,000 sols (~5,137 Earth days) + >1 km climb from Gale floor; studying “Chocolatal” ripple.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "ESA: MTG-I2 reaches final GEO (~36,000 km); commissioning starts for Europe/N. Africa weather imaging.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "UK ATC update (SPIEGEL): Tue ~1,300 cancellations; Wed morning already +177 more (mostly Heathrow) — airlines demand consequences as recovery crawls.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/missions/msl/2026/curiosity-rover-updates/august/https___mars.nasa.gov_msl-raw-images_proj_msl_redops_ods_surface_sol_04998_opgs_edr_ncam_NRB_841193197EDR_F1241978NCAM00296M_.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "Curiosity Blog, Sols 4995-5001: 5,000 (Martian) Days on Mars",
+        "credit": "NASA",
+        "creditUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/"
+      },
+      "sources": [
+        {
+          "label": "Eric Goldman blog",
+          "url": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain.htm",
+          "kind": "article"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/kultur/tv/south-park-und-donald-trump-wie-die-serie-trumps-umbenennungen-verspottet-a-edf0b67b-2694-403b-8541-dfaad09a40af",
+          "kind": "article",
+          "time": "2026-09-09T08:24:00+02:00"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/",
+          "kind": "primary",
+          "time": "2026-09-09T06:20:49+00:00"
+        },
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_reaches_its_final_orbit",
+          "kind": "primary",
+          "time": "2026-09-09T06:20:00+00:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/wirtschaft/grossbritannien-airlines-fordern-konsequenzen-nach-ueber-1000-flugausfaellen-a-bf1cafcb-6797-4818-afbd-6f03c173d647",
+          "kind": "article",
+          "time": "2026-09-09T07:28:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "No new stack releases in the watcher window (Playwright v1.63.0 already cited).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "oven-sh/bun#42114 merged (~12:37 Berlin): native sinks root only their controller cell; fix leaked flush(true) promise on backpressure.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "sveltejs/svelte#18508 merged: prevent effect trees of batches from interfering.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "sveltejs/svelte#18127 merged: drop WAS_MARKED flag for a Set.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Vercel: Password Protection now $20/project/mo on Pro; separate note — protect production deployments free on every plan.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://repository-images.githubusercontent.com/221981891/8c5c6942-c91f-4df1-825f-4cf474056bd7",
+        "alt": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. - microsoft/playwright",
+        "credit": "gh_releases watcher",
+        "creditUrl": "https://github.com/microsoft/playwright/releases"
+      },
+      "sources": [
+        {
+          "label": "gh_releases watcher",
+          "url": "https://github.com/microsoft/playwright/releases",
+          "kind": "primary"
+        },
+        {
+          "label": "oven-sh/bun#42114",
+          "url": "https://github.com/oven-sh/bun/pull/42114",
+          "kind": "primary",
+          "time": "2026-09-09T10:37:31+00:00"
+        },
+        {
+          "label": "sveltejs/svelte#18508",
+          "url": "https://github.com/sveltejs/svelte/pull/18508",
+          "kind": "primary",
+          "time": "2026-09-09T09:47:42+00:00"
+        },
+        {
+          "label": "sveltejs/svelte#18127",
+          "url": "https://github.com/sveltejs/svelte/pull/18127",
+          "kind": "primary",
+          "time": "2026-09-09T08:58:29+00:00"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
+          "kind": "primary",
+          "time": "2026-09-09T06:00:00+00:00"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+          "kind": "primary",
+          "time": "2026-09-09T06:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "notes of an overthinking girl: “I want your money, and I feel guilty about it” (paid/creator-money essay).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "notes of an overthinking girl",
+          "url": "https://notesofanoverthinkinggirl.substack.com/p/i-want-your-money-and-i-feel-guilty",
+          "kind": "article",
+          "time": "2026-09-09T09:45:51+00:00"
+        }
+      ]
+    }
+  ]
+}
