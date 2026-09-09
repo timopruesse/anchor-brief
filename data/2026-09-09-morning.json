@@ -1,0 +1,451 @@
+{
+  "id": "2026-09-09-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-09T08:43:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since afternoon (~12–18h); X Following skipped (credits depleted); no 8 Sep evening edition published",
+  "headline": "US Centcom: five Iranian oil tankers hit (one sunk); Iran rockets Jordan and claims Gulf ship strikes. OpenAI posts a Navier–Stokes Millennium claim; Weisweiler grid-saboteur arrest.",
+  "stories": [
+    {
+      "id": "usa-iran-tankers",
+      "title": "US hits five Iranian oil tankers; Iran rockets Jordan / claims Gulf strikes",
+      "topics": [
+        "World",
+        "Energy",
+        "Security"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "tagesschau / SPIEGEL (Wed AM): Centcom says it “destroyed” five IRGC-linked crude tankers — M/T Kaviz, Charminar, Horizon 1, Riesco (sunk) in the Gulf of Oman, plus M/T Derya near Kharg — after crews were told to leave.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Framed as retaliation for IRGC ballistic-missile attacks on a US warship over the prior two days (ship unhit; no US casualties claimed).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Jordan: Petra — air defenses intercept 18 of 20 Iranian ballistic missiles; two fall in uninhabited areas; no injuries reported. IRGC claims hits on Al-Azraq / US jet basing (unverified).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Overnight IRGC statement (Irna): also claims attacks on US ships and tankers/freighters in Hormuz; warns Kuwait/Bahrain-port tankers to evacuate — independent verification incomplete.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Context: Saturday Centcom already claimed three earlier tanker strikes; Hormuz shipping remains the pressure point in the wider Iran conflict.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Biggest overnight escalation in the tanker/Hormuz track — oil logistics and Jordan basing in the same news cycle.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/asien/usa-iran-krieg-angriff-tanker-100.html",
+          "kind": "article",
+          "time": "2026-09-09T08:28:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/ausland/usa-beschiessen-iranische-tanker-teheran-feuert-raketen-auf-jordanien-a-dd0e1f5e-44ef-4dbb-a865-df846edc3f9e",
+          "kind": "article",
+          "time": "2026-09-09T04:29:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "openai-navier-stokes",
+      "title": "OpenAI: Navier–Stokes Millennium claim via ~10k-agent run",
+      "topics": [
+        "AI",
+        "Science",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "OpenAI (8 Sep): analytical proof + Lean formalization that 3D incompressible Navier–Stokes can blow up in finite time (Clay C/D) — inward-spiraling vortex, smooth force, finite energy.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Internal model “significantly more capable than GPT‑6 Astra”; ~10k concurrent agents in the NS group; ~2.7M messages / ~130B output tokens; ~88h to resolution + 17h Lean via GPT‑6 Astra.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Also resolved unforced Euler regularity (~100 agents / ~50h). OpenAI says it will not claim the Millennium Prize.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Update vs yesterday’s Buckmaster/OpenAI Euler fight: OpenAI publishes full NS writeup; recognizes Alpöge/Buckmaster priority on forced Euler; claims no prior access to their work.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "If the Lean check holds peer review, it’s a frontier-math milestone and a public capability flex — afternoon’s Euler fight just got a bigger sibling.",
+      "image": {
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/7hiHADoMhgN0iDcje9Xdei/2dae059c10a0dfa3e2814ebb522e9df2/navier-stokes-og.png?w=1600&h=900&fit=fill",
+        "alt": "An OpenAI model proposes a solution to the Navier–Stokes Millennium Prize Problem",
+        "credit": "OpenAI",
+        "creditUrl": "https://openai.com/index/navier-stokes-solution/"
+      },
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "kind": "primary",
+          "time": "2026-09-08T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "stromnetz-festnahme",
+      "title": "Weisweiler: alleged grid saboteur Daniel V. arrested with explosives",
+      "topics": [
+        "Germany",
+        "Security",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "tagesschau / n-tv (Tue): police detain 48-year-old Daniel V. (Gevelsberg) near Kraftwerk Weisweiler / Hambach area — Cottbus warrant; no resistance.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Cologne police: explosives on his person; further charges found at a tent in undergrowth; EOD reviewing. Reul: “wollte weitermachen… Einzeltäter.”",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Method alleged across NRW/Brandenburg/Saxony: homemade rockets firing conductive wire onto HV lines — short circuits at Bergheim (units offline days) and Turnow-Preilack / Jänschwalde (no blackout).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Confession letters cite fight against fossil power (“Stromerzeugung aus fossilen Brennstoffen ist ein Verbrechen”); Dobrindt: “Klimaextremismus.” Mon: more launchers + letter found at Weisweiler.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Closes the multi-state manhunt that filled last week’s briefs — arrest next to the latest Weisweiler devices.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/festnahme-strom-saboteur-100.html",
+          "kind": "article",
+          "time": "2026-09-08T18:58:00+02:00"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/politik/Stromnetz-Saboteur-hat-bei-Festnahme-Sprengmittel-im-Gepaeck-id31282502.html",
+          "kind": "article",
+          "time": "2026-09-08T12:22:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "cisa-ai-distillation",
+      "title": "CISA/NSA/FBI: China AI firms’ industrial-scale distillation",
+      "topics": [
+        "AI",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Joint advisory AA26-251A (8 Sep): DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, Z.AI accused of industrial-scale distillation from US frontier models since ≥late 2024.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Claims billions of tokens / millions of requests; gray-market “transfer stations,” bulk premium subs, CoT extraction; DeepSeek R1/V3 and Alibaba Qwen named as beneficiaries.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Urges anomalous-usage detection, response degradation for suspected distillers, and cross-provider intel sharing.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Puts a sealed USG label on the distillation arms race — compliance and API abuse detection become board topics overnight.",
+      "image": null,
+      "sources": [
+        {
+          "label": "CISA",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+          "kind": "primary",
+          "time": "2026-09-08T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "google-dma-europe",
+      "title": "Google: DMA search changes are “biggest degradation” in 29 years",
+      "topics": [
+        "Tech",
+        "Europe",
+        "Policy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "heise: Google rolls DMA Search UI changes across the EEA — hotel/flight/rail/product queries elevate third-party aggregators (Expedia, Booking); users can switch provider.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Nick Fox (Google): calls it “the biggest degradation” of Search quality in 29 years; non-EU users unaffected. Prior DMA tweaks allegedly cut some service bookings ~30%.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Context: late-July Commission fines totaling €890M DMA breaches — €460M tied to self-preferencing in Search.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Europe’s Search chrome changes in the wild — expect screenshots and local SEO churn this week.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Groesste-Verschlechterung-seit-29-Jahren-Google-passt-fuer-Europa-die-Suche-an-11446040.html",
+          "kind": "article",
+          "time": "2026-09-09T05:05:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "UK ATC (NATS) flight-processing outage Tue hit Heathrow/Gatwick and more; hundreds of cancellations — recovery continuing Wed (BBC / CNA).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Anthropic researcher Jacob Coxon quits with X/WSJ blast: builders “earnestly believe” AI could kill us by decade-end; race dynamics force risk-taking (heise).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Ricoh/Pentax: current K-series DSLRs discontinued; company teases a “new stage” DSLR concept later (PetaPixel).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "DeepMind AlphaGenome Atlas: precomputed regulatory impact of ~9B single-nucleotide variants (~1 PB) + AVI score for researchers (Google blog 8 Sep).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Kyiv Independent: Tue missile/drone wave after US-envoy pause — ≥5 killed, ~70 injured nationwide; capital hard hit.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5822/live/8e4e1760-ac11-11f1-940e-bf738e043799.jpg",
+        "alt": "A man and a woman squat down, looking at their phones, surrounded by luggage.",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/ce8x3dp1zpxo"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ce8x3dp1zpxo",
+          "kind": "article",
+          "time": "2026-09-08T15:33:00+01:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Anthropic-Forscher-kuendigt-mit-dramatischem-Text-Branche-erwarte-Ausloeschung-11446054.html",
+          "kind": "article",
+          "time": "2026-09-09T06:08:00+00:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/08/the-current-chapter-of-pentax-dslrs-is-officially-over/",
+          "kind": "article",
+          "time": "2026-09-09T02:38:43+00:00"
+        },
+        {
+          "label": "Google DeepMind",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "kind": "primary",
+          "time": "2026-09-08T00:00:00+00:00"
+        },
+        {
+          "label": "Kyiv Independent",
+          "url": "https://kyivindependent.com/as-much-harm-as-possible-5-killed-60-injured-as-russia-resumes-mass-attacks-across-ukraine/",
+          "kind": "article",
+          "time": "2026-09-08T13:53:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "shit you should care about: “Tech You Should Care About” roundup (8 Sep).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The AI Corner: Dylan Patel math — “2 Companies Will Control Most of the World's Compute by 2028.”",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/tech-you-should-care-about",
+          "kind": "article",
+          "time": "2026-09-08T20:01:27+00:00"
+        },
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/ai-labs-control-world-compute",
+          "kind": "article",
+          "time": "2026-09-08T14:02:03+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "No new stack releases in the watcher window (Playwright v1.63.0 already cited).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "oven-sh/bun#42078 merged (~03:37 Berlin): remove 77 unused pub items across platforms.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "microsoft/playwright#42627 merged: split showRecorder/startRecording; per-client recorder events.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Vercel changelog: Sandbox routing now ~18× faster globally (8 Sep).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "DaVinci Resolve 21.1 release notes (Blackmagic, 8 Sep) — HN chatter.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://repository-images.githubusercontent.com/221981891/8c5c6942-c91f-4df1-825f-4cf474056bd7",
+        "alt": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. - microsoft/playwright",
+        "credit": "gh_releases watcher",
+        "creditUrl": "https://github.com/microsoft/playwright/releases"
+      },
+      "sources": [
+        {
+          "label": "gh_releases watcher",
+          "url": "https://github.com/microsoft/playwright/releases",
+          "kind": "primary"
+        },
+        {
+          "label": "oven-sh/bun#42078",
+          "url": "https://github.com/oven-sh/bun/pull/42078",
+          "kind": "primary",
+          "time": "2026-09-09T01:37:55+00:00"
+        },
+        {
+          "label": "microsoft/playwright#42627",
+          "url": "https://github.com/microsoft/playwright/pull/42627",
+          "kind": "primary",
+          "time": "2026-09-09T01:43:04+00:00"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally",
+          "kind": "primary",
+          "time": "2026-09-08T20:00:00+00:00"
+        },
+        {
+          "label": "Blackmagic",
+          "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
