@@ -1,0 +1,481 @@
+{
+  "id": "2026-09-09-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-09T19:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~12:45 Berlin / ~6–7h); X Following skipped (credits still depleted)",
+  "headline": "Google commits ≥€13bn to Finland AI infra with Fortum nuclear PPA; raids hit Berlin SPD Spitzenkandidat Krach; Tailwind joins Shopify.",
+  "stories": [
+    {
+      "id": "google-finland-13bn",
+      "title": "Google: ≥€13bn Finland AI infra + Fortum nuclear life-extension PPA",
+      "topics": [
+        "Tech",
+        "Energy",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Google (9 Sep): plans to invest at least €13bn in Finnish digital infrastructure over 2027–2028 — sites in Hamina, Kajaani, Muhos, Vaala — calling it its largest single Europe investment.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "22-year Fortum PPA supports Loviisa nuclear life-extension beyond 2030 (~10% of Finland’s electricity; ~580 plant jobs). MoU also covers new flexibility / potential new Loviisa reactors.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Extra clean power: onshore wind PPAs (Valorem, Suomen Hyötytuuli) bringing Google-supported new-to-grid wind to 629 MW; 94 MW battery near Kajaani targeted late 2027.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Construction-phase estimate: ~€3.6bn average annual GDP contribution and >37,000 nationwide jobs (incl. ~16,000 construction); once operational ~7,000 jobs. €31m community fund over four years.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Package framed as Google’s largest single Europe investment; includes clean-energy PPAs and community funds alongside the data-centre build-out.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Nordic AI/data-centre race meets grid politics — Google is buying long nuclear visibility, not just land and fiber.",
+      "image": {
+        "url": "https://www.googlecloudpresscorner.com/image/GC_Social_New.jpg",
+        "alt": "Google Cloud press imagery for the Finland infrastructure announcement",
+        "credit": "Google Cloud Press Corner",
+        "creditUrl": "https://www.googlecloudpresscorner.com/2026-09-09-Google-Deepens-Commitment-to-Finland-with-Two-Year-EUR13-Billion-investment-in-AI-Infrastructure"
+      },
+      "sources": [
+        {
+          "label": "Google Cloud Press Corner",
+          "url": "https://www.googlecloudpresscorner.com/2026-09-09-Google-Deepens-Commitment-to-Finland-with-Two-Year-EUR13-Billion-investment-in-AI-Infrastructure",
+          "kind": "primary",
+          "time": "2026-09-09T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "krach-bestechlichkeit",
+      "title": "Raids hit Berlin SPD Spitzenkandidat Steffen Krach",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "ZDFheute / StA Hannover (Wed ~18:14): prosecutors confirm searches at three sites in Hannover and Berlin tied to Bestechlichkeit suspicions against SPD Spitzenkandidat Steffen Krach.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Reporting links the case to the former Krankenhaus Lehrte / Regionsklinikum Hannover rebuild; Krach pushed the shift as Regionspräsident and chaired the clinic supervisory board until his Berlin candidacy.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Tagesspiegel: Schöneberg flat + SPD Landesgeschäftsstelle (Wedding) searched; Region Hannover confirms Hannover office rooms. Krach is on leave from the Regionspräsident role.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Krach calls the claims haltlos “Unterstellungen,” says he has nothing to hide and will cooperate (RBB / SPD Berlin statement). Unschuldsvermutung applies; AGH vote is 20 Sep.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Less than two weeks before Berlin’s Abgeordnetenhaus election — a direct hit on the SPD’s top candidate while polls already have the party in single digits.",
+      "image": {
+        "url": "https://www.zdfheute.de/assets/steffen-krach-100~1280x720?cb=1788961975886",
+        "alt": "Steffen Krach, Berlin SPD Spitzenkandidat",
+        "credit": "ZDFheute / dpa",
+        "creditUrl": "https://www.zdfheute.de/politik/deutschland/durchsuchung-spd-spitzenkandidat-steffen-krach-berlin-100.html"
+      },
+      "sources": [
+        {
+          "label": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/durchsuchung-spd-spitzenkandidat-steffen-krach-berlin-100.html",
+          "kind": "article",
+          "time": "2026-09-09T18:14:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "tailwind-shopify",
+      "title": "Tailwind Labs is joining Shopify",
+      "topics": [
+        "Tech",
+        "Dev notes"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Adam Wathan (9 Sep): Tailwind Labs is joining Shopify so the framework has a “stable long-term home” — CSS still MIT-licensed; team keeps leading the OSS projects.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Claimed install volume: >110M downloads/week; named users include ChatGPT, X, Cloudflare, Reddit, and Shopify itself.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Commercial shift: existing Tailwind Plus / ui.sh customers keep access; new signups close so the team can focus on Tailwind inside Shopify (storefronts, admin, Shop app, agentic commerce).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN spike: ~525 points / ~203 comments by evening window.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "One of the default CSS stacks just got absorbed by a commerce giant — maintenance path is clearer; independent Tailwind-as-business is over.",
+      "image": {
+        "url": "https://tailwindcss.com/_next/static/media/og-image.103kpqahmns2b.jpg",
+        "alt": "Tailwind CSS blog post: Tailwind Labs is joining Shopify",
+        "credit": "Tailwind CSS",
+        "creditUrl": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"
+      },
+      "sources": [
+        {
+          "label": "Tailwind CSS blog",
+          "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+          "kind": "primary",
+          "time": "2026-09-09T00:00:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49626190",
+          "kind": "article",
+          "time": "2026-09-09T15:27:11+02:00"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-import-bans",
+      "title": "US escalates Canada fight to product import bans",
+      "topics": [
+        "World",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "tagesschau (Wed AM): Trump decrees ban Canadian dairy, alcohol (beer/whiskey/wine), and motorcycles/mopeds from entering the US from 29 Sep — official says single-digit billions in trade value.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "From 15 Sep: +50% tariffs on more Canadian goods (mattresses, motorboats, golf carts). Federal procurement told to drop Canadian firms (hits IT / office suppliers).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Context: overnight Canadian counter-tariffs (up to 50%) on US steel/alum, appliances, ag equipment, pulp/paper, electronics — Canada cites ~$27.6bn of US goods. Prior US Aug tariffs covered ~$20bn.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Trade talks had already collapsed; LeBlanc says Ottawa will talk if the US engages in good faith and respects Canadian sovereignty.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Beyond tariff tit-for-tat — outright bans plus a procurement freeze harden a North American trade break ahead of US midterms.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/amerika/kanada-usa-zollstreit-102.html",
+          "kind": "article",
+          "time": "2026-09-09T09:16:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ms-patch-tuesday-sept",
+      "title": "Microsoft Patch Tuesday: 974 CVEs, two exploited Windows zero-days",
+      "topics": [
+        "Security",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Rapid7 (8 Sep Patch Tuesday): Microsoft publishes 974 own-product CVEs (723 Windows) — most CVEs Microsoft has ever shipped in a single day; +25 non-Microsoft CVEs → 999 on the table.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Exploited in the wild: CVE-2026-85880 (Windows ALPC EoP → SYSTEM via buffer overflow / OOB write) and CVE-2026-81963 (Windows Update Stack EoP via improper link resolution).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "ALPC patch note: Server 2025 / Win11 reportedly not listed for CVE-2026-85880 — Rapid7 reads that as possible Rust memory-safety payoff on newer kernels.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Separate from this afternoon’s Android Sep bulletin (remote priv-esc without taps) — Windows shops still need the Update Stack + ALPC fixes.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Volume Patch Tuesdays are the new normal; two already-exploited EoPs mean prioritize before the next ransomware chain.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Rapid7",
+          "url": "https://www.rapid7.com/blog/post/em-patch-tuesday-september-2026/",
+          "kind": "article",
+          "time": "2026-09-08T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Klingbeil BMF draft (SPIEGEL): crypto gains → 25% Abgeltungsteuer from 2028 for assets bought after 1 Jan 2027; ends 1-year tax-free hold; ~€350m revenue; Sparer-Pauschbetrag + Verlustverrechnung with stocks apply.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: Alvarez v. Meta (N.D. Ill.) — Illinois/California plaintiffs allege NameTag smart-glasses faceprints + generative-AI face embeddings violate BIPA; Meta says NameTag never shipped.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "American Prospect: Anthropic building predictive activist/protest monitoring (Samdesk + GSIS hire); cites WSJ person-of-interest tracking and SF Standard AR-15 Claude case. Anthropic did not comment to Prospect.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "ANSA: Vučić dissolves Serbian parliament by decree — snap elections 25 Oct (46 days); announcement live at noon after government request.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Guardian: Israel orders UK East Jerusalem consulate closed in retaliation for settlement-goods sanctions; Sa’ar also flagged entry bans on some UK MPs.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Apple “Surprise and Shine” stream live from 19:00 Berlin (apple.com/apple-events); foldable iPhone Duo widely expected — no unveiled specs claimed here yet.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/wirtschaft/service/kryptosteuer-von-25-prozent-klingbeil-legt-gesetzesentwurf-vor-a-54a11da3-e838-4e28-be75-7f24f3ba8b39",
+          "kind": "article",
+          "time": "2026-09-08T20:44:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Smart-Glasses-Metas-Flirt-mit-Gesichtserkennung-hat-ein-juristisches-Nachspiel-11447439.html",
+          "kind": "article",
+          "time": "2026-09-09T16:53:00+02:00"
+        },
+        {
+          "label": "The American Prospect",
+          "url": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
+          "kind": "article",
+          "time": "2026-09-09T18:01:41+02:00"
+        },
+        {
+          "label": "ANSA",
+          "url": "https://www.ansa.it/nuova_europa/en/news/sections/politics/2026/09/09/vucic-dissolves-parliament-by-decree-elections-on-october-25_e589bf2f-e84e-49f8-b41e-0dac6c0ac750.html",
+          "kind": "article",
+          "time": "2026-09-09T12:43:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/08/israel-close-british-consulate-jerusalem-sanctions",
+          "kind": "article",
+          "time": "2026-09-08T00:00:00+02:00"
+        },
+        {
+          "label": "Apple Events",
+          "url": "https://www.apple.com/apple-events/",
+          "kind": "primary",
+          "time": "2026-09-09T19:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "No new stack release tags in the watcher (Playwright v1.63.0 still the only seen cite) — omit release remakes.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "microsoft/TypeScript#64178 merged (~18:03 Berlin): prevent deadlock in getCompletionsAtPosition(..., { includeSymbol: true }).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "oven-sh/bun#42002 merged (~13:15 Berlin): faster startup for --compile --bytecode executables (pre-resolved module graph, optimized bytecode, compile.jitPolicy).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "microsoft/playwright#42636 merged (~17:39 Berlin): feat(trace) record full stack for test steps.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Vercel changelog: password protection now $20/project/mo on Pro; protect-production-deployments free on every plan.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "OpenAI Status (18:21 CEST): increased error rate for Pro and Plus plan conversations.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "gh_releases watcher",
+          "url": "https://github.com/microsoft/playwright/releases",
+          "kind": "primary"
+        },
+        {
+          "label": "TypeScript#64178",
+          "url": "https://github.com/microsoft/TypeScript/pull/64178",
+          "kind": "primary",
+          "time": "2026-09-09T18:03:08+02:00"
+        },
+        {
+          "label": "bun#42002",
+          "url": "https://github.com/oven-sh/bun/pull/42002",
+          "kind": "primary",
+          "time": "2026-09-09T13:15:32+02:00"
+        },
+        {
+          "label": "playwright#42636",
+          "url": "https://github.com/microsoft/playwright/pull/42636",
+          "kind": "primary",
+          "time": "2026-09-09T17:39:32+02:00"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
+          "kind": "primary",
+          "time": "2026-09-09T08:00:00+02:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M23BNX5V1XT9P3NP0PX56FTN",
+          "kind": "primary",
+          "time": "2026-09-09T18:21:45+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: Max Junestrand (Legora) interview — legal AI to ~$100M ARR without domain expertise (pub claim).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Five Minute Reads: the famous ikigai Venn diagram was invented by a British blogger in 2014 — not in the book.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "The Art of Noticing (Rob Walker): “Wild, As In Harmonious.”",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/legora-founders-legal-ai-lessons",
+          "kind": "article",
+          "time": "2026-09-09T17:47:33+02:00"
+        },
+        {
+          "label": "Five Minute Reads",
+          "url": "https://fiveminutereads1.substack.com/p/the-famous-ikigai-venn-diagram-was",
+          "kind": "article",
+          "time": "2026-09-09T17:12:18+02:00"
+        },
+        {
+          "label": "The Art of Noticing",
+          "url": "https://robwalker.substack.com/p/wild-as-in-harmonious",
+          "kind": "article",
+          "time": "2026-09-09T18:11:48+02:00"
+        }
+      ]
+    }
+  ]
+}
