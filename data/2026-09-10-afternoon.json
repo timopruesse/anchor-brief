@@ -1,0 +1,340 @@
+{
+  "id": "2026-09-10-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-10T12:55:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5h); X Following skipped (API credits depleted, prepaid −0.08)",
+  "headline": "Ukraine SOF hits Arctic gas plants ~3,000 km in; ENISA gets Mythos 5 + GPT-6-Astra; Bundeswehr races a Palantir alternative toward 2027.",
+  "stories": [
+    {
+      "id": "ukraine-arctic-gas-strike",
+      "title": "Ukraine SOF: deepest strike hits Arctic gas plants; Russia kills 7",
+      "topics": [
+        "World",
+        "Ukraine",
+        "Security"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Ukraine’s Special Operations Forces say they hit Novy Urengoy and Purovsky gas plants in Yamal-Nenets — claimed deepest strike of the war, >3,000 km from the border.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Regional governor: drone debris sparked a fire at an industrial site in Novy Urengoy; he says no deaths/injuries and that the attack was otherwise repelled.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Kremlin Urals envoy Artem Zhoga: first-ever strike on the Arctic part of the region (per Al Jazeera).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Same window: Russian attacks kill 4 in Mykolaiv and 3 at a Sumy shopping centre (14+ wounded there, incl. children), Ukrainian officials say.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "ABC: overnight Russia launched 149 drones (mix of Shahed/jet-powered + decoys); Ukraine says 128 downed; NATO aviation assets briefly raised readiness in Polish airspace as a preventive measure (~2 hours).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Extends Kyiv’s long-range campaign into Russia’s Arctic gas heartland while overnight Russian strikes again hit Ukrainian cities and briefly pull NATO Poland into a readiness scramble.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-09T113917Z_448772077_RC2NFNAVDYUO_RTRMADP_3_UKRAINE-CRISIS-ATTACK-MYKOLAIV-1789019162.jpg?resize=1920%2C1440",
+        "alt": "Russian attacks kill 7 in Ukraine as Kyiv targets gas plants deep in Arctic",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/9/10/russian-attacks-kill-7-in-ukraine-as-kyiv-targets-gas-plants-deep-in-arctic"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/10/russian-attacks-kill-7-in-ukraine-as-kyiv-targets-gas-plants-deep-in-arctic",
+          "kind": "article",
+          "time": "2026-09-10T12:00:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/10/ukraine-war-briefing-arctic-missile-attack-russian-gas-siberia",
+          "kind": "article",
+          "time": "2026-09-10T12:00:00+02:00"
+        },
+        {
+          "label": "ABC News",
+          "url": "https://abcnews.com/International/nato-aircraft-deployed-poland-russian-jet-powered-drones/story?id=136327662",
+          "kind": "article",
+          "time": "2026-09-10T09:27:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "enisa-mythos-gpt6",
+      "title": "ENISA granted access to Anthropic Mythos 5 and OpenAI GPT-6-Astra",
+      "topics": [
+        "Europe",
+        "AI",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "European Commission spokesman (Thu): EU cybersecurity agency ENISA has been granted access to Anthropic’s Mythos 5 and is now testing it.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Same statement: ENISA was also granted access to OpenAI’s latest model, GPT-6-Astra.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Puts Europe’s cyber agency on frontier models just as labs face fresh scrutiny over agent/security incidents — useful for how EU regulators will actually probe these systems.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/eus-cybersecurity-agency-granted-access-mythos-5-ai-model-commission-says-2026-09-10/",
+          "kind": "article",
+          "time": "2026-09-10T10:56:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bundeswehr-ai-palantir-alt",
+      "title": "Bundeswehr: 30 AI tools in evaluation; Palantir alternative aimed at 2027",
+      "topics": [
+        "Germany",
+        "Defence",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Handelsblatt: Bundeswehr is testing systems from 30 firms to fuse combat data in real time; story framed as introducing a Palantir alternative already in 2027.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "One path highlighted: sensor firm Hensoldt with KI startup Helsing and their MDOCore stack (simulated Shahed-swarm demo).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Straits Times (Reuters): Vice Adm. Thomas Daum — prototype targeted for Q2 2027, full implementation 2028; most tools German; French ChapsVision among few foreign runners.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Straits Times: In April Daum ruled out buying Palantir’s Maven Smart System for now, citing dependence/data-sovereignty concerns even as US/NATO peers deploy it.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Berlin is trading speed for sovereignty on battlefield decision-support software — with a 2027 prototype timeline that still trails Maven’s existing deployments.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/unternehmen/industrie/verteidigung-bundeswehr-will-palantir-alternative-schon-2027-einfuehren/100247052.html",
+          "kind": "article",
+          "time": "2026-09-10T07:55:00+02:00"
+        },
+        {
+          "label": "The Straits Times",
+          "url": "https://www.straitstimes.com/world/europe/german-military-evaluating-30-ai-tools-for-introduction-from-2027",
+          "kind": "article",
+          "time": "2026-09-10T09:42:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bitkom-us-ai-dominance",
+      "title": "Bitkom: German firms lean harder on US AI — ChatGPT 76%",
+      "topics": [
+        "Germany",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Bitkom (survey of 603 firms ≥20 employees, KW 28–33 2026; among AI users): ChatGPT 76% (was 70% prior year); Microsoft Copilot 35% (28%); Google Gemini 28% (22%).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Chinese apps barely register: DeepSeek 2%, Alibaba Qwen 1%. Llama 8%, SAP Joule 6%, Claude 3%; no surveyed firm reported Perplexity or European Mistral.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "President Ralf Wintergerst: economy relies almost exclusively on US AI — digital sovereignty needs a chance for European providers; full KI-Einsatz study presentation Mon 14 Sep, 09:30.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Hard numbers behind the sovereignty talk: German corporate AI stack is still US-first even as Berlin funds defence/sovereign alternatives.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Bitkom",
+          "url": "https://www.bitkom.org/Presse/Presseinformation/KI-aus-China-fuer-deutsche-Wirtschaft-kein-Thema",
+          "kind": "primary",
+          "time": "2026-09-09T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Golem: ~34,000 Plex Media Servers still attackable (incl. Germany) — critical security updates not yet rolled out on thousands of instances.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise / MPI: research says the Sun is “superflare-capable” — a huge 1947 sunspot could have powered a flare ~100× a typical strong event.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Golem: “Nasa: Streit um die Finanzierung der Raumsonde New Horizons” — funding fight over the New Horizons probe.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "OpenAI Status: incident — unable to open shared ChatGPT Project via direct link (morning window).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/auch-in-deutschland-rund-34-000-plex-server-sind-angreifbar-2609-212872.html",
+          "kind": "article",
+          "time": "2026-09-10T12:30:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Zuletzt-im-April-1947-Gigantische-Sonneneruptionen-sind-prinzipiell-moeglich-11448748.html",
+          "kind": "article",
+          "time": "2026-09-10T12:05:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/nasa-streit-um-die-finanzierung-der-raumsonde-new-horizons-2609-212864.html",
+          "kind": "article",
+          "time": "2026-09-10T12:45:00+02:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M24HYC9SX2Q4471EVMY6EXQE",
+          "kind": "primary",
+          "time": "2026-09-10T09:37:49+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "vite: merged fix for CRLF line endings in code-frame positions (#23219).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "vite: merged perf — pre-compile proxy context matchers at server creation (#23263).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "playwright: merged screencast fix keeping overlays above top-layer elements (#42642).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "arXiv: SWE-Bench Pro Verified — proposed reliable benchmark for software-engineering agents.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Lobsters: deep dive — watermarks in Apache Flink (Confluent).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "vite #23219",
+          "url": "https://github.com/vitejs/vite/pull/23219",
+          "kind": "primary",
+          "time": "2026-09-10T05:01:45+02:00"
+        },
+        {
+          "label": "vite #23263",
+          "url": "https://github.com/vitejs/vite/pull/23263",
+          "kind": "primary",
+          "time": "2026-09-10T04:52:46+02:00"
+        },
+        {
+          "label": "playwright #42642",
+          "url": "https://github.com/microsoft/playwright/pull/42642",
+          "kind": "primary",
+          "time": "2026-09-10T01:36:06+02:00"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.08149",
+          "kind": "primary"
+        },
+        {
+          "label": "Confluent / Lobsters",
+          "url": "https://developer.confluent.io/blog/all-about-flink-watermarks-1/",
+          "kind": "article",
+          "time": "2026-09-10T10:15:00+02:00"
+        }
+      ]
+    }
+  ]
+}
