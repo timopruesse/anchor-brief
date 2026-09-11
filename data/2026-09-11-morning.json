@@ -1,0 +1,474 @@
+{
+  "id": "2026-09-11-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-11T08:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h); X Following skipped (API credits depleted, prepaid −0.08)",
+  "headline": "Microsoft elevates Rust to Tier-1 with MSVC backend; Bending Spoons buys Miro for $1.36B EV; Forgejo ships critical RCE patch.",
+  "stories": [
+    {
+      "id": "microsoft-rust-tier-1",
+      "title": "Microsoft: Rust is Tier-1, with rustc_codegen_utc on MSVC",
+      "topics": [
+        "Tech",
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Rust Foundation guest post (Victor Ciura, 10 Sep): Rust now has Tier-1 internal engineering status at Microsoft alongside C++, C#, and TypeScript.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Tier-1 means a paved path to production: secure toolchain builds, tooling, quality workflows, platform integration, and SDL compliance.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Centerpiece: rustc_codegen_utc — a rustc backend wired to MSVC’s UTC codegen (peer to LLVM/GCC/Cranelift backends) for Windows ABI, hardening, Hotpatch, and Rust/C++ interop.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Production-ready since early 2026; self-hosted since Rust 1.90; >100 Microsoft repos already build with it.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN front page overnight (~643 points) on the Foundation post.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Memory-safe systems code gets the same Windows-native paved path as C++ — a structural signal for firmware, drivers, and hybrid stacks.",
+      "image": {
+        "url": "https://rustfoundation.org/wp-content/uploads/2026/09/Guest-Blog-Graphic-2.png",
+        "alt": "Rust Foundation guest-post graphic for Microsoft Tier-1 Rust announcement",
+        "credit": "Rust Foundation",
+        "creditUrl": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/"
+      },
+      "sources": [
+        {
+          "label": "Rust Foundation",
+          "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+          "kind": "primary",
+          "time": "2026-09-10T00:00:00+00:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49643546",
+          "kind": "article",
+          "time": "2026-09-10T13:39:16+00:00"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "bending-spoons-miro",
+      "title": "Bending Spoons to buy Miro for $1.355B enterprise value",
+      "topics": [
+        "Tech",
+        "Germany"
+      ],
+      "facts": [
+        {
+          "text": "Bending Spoons (NASDAQ: BSP) signed a definitive all-cash deal for Miro at $1.355B enterprise value (~$1.79B equity with Miro’s net cash).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Certain Miro shareholders will reinvest $295M of proceeds into newly issued Bending Spoons equity.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Close targeted for Q4 2026, subject to regulatory approvals; companies stay independent until then.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "BSP cites ~$600M Miro ARR (~90% business/enterprise); Miro CEO Andrey Khusid: ~4M paying users, 250k+ orgs.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "heise: deal follows last week’s completed Airtable acquisition.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Another workplace unicorn lands with the Milan serial acquirer — at a deep discount to Miro’s 2022 peak — right after Airtable closed.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/3/3/2/3/shutterstock_127502609-cbd1437d36d3c1e0.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Illustration accompanying heise coverage of Bending Spoons acquiring Miro",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Bending-Spoons-uebernimmt-Miro-Kauf-von-Airtable-abgeschlossen-11449774.html"
+      },
+      "sources": [
+        {
+          "label": "Bending Spoons IR",
+          "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-agrees-to-acquire-miro",
+          "kind": "primary",
+          "time": "2026-09-10T00:00:00+00:00"
+        },
+        {
+          "label": "MiroBlog",
+          "url": "https://miro.com/blog/miro-bending-spoons/",
+          "kind": "primary",
+          "time": "2026-09-10T00:00:00+00:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Bending-Spoons-uebernimmt-Miro-Kauf-von-Airtable-abgeschlossen-11449774.html",
+          "kind": "article",
+          "time": "2026-09-11T05:54:00+00:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "forgejo-rce-patch",
+      "title": "Forgejo 16.0.4 / 15.0.8: critical template RCE (CVE-2026-89094)",
+      "topics": [
+        "Security"
+      ],
+      "facts": [
+        {
+          "text": "Forgejo security advisory #59: v16.0.4 and v15.0.8 (LTS) fix a critical RCE in repo-from-template generation.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Malicious `.forgejo/template` expansion could recreate a `.git` dir during init, letting attackers read host data and run processes (CVE-2026-89094, CVSS 9.9).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Same releases also close an API auth bypass around “allow maintainer edits” with restricted tokens.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Project: upgrade ASAP; Lobsters flagged the critical fix overnight.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Self-hosted Git forges that accept template repos need this patch before the next “new repo from template” click.",
+      "image": {
+        "url": "https://codeberg.org/forgejo/security-announcements/issues/59/summary-card",
+        "alt": "Summary card of an issue titled \"Forgejo v15.0.8 and v16.0.4\" in repository forgejo/security-announcements",
+        "credit": "Forgejo security #59",
+        "creditUrl": "https://codeberg.org/forgejo/security-announcements/issues/59"
+      },
+      "sources": [
+        {
+          "label": "Forgejo security #59",
+          "url": "https://codeberg.org/forgejo/security-announcements/issues/59",
+          "kind": "primary",
+          "time": "2026-09-10T12:39:39+00:00"
+        },
+        {
+          "label": "OpenCVE CVE-2026-89094",
+          "url": "https://app.opencve.io/cve/CVE-2026-89094",
+          "kind": "primary",
+          "time": "2026-09-10T20:42:18+00:00"
+        },
+        {
+          "label": "Lobsters",
+          "url": "https://lobste.rs/s/b3cqyr/forgejo_16_0_4_has_critical_security_bug",
+          "kind": "article",
+          "time": "2026-09-10T17:40:19+00:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "cognition-swe-2",
+      "title": "Cognition launches SWE-2 coding model inside Devin",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "facts": [
+        {
+          "text": "Cognition blog (10 Sep): SWE-2 scores 50.0% on FrontierCode 1.1 Main — within ~1 pt of Fable 5.1 — while claiming 64% lower cost (vendor numbers).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Post-trained from Moonshot Kimi K3 (2.8T MoE); Cognition says RL added ~5–6 pts on many benches vs the base.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Available in Devin Desktop and CLI now; Web/Fusion rolling out. No standalone API, weights, or public $/token card.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Same table shows a large Terminal-Bench 4 gap vs Fable 5.1 (27.3% vs 55.8%) — cost-adjusted parity, not a clean sweep.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Another Devin-only coding model competing on the cost/perf frontier — useful if you already live in Devin, opaque if you wanted an API.",
+      "image": {
+        "url": "https://cognition.com/images/swe-2/cover.jpg",
+        "alt": "Introducing SWE-2: Pushing the Pareto Frontier",
+        "credit": "Cognition",
+        "creditUrl": "https://cognition.com/blog/swe-2"
+      },
+      "sources": [
+        {
+          "label": "Cognition",
+          "url": "https://cognition.com/blog/swe-2",
+          "kind": "primary",
+          "time": "2026-09-10T00:00:00+00:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49645443",
+          "kind": "article",
+          "time": "2026-09-10T15:29:47+00:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "Al Jazeera / NYT: Houthis seize Red Sea port city of Mocha/Mokha — leverage nearer Bab el-Mandeb shipping lane.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "tagesschau: UAE plans €40B investments in Germany (AI, data centers, energy); Emirates may add a 5th German city.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Salesforce/Slack: Slackforce Surfaces — describe dashboards/reports to Slackbot; live-data rollout planned for Oct 2026.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "heise: Anthropic allegedly blocked prohibited bioweapons-related AI research (reported claim).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Vercel Changelog: Sandbox storage raised to 64 GB.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6aa27ed723339-1789034199.jpg?resize=1920%2C1440",
+        "alt": "Yemen’s Houthis seize strategic Red Sea city of Mocha",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha",
+          "kind": "article",
+          "time": "2026-09-10T00:00:00+00:00"
+        },
+        {
+          "label": "NYT",
+          "url": "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html",
+          "kind": "article",
+          "time": "2026-09-10T00:00:00+00:00"
+        },
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/asien/vae-deutschland-100.html",
+          "kind": "article",
+          "time": "2026-09-10T18:24:00+02:00"
+        },
+        {
+          "label": "Salesforce / Slack",
+          "url": "https://www.salesforce.com/slack/slack-surfaces-transforms-enterprise-data/",
+          "kind": "primary",
+          "time": "2026-09-10T00:00:00+00:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Anthropic-hat-angeblich-untersagte-KI-Forschung-an-Biowaffen-unterbunden-11449768.html",
+          "kind": "article",
+          "time": "2026-09-11T05:09:00+00:00"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+          "kind": "primary",
+          "time": "2026-09-11T06:00:00+00:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "PlanetScale: Neki — sharded Postgres (HN overnight).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Playwright: merged MCP idle-timeout flag and symlink-safe workspace root checks (#42663, #42628).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "bun: merged Windows usockets poll revert (#42258).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "OpenAI docs: Agents API overview circulating on HN.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Vercel: GitHub Copilot available in the AI SDK harness layer.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/243523d37bcffddc99be289db295f08c7a922609072bd2c6297132b2fc6cb013/microsoft/playwright/pull/42663",
+        "alt": "Summary Adds an opt-in --timeout-idle <ms> option (config timeouts.idle, env PLAYWRIGHT_MCP_TIMEOUT_IDLE) that closes the browser after that long without a tool call and relaunches it on the...",
+        "credit": "microsoft/playwright#42663",
+        "creditUrl": "https://github.com/microsoft/playwright/pull/42663"
+      },
+      "sources": [
+        {
+          "label": "PlanetScale",
+          "url": "https://planetscale.com/blog/introducing-neki",
+          "kind": "primary"
+        },
+        {
+          "label": "microsoft/playwright#42663",
+          "url": "https://github.com/microsoft/playwright/pull/42663",
+          "kind": "primary",
+          "time": "2026-09-10T22:15:20+00:00"
+        },
+        {
+          "label": "microsoft/playwright#42628",
+          "url": "https://github.com/microsoft/playwright/pull/42628",
+          "kind": "primary",
+          "time": "2026-09-10T22:59:30+00:00"
+        },
+        {
+          "label": "oven-sh/bun#42258",
+          "url": "https://github.com/oven-sh/bun/pull/42258",
+          "kind": "primary",
+          "time": "2026-09-11T01:28:01+00:00"
+        },
+        {
+          "label": "OpenAI Docs",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "kind": "primary"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+          "kind": "primary",
+          "time": "2026-09-10T17:39:00+00:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "facts": [
+        {
+          "text": "The AI Corner: “The True Biggest Risks in the AI Thesis” — concentration / economy risk framing.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Post.news / Substack culture: twin Shea Serrano profiles (writer craft + podcast math).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/ai-economy-concentration-risk",
+          "kind": "article",
+          "time": "2026-09-10T15:51:41+00:00"
+        },
+        {
+          "label": "Post on Substack",
+          "url": "https://post.substack.com/p/shea-serrano-writer-built-a-cult-following",
+          "kind": "article",
+          "time": "2026-09-10T17:58:42+00:00"
+        },
+        {
+          "label": "On Substack",
+          "url": "https://on.substack.com/p/shea-serrano-podcast",
+          "kind": "article",
+          "time": "2026-09-10T17:58:26+00:00"
+        }
+      ],
+      "weight": "brief"
+    }
+  ]
+}
