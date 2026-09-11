@@ -1,0 +1,463 @@
+{
+  "id": "2026-09-11-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-11T22:35:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~12:45 Berlin / ~10h); X Following skipped (API credits depleted)",
+  "headline": "25 Fields Medalists warn AI labs’ math race is misaligned; Enflame jumps 179% on Shanghai debut; Prien tees up kids’ social-media rules.",
+  "stories": [
+    {
+      "id": "fields-ai-math-misalignment",
+      "title": "25 Fields Medalists: AI labs’ math race is severely misaligned",
+      "topics": [
+        "AI",
+        "Science"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Primary declaration at mathandai.org — “A Severe Misalignment of AI in Mathematics” — signed by 25 Fields Medalists including Terence Tao, Peter Scholze, Maryna Viazovska, and 2026 medalist Yu Deng.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Core claim: racing LLMs to solve landmark problems as marketing benchmarks skips writeups, attribution, and the human teaching/digest cycle that turns solutions into understanding.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Signatories warn mass true/false dumps can erode fertile ground for ideas; urge labs and society to keep the purpose of the work in view — not just the scoreboard.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN front page tonight (~236 points / 331 comments) plus endorsements page already past ~690 names; Le Monde / New Scientist amplify Tao’s critique of rushed AI math drops.",
+          "sourceIndexes": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "A rare Fields-heavy open letter aimed at the benchmark-industrial complex — timed while AI labs sell math breakthroughs as trophies.",
+      "image": {
+        "url": "https://www.newscientist.com/wp-content/uploads/2026/09/SEI_311503987.jpg",
+        "alt": "Terence Tao and coverage of AI harming mathematics",
+        "credit": "New Scientist",
+        "creditUrl": "https://www.newscientist.com/article/2588329-terence-tao-ai-companies-are-harming-mathematics/"
+      },
+      "sources": [
+        {
+          "label": "Math and AI (declaration)",
+          "url": "https://mathandai.org/",
+          "kind": "primary",
+          "time": "2026-09-11T19:45:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49662371",
+          "kind": "article",
+          "time": "2026-09-11T19:45:00+02:00"
+        },
+        {
+          "label": "New Scientist",
+          "url": "https://www.newscientist.com/article/2588329-terence-tao-ai-companies-are-harming-mathematics/",
+          "kind": "article"
+        },
+        {
+          "label": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/opinion/article/2026/09/11/25-fields-medalists-warn-the-goals-of-the-ai-companies-and-the-goals-of-the-mathematical-community-are-severely-misaligned_6757433_23.html",
+          "kind": "article",
+          "time": "2026-09-11T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "enflame-shanghai-debut",
+      "title": "Tencent-backed Enflame closes +179% on Shanghai STAR debut",
+      "topics": [
+        "AI",
+        "China",
+        "Hardware"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Reuters: Shanghai Enflame Technology (688801.SS) closed at 397 yuan Friday, +179% vs 142.18 offer; opened 410, high 475; IPO raised 6.12 bn yuan (~$912M).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Market value ~171 bn yuan at the close (~2.8× IPO valuation); one of China’s “four little GPU dragons”; Tencent largest shareholder (~17.95%) and ~84% of 2025 revenue.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Still unprofitable (2025 net loss narrowed to 1.16 bn yuan); plans proceeds for 5th/6th-gen AI chips; Golem also flagged the 179% jump in the German tech feed.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Another domestic-AI-chip listing that nearly triples on day one while Beijing pushes Nvidia alternatives — scarcity premium, thin float, and policy all in one tape.",
+      "image": {
+        "url": "https://d.ibtimes.com/en/full/4652663/enflame.jpg",
+        "alt": "Enflame AI chip booth coverage",
+        "credit": "IBTimes",
+        "creditUrl": "https://www.ibtimes.com/chinas-nvidia-rival-just-hit-stock-market-enflame-riding-ai-chip-boom-soaring-3807365"
+      },
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/tencent-backed-enflame-open-up-188-shanghai-debut-after-912-million-ipo-2026-09-11/",
+          "kind": "article",
+          "time": "2026-09-11T03:33:00+02:00"
+        },
+        {
+          "label": "Golem",
+          "url": "https://www.golem.de/news/ipo-chinese-nvidia-challenger-enflame-jumps-179-in-shanghai-market-debut-2609-212927.html",
+          "kind": "article",
+          "time": "2026-09-11T18:00:00+02:00"
+        },
+        {
+          "label": "IBTimes",
+          "url": "https://www.ibtimes.com/chinas-nvidia-rival-just-hit-stock-market-enflame-riding-ai-chip-boom-soaring-3807365",
+          "kind": "article",
+          "time": "2026-09-11T14:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "prien-kids-social-media",
+      "title": "Prien: kids’ digital-protection report → Kabinett; age rules still vague",
+      "topics": [
+        "Germany",
+        "Policy",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "heise / ZEIT: Bildungs- und Familienministerin Karin Prien took the Expertenkommission’s Abschlussbericht (56 recommendations) Friday and will bring it to Kabinett next week.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Eckpunkte for SGB VIII / Jugendschutzgesetz changes targeted mid-October; a Sofortprogramm (incl. “KI-Seepferdchen” for Grundschule) should start still in 2026.",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Prien keeps pushing a Social-Media Altersgrenze (~13) plus platform safety-by-design; the commission itself stayed split between a hard age floor and offer-by-offer limits — EU speech from von der Leyen due Wednesday.",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Germany is finally putting a clock on kids’ social-media rules — but the hard numbers still wait on Brussels and October Eckpunkte.",
+      "image": {
+        "url": "https://img.br.de/e7f38d12-c199-4f4f-a555-1d004e4a8abf.jpeg?q=80&rect=0%2C527%2C4989%2C2806&w=1600&h=900",
+        "alt": "Karin Prien (CDU), Bundesministerin für Bildung, Familie, Senioren, Frauen und Jugend",
+        "credit": "BR24",
+        "creditUrl": "https://www.br.de/nachrichten/deutschland-welt/priens-plaene-handyverbot-ki-seepferdchen-social-media-ab-13,VUv43Fz"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/hintergrund/Social-Media-und-Kinder-Prien-will-zuegig-ins-Kabinett-bleibt-aber-weiter-vage-11450565.html",
+          "kind": "article",
+          "time": "2026-09-11T17:30:00+02:00"
+        },
+        {
+          "label": "DIE ZEIT / dpa",
+          "url": "https://www.zeit.de/bildung/2026-09/kinder-jugendschutz-social-media-karin-prien-cdu-mindestalter-handyverbot",
+          "kind": "article",
+          "time": "2026-09-11T13:57:00+02:00"
+        },
+        {
+          "label": "BR24",
+          "url": "https://www.br.de/nachrichten/deutschland-welt/priens-plaene-handyverbot-ki-seepferdchen-social-media-ab-13,VUv43Fz",
+          "kind": "article",
+          "time": "2026-09-11T18:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "claude-age-assurance-spike",
+      "title": "Claude 18+ age assurance hits HN after Yoti verification wave",
+      "topics": [
+        "AI",
+        "Security",
+        "Policy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Anthropic Help Center (consumer Claude): product is 18+ only; accounts flagged for possible minor use must verify age via Yoti (selfie estimate, ID photo, or Yoti Digital ID) before reinstatement.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Anthropic says it only gets pass/fail from Yoti — not the selfie/ID images — and will disable accounts on indicators of under-18 activity.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN tonight: “Claude is only available to people over 18 years” ~470 points / 520 comments pointing at the help article — a fresh enforcement/visibility spike, not a brand-new policy page (dated May 18).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Age-gating plus third-party biometrics is becoming table stakes for consumer AI — and tonight’s HN pile-on shows how sharp the lockouts feel when the filter trips.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Anthropic Help Center",
+          "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+          "kind": "primary",
+          "time": "2026-05-18T12:00:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49656225",
+          "kind": "article",
+          "time": "2026-09-11T12:48:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers: Kyle Shanahan quietly signed a multiyear extension in the offseason (Pelissero / ESPN) — terms undisclosed; prior deal ran through 2027 — news lands after SF’s Week 1 win over the Rams in Australia.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "BVB: BMI answer to Grünen-MdB Helge Limburg — Feb Ausreiseuntersagungen before Atalanta Bergamo were unlawful; 4/5 Verwaltungsgericht Eilverfahren found the legal bar unmet (5th settled without merits ruling).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: after 12 goals conceded in three Pflichtspiele, coach Lars Kornetka brought Braunschweig Lions (GFL) players/coach into training for physicality/set-piece cues ahead of Dresden.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/zr8oxrwiuoq9g3754ntu",
+        "alt": "Kyle Shanahan",
+        "credit": "NFL.com",
+        "creditUrl": "https://www.nfl.com/news/49ers-give-hc-kyle-shanahan-multiyear-contract-extension"
+      },
+      "sources": [
+        {
+          "label": "NFL.com",
+          "url": "https://www.nfl.com/news/49ers-give-hc-kyle-shanahan-multiyear-contract-extension",
+          "kind": "article",
+          "time": "2026-09-11T22:00:00+02:00"
+        },
+        {
+          "label": "WDR",
+          "url": "https://www1.wdr.de/sport/bvb/ausreiseverbot-bvb-fans-rechtswidrig100.html",
+          "kind": "article",
+          "time": "2026-09-11T20:12:00+02:00"
+        },
+        {
+          "label": "t-online Braunschweig",
+          "url": "https://braunschweig.t-online.de/region/braunschweig/id_101432110/eintracht-braunschweig-abwehr-wackelt-ungewoehnliche-trainingsmassnahme.html",
+          "kind": "article",
+          "time": "2026-09-11T19:17:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "OpenAI Status (new since afternoon): ~1% of ChatGPT Work (mobile/web) turns failing on existing threads — investigating / degraded as of ~17:17 UTC.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: Herdr — a terminal multiplexer aimed at herding fleets of coding agents.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "netzpolitik: Omas gegen Rechts — “Wir machen weiter. Es gibt keine andere Option.”",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Substack tip: The AI Corner on OpenAI collapsing agent-harness work into a config block.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "PetaPixel: Atomos Shinobi 7 II — brightest Shinobi monitor yet.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://cdn.netzpolitik.org/wp-upload/2026/09/cover-ogr1.jpg",
+        "alt": "Vier Frauen im Vordergrund tragen Westen mit dem Schriftzug „Omas gegen Rechts“. Vor ihnen eine Demonstration.",
+        "credit": "netzpolitik.org",
+        "creditUrl": "https://netzpolitik.org/2026/omas-gegen-rechts-wir-machen-weiter-es-gibt-keine-andere-option/"
+      },
+      "sources": [
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M28MEQWTQJDRCRPFD9FWQ0H3",
+          "kind": "primary",
+          "time": "2026-09-11T19:17:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Herdr-Terminal-Multiplexer-sortiert-Flotten-von-Coding-Agenten-11448520.html",
+          "kind": "article",
+          "time": "2026-09-11T18:26:00+02:00"
+        },
+        {
+          "label": "netzpolitik.org",
+          "url": "https://netzpolitik.org/2026/omas-gegen-rechts-wir-machen-weiter-es-gibt-keine-andere-option/",
+          "kind": "article",
+          "time": "2026-09-11T18:42:00+02:00"
+        },
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/you-spent-2-months-building-an-agent",
+          "kind": "article",
+          "time": "2026-09-11T16:49:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/11/atomos-new-shinobi-7-ii-is-its-brightest-shinobi-monitor-yet/",
+          "kind": "article",
+          "time": "2026-09-11T22:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Playwright: merged feat(mcp) `--image-responses=only` to return images without the text part (#42672).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "TypeScript: merged `[api] Add program.getResolvedModule and similar` (#64247).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "bun: merged `node:net` fix for `tls.connect({ socket })` and onread on readable:false sockets (#42265).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "r/programming tip: Watching untrusted code inside a microVM (eBPF + MicroVM).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "HN: Measuring the sloppiness of code (earendil) — ~199 points.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/06e3e0ce05b23714c4967691a7e5fe86618d1cbc0665bb1dcde2db9e6b4fc78e/microsoft/playwright/pull/42672",
+        "alt": "Summary --image-responses now accepts only: a response that carries an image consists of the image parts alone, without the text part Same value is accepted via the config file and PLAYWRIGHT_MCP_...",
+        "credit": "Playwright #42672",
+        "creditUrl": "https://github.com/microsoft/playwright/pull/42672"
+      },
+      "sources": [
+        {
+          "label": "Playwright #42672",
+          "url": "https://github.com/microsoft/playwright/pull/42672",
+          "kind": "primary",
+          "time": "2026-09-11T18:02:00+02:00"
+        },
+        {
+          "label": "TypeScript #64247",
+          "url": "https://github.com/microsoft/TypeScript/pull/64247",
+          "kind": "primary",
+          "time": "2026-09-11T22:21:00+02:00"
+        },
+        {
+          "label": "bun #42265",
+          "url": "https://github.com/oven-sh/bun/pull/42265",
+          "kind": "primary",
+          "time": "2026-09-11T20:21:00+02:00"
+        },
+        {
+          "label": "abhid.me (eBPF + MicroVM)",
+          "url": "https://www.abhid.me/writings/watching-untrusted-code-inside-a-microvm",
+          "kind": "article",
+          "time": "2026-09-11T21:40:00+02:00",
+          "via": {
+            "label": "r/programming",
+            "url": "https://www.reddit.com/r/programming/comments/1wdqhym/ebpf_microvm/",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "earendil (code sloppiness)",
+          "url": "https://earendil.com/posts/measuring-code-sloppiness/",
+          "kind": "article",
+          "time": "2026-09-11T15:42:00+02:00",
+          "via": {
+            "label": "Hacker News",
+            "url": "https://news.ycombinator.com/item?id=49658311",
+            "kind": "article"
+          }
+        }
+      ]
+    }
+  ]
+}
