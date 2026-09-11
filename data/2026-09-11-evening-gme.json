@@ -1,0 +1,794 @@
+{
+  "id": "2026-09-11-evening-gme",
+  "parentId": "2026-09-11-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-11T22:35:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "Fri US cash close; Cohen Form 4 confirmed; X voices skipped (credits depleted)",
+  "headline": "Cohen Form 4 lands: 1M shares (~$20M) Thu; GME cash closes $21.15 (+3.7%).",
+  "stance": "mixed",
+  "stanceWhy": "Afternoon’s unmatched Cohen-buy headlines are now matched by a Sept 10 Form 4 (1M shares @ ~$20.38). Friday’s tape followed that disclosure higher; Superstonk is still mostly junk/news noise and X voices stay dark on depleted credits. Not advice.",
+  "disclaimer": "Today's read from the news, not investment advice.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 21.15,
+    "change": 0.76,
+    "changePct": 3.727,
+    "currency": "USD",
+    "dayHigh": 21.35,
+    "dayLow": 20.84,
+    "prevClose": 20.39,
+    "volume": 9745825,
+    "week52High": 28.1,
+    "week52Low": 17.79,
+    "asOf": "2026-09-11T20:00:02+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-03-12",
+      "c": 24.43
+    },
+    {
+      "t": "2026-03-13",
+      "c": 23.53
+    },
+    {
+      "t": "2026-03-16",
+      "c": 23.28
+    },
+    {
+      "t": "2026-03-17",
+      "c": 23.59
+    },
+    {
+      "t": "2026-03-18",
+      "c": 23.36
+    },
+    {
+      "t": "2026-03-19",
+      "c": 23.23
+    },
+    {
+      "t": "2026-03-20",
+      "c": 22.57
+    },
+    {
+      "t": "2026-03-23",
+      "c": 23.03
+    },
+    {
+      "t": "2026-03-24",
+      "c": 22.81
+    },
+    {
+      "t": "2026-03-25",
+      "c": 23.08
+    },
+    {
+      "t": "2026-03-26",
+      "c": 22.56
+    },
+    {
+      "t": "2026-03-27",
+      "c": 22.1
+    },
+    {
+      "t": "2026-03-30",
+      "c": 22.27
+    },
+    {
+      "t": "2026-03-31",
+      "c": 23.04
+    },
+    {
+      "t": "2026-04-01",
+      "c": 22.76
+    },
+    {
+      "t": "2026-04-02",
+      "c": 23.36
+    },
+    {
+      "t": "2026-04-06",
+      "c": 23.08
+    },
+    {
+      "t": "2026-04-07",
+      "c": 23.43
+    },
+    {
+      "t": "2026-04-08",
+      "c": 22.91
+    },
+    {
+      "t": "2026-04-09",
+      "c": 22.87
+    },
+    {
+      "t": "2026-04-10",
+      "c": 23.22
+    },
+    {
+      "t": "2026-04-13",
+      "c": 23.4
+    },
+    {
+      "t": "2026-04-14",
+      "c": 24.03
+    },
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
+    },
+    {
+      "t": "2026-09-04",
+      "c": 19.16
+    },
+    {
+      "t": "2026-09-08",
+      "c": 18.89
+    },
+    {
+      "t": "2026-09-09",
+      "c": 19.89
+    },
+    {
+      "t": "2026-09-10",
+      "c": 20.39
+    },
+    {
+      "t": "2026-09-11",
+      "c": 21.15
+    }
+  ],
+  "voices": [
+    {
+      "handle": "ryancohen",
+      "userId": "1146058067244486656",
+      "name": "Ryan Cohen",
+      "role": "CEO",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    },
+    {
+      "handle": "larryvc",
+      "userId": "26281090",
+      "name": "Larry Cheng",
+      "role": "Board",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    },
+    {
+      "handle": "TheRoaringKitty",
+      "userId": "2902349190",
+      "name": "Roaring Kitty",
+      "role": "Community",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "lastPostAt": null,
+    "lastPostUrl": null,
+    "lastPostText": null,
+    "quiet": true
+  },
+  "community": {
+    "asOf": "2026-09-11T22:25:05.142965+02:00",
+    "windowHours": 24,
+    "totals": {
+      "posts": 10,
+      "withOutbound": 3
+    },
+    "byKind": {
+      "dd": 0,
+      "daily": 0,
+      "news": 3,
+      "junk": 7
+    },
+    "posts": [
+      {
+        "title": "Good morning Superstonk! German markets are open!",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wd84u4/good_morning_superstonk_german_markets_are_open/",
+        "url": "https://www.tradegatebsx.com/orderbuch%5C_umsaetze.php?lang=en&isin=US36467W1099",
+        "updated": "2026-09-11T06:23:25+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "And GameStop on Instagram",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wdb9la/and_gamestop_on_instagram/",
+        "url": "https://www.instagram.com/p/DdHTYaPlMKG/",
+        "updated": "2026-09-11T09:26:20+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "🚨NEW HI SCORE🚨 For the First Time In History, *Reported Broker/Dealer Short Selling Liability Crosses $1T, Adding an Astounding $194B (+20%) in 2026-Q2",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wdo23b/new_hi_score_for_the_first_time_in_history/",
+        "url": "https://fred.stlouisfed.org/series/BOGZ1FL664140660Q",
+        "updated": "2026-09-11T18:14:18+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "💲 G M E 💵 MOASS Sneeze 3 - Post 1 of 3 (The Start)",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wd1y56/g_m_e_moass_sneeze_3_post_1_of_3_the_start/",
+        "url": null,
+        "updated": "2026-09-11T01:18:30+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "Everything is fine….",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wd2p6p/everything_is_fine/",
+        "url": null,
+        "updated": "2026-09-11T01:51:57+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "Federal Reserve being sued for secretly rigging rules making process with JP Morgan, Goldman Sacks on capital ratios.",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wdd9e9/federal_reserve_being_sued_for_secretly_rigging/",
+        "url": null,
+        "updated": "2026-09-11T11:13:12+00:00",
+        "kind": "junk"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-09-03",
+        "posts": 8,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 6
+      },
+      {
+        "date": "2026-09-04",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 5,
+        "junk": 5
+      },
+      {
+        "date": "2026-09-05",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 0,
+        "junk": 9
+      },
+      {
+        "date": "2026-09-06",
+        "posts": 4,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 3
+      },
+      {
+        "date": "2026-09-07",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 8
+      },
+      {
+        "date": "2026-09-08",
+        "posts": 10,
+        "dd": 4,
+        "daily": 0,
+        "news": 1,
+        "junk": 5
+      },
+      {
+        "date": "2026-09-09",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-09-10",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-09-11",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 3,
+        "junk": 7
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "cohen-form4-1m",
+      "title": "Cohen Form 4: 1,000,000 shares open-market on Sept 10",
+      "topics": [
+        "GME",
+        "Insider"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "SEC Form 4 (filed for Ryan Cohen, President/CEO/Chairman): purchased 1,000,000 Class A shares on 2026-09-10 at a weighted average $20.3759 (range $20.0199–$20.4699).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Direct ownership after the buy: 39,347,842 shares; with 3,734,784 warrants, beneficial ownership cited around 43.08M / ~8.5% of shares outstanding.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Yahoo / market wrap: GME rose ~4% on the session after the disclosure; Friday cash close $21.15 (+3.73% vs Thu $20.39) on ~9.7M volume.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Context vs afternoon desk: earlier Cohen-$20M headlines lacked a matched Form 4 — that gap is closed tonight; no fresh IR press release beyond the filing.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Largest insider buy signal of the week for GME, and the tape actually noticed — without needing X amplification.",
+      "image": {
+        "url": "https://static.stocktitan.net/filing-covers/gme_FORM-4.webp",
+        "alt": "GameStop CEO Ryan Cohen buys 1M shares",
+        "credit": "StockTitan (Form 4 summary)",
+        "creditUrl": "https://www.stocktitan.net/sec-filings/GME/form-4-game-stop-corp-insider-trading-activity-222190239941.html"
+      },
+      "sources": [
+        {
+          "label": "SEC Form 4 (Cohen)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326380/000092189526002531/xslF345X06/form413177gme_09102026.xml",
+          "kind": "primary",
+          "time": "2026-09-10T20:00:00+02:00"
+        },
+        {
+          "label": "StockTitan (Form 4 summary)",
+          "url": "https://www.stocktitan.net/sec-filings/GME/form-4-game-stop-corp-insider-trading-activity-222190239941.html",
+          "kind": "article",
+          "time": "2026-09-11T00:00:00+02:00"
+        },
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-stock-rises-4-cohen-172758374.html",
+          "kind": "article",
+          "time": "2026-09-11T19:27:00+02:00"
+        },
+        {
+          "label": "Yahoo Finance (quote)",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary",
+          "time": "2026-09-11T22:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
