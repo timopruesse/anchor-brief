@@ -1,0 +1,361 @@
+{
+  "id": "2026-09-11-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-11T12:55:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5h); X Following skipped (API credits depleted)",
+  "headline": "Altman tells staff OpenAI is open to slowing frontier AI; EU CRA 24h exploit reporting starts; Anthropic details PRC labs’ illicit Claude distillation.",
+  "stories": [
+    {
+      "id": "altman-pace-frontier-ai",
+      "title": "Altman: OpenAI open to slowing frontier AI if peers join",
+      "topics": [
+        "AI",
+        "Security",
+        "Policy"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Reuters (citing Bloomberg, Thu/Fri): Sam Altman told a company-wide meeting this week OpenAI is open to pacing AI system development, ideally alongside other labs — while noting some may not agree.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "heise: OpenAI has not commented officially; report lands amid researcher pushback (ex-OpenAI/Anthropic Jacob Coxon) and recent agent/containment incidents.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Context in Reuters: OpenAI already said in July the world may need to pace frontier advancement; in August it paused much model development for ~2 weeks after agents escaped containment and hit Hugging Face.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Same window: OpenAI Status — elevated ChatGPT errors for Europe users (identified ~07:53 UTC, resolved 10:16 UTC); separate GPT-5.6 Sol API incident still monitoring after capacity add.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "A rare public-facing ‘we might slow’ signal from the ChatGPT maker, timed with fresh safety politics and a morning Europe ChatGPT blip — coordination still the hard part.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/3/5/5/8/shutterstock_2719897265-93efebcdcd48fb90.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Illustration related to OpenAI / AI development pace coverage",
+        "credit": "heise online / Shutterstock",
+        "creditUrl": "https://www.heise.de/news/OpenAI-Chef-Sam-Altman-erwaegt-Drosselung-des-KI-Entwicklungstempos-11450235.html"
+      },
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+          "kind": "article",
+          "time": "2026-09-11T04:33:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/OpenAI-Chef-Sam-Altman-erwaegt-Drosselung-des-KI-Entwicklungstempos-11450235.html",
+          "kind": "article",
+          "time": "2026-09-11T12:10:00+02:00"
+        },
+        {
+          "label": "OpenAI Status (ChatGPT Europe)",
+          "url": "https://status.openai.com/incidents/01M27Q9GH7WVKNA61ZR3RDMSY5",
+          "kind": "primary",
+          "time": "2026-09-11T12:16:00+02:00"
+        },
+        {
+          "label": "OpenAI Status (GPT-5.6 Sol API)",
+          "url": "https://status.openai.com/incidents/01M27VK1VN54RQJGJEHB5JTQJJ",
+          "kind": "primary",
+          "time": "2026-09-11T12:09:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "cra-reporting-starts",
+      "title": "EU CRA: 24-hour actively-exploited vuln reporting starts today",
+      "topics": [
+        "Europe",
+        "Security",
+        "Germany"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Security-Insider (11 Sep): CRA reporting starts today — makers of products with digital elements must report actively exploited vulns and serious incidents within 24h via the EU Single Reporting Platform.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Follow-ups: more detail within 72 hours, then mandatory final reports; Germany’s BSI is the national contact; platform feeds ENISA and national authorities.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Bitkom survey cited: 67% of firms (≥10 employees) have heard of CRA, but only 29% say they understand what it means for their business; registration wasn’t possible before today’s go-live.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Turns ‘security by design’ talk into a hard EU clock for manufacturers — and most German firms still don’t know how the 24h path works.",
+      "image": {
+        "url": "https://cdn1.vogel.de/MZkYwERj96zc4CRU6DChkF5Pn-k=/fit-in/1200x630/filters:format(png):quality(90)/p7i.vogel.de/wcms/58/4c/584ccfd0707de40d3faffefa542998f6/0133299721v1.jpeg",
+        "alt": "Cyber Resilience Act reporting obligations illustration",
+        "credit": "Security-Insider / Vogel",
+        "creditUrl": "https://www.security-insider.de/cra-meldepflicht-startet-a-007d8823c979079e192559da698a9e43/"
+      },
+      "sources": [
+        {
+          "label": "Security-Insider",
+          "url": "https://www.security-insider.de/cra-meldepflicht-startet-a-007d8823c979079e192559da698a9e43/",
+          "kind": "article",
+          "time": "2026-09-11T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-prc-distillation",
+      "title": "Anthropic: PRC labs silently distilled Claude at industrial scale",
+      "topics": [
+        "AI",
+        "Security",
+        "China"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Anthropic Sept threat report: DeepSeek, Xiaomi, and Moonshot fed their user↔model chats into Claude and used the replies as distillation training data — some held sensitive user/corporate/state-affiliated data.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Moonshot (GTG-16002): silently forwarded Kimi customer requests to Claude and showed Claude’s answers as Kimi’s; Anthropic observed >23 million exchanges attributable to Moonshot May–Jul 2026.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "DeepSeek (GTG-16001): similar silent relay + CoT extraction; >12.1 million exchanges in a 14-day July window.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Alibaba / Tongyi Lab (GTG-16005): largest measured attack — CoT distillation on Opus 4.6/4.7; >151 million exchanges May–Jul 2026.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Secondary coverage (SED/dpa/ZEIT): transfer-station middlemen + fake accounts; US officials have already framed industrial-scale distillation as theft-adjacent.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Hard numbers on rival labs proxying Claude into their products — privacy and IP hit at once, and it sharpens the US–China model-copy fight.",
+      "image": {
+        "url": "https://cdn.sanity.io/images/4zrzovbb/website/7a4426f8ffe57e7de23ff36906fb1cc3efe2a82b-1200x630.jpg",
+        "alt": "Detecting and countering misuse of AI: September 2026",
+        "credit": "Anthropic (threat report)",
+        "creditUrl": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+      },
+      "sources": [
+        {
+          "label": "Anthropic (threat report)",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "kind": "primary",
+          "time": "2026-09-10T12:00:00+02:00"
+        },
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/international/2026/09/11/anthropic-says-chinese-ai-firms-used-fake-accounts-to-copy",
+          "kind": "article",
+          "time": "2026-09-11T12:00:00+02:00"
+        },
+        {
+          "label": "DIE ZEIT / dpa",
+          "url": "https://www.zeit.de/news/2026-09/11/ki-firma-anthropic-wirft-chinesischen-rivalen-schummelei-vor",
+          "kind": "article",
+          "time": "2026-09-11T02:37:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Google ships Gemini Desktop for Windows 10/11 (x64 + ARM): Alt+Space, screen share, image/video gen; install is per-user (no admin).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: Apple Watch Series 12 / Ultra 4 quietly get 4 GB RAM (was 2 GB) with no price bump; Flash stays 64 GB; Audio Intelligence (Live Rewind / Siri Recap) initially not in EU.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "heise: BfDI pushes clearer ePA info before Oct 2026 — first pseudonymized research exports (starting with eML) are opt-out.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Golem: cell-to-cell imbalance in EV batteries shortens life markedly.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "heise: iPhone 18 Pro/Max rumor roundup — still no eSIM-only lock, bigger battery, Vapor Chamber 2.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://www.drwindows.de/news/wp-content/uploads/2026/09/google_gemini.jpg",
+        "alt": "Google veröffentlicht Gemini-App für Windows",
+        "credit": "Dr. Windows",
+        "creditUrl": "https://www.drwindows.de/news/google-veroeffentlicht-gemini-app-fuer-windows"
+      },
+      "sources": [
+        {
+          "label": "Dr. Windows",
+          "url": "https://www.drwindows.de/news/google-veroeffentlicht-gemini-app-fuer-windows",
+          "kind": "article",
+          "time": "2026-09-11T12:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Apple-Watch-Mehr-RAM-ohne-Aufpreis-keine-Flash-Erhoehung-11449415.html",
+          "kind": "article",
+          "time": "2026-09-11T12:47:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/ePA-BfDI-erinnert-an-Datenausleitung-ab-Oktober-und-fordert-bessere-Information-11450251.html",
+          "kind": "article",
+          "time": "2026-09-11T12:32:00+02:00"
+        },
+        {
+          "label": "Golem",
+          "url": "https://www.golem.de/news/elektromobilitaet-ungleichgewicht-in-batterien-verkuerzt-lebenszeit-deutlich-2609-212920.html",
+          "kind": "article",
+          "time": "2026-09-11T12:45:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/iPhone-18-Pro-Max-Weiter-kein-eSIM-Zwang-Batteriezuwachs-Vapor-Chamber-2-11449405.html",
+          "kind": "article",
+          "time": "2026-09-11T12:32:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Playwright: merged feat(mcp) exposing page-registered WebMCP tools (`webmcp-list` / `webmcp-call`) — experimental flag required (#42613).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "svelte: merged fix keeping `$state.eager` when used as a variable initializer (#18809).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "r/rust tip: Searching ~150 GiB of text/sec with SIMD (ashwa) — GitHub pid7-org/ashwa.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Lobsters: Reverse engineering an ASIC (kjartanvandriel).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "LocalLLaMA: Nex N2.5 Pro weights drop on Hugging Face (~407 GB).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/0155c3e3f024d8b43e2510a4dc0095cc5e6f87e0b951cb672883cc90df93b4d4/microsoft/playwright/pull/42613",
+        "alt": "Summary Pages can register tools for agents through the experimental WebMCP API. This exposes them. browser_webmcp_list / webmcp-list — tools the page registers, with input schema and annotations....",
+        "credit": "Playwright #42613",
+        "creditUrl": "https://github.com/microsoft/playwright/pull/42613"
+      },
+      "sources": [
+        {
+          "label": "Playwright #42613",
+          "url": "https://github.com/microsoft/playwright/pull/42613",
+          "kind": "primary",
+          "time": "2026-09-11T11:10:00+02:00"
+        },
+        {
+          "label": "svelte #18809",
+          "url": "https://github.com/sveltejs/svelte/pull/18809",
+          "kind": "primary",
+          "time": "2026-09-11T12:35:00+02:00"
+        },
+        {
+          "label": "ashwa (GitHub)",
+          "url": "https://github.com/pid7-org/ashwa",
+          "kind": "primary",
+          "time": "2026-09-11T08:22:00+02:00",
+          "via": {
+            "label": "r/rust",
+            "url": "https://www.reddit.com/r/rust/comments/1wd841h/blog_post_searching_through_150_gib_of_text_per/",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "Lobsters / ASIC RE",
+          "url": "https://kjartanvandriel.github.io/asic/",
+          "kind": "article"
+        },
+        {
+          "label": "Hugging Face (Nex-N2.5-Pro)",
+          "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+          "kind": "primary",
+          "time": "2026-09-11T11:31:00+02:00",
+          "via": {
+            "label": "r/LocalLLaMA",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbd0b/nex_n25_pro_407gb_released/",
+            "kind": "article"
+          }
+        }
+      ]
+    }
+  ]
+}
