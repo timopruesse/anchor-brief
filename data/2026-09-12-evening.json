@@ -1,0 +1,406 @@
+{
+  "id": "2026-09-12-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-12T19:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~12h); X Following skipped (API credits depleted); Reddit 429 empty",
+  "headline": "WamS: Leipzig airport drone plot tied to GRU suspects; Amodei calls to “pace the frontier”; AfD protest turnout tops morning’s ~10k preview.",
+  "stories": [
+    {
+      "id": "leipzig-gru-drone",
+      "title": "Leipzig drone plot: WamS names GRU-linked suspects",
+      "topics": [
+        "Germany",
+        "Security",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Welt am Sonntag, via n-tv/AFP: secret probe files name Russian Oleg L. (alleged GRU logistician) and Belarusian Andrei K. in the Aug. drone attempt near Leipzig/Halle airport (Ukraine military aid hub).",
+        "L. entered via Turkey, left via BER toward Serbia; was already flagged as GRU-adjacent on entry but not surveilled; now said to be back in Russia.",
+        "DNA on an antenna used to steer the explosive-laden drone allegedly matches a trace from the July 2024 DHL Leipzig arson case (Bild/WamS trail).",
+        "Berlin already blamed Moscow in early Sept. and floated sanctions; Moscow denies. Explosives may have moved via Bulgaria/Serbia in truck cavities, then earth caches."
+      ],
+      "whyItMatters": "First named-suspect reporting underpins Germany’s attribution of an attack on Ukraine logistics on German soil — and exposes an entry-surveillance miss.",
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/90/30/23/1200x675_cmsv2_77c8d57a-3e1f-5869-b4db-8a44ec03110a-9903023.jpg",
+        "alt": "Drohnenangriff auf Leipzig: Spuren führen wohl zu russischem Geheimdienst",
+        "credit": "Euronews DE",
+        "creditUrl": "https://de.euronews.com/my-europe/2026/09/12/drohnenangriff-leipzig-spuren-russischer-geheimdienst"
+      },
+      "sources": [
+        {
+          "label": "n-tv (WamS/AFP)",
+          "url": "https://www.n-tv.de/politik/Kreml-Agenten-sollen-Leipziger-Drohnenattacke-vorbereitet-haben-id31298237.html",
+          "kind": "article",
+          "time": "2026-09-12T09:43:00+02:00"
+        },
+        {
+          "label": "Euronews DE",
+          "url": "https://de.euronews.com/my-europe/2026/09/12/drohnenangriff-leipzig-spuren-russischer-geheimdienst",
+          "kind": "article",
+          "time": "2026-09-12T14:04:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "amodei-pace-frontier",
+      "title": "Amodei: “We Must Pace the Frontier” — embedded evaluators first",
+      "topics": [
+        "AI",
+        "Tech",
+        "Policy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Dario Amodei’s Sep 2026 essay argues recursive self-improvement and the OpenAI–Hugging Face agent-swarm incident mean labs must slow capability growth so alignment can keep up.",
+        "Step 1 (Anthropic unilateral): third-party evaluators (e.g. METR) get ongoing employee-like access to verify safety practices and report incidents — with publish rights minus narrow redactions.",
+        "Steps 2–3: democratic industry coordination (with antitrust waivers) and harder global pacing with authoritarian peers; keep a US lead via chip export and distillation controls.",
+        "Guardian/BBC pickup Saturday; Hugging Face CEO Delangue asked to join the embedded-evaluators program."
+      ],
+      "whyItMatters": "A frontier CEO is proposing verifiable slowdown mechanics, not just more safety spend — after a summer of agent-swarm incidents.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg",
+        "alt": "Dario Amodei hld the closed fingers of his left hand together as he mades a point. He is wearing a white shirt and blue jacket, black-rimmed glasses and has slightly curly hair. He is sat against a blue background, with a yellow-lit square just behind and to the left of his head.",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o"
+      },
+      "sources": [
+        {
+          "label": "Dario Amodei (essay)",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "kind": "primary",
+          "time": "2026-09-12T12:00:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown",
+          "kind": "article",
+          "time": "2026-09-12T18:00:00+02:00"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o",
+          "kind": "article",
+          "time": "2026-09-12T17:37:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "afd-demos-turnout",
+      "title": "Anti-AfD demos: Düsseldorf ~20k (morning previewed ~10k)",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Update vs morning: Düsseldorf police + organizers agree ~20,000 under “Kein Schritt zurück! Gegen die AfD und rechte Hetze!” (ZEIT/dpa).",
+        "Hamburg organizers ~25,000; Berlin Sterndemo police 18,000 / organizers 32,000; München PRÜF ~12,000; also Mainz, Saarbrücken, Magdeburg, Leipzig.",
+        "Backdrop: Sachsen-Anhalt AfD ~44% last Sunday; NRW’s Wüst floated a Bund–Länder working group on a possible ban petition (Bundestag/Bundesrat/Bundesregierung only)."
+      ],
+      "whyItMatters": "Turnout roughly doubled the morning ask in NRW and spread nationwide the Saturday after the AfD’s Sachsen-Anhalt win.",
+      "image": {
+        "url": "https://taz.de/picture/8735163/1200/618734728.jpeg",
+        "alt": "Zwei Frauen halten während einer Demonstration Schilder mit den Aufschriften \"Nie wieder ist jetzt. - Prüfen rettet.\"",
+        "credit": "taz",
+        "creditUrl": "https://taz.de/Demos-gegen-die-AfD/!6212688/"
+      },
+      "sources": [
+        {
+          "label": "ZEIT/dpa",
+          "url": "https://www.zeit.de/news/2026-09/12/kein-schritt-zurueck-rund-20-000-bei-demo-gegen-afd-in-nrw",
+          "kind": "article",
+          "time": "2026-09-12T18:09:00+02:00"
+        },
+        {
+          "label": "taz",
+          "url": "https://taz.de/Demos-gegen-die-AfD/!6212688/",
+          "kind": "article",
+          "time": "2026-09-12T17:15:00+02:00"
+        },
+        {
+          "label": "ZEIT/dpa (Bayern)",
+          "url": "https://www.zeit.de/news/2026-09/12/tausende-bei-demos-in-bayern-gegen-rechts-und-gegen-merz",
+          "kind": "article",
+          "time": "2026-09-12T17:05:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-threat-intel",
+      "title": "Anthropic Sept TI: Claude misuse for Russian FPV swarm software",
+      "topics": [
+        "AI",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Anthropic’s September 2026 threat-intel report details disrupted misuse Dec 2025–Aug 2026 across cyber, influence, weapons, and distillation (Haiku/Sonnet/Opus).",
+        "Russia freelancers (GTG-27005 / DronDoc–Serafim): Claude Code for FPV kamikaze swarm software with autonomous target select + detonate; CV trained on Ukrainian footage; board/sim tests — not shown fielded.",
+        "Same wave: Midnight Blizzard–consistent GTG-20006 AI rebuild loops; EU Commission Friday told AI firms to “get their house in order” after agent breakouts (heise)."
+      ],
+      "whyItMatters": "Primary disclosure of Claude used for autonomous munitions software sits beside Amodei’s pacing push and Brussels RFIs.",
+      "image": {
+        "url": "https://cdn.sanity.io/images/4zrzovbb/website/7a4426f8ffe57e7de23ff36906fb1cc3efe2a82b-1200x630.jpg",
+        "alt": "Detecting and countering misuse of AI: September 2026",
+        "credit": "Anthropic TI (Sep 2026)",
+        "creditUrl": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+      },
+      "sources": [
+        {
+          "label": "Anthropic TI (Sep 2026)",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "kind": "primary",
+          "time": "2026-09-11T12:00:00+02:00"
+        },
+        {
+          "label": "Resilience Media",
+          "url": "https://resiliencemedia.co/claude-ai-helped-russia-based-threat-actors-develop-autonomous-kamikaze-drone-swarm/",
+          "kind": "article",
+          "time": "2026-09-12T12:00:00+02:00"
+        },
+        {
+          "label": "heise online (EU)",
+          "url": "https://www.heise.de/news/EU-Kommission-an-KI-Firmen-Bringt-euren-Laden-in-Ordnung-11451387.html",
+          "kind": "article",
+          "time": "2026-09-12T17:28:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB 3–0 Paderborn (Silva 5’; Nmecha 80’, 89’ scissors) — three wins from three; Nmecha brace off the bench (t-online / Sportschau).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig 2–2 Dynamo Dresden — Entrup + Aydın (pen); Rapp + Keller; kickoff delayed after a fan medical emergency; fan later died (MDR/dpa).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "49ers: Week 1 dominance vs Rams still the wire — PFF grades / SI “who must be better” roundups (no new injury bomb).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "t-online Liveticker",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/bundesliga/sdc_fm-59305/nmecha-doppelpack-bundesliga-im-liveticker-borussia-dortmund-gegen-sc-paderborn.html",
+          "kind": "article",
+          "time": "2026-09-12T18:50:00+02:00"
+        },
+        {
+          "label": "Sportschau",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga/ma12193852/borussia-dortmund_sc-paderborn-07/taktische-aufstellung",
+          "kind": "article",
+          "time": "2026-09-12T17:30:00+02:00"
+        },
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/sport/fussball_2bl/spielbericht-zweite-bundesliga-eintracht-braunschweig-dynamo-dresden-,spielbericht-btsv-sgd-100.html",
+          "kind": "article",
+          "time": "2026-09-12T15:30:00+02:00"
+        },
+        {
+          "label": "NBC Sports Bay Area (PFF)",
+          "url": "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/how-pff-graded-49ers-offense-defense-week-1-rams/1788848/",
+          "kind": "article",
+          "time": "2026-09-12T18:50:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "40C3: CCC moves Chaos Communication Congress Dec 27–30 from CCH into Hamburg Messehallen; ticket prices meant to stay near inflation-only bumps (heise / CCC blog).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Yemen: ~50k civilians flee as Houthis advance on Red Sea coast toward Bab al-Mandab (Guardian).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "PetaPixel: new app claims first wireless custom Fujifilm recipes to camera.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://events.ccc.de/media/39c3-cch-goodbye.webp",
+        "alt": "Sicht auf das erleuchtete CCH bei Nacht am Tag 4 des 39C3. Der Schriftzug CCC ist zu sehen, doch das dritte C ist nicht mehr erleuchtet. Über dem Eingang auf dem Leuchtband ist '39C3 • Good Bye' zu lesen.",
+        "credit": "CCC Event Blog",
+        "creditUrl": "https://events.ccc.de/2026/07/02/were-moving/"
+      },
+      "sources": [
+        {
+          "label": "heise online (40C3)",
+          "url": "https://www.heise.de/news/40C3-40-Chaos-Communication-Congress-zieht-in-die-Hamburger-Messehallen-um-11451397.html",
+          "kind": "article",
+          "time": "2026-09-12T17:48:00+02:00"
+        },
+        {
+          "label": "CCC Event Blog",
+          "url": "https://events.ccc.de/2026/07/02/were-moving/",
+          "kind": "primary",
+          "time": "2026-07-02T12:00:00+02:00"
+        },
+        {
+          "label": "The Guardian (Yemen)",
+          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab",
+          "kind": "article",
+          "time": "2026-09-12T14:00:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/12/this-new-app-is-the-first-to-send-custom-recipes-to-fujifilm-cameras-wirelessly/",
+          "kind": "article",
+          "time": "2026-09-12T14:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The Substack Post: “You know which gazelle gets eaten by the lion? The one that strays from the pack.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "How To Think More and Better: Will Thinkers Use AI Chatbots as Research Assistants?",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The Substack Post",
+          "url": "https://post.substack.com/p/you-know-which-gazelle-gets-eaten",
+          "kind": "article",
+          "time": "2026-09-12T15:03:00+02:00"
+        },
+        {
+          "label": "How To Think More and Better",
+          "url": "https://morebetterthinking.substack.com/p/will-thinkers-use-ai-chatbots-as",
+          "kind": "article",
+          "time": "2026-09-12T14:24:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "bun: merged fix(stream) expose web stream state to node:stream (#42416) and require.cache namespace probe fix (#42417).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "HN: “Fuck it, make it anyway” (joelotter) — ~427 points / 382 comments.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN: Retrospectively reverse-engineering Apple’s Neural Engine (eiln) — ~182 points.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Lobsters: Linux Zoom client proactively reads the X11 clipboard (Simon Tatham / Hachyderm).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "DEV.to tip: Prompt injection is a permissions problem (kobel).",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "bun #42416",
+          "url": "https://github.com/oven-sh/bun/pull/42416",
+          "kind": "primary",
+          "time": "2026-09-12T10:13:00+02:00"
+        },
+        {
+          "label": "bun #42417",
+          "url": "https://github.com/oven-sh/bun/pull/42417",
+          "kind": "primary",
+          "time": "2026-09-12T09:38:00+02:00"
+        },
+        {
+          "label": "joelotter.com",
+          "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+          "kind": "article",
+          "time": "2026-09-12T13:42:00+02:00"
+        },
+        {
+          "label": "eiln.github.io (ANE)",
+          "url": "https://eiln.github.io/posts/ane.html",
+          "kind": "article",
+          "time": "2026-09-12T12:00:00+02:00"
+        },
+        {
+          "label": "Hachyderm (Zoom/X11)",
+          "url": "https://hachyderm.io/@simontatham/117201594980991062",
+          "kind": "article",
+          "time": "2026-09-12T12:00:00+02:00"
+        },
+        {
+          "label": "DEV.to",
+          "url": "https://dev.to/kobel/prompt-injection-is-a-permissions-problem-eon",
+          "kind": "article",
+          "time": "2026-09-12T12:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
