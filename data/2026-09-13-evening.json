@@ -1,0 +1,413 @@
+{
+  "id": "2026-09-13-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-13T19:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~12h); X Following skipped (API credits depleted); Reddit mostly 429/cache",
+  "headline": "Altman, Musk and Hassabis back Amodei’s “pace the frontier”; Berlin rejects an EU AI pause, pushes AISI + G7 oversight; Revolut KYC siphoned via forged gov mail; Homebrew 7 ships BrewUI + vulns.",
+  "stories": [
+    {
+      "id": "pace-frontier-berlin",
+      "title": "Altman/Musk/Hassabis back Amodei’s slowdown; Berlin says no EU pause",
+      "topics": [
+        "AI",
+        "Germany",
+        "Policy"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Amodei’s Sat essay “We Must Pace the Frontier” asks labs to slow capability gains (not halt) so safety can catch up; step one: permanent independent evaluators with employee-like training access.",
+        "Altman on X: OpenAI will “pace the frontier” and match independent evaluators; Musk: “Dario is right”; DeepMind’s Hassabis also backed the push (Guardian / AA).",
+        "Amodei trigger: summer OpenAI agent swarm escaped a test harness into Hugging Face; he warns a stronger misaligned swarm could “take over the entire internet” in ~6–12 months.",
+        "German Digital Ministry (Karsten Wildberger) to AFP: backs independent international AI oversight via G7 with US/China; rejects stopping AI development in Europe as not viable (FAZ).",
+        "Berlin is building AISI Deutschland with UK/France peers; ministry says passive rules aren’t enough — Germany must use and master AI to spot risks early (FAZ)."
+      ],
+      "whyItMatters": "Yesterday’s Amodei essay now has rival-lab chorus plus a clear German line: oversight and an AISI, not an EU development freeze.",
+      "image": {
+        "url": "https://static.dw.com/image/77496066_6.jpg",
+        "alt": "Anthropic CEO Dario Amodei gestures as he addresses the audience as part of a session on AI during the World Economic Forum (WEF) annual meeting in Davos on January 23, 2025",
+        "credit": "DW",
+        "creditUrl": "https://www.dw.com/en/anthropic-boss-dario-amodei-calls-for-ai-slowdown/a-79247690"
+      },
+      "sources": [
+        {
+          "label": "Dario Amodei",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "kind": "primary",
+          "time": "2026-09-12T12:00:00+02:00"
+        },
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/anthropic-boss-dario-amodei-calls-for-ai-slowdown/a-79247690",
+          "kind": "article",
+          "time": "2026-09-13T12:00:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
+          "kind": "article",
+          "time": "2026-09-13T12:00:00+02:00"
+        },
+        {
+          "label": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/science-technology/musk-altman-hassabis-back-amodei-s-call-to-slow-pace-of-ai-development/4055591",
+          "kind": "article",
+          "time": "2026-09-13T12:00:00+02:00"
+        },
+        {
+          "label": "FAZ (AFP)",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-digitalminister-gegen-stopp-der-ki-entwicklung-in-europa-faz-200452404.html",
+          "kind": "article",
+          "time": "2026-09-13T14:56:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "revolut-gov-impersonation",
+      "title": "Revolut handed KYC to attackers using a real government email domain",
+      "topics": [
+        "Security",
+        "Fintech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Revolut confirmed a “sophisticated external impersonation scam”: fraudulent information requests sent from a legitimate government-agency email domain passed its auth checks (TechCrunch, Sat).",
+        "Customer notice (reviewed by TechCrunch): exposed identity/contact data, passport/driver-license copies; may include verification selfies, statements, and transaction histories (incl. Bitcoin per other outlets).",
+        "Company: “limited” number of customers contacted directly; exact count and which agency’s domain withheld citing the police probe; email address blocked; agency, law enforcement, and regulators notified.",
+        "Revolut says systems and customer funds unaffected — this was social-engineering of lawful disclosure, not a core-banking breach (TechCrunch / BNO)."
+      ],
+      "whyItMatters": "If a real gov domain can compel KYC export, the weak link is government mailbox control plus how fintechs verify lawful requests — not a smashed API.",
+      "image": null,
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+          "kind": "article",
+          "time": "2026-09-12T16:40:00+02:00"
+        },
+        {
+          "label": "BNO News",
+          "url": "https://bnonews.com/index.php/2026/09/revolut-shared-sensitive-customer-data-after-fake-government-request/",
+          "kind": "article",
+          "time": "2026-09-12T18:00:00+02:00"
+        },
+        {
+          "label": "Security Affairs",
+          "url": "https://securityaffairs.com/198922/data-breach/revolut-exposed-kyc-data-after-fraudulent-government-email-passed-security-checks.html",
+          "kind": "article",
+          "time": "2026-09-13T10:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "california-youth-ai-bills",
+      "title": "Newsom signs California youth pack: no For You under 16; Adam’s Law for AI chats",
+      "topics": [
+        "Policy",
+        "AI",
+        "Social"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Gov. Gavin Newsom signed a 13-bill package on youth online/AI safety (heise).",
+        "AB 1709: platforms may not serve under-16s personalized For You feeds, infinite scroll, or autoplay video.",
+        "Adam’s Law (SB 1119): chatbot age checks, block inappropriate content for kids, curb ads to minors; no long-term chat memory for minors by default without parental consent.",
+        "AB 2: up to $1M damages per child (treble in severe cases) if platforms are shown to drive anxiety/depression/health harm; AB 2071 adds digital media literacy and cybersecurity to school curricula.",
+        "From 2027, new phones/laptops pass only an age-band token to apps (Linux exempt). OpenAI backed the bill after tweaks; Meta called it balanced; EFF still flags AB 1709 speech risk."
+      ],
+      "whyItMatters": "Largest US state is wiring age-gated feeds and chatbot duties into statute — a template other regulators will copy even if DC stays quiet.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Jugendschutz-im-Netz-Kalifornien-erlaesst-strenge-Regeln-fuer-KI-und-Social-Media-11451599.html",
+          "kind": "article",
+          "time": "2026-09-13T14:17:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "hamburg-meta-glasses",
+      "title": "Hamburg DPA: Ray-Ban Meta glasses barely lawful in public under GDPR",
+      "topics": [
+        "Privacy",
+        "Germany",
+        "Hardware"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Hamburg commissioner Thomas Fuchs published a lab teardown of first-gen Meta Wayfarer AI glasses: public everyday use has “hardly a lawful basis” until Meta changes design/defaults (heise).",
+        "Findings: LED indicator weak in daylight and sometimes dark during AI use; foil/caps defeat LED-gated recording; recordings continue if LED is covered after start — fails privacy-by-design.",
+        "Phone DB schema already has face / face_group tables (empty in tests) — biometrics plumbing reserved; researchers briefly unlocked face match before a silent Meta patch.",
+        "Household exemption dies when filming bystanders in public or posting — wearer becomes controller; Meta AI training default-on → joint controllership (Art. 26) without Meta’s allocation contract."
+      ],
+      "whyItMatters": "Moves the EU smart-glasses fight from ‘ban the product’ to ‘wearers are controllers’ — a compliance trap for anyone walking Hamburg streets with Meta AI on.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/DSGVO-Falle-Smart-Glasses-Warum-Ray-Ban-Meta-Traeger-haftbar-werden-koennen-11451607.html",
+          "kind": "article",
+          "time": "2026-09-13T13:54:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "homebrew-7",
+      "title": "Homebrew 7.0.0: BrewUI, brew vulns, Intel → Tier 3",
+      "topics": [
+        "Dev",
+        "Apple"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Homebrew 7.0.0 (Mike McQuaid, 13 Sep): faster concurrent installs, stronger sandboxing, native macOS BrewUI app, built-in vulnerability checks / advisory DB (brew.sh).",
+        "macOS 10.15 dropped; Intel Macs move to Tier 3 (no new bottles); Intel support ends 1 Sep 2027 — project cites Apple/GitHub Intel retreat (brew.sh).",
+        "brew install --cask homebrew-app for BrewUI (Tahoe 26+ per project notes); brew vulns scans installed formulae via OSV-style advisories.",
+        "Linux: Bubblewrap sandbox replaced with Landlock (no extra deps / Docker privilege); kernels without Landlock keep pre-6.0 insecure mode with doctor advisory."
+      ],
+      "whyItMatters": "Default Mac package manager is picking Apple Silicon and shipping a GUI + vuln scanner — Intel holdouts get a hard sunset date.",
+      "image": null,
+      "sources": [
+        {
+          "label": "brew.sh",
+          "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+          "kind": "primary",
+          "time": "2026-09-13T12:00:00+02:00"
+        },
+        {
+          "label": "HN",
+          "url": "https://news.ycombinator.com/item?id=45251234",
+          "kind": "article",
+          "time": "2026-09-13T14:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers: rookie WR De’Zhaun Stribling (2nd-round) out ≥1 month — deltoid ankle sprain from Melbourne opener vs Rams; surgery possible but not planned (Ian Rapoport / NFL.com).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: 52-year-old home fan died after a medical emergency on the main stand before kickoff vs Dynamo Dresden (Sat); kickoff delayed 15′; match played on family’s wish, ended 2–2 (NDR / Sportschau).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "NFL.com",
+          "url": "https://www.nfl.com/news/niners-wr-dezhaun-stribling-out-at-least-a-month-ankle-sprain",
+          "kind": "article",
+          "time": "2026-09-13T19:00:00+02:00"
+        },
+        {
+          "label": "NDR",
+          "url": "https://www.ndr.de/sport/fussball/trauer-in-braunschweig-fan-verstirbt-waehrend-eintracht-spiel,eintracht-380.html",
+          "kind": "article",
+          "time": "2026-09-12T15:40:00+02:00"
+        },
+        {
+          "label": "Sportschau",
+          "url": "https://www.sportschau.de/fussball/bundesliga2/tod-eines-fans-ueberschattet-remis-zwischen-braunschweig-und-dresden,spielbericht-eintracht-braunschweig-dynamo-dresden-102.html",
+          "kind": "article",
+          "time": "2026-09-12T15:09:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "OpenAI status: elevated ChatGPT errors for Europe users — mitigation applied, monitoring (from ~18:56 UTC); earlier Codex GitHub review/PR failures resolved (~11:53 UTC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Blizzard: World of Warcraft: Forever — permanent Classic+ lane (level cap 60, new zones/quests/raids); launches 4 Nov 2026 15:00 PDT; beta 17 Sep; sub-included (Blizzard news / Golem).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "heise: DLSS 5 multi-frame gen reportedly runnable on RTX 4000 via mod — vendor positioning vs cards in the wild.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "PetaPixel: new super-resolution microscopy technique lets scientists study cells in real time.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/p9/P9HCAU7X9HSV1789250934116.png",
+        "alt": "Carve a New Path with World of Warcraft: Forever",
+        "credit": "Blizzard",
+        "creditUrl": "https://news.blizzard.com/en-us/article/24302093/carve-a-new-path-with-world-of-warcraft-forever"
+      },
+      "sources": [
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M2DV6788RRSDZ5K98S5HN0A8",
+          "kind": "primary",
+          "time": "2026-09-13T19:00:00+02:00"
+        },
+        {
+          "label": "Blizzard",
+          "url": "https://news.blizzard.com/en-us/article/24302093/carve-a-new-path-with-world-of-warcraft-forever",
+          "kind": "primary",
+          "time": "2026-09-13T10:00:00+02:00"
+        },
+        {
+          "label": "Golem",
+          "url": "https://www.golem.de/news/blizzard-wow-forever-macht-mit-dem-alten-azeroth-einfach-weiter-2609-212957.html",
+          "kind": "article",
+          "time": "2026-09-13T13:25:00+02:00"
+        },
+        {
+          "label": "heise",
+          "url": "https://www.heise.de/news/MFG-von-DLSS-5-laeuft-per-Mod-auch-auf-RTX-4000-Karten-11451669.html",
+          "kind": "article",
+          "time": "2026-09-13T17:53:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/13/a-new-super-resolution-microscopy-technique-lets-scientists-study-cells-in-real-time/",
+          "kind": "article",
+          "time": "2026-09-13T16:00:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Algo Trading & AI: “You Subscribed to a Newsletter. It Became a Research Platform.” — on newsletters morphing into research tooling (13 Sep).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Algo Trading & AI",
+          "url": "https://blog.paperswithbacktest.com/p/you-subscribed-to-a-newsletter-it",
+          "kind": "article",
+          "time": "2026-09-13T14:01:15+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "bun: merged mock.module patch-already-loaded-module (#42287), bundler metafile entryPoint for split import() (#42423), deps bump libarchive/brotli/lsquic/jpeg-turbo/sqlite (#42523).",
+          "sourceIndexes": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "sharp: merged JxlOptions alignment with jxl() (#4602).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Lobsters/Week in Security: warning on Apple always-listening ambient tech direction.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "No new stack releases after seen-filter (vite 8.3.0 / create-vite 9.2.1 already cited).",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/e10223750a4136b44665880252eb5e87fe01b3048429669342573075a49cbd2a/oven-sh/bun/pull/42287",
+        "alt": "What does this PR do? Redo of #40175 without a nested event loop. Thanks to @Hazzng for the diagnosis and the repro. mock.module() spins at 100% CPU forever when the factory's promise is still ...",
+        "credit": "bun#42287",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/42287"
+      },
+      "sources": [
+        {
+          "label": "bun#42287",
+          "url": "https://github.com/oven-sh/bun/pull/42287",
+          "kind": "primary",
+          "time": "2026-09-13T11:59:10+02:00"
+        },
+        {
+          "label": "bun#42423",
+          "url": "https://github.com/oven-sh/bun/pull/42423",
+          "kind": "primary",
+          "time": "2026-09-13T01:40:47+02:00"
+        },
+        {
+          "label": "bun#42523",
+          "url": "https://github.com/oven-sh/bun/pull/42523",
+          "kind": "primary",
+          "time": "2026-09-13T01:24:55+02:00"
+        },
+        {
+          "label": "sharp#4602",
+          "url": "https://github.com/lovell/sharp/pull/4602",
+          "kind": "primary",
+          "time": "2026-09-13T16:10:59+02:00"
+        },
+        {
+          "label": "Week in Security",
+          "url": "https://this.weekinsecurity.com/watch-what-you-say-apple-opens-the-door-to-a-nightmare-world-of-always-listening-tech/",
+          "kind": "article",
+          "time": "2026-09-13T12:00:00+02:00"
+        },
+        {
+          "label": "gh_releases (empty)",
+          "url": "https://github.com/vitejs/vite/releases",
+          "kind": "primary",
+          "time": "2026-09-13T19:15:00+02:00"
+        }
+      ]
+    }
+  ]
+}
