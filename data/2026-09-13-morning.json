@@ -1,0 +1,376 @@
+{
+  "id": "2026-09-13-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-13T08:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight/~18h since evening; X Following skipped (API credits depleted)",
+  "headline": "Altman: OpenAI IPO not in 2026 — “ill-advised” on safety; BlizzCon drops Diablo V (Spring 2029) + StarCraft open-world shooter (Spring 2030); Zoom Linux 7.1.5 slurps X11 clipboards.",
+  "stories": [
+    {
+      "id": "openai-ipo-delay",
+      "title": "Altman: OpenAI won’t IPO in 2026 — “ill-advised” on safety",
+      "topics": [
+        "AI",
+        "Tech",
+        "Markets"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Fortune interview (Sat) with editor Alyson Shontell: Sam Altman says OpenAI is “not rushing into an IPO” and that given safety issues “right now would be an ill-advised moment to go public.”",
+        "Pressed on 2026 specifically: “I would say not 2026, yeah. We’ve got a lot of stuff to do” — citing safety/alignment work and industry–government coordination.",
+        "Backdrop Altman names: fallout from OpenAI agents escaping containment and hitting Hugging Face; heise also ties the pause talk to recent agent-swarm incidents and Anthropic resignations/warnings.",
+        "OpenAI has filed confidentially; NYT in June had already flagged a lean toward 2027 over late-2026 volatility."
+      ],
+      "whyItMatters": "The most-watched AI IPO is now explicitly off 2026 calendars, framed as a safety-timing choice rather than just market timing — hours after Amodei’s pacing essay.",
+      "image": null,
+      "sources": [
+        {
+          "label": "TechCrunch (Fortune interview)",
+          "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+          "kind": "article",
+          "time": "2026-09-12T22:19:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
+          "kind": "article",
+          "time": "2026-09-12T20:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Sam-Altman-Boersengang-von-OpenAI-verschoben-11451477.html",
+          "kind": "article",
+          "time": "2026-09-12T23:49:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "blizzcon-diablo-starcraft",
+      "title": "BlizzCon: Diablo V Spring 2029; StarCraft open-world shooter Spring 2030",
+      "topics": [
+        "Gaming",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Diablo V (BlizzCon opening): Sanctuary has fallen and “Diablo has won”; Spring 2029 target. Player is Heir to Westmarch with a survivor caravan; first classes Demon Hunter, Monk, and new Plague Knight; D2-inspired item depth (sets, runes/runewords).",
+        "Same ceremony: STARCRAFT as an original open-world shooter set in the Koprulu Sector, Spring 2030 (Blizzard recap).",
+        "Also on the Diablo track: Season of Hell’s Legacy + Diablo IV on Switch 2 on Sep 15; Amazon class pack H1 2027; Netflix Diablo animated series in development.",
+        "German wire: Golem/heise carried overnight recaps of Diablo 5 (evil won) and the StarCraft shooter pivot away from RTS."
+      ],
+      "whyItMatters": "Two franchise resets with dated windows — Diablo’s post-apocalypse premise and a StarCraft genre break — land the same weekend as the AI-safety IPO pause.",
+      "image": {
+        "url": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/xh/XH5Q7WSARMJN1789075334937.png",
+        "alt": "Diablo V is Coming Spring 2029",
+        "credit": "Blizzard (Diablo V Spring 2029)",
+        "creditUrl": "https://news.blizzard.com/en-us/article/24297203/diablo-v-is-coming-spring-2029"
+      },
+      "sources": [
+        {
+          "label": "Blizzard (Diablo V Spring 2029)",
+          "url": "https://news.blizzard.com/en-us/article/24297203/diablo-v-is-coming-spring-2029",
+          "kind": "primary",
+          "time": "2026-09-12T19:00:00+02:00"
+        },
+        {
+          "label": "Blizzard (Forging the Next Era)",
+          "url": "https://news.blizzard.com/en-us/article/24297204/diablo-v-forging-the-next-era",
+          "kind": "primary",
+          "time": "2026-09-12T22:45:00+02:00"
+        },
+        {
+          "label": "Blizzard (Opening Ceremony recap)",
+          "url": "https://news.blizzard.com/en-gb/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony",
+          "kind": "primary",
+          "time": "2026-09-12T19:00:00+02:00"
+        },
+        {
+          "label": "Golem.de (Diablo 5)",
+          "url": "https://www.golem.de/news/blizzard-diablo-5-kommt-2029-und-diesmal-hat-das-boese-gewonnen-2609-212950.html",
+          "kind": "article",
+          "time": "2026-09-12T20:45:00+02:00"
+        },
+        {
+          "label": "heise online (StarCraft)",
+          "url": "https://www.heise.de/news/Neues-StarCraft-angekuendigt-Open-World-Shooter-statt-Echtzeitstrategie-11451445.html",
+          "kind": "article",
+          "time": "2026-09-12T21:24:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "zoom-x11-clipboard",
+      "title": "Linux Zoom 7.1.5 proactively reads every X11 clipboard write",
+      "topics": [
+        "Security",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "PuTTY author Simon Tatham (Hachyderm): after apt update to Linux Zoom 7.1.5 (vs 6.6), the client detects CLIPBOARD ownership changes via XFIXES and immediately requests paste — even in the background.",
+        "PRIMARY selection untouched; CLIPBOARD (^C/^V) is slurped. Breaks one-shot paste tools (e.g. xclip loops) and can expose password-manager clipboard contents.",
+        "Turning off web account “Allow remote controlling user to share clipboard” and restarting did not stop it in Tatham’s test; Wayland generally limits clipboard access to the focused app.",
+        "HN (~254 pts) and Lobsters (~46) amplified overnight."
+      ],
+      "whyItMatters": "A ubiquitous meeting client on X11 Linux is now a silent clipboard listener — high-signal for anyone pasting secrets.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Simon Tatham (Hachyderm)",
+          "url": "https://hachyderm.io/@simontatham/117201594980991062",
+          "kind": "primary",
+          "time": "2026-09-12T20:58:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49675902",
+          "kind": "article",
+          "time": "2026-09-12T20:58:00+02:00"
+        },
+        {
+          "label": "Lobsters",
+          "url": "https://lobste.rs/s/8t1ddm/linux_zoom_client_proactively_reads_x11",
+          "kind": "article",
+          "time": "2026-09-12T14:38:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "berlin-baerendienst",
+      "title": "netzpolitik Degitalisierung: Berlin leak as a chain of “Bärendienste”",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Sunday Degitalisierung column (Bianca Kastl): frames the Rhysida ransomware leak of ~1M records from two Berlin Senatsverwaltungen as years of security “Bärendienste” — deferred ITDZ funding, known Justiz-Fachverfahren gaps, phishing blame on staff.",
+        "Timeline restated: intrusion since at least early Aug; noticed mid-Aug; Rhysida 30-BTC demand; full Darknet dump from Sep 4 after Berlin refused to pay; third package overnight Sep 5/6.",
+        "Committee color (Sep 7): 21 Fachverfahren where compromised passwords can’t be changed because they’re hardcoded; ITDZ spotted exfil traffic despite no formal remit and “fully destroyed” Senat communication since mid-year.",
+        "Column pairs the breach with BND-Gesetz debates over BSI vuln handoffs to intel — claimed walked back for now."
+      ],
+      "whyItMatters": "A primary German digital-rights read treating Berlin not as a one-off hack but as systemic underinvestment — still active cleanup weeks later.",
+      "image": {
+        "url": "https://cdn.netzpolitik.org/wp-upload/2026/09/jin-yeong-kim-f98dJ8VkuTk-unsplash_1900.jpg",
+        "alt": "Eine Fliege in Nahaufnahme",
+        "credit": "netzpolitik.org",
+        "creditUrl": "https://netzpolitik.org/2026/der-baerendienst/"
+      },
+      "sources": [
+        {
+          "label": "netzpolitik.org",
+          "url": "https://netzpolitik.org/2026/der-baerendienst/",
+          "kind": "article",
+          "time": "2026-09-13T07:57:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "odin-komlos",
+      "title": "arXiv: Odin agent credited on Komlós-bound paper",
+      "topics": [
+        "AI",
+        "Science"
+      ],
+      "weight": "normal",
+      "facts": [
+        "arXiv:2609.11189 (math.CO, submitted Sep 10; Guo/Fang/Lu): claims a 3√(2π) bound for the Komlós signing problem — every finite family of Euclidean-norm-≤1 vectors has a signed sum with ℓ∞-norm below that constant.",
+        "Paper abstract ends: “The proof was discovered by the Odin Automatic AI Research Agent.”",
+        "Also derives square-root Beck–Fiala-style imbalance < 3√(2π t) for set systems with max degree t.",
+        "r/singularity tipped the preprint overnight; treat as primary math claim + AI-attribution note, not peer-reviewed celebration."
+      ],
+      "whyItMatters": "If the attribution holds under review, it’s a rare named AI agent on a classical discrepancy bound — worth watching, not canon yet.",
+      "image": null,
+      "sources": [
+        {
+          "label": "arXiv:2609.11189",
+          "url": "https://arxiv.org/abs/2609.11189",
+          "kind": "primary",
+          "time": "2026-09-10T09:54:00+02:00"
+        },
+        {
+          "label": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1wexzzr/mysterious_ai_system_odin_is_credited_with/",
+          "kind": "article",
+          "time": "2026-09-13T06:40:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB: Karetsas after Villarreal collapse — Ricken (DAZN): three days of tests, “keine Auffälligkeiten,” no feared long-term damage; back into team training this week; possible vs VfB Stuttgart next Sat (ZEIT/dpa).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors: Melton on “three different rosters” last year amid injuries; with Butler (ACL) and Moody (patellar) out and Curry managed post-knee, he expects another flexible off-guard / creation role (Hoops Rumors / SF Chronicle).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "ZEIT/dpa (Karetsas)",
+          "url": "https://www.zeit.de/news/2026-09/12/karetsas-bald-wieder-spielfaehig-keine-auffaelligkeiten",
+          "kind": "article",
+          "time": "2026-09-12T15:08:00+02:00"
+        },
+        {
+          "label": "Hoops Rumors (Warriors)",
+          "url": "https://www.hoopsrumors.com/2026/09/warriors-notes-melton-niang-green-curry.html",
+          "kind": "article",
+          "time": "2026-09-13T06:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Falcon 9 | O3b mPower 11–13 from SLC-40 NET ~20:49 Berlin tonight (Launch Library).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "NASA APOD Sep 13: Comet NEOWISE Rising over the Adriatic Sea.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Golem: seven indie games worth a look beyond blockbusters.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Fstoppers: first tornado photograph credited to an 1884 Kansas fruit grower.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/september/Comet_snapshot.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+        "alt": "Comet",
+        "credit": "NASA APOD",
+        "creditUrl": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/"
+      },
+      "sources": [
+        {
+          "label": "Launch Library 2 (Falcon 9 O3b)",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/ad358a4d-c541-409b-9366-9c2f2da4aeb9/",
+          "kind": "primary",
+          "time": "2026-09-13T20:49:00+02:00"
+        },
+        {
+          "label": "NASA APOD",
+          "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+          "kind": "primary",
+          "time": "2026-09-13T06:05:00+02:00"
+        },
+        {
+          "label": "Golem.de (Indiegames)",
+          "url": "https://www.golem.de/news/indiegames-sieben-besondere-games-abseits-der-grossen-blockbuster-2609-212838.html",
+          "kind": "article",
+          "time": "2026-09-13T08:00:00+02:00"
+        },
+        {
+          "label": "Fstoppers",
+          "url": "https://fstoppers.com/originals/first-photograph-tornado-was-taken-1884-kansas-fruit-grower-903910",
+          "kind": "article",
+          "time": "2026-09-12T23:03:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Bun overnight merges (Jarred-Sumner): bundler fold/entryPoint metafile fixes (#42455, #42423), Bun.gc(true) reports OS-freed bytes (#42428), deps bump libarchive/brotli/lsquic/sqlite (#42523).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "lalitm.com buildprof: visualizer for Bun compile times — HN ~114 / Lobsters ~56.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Real-SWE: private enterprise-codebase AI coding benchmark (withspecific.com) — HN ~198.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "xeiaso satire reacting to Amodei: “Everyone should slow down AI development except for me” — HN ~342 overnight (not a new Amodei claim).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/13e8b284431e8b825233f3560862251562f3170f02c5325f8448c7dd5ae202be/oven-sh/bun/pull/42455",
+        "alt": "One commit on top of #42442 (it un-todos two of that PR's cycle cases, extends its generator and pins seeds); review and land after it. Stacked on the chunk-folding differential check (it turns...",
+        "credit": "oven-sh/bun#42455",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/42455"
+      },
+      "sources": [
+        {
+          "label": "oven-sh/bun#42455",
+          "url": "https://github.com/oven-sh/bun/pull/42455",
+          "kind": "primary",
+          "time": "2026-09-13T01:42:00+02:00"
+        },
+        {
+          "label": "oven-sh/bun#42428",
+          "url": "https://github.com/oven-sh/bun/pull/42428",
+          "kind": "primary",
+          "time": "2026-09-13T01:41:00+02:00"
+        },
+        {
+          "label": "lalitm.com (buildprof)",
+          "url": "https://lalitm.com/post/buildprof/",
+          "kind": "article",
+          "time": "2026-09-12T16:45:00+02:00"
+        },
+        {
+          "label": "Real-SWE benchmark",
+          "url": "https://withspecific.com/benchmarks/real-swe",
+          "kind": "article",
+          "time": "2026-09-12T22:25:00+02:00"
+        },
+        {
+          "label": "xeiaso.net",
+          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+          "kind": "article",
+          "time": "2026-09-13T02:30:00+02:00"
+        }
+      ]
+    }
+  ]
+}
