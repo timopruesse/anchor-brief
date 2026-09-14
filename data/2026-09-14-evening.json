@@ -1,0 +1,537 @@
+{
+  "id": "2026-09-14-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-14T19:45:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:25 Berlin / ~6h); X Following skipped (API credits depleted)",
+  "headline": "Trump claims energy-strike halt as Kyiv sets conditions; E10 hits 2.273 € and Mercedes recalls 23,606 GLEs",
+  "stories": [
+    {
+      "id": "trump-energy-truce-claim",
+      "title": "Trump claims Ukraine–Russia energy-strike halt; Kyiv sets conditions",
+      "topics": [
+        "World",
+        "Ukraine",
+        "Energy"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Trump on Truth Social (14 Sep): “Ukraine has agreed not to hit Russian Energy targets. Russia has agreed to do, likewise!” — neither Kyiv nor Moscow confirmed a binding deal.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Kyiv Independent: a Ukrainian energy official said they had not heard of such a ceasefire.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "~1h later Zelensky: ready to halt strikes on Russian energy/critical infrastructure if partners ensure Russia stops striking Ukrainian electricity, other energy, critical infrastructure, and food routes — Kyiv “not sure” of Russia’s willingness.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Context (13 Sep): Trump urged Zelensky to stop hitting Russian diesel; Zelensky open to energy/maritime ceasefire talk at possible UNGA meeting with Trump (~21–23 Sep).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Trump also blamed the world diesel price rise mainly on the Russia/Ukraine war, “not Iran.”",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Claimed energy de-escalation amid record fuel prices — but Kyiv’s reply is conditional and no verified mutual deal exists yet.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Kyiv Independent",
+          "url": "https://kyivindependent.com/breaking-trump-claims-ukraine-russia-agree-to-halt-strikes-on-energy-targets/",
+          "kind": "article",
+          "time": "2026-09-14T18:47:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-energy-oil-iran.html",
+          "kind": "article",
+          "time": "2026-09-14T18:03:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "pistorius-litauen-versetzung",
+      "title": "Pistorius: mandatory transfers for Litauen brigade",
+      "topics": [
+        "Germany",
+        "Defence"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "MoD / Pistorius (dpa/ZEIT): for full build-up of Panzerbrigade 45 “Litauen”, mandatory transfers will be ordered for a number in the “mittleren dreistelligen Bereich” (several hundred).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "MoD: almost 80% of posts currently filled with volunteers; shortages especially logistics and IT; volunteer principle remains the maxim, with shorter detachments/rotations also to be examined.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Target: ~4,800 soldiers + 200 civilians in Lithuania (Rudninkai and Rukla); brigade combat-ready by end 2027 — Pistorius reaffirmed the timetable.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "MoD: >2,500 voluntary applications since May; clear rise in volunteers since end of April.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "First clear move from all-volunteer staffing toward compulsory postings for Germany’s permanent NATO eastern-flank brigade.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DIE ZEIT (dpa)",
+          "url": "https://www.zeit.de/news/2026-09/14/pistorius-gibt-nun-auch-versetzungsbefehl-nach-litauen",
+          "kind": "article",
+          "time": "2026-09-14T15:54:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "mercedes-gle-recall-23606",
+      "title": "Mercedes recalls 23,606 GLE 167s over fuel-line rub risk",
+      "topics": [
+        "Germany",
+        "Automotive"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Mercedes-Benz recalling 23,606 GLE series 167 vehicles worldwide; 6,772 in Germany (KBA / EU Safety Gate; ZEIT/dpa).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Affected: diesel and hybrid (OM654 / hybrid) built roughly Aug 2022 – Sep 2025 (trade press: 2022-08-29 – 2025-09-03).",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Issue: shielding plate at firewall/splash wall may be incorrectly fitted; fuel line can rub → fuel leak → sudden loss of propulsion → higher accident risk.",
+          "sourceIndexes": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "KBA: no known personal injuries or property damage so far; workshop check/rework of shield + fuel line ~1 hour; manufacturer recall code 4790309 (KBA ref cited in trade press: 16925R).",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Large DE-relevant safety recall with exact counts and a clear failure mode.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DIE ZEIT (dpa)",
+          "url": "https://www.zeit.de/mobilitaet/2026-09/mercedes-benz-rueckruf-gle-167-kraftfahrt-bundesamt-gxe",
+          "kind": "article",
+          "time": "2026-09-14T15:55:00+02:00"
+        },
+        {
+          "label": "SWR",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/mercedes-benz-ruft-weltweit-ueber-23000-autos-zurueck-100.html",
+          "kind": "article",
+          "time": "2026-09-14T15:48:00+02:00"
+        },
+        {
+          "label": "Auto Service Praxis",
+          "url": "https://www.autoservicepraxis.de/rueckrufe/artikel/kraftstoffleck-und-antriebsverlust-mercedes-ruft-gle-zurueck-3900363",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sweden-election-176-173",
+      "title": "Sweden hangs on 176–173 as centre-left leads narrowly",
+      "topics": [
+        "Europe",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Sunday Riksdag election; Monday preliminary with ~95% counted: centre-left opposition (Social Democrats–led) 176 seats vs right bloc (PM Ulf Kristersson + Sweden Democrats) 173 of 349 (Guardian).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Blocs ~28,600 votes apart; remaining votes incl. ~200k expected Wednesday — result not final. SVT said ~90% confident opposition holds.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Social Democrats ~28.1% with 95% counted (down >2 pp vs 2022). Sweden Democrats slipped to third after decades of growth (Guardian analysis).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Centre Party expected to matter in talks but has long been critical of governing with the Left Party; coalition arithmetic looks hard. Finals before serious exploratory talks Wednesday/Thursday.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Knife-edge Nordic election that could flip government and halt the far right’s climb — still not final.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Guardian (live)",
+          "url": "https://www.theguardian.com/world/live/2026/sep/14/sweden-election-magdalena-andersson-social-democrats-centre-left-latest-news-updates",
+          "kind": "article",
+          "time": "2026-09-14T14:00:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/14/far-right-march-to-power-election-sweden-halted-influence-remains",
+          "kind": "article",
+          "time": "2026-09-14T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "benzin-e10-rekord-2273",
+      "title": "ADAC: Super E10 hits record 2.273 €/L; diesel 2.404",
+      "topics": [
+        "Germany",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "ADAC (München): Sunday 13 Sep nationwide daily average Super E10 = 2.273 €/L — new all-time high (previous nominal peak March 2022 cited as 2.203 € in older ADAC coverage).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Diesel Sunday average 2.404 €/L (+3.5 ct vs Friday); only 4.3 ct below its April record (SZ/dpa).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "E10 +1.7 ct vs Friday; since 30 Aug E10 ~+12 ct, diesel ~+20 ct.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Drivers: high crude (Brent >$107, WTI ~$103 Monday morning per n-tv/AFP), Hormuz constraints, Saudi East-West pipeline shutdown after drone attacks, Huthi pressure on Red Sea/Bab al-Mandab.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Politics: Klingbeil demanded a Spritpreisdeckel; Schwesig cited Luxembourg-style cap; ADAC says oil price/FX only partly explain pump levels vs late-April Brent.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Pocketbook story with hard ADAC numbers and a direct link to Middle East energy disruption.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Süddeutsche Zeitung (dpa)",
+          "url": "https://www.sueddeutsche.de/auto/mobilitaetskosten-benzinpreis-auf-rekordhoch-diesel-kurz-davor-dpa.urn-newsml-dpa-com-20090101-260914-930-681111",
+          "kind": "article",
+          "time": "2026-09-14T16:16:00+02:00"
+        },
+        {
+          "label": "n-tv (AFP)",
+          "url": "https://www.n-tv.de/ticker/Super-E10-kostet-2-273-Euro-Diesel-steigt-auf-2-404-Euro-je-Liter-id31302964.html",
+          "kind": "article",
+          "time": "2026-09-14T10:15:00+02:00"
+        },
+        {
+          "label": "DIE ZEIT (Huthi / Saudi context)",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/huthi-miliz-angriffe-saudi-arabien-luftstuetzpunkt",
+          "kind": "article",
+          "time": "2026-09-14T11:35:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "project-lily-chatgpt",
+      "title": "404 Media: ‘Project Lily’ — humans reading ChatGPT chats",
+      "topics": [
+        "AI",
+        "Privacy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "404 Media (14 Sep): OpenAI is hiring hundreds of contractors who read real users’ ChatGPT prompts — sometimes including sensitive personal information — to rate and critique model replies (codename Project Lily).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Review flow: read prompt → summarize intent → score/critique multiple ChatGPT responses; prompts anonymized (no username) but can still contain personal details; Privacy Filter can miss identifiers.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Opt-out: chats unused for training if “Improve the model for everyone” is off (on by default for free/Plus/Pro). OpenAI didn’t answer if users were told humans may review prompts.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Anthropic told 404 Media it also uses human review to improve Claude for users who enable “Help improve our AI models.”",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Hard reporting that the intimacy users feel with chatbots sits next to human contractors reading prompts — a privacy beat, not just a safety FAQ.",
+      "image": null,
+      "sources": [
+        {
+          "label": "404 Media",
+          "url": "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats/",
+          "kind": "article",
+          "time": "2026-09-14T16:22:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Golem: DB Systel / Deutsche Bahn plans to clamp down on homeoffice (~19:06 CEST).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: Netzrechtler push EU action against Canada’s encryption crackdown (~18:58).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "OpenAI Status: elevated errors affecting ChatGPT Work Mode (~17:58 CEST).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "The AI Corner (Substack): Meta Muse — goals instead of prompts (Zuckerberg framing, ~16:22).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "ESA: Vega-C VV30 (FLEX + Sentinel-3C) still GO for 03:21 CEST Tue 15 Sep — watch live; not launched yet.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "heise: Helgoland running two days off mainland power in an autonomy test (~19:02).",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/vega-c_fairing_opens_to_reveal_sentinel-3c_and_flex/27460042-1-eng-GB/Vega-C_fairing_opens_to_reveal_Sentinel-3C_and_FLEX_pillars.jpg",
+        "alt": "Vega-C fairing opens to reveal Sentinel-3C and FLEX",
+        "credit": "ESA (watch live)",
+        "creditUrl": "https://www.esa.int/Applications/Observing_the_Earth/Watch_FLEX_and_Sentinel-3C_launch_on_Vega-C"
+      },
+      "sources": [
+        {
+          "label": "Golem",
+          "url": "https://www.golem.de/news/db-systel-deutsche-bahn-will-homeoffice-einschraenken-2609-213005.html",
+          "kind": "article",
+          "time": "2026-09-14T19:06:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Angriff-auf-Verschluesselung-Netzrechtler-fordern-EU-Eingreifen-gegen-Kanada-11452910.html",
+          "kind": "article",
+          "time": "2026-09-14T18:58:00+02:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5",
+          "kind": "primary",
+          "time": "2026-09-14T17:58:00+02:00"
+        },
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/meta-muse-ai-agent-zuckerberg",
+          "kind": "article",
+          "time": "2026-09-14T16:22:00+02:00"
+        },
+        {
+          "label": "ESA (watch live)",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Watch_FLEX_and_Sentinel-3C_launch_on_Vega-C",
+          "kind": "primary",
+          "time": "2026-09-14T10:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Helgoland-autark-Insel-fuer-zwei-Tage-ohne-Festlandstrom-11452688.html",
+          "kind": "article",
+          "time": "2026-09-14T19:02:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Sportschau: Eintracht Braunschweig fan death overshadows 2:2 vs Dynamo Dresden — medical emergency delayed kickoff 15 min; club said the fan died en route to hospital; family asked fans to resume support.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Sportschau (~17:29): Klopp planning a much larger-than-23 Nations League camp squad with possible mid-window swaps across four games in 11 days; first Kader Thursday.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Sportschau",
+          "url": "https://www.sportschau.de/fussball/bundesliga2/tod-eines-fans-ueberschattet-remis-zwischen-braunschweig-und-dresden,spielbericht-eintracht-braunschweig-dynamo-dresden-102.html",
+          "kind": "article",
+          "time": "2026-09-14T15:09:00+02:00"
+        },
+        {
+          "label": "Sportschau",
+          "url": "https://www.sportschau.de/fussball/nationalmannschaft/klopps-gedankenspiele-um-einen-riesenkader,kader-klopp-xxl-100.html",
+          "kind": "article",
+          "time": "2026-09-14T17:29:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Playwright PR #42668 merged (~17:45 CEST): feat(mcp) — add media emulation.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN: How to write an effective software design document (Refactoring English).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN: Notes on migrating large preprompts from Anthropic/OpenAI to self-hosted Ollama.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Lobsters: Mergiraf — syntax-aware git merge driver (Codeberg).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/f3082538b4db54f6d3ba2028a8632ef85110287bedd47649e0ed520129de2526/microsoft/playwright/pull/42668",
+        "alt": "Summary add a default MCP tool for setting and clearing page media emulation add paired set-* and clear-* commands under the playwright-cli Emulation category Fixes #42243",
+        "credit": "Playwright #42668",
+        "creditUrl": "https://github.com/microsoft/playwright/pull/42668"
+      },
+      "sources": [
+        {
+          "label": "Playwright #42668",
+          "url": "https://github.com/microsoft/playwright/pull/42668",
+          "kind": "primary",
+          "time": "2026-09-14T17:45:00+02:00"
+        },
+        {
+          "label": "Refactoring English",
+          "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+          "kind": "article",
+          "time": "2026-09-14T15:00:00+02:00"
+        },
+        {
+          "label": "patrickmccanna.net (via HN)",
+          "url": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
+          "kind": "article",
+          "time": "2026-09-14T15:59:00+02:00"
+        },
+        {
+          "label": "Mergiraf (via Lobsters)",
+          "url": "https://codeberg.org/mergiraf/mergiraf",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
