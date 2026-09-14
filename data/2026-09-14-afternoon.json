@@ -1,0 +1,467 @@
+{
+  "id": "2026-09-14-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-14T13:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5–6h); X Following skipped (API credits depleted)",
+  "headline": "Bitkom: 57% of German firms now use AI — and a third fear for their existence; China blasts AI-slowdown push as Cold War tactic; Vega-C FLEX/Sentinel-3C set for 03:21 CEST liftoff.",
+  "stories": [
+    {
+      "id": "bitkom-ki-majority",
+      "title": "Bitkom: majority of German companies now use AI",
+      "topics": [
+        "AI",
+        "Germany",
+        "Business"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Bitkom (14 Sep, n=603 firms ≥20 employees): 57% already use AI — up from 36% a year ago and 20% two years ago; another 38% plan or discuss it; only 4% say AI is “no topic”.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Depth lag: among AI users, none claim full potential use; just 3% say they exploit it rather strongly; 28% little, 59% not at all. Wintergerst: “breadth arrived — the real work starts now.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Anxiety rises with adoption: 34% fear AI threatens their firm’s existence (23% last year); 61% say firms without AI have no future; 91% call AI the most important future tech.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Where it pays: 66% of users say competitive position improved; 48% sped internal processes; 45% see measurable contribution to success. Top brakes for users: data protection (66%), legal uncertainty (56%).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "AI Act backlash: 37% expect to be in-scope as users (23% YoY); of those affected/checking, 89% expect high implementation effort; 66% of all firms say the Act brings more harm than good.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Agents next: of firms using/planning/discussing AI, 11% already run agents, 29% plan, 31% discuss; only 24% say agents are not a topic.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Hard German survey evidence that AI crossed majority adoption while existential fear and AI-Act friction climbed — useful counterweight to the weekend’s frontier-lab pacing drama.",
+      "image": {
+        "url": "https://www.bitkom.org/sites/main/files/styles/facebook/public/2025-09/kuenstliche-intelligenz-ki-roboter.jpg?h=ef7b0230&itok=7u0REfzU",
+        "alt": "Illustration of a robot hand representing artificial intelligence in business",
+        "credit": "Bitkom",
+        "creditUrl": "https://www.bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI"
+      },
+      "sources": [
+        {
+          "label": "Bitkom (press)",
+          "url": "https://www.bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI",
+          "kind": "primary",
+          "time": "2026-09-14T09:00:00+02:00"
+        },
+        {
+          "label": "Reuters via onvista",
+          "url": "https://www.onvista.de/news/2026/09-14-bitkom-studie-firmen-setzen-auf-ki-fuerchten-aber-um-existenz-0-20-26553098",
+          "kind": "article",
+          "time": "2026-09-14T09:10:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ai-pacing-china-rebuke",
+      "title": "China hits AI-slowdown push as Cold War play; Altman fleshes out pacing",
+      "topics": [
+        "AI",
+        "Policy",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Global Times editorial (Mon): Amodei’s weekend “pace the frontier” essay is a “Cold War playbook” to curb China’s AI via tech barriers/regulatory monopoly — “hypocritical and short-sighted.”",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Straits Times/GT: essay (Sat) later endorsed by OpenAI’s Sam Altman and Elon Musk; Amodei also urged tighter US chip controls and action on alleged Chinese-lab distillation.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "CNBC: Altman’s Monday X post welcomes a US federal frontier-safety framework and independent auditors; warns of losing “control of the future to AI” or power concentrating in one person/company — pacing ≠ stopping.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Trump brushed off slowdown calls (per ST/CNBC); China’s MFA Mon urged an open/inclusive approach — confrontation disrupts AI governance.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Calendar: US–China frontier AI safety talks eyed mid-September; Trump–Xi summit listed for 24 Sep.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "The weekend lab consensus meets a hard Beijing rebuttal on Monday — pacing now sits inside great-power competition, not just safety blogs.",
+      "image": {
+        "url": "https://image.cnbcfm.com/api/v1/image/108357960-1788373276791-gettyimages-2292640346-g20_7000.jpeg?v=1788373294&w=1920&h=1080",
+        "alt": "Sam Altman speaking at an event",
+        "credit": "CNBC / Getty Images",
+        "creditUrl": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html"
+      },
+      "sources": [
+        {
+          "label": "Global Times",
+          "url": "https://www.globaltimes.cn/page/202609/1370436.shtml",
+          "kind": "primary",
+          "time": "2026-09-14T06:00:00+02:00"
+        },
+        {
+          "label": "The Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/china-state-newspaper-blasts-anthropics-calls-to-slow-ai-as-cold-war-tactic",
+          "kind": "article",
+          "time": "2026-09-14T06:30:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html",
+          "kind": "article",
+          "time": "2026-09-14T10:59:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "nadella-human-control",
+      "title": "Nadella: superintelligence only if it helps humanity — and stays under human control",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "ComputerBase (14 Sep): Satya Nadella on X (13 Sep) — any pursuit of superintelligence is “not worth pursuing” if the AI does not help humanity and remain under human control.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "He welcomes deliberate frontier pacing / embedded evaluators, but wants already-useful AI diffused faster across countries, communities, and companies — closed and open-source both thriving.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Enterprises must keep control of unique/tacit knowledge and model weights (“continuous learning loop”) rather than depend on one provider; governance “cannot be controlled by a handful of entities.”",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Microsoft to publish a Code of Conduct for first-party MAI models for public consultation (Nadella said “tomorrow” from the Sunday post — i.e. Mon 14 Sep).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Microsoft’s CEO joins the weekend pacing chorus with a sharper split: slow the frontier, accelerate diffusion, and keep enterprises (and humans) in the loop.",
+      "image": {
+        "url": "https://pics.computerbase.de/1/2/4/9/0/1-faa1940fc34e716f/article-1280x720.49f285b1.jpg",
+        "alt": "Microsoft-CEO Nadella: Superintelligenz muss unter menschlicher Kontrolle ste­hen",
+        "credit": "ComputerBase",
+        "creditUrl": "https://www.computerbase.de/news/apps/microsoft-ceo-nadella-superintelligenz-muss-unter-menschlicher-kontrolle-stehen.99392/"
+      },
+      "sources": [
+        {
+          "label": "ComputerBase",
+          "url": "https://www.computerbase.de/news/apps/microsoft-ceo-nadella-superintelligenz-muss-unter-menschlicher-kontrolle-stehen.99392/",
+          "kind": "article",
+          "time": "2026-09-14T11:15:00+02:00"
+        },
+        {
+          "label": "Fox Business",
+          "url": "https://www.foxbusiness.com/technology/microsoft-ceo-says-superintelligence-must-remain-under-human-control",
+          "kind": "article",
+          "time": "2026-09-14T02:56:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "beijing-drone-ban",
+      "title": "Beijing bans private drone possession after June tower crash",
+      "topics": [
+        "China",
+        "Hardware",
+        "Policy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "heise (citing Bloomberg / Beijing daily): private possession or storage of drones or drone parts in Beijing will be banned from 14 Nov; owners get ~2 months to remove devices from the city or hand them in.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Buyback: government offers up to 3,000 yuan (~€390) per surrendered drone depending on model.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Beijing declared controlled airspace barring non-commercial aviation; authorities also plan tighter airspace checks within ~300 km of the capital.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Trigger: 26 Jun light-sport aircraft deliberately struck the 108-storey CITIC Tower — pilot killed, 13 injured; near-miss with airliner reported. heise: possession ban goes beyond city flight bans in Paris/Rome/Vienna.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "A capital-wide ownership ban — not just no-fly zones — is a sharp escalation in urban UAS control after a high-rise crash.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/4/5/9/9/shutterstock_2675687813-812630bab0a6a2a0.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "No-drone sign in a park (symbol image)",
+        "credit": "heise online / Shutterstock",
+        "creditUrl": "https://www.heise.de/news/Chinesische-Behoerden-verbieten-Besitz-von-Drohnen-in-Peking-11452275.html"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Chinesische-Behoerden-verbieten-Besitz-von-Drohnen-in-Peking-11452275.html",
+          "kind": "article",
+          "time": "2026-09-14T12:40:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "vega-c-flex-liftoff",
+      "title": "Vega-C VV30: FLEX + Sentinel-3C encapsulated for 03:21 CEST liftoff",
+      "topics": [
+        "Space",
+        "Climate"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "ESA (14 Sep): FLEX and Copernicus Sentinel-3C are encapsulated in the Vega-C fairing at Kourou; launch tonight — 15 Sep 03:21 CEST (14 Sep 22:21 local).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Sequence: Sentinel-3C deploys first, then FLEX from the Vespa+R adapter after launcher manoeuvres. Live coverage starts 02:50 CEST.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "FLEX (Earth Explorer) maps plant fluorescence / vegetation health from ~814 km; Sentinel-3C continues ocean/land/ice/atmosphere monitoring with 3A/3B.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Flight VV30: Avio is prime contractor and launch-service operator for this Vega-C mission.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Material update on this morning’s FLEX tip — Europe’s dual Earth-observation stack is on the pad for overnight liftoff.",
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/flex_and_sentinel-3c_ready_for_launch/27459766-1-eng-GB/FLEX_and_Sentinel-3C_ready_for_launch_pillars.jpg",
+        "alt": "FLEX and Sentinel-3C ready for launch",
+        "credit": "ESA (ready for liftoff)",
+        "creditUrl": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_ready_for_liftoff_on_Vega-C"
+      },
+      "sources": [
+        {
+          "label": "ESA (ready for liftoff)",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_ready_for_liftoff_on_Vega-C",
+          "kind": "primary",
+          "time": "2026-09-14T10:00:00+02:00"
+        },
+        {
+          "label": "ESA (watch live)",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Watch_FLEX_and_Sentinel-3C_launch_on_Vega-C",
+          "kind": "primary",
+          "time": "2026-09-14T10:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise: Polyarc (Moss / Moss: Book II) shutting down after ~12 years — ~29 staff left; funding for a larger unannounced project dried up Dec 2025 amid Meta VR publishing retreat.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: Yunnan University underwater perovskite cells — module on a submersible produced 324 mWh in 2h at 10 m depth; Joule paper; aimed at sensors/ROVs/buoys.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "PetaPixel: Spanish police officer filmed putting F1 photographer (reportedly Peter Fox / Getty–Williams) in a chokehold at Madrid GP podium access — accredited bib visible.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN (~67 pts): EuroBirdPortal live map of bird movements across Europe.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/VR-Branche-verliert-namhaftes-Studio-Moss-Entwickler-Polyarc-schliesst-11452265.html",
+          "kind": "article",
+          "time": "2026-09-14T12:45:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Photovoltaik-im-Meer-Solarzellen-erzeugen-Strom-in-zehn-Metern-Tiefe-11452321.html",
+          "kind": "article",
+          "time": "2026-09-14T13:02:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/14/spanish-police-officer-puts-f1-photographer-in-chokehold-at-grand-prix/",
+          "kind": "article",
+          "time": "2026-09-14T12:13:36+02:00"
+        },
+        {
+          "label": "EuroBirdPortal (via HN)",
+          "url": "https://www.eurobirdportal.org/ebp/en/",
+          "kind": "primary",
+          "time": "2026-09-14T10:25:47+02:00",
+          "via": {
+            "label": "Hacker News",
+            "url": "https://news.ycombinator.com/item?id=49693610",
+            "kind": "article"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Lobsters: Laurie Voss — “We are all Product Engineers now” on AI collapsing the eng/PM boundary.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Apple developer site: dimensional drawings for accessories (Lobsters tip).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "arXiv: “Beyond Top-k Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents” (2609.05824).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "arXiv: “Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation” (2609.11115).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "r/sysadmin reminder: Microsoft ends support for Office 2021 next month.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "seldo.com (via Lobsters)",
+          "url": "https://seldo.com/posts/we-are-all-product-engineers-now/",
+          "kind": "article",
+          "time": "2026-09-14T12:52:45+02:00",
+          "via": {
+            "label": "Lobsters",
+            "url": "https://lobste.rs/s/agbpkq/we_are_all_product_engineers_now",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "Apple Developer",
+          "url": "https://developer.apple.com/accessories/dimensional-drawings/",
+          "kind": "primary",
+          "time": "2026-09-14T08:25:25+02:00",
+          "via": {
+            "label": "Lobsters",
+            "url": "https://lobste.rs/s/fpoakb/download_dimensional_drawings",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05824",
+          "kind": "primary"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2609.11115",
+          "kind": "primary"
+        },
+        {
+          "label": "r/sysadmin",
+          "url": "https://www.reddit.com/r/sysadmin/comments/1wfwzi0/friendly_reminder_that_next_month_microsoft_is/",
+          "kind": "article",
+          "time": "2026-09-14T09:48:38+02:00"
+        }
+      ]
+    }
+  ]
+}
