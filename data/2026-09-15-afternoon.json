@@ -1,0 +1,368 @@
+{
+  "id": "2026-09-15-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-15T13:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5–6h); X Following skipped (API credits depleted); sports feeds 503/quiet; no new GH releases",
+  "headline": "Oil squeezes higher as Hormuz traffic collapses to four ships; Fed hike odds firm for Wednesday; Apple rolls out iOS 27 with Siri AI.",
+  "stories": [
+    {
+      "id": "oil-hormuz-squeeze",
+      "title": "Brent ~$107.35 as Hormuz traffic collapses and Saudi pipeline stays dark",
+      "topics": [
+        "Markets",
+        "Energy"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Reuters (1002 GMT Tue): Brent +$1.67 / +1.58% to $107.35/bbl; WTI +$2.14 / +2.11% to $103.53 — material lift vs morning’s ~$107.05 / ~$102.92 (04:06 GMT).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Kpler via Reuters: commodity vessel traffic through Hormuz fell to four on Monday (from 10 Sunday) — route previously carried ~1/5 of global oil supply.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Saudi East-West pipeline still offline after Friday attacks; traders say exportable crude at Yanbu could run out within days; Goldman repair notes range “very soon” to ~eight weeks.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Oman Maritime Security Centre: Panama-flagged tanker El Gaia under tow to an Omani port after an engine-room fire following an attack.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Separately: Reuters calc — half of Russia’s six top diesel-producing refineries cut or halted September output after drone damage.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Fresh midday tape and Hormuz throughput data tighten the supply scare morning already flagged — the main inflation/Fed-week driver into Wednesday.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15/",
+          "kind": "article",
+          "time": "2026-09-15T12:02:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "fed-warsh-hike-week",
+      "title": "Fed expected to hike Wednesday — first in three years under Warsh",
+      "topics": [
+        "Markets",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "AP via WTOP: Fed widely expected to lift the short-term rate Wednesday for the first time in three years to fight sticky inflation — at odds with Trump’s preference for a cut.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Current funds rate cited ~3.6%; Chair Kevin Warsh gives fewer forward signals than predecessors; Jackson Hole speech two weeks ago argued the 2% inflation goal is not yet met.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "As recently as March the Fed had forecast one cut this year; AP frames Iran-war oil spikes plus AI data-center spending as keeping inflation above target longer.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Morning desk already had CME FedWatch ~90% for a 25 bp hike; afternoon AP package is the clear Wed-decision framing.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Lunch-time packaging of the Wednesday decision against oil and AI-capex inflation — the next hard catalyst after Monday’s chip rout.",
+      "image": {
+        "url": "https://wtop.com/wp-content/uploads/2026/08/Federal_Reserve_Jackson_Hole_42526-scaled.jpg",
+        "alt": "Federal Reserve Jackson Hole",
+        "credit": "AP via WTOP",
+        "creditUrl": "https://wtop.com/national/2026/09/federal-reserve-is-expected-to-raise-its-benchmark-rate-defying-trumps-demands/"
+      },
+      "sources": [
+        {
+          "label": "AP via WTOP",
+          "url": "https://wtop.com/national/2026/09/federal-reserve-is-expected-to-raise-its-benchmark-rate-defying-trumps-demands/",
+          "kind": "article",
+          "time": "2026-09-15T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ai-capex-nerves",
+      "title": "Investors probe AI capex after weekend safety-slowdown calls",
+      "topics": [
+        "Tech",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Reuters (15 Sep): investors nervous about any AI spending slowdown after Amodei/Altman/Musk weekend safety warnings — but several PMs say they need cancelled orders/deals, not talk.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "BofA Global Research via Reuters: hyperscalers (MSFT/GOOGL/AMZN/META/ORCL) expected ~$795B capex in 2026 and nearly $1.08T in 2027.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Monday SOX still ~+60% YTD despite the selloff; picks-and-shovels hit harder than hyperscalers on any capability-pace pause, per Arena Private Wealth’s Kratz.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Trump on Monday called AI safety threats “a hoax” and downplayed regulation — another input into the same tape.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Afternoon follow to morning’s chip rout: the debate shifts from weekend rhetoric to whether capex actually slips into Fed week.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/",
+          "kind": "article",
+          "time": "2026-09-15T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "apple-os-27",
+      "title": "Apple ships iOS 27 / macOS 27 with Siri AI",
+      "topics": [
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Apple Newsroom: major platform updates rolling out today across iOS 27, iPadOS 27, macOS 27 and other Apple platforms.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Headline feature: Siri AI — next-gen Apple Intelligence Siri with personal context, onscreen awareness, and world knowledge; dedicated Siri app syncs chat history via iCloud.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Also shipping: stronger parental controls plus Apple Intelligence upgrades in Photos (Spatial Reframing, Extend, Clean Up) and Image Playground.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN discussion spiked overnight on the same Newsroom release (702 comments in the broader overnight digests).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Biggest consumer-software ship of the day — Siri AI is Apple’s answer to the same AI cycle hammering chip stocks this week.",
+      "image": {
+        "url": "https://www.apple.com/newsroom/images/2026/09/major-updates-for-apples-software-platforms-are-now-available/tile/Apple-OS-availability-hero-lp.jpg.og.jpg?202609151009",
+        "alt": "Apple software platform updates with Siri AI rolling out across iPhone, iPad and Mac",
+        "credit": "Apple Newsroom",
+        "creditUrl": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/"
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+          "kind": "primary",
+          "time": "2026-09-15T12:09:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49701004",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise: Google Firebase adds monthly project spend caps (Public Preview) for AI Logic / Cloud Functions / App Hosting — pauses with a short delay after the limit.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: Rocket Lab protests NASA award of a Mars communications satellite to Blue Origin — claims award criteria and technical evaluation were inconsistent.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "heise: PS5 Pro ≥€1,290 at serious shops (was ~€900 end-Aug / now matches Sony’s raised RRP); Sony store sold out DE/US-like scarcity after GTA 6 gameplay buzz.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "PetaPixel: Skyworx says FCC’s proposed retroactive ban on some foreign-made drones could kill U.S. drone light-show operators; asks UAS exemption.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/5/2/4/2/AufmacherRoboterGeld-1414c322606d3922.png?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Illustration of a robot and money representing cloud cost controls",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Google-Firebase-fuehrt-Kostendeckel-fuer-KI-und-Hosting-ein-11453492.html"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Google-Firebase-fuehrt-Kostendeckel-fuer-KI-und-Hosting-ein-11453492.html",
+          "kind": "article",
+          "time": "2026-09-15T12:15:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Rocket-Lab-protestiert-gegen-Auftragsvergabe-der-NASA-ueber-Marssonde-11453680.html",
+          "kind": "article",
+          "time": "2026-09-15T12:41:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Nach-GTA-6-Enthuellung-Playstation-5-Pro-klettert-Richtung-1300-Euro-11453592.html",
+          "kind": "article",
+          "time": "2026-09-15T12:23:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/15/drone-light-shows-under-threat-from-fccs-proposed-ban/",
+          "kind": "article",
+          "time": "2026-09-15T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "bun #42772 (dylan-conway): js_printer — make the writer’s operations infallible (merged 06:14Z).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "bun #42767 (dylan-conway): js_printer — derive output position from buffer length (merged 03:47Z).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Playwright #42664 (lazerg): fix(chromium) — bypass service workers on the storage state page.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Anthropic Status: intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1 (~10:50Z).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "OpenAI Status: elevated errors on GPT-5.6 / GPT-5.6 Instant (paid) — marked resolved after mitigation.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "HN: “Let’s make quality the norm again” — Norwegian Consumer Council short-life / durability piece.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/5ba6d6215886d13f5d89adaa601e9bd9d2c954256eeb61ad6a04ffce33314c6d/oven-sh/bun/pull/42772",
+        "alt": "What does this PR do? Removes error handling in the JS printer's writer that can never run, including an error stored on a printer that the runtime reuses across files. BufferWriter is the onl...",
+        "credit": "oven-sh/bun#42772",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/42772"
+      },
+      "sources": [
+        {
+          "label": "oven-sh/bun#42772",
+          "url": "https://github.com/oven-sh/bun/pull/42772",
+          "kind": "primary",
+          "time": "2026-09-15T08:14:18+02:00"
+        },
+        {
+          "label": "oven-sh/bun#42767",
+          "url": "https://github.com/oven-sh/bun/pull/42767",
+          "kind": "primary",
+          "time": "2026-09-15T05:47:50+02:00"
+        },
+        {
+          "label": "microsoft/playwright#42664",
+          "url": "https://github.com/microsoft/playwright/pull/42664",
+          "kind": "primary",
+          "time": "2026-09-14T17:43:23+02:00"
+        },
+        {
+          "label": "Anthropic Status",
+          "url": "https://status.claude.com/incidents/6304r9jjhj34",
+          "kind": "primary",
+          "time": "2026-09-15T12:50:26+02:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M2HYH64J2CZMZ63HEV2FCQFA",
+          "kind": "primary",
+          "time": "2026-09-15T09:53:36+02:00"
+        },
+        {
+          "label": "Forbrukerrådet",
+          "url": "https://www.forbrukerradet.no/short-life/",
+          "kind": "article",
+          "time": "2026-09-15T12:00:16+02:00"
+        }
+      ]
+    }
+  ]
+}
