@@ -1,0 +1,448 @@
+{
+  "id": "2026-09-15-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-15T19:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:05 Berlin / ~6h); X Following skipped (API credits depleted)",
+  "headline": "Merz pledges fuel-price relief as E10 hits €2.286; Russian frigate flares at Danish helo; 10y Treasuries touch 5.025%.",
+  "stories": [
+    {
+      "id": "merz-spritpreis-entlastungen",
+      "title": "Merz announces fuel-price relief — instrument still TBD",
+      "topics": [
+        "Germany",
+        "Energy",
+        "Politics"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Chancellor Friedrich Merz (BGA Unternehmertag, Berlin): “Ich bin der Meinung, dass wir handeln müssen” — for many who need a car daily, a Belastungsgrenze is reached (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Exact Instrumentarium not set; gov’t coordinating with Länder; “sehr bald” a proposal (tagesschau ~17:46).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Pump context: Super E10 avg €2.286/L (record); Diesel €2.412/L — a few cents from a record (tagesschau).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Merz: Kartellamt has Missbrauchsaufsicht vs “Preistreiberei,” but that isn’t enough for consumers; rejects Übergewinnsteuer for now — Klingbeil still pushes one (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Reiche (Economy) floats targeted Direktzahlungen for certain groups; SPD’s Zorn wants a fuel price ceiling (MDR).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "First clear chancellery pledge of new Sprit relief amid record pump prices — politics ahead of concrete design.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/merz-entlastungen-spritpreise-100.html",
+          "kind": "article",
+          "time": "2026-09-15T17:46:00+02:00"
+        },
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/nachrichten/deutschland/politik/merz-reiche-direktzahlung-entlastung,spritpreise-282.html",
+          "kind": "article",
+          "time": "2026-09-15T16:51:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "baltic-frigate-flares-denmark",
+      "title": "Russian frigate fires flares at Danish helicopter off Gedser",
+      "topics": [
+        "Europe",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Danish Defence (Mon evening): RDAF Fennec on routine photographic monitoring of a Russian frigate in international waters off Gedser; frigate fired two flares; one passed at close range (Euronews/AFP).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Tue: FM Lars Løkke Rasmussen called it “completely unacceptable”; Russia’s ambassador summoned; PM Mette Frederiksen: “reckless action… meant to intimidate and divide” (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Ambassador Vladimir Barbin (AFP): blamed Danish “provocative” manoeuvres; Russia will investigate (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Defence Min. Jeppe Bruus (TV 2 / AeroTime): crew unhurt, helicopter undamaged; not seeking NATO Article 4 consultations at this point.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Fresh Baltic close call — distinct from morning’s Lithuania drone — another NATO–Russia friction point in northern waters.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/15/russia-summoned-by-denmark-after-warship-fires-flares-at-helicopter",
+          "kind": "article",
+          "time": "2026-09-15T09:35:00+02:00"
+        },
+        {
+          "label": "AeroTime",
+          "url": "https://www.aerotime.aero/articles/russian-frigate-fires-flares-at-danish-fennec-helicopter-in-baltic-sea",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "russia-train-travel-warning",
+      "title": "Moscow warns Western politicians against train travel to Ukraine",
+      "topics": [
+        "World",
+        "Ukraine"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "SPIEGEL: after weekend drone strike on a passenger train near the Poland border, MFA spokeswoman Maria Zakharova said travellers must “nüchtern” weigh risks — nobody can guarantee their safety.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Context: a nearby diplomatic/YES-conference train carried Boris Johnson, Carl Bildt, Sanna Marin, and Merz adviser Günter Sautter; Ukrzaliznytsia did not rule out the YES Express as the intended target (SPIEGEL).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Zakharova accused Kyiv of using Western VIPs as “human shields” for alleged military convoys (SPIEGEL / Moscow Times).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "SPIEGEL: Berlin said Mon that until security can be better assessed, no more Zugreisen by top German politicians to Ukraine.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Explicit travel intimidation after a border-area rail strike — raises the cost of solidarity visits that have used night trains via Poland.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/ausland/ukraine-krieg-russland-warnt-westliche-politiker-vor-zugreisen-nach-kyjiw-a-2f4a69b4-e33a-48c2-b481-779d519a65a4",
+          "kind": "article",
+          "time": "2026-09-15T16:54:00+02:00"
+        },
+        {
+          "label": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/09/15/mfa-repeats-warning-for-foreign-embassies-in-kyiv-to-evacuate-after-train-strike-near-poland-a93715",
+          "kind": "article",
+          "time": "2026-09-15T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "us-treasury-yields-2007",
+      "title": "10-year Treasuries hit ~5.025% — highest since 2007",
+      "topics": [
+        "Markets",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "tagesschau (ARD Finanzredaktion ~14:04): 10y US Treasury yield climbed to 5.025% — highest since the 2007 financial-crisis era; >1 pp up since Iran war began late Feb.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "SPIEGEL: morning print cited 5.03%; US debt recently topped $40T; Bund 10y to 3.57% (multi-year high; ~2.6% end-Feb).",
+          "sourceIndexes": [
+            1,
+            0
+          ]
+        },
+        {
+          "text": "Drivers: energy-led inflation expectations + Fed hike priced for Wed; EZB already hiked last week (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Knock-on: DE Bauzinsen ~4.25% (10y fix, Barkow) — trending toward ~4.5% (FMH’s Max Herbst via tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Concrete yield levels beyond afternoon’s hike-odds framing — funding costs for governments and mortgages reset higher into Fed week.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/marktbericht-renditen-100.html",
+          "kind": "article",
+          "time": "2026-09-15T14:04:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/wirtschaft/soziales/rendite-fuer-us-staatsanleihen-steigt-auf-hoechsten-stand-seit-2007-a-368de247-a62a-4327-89d1-e6f6647316b0",
+          "kind": "article",
+          "time": "2026-09-15T14:19:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-kill-switch",
+      "title": "Anthropic co-founder: AI kill switch may need to be mandatory",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "BBC interview: Anthropic co-founder Jack Clark said a third-party-verifiable “kill switch” to shut off dangerous AI “might” need eventual rules/mandates.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Clark: most labs (incl. Anthropic) already have ways to “pull the plug”; specifics should be part of the larger policy conversation.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Context: US “Kill Switch Act” proposals exist; Trump has rejected extinction-risk framing; UK gov’t recently rejected creating a kill switch (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "New primary angle beyond afternoon’s capex/safety-slowdown nerves — a lab founder openly floating mandatory shutoff capability.",
+      "image": null,
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cqgk5e2j0gg8o",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise: Analyst Jeff Pu (GF Securities) sees “lauwarm” iPhone 18 Pro preorder demand — many Pro configs immediately available; Pro Max wait mostly 1–4 weeks; Duo preorders start 16 Oct.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Sony (PR): FE 400mm F4.5 GM OSS (~994 g, $2,699.99) and FE 600mm F6.3 GM OSS (~995 g, $3,699.99) — world’s lightest in class; ship Oct 2026.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Firefox 156.0 released (15 Sep) with security fixes + Windows taskbar/ARM64 WebRTC H.264 decode notes (Mozilla).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "heise: Microsoft out-of-band Windows patches after Sept patchday — RDP/RDS instability, Hyper-V Plan9 shares, partial USB-audio; Win11 24H2/25H2 KB5129195; also missed Aug CVE-2026-62721.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "heise: EU Digital Fairness Act fight over lootboxes/dark patterns — McGrath consumer DG vs CNECT co-reg push; Follow the Money docs (heise).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Schneier (+ Cindy Cohn / Lawfare): “25 years of mass surveillance is enough” — post-9/11 dragnets now routine for LE/ICE (HN front page).",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Show HN: fugleramme — e-ink frame that hears birds and draws them as 1800s illustrations (~661 pts).",
+          "sourceIndexes": [
+            6
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/iPhone-18-Pro-Laut-Analyst-nur-verhaltene-Vorbestellungen-11454345.html",
+          "kind": "article",
+          "time": "2026-09-15T18:34:00+02:00"
+        },
+        {
+          "label": "Sony Electronics (PR Newswire)",
+          "url": "https://www.prnewswire.com/news-releases/sony-electronics-announces-new-400-mm-and-600-mm-g-master-super-telephoto-prime-lenses-the-worlds-lightest-lenses-in-their-class-302878486.html",
+          "kind": "primary",
+          "time": "2026-09-15T18:21:00+02:00"
+        },
+        {
+          "label": "Mozilla Firefox 156 notes",
+          "url": "https://www.firefox.com/en-US/firefox/156.0/releasenotes/",
+          "kind": "primary",
+          "time": "2026-09-15T12:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Ausser-der-Reihe-Microsoft-fixt-Probleme-und-Luecken-nach-Windows-Updates-11453167.html",
+          "kind": "article",
+          "time": "2026-09-15T09:06:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Milliardenmarkt-Gaming-EU-Machtkampf-um-Verbot-von-Lootboxen-und-Dark-Patterns-11454359.html",
+          "kind": "article",
+          "time": "2026-09-15T18:22:00+02:00"
+        },
+        {
+          "label": "Schneier on Security",
+          "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+          "kind": "article",
+          "time": "2026-09-15T13:01:00+02:00"
+        },
+        {
+          "label": "Show HN: fugleramme",
+          "url": "https://github.com/arnegiacomo/fugleramme",
+          "kind": "primary",
+          "time": "2026-09-15T14:31:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "TypeScript #64275 merged: fix declaration emit crash on private method signatures (For Uncommitted Bug).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "bun #42787 merged: WebKit DFG — restore locals live only at a catch when try ranges abut (oven-sh/WebKit#629).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "SvelteKit #17106: follow HTTP redirects after enhanced form submissions; #17107: preserve document path in hash-router resolve.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "OpenJDK: JDK 27 GA (build 35) — Mark Reinhold announce; JEPs include G1 default GC, PQ hybrid TLS 1.3, compact object headers by default.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "HN: Alternatives to MinIO for single-node local S3 (rmoff.net); Show HN Capsule — single-file web apps saving data into SQLite.",
+          "sourceIndexes": [
+            5,
+            6
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "TypeScript #64275",
+          "url": "https://github.com/microsoft/TypeScript/pull/64275",
+          "kind": "primary",
+          "time": "2026-09-15T18:49:00+02:00"
+        },
+        {
+          "label": "bun #42787",
+          "url": "https://github.com/oven-sh/bun/pull/42787",
+          "kind": "primary",
+          "time": "2026-09-15T17:57:00+02:00"
+        },
+        {
+          "label": "SvelteKit #17106",
+          "url": "https://github.com/sveltejs/kit/pull/17106",
+          "kind": "primary",
+          "time": "2026-09-15T16:16:00+02:00"
+        },
+        {
+          "label": "SvelteKit #17107",
+          "url": "https://github.com/sveltejs/kit/pull/17107",
+          "kind": "primary",
+          "time": "2026-09-15T16:13:00+02:00"
+        },
+        {
+          "label": "OpenJDK announce (JDK 27 GA)",
+          "url": "https://mail.openjdk.org/archives/list/announce@openjdk.org/thread/ORGGLMN75HFEWP7YL3ZLGHLYHVIBJDYT/",
+          "kind": "primary",
+          "time": "2026-09-15T15:11:00+02:00"
+        },
+        {
+          "label": "rmoff.net (via HN)",
+          "url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
+          "kind": "article",
+          "time": "2026-09-15T10:21:00+02:00"
+        },
+        {
+          "label": "Capsule (via HN)",
+          "url": "https://withcapsule.app/",
+          "kind": "primary",
+          "time": "2026-09-15T15:31:00+02:00"
+        }
+      ]
+    }
+  ]
+}
