@@ -1,0 +1,553 @@
+{
+  "id": "2026-09-15-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-15T08:30:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h); X Following skipped (API credits depleted)",
+  "headline": "AI safety warnings slam chip stocks into Fed week; NATO downs a drone over Lithuania as oil climbs past $107",
+  "stories": [
+    {
+      "id": "ai-safety-chip-selloff",
+      "title": "AI safety warnings hammer chip stocks into Fed hike week",
+      "topics": [
+        "Tech",
+        "Markets"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Wall Street closed Monday lower after Anthropic CEO Dario Amodei, OpenAI’s Sam Altman and xAI’s Elon Musk called for slowing AI capability advances over safety risks.",
+          "sourceIndexes": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "Nvidia −3.4%; Micron >−5%; Broadcom and AMD each >−4%; PHLX Semiconductor Index (.SOX) −5.9% (2026 gain cut to ~57%).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "S&P 500 −0.48% to 7,619.94; Nasdaq −0.56% to 26,186.41; Dow −0.29% to 52,421.17.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "U.S. 10-year Treasury yield briefly topped 5% (first time since 2023); traders ~90% priced a 25 bp Fed hike Wednesday (CME FedWatch).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Tuesday Reuters: investors nervous about an AI spending slowdown; BofA sees hyperscaler AI-related capex ~$795bn in 2026; Trump Monday called AI safety threats “a hoax.”",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Semis and AI infrastructure are priced for uninterrupted capex — safety-slowdown talk plus Fed hike odds and oil/yields is a core portfolio risk for tech investors this week.",
+      "image": null,
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/what-the-potential-ai-safety-slowdown-means-for-investors.html",
+          "kind": "article"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/",
+          "kind": "article",
+          "time": "2026-09-14T09:16:00+00:00"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/",
+          "kind": "article",
+          "time": "2026-09-15T05:03:00+00:00"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "oil-saudi-pipeline",
+      "title": "Brent ~$107 as Saudi East-West pipeline stays offline",
+      "topics": [
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Brent +$1.37 / +1.3% to $107.05/bbl at 04:06 GMT Tuesday; WTI +$1.53 / +1.51% to $102.92.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Both benchmarks rose >1% Monday; Monday Brent settle cited ~$105.68 in the equity wrap.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Saudi East-West pipeline offline after Friday attacks Riyadh blamed on Iran-backed fighters in Iraq; route had moved ~4 mb/d (~4% of global supply) to Yanbu, bypassing Hormuz.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Houthis launched a Monday missile/drone attack on Khamis Mushait airbase in southern Saudi Arabia.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Hormuz commodity vessel traffic fell to <10 transits/day over the weekend vs a 10-day average of 14.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Supply risk feeds European inflation, German fuel costs, and the Fed path into an already risk-off equity week.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15/",
+          "kind": "article",
+          "time": "2026-09-15T04:06:00+00:00"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/",
+          "kind": "article",
+          "time": "2026-09-14T09:16:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "commerzbank-unicredit-klingbeil",
+      "title": "Klingbeil sets UniCredit conditions for Commerzbank path",
+      "topics": [
+        "Germany",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Finance Minister Lars Klingbeil met UniCredit CEO Andrea Orcel in Berlin Monday — first time Berlin spelled out takeover conditions to Orcel face-to-face.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Demands: Commerzbank remain stock-exchange listed; keep its base in Frankfurt; continue financing German Mittelstand at home and abroad.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Klingbeil: further talks “must be conducted responsibly”; Orcel called it a “good and constructive initial discussion” to be followed swiftly.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "UniCredit stake near ~50%; German government holds ~13.3% (bailout legacy); combined assets cited >€1.3tn. Commerzbank declined to comment.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Largest euro-zone bank M&A thread in years — German stake, Frankfurt jobs, and Mittelstand finance are the political gates.",
+      "image": {
+        "url": "https://www.livemint.com/lm-img/img/2024/12/06/600x338/company_1_1733464951182_1733464958176.png",
+        "alt": "German Minister Has ‘Constructive’ Orcel Talk on Commerzbank | Company Business News",
+        "credit": "LiveMint",
+        "creditUrl": "https://www.livemint.com/companies/german-minister-has-constructive-orcel-talk-on-commerzbank-11789412443108.html"
+      },
+      "sources": [
+        {
+          "label": "LiveMint",
+          "url": "https://www.livemint.com/companies/german-minister-has-constructive-orcel-talk-on-commerzbank-11789412443108.html",
+          "kind": "article",
+          "time": "2026-09-15T00:30:00+05:30"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/finance/german-finance-minister-lays-out-demands-unicredit-ceo-possible-commerzbank-2026-09-14/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "nato-drone-lithuania",
+      "title": "NATO jet shoots down drone over Lithuania; Poland scrambles",
+      "topics": [
+        "Security",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Lithuanian crisis centre / Reuters: NATO fighter shot down a drone shortly after midnight Tuesday near Pratkunai, southern Lithuania (near Kaunas); likely entered from Belarus; origin undetermined.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Drone alert earlier for Vilnius and the surrounding region.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "SPIEGEL (03:10 CEST): President Gitanas Nausėda thanked alliance forces; Poland announced preventive air operations citing Russian jet-powered drones attacking Ukraine.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Reuters notes prior NATO Baltic Air Policing shoot-downs of stray Ukrainian drones over Estonia (May) and Latvia (June, August).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Fresh eastern-flank spillover overnight — separate from Germany’s Litauen brigade transfer policy already briefed yesterday.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/ausland/russland-ukraine-krieg-nato-kampfjets-schiessen-drohne-ueber-litauen-ab-a-f8ebc01f-ad75-4094-ad11-f763ac6ef558",
+          "kind": "article",
+          "time": "2026-09-15T03:10:00+02:00"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/nato-fighter-shoots-down-drone-lithuania-2026-09-14/",
+          "kind": "article",
+          "time": "2026-09-14T22:29:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-energy-truce-update",
+      "title": "Overnight strikes undercut Trump’s energy-truce claim",
+      "topics": [
+        "Ukraine",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Zelenskyy: Ukraine will halt corresponding strikes only if partners ensure Russia stops hitting electricity, energy, critical infrastructure and food routes — “reliable, long-term”; doubts Russia will abide.",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "ZEIT/dpa (06:39): Samara governor via TASS — industrial site + residential buildings damaged overnight by Ukrainian drones; no deaths; ~40 drones downed; Ukrainian reports called the site an oil refinery.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Same piece: Kyiv mayor Klitschko — Russian drones hit a petrol station in Kyiv overnight; one person injured elsewhere; Ukraine also hit Ozon warehouses in Taganrog (Rostov) per Russian governor — no casualties reported.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Moscow had not publicly confirmed Trump’s “both agreed” energy-target halt at the time of these reports.",
+          "sourceIndexes": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Material overnight update to Monday’s claim — no confirmed mutual halt, and energy-adjacent strikes continued on both sides.",
+      "image": {
+        "url": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/09/15/thumbs_b_c_8e3053ac88dca4088fb8d4249273ca58.jpg",
+        "alt": "Zelenskyy doubts Russia will honor energy-target truce announced by Trump",
+        "credit": "Anadolu Agency",
+        "creditUrl": "https://www.aa.com.tr/en/russia-ukraine-war/zelenskyy-doubts-russia-will-honor-energy-target-truce-announced-by-trump/4057261"
+      },
+      "sources": [
+        {
+          "label": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/russia-ukraine-war/zelenskyy-doubts-russia-will-honor-energy-target-truce-announced-by-trump/4057261",
+          "kind": "article"
+        },
+        {
+          "label": "DIE ZEIT / dpa",
+          "url": "https://www.zeit.de/news/2026-09/15/trotz-trump-ansage-ukraine-greift-russische-anlage-an",
+          "kind": "article",
+          "time": "2026-09-15T06:39:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/15/ukraine-war-briefing-no-energy-ceasefire-until-russia-stops-zelenskyy-confirms-after-trump-claim",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "scotus-mail-ballots",
+      "title": "Supreme Court blocks Trump mail-ballot restrictions",
+      "topics": [
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Supreme Court declined to lift a lower-court injunction blocking stricter USPS/mail-ballot rules the Trump administration sought before the November midterms.",
+          "sourceIndexes": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Court said the government was unlikely to succeed on the merits of challenging the injunction (brief order).",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Effect: states may keep sending mail ballots under existing standards; some already mailed.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Trump March order would have limited USPS delivery of ballots to voters on state-provided lists; Boston federal judge late August called the scheme likely unconstitutional and impractical pre-election.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Justice Kavanaugh concurrence (per Handelsblatt/dpa): too little time to implement before midterms.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Near-term U.S. political risk into midterms (3 Nov 2026) — mail voting stays on existing standards.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau.de",
+          "url": "https://www.tagesschau.de/ausland/amerika/supreme-court-briefwahl-102.html",
+          "kind": "article",
+          "time": "2026-09-15T06:52:00+02:00"
+        },
+        {
+          "label": "Handelsblatt / dpa",
+          "url": "https://www.handelsblatt.com/politik/international/vor-den-midterms-streit-um-briefwahl-niederlage-fuer-trump-vor-supreme-court/100254519.html",
+          "kind": "article",
+          "time": "2026-09-15T04:51:00+02:00"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/loss-trump-us-supreme-court-wont-let-postal-service-restrict-mail-ballots-2026-09-14/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Warriors: Kerr says roster depth must hold until Jimmy Butler and Moses Moody return mid-season; frames 2026/27 as a Curry/Green transition year (Hoops Rumors / Tolbert Show).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "49ers: Mike Evans debut vs Rams in Melbourne — 6 catches, 49 yards, 2-yard TD from Purdy; next home opener vs Dolphins at Levi’s, Sun Sep 20 (1:25 p.m. PT).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Hoops Rumors",
+          "url": "https://www.hoopsrumors.com/2026/09/warriors-notes-kerr-roster-lebron-draymond-more.html",
+          "kind": "article",
+          "time": "2026-09-14T19:07:00-04:00"
+        },
+        {
+          "label": "49ers.com",
+          "url": "https://www.49ers.com/news/exactly-what-we-expected-mike-evans-shines-in-49ers-debut",
+          "kind": "primary",
+          "time": "2026-09-14T11:52:00-07:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "ESA: FLEX and Sentinel-3C launched (overnight update from evening “GO”).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "YouGov Sonntagsfrage (Handelsblatt/dpa): AfD 29% (+1); CDU/CSU 18% (−2) — historic low in this YouGov series; Greens 16%, SPD 13%, Linke 10%, FDP 5%, BSW 4%.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Golem: Broadcom said to complicate and raise costs of VMware migrations — customers frustrated.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Golem: U.S. Space Force confirms weapons in space for the first time (per report).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "PetaPixel: Fujifilm Instax Pal 2 digicam redesign — looks nothing like its predecessor.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/vega-c_takes_flex_and_sentinel-3c_into_orbit/27517898-2-eng-GB/Vega-C_takes_FLEX_and_Sentinel-3C_into_orbit_pillars.jpg",
+        "alt": "Vega-C takes FLEX and Sentinel-3C into orbit",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched"
+      },
+      "sources": [
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
+          "kind": "primary",
+          "time": "2026-09-15T03:25:00+00:00"
+        },
+        {
+          "label": "Handelsblatt / dpa",
+          "url": "https://www.handelsblatt.com/politik/deutschland/nach-der-landtagswahl-afd-bleibt-laut-umfrage-staerkste-partei-cdu-csu-auf-tief/100254556.html",
+          "kind": "article",
+          "time": "2026-09-15T06:00:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/kunden-sind-veraergert-broadcom-erschwert-und-verteuert-vmware-migrationen-2609-213013.html",
+          "kind": "article",
+          "time": "2026-09-15T06:30:01+00:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/space-force-us-militaer-bestaetigt-erstmals-waffen-im-weltraum-2609-213011.html",
+          "kind": "article",
+          "time": "2026-09-15T06:22:02+00:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/14/the-fujifilm-instax-pal-2-digicam-looks-nothing-like-its-weird-predecessor/",
+          "kind": "article",
+          "time": "2026-09-15T02:00:32+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "bun PR #42668 (Jarred-Sumner): deps — mimalloc bumped to head of bun-dev3-v2.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "TypeScript PR #64264: add missing APIs needed by typescript-eslint (andrewbranch).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Playwright PR #42707: fix(storage) — preserve IndexedDB Map and Set values.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN: Steam Frame starts at $1059 (Valve store hardware page).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/02e7e915197243d482fb9e6813b64fba036fcbed434678771c375aa3b607a77a/oven-sh/bun/pull/42668",
+        "alt": "What does this PR do? Moves MIMALLOC_COMMIT from ab13501334a8 to 69050cf3ec14be4847ca3ba6c840da821fa283b0, the head of bun-dev3-v2: main's pin plus six merged PRs of the fork and nothing else, ...",
+        "credit": "bun #42668",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/42668"
+      },
+      "sources": [
+        {
+          "label": "bun #42668",
+          "url": "https://github.com/oven-sh/bun/pull/42668",
+          "kind": "primary",
+          "time": "2026-09-15T03:05:07+00:00"
+        },
+        {
+          "label": "TypeScript #64264",
+          "url": "https://github.com/microsoft/TypeScript/pull/64264",
+          "kind": "primary",
+          "time": "2026-09-14T23:28:33+00:00"
+        },
+        {
+          "label": "Playwright #42707",
+          "url": "https://github.com/microsoft/playwright/pull/42707",
+          "kind": "primary",
+          "time": "2026-09-14T17:43:00+00:00"
+        },
+        {
+          "label": "Steam (via HN)",
+          "url": "https://store.steampowered.com/hardware/steamframe",
+          "kind": "primary",
+          "time": "2026-09-14T17:27:55+00:00"
+        }
+      ]
+    }
+  ]
+}
