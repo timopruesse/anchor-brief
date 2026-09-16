@@ -1,0 +1,399 @@
+{
+  "id": "2026-09-16-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-16T13:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:20 Berlin / ~5h); X Following skipped (API credits depleted)",
+  "headline": "Eight CDU premiers back Merz; BBC Verify shows East-West pipeline damage (weeks to repair); von der Leyen pitches EU Kids Act age rules.",
+  "stories": [
+    {
+      "id": "merz-cdu-ministerpraesidenten",
+      "title": "All eight CDU state premiers back Merz — “gemeinsam mit dem Bundeskanzler”",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "All eight CDU Ministerpräsidenten issued a joint statement opposing personnel speculation and pledging to work “gemeinsam mit dem Bundeskanzler” (Tagesspiegel ~11:34 / SPIEGEL).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Three tenets: Bundestag majority (no minority-gov trial balloons); work with all democratic forces (AfD firewall); trust via action, “nicht über Personaldiskussionen” (SPIEGEL).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Merz’s circle welcomed the support; CSU’s Söder was informed but not asked to sign — he said Tuesday he expects Merz to keep Präsidium backing Sunday (SPIEGEL).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Context unchanged: MV/Berlin votes Sunday; CDU Präsidium Sunday evening; Merz already cancelled next week’s UN General Debate trip (morning).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "First coordinated Länder-chef firewall against ouster talk — but SPIEGEL notes the “jetzt” framing leaves room after Sunday’s polls.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/politik/gemeinsam-mit-dem-bundeskanzler-cdu-ministerprasidenten-stellen-sich-hinter-merz-16058002.html",
+          "kind": "article",
+          "time": "2026-09-16T11:34:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/deutschland/friedrich-merz-und-bundesregierung-cdu-ministerpraesidenten-warnen-vor-planspielen-mit-minderheitsregierung-a-4afd473b-a3f9-48e0-b08e-77b2f3ca4816",
+          "kind": "article",
+          "time": "2026-09-16T11:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "east-west-pipeline-satellite",
+      "title": "BBC Verify: East-West pipeline pumping-station damage may take 4–6 weeks",
+      "topics": [
+        "Middle East",
+        "Energy",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "BBC Verify satellite imagery shows major damage at a pumping station on Saudi Arabia’s East-West Pipeline — the Red Sea export workaround after Hormuz disruption (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Kpler’s Homayoun Falakshahi: repairs could take four to six weeks given spare parts and impaired supply chains; closure risk cited up to ~3.6 mb/d (~3.6% global demand) (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Trade sources (Reuters via Al-Monitor): Saudi told some European customers September cargoes will be cancelled; Yanbu loadings remain suspended; dated Brent ~$122 vs futures near $108 (Al-Monitor).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Separate Monday imagery: damage to hangars at King Khalid Air Base near Khamis Mushait after Houthi strikes; Mecca drone intercept was morning’s related thread (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Turns yesterday’s Yanbu pause into a multi-week Red Sea export outage with European cargo cancellations — material upgrade vs morning’s loading halt.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/6491/live/f14f3560-b10c-11f1-a540-61c3f7fc4e6c.png",
+        "alt": "A satellite image of a damaged oil refinery",
+        "credit": "BBC Verify",
+        "creditUrl": "https://www.bbc.com/news/articles/c65yw2gq2nrno"
+      },
+      "sources": [
+        {
+          "label": "BBC Verify",
+          "url": "https://www.bbc.com/news/articles/c65yw2gq2nrno",
+          "kind": "article"
+        },
+        {
+          "label": "Al-Monitor (Reuters)",
+          "url": "https://www.al-monitor.com/originals/2026/09/saudi-cancels-some-oil-cargoes-after-pipeline-hit-top-buyer-chasing-alternatives",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "eu-kids-act-soteu",
+      "title": "von der Leyen: no personal social accounts under 15; mini accounts 13–15",
+      "topics": [
+        "Europe",
+        "Tech",
+        "Policy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "SOTEU: von der Leyen previewed EU Kids Act — “No personal account under 15. No social media under 13”; only parent-supervised mini accounts 13–under-15 (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Full draft due Thursday; covers social/video platforms plus safety-by-design for games and AI chatbots/companions; age-verification via EU-wide app or national tools (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Draft bans infinite scroll / artificial notifications / some rewards; DSA systemic services need Commission OK for child-affecting features; supervisory fee (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Golem afternoon DE write-up frames the same 13+ mini-account / autonomous from 15 ladder for Social Media (Golem).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Hardest EU-wide age ladder yet for big platforms — SOTEU makes the leak political reality ahead of Thursday’s formal proposal.",
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/91/29/66/1200x675_cmsv2_7367a266-9d98-5b11-b553-1d335de3a291-9912966.jpg",
+        "alt": "'Enough is enough': EU moves toward restricting social media access for under-15s",
+        "credit": "Euronews",
+        "creditUrl": "https://www.euronews.com/my-europe/2026/09/15/leak-eu-commission-to-pitch-social-media-restrictions-for-under-15s"
+      },
+      "sources": [
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/15/leak-eu-commission-to-pitch-social-media-restrictions-for-under-15s",
+          "kind": "article",
+          "time": "2026-09-16T11:33:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/mini-konten-fuer-unter-15-jaehrige-eu-kommission-will-social-media-erst-ab-13-jahren-erlauben-2609-213088.html",
+          "kind": "article",
+          "time": "2026-09-16T12:28:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "pixel-modem-zeroday",
+      "title": "Google: Pixel modem CVE-2026-58704 under limited targeted exploitation",
+      "topics": [
+        "Security",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Pixel Bulletin: CVE-2026-58704 “may be under limited, targeted exploitation”; High modem EoP (permission bypass); adjacent/proximal, no user interaction (AOSP).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Patch level 2026-09-05 or later covers the issue; BleepingComputer: ~110 Pixel vulns in the drop including multiple Critical RCEs; Google urges install via Settings → Security update (BleepingComputer).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Golem afternoon DE alert covers the same modem zero-day under active pressure (Golem).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Rare Google admission of in-the-wild Pixel modem exploitation — patch today if you’re still below 2026-09-05.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Android Pixel Bulletin",
+          "url": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-09-01",
+          "kind": "primary",
+          "time": "2026-09-15T00:00:00+02:00"
+        },
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+          "kind": "article",
+          "time": "2026-09-16T09:00:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/google-warnt-gefaehrliche-modem-luecke-in-pixel-smartphones-unter-beschuss-2609-213089.html",
+          "kind": "article",
+          "time": "2026-09-16T12:40:02+02:00"
+        }
+      ]
+    },
+    {
+      "id": "lithuania-drone-explosives",
+      "title": "Lithuania: downed drone carried explosives; likely path from Belarus",
+      "topics": [
+        "Europe",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Defence Minister Robertas Kaunas: the drone Italian Eurofighters shot down overnight Mon→Tue near Pratkūnai carried explosives; specialists have defused the charge; no casualties (tagesschau ~08:39).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Early assessment: likely entered from Belarus; origin still under investigation. President Nausėda thanked NATO responders (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "FM Wadephul: another sign of Russian hostility toward NATO allies; von der Leyen tied Baltic/European incidents to a “broader pattern” of Russian aggression (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "First explosive payload confirmed after a NATO shootdown over Lithuania — escalates the recent drone/balloon harassment thread.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/europa/litauen-drohne-sprengstoff-100.html",
+          "kind": "article",
+          "time": "2026-09-16T08:39:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Oracle September Critical Patch Update: 673 patches; multiple Critical CVSS items across WebLogic, Identity Manager, BI, Siebel and more (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Disney+ DE: revised terms clarify pre-/post-roll ads and live/ESPN spots can appear even on Standard/Premium; mid-roll still Ad tier only (heise).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "ESA Mars Express: berry-purple Thyles Rupes ice cliff near the south pole — mafic dust + frost + morning light (ESA).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Substack tip: “Why are you looking for a home in other people’s lives?” — notes of an overthinking girl.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/raspberry_ripples_near_mars_s_south_pole/27522585-1-eng-GB/Raspberry_ripples_near_Mars_s_south_pole_pillars.jpg",
+        "alt": "Raspberry ripples near Mars’s south pole",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Purple_swirls_on_the_Red_Planet"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Oracle-patcht-mehr-als-650-Sicherheitsluecken-11455024.html",
+          "kind": "article",
+          "time": "2026-09-16T12:19:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Disney-Neuer-Nutzungsvertrag-erlaubt-Werbung-vor-Filmen-in-allen-Abos-11455042.html",
+          "kind": "article",
+          "time": "2026-09-16T12:32:00+02:00"
+        },
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Purple_swirls_on_the_Red_Planet",
+          "kind": "primary",
+          "time": "2026-09-16T11:00:00+02:00"
+        },
+        {
+          "label": "notes of an overthinking girl",
+          "url": "https://notesofanoverthinkinggirl.substack.com/p/why-are-you-looking-for-a-home-in",
+          "kind": "article",
+          "time": "2026-09-16T11:00:46+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "oven-sh/bun#42851 merged: Upgrade LLVM 21.1.8 → 23.1.1 and Rust nightly to 2026-09-15 (Jarred-Sumner).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "oven-sh/bun#42853 merged: mimalloc kept-large-page fix after GC collect.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Lobsters: A/I shuts down — “stay human” announcement (keepitfree.ai).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Progress MS-35 (Soyuz 2.1b) NET today ~13:33 UTC / ~15:33 Berlin from Baikonur 31/6.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/267bf5430aa4b676b945c99cfdd0dc3430b6e5e771be405ed8b48517c4f2465a/oven-sh/bun/pull/42851",
+        "alt": "What does this PR do? Moves the whole toolchain to clang/lld 23.1.1 and nightly-2026-09-15 (rustc 1.100, bundled LLVM 23.1.1). With both on LLVM 23, clang's own ld.lld reads rustc's -Clinke...",
+        "credit": "bun#42851",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/42851"
+      },
+      "sources": [
+        {
+          "label": "bun#42851",
+          "url": "https://github.com/oven-sh/bun/pull/42851",
+          "kind": "primary",
+          "time": "2026-09-16T10:45:17+02:00"
+        },
+        {
+          "label": "bun#42853",
+          "url": "https://github.com/oven-sh/bun/pull/42853",
+          "kind": "primary",
+          "time": "2026-09-16T07:20:36+02:00"
+        },
+        {
+          "label": "keepitfree.ai",
+          "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+          "kind": "article"
+        },
+        {
+          "label": "Launch Library 2",
+          "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/",
+          "kind": "primary",
+          "time": "2026-09-16T15:33:53+02:00"
+        }
+      ]
+    }
+  ]
+}
