@@ -1,0 +1,545 @@
+{
+  "id": "2026-09-16-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-16T08:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight since evening (~19:20 Berlin / ~13h); X Following skipped (API credits depleted)",
+  "headline": "Merz cancels UN trip to stay in Berlin; Saudi coalition downs drone near Mecca as Yanbu loadings pause; OpenAI–Anthropic–Google talk AI standards.",
+  "stories": [
+    {
+      "id": "merz-cancels-un-trip",
+      "title": "Merz cancels UN General Debate trip — “presence required in Berlin”",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Gov’t circles to ARD: Chancellor Friedrich Merz will not travel to New York next week “entgegen ursprünglicher Planungen,” because his presence is required in Berlin (tagesschau ~20:42).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "He had been booked to address the UN General Debate Wednesday afternoon local time; Foreign Minister Johann Wadephul (CDU) is again expected to speak for Germany (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Context: CDU’s Saxony-Anhalt rout (17.2%); Sunday votes in Mecklenburg-Western Pomerania and Berlin; CDU Präsidium/Fraktion meetings Mon–Tue (tagesschau/DLF).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "DLF: Merz also called a CDU Präsidium session for Sunday evening after the polls; he reiterated yesterday he will serve the full term and keep the SPD coalition (DLF).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Clearest signal yet that domestic party pressure after Saxony-Anhalt now overrides Merz’s “Außenkanzler” calendar ahead of two more state tests.",
+      "image": {
+        "url": "https://bilder.deutschlandfunk.de/78/71/5f/7d/78715f7d-148a-45b9-9b2e-a110babcc9ab/bundeskanzler-merz-unternehmertag-bundesverhand-grosshandel-aussenhandel-dienstleistungen-bga-100-1920x1080.jpg",
+        "alt": "Bundeskanzler Friedrich Merz (CDU) spricht beim Unternehmertag des Bundesverband Großhandel, Außenhandel, Dienstleistungen e.V. (BGA).",
+        "credit": "Deutschlandfunk",
+        "creditUrl": "https://www.deutschlandfunk.de/merz-und-cdu-parteispitze-setzen-beratungen-an-kanzlerrede-auf-uno-vollversammlung-abgesagt-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/merz-un-generaldebatte-absage-100.html",
+          "kind": "article",
+          "time": "2026-09-15T20:42:00+02:00"
+        },
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/merz-und-cdu-parteispitze-setzen-beratungen-an-kanzlerrede-auf-uno-vollversammlung-abgesagt-100.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "saudi-houthi-mecca-yanbu",
+      "title": "Saudi coalition intercepts Houthi drone near Mecca; Yanbu oil loadings paused",
+      "topics": [
+        "Middle East",
+        "Energy",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Coalition spokesman Turki al-Maliki: Royal Saudi Air Defence intercepted and destroyed a Houthi drone Tuesday evening before it entered restricted airspace near Mecca (Al Jazeera/Reuters).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Mecca civil-defence alert activated for the first time since a 2017 Houthi attempt, then lifted within minutes; similar alerts in Taif and Jeddah (Al Jazeera).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Houthis deny any threat to Mecca or holy sites via SABA; coalition vows a “firm” response after urban strikes in Khamis Mushait, Abha and Taif injured 13 (Al Jazeera).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Separately: oil loadings at Red Sea terminal Yanbu suspended after East-West pipeline attacks; terminal had been ~4 mb/d before the halt (Maritime Executive / Reuters).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Holy-city scare plus a Red Sea export choke point tightens the Middle East energy/security loop already lifting crude.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6aa9c572-1789511026.jpg?resize=1920%2C1440",
+        "alt": "Saudi-led coalition intercepts Houthi drone headed for Mecca",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/9/16/saudi-led-coalition-intercepts-drone-headed-for-mecca"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/saudi-led-coalition-intercepts-drone-headed-for-mecca",
+          "kind": "article"
+        },
+        {
+          "label": "The Maritime Executive",
+          "url": "https://maritime-executive.com/article/oil-prices-jump-at-news-of-pause-in-saudi-loadings-at-red-sea-terminal",
+          "kind": "article",
+          "time": "2026-09-15T22:49:00+02:00"
+        },
+        {
+          "label": "Iran International (Reuters)",
+          "url": "https://www.iranintl.com/en/202609151891",
+          "kind": "article",
+          "time": "2026-09-15T16:57:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "kabinett-zehn-punkte-csd",
+      "title": "Cabinet to weigh 10-point plan after Berlin CSD Islamist attack",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "dpa/SZ: Cabinet on Wednesday to discuss a 10-point package (Dobrindt/Hubig) after the 25 July CSD vehicle attack in Berlin Tiergarten (1 killed, ≥31 injured).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Includes a one-year minimum prison term for especially dangerous knife/tool assaults that endanger life or risk serious injury; probation decisions from ≥6 months must weigh public-security interest (SZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Länder investigators (not only BKA/Bundespolizei) could order time-limited telecom Verkehrsdaten retention when there are crime indicators or an existing danger — if state police law allows (SZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Attacker Abdul B. was known to authorities as a radical Islamist; May 2026 Jugendstrafe of 1y10m with Vorbewährung for IS prep/propaganda preceded the July attack (SZ).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "First concrete federal criminal-law response package after the CSD attack — expands knife sentencing and traffic-data powers.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Süddeutsche Zeitung (dpa)",
+          "url": "https://www.sueddeutsche.de/politik/kabinett-zehn-massnahmen-fuer-mehr-schutz-gegen-islamistischen-terror-dpa.urn-newsml-dpa-com-20090101-260916-930-691233",
+          "kind": "article",
+          "time": "2026-09-16T03:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-standards-talks",
+      "title": "OpenAI says it’s talking AI safety standards with Anthropic and Google",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "OpenAI spokesperson to CNBC (Tue): company has been engaging Anthropic and Google on how to work together on safety; talks ongoing since Demis Hassabis’s July call for a U.S.-led “Standards Body” (FINRA-style).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Follows Anthropic CEO Dario Amodei’s Saturday essay urging slower frontier-model advances — praised by Hassabis and Sam Altman (CNBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Altman: pacing advanced models has been a “primary topic” at OpenAI lately; more to share “soon” (CNBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "OpenAI’s Chris Lehane earlier this month: industry-led standards would complement — not replace — mandatory federal safeguards (CNBC).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Material update beyond last night’s kill-switch chatter: the three frontier labs confirm competitive rivals are at least talking shared standards.",
+      "image": null,
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html",
+          "kind": "article",
+          "time": "2026-09-15T20:31:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "pistorius-hegseth-arms",
+      "title": "Pistorius and Hegseth sign closer US–Germany arms cooperation MoU",
+      "topics": [
+        "Germany",
+        "Defense",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "BMVg after Pentagon visit: Defence Minister Boris Pistorius (SPD) and US counterpart Pete Hegseth signed an agreement to meet more NATO weapons/ammo/equipment demand from German production (DLF).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Hegseth praised German defence-spending progress toward the 5% NATO target and stronger European NATO capacity; Pistorius called the talks good (DLF).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Tomahawk delivery details for Germany still to be clarified; Thursday in Texas Pistorius is due to take delivery of the first ordered F-35 for the Bundeswehr at Lockheed Martin (DLF).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "~38,000 US troops make Germany the largest US footprint in Europe; Trump has floated cutting ~5,000 — no timeline yet, per Pistorius (DLF).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Concrete industrial MoU plus F-35 handover week — Berlin leaning harder into US kit even as troop-cut talk lingers.",
+      "image": {
+        "url": "https://bilder.deutschlandfunk.de/6c/55/fb/64/6c55fb64-6cd7-47b1-bc5c-7c4da0f69a79/pistorius-hegseth-100-1920x1080.jpg",
+        "alt": "Boris Pistorius und Pete Hegseth stehen vor einer offenen Tür.",
+        "credit": "Deutschlandfunk",
+        "creditUrl": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-und-amtskollege-hegseth-unterzeichnen-ruestungsvereinbarung-lob-fuer-100.html"
+      },
+      "sources": [
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-und-amtskollege-hegseth-unterzeichnen-ruestungsvereinbarung-lob-fuer-100.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "gemini-3-8-live",
+      "title": "Google launches Gemini 3.8 Live and Live Extended Thinking",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Google (15 Sep): Gemini 3.8 Live for fluid real-time voice + visual grounding; 3.8 Live Extended Thinking for multi-step reasoning with live progress narration while tools run in the background.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Extended Thinking claims #1 on Artificial Analysis Speech-to-Speech Quality Index (82.6) and leads agentic voice benches τ-Voice 68.6% / Sierra τ-Voice-banking 35.1% (Google).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Rollout: Gemini API + AI Studio; Search Live / Gemini Live; Workspace Docs Live, Gmail Live, Keep Live for subscribers; enterprise private preview (Google).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "All generated audio watermarked with SynthID (Google).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Google’s bid to make voice agents production-grade — shipping the models into Search, Gemini app, and Workspace Live surfaces the same day.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+          "kind": "primary",
+          "time": "2026-09-15T19:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Eintracht Braunschweig: striker Maximilian Entrup out “mehrere Wochen” with a foot ligament injury from Saturday’s Dynamo Dresden draw; LV Di Michele Sanchez’s Kaiserslautern availability open (club).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors camp chatter: Steve Kerr flagged potential frustration for Draymond Green as new forward Yaxel Lendeborg forces rotation talks (Sportando / Blue Man Hoop via GN).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "BVB: overnight German coverage revisits Marcel Sabitzer’s rotation role and dwindling Sancho exit options ahead of the winter window (SPOX / WAZ via GN).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Eintracht Braunschweig",
+          "url": "https://www.eintracht.com/news/artikel/angreifer-maximilian-entrup-faellt-mehrere-wochen-aus",
+          "kind": "primary"
+        },
+        {
+          "label": "Sportando",
+          "url": "https://sportando.basketball/en/steve-kerr-warns-draymond-green-about-potential-frustration/",
+          "kind": "article"
+        },
+        {
+          "label": "SPOX",
+          "url": "https://www.spox.com/de/sport/fussball/bundesliga/borussia-dortmund/2609/Artikel/marcel-sabitzer-bvb-teure-altlast-buhmann-rotationsspieler.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Spain’s AEPD: first notified breach where a third party used an LLM-based AI agent to chain vuln search, login, data changes and invoice access — flags speed as a new risk quality (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Canon EOS R8 Mark II: adds up to 7.5-stop IBIS, AF joystick, uncropped 4K60; body ~$1,899, late October (PetaPixel).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Internet Archive: Wayback Machine 429 protections against bot floods sometimes block real users; asks for OS/browser/IP reports to info@archive.org (Archive blog).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "US House votes 220–204 (7 GOP) to direct Trump to remove US forces from Iran hostilities — third such symbolic rebuke (CBS).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Spaniens-Datenschutzaufsicht-Erster-Cyberangriff-mithilfe-eines-KI-Agenten-11454545.html",
+          "kind": "article",
+          "time": "2026-09-16T07:56:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/15/canons-radically-redesigned-eos-r8-ii-has-ibis-4kp60-and-an-af-joystick/",
+          "kind": "article",
+          "time": "2026-09-16T03:00:00+02:00"
+        },
+        {
+          "label": "Internet Archive Blogs",
+          "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+          "kind": "primary",
+          "time": "2026-09-15T19:52:00+02:00"
+        },
+        {
+          "label": "CBS News",
+          "url": "https://www.cbsnews.com/news/house-approves-limiting-trump-on-iran-for-third-time/",
+          "kind": "article",
+          "time": "2026-09-16T04:46:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Shit You Should Care About: “the one about whether celebrities should also be activists.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Rob Walker: “Outstandingly Boring (Part 2).”",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "The AI Corner: “Devin Got a Mac” — handoff system for shipping iOS apps overnight.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Shit You Should Care About",
+          "url": "https://shityoushouldcareabout.substack.com/p/the-one-about-whether-celebrities-375",
+          "kind": "article",
+          "time": "2026-09-16T00:25:00+02:00"
+        },
+        {
+          "label": "Rob Walker",
+          "url": "https://robwalker.substack.com/p/outstandingly-boring-part-2",
+          "kind": "article",
+          "time": "2026-09-15T23:39:00+02:00"
+        },
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/devin-macos-ios-agent-handoff-system-2026",
+          "kind": "article",
+          "time": "2026-09-15T19:36:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Swift 6.4 released: Swift Build default in SPM, Subprocess 1.0, Span↔std::span, faster Wasm JSKit bridging (swift.org).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "bun overnight merges: FetchSession/proxy+TLS fixes (#42692), mimalloc large-page keep (#42853), WebKit upgrades, NSS 3.128 roots (#42835).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Strix disclosure: public Harbor image build history leaked a live basetenbot GitHub PAT with admin on product/GitOps repos (rotated Jul 2026; post hit HN overnight).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Cloudflare revisits remote Spectre attacks on Workers — hardening write-up resurfaced on Reddit/dev feeds.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "No new watchlist GitHub releases in-window (tags already cited or quiet).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/99adb7cd0692f5a35d0e36da7e641f5072b1b99f6f7d8966934793541d12b060/oven-sh/bun/pull/42692",
+        "alt": "What does this PR do? fetch() fixes for proxying, TLS identity and error reporting, plus one feature: a connection session object, Bun.FetchSession. Bugs # Before After B1 A proxy's non-...",
+        "credit": "oven-sh/bun#42692",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/42692"
+      },
+      "sources": [
+        {
+          "label": "Swift.org",
+          "url": "https://www.swift.org/blog/swift-6.4-released/",
+          "kind": "primary",
+          "time": "2026-09-15T20:55:00+02:00"
+        },
+        {
+          "label": "oven-sh/bun#42692",
+          "url": "https://github.com/oven-sh/bun/pull/42692",
+          "kind": "primary",
+          "time": "2026-09-16T06:54:00+02:00"
+        },
+        {
+          "label": "Strix",
+          "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+          "kind": "article",
+          "time": "2026-09-15T20:11:00+02:00"
+        },
+        {
+          "label": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
