@@ -1,0 +1,427 @@
+{
+  "id": "2026-09-17-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-17T19:40:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:05 Berlin / ~6.5h); X Following skipped (API credits depleted)",
+  "headline": "Frankfurt twin blasts: Dutch 17-year-old arrested; US stocks bounce after Fed sell-off; Ukraine past-day toll ≥10 dead / 75 hurt; Klingbeil pushes EU hybrid tariffs.",
+  "stories": [
+    {
+      "id": "frankfurt-twin-blasts-arrest",
+      "title": "Frankfurt twin blasts: Dutch 17-year-old arrested; no injuries",
+      "topics": [
+        "Germany",
+        "Crime"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Early Thu (~04:00): explosions minutes apart damaged a café in Frankfurt-Nordend and a kiosk on Zeil; no injuries reported (DW; Anadolu).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Police: 17-year-old Dutch national arrested near the Nordend scene; due before a judge (Anadolu / police statement).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Café blast also damaged a soup bar across the street, an adjacent bank, and at least one parked car; residents described a war-like bang (Anadolu; Hessenschau via AA).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Context: further Rhine-Main blasts in recent days (Frankfurt + Offenbach), prior Sachsenhausen arrest of a 15-year-old; police have linked some regional cases to organized “violence as a service” recruiting teens (DW).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Another overnight blast cluster in Germany’s financial hub — with a quick arrest — keeps the Rhine-Main bombing wave on the front page ahead of Sunday’s state votes.",
+      "image": {
+        "url": "https://static.dw.com/image/79300915_6.jpg",
+        "alt": "A damaged cafe in Frankfurt",
+        "credit": "DW",
+        "creditUrl": "https://www.dw.com/en/germany-news-mysterious-explosions-reported-in-frankfurt/live-79300494"
+      },
+      "sources": [
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/germany-news-mysterious-explosions-reported-in-frankfurt/live-79300494",
+          "kind": "article",
+          "time": "2026-09-17T12:00:00+02:00"
+        },
+        {
+          "label": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/europe/dutch-national-arrested-after-explosions-in-frankfurt-police-report/4060137",
+          "kind": "article",
+          "time": "2026-09-17T14:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "us-stocks-fed-bounce",
+      "title": "US stocks bounce after Fed sell-off; 10-year back under 5%",
+      "topics": [
+        "Markets",
+        "Economy",
+        "US"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Thu session (Yahoo ~19:30 Berlin): S&P 500 ~7632 (+~1.1% vs Wed close), Nasdaq ~26386 (+~1.6%), Dow ~51789 (+~0.6%).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "CNBC / NBC morning tape: Dow was up ~300–450 pts early as yields and oil softened after Wed’s first Fed hike since 2023 (Warsh).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "10-year Treasury yield ~4.955% (Yahoo) after touching ~5.02% Wed; NBC noted a dip toward ~4.96% with the bond rally.",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Oil: WTI ~$102.2 (−0.2% session), Brent ~$104.7 (−1.1%); NBC said WTI briefly slipped under $100 overnight before rebounding (not confirmed at this print).",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Street caution: Citadel’s Rubner and JPMorgan desks still tactically cautious into month-end / September seasonality despite the bounce (CNBC).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Markets are treating Warsh’s hike as a credibility reset — but desks still warn the relief rally can fade if oil/yields re-spike.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance (indices)",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+          "kind": "primary",
+          "time": "2026-09-17T19:33:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/17/stocks-are-rallying-after-fed-sell-off-why-now-may-not-be-the-time-to-buy-the-dip.html",
+          "kind": "article",
+          "time": "2026-09-17T15:43:00+02:00"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/stocks-bonds-fed-hikes-oil-prices-rcna598310",
+          "kind": "article",
+          "time": "2026-09-17T15:41:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-past-day-toll",
+      "title": "Ukraine: ≥10 killed, 75 injured in past-day Russian strikes",
+      "topics": [
+        "Ukraine",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Kyiv Independent (updated Thu afternoon): ≥10 killed and 75 injured across Ukraine over the past day; main overnight targets Kyiv, Zaporizhzhia, Odesa oblasts.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Air Force: of 157 drones + 10 “Banderol” cruise missiles in the wave from Wed evening, 124 drones and 7 Banderols shot down/suppressed; hits at 36 locations (Kyiv Independent).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Kyiv: Mayor Klitschko said 20 people injured including two children (revised upward from morning tallies).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Morning brief already covered the overnight wave and the House Graham sanctions bill — this is the fuller past-day casualty update, not a new sanction story.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Casualty figures climbed through the day after morning’s early injure counts — the overnight barrage was larger than the first DW/AFP snippets suggested.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Kyiv Independent",
+          "url": "https://kyivindependent.com/russian-attacks-across-ukraine-kill-at-least-10-injure-71-as-large-scale-russian-attacks-on-ukrainian-cities-continue/",
+          "kind": "article",
+          "time": "2026-09-17T15:15:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "klingbeil-hybrid-tariffs",
+      "title": "Klingbeil + auto-state premiers push EU tariffs on Chinese hybrids",
+      "topics": [
+        "Germany",
+        "Europe",
+        "Trade"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "At VW Wolfsburg Thu, Vice Chancellor/Finance Minister Lars Klingbeil urged the EU to widen China tariffs to plug-in hybrids and tighten local-content rules (DW).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Coordinated letter from Bavaria (Söder), Baden-Württemberg (Özdemir) and Lower Saxony (Lies) premiers: without protective instruments + fair WTO trade, irreversible damage to the auto industry (DW).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Afternoon brief already had the FT angle on Brussels seeking voluntary Chinese hybrid-export curbs (~15% EU share) — this is Berlin/Länder escalating toward tariff parity with BEVs.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Context DW: VW’s approved restructuring can phase out up to ~100k jobs; German auto shed >50k jobs in 2025 alone.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "German coalition economics and the three carmaking states are now openly lobbying Brussels for hybrid tariffs — a step beyond this afternoon’s voluntary-curb ask.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/germany-news-mysterious-explosions-reported-in-frankfurt/live-79300494",
+          "kind": "article",
+          "time": "2026-09-17T16:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Basketball Löwen: US PG DeJour Reaves (24, Fordham) signed short-term through Nov international break; expected to feature Sat 18:30 home opener vs Gladiators Trier (SZ/dpa).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "BVB / DFB: Klopp’s first Nations League pools include Schlotterbeck + Nmecha (block 1) and Anton (block 2); Maximilian Beier left out of the 44 (t-online Dortmund; DFB).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "49ers: rookie WR De’Zhaun Stribling had left-ankle deltoid surgery after the Rams game — expected out ~10 weeks; TE Jake Tonges season-ending MCL (Star-Advertiser / Field Level Media).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.staradvertiser.com/wp-content/uploads/2026/09/web1_strib-toned.jpg",
+        "alt": "49ers rookie WR De’Zhaun Stribling at the NFL Scouting Combine",
+        "credit": "Honolulu Star-Advertiser",
+        "creditUrl": "https://www.staradvertiser.com/2026/09/17/sports/surgery-sidelines-49ers-receiver-dezhaun-stribling-for-10-weeks/"
+      },
+      "sources": [
+        {
+          "label": "Süddeutsche (dpa)",
+          "url": "https://www.sueddeutsche.de/sport/basketball-bundesliga-braunschweiger-basketballer-finden-neuen-aufbauspieler-dpa.urn-newsml-dpa-com-20090101-260917-930-701605",
+          "kind": "article",
+          "time": "2026-09-17T16:46:00+02:00"
+        },
+        {
+          "label": "t-online Dortmund",
+          "url": "https://dortmund.t-online.de/region/dortmund/id_101439620/dfb-kader-klopp-nominiert-drei-bvb-spieler-aus-dortmund.html",
+          "kind": "article",
+          "time": "2026-09-17T11:33:00+02:00"
+        },
+        {
+          "label": "DFB",
+          "url": "https://www.dfb.de/news/bundestrainer-klopp-beruft-erstes-aufgebot-fuer-nations-league",
+          "kind": "primary",
+          "time": "2026-09-17T12:00:00+02:00"
+        },
+        {
+          "label": "Honolulu Star-Advertiser",
+          "url": "https://www.staradvertiser.com/2026/09/17/sports/surgery-sidelines-49ers-receiver-dezhaun-stribling-for-10-weeks/",
+          "kind": "article",
+          "time": "2026-09-17T18:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "ADAC Thu: German diesel average hit a record €2.45/L; ordinary gasoline was already a record €2.314/L Wed (DW).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "LG Frankfurt (16 Sep, press 17 Sep): Meta liable for fake Finanzfluss/Kehl scam ads on FB/IG — injunction, damages, disclose ad revenue; not final (Hessen judiciary; SPIEGEL).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "EnvMin Schneider inaugurated EnBW’s He Dreiht offshore wind park (64 turbines; ~1.1M households theoretical; ~€2.4bn, no state subsidy claimed) (DW).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The AI Corner (Substack): “3 SpaceXAI engineers” one-person-company operating manual — tip only, not independently verified.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/germany-news-mysterious-explosions-reported-in-frankfurt/live-79300494",
+          "kind": "article",
+          "time": "2026-09-17T12:00:00+02:00"
+        },
+        {
+          "label": "LG Frankfurt (Hessen)",
+          "url": "https://ordentliche-gerichtsbarkeit.hessen.de/presse/fake-werbung",
+          "kind": "primary",
+          "time": "2026-09-17T10:00:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/netzwelt/facebook-und-instagram-meta-muss-fakeanzeigen-eigenstaendig-entfernen-a-2acdce79-db95-4241-9595-f451538596bb",
+          "kind": "article",
+          "time": "2026-09-16T22:09:00+02:00"
+        },
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/spacexai-grok-bot-one-person-company-operating-manual-2026",
+          "kind": "article",
+          "time": "2026-09-17T19:23:54+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise: Germany + Canada investing millions in “LawZero” safe-AI project.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise report: Apple weighing a return to server silicon with Nvidia tech / possible M8 Ultra server line (tip — verify).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "CCC invites “all model citizens” to 40C3 (Chaos Communication Congress).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Vercel changelog: skills CLI now supports Notion-hosted skills.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Martin Fowler: “I Don’t Like LLMs” essay making the Lobsters/HN rounds.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://events.ccc.de/media/37c3-53598978540.webp",
+        "alt": "CCC invites all model citizens to 40C3",
+        "credit": "CCC",
+        "creditUrl": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/"
+      },
+      "sources": [
+        {
+          "label": "heise",
+          "url": "https://www.heise.de/news/Deutschland-und-Kanada-investieren-gemeinsam-in-sichere-KI-11457301.html",
+          "kind": "article",
+          "time": "2026-09-17T17:41:00+02:00"
+        },
+        {
+          "label": "heise",
+          "url": "https://www.heise.de/news/Apple-koennte-Server-mit-M8-Ultra-auflegen-11457379.html",
+          "kind": "article",
+          "time": "2026-09-17T17:46:00+02:00"
+        },
+        {
+          "label": "CCC",
+          "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+          "kind": "primary"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/skills-cli-notion-skills",
+          "kind": "primary",
+          "time": "2026-09-17T20:00:00+02:00"
+        },
+        {
+          "label": "Martin Fowler",
+          "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
