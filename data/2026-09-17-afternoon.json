@@ -1,0 +1,439 @@
+{
+  "id": "2026-09-17-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-17T13:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:15 Berlin / ~5h); X Following skipped (API credits depleted); Google News RSS 503 (sports/GME press too)",
+  "headline": "Europe stocks bounce after hawkish Fed; IMK doubles Germany 2026 growth to 1.3%; EU asks China for voluntary hybrid export curbs; Huawei Ascend 960 NPO supernode.",
+  "stories": [
+    {
+      "id": "europe-markets-fed-bounce",
+      "title": "Europe shrugs off hawkish Fed: Stoxx ~+0.6%, dollar at 7-week high",
+      "topics": [
+        "Markets",
+        "Europe",
+        "US"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Euronews (~09:55): Euro Stoxx 50 and Stoxx 600 opened over +0.6% Thursday after Wed’s first Fed hike since 2023; DAX/CAC/MIB/IBEX/AEX/CH20 roughly +0.2–0.7%; FTSE 100 led >+1%.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Wed US cash context (morning): Dow −1.2%, S&P −0.4%, Nasdaq ~flat into hawkish Warsh messaging (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Dollar at a 7-week high vs majors; euro ~$1.146 (−0.5% from Wed open); 2y UST ~4.72%; 10y near 5% (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Odds: another hike by December fully priced; ~50% chance as soon as October; Goldman flipped to consecutive hikes (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "BoE decision due later Thursday (hold expected); BoJ Friday (hike anticipated) (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Morning covered the hawkish overnight US selloff; lunch is the European follow-through — risk assets steadier even as USD/yields keep October in play.",
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/91/67/87/1200x675_cmsv2_85e06a65-5b64-52c1-8f69-13be01d87c27-9916787.jpg",
+        "alt": "European markets open higher after Fed hike as US dollar hits seven-week high",
+        "credit": "Euronews",
+        "creditUrl": "https://www.euronews.com/business/2026/09/17/european-markets-open-higher-after-fed-hike-as-us-dollar-hits-seven-week-high"
+      },
+      "sources": [
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/business/2026/09/17/european-markets-open-higher-after-fed-hike-as-us-dollar-hits-seven-week-high",
+          "kind": "article",
+          "time": "2026-09-17T09:55:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "europe-gas-stocks-merz-pressure",
+      "title": "EU gas storage only 69% full; €81/MWh (+150% YoY) tightens Merz weekend squeeze",
+      "topics": [
+        "Energy",
+        "Europe",
+        "Germany"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Reuters: EU gas storages 69% full vs ~85% five-year average for this date (Gas Infrastructure Europe).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "TTF benchmark ~€81/MWh (+150% YoY), above the ECB’s “adverse” path; Morgan Stanley sees risk toward €100/MWh depending on weather.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Germany + Netherlands (35% of EU capacity) are major laggards — high prices after Iran-war disruption deterred restocking bets that the war would end quickly.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Petrol +24% / diesel +38% YoY across the EU; jet fuel >+100%; ECB’s Kazimir says focus shifting from oil to gas/electricity.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Political overlay: AfD win last week + Sunday Berlin/MV votes tighten pressure on Merz for costly fuel-price relief (Reuters).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Storage lag into winter + far-right energy politics collide with Sunday’s state polls — not just a commodity print.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/energy/europes-low-gas-stocks-pile-economic-political-pressure-2026-09-17/",
+          "kind": "article",
+          "time": "2026-09-17T10:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "imk-germany-growth-forecast",
+      "title": "IMK more than doubles 2026 Germany growth forecast to 1.3%",
+      "topics": [
+        "Germany",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "IMK (Thu): GDP +1.3% in 2026 (was 0.6%); +1.4% in 2027 (was 0.9%) — stronger H1 exports + defence/infrastructure spending.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Sebastian Dullien: location “more resilient than many recent dire predictions,” but recovery not self-sustaining amid high energy prices and policy uncertainty.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Private consumption only +0.1 pp to growth; government consumption (incl. armed forces/ammo) +0.7 pp.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Inflation forecast 2.7% (2026) / 2.9% (2027); unemployment stays 6.4% both years. Ifo/DIW/RWI also recently raised forecasts.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Counterweight to the energy-politics gloom — institutes see a defence/infra-led rebound even as households stay squeezed.",
+      "image": null,
+      "sources": [
+        {
+          "label": "IMK via JuraForum (idw)",
+          "url": "https://www.juraforum.de/news/deutliche-anhebung-imk-prognostiziert-13-prozent-wirtschaftswachstum-2026-und-14-prozent-2027-idw_280689",
+          "kind": "primary",
+          "time": "2026-09-17T10:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "eu-china-hybrid-export-curbs",
+      "title": "EU asks China for voluntary hybrid-export curbs (~15% EU share) — FT",
+      "topics": [
+        "Europe",
+        "Trade",
+        "Autos"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "SPIEGEL/FT (~10:18): Brussels asked Beijing to voluntarily limit Chinese hybrid sales to ~15% of the EU market to avert a trade fight.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "SPIEGEL/FT: EU official — if China won’t limit hybrid exports, “werden wir es tun”; framed as stopping industrial decline / managed trade.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Also: curb other exports (e.g. chemicals) and buy more EU goods; Šefčovič wants tangible results by October, trip early next month (SPIEGEL).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Context: von der Leyen Wed SOTEU called the €360.6bn China deficit “untenable” (+9% H1) and warned of a second “China shock” (SPIEGEL).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "CNEV Post (FT): hybrid imports from China rose from 3,800 (Oct 2024) to 50,000 (Jul 2026); BEVs already face up to ~45% duties vs ~10% on hybrids.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Follows Wed’s SOTEU China-shock framing with a concrete hybrid VER ask — escalation path if Beijing refuses.",
+      "image": {
+        "url": "https://cnevpost.com/wp-content/uploads/2026/09/2026091705494717.jpg",
+        "alt": "Rear three-quarter view of a white BYD Seal 07 DM-i plug-in hybrid sedan at the 2026 Beijing Auto Show.",
+        "credit": "CNEV Post",
+        "creditUrl": "https://cnevpost.com/2026/09/17/eu-seeks-curbs-chinese-hybrid-exports/"
+      },
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/wirtschaft/eu-bittet-china-offenbar-um-freiwillige-exportbegrenzung-fuer-hybridautos-a-0d1e8ab3-2f01-4910-bea8-1ab615c01f6c",
+          "kind": "article",
+          "time": "2026-09-17T10:18:00+02:00"
+        },
+        {
+          "label": "CNEV Post",
+          "url": "https://cnevpost.com/2026/09/17/eu-seeks-curbs-chinese-hybrid-exports/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "huawei-ascend-960-npo",
+      "title": "Huawei Connect: Ascend 960 NPO supernode — 4,096 chips, up to 8 EFLOPS FP8",
+      "topics": [
+        "Tech",
+        "AI",
+        "Hardware"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "TechNode: at Huawei Connect 2026 (Shanghai), Huawei billed an NPO-based Ascend 960 supernode as industry-first near-packaged optics scale-up.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Config cited: 4,096 Ascend 960 chips via Hi-ONE — up to 8 EFLOPS FP8 and 1 PB HBM; 5,500 Hi-ONE units said to replace 40,000 800G modules, cutting >550 kW and claiming 99.8% availability.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Chip roadmap: Ascend 960 development “ahead of schedule”; 960DT planned Q1 2027, 960PR Q3 2027; >1,000 Ascend 910C supernodes deployed; 950 in commercial use.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "SCMP: UnifiedBus + Hi-ONE aimed at connecting up to ~4,000 processors; Atlas 960 SuperPoD claims ~2.3×/2.5× training/inference gains vs Atlas 950 on 10T-parameter models.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "China’s Nvidia-alternative stack is shipping a concrete optical supernode story on the same day Europe debates Chinese industrial capacity.",
+      "image": null,
+      "sources": [
+        {
+          "label": "TechNode",
+          "url": "https://technode.com/2026/09/17/huawei-npo-based-ascend-960-supernode/",
+          "kind": "article",
+          "time": "2026-09-17T12:00:00+02:00"
+        },
+        {
+          "label": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3367796/huawei-unveils-latest-tech-boost-ai-power-push-break-chinas-nvidia-reliance",
+          "kind": "article",
+          "time": "2026-09-17T10:26:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/angriff-auf-nvidia-huawei-stellt-leistungsfaehige-ascend-960-serie-vor-2609-213145.html",
+          "kind": "article",
+          "time": "2026-09-17T12:26:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "PetaPixel: Times report — Trump banned AP after it refused rights to an assassination photo, aides said.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: Android Auto now shows speed + limit even without an active route (server-side rollout; Google confirmed staged rollout earlier).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "ESA: three companies win awards for excellence and innovation (space business).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/company_awards_at_industry_space_days_2026/27524588-2-eng-GB/Company_awards_at_Industry_Space_Days_2026_pillars.jpg",
+        "alt": "Company awards at Industry Space Days 2026",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/About_Us/Business_with_ESA/Three_space_companies_win_ESA_awards_for_excellence_and_innovation"
+      },
+      "sources": [
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/17/trump-banned-ap-because-it-would-not-give-him-rights-to-assassination-photo-report-says/",
+          "kind": "article",
+          "time": "2026-09-17T12:53:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Android-Auto-Tacho-und-Tempolimit-nun-permanent-verfuegbar-11456523.html",
+          "kind": "article",
+          "time": "2026-09-17T12:15:00+02:00"
+        },
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/About_Us/Business_with_ESA/Three_space_companies_win_ESA_awards_for_excellence_and_innovation",
+          "kind": "primary",
+          "time": "2026-09-17T09:10:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Design Better: Mack Paul on Miracle Road — designing places where innovation happens.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Marketing Ideas: How Instinct went viral (and how to copy the playbook for $0).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Design Better",
+          "url": "https://designbetterpodcast.com/p/mack-paul-co-author-of-miracle-road",
+          "kind": "article",
+          "time": "2026-09-17T11:11:00+02:00"
+        },
+        {
+          "label": "Marketing Ideas",
+          "url": "https://www.marketingideas.com/p/how-instinct-got-so-viral-and-how",
+          "kind": "article",
+          "time": "2026-09-17T08:51:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Servo (HN ~93 pts): one year of donation-funded contributor work — 8 new maintainers, 1,150 PRs reviewed, 114 newcomer issues (92% fixed).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "oven-sh/bun#43022 merged: Bump WebKit to 000c48997255 (Jarred-Sumner).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "r/rust tip: NVIDIA CUDA Rust blog — cuda-oxide (SIMT/nightly) + cutile-rs (Tile/stable) tracks for writing GPU kernels in Rust (article dated Sep 8; resurfaced today).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/2bd55864a0292d72dd7daa60070d32cbf2befb0f7f243b4d9fedb4cc7d5e0f60/oven-sh/bun/pull/43022",
+        "alt": "Bumps WEBKIT_VERSION from c28156899e5f to 000c48997255 (current oven-sh/WebKit main). The autobuild-000c48997255272cd7e3ae7047e87b955b38989b release exists. oven-sh/WebKit changes picked up: [JSC]...",
+        "credit": "GitHub oven-sh/bun#43022",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/43022"
+      },
+      "sources": [
+        {
+          "label": "Servo blog",
+          "url": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
+          "kind": "primary",
+          "time": "2026-09-15T00:00:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49737849",
+          "kind": "article",
+          "time": "2026-09-17T10:13:00+02:00"
+        },
+        {
+          "label": "GitHub oven-sh/bun#43022",
+          "url": "https://github.com/oven-sh/bun/pull/43022",
+          "kind": "primary",
+          "time": "2026-09-17T12:16:00+02:00"
+        },
+        {
+          "label": "NVIDIA Developer Blog",
+          "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+          "kind": "primary",
+          "time": "2026-09-08T00:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
