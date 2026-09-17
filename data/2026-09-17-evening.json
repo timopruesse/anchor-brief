@@ -1,7 +1,7 @@
 {
   "id": "2026-09-17-evening",
   "edition": "evening",
-  "generatedAt": "2026-09-17T19:52:01+02:00",
+  "generatedAt": "2026-09-17T19:56:40+02:00",
   "timezone": "Europe/Berlin",
   "coverage": "since afternoon (~13:05 Berlin / ~6.5h); X Following via browser backup (API credits depleted)",
   "headline": "Frankfurt twin blasts: Dutch 17-year-old arrested; US stocks bounce after Fed sell-off; Ukraine past-day toll ≥10 dead / 75 hurt; Klingbeil pushes EU hybrid tariffs.",
@@ -475,8 +475,9 @@
           ]
         },
         {
-          "text": "dummdidumm_ on X: “MCPs: so great → so over → so back” — points to Paolo Ricciuti’s MCP essay.",
+          "text": "Paolo Ricciuti (tmcp): “mcp is not dead, long live mcp” — dummdidumm_ on X: MCPs so great → so over → so back.",
           "sourceIndexes": [
+            11,
             10
           ]
         }
@@ -552,6 +553,12 @@
           "url": "https://x.com/dummdidumm_/status/2100597379103674427",
           "kind": "x",
           "time": "2026-09-17T19:30:00+02:00"
+        },
+        {
+          "label": "Paolo Ricciuti",
+          "url": "https://ricciuti.me/blog/mcp-is-not-dead",
+          "kind": "article",
+          "time": "2026-03-04T00:00:00+00:00"
         }
       ]
     }
