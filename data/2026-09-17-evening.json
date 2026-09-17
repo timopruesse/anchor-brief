@@ -1,9 +1,9 @@
 {
   "id": "2026-09-17-evening",
   "edition": "evening",
-  "generatedAt": "2026-09-17T19:40:00+02:00",
+  "generatedAt": "2026-09-17T19:52:01+02:00",
   "timezone": "Europe/Berlin",
-  "coverage": "since afternoon (~13:05 Berlin / ~6.5h); X Following skipped (API credits depleted)",
+  "coverage": "since afternoon (~13:05 Berlin / ~6.5h); X Following via browser backup (API credits depleted)",
   "headline": "Frankfurt twin blasts: Dutch 17-year-old arrested; US stocks bounce after Fed sell-off; Ukraine past-day toll ≥10 dead / 75 hurt; Klingbeil pushes EU hybrid tariffs.",
   "stories": [
     {
@@ -315,6 +315,36 @@
           "sourceIndexes": [
             3
           ]
+        },
+        {
+          "text": "SPIEGEL on X: restaurant VAT cut didn’t lower prices — study says guests and staff barely benefit.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Android Authority on X: Google rolling sponsored theme packs into Pixel software.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "80 LEVEL on X: Heart Machine (Hyper Light Drifter / Solar Ash) announced major layoffs after a publisher pulled funding.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Rockstar on X: GTA VI — The Album (34 tracks) due Nov 19; first six singles out; vinyl/CD pre-order open.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "Postillon satire on X: “Wegen hoher Spritpreise: GTA VI um ein Jahr verschoben.”",
+          "sourceIndexes": [
+            8
+          ]
         }
       ],
       "whyItMatters": null,
@@ -343,6 +373,36 @@
           "url": "https://www.the-ai-corner.com/p/spacexai-grok-bot-one-person-company-operating-manual-2026",
           "kind": "article",
           "time": "2026-09-17T19:23:54+02:00"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2100524237559939136",
+          "kind": "x",
+          "time": "2026-09-17T16:30:00+02:00"
+        },
+        {
+          "label": "Android Authority on X",
+          "url": "https://x.com/AndroidAuth/status/2100518957878800594",
+          "kind": "x",
+          "time": "2026-09-17T16:10:00+02:00"
+        },
+        {
+          "label": "80 LEVEL on X",
+          "url": "https://x.com/80Level/status/2100529046887014760",
+          "kind": "x",
+          "time": "2026-09-17T16:40:00+02:00"
+        },
+        {
+          "label": "Rockstar Games on X",
+          "url": "https://x.com/RockstarGames/status/2100556854099140721",
+          "kind": "x",
+          "time": "2026-09-17T18:30:00+02:00"
+        },
+        {
+          "label": "Der Postillon on X",
+          "url": "https://x.com/Der_Postillon/status/2100574940571275456",
+          "kind": "x",
+          "time": "2026-09-17T19:40:00+02:00"
         }
       ]
     },
@@ -383,6 +443,42 @@
           "sourceIndexes": [
             4
           ]
+        },
+        {
+          "text": "Claude on X: Projects run from one Claude Code conversation — parallel threads keep going after you close the laptop (select Pro/Max beta).",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Lydia Hallie on X: Projects have been her favorite Claude Code workflow for months.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Linear (Karri Saarinen on X): code diffs + review coming to Linear mobile — chat with cloud agents and merge on the go.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "Notion on X: Skills API — edit team skills in Notion; use them in ChatGPT, Claude, and agents.",
+          "sourceIndexes": [
+            8
+          ]
+        },
+        {
+          "text": "Marcel Pociot on X: browser extension hides/collapses X posts via natural language (w/ Jev @typesafeai).",
+          "sourceIndexes": [
+            9
+          ]
+        },
+        {
+          "text": "dummdidumm_ on X: “MCPs: so great → so over → so back” — points to Paolo Ricciuti’s MCP essay.",
+          "sourceIndexes": [
+            10
+          ]
         }
       ],
       "whyItMatters": null,
@@ -420,6 +516,42 @@
           "label": "Martin Fowler",
           "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
           "kind": "article"
+        },
+        {
+          "label": "Claude on X",
+          "url": "https://x.com/claudeai/status/2100632677904744716",
+          "kind": "x",
+          "time": "2026-09-17T21:40:00+02:00"
+        },
+        {
+          "label": "Lydia Hallie on X",
+          "url": "https://x.com/lydiahallie/status/2100636318590267474",
+          "kind": "x",
+          "time": "2026-09-17T21:55:00+02:00"
+        },
+        {
+          "label": "Karri Saarinen on X",
+          "url": "https://x.com/karrisaarinen/status/2100636243306697165",
+          "kind": "x",
+          "time": "2026-09-17T21:55:00+02:00"
+        },
+        {
+          "label": "Notion on X",
+          "url": "https://x.com/NotionHQ/status/2100619682718118397",
+          "kind": "x",
+          "time": "2026-09-17T20:50:00+02:00"
+        },
+        {
+          "label": "Marcel Pociot on X",
+          "url": "https://x.com/marcelpociot/status/2100520134481735729",
+          "kind": "x",
+          "time": "2026-09-17T16:15:00+02:00"
+        },
+        {
+          "label": "Simon H on X",
+          "url": "https://x.com/dummdidumm_/status/2100597379103674427",
+          "kind": "x",
+          "time": "2026-09-17T19:30:00+02:00"
         }
       ]
     }
