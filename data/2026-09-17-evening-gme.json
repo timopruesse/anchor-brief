@@ -2,7 +2,7 @@
   "id": "2026-09-17-evening-gme",
   "parentId": "2026-09-17-evening",
   "edition": "evening",
-  "generatedAt": "2026-09-17T19:40:00+02:00",
+  "generatedAt": "2026-09-17T19:49:10+02:00",
   "timezone": "Europe/Berlin",
   "coverage": "since afternoon (~13:05 Berlin); X voices unread (API credits depleted); gme-ir Google News 503",
   "headline": "Thu session GME $22.315 (+1.524% / +0.335); SEC “Innovation Exemption” for tokenized NMS; no fresh IR.",
@@ -548,20 +548,20 @@
       "userId": "1146058067244486656",
       "name": "Ryan Cohen",
       "role": "CEO",
-      "lastPostAt": null,
-      "lastPostUrl": null,
-      "lastPostText": null,
-      "quiet": true
+      "lastPostAt": "2026-07-04T18:29:35+02:00",
+      "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
+      "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸🫡",
+      "quiet": false
     },
     {
       "handle": "larryvc",
       "userId": "26281090",
       "name": "Larry Cheng",
       "role": "Board",
-      "lastPostAt": null,
-      "lastPostUrl": null,
-      "lastPostText": null,
-      "quiet": true
+      "lastPostAt": "2026-09-17T19:19:22+02:00",
+      "lastPostUrl": "https://x.com/larryvc/status/2100635735950778842",
+      "lastPostText": "Seeing internally built apps more and more. I suppose you’d expect it at Lovable, but I find it even more notable when it’s a random small business or non-profit who has done the same.",
+      "quiet": false
     },
     {
       "handle": "TheRoaringKitty",
@@ -579,10 +579,10 @@
     "userId": "1146058067244486656",
     "name": "Ryan Cohen",
     "role": "CEO",
-    "lastPostAt": null,
-    "lastPostUrl": null,
-    "lastPostText": null,
-    "quiet": true
+    "lastPostAt": "2026-07-04T18:29:35+02:00",
+    "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
+    "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸🫡",
+    "quiet": false
   },
   "community": {
     "asOf": "2026-09-17T19:32:55.135951+02:00",
