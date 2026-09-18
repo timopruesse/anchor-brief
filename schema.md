@@ -119,7 +119,7 @@ interface MainBriefing {
 ## Publishing workflow (for Anchor)
 
 1. Write `data/<id>.json` for the main desk (and the paired GME file per `schema-gme.md` when publishing a GME desk).
-2. Commit and push to `main`.
+2. Commit and push to `main` — prefer one commit (or one push) that includes both the main brief and its `*-gme.json` sibling so Pages only rebuilds once.
 3. GitHub Actions builds the SvelteKit static site and deploys to GitHub Pages.
 4. Do **not** add hand-rolled HTML pages — the site is built from JSON only.
 
