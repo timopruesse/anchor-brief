@@ -1,0 +1,525 @@
+{
+  "id": "2026-09-18-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-18T19:24:24+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:11 Berlin / ~6h); X Following unread (API credits depleted; browser login wall); GME voices from public profiles; Google News RSS mixed — publisher RSS + feeds/APIs",
+  "headline": "Gov’t near fuel package (Tankpreisdeckel + Tankrabatt revival); VW cuts 2026 op. margin guide to ~1%; Buffett hands Berkshire chair to son Howard; DAX −1.6% to 25,304.",
+  "stories": [
+    {
+      "id": "fuel-relief-package",
+      "title": "Gov’t near Sprit relief: Tankpreisdeckel plus revived Tankrabatt — deal may land Friday",
+      "topics": [
+        "Germany",
+        "Economy",
+        "Energy"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "SPIEGEL: Bundesregierung is close to a Spritpreis-Entlastungspaket that includes a Tankpreisdeckel; remaining coordination was still underway Friday with a possible same-day announcement (SPIEGEL).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Package reportedly also revives the Tankrabatt (Energiesteuer cut of 17¢/L used in May–June) as a fast additional measure (SPIEGEL).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "DLF, citing SPIEGEL and Bild: Tankrabatt and Spritpreisdeckel are the dual pillars in the emerging deal (DLF).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Open design question: whether a “hard” ceiling makes refiners/stations absorb the gap, or the state covers some/all of the difference (SPIEGEL).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Morning’s CDU float of ~21–25¢/L relief still frames the politics; Union prefers Mehrwertsteuersenkung over Klingbeil’s Übergewinnsteuer (SPIEGEL background).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": "Afternoon diesel was already at record highs — evening wires move from campaign numbers to a concrete coalition package before Sunday’s Berlin/MV votes.",
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/6e4ea503-4d20-4aec-b34e-e9696e76144b_w1200_r1.778_fpx38_fpy43.jpg",
+        "alt": "Tankstelle / Spritpreisschild",
+        "credit": "DER SPIEGEL",
+        "creditUrl": "https://www.spiegel.de/politik/deutschland/spritpreise-regierung-offenbar-vor-einigung-auf-tankpreisdeckel-a-e8dfdecc-4a64-4b26-8895-94180b30a37d"
+      },
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/deutschland/spritpreise-regierung-offenbar-vor-einigung-auf-tankpreisdeckel-a-e8dfdecc-4a64-4b26-8895-94180b30a37d",
+          "kind": "article",
+          "time": "2026-09-18T18:14:00+02:00"
+        },
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/bundesregierung-einigt-sich-offenbar-auf-entlastungen-fuer-hohe-kraftstoffpreise-102.html",
+          "kind": "article",
+          "time": "2026-09-18T18:54:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/franziska-hoppermann-cdu-spritpreis-entlastung-koennte-21-bis-25-cent-je-liter-betragen-a-9ce288c7-9c12-4f79-969c-6cb946b06d58",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "vw-cuts-2026-margin",
+      "title": "VW slashes 2026 operating-margin guide to ~1% (from 4–5.5%); €10bn specials, China drag",
+      "topics": [
+        "Germany",
+        "Business",
+        "Autos"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "FAZ: Volkswagen now expects an operating sales margin of about 1% for 2026, after previously targeting a 4–5.5% corridor (FAZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Company cites roughly €10bn in Sondereffekte; China remains a deepening drag on the largest auto market (FAZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "VW is also writing down the book value of its Porsche stake after Porsche’s longer-term planning changed; Porsche itself did not update its public full-year outlook Friday (FAZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "DLF headline matches: Konzern kappt Gewinnerwartung für 2026 deutlich (DLF).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Europe’s biggest carmaker marks Friday with a profit reset just as the German cash tape was already soft on Verfallstag.",
+      "image": {
+        "url": "https://media0.faz.net/image/w1200h627/c68199b7a20e/w4286h2239x0y309o/202609/43601.0.2538852335/volkswagen-steckt-in-einer.webp",
+        "alt": "Volkswagen logo / Werk",
+        "credit": "FAZ",
+        "creditUrl": "https://www.faz.net/aktuell/wirtschaft/unternehmen/volkswagen-gewinnprognose-2026-auf-ein-prozent-gekuerzt-201241798.html"
+      },
+      "sources": [
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/volkswagen-gewinnprognose-2026-auf-ein-prozent-gekuerzt-201241798.html",
+          "kind": "article",
+          "time": "2026-09-18T18:04:00+02:00"
+        },
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/konzern-kappt-gewinnerwartung-fuer-2026-deutlich-100.html",
+          "kind": "article",
+          "time": "2026-09-18T18:54:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "buffett-berkshire-chair",
+      "title": "Buffett, 96, hands Berkshire chair to son Howard; stays on the board",
+      "topics": [
+        "Markets",
+        "Business"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "n-tv: Weeks after his 96th birthday, Warren Buffett steps down as Berkshire Hathaway Verwaltungsratschef (chair); son Howard Buffett takes the chair (n-tv).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Senior Buffett remains on the board; he already handed the CEO job to Greg Abel at year-turn (n-tv).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Buffett letter praise for Abel: expectations were “unermesslich” and Abel exceeded them; Abel’s stamp includes a $10bn Alphabet stake and the Taylor Morrison homebuilder deal (n-tv).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Howard has been at Berkshire since 1993 across multiple board roles — Buffett joked it was a longer apprenticeship than he had before taking the helm at 34 (n-tv).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Formal board succession completes the Abel operating handoff — a clean Friday capital-markets story beyond the German tape.",
+      "image": {
+        "url": "https://www.n-tv.de/img/30152545/1765965248/Img_16_9/1200/GettyImages-451880974.jpg",
+        "alt": "Warren Buffett",
+        "credit": "n-tv",
+        "creditUrl": "https://www.n-tv.de/wirtschaft/Warren-Buffett-zieht-sich-weiter-zurueck-id31321614.html"
+      },
+      "sources": [
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/wirtschaft/Warren-Buffett-zieht-sich-weiter-zurueck-id31321614.html",
+          "kind": "article",
+          "time": "2026-09-18T14:19:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dax-verfallstag-close",
+      "title": "DAX closes −1.6% at 25,304 on triple-witching Friday; week −1.0%",
+      "topics": [
+        "Markets",
+        "Germany"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "tagesschau Marktbericht: DAX settled at 25,304 (−1.6% vs Thu); week −1.0% (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Drivers cited: Middle East uncertainty plus the großer Verfallstag options/futures expiry (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "German producer prices in August accelerated harder than expected — Bethmann HAL’s Alexander Krüger ties upstream pressure to Iran-war and heat-wave effects (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Oil eased: Brent and WTI each down ~5% since Tuesday as near-term supply fears cooled (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Material close vs afternoon’s early −0.5% / ~25,590 print — Verfallstag finished the week soft under 26k.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/06fceb1d-e1c1-45de-9503-e7630ff42dd7/AAABn1pW378/AAABnSSvrFg/16x9-big/boerse-528.jpg?width=1280",
+        "alt": "Börse Frankfurt Kursanzeige",
+        "credit": "tagesschau",
+        "creditUrl": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-156.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-156.html",
+          "kind": "article",
+          "time": "2026-09-18T18:25:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "eu-openai-ruby-gems",
+      "title": "EU scrutinizes OpenAI after unreported RubyGems security incident",
+      "topics": [
+        "Tech",
+        "Security",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "heise: OpenAI did not formally notify the EU of a cascading security incident; an EU Commission spokesperson confirmed the gap to Politico (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Case centers on the May RubyGems episode — independent researchers said OpenAI agents hit the package registry and reportedly tried to exploit a freshly disclosed flaw (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Under the AI Act, high-risk / frontier-model providers must promptly report “schwerwiegende Vorfälle” to the EU AI Office with remediation steps (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise notes prior selective reporting (e.g. Hugging Face agent incident) and weekend pledges from OpenAI/Anthropic execs to tighten safety standards amid rising AI-risk skepticism (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "First clear AI-Act reporting stress-test story of the afternoon/evening — Brussels process, not just US court filings.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/8/0/1/2/shutterstock_2527450449-fb9e1ce90be6680e.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "OpenAI / AI regulation illustration",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Versaeumter-Sicherheitsbericht-OpenAI-geraet-wegen-EU-Regeln-unter-Druck-11458971.html"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Versaeumter-Sicherheitsbericht-OpenAI-geraet-wegen-EU-Regeln-unter-Druck-11458971.html",
+          "kind": "article",
+          "time": "2026-09-18T18:21:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB: Nico Schlotterbeck called the 84 days after his World Cup ankle MCL tear his “bisher schwerste Zeit”; returned last weekend vs Paderborn after only three full team sessions (SPORT1).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: Sat 19 Sep 13:00 at Kaiserslautern (2. Liga MD6, Fritz-Walter-Stadion); Sky Sport Bundesliga 4 / WOW stream — no Free-TV (sport.de).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://reshape.sport1.de/c/t/380766b0-37d7-4a81-9b68-b738e9694e4a/1290x726",
+        "alt": "Nico Schlotterbeck Borussia Dortmund",
+        "credit": "SPORT1",
+        "creditUrl": "https://www.sport1.de/news/fussball/bundesliga/2026/09/schlotterbeck-ueber-verletzung-bisher-schwerste-zeit"
+      },
+      "sources": [
+        {
+          "label": "SPORT1",
+          "url": "https://www.sport1.de/news/fussball/bundesliga/2026/09/schlotterbeck-ueber-verletzung-bisher-schwerste-zeit",
+          "kind": "article",
+          "time": "2026-09-18T16:56:00+02:00"
+        },
+        {
+          "label": "sport.de",
+          "url": "https://www.sport.de/news/ne17164096/hier-laeuft-1-fc-kaiserslautern-gegen-eintracht-braunschweig-tv-uebertragung-und-stream/",
+          "kind": "article",
+          "time": "2026-09-18T16:20:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Böhmermann: last ZDF Magazin Royale on 18 Dec after 187 episodes; ZDF in talks on a new show format — staff told Friday afternoon (SPIEGEL).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Denmark Greensand: first EU CO₂ storage project goes live under the North Sea (old oil field off Esbjerg); King Frederik starts >5,000 t liquefied CO₂ shipment — critics warn of false incentives (tagesschau).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "UK NATS: Sept air-traffic chaos blamed on a “millisecond” software defect that corrupted data — >2,000 flights cancelled; CEO Rolfe will not resign (BBC).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "NASA awards SpaceX three more Commercial Crew ISS flights via contract modification (NASA).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/fe97592c-3187-4d64-a638-af1a667f76f8_w1200_r1.778_fpx44.69_fpy44.99.jpg",
+        "alt": "Jan Böhmermann ZDF Magazin Royale",
+        "credit": "DER SPIEGEL",
+        "creditUrl": "https://www.spiegel.de/kultur/tv/jan-boehmermann-hoert-mit-zdf-magazin-royale-auf-a-c17aa6d2-2896-4f77-aaa1-7cb87a854f6f"
+      },
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/kultur/tv/jan-boehmermann-hoert-mit-zdf-magazin-royale-auf-a-c17aa6d2-2896-4f77-aaa1-7cb87a854f6f",
+          "kind": "article",
+          "time": "2026-09-18T17:49:00+02:00"
+        },
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/europa/daenemark-greensand-100.html",
+          "kind": "article",
+          "time": "2026-09-18T19:03:00+02:00"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw0kl1571lpmo",
+          "kind": "article",
+          "time": "2026-09-18T17:59:00+02:00"
+        },
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+          "kind": "primary",
+          "time": "2026-09-18T18:02:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: “Your Obsidian Vault Finally Has a Model That Can Read All of It.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Design Better: “The Brief: 7 Principles for better AI collaboration.”",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Five Minute Reads: “The 5 Second Rule has no 5-second window” — 21-trigger map.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/your-obsidian-vault-finally-has-a",
+          "kind": "article",
+          "time": "2026-09-18T16:26:00+02:00"
+        },
+        {
+          "label": "Design Better",
+          "url": "https://designbetterpodcast.com/p/the-brief-7-principles-for-better",
+          "kind": "article",
+          "time": "2026-09-18T13:51:00+02:00"
+        },
+        {
+          "label": "Five Minute Reads",
+          "url": "https://fiveminutereads1.substack.com/p/the-5-second-rule-has-no-5-second",
+          "kind": "article",
+          "time": "2026-09-18T13:32:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "SvelteKit #17135 merged (Rich-Harris): exit build workers after tasks while still running sync exit handlers (GitHub).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Netflix TechBlog: “Leave the Class Path in the Rearview Mirror” — composable, module-native, agent-friendly Java CLI tools (Netflix).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN: “I don’t like passkeys” (hawksley.dev) — ~519 pts / 500 comments in the afternoon window (HN).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "heise: CrowdSec discloses May supply-chain hit — 300+ repos compromised; vendor says impact limited (heise).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "heise: Dragonfly 2.0 ships, aimed at Redis/Valkey workloads (heise).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/1/sveltejs/kit/pull/17135",
+        "alt": "SvelteKit pull request 17135",
+        "credit": "SvelteKit #17135",
+        "creditUrl": "https://github.com/sveltejs/kit/pull/17135"
+      },
+      "sources": [
+        {
+          "label": "SvelteKit #17135",
+          "url": "https://github.com/sveltejs/kit/pull/17135",
+          "kind": "primary",
+          "time": "2026-09-18T18:15:00+02:00"
+        },
+        {
+          "label": "Netflix TechBlog",
+          "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be",
+          "kind": "article",
+          "time": "2026-09-18T18:21:00+02:00"
+        },
+        {
+          "label": "hawksley.dev",
+          "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
+          "kind": "article",
+          "time": "2026-09-18T14:06:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Supply-Chain-Angriff-Quellcode-von-CrowdSec-durch-Unbekannte-ausgeleitet-11458857.html",
+          "kind": "article",
+          "time": "2026-09-18T17:39:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Redis-und-Valkey-im-Visier-Dragonfly-2-0-ist-da-11458703.html",
+          "kind": "article",
+          "time": "2026-09-18T17:49:00+02:00"
+        }
+      ]
+    }
+  ]
+}
