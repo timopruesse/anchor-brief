@@ -1,0 +1,444 @@
+{
+  "id": "2026-09-18-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-18T08:11:14+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h); X Following unread (browser login wall; API credits depleted); GME voices from public profiles",
+  "headline": "Russia’s Bonn consulate closes today after Leipzig drone case; Pistorius takes Germany’s first F-35 in Texas; CDU floats 21–25¢/L fuel relief ahead of Sunday’s MV/Berlin votes.",
+  "stories": [
+    {
+      "id": "bonn-russian-consulate-closes",
+      "title": "Russian Generalkonsulat Bonn closed today after Leipzig drone incident",
+      "topics": [
+        "Germany",
+        "Europe",
+        "Security"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "As of Fri 18 Sep: Russian Generalkonsulat in Bonn is closed — flag lowered Tue, staff flown to Moscow Wed on a Russian state aircraft (German exception permit) (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Ordered ~2.5 weeks ago by FM Johann Wadephul as part of the response to the Leipzig/Halle explosives-drone case; Wadephul: “harte Reaktion” that curtails Russian options in Germany (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Russia called it a “grundlose Provokation” and ordered reciprocal closures of German facilities; Berlin says that was expected. Russisches Haus in Berlin also to close under the package (tagesschau / WDR).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Govt also signaled tougher action vs Russia’s Baltic “shadow fleet” oil tankers; Wadephul still says Germany wants a constructive relationship and remains open to dialogue (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "The Leipzig response moves from announcement to facts on the ground — a concrete cut to Russia’s diplomatic footprint in Germany the morning after another Ukraine strike night.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/generalkonsulat-russland-schliessung-102.html",
+          "kind": "article",
+          "time": "2026-09-18T04:52:00+02:00"
+        },
+        {
+          "label": "tagesschau / WDR",
+          "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/wdr-reaktion-auf-leipzig-bundesregierung-schliesst-russisches-generalkonsulat-in-bonn-100.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "pistorius-first-f35-texas",
+      "title": "Pistorius takes delivery of Germany’s first F-35 in Fort Worth",
+      "topics": [
+        "Germany",
+        "Defense"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Fri: Defence Minister Boris Pistorius receives the first Lockheed Martin F-35A for the Luftwaffe in Fort Worth, Texas — end of his multi-day US trip (DLF; dpa-AFX).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Germany ordered 35 jets (2022) for ~€10bn to replace Tornados, including NATO nuclear-sharing roles; Pistorius called it “das modernste Kampfflugzeug der Welt” (t-online/dpa).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "First eight stay in the US for German pilot/tech training; stationing at Büchel (Eifel) planned from 2027 (DLF).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Hardware milestone for Luftwaffe modernization and NATO nuclear sharing — timed as Berlin hardens its Russia posture.",
+      "image": {
+        "url": "https://bilder.deutschlandfunk.de/43/8a/33/62/438a3362-3b9e-4756-8a06-c6514a42c191/usa-kampfjet-100-1920x1080.jpg",
+        "alt": "Ein Kampfjet des Typs F-35 in der Luft",
+        "credit": "Deutschlandfunk",
+        "creditUrl": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-nimmt-in-texas-bestellten-f35-kampfjet-in-empfang-100.html"
+      },
+      "sources": [
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/verteidigungsminister-pistorius-nimmt-in-texas-bestellten-f35-kampfjet-in-empfang-100.html",
+          "kind": "article",
+          "time": "2026-09-18T00:00:00+02:00"
+        },
+        {
+          "label": "t-online / dpa-AFX",
+          "url": "https://www.t-online.de/finanzen/boerse/ticker/-modernstes-kampfflugzeug-deutschland-bekommt-f-35/0DBA6400C2A06433/",
+          "kind": "article",
+          "time": "2026-09-18T06:07:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "cdu-fuel-relief-election-eve",
+      "title": "CDU floats 21–25¢/L fuel relief; MV CDU at 6% two days before votes",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "CDU GS Franziska Hoppermann (ZDF Maybrit Illner, Thu night): concrete relief band “irgendwo 21, 23, 25 Cent” per litre; govt to tackle it early October with the Länder (FAZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "She rejected Klingbeil’s windfall tax on oil firms as “kein Cent Entlastung” at the pump and again ruled out replacing Merz as chancellor (FAZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "ZDF Politbarometer Extra (14–17 Sep): Mecklenburg-Vorpommern — SPD 37% / AfD 36% / CDU 6% (near 5% threshold); Berlin — Linke 22% / CDU 20% / AfD 18% ahead of Sunday’s votes (dpa/Volksstimme).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Fri: closing rallies in both states; no two-party majority likely in Berlin on current polls (dpa).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Fuel sticker-shock meets an existential state-election weekend for Merz’s CDU — concrete cents land before voters do.",
+      "image": null,
+      "sources": [
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/inland/cdu-stellt-spritpreisentlastung-von-bis-zu-25-cent-pro-liter-in-aussicht-accg-201238587.html",
+          "kind": "article",
+          "time": "2026-09-18T02:09:00+02:00"
+        },
+        {
+          "label": "Volksstimme / dpa",
+          "url": "https://www.volksstimme.de/deutschland-und-welt/deutschland/wahlkampffinale-in-mv-und-berlin-enge-rennen-an-der-spitze-4321852",
+          "kind": "article",
+          "time": "2026-09-18T03:30:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-thu-barrage-update",
+      "title": "Ukraine Thursday barrage: 1 dead west of Kyiv; more Kyiv injuries",
+      "topics": [
+        "Ukraine",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Straits Times (Reuters, Thu late): industrial-park strike near Korosten (Zhytomyr) killed one; Zaporizhzhia market blaze (no casualties reported there); Dnipro fire injured two.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "DW / Kyiv authorities: Russian strikes injured several in Kyiv and Odesa in the Thu wave — overnight Kyiv wounded reported in the teens–20s range depending on cut-off (DW).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Moscow mayor: 29 Ukrainian drones downed heading for Moscow through the day (via Reuters wire). Evening’s past-day ≥10/75 toll is the broader window; this is Thu’s continuation.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Another daylight-extended strike day as Bonn’s consulate closure lands — the hybrid/kinetic pressure track stays hot.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Straits Times / Reuters",
+          "url": "https://www.straitstimes.com/world/europe/russia-continues-barrage-on-ukrainian-cities-one-dead-west-of-kyiv",
+          "kind": "article",
+          "time": "2026-09-18T06:28:00+08:00"
+        },
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/ukraine-russian-strikes-injure-several-in-kyiv-odesa/a-79299579",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "asia-stocks-friday-open",
+      "title": "Asia opens higher; oil eases as markets await BoJ",
+      "topics": [
+        "Markets",
+        "Asia"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "~02:00 GMT Fri: Nikkei 225 +0.7% (~64,555 on break), Hang Seng +0.9% (~24,834), Shanghai Composite +0.8% (~3,908) — tracking Wall St’s Thu bounce (HK Telegraph/AFP figures).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "WTI ~$101.23 (−0.7%), Brent ~$104.03 (−0.8%); Saudi restoring ~half of East-West pipeline crude disrupted after Houthi hit cited as relief (HK Telegraph).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Yen softer ahead of expected BoJ +25 bp; focus on Ueda guidance after the decision (Pepperstone via HK Telegraph). Not a rehash of Thu’s US close — Friday Asia open.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Risk appetite into Friday Asia after the Fed week — oil still elevated vs pre-crisis, but off recent highs.",
+      "image": {
+        "url": "https://www.thehongkongtelegraph.cn/media/shared/articles/4d/8d/d4/Asian-stocks-track-Wall-St-rally-as-681819.jpg",
+        "alt": "Asian stocks track Wall St rally as oil prices drop",
+        "credit": "Hong Kong Telegraph / AFP",
+        "creditUrl": "https://thehongkongtelegraph.cn/Economy/742507-asian-stocks-track-wall-st-rally-as-oil-prices-drop.html"
+      },
+      "sources": [
+        {
+          "label": "Hong Kong Telegraph / AFP",
+          "url": "https://thehongkongtelegraph.cn/Economy/742507-asian-stocks-track-wall-st-rally-as-oil-prices-drop.html",
+          "kind": "article",
+          "time": "2026-09-18T00:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB: Sat 18:30 at VfB Stuttgart (Sky) — last game before international break; 3/3 Bundesliga wins, five straight competitive; Karetsas back in training and set to travel (bvb.de).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: Sat 13:00 away at 1. FC Kaiserslautern, 2. Bundesliga matchday 6, Fritz-Walter-Stadion (bundesliga.com / fussballdaten).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "BVB",
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/9/17/Nine-points-confidence-highBVB-ahead-of-the-Bundesliga-match-in-Stuttgart.html",
+          "kind": "primary",
+          "time": "2026-09-17T00:00:00+02:00"
+        },
+        {
+          "label": "Bundesliga 2",
+          "url": "https://www.bundesliga.com/en/2bundesliga/matchday/2026-2027/6/1-fc-kaiserslautern-vs-eintracht-braunschweig/liveticker",
+          "kind": "primary"
+        },
+        {
+          "label": "fussballdaten.de",
+          "url": "https://www.fussballdaten.de/2liga/2027/6/klautern-braunschweig/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise: court filings quote Microsoft’s Brent Hecht calling unauthorized AI training-text use possibly history’s biggest “Diebstahl von Arbeitskraft”; OpenAI’s Nick Turley called AI existential for publishers.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "CrowdSec (Sep 17): confirms May 2026 private SaaS/console source-code exposure via likely TanStack compromise; no client PII; tokens rotated (CrowdSec blog).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Vercel changelog: sub-second artifact deployments now supported in Vercel CLI (Sep 17).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "OpenAI status (Thu): elevated error rates across API models incident noted in vendor feeds.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Groesster-Diebstahl-von-Arbeitskraft-Intern-Kritik-bei-Microsoft-an-KI-Training-11457705.html",
+          "kind": "article",
+          "time": "2026-09-18T07:13:00+02:00"
+        },
+        {
+          "label": "CrowdSec",
+          "url": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+          "kind": "primary",
+          "time": "2026-09-17T00:00:00+02:00"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/sub-second-artifact-deployments-are-now-supported-in-vercel-cli",
+          "kind": "primary",
+          "time": "2026-09-17T22:00:00+00:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+          "kind": "primary",
+          "time": "2026-09-17T21:50:36+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN: Hister — private search over pages you visit + files you keep (GitHub; ~546 pts overnight).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN: OpenAI “Astra for Law” announcement (~425 pts).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN: Bend — language that blocks AI mistakes via proof on CPU/GPU (bend-lang.com).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN: “Hacking OpenAI” write-up (hacktron.ai) — security research tip.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "TypeScript#64306 merged overnight: perf preallocate instantiated symbol table.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "vite#23514 merged: fix merge of build.rolldownOptions.output.comments.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/7565147cad814c249d180c0b1d79e8eb063c59334c488b1f53817dc6bc9d81a9/asciimoo/hister",
+        "alt": "Your own search engine. Contribute to asciimoo/hister development by creating an account on GitHub.",
+        "credit": "Hister / HN",
+        "creditUrl": "https://github.com/asciimoo/hister"
+      },
+      "sources": [
+        {
+          "label": "Hister / HN",
+          "url": "https://github.com/asciimoo/hister",
+          "kind": "primary"
+        },
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/astra-for-law/",
+          "kind": "primary"
+        },
+        {
+          "label": "Bend",
+          "url": "https://bend-lang.com/",
+          "kind": "primary"
+        },
+        {
+          "label": "hacktron.ai",
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "kind": "article"
+        },
+        {
+          "label": "TypeScript PR #64306",
+          "url": "https://github.com/microsoft/TypeScript/pull/64306",
+          "kind": "primary",
+          "time": "2026-09-18T03:09:48+00:00"
+        },
+        {
+          "label": "Vite PR #23514",
+          "url": "https://github.com/vitejs/vite/pull/23514",
+          "kind": "primary",
+          "time": "2026-09-18T02:33:51+00:00"
+        }
+      ]
+    }
+  ]
+}
