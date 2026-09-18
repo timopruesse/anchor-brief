@@ -1,0 +1,367 @@
+{
+  "id": "2026-09-18-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-18T13:11:23+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5–6h); X Following unread (API credits depleted; browser login wall); Google News RSS blocked — publisher RSS + feeds/APIs instead",
+  "headline": "BoJ lifts rates to 1.25% (31-year high) as DAX slips ~0.5%; Putin puts Nestlé Russia under forced admin; Wunstorf drone linked to Leipzig model.",
+  "stories": [
+    {
+      "id": "boj-hike-dax-soft",
+      "title": "BoJ to 1.25% (highest since 1995); DAX −0.5% near 26k as markets digest the hike",
+      "topics": [
+        "Markets",
+        "Asia",
+        "Germany"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Fri: Bank of Japan raised its policy rate from 1% to 1.25% (+25 bp) — highest since 1995; sixth hike since exiting negative rates in 2024 (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Move widely expected; BBC ties the global hiking wave to Iran-war energy prices after Wed’s Fed hike and the ECB’s earlier increase (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Japan core inflation eased to 1.7% in August from 1.8% — still near the BoJ’s 2% target (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "tagesschau Marktbericht: DAX early trade −0.5% to 25,590 (Thu close 25,716 / +0.7%); buyers hesitant near 26,000 as all three major central banks sit on a tighter path (tagesschau).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "tagesschau notes the BoJ hike “unter anderem wegen der Folgen des Iran-Kriegs”; German producer prices in August rose as strongly as in over three years (tagesschau).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Morning Asia open was “await BoJ” — lunch is the decision plus the European cash reaction.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/20a3/live/c414c590-b32a-11f1-b1d1-571ed4d7ff2c.jpg",
+        "alt": "The interior of a retail store known for its dense 'jungle-like' displays and competitive pricing on items like luggage and shoes, seen with interior 'sale' signs, in central Osaka, Japan, on 1 April, 2026.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/cqn74jeek06no"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqn74jeek06no",
+          "kind": "article",
+          "time": "2026-09-18T07:14:00+02:00"
+        },
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-156.html",
+          "kind": "article",
+          "time": "2026-09-18T08:59:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "nestle-russia-forced-admin",
+      "title": "Putin puts Nestlé’s Russia business under forced administration",
+      "topics": [
+        "Europe",
+        "Business",
+        "Russia"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Per decree, Russian assets of Nestlé were placed under forced administration by L.E.V. Management (tagesschau / ntv).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Nestlé said it takes note of the order, is reviewing options, and will take steps to protect its rights and keep operations running for employees (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Nestlé kept producing in Russia after the Ukraine invasion, citing essential food goods; ~6 factories, ~7,000 staff (2021), ~2% of group sales (tagesschau / ntv).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Same 2023 decree toolkit previously used on Danone, Carlsberg and Heineken — often a step before longer-term transfer to Kremlin-linked owners (tagesschau / ntv).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Another Western consumer name still operating in Russia is pulled into Moscow’s asset-control playbook — lunch wire, not in the morning brief.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/ab7dfac6-5764-43d4-9e46-50e817840bc8/AAABlg3313g/AAABnSSvrFg/16x9-big/nestle-111.jpg",
+        "alt": "Nestlé logo / packaging",
+        "credit": "tagesschau",
+        "creditUrl": "https://www.tagesschau.de/wirtschaft/unternehmen/nestle-russland-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/unternehmen/nestle-russland-100.html",
+          "kind": "article",
+          "time": "2026-09-18T09:49:00+02:00"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/wirtschaft/Putin-stellt-Nestle-in-Russland-unter-Zwangsverwaltung-id31320351.html",
+          "kind": "article",
+          "time": "2026-09-18T08:55:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "wunstorf-drone-leipzig-link",
+      "title": "Wunstorf drone debris matches Leipzig model; federal prosecutors join probe",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "NDR/security sources: crashed drone parts found near Fliegerhorst Wunstorf (Steinhuder Meer area) are the same model as the early-August Leipzig/Halle airport case (tagesschau/NDR).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Finder handed in a defective device early this week; police still searching the hard-to-access site for more fragments; no explosives traces reported so far (tagesschau / ntv).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Generalbundesanwalt has taken jurisdiction; BKA involved. ntv: GBA will look if a link to Leipzig “bestehen könnte”; build includes non-commercial / 3D-printed parts (ntv).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Wunstorf hosts Germany’s full A400M fleet — military airlift hub east of the find site (tagesschau / ntv).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Material update to morning’s Bonn/Leipzig thread — a second German site, same alleged design family, now at federal level.",
+      "image": {
+        "url": "https://www.n-tv.de/img/31320909/1789731708/Img_16_9/1200/image.jpg",
+        "alt": "Drohnenfund nahe Fliegerhorst Wunstorf",
+        "credit": "n-tv",
+        "creditUrl": "https://www.n-tv.de/politik/Bundesanwaltschaft-schaltet-sich-nach-Drohnenfund-in-Wunstorf-ein-id31320876.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau / NDR",
+          "url": "https://www.tagesschau.de/inland/regional/niedersachsen/abgestuerzte-drohne-bei-wunstorf-modell-wie-in-leipzig,drohne-466.html",
+          "kind": "article",
+          "time": "2026-09-18T10:53:00+02:00"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/politik/Bundesanwaltschaft-schaltet-sich-nach-Drohnenfund-in-Wunstorf-ein-id31320876.html",
+          "kind": "article",
+          "time": "2026-09-18T10:03:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bdi-raises-2026-growth",
+      "title": "BDI lifts 2026 GDP call to +1.0% (from +0.6%); still no broad industrial upswing",
+      "topics": [
+        "Germany",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "BDI now expects German GDP +1.0% in 2026, up from its prior +0.6% forecast (n-tv).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Hauptgeschäftsführerin Tanja Gönner: state spending on infrastructure and defence is driving growth while private investment stays weak — “von einem breiten industriellen Aufschwung könne noch keine Rede sein” (n-tv).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Research institutes had already raised 2026 expectations and remain more optimistic than the BDI’s new figure (n-tv).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Industry lobby soft-upgrade into Sunday’s state votes — fiscal/defence impulse, not a private-capex boom.",
+      "image": {
+        "url": "https://www.n-tv.de/img/31319665/1789716279/Img_16_9/1200/615225403.jpg",
+        "alt": "Industrie / BDI Konjunkturprognose",
+        "credit": "n-tv",
+        "creditUrl": "https://www.n-tv.de/wirtschaft/Industrie-korrigiert-Wachstumsprognose-nach-oben-id31319687.html"
+      },
+      "sources": [
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/wirtschaft/Industrie-korrigiert-Wachstumsprognose-nach-oben-id31319687.html",
+          "kind": "article",
+          "time": "2026-09-18T06:21:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Diesel ADAC all-time high: Thu avg €2.471/L (2nd daily record after Wed €2.453); Fri morning SWR ~€2.45/L; E10 eased to €2.308 (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Merz and Trump completed the phone call that was postponed last week (DLF).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Philippines: 16-year-old gunman kills two 14-year-old students, injures eight, then himself at Banga National High School (Mindanao) — third deadly school shooting since June (BBC).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Russia’s three-day State Duma vote opened in Kamchatka; opposition parties critical of the Ukraine war barred; United Russia win treated as locked-in (DLF).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://bilder.deutschlandfunk.de/cf/8d/85/56/cf8d8556-b995-4210-98e1-f646dedfa2c7/fahnen-usa-deutschland-100-1920x1080.jpg",
+        "alt": "Eine US-amerikanische und ein deutsche Flagge flattern im Wind, dahinter blauer Himmel",
+        "credit": "Deutschlandfunk",
+        "creditUrl": "https://www.deutschlandfunk.de/merz-und-trump-holen-abgesagtes-telefonat-nach-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/energie/diesel-preis-rekordhoch-100.html",
+          "kind": "article",
+          "time": "2026-09-18T09:45:00+02:00"
+        },
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/merz-und-trump-holen-abgesagtes-telefonat-nach-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o",
+          "kind": "article",
+          "time": "2026-09-18T10:28:00+02:00"
+        },
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/parlamentswahl-in-russland-hat-begonnen-keine-oppositionskraefte-zugelassen-100.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "TechCrunch / HN: unsealed NYT filings — Microsoft exec called AI scraping “the largest theft of labor in human history”; Copilot CTR on nytimes.com down as much as 93% vs Bing search in internal data (TechCrunch).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "TypeScript #64320 merged: move printer to top level, add printFile (andrewbranch) (GitHub).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Playwright #42765 merged: trace viewer film-strip lanes for all videos, grouped by page (GitHub).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "heise: interview on the future of Vite & Co. under new owner Cloudflare.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/1bd882411c866ebdf099082a9f257b4192f973ec6f6defacaf8949651fbf5b39/microsoft/TypeScript/pull/64320",
+        "alt": "This did not actually use snapshot state, so did not belong on snapshot.",
+        "credit": "TypeScript #64320",
+        "creditUrl": "https://github.com/microsoft/TypeScript/pull/64320"
+      },
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "kind": "article",
+          "time": "2026-09-17T21:46:00+02:00"
+        },
+        {
+          "label": "TypeScript #64320",
+          "url": "https://github.com/microsoft/TypeScript/pull/64320",
+          "kind": "primary",
+          "time": "2026-09-18T03:23:14+02:00"
+        },
+        {
+          "label": "Playwright #42765",
+          "url": "https://github.com/microsoft/playwright/pull/42765",
+          "kind": "primary",
+          "time": "2026-09-18T01:57:03+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Interview-Die-Zukunft-von-Vite-Co-beim-neuen-Eigentuemer-Cloudflare-11454119.html",
+          "kind": "article",
+          "time": "2026-09-18T10:27:00+02:00"
+        }
+      ]
+    }
+  ]
+}
