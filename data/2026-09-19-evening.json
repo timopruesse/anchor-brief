@@ -1,0 +1,352 @@
+{
+  "id": "2026-09-19-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-19T19:20:04+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:20 Berlin / ~11h); no afternoon (Saturday); X API credits depleted; x.com/home login wall — Following skipped; GME voices from public profiles; feeds/APIs/sports + publisher research",
+  "headline": "Election eve: Berlin Linke 22% vs CDU 20%; MV SPD 37% vs AfD 36%; Denmark/Greenland push back on Trump “permanent control”; BVB 0–0 HT at Stuttgart.",
+  "stories": [
+    {
+      "id": "berlin-mv-election-eve",
+      "title": "Election eve: Berlin Linke–CDU photo finish; MV SPD edges AfD 37–36 — polls open Sunday 08–18",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Elections"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Parties wrapped campaigns Saturday ahead of Sunday votes in Berlin and Mecklenburg-Vorpommern; polls 08:00–18:00; first-time 16-/17-year-old franchise in both (DLF / NDR).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Berlin ZDF-Politbarometer Extra (FG Wahlen, 14–17 Sep, n=1,611): Linke 22%, CDU 20%, AfD 18%, Grüne 15%, SPD 12%, BSW 4%; 23% still unsure; CDU–SPD Senate would lack a majority (ZDF).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "MV Politbarometer Extra: SPD 37% (+3) vs AfD 36% (−1); Linke 9, CDU 6, Grüne 5, BSW 4 — SPD–Linke incumbent pair also short of a clear majority on paper; Schwesig preferred MP 61% vs Holm 30% (ZDF).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Housing/rents dominate Berlin campaign framing; MV race framed as Schwesig polarization vs AfD after a late SPD bounce (ZDF).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": "Overnight’s fuel package was the campaign closer — tonight the ballots are set for two of Germany’s most watched Land races, both within error margins.",
+      "image": {
+        "url": "https://bilder.deutschlandfunk.de/d7/a6/cf/73/d7a6cf73-eb19-42cc-a72b-beada8319a73/wahlplakate-berlin-102-1920x1080.jpg",
+        "alt": "Das Foto zeigt Wahlplakate für die Abgeordnetenhauswahl 2026 von AfD, SPD, Linke, Grüne, BSW",
+        "credit": "Deutschlandfunk",
+        "creditUrl": "https://www.deutschlandfunk.de/parteien-beenden-wahlkampf-vor-wahlen-in-mecklenburg-vorpommern-und-berlin-104.html"
+      },
+      "sources": [
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/parteien-beenden-wahlkampf-vor-wahlen-in-mecklenburg-vorpommern-und-berlin-104.html",
+          "kind": "article",
+          "time": "2026-09-19T12:00:00+02:00"
+        },
+        {
+          "label": "NDR",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl",
+          "kind": "article"
+        },
+        {
+          "label": "ZDF heute",
+          "url": "https://www.zdfheute.de/politik/deutschland/politbarometer-extra-berlin-abgeordnetenhaus-wahl-100.html",
+          "kind": "article",
+          "time": "2026-09-17T22:42:00+02:00"
+        },
+        {
+          "label": "ZDF heute",
+          "url": "https://www.zdfheute.de/politik/deutschland/politbarometer-extra-mecklenburg-vorpommern-wahl-100.html",
+          "kind": "article",
+          "time": "2026-09-17T22:01:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "greenland-sovereignty-clarification",
+      "title": "Denmark & Greenland: US Arctic deal will not cede sovereignty — details still opaque",
+      "topics": [
+        "World",
+        "Security",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Saturday statements from Copenhagen and Nuuk stress any US deal respects Kingdom sovereignty and Greenlanders’ self-determination after Trump claimed “permanent control” over security “and all other needs” (Guardian).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "FM Løkke Rasmussen: hope UNGA week yields a binding Arctic/NATO-security pact that still respects the Kingdom’s red lines; Greenland PM Nielsen echoed sovereignty language (Guardian).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Key unknowns remain public: scale of US presence and whether any formal foreign-policy/resource authority shifts to Washington; NATO spokesperson welcomed the framework (Guardian).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Morning’s deal announcement is intact — Saturday’s pushback is about framing and red lines before next week’s UNGA signing.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/19/denmark-greenland-us-military-agreement-territorial-sovereignty",
+          "kind": "article",
+          "time": "2026-09-19T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "stanford-two-brains",
+      "title": "Stanford Medicine: human “brain” is two organs — hindbrain from a separate progenitor",
+      "topics": [
+        "Science",
+        "Health"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Nature Neuroscience (18 Sep): fore/midbrain (Otx2) and hindbrain/brain-stem (Gbx2) arise from mutually exclusive progenitors with distinct chromatin — not a single early progenitor as long assumed (Stanford Medicine).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Team grew functional human hindbrain motor neurons in vitro for the first time; pattern conserved back to chickens, zebrafish and acorn worms (~550 Myr) (Stanford).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Aim: better models for SMA/ALS and other brain-stem diseases where living tissue is unavailable; HN ~500 pts overnight (Stanford / HN).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        }
+      ],
+      "whyItMatters": "Explains decades of failed hindbrain-in-a-dish attempts — and opens a concrete regenerative-research path.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Stanford Medicine",
+          "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+          "kind": "primary",
+          "time": "2026-09-18T00:00:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49763697",
+          "kind": "article",
+          "time": "2026-09-19T07:48:50+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB at VfB Stuttgart (Bundesliga MD4, 18:30): 0–0 at HT; Nmecha & Beier start; first outing in new black away kit; Kobel saves Undav from close range (BVB / SPIEGEL liveticker).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: 0–1 FT at Kaiserslautern (2. Liga); Erencan Yardımcı 73’ — EBS 1-1-3 / 4 pts (ESPN).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "BVB",
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/9/18/Countdown-for-Stuttgart-Facts-Jerseys-Weather.html",
+          "kind": "primary",
+          "time": "2026-09-18T00:00:00+02:00"
+        },
+        {
+          "label": "SPIEGEL Sportdaten",
+          "url": "https://sportdaten.spiegel.de/fussball/bundesliga/ma12193975/vfb-stuttgart_borussia-dortmund/liveticker/",
+          "kind": "article",
+          "time": "2026-09-19T19:16:00+02:00"
+        },
+        {
+          "label": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401885108",
+          "kind": "article",
+          "time": "2026-09-19T15:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "LastPass/Delphos: “Rapuncel” infostealer via fake GitHub repos (e.g. LastPass Authenticator) + Microsoft-signed kernel driver; ≥40 brands abused for SEO bait (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "PetaPixel: before/after photo essay on US data-center sprawl across America (PetaPixel).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "PetaPixel: Apple explains why iPhone 18 Pro ships a variable aperture (PetaPixel).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Golem: FAA deploying an AI system into air-traffic control workflows (Golem).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/LastPass-entdeckt-neue-Infostealer-Variante-die-sich-als-GitHub-Repo-tarnt-11459163.html",
+          "kind": "article",
+          "time": "2026-09-19T17:40:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/19/before-and-after-photos-show-data-centers-furiously-popping-up-across-america/",
+          "kind": "article",
+          "time": "2026-09-19T17:00:39+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/19/apple-explains-why-the-iphone-18-pro-has-a-variable-aperture/",
+          "kind": "article",
+          "time": "2026-09-19T16:01:14+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/us-flugaufsichtsbehoerde-faa-setzt-ki-system-fuer-flugsicherung-ein-2609-213244.html",
+          "kind": "article",
+          "time": "2026-09-19T12:50:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "PlanetScale TIN: GA full-text search extension for Postgres (`USING tin(...)`, `==>` operator, BM25) — claims ≥8× QPS vs ParadeDB/GIN on mixed workloads (PlanetScale).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN: “AI-generated posters don’t have to be horrible” — ~785 pts / 472 comments (HN).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "SvelteKit #17120 merged (breaking): bundle adapter-bun server with the app’s Vite build (GitHub).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "bun #43234 merged: Error.prepareStackTrace default formatter heads the stack with the error’s name (GitHub).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "TypeScript #64325 merged: Add ARM CI Jobs (GitHub).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/95c43507a92670959ff7a0e07fdb38d0035ade335315fc8960e8fed500be6aa5/sveltejs/kit/pull/17120",
+        "alt": "adapter-bun bundles the server twice: Vite builds it, then Bun.build re-bundles that output together with every package Vite left external. Bundling breaks packages that resolve files relative to t...",
+        "credit": "SvelteKit #17120",
+        "creditUrl": "https://github.com/sveltejs/kit/pull/17120"
+      },
+      "sources": [
+        {
+          "label": "PlanetScale",
+          "url": "https://planetscale.com/blog/introducing-tin",
+          "kind": "article",
+          "time": "2026-09-16T00:00:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49764791",
+          "kind": "article",
+          "time": "2026-09-19T11:20:58+02:00"
+        },
+        {
+          "label": "SvelteKit #17120",
+          "url": "https://github.com/sveltejs/kit/pull/17120",
+          "kind": "primary",
+          "time": "2026-09-18T22:48:24+02:00"
+        },
+        {
+          "label": "bun #43234",
+          "url": "https://github.com/oven-sh/bun/pull/43234",
+          "kind": "primary",
+          "time": "2026-09-19T00:54:06+02:00"
+        },
+        {
+          "label": "TypeScript #64325",
+          "url": "https://github.com/microsoft/TypeScript/pull/64325",
+          "kind": "primary",
+          "time": "2026-09-19T10:29:16+02:00"
+        }
+      ]
+    }
+  ]
+}
