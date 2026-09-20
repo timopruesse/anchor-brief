@@ -1,0 +1,339 @@
+{
+  "id": "2026-09-20-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-20T19:22:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:15 Berlin / ~11h); no afternoon (Sunday); X API credits depleted; x.com/home login wall — Following skipped; GME voices from morning public-profile cache; feeds/APIs/sports + publisher research",
+  "headline": "Berlin: Linke ~25.5% clear of CDU 20% — black-red out; MV: AfD 37.9% edges SPD 36%; LMU student data breach.",
+  "stories": [
+    {
+      "id": "berlin-mv-election-night",
+      "title": "Election night: Linke wins Berlin; AfD narrowly leads SPD in Mecklenburg-Vorpommern — Merz stays",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Elections"
+      ],
+      "weight": "lead",
+      "facts": [
+        {
+          "text": "Berlin (ZDF / Forschungsgruppe Wahlen Hochrechnung): Linke 25.5% (Eralp) clear of CDU 20% (Evers); Grüne 15.4%, AfD 13.9%, SPD 12%, BSW 5% — seat sketch 36/28/22/20/17/7 on 130 (ZDF).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Black-red Senate math collapses: CDU+SPD ~45 seats vs 66 needed; viable Dreier on paper are Linke–Grüne–SPD (75) or CDU–Grüne–SPD (67). Eralp claims Regierungsauftrag; SPD’s Krach calls result “katastrophal” (ZDF / rbb).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "rbb / Infratest dimap ~18:56 Hochrechnung: Linke 24.9 / CDU 20.0 / AfD 15.7 / Grüne 15.0 / SPD 11.9 / BSW 5.0 — same Linke lead, AfD ahead of Grüne on that institute (rbb).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "MV (ZDF Hochrechnung 19:01): AfD 37.9% (Holm) ahead of SPD 36.0% (Schwesig); Linke 6.5, Grüne 5.4, CDU 5.2, BSW 4.8 — five-party seat sketch AfD 30 / SPD 28 / Linke 5 / CDU+Grüne 4 each; majority 36 (ZDF).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Schwesig: AfD missed absolute majority; wants a stable democratic-party government. Merz calls MV CDU result a “Desaster,” vows to stay as chancellor and keep the reform course (ZDF / NDR).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Official counts still updating overnight: Berlin provisional ~01:30 Mon (berlin.de/wahlen); MV live maps via SZ while LAiV feeds catch election-night load (berlin.de / SZ).",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": "Morning’s election-day setup is now Hochrechnung reality — two Land maps rewrite coalition math and keep Merz under Bund pressure without forcing him out tonight.",
+      "image": {
+        "url": "https://www.zdfheute.de/assets/berlin-elif-eralp-die-linke-100~1280x720?cb=1789920482022",
+        "alt": "Wahl in Berlin: Linke deutlich vor CDU — Grüne vor AfD und SPD",
+        "credit": "ZDF heute",
+        "creditUrl": "https://www.zdfheute.de/politik/deutschland/wahl-berlin-wahlergebnisse-cdu-die-linke-evers-eralp-100.html"
+      },
+      "sources": [
+        {
+          "label": "ZDF heute (Berlin)",
+          "url": "https://www.zdfheute.de/politik/deutschland/wahl-berlin-wahlergebnisse-cdu-die-linke-evers-eralp-100.html",
+          "kind": "article",
+          "time": "2026-09-20T19:12:00+02:00"
+        },
+        {
+          "label": "rbb24 Liveticker",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/berlin-wahl-agh-bvv-stimmen-ergebnis-reaktionen-liveticker.html",
+          "kind": "article",
+          "time": "2026-09-20T18:56:00+02:00"
+        },
+        {
+          "label": "ZDF heute (MV)",
+          "url": "https://www.zdfheute.de/politik/deutschland/landtagswahl-mecklenburg-vorpommern-wahlergebnisse-afd-spd-holm-schwesig-100.html",
+          "kind": "article",
+          "time": "2026-09-20T19:14:00+02:00"
+        },
+        {
+          "label": "NDR Liveticker MV",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl/liveticker-wahl-mv-afd-laut-prognose-knapp-vor-spd,mvwahl-liveticker-100.html",
+          "kind": "article",
+          "time": "2026-09-20T19:12:00+02:00"
+        },
+        {
+          "label": "berlin.de/wahlen",
+          "url": "https://www.berlin.de/wahlen/",
+          "kind": "primary"
+        },
+        {
+          "label": "SZ MV Ergebnisse live",
+          "url": "https://www.sueddeutsche.de/projekte/artikel/politik/landtagswahl-mecklenburg-vorpommern-2026-wahlergebnisse-live-e674633/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "lmu-student-data-breach",
+      "title": "LMU München: Immatrikulations-Stammdaten (inkl. IBAN) abgeflossen — LKA ermittelt",
+      "topics": [
+        "Security",
+        "Germany",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        {
+          "text": "LMU (Art. 34 notice, 19 Sep): unauthorized access to enrollment master data; university assumes the dataset was retrieved; no evidence yet of publication or misuse (LMU).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Categories may include name/DOB/addresses/emails, IBAN + account holder, BAföG numbers, health-insurance numbers, prior degrees / study-path data — exam results explicitly not affected (LMU / heise).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "~53k enrolled; systems isolated, forensics + Bavarian LKA involved; winter-semester enrollment to resume next week with extended deadlines — “kein Nachteil für Ihr Studium” (heise / LMU).",
+          "sourceIndexes": [
+            1,
+            0
+          ]
+        }
+      ],
+      "whyItMatters": "A large German university just lost the full enrollment dossier — phishing and identity-fraud risk for students even if darknet dumps stay quiet.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/8/1/9/9/LMU-Shutterstock-5598d78d74581d89.png?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Geschwister-Scholl-Platz an der LMU München",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Cyberangriff-auf-LMU-Muenchen-Daten-von-Studierenden-abgeflossen-11459343.html"
+      },
+      "sources": [
+        {
+          "label": "LMU München",
+          "url": "https://www.lmu.de/de/newsroom/newsuebersicht/news/information-ueber-einen-datenschutzvorfall-f446c16e.html",
+          "kind": "primary",
+          "time": "2026-09-19T12:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Cyberangriff-auf-LMU-Muenchen-Daten-von-Studierenden-abgeflossen-11459343.html",
+          "kind": "article",
+          "time": "2026-09-20T15:05:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Italy: Meloni says Cabinet measure coming to ban burqa/niqab in schools + cap foreign students per class; parents of struggling foreign pupils must learn Italian (Euronews).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Nature: first reported RNA-therapy case — man with rare motor-neuron disease improves after treatment (Nature).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN (~270 pts): Qwen-Image-2.1 — compact unified image-creation model (qwen.ai).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN (~74 pts): Singapore paying people to put phones down and read books (Gadget Review).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/92/04/47/1200x675_cmsv2_033808bc-a2d0-5a2d-835e-dbd6513e4a95-9920447.jpg",
+        "alt": "Meloni announces ban on burqa in schools and cap on foreign students",
+        "credit": "Euronews",
+        "creditUrl": "https://www.euronews.com/my-europe/2026/09/20/meloni-announces-ban-on-burqa-and-niqab-in-italian-schools-and-cap-on-foreign-students"
+      },
+      "sources": [
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/20/meloni-announces-ban-on-burqa-and-niqab-in-italian-schools-and-cap-on-foreign-students",
+          "kind": "article",
+          "time": "2026-09-20T14:00:00+02:00"
+        },
+        {
+          "label": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02945-z",
+          "kind": "article"
+        },
+        {
+          "label": "Qwen Blog",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "kind": "primary"
+        },
+        {
+          "label": "Gadget Review",
+          "url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: TypeSafe shipped a model that never writes a word — decision-layer playbook (Sun).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Papers with Backtest: backtested 5,000 published strategies — survival-rate writeup (Sun).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "How To Think More and Better: “The Connection Between Thinking and Writing” (Sun).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://substackcdn.com/image/fetch/$s_!wDzc!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c39903-3dcf-4e90-af73-f665173b0763_1600x900.jpeg",
+        "alt": "TypeSafe Shipped a Model That Never Writes a Word. Here’s the Decision-Layer Playbook",
+        "credit": "The AI Corner",
+        "creditUrl": "https://www.the-ai-corner.com/p/jev-typesafe-system-one-model-decision-layer-playbook-2026"
+      },
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/jev-typesafe-system-one-model-decision-layer-playbook-2026",
+          "kind": "article",
+          "time": "2026-09-20T17:52:00+02:00"
+        },
+        {
+          "label": "Algo Trading & AI",
+          "url": "https://blog.paperswithbacktest.com/p/we-backtested-5000-published-strategies",
+          "kind": "article",
+          "time": "2026-09-20T14:00:00+02:00"
+        },
+        {
+          "label": "How To Think More and Better",
+          "url": "https://morebetterthinking.substack.com/p/the-connection-between-thinking-and",
+          "kind": "article",
+          "time": "2026-09-20T16:19:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Lobsters (~50): “You Know GDPR Is Good Based on Who Hates It” — matduggan.com.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Notion engineering: how concurrent editing is handled with CRDTs (notion.com/blog).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN (~77): The Millennium Problems for Biology — millenniumproblems.bio.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN (~123): Pirate Face rescues LLM models from deletion (pirateface.co).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://images.ctfassets.net/spoqsaf9291f/7poBA7DbIwyzEkIf7UGT2C/ac91ef880b3e933e2fbc2dfe499dca45/Hands_on_solid_color.png",
+        "alt": "How Notion handles concurrent editing with CRDTs",
+        "credit": "Notion",
+        "creditUrl": "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts"
+      },
+      "sources": [
+        {
+          "label": "matduggan.com",
+          "url": "https://matduggan.com/you-know-gdpr-is-good-based-on-who-hates-it/",
+          "kind": "article"
+        },
+        {
+          "label": "Notion Blog",
+          "url": "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts",
+          "kind": "article"
+        },
+        {
+          "label": "millenniumproblems.bio",
+          "url": "https://millenniumproblems.bio/",
+          "kind": "primary"
+        },
+        {
+          "label": "pirateface.co",
+          "url": "https://pirateface.co/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
