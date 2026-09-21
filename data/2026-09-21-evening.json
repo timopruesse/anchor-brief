@@ -1,0 +1,363 @@
+{
+  "id": "2026-09-21-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-21T19:45:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:00 Berlin / ~6–7h)",
+  "headline": "Googlebook preorders open (Android+ChromeOS laptops from $899); Grok 4.7 ships; Kiel Staatskanzlei largely on Linux.",
+  "stories": [
+    {
+      "id": "googlebook-preorders",
+      "title": "Googlebook: Android+ChromeOS laptops open for preorder from $899",
+      "topics": [
+        "Tech",
+        "Hardware",
+        "AI"
+      ],
+      "facts": [
+        "Google blog (Sep 21): Googlebook — new laptop category on Android stack + ChromeOS desktop foundations, designed for Gemini Intelligence and Android phone pairing — preorders open today.",
+        "Hardware: Acer, ASUS, Dell, HP, Lenovo flagships; aluminum/magnesium/carbon; up to 2.8K OLED touch; Intel or Qualcomm + NPU >45 TOPS; up to ~14h battery; Glowbar returns on the lid.",
+        "Phone companion: Continue On, Files from phone, Cast My Apps; Gemini features include Magic Pointer, Rambler (speech→structured notes), Create My Widget.",
+        "Pricing/availability: from $899 with 12 months Google AI Pro (5TB + Gemini Advanced), 3 months YouTube Premium + Adobe Photoshop, up to 10 years of OS updates; shelves Oct 4 U.S. / Oct 5 CA, UK, IE, FR, DE, AU.",
+        "Security callout: ChromeOS-class stack with Titan root of trust plus a Level-5-certified pKVM Linux environment for agents/dev tools."
+      ],
+      "whyItMatters": "Google’s clearest premium-laptop bet since Chromebook — Android phone continuity plus Gemini on the desktop, with German retail on the Oct 5 wave.",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/googlebook_social_share.width-1300.png",
+        "alt": "Googlebook laptop promotional image from Google’s product blog",
+        "credit": "Google",
+        "creditUrl": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/"
+      },
+      "sources": [
+        {
+          "label": "Google The Keyword",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook/",
+          "kind": "primary"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/googlebooks-vorgestellt-google-praesentiert-android-notebooks-2609-213291.html",
+          "kind": "article",
+          "time": "2026-09-21T18:34:02+02:00"
+        },
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/",
+          "kind": "article"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "grok-4-7",
+      "title": "xAI ships Grok 4.7: longer coding runs, same $2/$6 pricing as 4.6",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "facts": [
+        "xAI: Grok 4.7 is live — marketed as the most capable Grok for coding and knowledge work; longer hard-task runs, stricter self-checks, and “best-calibrated safeguards to date.”",
+        "Pricing matches Grok 4.6: $2 / $6 per million input/output tokens; a fast variant runs at twice the output speed for twice the price.",
+        "On CursorBench 4.0 (longer coding tasks), xAI charts Grok 4.7 at the price-performance frontier — e.g. Extra High 46.3% at ~$6.01 avg cost/task; High 43.9% / ~$4.69; Medium 41.6% / ~$3.49.",
+        "Larger base than 4.6 with a longer RL pass on multi-hour tasks; available today via the API, third-party coding harnesses, routers, and cloud platforms."
+      ],
+      "whyItMatters": "After weeks of delay chatter, the official model card/price finally landed — and the CursorBench framing is aimed squarely at agentic coding users.",
+      "image": {
+        "url": "https://x.ai/images/news/grok-4-7-og.webp",
+        "alt": "Grok 4.7 announcement artwork from xAI",
+        "credit": "xAI",
+        "creditUrl": "https://x.ai/news/grok-4-7"
+      },
+      "sources": [
+        {
+          "label": "xAI",
+          "url": "https://x.ai/news/grok-4-7",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49788838",
+          "kind": "article",
+          "time": "2026-09-21T17:50:15+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "kiel-staatskanzlei-linux",
+      "title": "Kiel Staatskanzlei largely off Windows: 200+ staff on Linux",
+      "topics": [
+        "Germany",
+        "Tech",
+        "Open source"
+      ],
+      "facts": [
+        "heise: Schleswig-Holstein’s Staatskanzlei says the Windows→Linux switch is largely done — über 200 staff now on Linux; ~20 seats stay on Windows for Fachverfahren with no short-term alternative.",
+        "Digitalisierungsminister Dirk Schrödter (CDU) announced it Saturday at the 24. Kieler Open Source und Linux Tage; the chancellery is the pilot for a wider Landesverwaltung rollout now being planned.",
+        "Support: Dataport + Gonicus for Linux scale. Stack already includes LibreOffice, Open-Xchange, OpenTalk; next Nextcloud, Univention Nubus, telephony “Oskar.”"
+      ],
+      "whyItMatters": "A concrete German Land milestone on digital sovereignty — not a press-slide plan, but production desktops in the government HQ.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/6/8/8/9/7/shutterstock_2303503295-7c92a8820f192c1d.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Illustration accompanying heise’s report on Kiel’s Linux migration",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Nachfolger-von-Windows-Staatskanzlei-Kiel-stellt-auf-Linux-um-11460729.html"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Nachfolger-von-Windows-Staatskanzlei-Kiel-stellt-auf-Linux-um-11460729.html",
+          "kind": "article",
+          "time": "2026-09-21T18:45:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "zuckoff-meta-glasses",
+      "title": "ZuckOff: free app flags nearby Meta/Snap camera glasses over Bluetooth",
+      "topics": [
+        "Privacy",
+        "Tech"
+      ],
+      "facts": [
+        "WIRED ME: Paweł Szydłowski’s free ZuckOff app listens for Bluetooth ads and flags Ray-Ban Meta, Oakley Meta, and Snap Spectacles nearby; Pro adds background alerts/history/CSV.",
+        "It estimates rough proximity from signal strength but cannot tell if glasses are recording, who is wearing them, or guarantee silence means none are present (paired devices can go quiet).",
+        "HN (~298) boosted the story today; official site lists manufacturer signatures (e.g. Luxottica 0x0D53, Snap 0x03C2) and notes Android is still in a closed Play test."
+      ],
+      "whyItMatters": "A practical, single-dev counter to always-on camera glasses — limited, but one of the few tools that turns an invisible problem into a detectable one.",
+      "image": {
+        "url": "https://media.wired.me/photos/6aa94578e4d360c9269b01f7/191:100/w_1280,c_limit/MetaGlasses_lead.jpg",
+        "alt": "Meta smart glasses photo used in WIRED Middle East’s ZuckOff feature",
+        "credit": "WIRED Middle East",
+        "creditUrl": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff"
+      },
+      "sources": [
+        {
+          "label": "WIRED Middle East",
+          "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
+          "kind": "article"
+        },
+        {
+          "label": "Zuckoff",
+          "url": "https://www.zuckoff.app/",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49785397",
+          "kind": "article",
+          "time": "2026-09-21T12:27:50+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "Basketball Löwen Braunschweig: BBL opener 116:107 vs Gladiators Trier (Sep 19) — combined Q1 points record (72); next home vs Rostock.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors: 2026 2nd-rounder Lajae Jones (No. 54, Florida State) signs with Pallacanestro Trieste (Italy); GSW retains NBA rights while he plays overseas.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "easyCredit BBL",
+          "url": "https://easycredit-bbl.de/de/n/news/2026/september/punkte-rekord-in-braunschweig-die-loewen-schlagen-trier-zum-saisonauftakt-mit-116107",
+          "kind": "primary",
+          "time": "2026-09-19T00:00:00+02:00"
+        },
+        {
+          "label": "Sportando",
+          "url": "https://sportando.basketball/en/pallacanestro-trieste-officially-signs-lajae-jones/",
+          "kind": "article",
+          "time": "2026-09-21T17:36:46+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "heise/NEA: China August electricity use hit 1.0332 PWh for the first time; peak load 1.56 TW; Jan–Aug 7.17 PWh (+4.3% YoY). PV installed capacity edged coal end-July.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "NASA: Perseverance findings point to more complex early-Mars water systems (Turquoise Bay panorama).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Golem: Deutsche Glasfaser says it has reached one million FTTH customers.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/China-verbraucht-im-August-mehr-als-eine-Petawattstunde-Strom-11460739.html",
+          "kind": "article",
+          "time": "2026-09-21T18:46:00+02:00"
+        },
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+          "kind": "primary",
+          "time": "2026-09-21T18:54:43+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/ftth-deutsche-glasfaser-hat-eine-million-kunden-2609-213290.html",
+          "kind": "article",
+          "time": "2026-09-21T18:08:01+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "facts": [
+        {
+          "text": "The AI Corner: “Everyone Is Hiring for Judgment. Nobody Is Making It Anymore.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "shit you should care about: “Who Gives A Shit? You do!”",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Five Minute Reads: Ryan Daniel Moran’s 4×25×$30 million map (12-checkpoint).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/hiring-for-judgment-ai-seniorization",
+          "kind": "article",
+          "time": "2026-09-21T16:33:23+02:00"
+        },
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/who-gives-a-shit-you-do",
+          "kind": "article",
+          "time": "2026-09-21T19:00:35+02:00"
+        },
+        {
+          "label": "Five Minute Reads",
+          "url": "https://fiveminutereads1.substack.com/p/ryan-daniel-morans-million-is-4-products",
+          "kind": "article",
+          "time": "2026-09-21T13:45:19+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Canonical: Zephyr 26.04 LTS announced — up to 15 years of support for MCU/IoT class.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Vercel changelog: Deployments now show billable duration and CPU minutes.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN (~135): Raspberry Pi forum thread on blocking RAM chip swaps.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "bun: merged build PR linking Rust crate rlibs directly (no libbun_runtime.a) #43650.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "alicegg: “Attention is all you have” (HN ~185).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Canonical",
+          "url": "https://canonical.com/blog/zephyr-lts-announcement",
+          "kind": "primary"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/deployments-now-show-billable-duration-and-cpu-minutes",
+          "kind": "primary",
+          "time": "2026-09-21T17:00:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49786689",
+          "kind": "article",
+          "time": "2026-09-21T12:54:24+00:00"
+        },
+        {
+          "label": "oven-sh/bun#43650",
+          "url": "https://github.com/oven-sh/bun/pull/43650",
+          "kind": "primary",
+          "time": "2026-09-21T14:38:45+02:00"
+        },
+        {
+          "label": "alicegg.tech",
+          "url": "https://alicegg.tech/2026/09/21/attention",
+          "kind": "article",
+          "time": "2026-09-21T00:00:00+02:00"
+        }
+      ],
+      "weight": "brief"
+    }
+  ]
+}
