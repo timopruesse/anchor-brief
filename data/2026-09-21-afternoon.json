@@ -1,0 +1,318 @@
+{
+  "id": "2026-09-21-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-21T13:00:03+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5h)",
+  "headline": "Plugin4Shell: zero-click RCE hits Claude Code/Codex/Copilot/Gemini CLI; Gmail AI Overviews for Workspace; Xi–Trump summit framed as trade-truce extension.",
+  "stories": [
+    {
+      "id": "plugin4shell-ai-agents",
+      "title": "Plugin4Shell: zero-click RCE breaks SHA pinning in four AI coding agents",
+      "topics": [
+        "Tech",
+        "Security",
+        "AI"
+      ],
+      "weight": "lead",
+      "facts": [
+        "AIR Security discloses Plugin4Shell: a zero-click RCE that defeats plugin SHA pinning in Claude Code, OpenAI Codex, GitHub Copilot, and Gemini CLI — dubbed the first supply-chain flaw of the AI-agent ecosystem.",
+        "Attack: agent checks out the pin but never verifies working-tree HEAD; attacker names a branch after the 40-char hash (or Gemini FETCH_HEAD trick) so git prefers malicious code while the pin still “looks” honored.",
+        "Zero-click trigger: Claude Code and Codex auto-update plugins in the background by default — a previously reviewed plugin can flip to attacker code with no install prompt.",
+        "Patches: Claude Code 2.1.179 and Codex 0.146.0; Copilot still unpatched; Gemini CLI deprecated/unpatched (migrate to Antigravity). No CVEs yet; no confirmed in-the-wild use; vendors notified June 2026 with PoCs."
+      ],
+      "whyItMatters": "Trusted marketplace plugins were supposed to be pinned-safe; this class of bug hands an attacker the agent host — source, keys, CI — unless every vendor ships a post-checkout HEAD check.",
+      "image": {
+        "url": "https://securityonline.info/wp-content/uploads/2026/09/Plugin4Shell-scaled.png",
+        "alt": "Plugin4Shell zero-click RCE vulnerability affecting Claude Code, Codex, GitHub Copilot, and Gemini CLI through an AI coding agent SHA-pinning bypass",
+        "credit": "SecurityOnline / AIR Security",
+        "creditUrl": "https://securityonline.info/plugin4shell-coding-agents-rce/"
+      },
+      "sources": [
+        {
+          "label": "SecurityOnline / AIR Security",
+          "url": "https://securityonline.info/plugin4shell-coding-agents-rce/",
+          "kind": "article",
+          "time": "2026-09-21T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "gmail-ai-overviews-workspace",
+      "title": "Gmail search gets AI Overviews for paying Workspace customers worldwide",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "heise: Google is rolling AI Overviews into Gmail search for paying Workspace customers worldwide — natural-language Q&A over the mailbox instead of hit lists (e.g. open invoices, trip details).",
+        "Rapid Release domains since ~Sep 3; Scheduled Release full rollout starts Sep 21. Gmail UI must be set to English; admins need Gemini for Workspace + Workspace Intelligence on Gmail.",
+        "Personal Google accounts in the EEA / Switzerland / UK / Japan stay excluded for now; Workspace orgs in the region are not blocked if they meet the paid-plan + English requirements."
+      ],
+      "whyItMatters": "Mailbox search becomes an answer engine for paid Workspace — while EU consumer Gmail stays out, widening the enterprise/consumer AI feature split.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Gmail-Suche-liefert-Antworten-statt-Trefferlisten-11460042.html",
+          "kind": "article",
+          "time": "2026-09-21T12:38:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "solarwinds-arm-cve",
+      "title": "SolarWinds patches unauth RCE in Access Rights Manager (CVE-2026-28326)",
+      "topics": [
+        "Tech",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "heise: SolarWinds ARM CVE-2026-28326 (high) — remote unauth attackers can push code via a hardcoded static key, risking full compromise of the rights-management host.",
+        "Fixed in ARM 2026.2.1 (also Exchange Online mailbox-rights display bugs). No evidence of active exploitation yet, per vendor/heise.",
+        "EoL 2023.2.x builds (support ended May) get no patch — admins must upgrade; upgrade path needs at least ARM 2023.2.4 as base."
+      ],
+      "whyItMatters": "A rights-management appliance with unauth RCE is a high-value jump box — patch or upgrade off EoL before someone chains it into domain-wide access.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Unberechtigte-Zugriffe-auf-SolarWinds-Access-Rights-Manager-moeglich-11459978.html",
+          "kind": "article",
+          "time": "2026-09-21T12:21:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "xi-trump-summit-trade-truce",
+      "title": "Xi rolls into Trump summit with export boom; agenda leans trade-truce extension",
+      "topics": [
+        "World",
+        "China",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        "CNA/Reuters wire: Trump–Xi Washington meeting set for Sep 24; analysts say Xi has little urgency for concessions after China’s export surge, while Trump faces weak approval and a costly Iran war.",
+        "Main ask: signal extending last year’s trade truce that averted a bigger shock; China’s global surplus is on pace to top $1T for a second year (“China Shock 2.0”).",
+        "Sunday NY prep (Bessent / He Lifeng) teed possible AI-guardrail talks and non-sensitive trade — already covered in the morning brief — while allies worry Taiwan arms/support could become a bargaining chip.",
+        "White House officials downplay breakthrough odds; Brookings’ Jon Czin: Xi mainly wants time to “fortify” under a renewed gentleman’s agreement."
+      ],
+      "whyItMatters": "Afternoon framing for Thursday’s summit: expect truce-extension signaling more than a grand bargain, with AI/trade side-channels and Taiwan as the quiet pressure point.",
+      "image": null,
+      "sources": [
+        {
+          "label": "CNA",
+          "url": "https://www.channelnewsasia.com/world/xi-trump-summit-china-trade-engine-united-states-6398606",
+          "kind": "article",
+          "time": "2026-09-21T04:50:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB: after 1:0 at Stuttgart, club notes perfect start across BL/Pokal/CL; Ricken “Stresstest bestanden!”; Kovac avg 2.17 pts/game (club-best vs Tuchel/Favre/…); next home Werder Oct 9 after Länderspielpause (bvb.de).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: 0:1 at Kaiserslautern (Sep 19) — Opoku calls the late counter after an own corner “eigene Dummheit”; Kornetka also criticises transition defence (Braunschweiger Zeitung / News38).",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "bvb.de",
+          "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/9/20/Stresstest-bestanden-Was-den-BVB-in-dieser-Saison-auszeichnet.html",
+          "kind": "primary",
+          "time": "2026-09-20T00:00:00+02:00"
+        },
+        {
+          "label": "Braunschweiger Zeitung",
+          "url": "https://www.braunschweiger-zeitung.de/sport/eintracht-braunschweig/article413198947/das-ist-eigene-dummheit-so-reagiert-eintracht-auf-die-pleite-beim-fck.html",
+          "kind": "article",
+          "time": "2026-09-20T08:32:00+02:00"
+        },
+        {
+          "label": "News38",
+          "url": "https://www.news38.de/sport/eintracht-braunschweig/article300710597/eintracht-braunschweig-kaiserslautern-opoku-kornetka.html",
+          "kind": "article",
+          "time": "2026-09-21T06:33:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "ESA + ISRO extend Cooperative Agreement five years to Jan 8 2032; scope adds space weather + human/robotic exploration (signed Paris, International Space Summit margins Sep 10; posted today).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "BBC World on X: videos appear to show a cargo ship striking a fishing vessel near Singapore.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "X cache (Jane Manchun Wong): banned ~800 Instagram “Your Algorithm” topics — Reels now mostly philosophy/thought experiments.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/esa-isro/27532710-2-eng-GB/ESA-ISRO_pillars.jpg",
+        "alt": "Dr V. Narayanan, Chairman of ISRO and ESA Director General Josef Aschbacher",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/About_Us/Corporate_news/ESA_and_ISRO_extend_and_broaden_cooperation_agreement"
+      },
+      "sources": [
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/About_Us/Corporate_news/ESA_and_ISRO_extend_and_broaden_cooperation_agreement",
+          "kind": "primary",
+          "time": "2026-09-21T10:44:00+02:00"
+        },
+        {
+          "label": "BBCWorld",
+          "url": "https://bbc.in/4rru3Ce",
+          "kind": "article",
+          "via": {
+            "label": "BBCWorld on X",
+            "url": "https://x.com/BBCWorld/status/2101893150180626725",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "wongmjane on X",
+          "url": "https://x.com/wongmjane/status/2101870770909778420",
+          "kind": "x"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Marketing Ideas: “10 unconventional ways to brag about your customers.”",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Marketing Ideas",
+          "url": "https://www.marketingideas.com/p/10-unconventional-ways-to-brag-about",
+          "kind": "article",
+          "time": "2026-09-21T09:08:19+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN (~114): Kev — tiny Jev-like decision-model family on Qwen3.5 (jaredpalmer/kev).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Lobsters (~22): Bryan Cantrill — “What Sun got wrong.”",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "bun: merged build PRs overnight — e.g. compile Rust crates as individual ninja edges (#41854) + rebuild-what-replaced-toolchain-produced (#43645).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "HN (~203): Grim Fandango 1996 puzzle document [pdf].",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/25674e964536277c76146831152956da5852b1e19dbdc75c7f69eae2bc6913b4/jaredpalmer/kev",
+        "alt": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own - jaredpalmer/kev",
+        "credit": "jaredpalmer/kev",
+        "creditUrl": "https://github.com/jaredpalmer/kev/tree/main"
+      },
+      "sources": [
+        {
+          "label": "jaredpalmer/kev",
+          "url": "https://github.com/jaredpalmer/kev/tree/main",
+          "kind": "primary",
+          "time": "2026-09-21T09:11:55+02:00"
+        },
+        {
+          "label": "bcantrill.dtrace.org",
+          "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+          "kind": "article",
+          "time": "2026-09-21T09:14:39+02:00"
+        },
+        {
+          "label": "oven-sh/bun#41854",
+          "url": "https://github.com/oven-sh/bun/pull/41854",
+          "kind": "primary",
+          "time": "2026-09-20T22:28:22+02:00"
+        },
+        {
+          "label": "oven-sh/bun#43645",
+          "url": "https://github.com/oven-sh/bun/pull/43645",
+          "kind": "primary",
+          "time": "2026-09-21T01:05:06+02:00"
+        },
+        {
+          "label": "gameshelf.jmac.org",
+          "url": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf",
+          "kind": "article",
+          "time": "2026-09-21T07:55:22+02:00"
+        }
+      ]
+    }
+  ]
+}
