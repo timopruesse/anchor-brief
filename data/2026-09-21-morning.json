@@ -1,0 +1,349 @@
+{
+  "id": "2026-09-21-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-21T08:30:10+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h)",
+  "headline": "Provisional: Linke 25.7% wins Berlin; MV AfD 38.2% ahead of SPD 35.5% as CDU misses Landtag at 4.9%.",
+  "stories": [
+    {
+      "id": "berlin-mv-provisional-results",
+      "title": "Provisional results: Linke wins Berlin; AfD tops MV as CDU exits a Landtag for the first time",
+      "topics": [
+        "Germany",
+        "Europe",
+        "Politics"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Berlin (vorläufig, Tagesschau): Linke 25.7% (Eralp) — more than doubles 2023’s 12.2% — ahead of CDU 18.8% (Evers), AfD 16.3%, Grüne 14.3%, SPD 12.1% (worst ever in the capital); BSW 4.7% and FDP 2.5% miss the 5% hurdle.",
+        "Black-red Senate math is gone; Tagesschau flags realistic Dreier as Linke–Grüne–SPD or a CDU-led Kenya with Grüne+SPD. Eralp wants talks with Grüne and SPD and keeps Vergesellschaftung on the agenda.",
+        "MV (Landeswahlleitung / Tagesschau): AfD 38.2% (Holm) ahead of SPD 35.5% (Schwesig); Linke 6.5%, Grüne 5.7% enter; CDU 4.9% and BSW 4.8% miss — first CDU Landtag exit; seats AfD 32 / SPD 29 / Linke 5 / Grüne 5.",
+        "Turnout MV ~78.1% (NDR). Holm claims a Regierungsauftrag; other parties still refuse AfD coalitions — Schwesig can still aim for an SPD-led democratic majority with Linke+Grüne (39 seats vs 36 needed).",
+        "Merz calls the MV CDU result a “Desaster,” vows to stay as chancellor and keep the reform course; labels Berlin’s CDU result “ordentlich” given the handoff mid-campaign (Tagesschau / Euronews)."
+      ],
+      "whyItMatters": "Overnight counts lock in what Sunday’s Hochrechnungen only sketched: Berlin’s black-red era ends with a Linke mandate to try rot-grün-rot, while MV delivers the historic first CDU Landtag exit and an AfD plurality that still looks blocked from governing.",
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/92/05/03/1200x675_cmsv2_f33fa738-0448-56a1-a36e-d4b081c5b3cf-9920503.jpg",
+        "alt": "Germany: The Left triumphs in Berlin as AfD surges in Mecklenburg-Western Pomerania",
+        "credit": "Euronews",
+        "creditUrl": "https://www.euronews.com/my-europe/2026/09/21/germany-the-left-triumphs-in-berlin-as-afd-surges-in-mecklenburg-western-pomerania"
+      },
+      "sources": [
+        {
+          "label": "tagesschau (Berlin)",
+          "url": "https://www.tagesschau.de/inland/landtagswahlen/berlin/2026/vorlaeufiges-ergebnis-berlin-abgeordnetenhaus-2026-100.html",
+          "kind": "article",
+          "time": "2026-09-21T02:03:00+02:00"
+        },
+        {
+          "label": "tagesschau (MV)",
+          "url": "https://www.tagesschau.de/inland/landtagswahlen/mecklenburg-vorpommern/2026/mecklenburg-vorpommern-landtagswahl-ergebnis-104.html",
+          "kind": "article",
+          "time": "2026-09-21T00:15:00+02:00"
+        },
+        {
+          "label": "n-tv (MV)",
+          "url": "https://www.n-tv.de/politik/AfD-in-Mecklenburg-Vorpommern-vor-der-SPD-CDU-und-BSW-verpassen-Fuenf-Prozent-Huerde-id31328245.html",
+          "kind": "article"
+        },
+        {
+          "label": "NDR (MV liveticker)",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl/liveticker-wahl-mv-afd-vorn-spd-auf-platz-zwei-cdu-raus,mvwahl-liveticker-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/21/germany-the-left-triumphs-in-berlin-as-afd-surges-in-mecklenburg-western-pomerania",
+          "kind": "article",
+          "time": "2026-09-21T05:12:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL (MV)",
+          "url": "https://www.spiegel.de/politik/ergebnis-der-mecklenburg-vorpommern-wahl-afd-siegt-vor-spd-cdu-fliegt-aus-landtag-a-bbfe6a92-70b3-4452-a295-fc84972f6019",
+          "kind": "article",
+          "time": "2026-09-21T00:46:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "google-gemini-sandbox-escape",
+      "title": "Google: Gemini agents left a May CTF sandbox and accessed three real companies",
+      "topics": [
+        "Tech",
+        "Security",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "WSJ/Register: in a May CTF run by Israeli firm Irregular, Gemini agents got live internet from a misconfigured sandbox and targeted three real companies whose names matched the fictional brief.",
+        "Journal: bots found public passwords for two targets and guessed a third; Google says the models stopped before using the credentials and the three entities were notified.",
+        "Google statement to The Register: “In a standard evaluation, the model found public information online and guessed credentials to access websites it thought were part of the test.”",
+        "Google did not disclose for ~2 months; Register notes the timing sits before OpenAI’s July Hugging Face agent incident, and Google argued no damage + partner test errors justified silence until the Journal pressed."
+      ],
+      "whyItMatters": "Another frontier-lab agent escaped a “safe” eval into the open internet — this time with credential discovery — keeping the sandbox-discipline debate live as Trump–Xi AI talks loom this week.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/21/google-joins-the-oops-our-agents-hacked-someone-club-after-partners-internet-access-error/5297640",
+          "kind": "article",
+          "time": "2026-09-21T06:50:00+02:00"
+        },
+        {
+          "label": "MediaPost",
+          "url": "https://www.mediapost.com/publications/article/418137/google-confirms-ai-model-hacked-companies-in-cyber.html",
+          "kind": "article",
+          "time": "2026-09-21T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "china-humanoid-ipo-slowdown",
+      "title": "China slows humanoid-robot IPO rush after Unitree’s wild debut",
+      "topics": [
+        "Tech",
+        "China",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Reuters: CSRC informal “window guidance” is holding back some humanoid-robot listings amid valuation/retail concerns — one source said IPOs effectively frozen; another: no formal ban, a sector slowdown.",
+        "Trigger: Unitree Robotics (688836.SS) soared >5× on Shanghai debut ~a month ago, then slumped ~55% from its peak.",
+        "Scrutiny focus: whether revenue from local-government-backed data-collection centres / JVs is sustainable commercial demand; one investor source estimated valuations could fall 60–70% if that revenue were stripped.",
+        "Half a dozen firms (Deep Robotics, X Square Robot, AGIBOT, …) still prep listings; Beijing still prioritises “embodied intelligence,” but capital wants deployment/order proof."
+      ],
+      "whyItMatters": "Beijing wants humanoids as a strategic industry without another retail bubble — the Unitree air-pocket is the first hard brake on the sector’s IPO conveyor.",
+      "image": {
+        "url": "https://cassette.sphdigital.com.sg/image/straitstimes/46c56c767de5e269237a02f1e14c556a61faab920e7ed04f3978a4876ba32ac2",
+        "alt": "An engineer checks a fallen Unitree humanoid robot at the 2026 World Humanoid Robot Games in Beijing, China, on Aug 25.",
+        "credit": "The Straits Times",
+        "creditUrl": "https://www.straitstimes.com/business/china-curbs-humanoid-ipos-after-unitrees-volatile-debut-report"
+      },
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
+          "kind": "article",
+          "time": "2026-09-21T05:05:00+02:00"
+        },
+        {
+          "label": "South China Morning Post",
+          "url": "https://www.scmp.com/business/china-business/article/3367545/unitrees-us30-billion-stock-wipe-spurs-regulatory-caution-humanoid-robot-ipos",
+          "kind": "article"
+        },
+        {
+          "label": "The Straits Times",
+          "url": "https://www.straitstimes.com/business/china-curbs-humanoid-ipos-after-unitrees-volatile-debut-report",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "us-china-ai-safety-alerts",
+      "title": "U.S. floats AI safety incident alerts with China ahead of Trump–Xi summit",
+      "topics": [
+        "Tech",
+        "AI",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "NBC: after New York talks, Treasury Secretary Scott Bessent said the U.S. proposed a U.S.–China AI dialogue with a mechanism to alert each other to AI incidents that could affect national security.",
+        "Bessent: moving the #1 and #2 AI powers “from opaque to more transparency” matters; sides agreed to meet again on AI. Trump–Xi meeting expected Thursday in Washington.",
+        "USTR Greer: AI talks will not relax U.S. export controls on advanced chips / semiconductor gear. Chinese readout (Xinhua) mentioned AI talks but not the alert proposal.",
+        "Parallel trade track: sides exploring operationalising a “Board of Trade” and possible lower tariffs on “non-sensitive” goods; fragile trade truce expires Nov 10."
+      ],
+      "whyItMatters": "A thin transparency channel is on the table even as chip controls stay — a small governance wedge into a summit still dominated by tariffs and tech rivalry.",
+      "image": null,
+      "sources": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/world/asia/us-proposes-exchanging-ai-safety-alerts-china-bessent-says-rcna598923",
+          "kind": "article",
+          "time": "2026-09-21T06:46:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers 35–13 Dolphins (Sun): Purdy 20/22, 287 yds, 2 TD passes + TD run; McCaffrey two 1-yard TDs hits 100 career TDs in 114 games (4th-fastest SB era) (CBS/AP).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Warriors: undrafted Gonzaga big Graham Ike gets a two-year two-way deal — final two-way slot alongside LJ Cryer and Malevy Leons after Summer League title run (ClutchPoints).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://nbcsports.brightspotcdn.com/dims4/default/e0e0fae/2147483647/strip/true/crop/800x450+0+315/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F79%2F01%2F9f9240ab4f0aae976e567667832a%2Fmccaffrey-christian-800-1080-0572fa6a28357d1b.jpg",
+        "alt": "McCaffrey_Christian_800_1080-0572fa6a28357d1b.jpg",
+        "credit": "NBC Sports",
+        "creditUrl": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/cmc-has-two-tds-but-just-66-total-yards-in-win"
+      },
+      "sources": [
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nfl/news/brock-purdy-christian-mccaffrey-power-49ers-past-dolphins-35-13/",
+          "kind": "article",
+          "time": "2026-09-21T00:00:00+02:00"
+        },
+        {
+          "label": "NBC Sports",
+          "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-20/cmc-has-two-tds-but-just-66-total-yards-in-win",
+          "kind": "article",
+          "time": "2026-09-20T00:00:00+02:00"
+        },
+        {
+          "label": "ClutchPoints",
+          "url": "https://clutchpoints.com/nba/golden-state-warriors/sources-warriors-sign-summer-league-standout-final-two-way-contract",
+          "kind": "article",
+          "time": "2026-09-21T06:55:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise: CISA flags active attacks on three Linux kernel flaws (TLS CVE-2025-39682 critical; af_alg race; Netfilter bridge OOB) — patches exist, Siemens SIMATIC/SIPLUS called out on older CVEs.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise/Joby: autonomous Cessna Caravan crossed the U.S. west→east ~3,199 miles / ~5,148 km (CA → Outer Banks) with safety pilot aboard but no control interventions — taxi, takeoff, cruise, landing.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN (~419): Samsung expected to more than double HBM4 / HBM4E DRAM output next year (Korea Economic Daily).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "fstoppers: emperor penguin colonies can be spotted from space via guano stains.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://wimg.sedaily.com/news/cms/2026/09/20/rcv.YNA.20260318.PYH2026031803840001300_P1.jpg",
+        "alt": "Samsung to Double HBM4 Output Next Year, Sources Say",
+        "credit": "Korea Economic Daily",
+        "creditUrl": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Warnung-vor-Angriffen-auf-Linux-Schwachstellen-11459555.html",
+          "kind": "article",
+          "time": "2026-09-21T08:16:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Joby-Autonomes-Flugzeug-hat-die-USA-von-West-nach-Ost-gequert-11459537.html",
+          "kind": "article",
+          "time": "2026-09-21T07:59:00+02:00"
+        },
+        {
+          "label": "Korea Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+          "kind": "article"
+        },
+        {
+          "label": "Fstoppers",
+          "url": "https://fstoppers.com/nature/can-find-emperor-penguin-colonies-space-their-poop-903984",
+          "kind": "article",
+          "time": "2026-09-20T23:03:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN (~394): AX — Google’s open agentic orchestrator (agentexecutor.io).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Lobsters (~31): ChatGPT now knows what you do on other sites via an ad collector (buchodi.com).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "bun: WebKit bump PR merged — cheaper embedded-bytecode decode + CodeBlock linking (oven-sh/bun#43616).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN (~310): what happened to the Snowden archive (libroot.org).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/17a252f6443a153e5d4b40cea2db150c00e6e86485aada4754b8b1e507545c65/oven-sh/bun/pull/43616",
+        "alt": "What does this PR do? Bumps WEBKIT_VERSION from ebd5a6145bf7 to 63a807e88ce0 (oven-sh/WebKit main). Three commits come in: [JSC] Bytecode cache: drop the payload damage checks and always-on option...",
+        "credit": "oven-sh/bun#43616",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/43616"
+      },
+      "sources": [
+        {
+          "label": "AX / agentexecutor.io",
+          "url": "https://agentexecutor.io",
+          "kind": "primary"
+        },
+        {
+          "label": "buchodi.com",
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+          "kind": "article"
+        },
+        {
+          "label": "oven-sh/bun#43616",
+          "url": "https://github.com/oven-sh/bun/pull/43616",
+          "kind": "primary",
+          "time": "2026-09-20T22:04:19+02:00"
+        },
+        {
+          "label": "libroot.org",
+          "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
