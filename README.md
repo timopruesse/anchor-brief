@@ -59,7 +59,7 @@ If the poll is blocked or fails, the snapshot quote stays on screen (soft fail).
 
 ## Story votes
 
-Story cards (and brief-roundup bullets) show quiet thumbs up/down. Votes are optimistic and stored in `localStorage` (one vote per item; click again to clear, or the opposite thumb to switch). When `PUBLIC_VOTE_URL` is set at **build** time, the client also `POST`s JSON `{ briefId, itemId, vote, ts }` (`vote` ∈ `{1, -1}`) to that public HTTPS endpoint. Soft-fail if unset or the request fails — no client secrets.
+Story cards (and brief-roundup bullets) show quiet thumbs up/down. Votes are optimistic and stored in `localStorage` (one vote per item; click again to clear, or the opposite thumb to switch). When `PUBLIC_VOTE_URL` is set at **build** time, the client also `POST`s JSON `{ briefId, itemId, vote, ts }` (`vote` ∈ `{1, -1}`) as `text/plain` (skips CORS preflight to Apps Script). Soft-fail if unset or the request fails — no client secrets.
 
 **Sink (this repo):** do **not** use a Cloudflare Worker. Deploy the Google Apps Script template in [`tools/vote-apps-script.gs`](./tools/vote-apps-script.gs) as a web app and set:
 

@@ -28,14 +28,19 @@ function persist(map: Record<string, VoteValue>) {
 	}
 }
 
-/** Fire-and-forget POST; never throws into the UI. */
+/**
+ * Fire-and-forget POST; never throws into the UI.
+ * Body is still JSON, but Content-Type is text/plain so the browser treats
+ * this as a simple request (no CORS preflight). Apps Script doPost still
+ * JSON.parse(e.postData.contents) — see tools/vote-apps-script.gs.
+ */
 function postVote(payload: VotePayload) {
 	const url = voteEndpoint();
 	if (!url) return;
 	try {
 		void fetch(url, {
 			method: 'POST',
-			headers: { 'content-type': 'application/json' },
+			headers: { 'Content-Type': 'text/plain;charset=utf-8' },
 			body: JSON.stringify(payload),
 			keepalive: true
 		}).catch(() => {
