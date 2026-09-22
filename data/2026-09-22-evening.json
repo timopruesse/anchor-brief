@@ -1,0 +1,348 @@
+{
+  "id": "2026-09-22-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-22T19:40:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:00 Berlin / ~7h)",
+  "headline": "Anthropic ships Claude Opus 5.5; Merz gets Fraktion backing after Landtag losses; Wunstorf drone may have carried explosives; Spangdahlem F-16 crashes with pilot ejecting.",
+  "stories": [
+    {
+      "id": "claude-opus-5-5",
+      "title": "Anthropic launches Claude Opus 5.5 — cheaper, faster, safer Opus",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Anthropic (Sep 22): Claude Opus 5.5 is the first Claude 5.5 release — performance framed near Claude Fable 5.1 while ~40% cheaper to run than Opus 5 on typical workloads.",
+        "Pricing: $4 / $20 per million input/output tokens (20% below Opus 5); cache reads $0.20/M (60% cut). Output claimed >30% faster; Pro/Max/Team five-hour limits raised, plus a bankable rate-limit reset.",
+        "Benchmarks (Anthropic table): Terminal-Bench 4.0 66.4%, FrontierCode v1.1 54.4%, CursorBench 4.0 57.8%, GDPval-AA 1846 Elo — ahead of Opus 5 and often GPT-6 Astra on coding/knowledge work.",
+        "Safeguards: biology/cyber/distillation filters similar to Fable 5.1 (sensitive work falls back transparently); external evals by METR and Frontier Design. Sonnet/Haiku 5.5 said to follow in coming weeks.",
+        "heise amplifies the DE read: efficiency + safety over pure benchmark theater; model id `claude-opus-5-5` live on Anthropic, AWS, Google Cloud, Azure."
+      ],
+      "whyItMatters": "First big frontier drop of the Claude 5.5 family — cost and safeguard pacing matter as much as the scores.",
+      "image": {
+        "url": "https://cdn.sanity.io/images/4zrzovbb/website/f4d37a1d1f582f53f4e89440062b649b6273a093-1200x630.jpg",
+        "alt": "Anthropic announcing Claude Opus 5.5",
+        "credit": "Anthropic",
+        "creditUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "kind": "primary",
+          "time": "2026-09-22T16:30:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Anthropic-veroeffentlicht-Claude-Opus-5-5-Fokus-auf-Effizienz-und-Sicherheit-11462270.html",
+          "kind": "article",
+          "time": "2026-09-22T18:30:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49803892",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "merz-cdu-fraktion",
+      "title": "Frei backs Merz in Fraktion after three Landtag setbacks",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Handelsblatt/dpa: Fraktionschef Thorsten Frei — “Der Bundeskanzler hat unsere Unterstützung” — after CDU losses in Sachsen-Anhalt, MV (out of Landtag) and Berlin (Linke took #1).",
+        "Merz accepted shared responsibility but stuck to reforms; speech called “geschäftsmäßig.” Ex-Fraktionschef Brinkhaus drew loud applause for criticizing Merz’s communication.",
+        "Frei wants the July SPD reform package done “in einem Rutsch”; pensions still sticky. Eight CDU Ministerpräsidenten already backed Merz Monday."
+      ],
+      "whyItMatters": "The Fraktion is closing ranks publicly even as internal communication blows keep landing.",
+      "image": {
+        "url": "https://images.handelsblatt.com/7LucerVPKJHE/cover/2048/1152/0/0/107/106/0.5/0.5/bundestagsfraktionen-cdu.jpg",
+        "alt": "CDU/CSU Bundestagsfraktion meeting",
+        "credit": "Handelsblatt / dpa",
+        "creditUrl": "https://www.handelsblatt.com/politik/deutschland/cdu-krise-frei-sichert-merz-rueckhalt-der-unionsfraktion-zu/100256382.html"
+      },
+      "sources": [
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/cdu-krise-frei-sichert-merz-rueckhalt-der-unionsfraktion-zu/100256382.html",
+          "kind": "article",
+          "time": "2026-09-22T19:21:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "wunstorf-drohne-sprengstoff",
+      "title": "Wunstorf drone: investigators flag possible explosives near Bundeswehr base",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "tagesschau (NDR/WDR/SZ, 17:00): a crashed drone found ~1 km from Fliegerhorst Wunstorf (~1 week ago) may have been explosives-laden — suspicious material a few meters from the wreck is still in forensics.",
+        "Generalbundesanwalt + BKA are on the case; construction resembles the Aug Leipzig/Halle attempt (custom build, at least one 3D-printed part). Wunstorf hosts the Luftwaffe’s A400M transport fleet.",
+        "Analysts think the wreck may have lain there a long time — possibly up to two years. The find was on today’s Nachrichtendienstliche Lage in the Kanzleramt. Berlin already blames Russia for Leipzig; Moscow denies."
+      ],
+      "whyItMatters": "If confirmed, it suggests another attempted strike on a critical German air-mobility hub — and a possible earlier miss.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/1078dc66-1508-4657-b7b2-d0f43a583176/AAABm8G1FbM/AAABnSSvrFg/16x9-big/flugzeuge-fliegerhorst-wunstorff-100.jpg?width=1280",
+        "alt": "Transport aircraft at Fliegerhorst Wunstorf",
+        "credit": "tagesschau / NDR-WDR",
+        "creditUrl": "https://www.tagesschau.de/investigativ/ndr-wdr/wunstorf-drohne-sprengstoff-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/investigativ/ndr-wdr/wunstorf-drohne-sprengstoff-100.html",
+          "kind": "article",
+          "time": "2026-09-22T17:00:00+02:00"
+        },
+        {
+          "label": "Süddeutsche Zeitung",
+          "url": "https://www.sueddeutsche.de/politik/drohnenfund-niedersachsen-bundeswehr-bundesanwaltschaft-leipzig-li.3549941",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "spangdahlem-f16",
+      "title": "F-16 crashes at Spangdahlem; pilot ejects, jet destroyed",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "SWR / USAFE: a 52nd Fighter Wing F-16 Fighting Falcon crashed ~14:30 on/near Airbase Spangdahlem (Eifel); the pilot ejected and is receiving medical care; cause under investigation.",
+        "DFS: crash after a four-ship training sortie — lead jet down returning to Spangdahlem; three diverted to Ramstein. Wreckage burned out; Bitburg-Prüm Katastrophenschutz assisted.",
+        "Witnesses in Speicher/Binsfeld/Beilingen reported a steep descent and a large smoke column. Spangdahlem also lost F-16s in training mishaps in 2019 (Zemmer) and 2006 (Oberkail)."
+      ],
+      "whyItMatters": "A rare on-base fighter loss in the Eifel on a busy UNGA Tuesday — investigation still open.",
+      "image": {
+        "url": "https://www.swr.de/swraktuell/rheinland-pfalz/trier/1790085812246%2Crauchsaeule-flugzeugabsturz-f-16-spangdahlem-100~_v-16x9@2dL_-6c42aff4e68b43c7868c3240d3ebfa29867457da.jpg",
+        "alt": "Smoke column after F-16 crash near Spangdahlem",
+        "credit": "SWR",
+        "creditUrl": "https://www.swr.de/swraktuell/rheinland-pfalz/trier/f16-kampflugzeug-absturz-spangdahlem-us-airbase-100.html"
+      },
+      "sources": [
+        {
+          "label": "SWR Aktuell",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/trier/f16-kampflugzeug-absturz-spangdahlem-us-airbase-100.html",
+          "kind": "article",
+          "time": "2026-09-22T18:37:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "apple-ios-settings-ads",
+      "title": "Apple’s persistent Settings “ads” for iCloud+/Music/AppleCare+ spark backlash",
+      "topics": [
+        "Tech",
+        "Apple"
+      ],
+      "weight": "normal",
+      "facts": [
+        "TechRadar: iOS Settings shows sticky promos for iCloud+, Apple Music/TV trials, and AppleCare+ — often without a working dismiss, lasting weeks/months and leaving a badge on Settings.",
+        "HN (~356 pts): users compare it to Start-menu ads / enshittification; some iCloud+ subscribers still see the storage pitch, hinting at a bug or deliberate push.",
+        "Context: Apple’s services push after iPhone Duo / iPhone 18 Pro launches; further Visual Intelligence promos rumored. No official Apple response in the piece."
+      ],
+      "whyItMatters": "Premium OS framing collides with hard-to-dismiss first-party upsells.",
+      "image": {
+        "url": "https://cdn.mos.cms.futurecdn.net/sMMYYw2WasgE4m4saLhZ9M-2560-80.jpg",
+        "alt": "Person using an iPhone",
+        "credit": "TechRadar / Shutterstock",
+        "creditUrl": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy"
+      },
+      "sources": [
+        {
+          "label": "TechRadar",
+          "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
+          "kind": "article",
+          "time": "2026-09-22T16:30:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49801939",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise/Politico: MEPs revive an AI-liability push — extend product-liability rules to frontier/general-purpose models after the 2025 AI Liability Directive withdrawal.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "HN (~339) / Crypto Cellar: OpenAI GPT-6 Astra breaks the WWII Enigma “M VUEH” message that resisted solution since 2005.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "PetaPixel: photo agencies and newspapers withhold Trump photos in solidarity with U.S. TV networks amid the White House press feud.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "OpenAI Status: elevated ChatGPT Work errors across Plus/Pro/Business/Enterprise/Education — marked fully recovered.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "heise: Samsung joins construction of a nuclear plant supplying Google (follow-on to this morning’s Georgia uprates lane).",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Schaeden-durch-KI-EU-diskutiert-neue-Haftungsregeln-11461732.html",
+          "kind": "article",
+          "time": "2026-09-22T19:05:00+02:00"
+        },
+        {
+          "label": "Crypto Cellar",
+          "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49801324",
+          "kind": "article"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/22/photo-agencies-and-newspapers-withhold-trump-photos-in-solidarity-with-us-television-networks/",
+          "kind": "article"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M34TAFM9WBGEBE3G1GBH4SE8",
+          "kind": "primary"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Samsung-beteiligt-sich-am-Bau-eines-Atomkraftwerks-fuer-Google-11462327.html",
+          "kind": "article",
+          "time": "2026-09-22T18:08:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: “Muse Just Beat ChatGPT’s Launch 3-to-1” — operating-manual style post on Meta’s Muse agent (prompts, money, recovery, connectors).",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/meta-muse-operating-manual-prompts-money-recovery-connector-play-2026",
+          "kind": "article",
+          "time": "2026-09-22T13:35:11+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Lobsters: Fearless SIMD v1.0 — Linebender’s safe Rust SIMD crate ships 1.0.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Jeff Geerling: Raspberry Pi locks down Pi 5 RAM upgrades in firmware.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "r/rust tip: Guillaume Gomez on syncing rustc_codegen_gcc with upstream rust — Murphy’s-law edition.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Merged: sveltejs/svelte#18855 hydration reinsert fix; sveltejs/kit#17181 failed production link preloads; microsoft/playwright#42847 don’t cache response bodies on server.",
+          "sourceIndexes": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Linebender",
+          "url": "https://linebender.org/blog/fearless-simd-1-0/",
+          "kind": "primary"
+        },
+        {
+          "label": "Jeff Geerling",
+          "url": "https://www.jeffgeerling.com/blog/2026/raspberry-pi-ram-lockdown/",
+          "kind": "article"
+        },
+        {
+          "label": "Guillaume Gomez",
+          "url": "https://blog.guillaume-gomez.fr/articles/2026-09-22+Syncing+Rust+GCC+backend+or+how+to+test+Murphy%27s+law",
+          "kind": "article"
+        },
+        {
+          "label": "sveltejs/svelte#18855",
+          "url": "https://github.com/sveltejs/svelte/pull/18855",
+          "kind": "primary"
+        },
+        {
+          "label": "sveltejs/kit#17181",
+          "url": "https://github.com/sveltejs/kit/pull/17181",
+          "kind": "primary"
+        },
+        {
+          "label": "microsoft/playwright#42847",
+          "url": "https://github.com/microsoft/playwright/pull/42847",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
