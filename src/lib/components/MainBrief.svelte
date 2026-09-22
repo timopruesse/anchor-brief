@@ -61,8 +61,8 @@
 			</p>
 			<p>
 				Throwaway briefing page. No accounts, no tracking. Optional story votes stay in your browser
-				(and POST only when <code>PUBLIC_VOTE_URL</code> is configured). Source links open in a new
-				tab.
+				(and GET-relay only when <code>PUBLIC_VOTE_URL</code> is configured). Source links open in a
+				new tab.
 			</p>
 		</div>
 	</footer>
