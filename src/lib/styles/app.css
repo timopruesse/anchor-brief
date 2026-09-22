@@ -929,8 +929,33 @@ a {
 	display: block;
 }
 
+.facts__item:has(.facts__vote) {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.35rem 0.5rem;
+}
+
+.facts__item:has(.facts__vote) .facts__text {
+	flex: 1;
+	min-width: 0;
+}
+
+.facts__vote {
+	flex: none;
+	margin-top: -0.15rem;
+	margin-inline-end: -0.35rem;
+}
+
 .facts__text {
 	display: inline;
+}
+
+.story__vote {
+	margin-top: 0.85rem;
+	padding-top: 0.55rem;
+	border-top: 1px solid var(--line-soft);
+	display: flex;
+	justify-content: flex-end;
 }
 
 .facts__sources {

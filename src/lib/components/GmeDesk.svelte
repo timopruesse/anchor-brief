@@ -421,6 +421,7 @@
 			{#each stories as story (story.id)}
 				<StoryCard
 					{story}
+					briefId={briefing.id}
 					desk="gme"
 					generatedAt={briefing.generatedAt}
 					timezone={briefing.timezone}

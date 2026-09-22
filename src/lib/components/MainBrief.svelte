@@ -42,6 +42,7 @@
 
 	<BriefStories
 		stories={briefing.stories}
+		briefId={briefing.id}
 		generatedAt={briefing.generatedAt}
 		timezone={briefing.timezone}
 	/>
@@ -59,8 +60,9 @@
 				<span>{sourceCount} {sourceCount === 1 ? 'source' : 'sources'}</span>
 			</p>
 			<p>
-				Throwaway briefing page. Self-contained, no network calls, no tracking. Source links open in
-				a new tab.
+				Throwaway briefing page. No accounts, no tracking. Optional story votes stay in your browser
+				(and POST only when <code>PUBLIC_VOTE_URL</code> is configured). Source links open in a new
+				tab.
 			</p>
 		</div>
 	</footer>
