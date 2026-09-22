@@ -1,0 +1,382 @@
+{
+  "id": "2026-09-22-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-22T08:35:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h)",
+  "headline": "Typhoon Dujuan kills four in Japan; White House launches 24/7 “Trump TV”; Google backs Georgia nuclear uprates.",
+  "stories": [
+    {
+      "id": "typhoon-dujuan-japan",
+      "title": "Typhoon Dujuan: four dead as storm lashes Tokyo region",
+      "topics": [
+        "World",
+        "Japan",
+        "Climate"
+      ],
+      "facts": [
+        "BBC: four dead after Typhoon Dujuan battered Tokyo and surrounding prefectures with torrential rain and destructive winds; six others reported missing (NHK).",
+        "At the peak Monday, authorities warned of an “imminent threat to life” and urged about 1.9 million people toward shelters; most evacuation orders lifted Tuesday as the storm moved offshore.",
+        "Power cut for ~50,000 people; hundreds of flights suspended; Tokyo Game Show cancelled Monday’s programme; Rock in Japan concerts cancelled.",
+        "Fatalities tied to landslides in Kanagawa and Chiba; Japan Times also reports at least four dead and six missing in Kanto; CNA notes ~45,000 houses without power.",
+        "Sustained winds ~130 km/h with gusts to ~194 km/h; Japan’s 25th typhoon of the year during a holiday stretch."
+      ],
+      "whyItMatters": "The clearest overnight human-impact story — landslides and mass shelter orders around Tokyo, with transport and major events knocked offline as leaders head into UNGA week.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/0f73/live/802ac5d0-b5de-11f1-88a2-d7d3c19446bf.jpg",
+        "alt": "Two men with umbrellas are ankle-deep in water as they cross a road in Funabashi, Chiba Prefecture, Japan",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cm3wj2lexl97o"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cm3wj2lexl97o",
+          "kind": "article"
+        },
+        {
+          "label": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/22/japan/japan-typhoon-dujuan-damages-update/",
+          "kind": "article"
+        },
+        {
+          "label": "CNA",
+          "url": "https://www.channelnewsasia.com/east-asia/typhoon-dujuan-japan-flights-evacuations-tokyo-6400821",
+          "kind": "article"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "trump-tv-white-house",
+      "title": "White House launches 24/7 “Trump TV” YouTube stream",
+      "topics": [
+        "US",
+        "Media",
+        "Politics"
+      ],
+      "facts": [
+        "heise (dpa): amid the fight with CNN, MS NOW and Politico over White House access, the administration launched a round-the-clock “Trump TV” stream of “essential” government moments.",
+        "Early feed mixed Trump speeches with U.S. military exercise footage and commentary; little original production at first; available on YouTube.",
+        "TV pool partners (Fox, ABC, CBS, NBC, CNN) had suspended the shared pool — leaving a White House press event with Trump hard to hear on the official livestream Monday.",
+        "n-tv frames the launch as the administration’s answer in the media dispute."
+      ],
+      "whyItMatters": "A direct distribution channel past the traditional TV pool — timed to an access fight that already broke Monday’s shared camera coverage.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Reden-und-Militaeruebungen-Weisses-Haus-streamt-jetzt-Trump-TV-rund-um-die-Uhr-11460891.html",
+          "kind": "article",
+          "time": "2026-09-22T07:54:00+02:00"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/politik/Weisses-Haus-antwortet-im-Medienstreit-mit-Trump-TV-id31332760.html",
+          "kind": "article"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "google-georgia-nuclear-uprates",
+      "title": "Google backs Georgia Power nuclear uprates (~96 MW)",
+      "topics": [
+        "Energy",
+        "Tech",
+        "AI"
+      ],
+      "facts": [
+        "POWER Magazine (Sep 21): Google and Georgia Power agree Google will support extended power uprates at Plant Vogtle and Plant Hatch — about 96 MW of added nuclear capacity if approved.",
+        "Georgia PSC approval still needed; utility filed for a new NU-1 nuclear-uprate tariff; Google would subscribe and receive zero-emission credits tied to the uprate output.",
+        "Georgia Power projects roughly $900 million in customer benefits over the life of the units; Hatch EPU request filed Monday; Vogtle 1–2 EPU already approved in the 2025 IRP.",
+        "CNA/business wires carry the Southern Co. unit framing the same deal."
+      ],
+      "whyItMatters": "Another hyperscaler bet on squeezing more MWs from existing U.S. reactors — billed as grid capacity for data-center growth with shared customer benefits.",
+      "image": null,
+      "sources": [
+        {
+          "label": "POWER Magazine",
+          "url": "https://www.powermag.com/google-georgia-power-have-deal-to-support-nuclear-power-plant-uprates/",
+          "kind": "article",
+          "time": "2026-09-21T00:00:00+02:00"
+        },
+        {
+          "label": "CNA",
+          "url": "https://www.channelnewsasia.com/business/southern-co-unit-signs-deal-google-add-nuclear-capacity-6400716",
+          "kind": "article"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "eu-cyber-auditors",
+      "title": "EU auditors: bloc still poorly prepared for major cyber incidents",
+      "topics": [
+        "Europe",
+        "Security"
+      ],
+      "facts": [
+        "heise: European Court of Auditors special report says EU action only partially helps detect and respond to significant/large-scale cyber incidents — information-sharing gaps are the biggest weakness.",
+        "ECA Facts & Findings (SR 19/2026): calls to enhance information-sharing and cut task overlap, make the European Cybersecurity Alert System operational, and tighten security assessment/monitoring for EU-funded entities.",
+        "Auditors cite the Sep 2025 airport IT outage: Germany, Belgium and Ireland did not notify ENISA/peers as expected, leaving joint response tools unused; national-security carve-outs still block sharing."
+      ],
+      "whyItMatters": "An official EU audit, not a vendor white paper — documenting that cross-border incident response still fails under national-security exceptions.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Rechnungshof-EU-nicht-genug-gegen-Cyberangriffe-gewappnet-11460919.html",
+          "kind": "article",
+          "time": "2026-09-22T07:42:00+02:00"
+        },
+        {
+          "label": "European Court of Auditors",
+          "url": "https://www.eca.europa.eu/ECAFactsAndFindings/SR-2026-19/FactsAndFindings-SR-2026-19_EN.pdf",
+          "kind": "primary"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "paramount-warner-settlements",
+      "title": "Paramount clears state/WGA hurdles; Warner close pressed toward end-Sep",
+      "topics": [
+        "Business",
+        "Media"
+      ],
+      "facts": [
+        "heise: Paramount Skydance settles with 12 U.S. states and the Writers Guild, clearing antitrust suits that stood in the way of buying Warner Bros. Discovery.",
+        "Deal terms cited: ~$31/share for Warner (~$81B equity; ~$111B including debt/obligations); close targeted for end of September.",
+        "From Oct 1, Paramount faced ~$7M/day contractual penalties to Warner if the deal slipped — a hard deadline after Monday’s settlements.",
+        "State deal includes five-year film/streaming commitments (Pluto TV, U.S. production floors, indie spend, news editorial independence board for CNN/CBS); WGA suit to be dropped with reported health-fund/job assurances."
+      ],
+      "whyItMatters": "The last big courtroom blockers are bargained away just as daily reverse-termination pressure kicks in — the megadeal’s closing window is now measured in days.",
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Warner-Uebernahme-ist-durch-Paramount-erzielt-Vergleiche-11460809.html",
+          "kind": "article",
+          "time": "2026-09-21T22:48:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/taegliche-strafzahlungen-drohen-paramount-muss-warner-uebernahme-schnell-abschliessen-2609-213292.html",
+          "kind": "article",
+          "time": "2026-09-22T07:15:02+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Live Science / HN (~361): NASA’s Mars Sample Return mission is dead — no approved retrieval for Perseverance’s cached samples.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "heise: Vodafone + Ericsson tested on-net KI live translation (DE/EN/ES/IT/FR) and noise filtering — no special app/phone; opt-in only; timing for customers still unclear.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "PetaPixel: Bird Photographer of the Year 2026 winners published.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "NASA: Albania joins the Artemis Accords; ESA: Juice’s third Earth gravity-assist flyby noted.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.nasa.gov/wp-content/uploads/2026/09/55541281672-5c736ba51b-k.jpg",
+        "alt": "U.S. Deputy Assistant Secretary of State for Space and Environment Connor Tomlinson, left, NASA Deputy Administrator Matt Anderson, Albania’s Minister for Europe and Foreign Affairs Ferit Hoxha, and Ambassador of the Republic of Albania to the United States Ervin Bushati, right, are seen at the conclusion of an Artemis Accords signing ceremony Monday, September 21, 2026, at the Mary W. Jackson NASA Headquarters building in Washington. The Republic of Albania is the 73rd country to sign the Artemis Accords, which establish a practical set of principles to guide space exploration cooperation among nations participating in NASA’s Artemis program.",
+        "credit": "NASA",
+        "creditUrl": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/"
+      },
+      "sources": [
+        {
+          "label": "Live Science",
+          "url": "https://www.livescience.com/space/mars/nasas-mars-sample-return-is-dead-leaving-china-to-retrieve-signs-of-life-from-the-red-planet",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49791939",
+          "kind": "article",
+          "time": "2026-09-21T21:14:12+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Vodafone-und-Ericsson-testen-KI-Live-Uebersetzung-direkt-im-Mobilfunknetz-11460502.html",
+          "kind": "article",
+          "time": "2026-09-22T08:00:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/21/the-phenomenal-winners-of-bird-photographer-of-the-year-2026/",
+          "kind": "article",
+          "time": "2026-09-22T01:01:16+02:00"
+        },
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-albania-as-newest-artemis-accords-signatory/",
+          "kind": "primary",
+          "time": "2026-09-21T23:21:32+02:00"
+        },
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
+          "kind": "primary",
+          "time": "2026-09-21T16:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Books Worth Reading: “Ben Lerner is the most millennial novelist.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "shit you should care about: “Who Gives A Shit? You do!”",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "The AI Corner: “Everyone Is Hiring for Judgment. Nobody Is Making It Anymore.”",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Books Worth Reading",
+          "url": "https://booksworthreading.substack.com/p/ben-lerner-is-the-most-millennial",
+          "kind": "article",
+          "time": "2026-09-21T19:25:59+02:00"
+        },
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/who-gives-a-shit-you-do",
+          "kind": "article",
+          "time": "2026-09-21T19:00:35+02:00"
+        },
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/hiring-for-judgment-ai-seniorization",
+          "kind": "article",
+          "time": "2026-09-21T16:33:23+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN (~759): Xiaomi MiMo v2.6 — primary at mimo.xiaomi.com/mimo-v2-6.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "bun: event-loop ManagedTask removal + idle-GC backoff while JS thread parked (oven-sh/bun#43675, #43681).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "TypeScript: “Make all the codegen we do incremental” merged (microsoft/TypeScript#64331).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "HN (~520): “I don’t want to read what you didn’t write” (Colin Breck) — intentional writing vs generated filler.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/4064ed2d1014a08a182d7723d0141139068337fad0d09a09a41a8650b8115cb5/oven-sh/bun/pull/43675",
+        "alt": "What does this PR do? Removes ManagedTask, the event loop's generic callback task, and gives each of its 19 users its own task type. A task now costs one allocation, one free and one indirect c...",
+        "credit": "oven-sh/bun#43675",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/43675"
+      },
+      "sources": [
+        {
+          "label": "Xiaomi MiMo",
+          "url": "https://mimo.xiaomi.com/mimo-v2-6",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49792730",
+          "kind": "article",
+          "time": "2026-09-21T22:12:12+02:00"
+        },
+        {
+          "label": "oven-sh/bun#43675",
+          "url": "https://github.com/oven-sh/bun/pull/43675",
+          "kind": "primary",
+          "time": "2026-09-22T01:03:21+02:00"
+        },
+        {
+          "label": "oven-sh/bun#43681",
+          "url": "https://github.com/oven-sh/bun/pull/43681",
+          "kind": "primary",
+          "time": "2026-09-22T01:04:43+02:00"
+        },
+        {
+          "label": "microsoft/TypeScript#64331",
+          "url": "https://github.com/microsoft/TypeScript/pull/64331",
+          "kind": "primary",
+          "time": "2026-09-22T00:36:36+02:00"
+        },
+        {
+          "label": "Colin Breck",
+          "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
