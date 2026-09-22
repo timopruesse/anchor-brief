@@ -1,0 +1,341 @@
+{
+  "id": "2026-09-22-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-22T12:59:43+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5h)",
+  "headline": "Zelenskyy presses Trump at UN for an energy truce; GitHub ships Copilot runtime in ~800k lines of Rust; AMD briefly clears $1T; EU–Philippines trade breakthrough.",
+  "stories": [
+    {
+      "id": "zelenskyy-trump-un-energy",
+      "title": "Zelenskyy meets Trump at UN to push an energy truce with Russia",
+      "topics": [
+        "World",
+        "Ukraine",
+        "US"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Al Jazeera/wires: Zelenskyy is due to meet Trump on the UNGA sidelines Tuesday; Kyiv is pushing for a reciprocal pause on strikes against energy infrastructure ahead of winter.",
+        "Al Jazeera/Reuters: overnight Russian missile/drone barrage killed at least three in Ukraine and left ~100,000 without power in Chernihiv; Ukraine hit Russia’s Samara region (oil hub).",
+        "Guardian: Trump has blamed Ukrainian strikes on Russian refineries for diesel pain ahead of U.S. midterms; a person familiar said he wants Kyiv to stop refinery attacks as part of de-escalation.",
+        "Macron, after meeting Trump, said Paris and Washington would work on a moratorium on energy/civilian-infrastructure strikes; Zelenskyy also shopping for U.S. Patriots for winter air defence."
+      ],
+      "whyItMatters": "UN week turns the air war into a bargaining chip — Kyiv wants a two-way energy ceasefire before winter, while Washington wants Ukraine’s refinery campaign dialed back.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-22T053546Z_1600282267_RC24ONAKSRR2_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KYIV-1790058644.jpg?resize=1920%2C1440",
+        "alt": "Russian strikes on Ukraine kill three as Zelenskyy arrives for UN summit",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit",
+          "kind": "article"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/21/trump-zelenskyy-russia-united-nations",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot-rust-runtime",
+      "title": "GitHub rewrites Copilot agent runtime in ~800k lines of Rust — with Copilot",
+      "topics": [
+        "Tech",
+        "AI",
+        "Dev"
+      ],
+      "weight": "normal",
+      "facts": [
+        "GitHub Blog (Stephen Toub, Sep 16; amplified DE today): Copilot agent runtime moved from TypeScript/Node/V8 to 100% production Rust — 832,378 LOC Rust + ~469k Rust unit tests by Aug 21.",
+        "AI agents wrote most of the code across 128 incremental PRs (~14.5 weeks) while main kept shipping (~135 releases); one engineer led with team support — estimated ~$120k token spend + ~3 weeks focused time.",
+        "Goal: embeddable C ABI / in-process SDK for six languages without spawning Node; benchmarks cite ~18× faster one-turn client lifecycle in-process and ~91% lower ten-client memory delta vs May baseline.",
+        "Golem.de picks up the migration for German readers today as a flagship “agents making rewrites affordable” story."
+      ],
+      "whyItMatters": "A live, continuously shipped million-line-class port is the clearest public case yet that coding agents change which rewrites get green-lit — not just how fast a human types Rust.",
+      "image": null,
+      "sources": [
+        {
+          "label": "GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+          "kind": "primary"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/von-typescript-und-node-js-github-migriert-mit-ki-800-000-codezeilen-nach-rust-2609-213310.html",
+          "kind": "article",
+          "time": "2026-09-22T12:45:02+02:00"
+        },
+        {
+          "label": "The New Stack",
+          "url": "https://thenewstack.io/github-copilot-anthropic-rust-migration/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "amd-one-trillion",
+      "title": "AMD briefly clears $1 trillion market cap on AI rally",
+      "topics": [
+        "Business",
+        "Tech",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        "CNBC: AMD surged ~10% Monday, hitting an intraday high around $615.52 and topping a $1T market cap for the first time; five-day streak ~+25%.",
+        "Reuters/wires: fourth U.S. chipmaker past $1T after Nvidia, Broadcom, and Micron; Nvidia still ~$5.4T.",
+        "YTD AMD ~+180%; Q2 revenue $11.54B (+50% YoY) with Data Center $6.7B (+107% YoY); Lisa Su has guided to double data-center sales in 2027."
+      ],
+      "whyItMatters": "The AI tape just minted another trillion-dollar chip name — even as AMD remains a distant #2 to Nvidia on accelerators.",
+      "image": null,
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html",
+          "kind": "article"
+        },
+        {
+          "label": "Reuters via The Star",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/09/21/amd-becomes-latest-chipmaker-to-reach-1-trillion-valuation-on-ai-demand",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "eu-philippines-fta",
+      "title": "EU and Philippines reach “substantial agreement” on free-trade deal",
+      "topics": [
+        "Europe",
+        "Trade",
+        "Asia"
+      ],
+      "weight": "normal",
+      "facts": [
+        "POLITICO/Rappler: von der Leyen said she and Marcos Jr. “just agreed” on an FTA from UNGA New York; trade chiefs call it a substantial agreement on a clear path to formal conclusion in coming months.",
+        "Sefcovic: key parameters approved politically — next step is legal text; deal would eliminate >94% of tariffs both ways (machinery, appliances, transport, agrifood).",
+        "2025 goods trade ~€17.6B; EU already has deals with Vietnam and Indonesia and is advancing Thailand/Malaysia talks as Brussels diversifies away from Trump tariffs and China export pressure.",
+        "Public-procurement chapter still sticky amid a proposed EU industry law; signing eyed for 2027 after ratification — not yet in force."
+      ],
+      "whyItMatters": "Another ASEAN trade beachhead for Brussels — politically announced at UNGA, still months of lawyers and ratification away from real tariff cuts.",
+      "image": null,
+      "sources": [
+        {
+          "label": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/eu-reaches-substantial-agreement-philippines-trade-deal/",
+          "kind": "article",
+          "time": "2026-09-22T06:17:00+02:00"
+        },
+        {
+          "label": "Rappler",
+          "url": "https://www.rappler.com/business/philippines-european-union-free-trade-agreement-update-2026/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "IranIntl/Kyodo/Reuters: Tehran offers to reopen Strait of Hormuz within seven days if the U.S. eases military pressure and lifts its port blockade — floated via mediators ahead of UNGA.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Fortune: USTDA funds a feasibility study for a U.S.–Thailand (+SEA) subsea cable that deliberately bypasses the South China Sea; Bloomberg-cited build cost >$14B.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Guardian/NOAA: current El Niño Pacific core hit 3.05°C — above the 2015 record — months before peak; models average ~4.0°C by Nov–Dec (“Godzilla-level”).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "heise: Thirty Meter Telescope won’t go to La Palma after TIO rejected Spain’s ~€1B financing package; Hawaii site still stalled.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "OpenAI Status: elevated ChatGPT errors for Plus/Pro (~09:58–10:37 Berlin) — marked resolved.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Al Jazeera: G7 condemns Houthi strikes on Saudi Arabia and urges Iran to stop arming the group.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2204965084.jpg?resize=1200,600",
+        "alt": "“The military conflicts in the Middle East and Europe show that geopolitical crises can trigger cyber or physical disruptions to subsea cables,” says Muhammad Faizal Bin Abdul Rahman, a research fellow at Singapore’s Nanyang Technological University (NTU). “The U.S. and its Asia-Pacific allies believe that China could use similar tactics.”",
+        "credit": "Fortune",
+        "creditUrl": "https://fortune.com/2026/09/22/us-thailand-subsea-cable-bypasses-south-china-sea/"
+      },
+      "sources": [
+        {
+          "label": "Iran International",
+          "url": "https://www.iranintl.com/en/202609224536",
+          "kind": "article"
+        },
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/09/22/us-thailand-subsea-cable-bypasses-south-china-sea/",
+          "kind": "article"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/sep/21/super-el-nino-temperature-record",
+          "kind": "article"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/30-Meter-Teleskop-wird-nicht-auf-La-Palma-gebaut-11461535.html",
+          "kind": "article",
+          "time": "2026-09-22T12:21:00+02:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M348TX2DX7KPM9X857N4APNV",
+          "kind": "primary",
+          "time": "2026-09-22T10:37:00+02:00"
+        },
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/22/g7-foreign-ministers-demand-houthis-halt-strikes-on-saudi-arabia",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "How To Think More and Better: “Your Free Time, Reconsidered.”",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "How To Think More and Better",
+          "url": "https://morebetterthinking.substack.com/p/your-free-time-reconsidered-add",
+          "kind": "article",
+          "time": "2026-09-22T11:18:13+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN (~210) / Lobsters: David Bushell — “I said no and Apple said yes” — macOS 27 removes the Apple Intelligence off-switch after upgrades re-enable it (~22 GB on disk).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "HN (~163): Nathan Barry — “Can gzip be a language model?” — beam-search over DEFLATE scores as a no-NN generator.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Chrome Dev: two-week Stable cycle live from Chrome 153; Chrome 154 Stable eyed Sep 22.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Merged: sveltejs/kit#17180 preserve errors with read-only stacks; oven-sh/bun#43757 N-API external buffer finalizers on JS thread.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Lobsters/LWN: looking ahead to Git 2.56 and the 3.0 breaking-change window.",
+          "sourceIndexes": [
+            6
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/f78d0e83e0da4324f891cca67d2328b425bf2a7b72fdcf464604a7bc1d3d0e70/sveltejs/kit/pull/17180",
+        "alt": "closes #17179 Errors whose stack property is read-only were replaced by a TypeError when SvelteKit attempted to format their stack traces. This PR makes stack replacement best-effort, preserving th...",
+        "credit": "sveltejs/kit#17180",
+        "creditUrl": "https://github.com/sveltejs/kit/pull/17180"
+      },
+      "sources": [
+        {
+          "label": "David Bushell",
+          "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49797982",
+          "kind": "article",
+          "time": "2026-09-22T10:04:55+02:00"
+        },
+        {
+          "label": "nathan.rs",
+          "url": "https://nathan.rs/posts/gzip-lm/",
+          "kind": "article"
+        },
+        {
+          "label": "Chrome for Developers",
+          "url": "https://developer.chrome.com/blog/chrome-two-week-start",
+          "kind": "primary"
+        },
+        {
+          "label": "sveltejs/kit#17180",
+          "url": "https://github.com/sveltejs/kit/pull/17180",
+          "kind": "primary"
+        },
+        {
+          "label": "oven-sh/bun#43757",
+          "url": "https://github.com/oven-sh/bun/pull/43757",
+          "kind": "primary"
+        },
+        {
+          "label": "LWN.net",
+          "url": "https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
