@@ -1,6 +1,7 @@
 import { browser } from '$app/environment';
 import { env } from '$env/dynamic/public';
 import {
+	buildVoteRequestUrl,
 	nextVote,
 	parseStoredVotes,
 	voteStorageKey,
@@ -29,19 +30,19 @@ function persist(map: Record<string, VoteValue>) {
 }
 
 /**
- * Fire-and-forget POST; never throws into the UI.
- * Body is still JSON, but Content-Type is text/plain so the browser treats
- * this as a simple request (no CORS preflight). Apps Script doPost still
- * JSON.parse(e.postData.contents) — see tools/vote-apps-script.gs.
+ * Fire-and-forget GET with query params + no-cors.
+ * Apps Script `/exec` often 302s; browser follow-up of POST becomes GET and drops the body,
+ * so `doPost` never runs. Query params survive redirects; `doGet` (owned by Anchor) will
+ * accept them. Opaque response is expected — soft-fail remains. See docs/votes.md.
  */
-function postVote(payload: VotePayload) {
-	const url = voteEndpoint();
-	if (!url) return;
+function sendVote(payload: VotePayload) {
+	const base = voteEndpoint();
+	if (!base) return;
 	try {
+		const url = buildVoteRequestUrl(base, payload);
 		void fetch(url, {
-			method: 'POST',
-			headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-			body: JSON.stringify(payload),
+			method: 'GET',
+			mode: 'no-cors',
 			keepalive: true
 		}).catch(() => {
 			/* soft-fail */
@@ -70,7 +71,7 @@ export class VoteController {
 	}
 
 	/**
-	 * Optimistic cast: update localStorage immediately; POST only when vote is 1/-1.
+	 * Optimistic cast: update localStorage immediately; send only when vote is 1/-1.
 	 * Clearing a vote stays local-only (append-only sink has no delete).
 	 */
 	cast(briefId: string, itemId: string, clicked: VoteValue): StoredVote {
@@ -89,7 +90,7 @@ export class VoteController {
 		persist(this.map);
 
 		if (next === 1 || next === -1) {
-			postVote({ briefId, itemId, vote: next, ts: Date.now() });
+			sendVote({ briefId, itemId, vote: next, ts: Date.now() });
 		}
 
 		return next;

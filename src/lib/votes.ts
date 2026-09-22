@@ -1,4 +1,4 @@
-/** Client vote helpers — optional POST to PUBLIC_VOTE_URL; no secrets on the client. */
+/** Client vote helpers — optional GET to PUBLIC_VOTE_URL; no secrets on the client. */
 
 export type VoteValue = 1 | -1;
 export type StoredVote = VoteValue | 0;
@@ -8,6 +8,16 @@ export interface VotePayload {
 	itemId: string;
 	vote: VoteValue;
 	ts: number;
+}
+
+/** Append vote fields as query params for Apps Script doGet (survives /exec 302). */
+export function buildVoteRequestUrl(baseUrl: string, payload: VotePayload): string {
+	const url = new URL(baseUrl);
+	url.searchParams.set('briefId', payload.briefId);
+	url.searchParams.set('itemId', payload.itemId);
+	url.searchParams.set('vote', String(payload.vote));
+	url.searchParams.set('ts', String(payload.ts));
+	return url.toString();
 }
 
 export const VOTES_STORAGE_KEY = 'anchor-brief:votes';

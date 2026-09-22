@@ -1,5 +1,5 @@
 /**
- * Anchor Brief — public vote POST sink (Google Apps Script).
+ * Anchor Brief — public vote sink (Google Apps Script).
  *
  * Paste this into a new Apps Script project, set Script Property GITHUB_TOKEN,
  * then Deploy → Web app (Execute as: Me, Who has access: Anyone).
@@ -7,9 +7,9 @@
  *
  * See docs/votes.md for full setup.
  *
- * Payload: JSON object { "briefId": string, "itemId": string, "vote": 1 | -1, "ts": number }.
- * Anchor Brief client sends that body as text/plain (avoids CORS preflight); parseBody_
- * accepts any content type and JSON.parses e.postData.contents.
+ * Client (anchor-brief site): GET /exec?briefId&itemId&vote&ts with mode no-cors
+ * (POST+/exec 302 often becomes GET and drops the body). Anchor owns updating doGet
+ * to read those query params and dispatch; doPost below remains for older clients.
  * Proxies to GitHub repository_dispatch (event_type: brief-vote). Never embeds the token in source.
  */
 
@@ -91,7 +91,10 @@ function doPost(e) {
   }
 }
 
-/** Optional health check. */
+/**
+ * Health check stub. Anchor will update doGet to accept vote query params
+ * (briefId, itemId, vote, ts) from the site's GET+no-cors client — see docs/votes.md.
+ */
 function doGet() {
   return jsonResponse_({ ok: true, service: 'anchor-brief-vote' }, 200);
 }

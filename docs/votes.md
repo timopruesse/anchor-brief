@@ -1,12 +1,20 @@
 # Story votes — write path (no Cloudflare)
 
-The static site (GitHub Pages) may `POST` story votes when `PUBLIC_VOTE_URL` is set at **build** time. The browser must never hold a GitHub token. This repo uses a small **Google Apps Script** web app as a public HTTPS sink that dispatches into GitHub Actions, which appends to `data/votes.jsonl`.
+The static site (GitHub Pages) may `GET` story votes when `PUBLIC_VOTE_URL` is set at **build** time. The browser must never hold a GitHub token. This repo uses a small **Google Apps Script** web app as a public HTTPS sink that dispatches into GitHub Actions, which appends to `data/votes.jsonl`.
 
 ```
 Browser  →  Apps Script (PUBLIC_VOTE_URL)  →  repository_dispatch brief-vote  →  record-vote.yml  →  data/votes.jsonl
 ```
 
 ## Payload contract
+
+Same fields as before — now as **query params** on a GET (not a JSON POST body):
+
+```
+GET …/exec?briefId=2026-09-22-evening&itemId=some-story-id&vote=1&ts=1727000000000
+```
+
+Logical payload (also used by `repository_dispatch` / `votes.jsonl`):
 
 ```json
 { "briefId": "2026-09-22-evening", "itemId": "some-story-id", "vote": 1, "ts": 1727000000000 }
@@ -39,12 +47,12 @@ Browser  →  Apps Script (PUBLIC_VOTE_URL)  →  repository_dispatch brief-vote
 3. **Who has access:** Anyone
 4. Deploy and copy the **Web app URL** (ends with `/exec`).
 
-### CORS notes
+### Client request shape (GET + no-cors)
 
-- The static site `POST`s the **same JSON body as a string** with `Content-Type: text/plain;charset=utf-8` (not `application/json`). That keeps the request “simple” so the browser skips an OPTIONS preflight — Apps Script `/exec` often omits usable `Access-Control-Allow-Origin` on preflight, which broke votes from `*.github.io`.
-- Apps Script `doPost` still `JSON.parse`s `e.postData.contents` regardless of content type (see `parseBody_` in the template).
-- Apps Script `ContentService` JSON responses are generally readable cross-origin; the template still implements `doOptions` for other clients that may preflight.
-- Browsers sometimes follow a Google redirect on first hit — the site **soft-fails** if the request fails, so local `localStorage` votes still stick.
+- The static site builds `PUBLIC_VOTE_URL` + `URLSearchParams` (`briefId`, `itemId`, `vote`, `ts`) and calls `fetch(url, { method: 'GET', mode: 'no-cors', keepalive: true })`.
+- **Why not POST?** Apps Script `/exec` often responds with **302**. Browsers commonly follow that redirect with **GET**, which drops the POST body — so `doPost` never runs and no `repository_dispatch` fires. Query params survive the redirect.
+- **`mode: 'no-cors'`** makes this a fire-and-forget “opaque” request: the client cannot read the response (and soft-fails either way). Local `localStorage` votes still stick.
+- **Apps Script:** Anchor owns updating deployed `doGet` to read these query params and dispatch (the template in this repo still has a stub `doGet` plus legacy `doPost` for older clients). Redeploy the web app after that change.
 
 ## 4. Point the site at the web app
 
@@ -60,8 +68,8 @@ Leave unset to keep votes local-only (soft-fail).
 
 ## 5. What happens on each vote
 
-1. Client `POST`s the JSON payload (as `text/plain`) to `PUBLIC_VOTE_URL`.
-2. Apps Script validates and calls  
+1. Client `GET`s `PUBLIC_VOTE_URL` with query params `briefId`, `itemId`, `vote`, `ts` (`mode: 'no-cors'`).
+2. Apps Script `doGet` validates and calls  
    `POST /repos/timopruesse/anchor-brief/dispatches` with  
    `{ "event_type": "brief-vote", "client_payload": { … } }`.
 3. Workflow [`.github/workflows/record-vote.yml`](../.github/workflows/record-vote.yml) validates again, appends one JSON line to `data/votes.jsonl`, and commits as `github-actions[bot]`.

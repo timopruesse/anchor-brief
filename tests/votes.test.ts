@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import {
+	buildVoteRequestUrl,
 	nextVote,
 	parseStoredVotes,
 	resolveFactItemId,
@@ -68,5 +69,22 @@ describe('parseStoredVotes / voteStorageKey', () => {
 		});
 		expect(parseStoredVotes('nope')).toEqual({});
 		expect(voteStorageKey('2026-09-22-evening', 'story-a')).toBe('2026-09-22-evening\tstory-a');
+	});
+});
+
+describe('buildVoteRequestUrl', () => {
+	it('appends briefId, itemId, vote, ts as query params', () => {
+		const url = buildVoteRequestUrl('https://script.google.com/macros/s/abc/exec', {
+			briefId: '2026-09-22-evening',
+			itemId: 'story-a',
+			vote: -1,
+			ts: 1727000000000
+		});
+		const parsed = new URL(url);
+		expect(parsed.origin + parsed.pathname).toBe('https://script.google.com/macros/s/abc/exec');
+		expect(parsed.searchParams.get('briefId')).toBe('2026-09-22-evening');
+		expect(parsed.searchParams.get('itemId')).toBe('story-a');
+		expect(parsed.searchParams.get('vote')).toBe('-1');
+		expect(parsed.searchParams.get('ts')).toBe('1727000000000');
 	});
 });
