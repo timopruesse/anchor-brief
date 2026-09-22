@@ -41,8 +41,9 @@ Browser  →  Apps Script (PUBLIC_VOTE_URL)  →  repository_dispatch brief-vote
 
 ### CORS notes
 
-- The static site calls this URL with `POST` + `Content-Type: application/json` (or as the client implements).
-- Apps Script `ContentService` JSON responses are generally readable cross-origin; the template also implements `doOptions` for preflight.
+- The static site `POST`s the **same JSON body as a string** with `Content-Type: text/plain;charset=utf-8` (not `application/json`). That keeps the request “simple” so the browser skips an OPTIONS preflight — Apps Script `/exec` often omits usable `Access-Control-Allow-Origin` on preflight, which broke votes from `*.github.io`.
+- Apps Script `doPost` still `JSON.parse`s `e.postData.contents` regardless of content type (see `parseBody_` in the template).
+- Apps Script `ContentService` JSON responses are generally readable cross-origin; the template still implements `doOptions` for other clients that may preflight.
 - Browsers sometimes follow a Google redirect on first hit — the site **soft-fails** if the request fails, so local `localStorage` votes still stick.
 
 ## 4. Point the site at the web app
@@ -59,7 +60,7 @@ Leave unset to keep votes local-only (soft-fail).
 
 ## 5. What happens on each vote
 
-1. Client `POST`s the JSON payload to `PUBLIC_VOTE_URL`.
+1. Client `POST`s the JSON payload (as `text/plain`) to `PUBLIC_VOTE_URL`.
 2. Apps Script validates and calls  
    `POST /repos/timopruesse/anchor-brief/dispatches` with  
    `{ "event_type": "brief-vote", "client_payload": { … } }`.

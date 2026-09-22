@@ -7,7 +7,9 @@
  *
  * See docs/votes.md for full setup.
  *
- * Payload (POST JSON): { "briefId": string, "itemId": string, "vote": 1 | -1, "ts": number }
+ * Payload: JSON object { "briefId": string, "itemId": string, "vote": 1 | -1, "ts": number }.
+ * Anchor Brief client sends that body as text/plain (avoids CORS preflight); parseBody_
+ * accepts any content type and JSON.parses e.postData.contents.
  * Proxies to GitHub repository_dispatch (event_type: brief-vote). Never embeds the token in source.
  */
 
@@ -99,7 +101,7 @@ function parseBody_(e) {
     throw new Error('empty body');
   }
   var raw = e.postData.contents;
-  // Some clients send text/plain; still parse as JSON.
+  // Client sends text/plain (CORS simple request); still parse as JSON.
   return JSON.parse(raw);
 }
 
