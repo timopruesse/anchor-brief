@@ -5,12 +5,19 @@
  * then Deploy → Web app (Execute as: Me, Who has access: Anyone).
  * Copy the web app URL into the site build env as PUBLIC_VOTE_URL.
  *
+ * Updating an existing deployment: after pasting a new Code.gs, use
+ * Deploy → Manage deployments → Edit (pencil) → Version: New version → Deploy.
+ * Keep the same /exec URL (do not create a fresh deployment unless rotating).
+ *
  * See docs/votes.md for full setup.
  *
- * Client (anchor-brief site): GET /exec?briefId&itemId&vote&ts with mode no-cors
- * (POST+/exec 302 often becomes GET and drops the body). Anchor owns updating doGet
- * to read those query params and dispatch; doPost below remains for older clients.
- * Proxies to GitHub repository_dispatch (event_type: brief-vote). Never embeds the token in source.
+ * Primary client path (anchor-brief site): GET /exec?briefId&itemId&vote&ts
+ * with mode: 'no-cors'. Query params survive the Apps Script /exec 302 that
+ * often turns follow-up POSTs into GETs and drops the body.
+ *
+ * Legacy: doPost still accepts a text/plain JSON body for older clients.
+ * Proxies to GitHub repository_dispatch (event_type: brief-vote).
+ * Never embeds the token in source — GITHUB_TOKEN is a Script Property.
  */
 
 var GITHUB_OWNER = 'timopruesse';
@@ -26,77 +33,107 @@ function doOptions() {
 }
 
 /**
- * Accept a vote POST and fire repository_dispatch.
+ * Accept a vote GET (query params) or serve the health-check JSON.
+ *
+ * Vote path: ?briefId=…&itemId=…&vote=1|-1&ts=…
+ * Health check: GET with no briefId/itemId → { ok: true, service: 'anchor-brief-vote' }
  */
-function doPost(e) {
+function doGet(e) {
   try {
-    var body = parseBody_(e);
-    var err = validateVote_(body);
-    if (err) {
-      return jsonResponse_({ ok: false, error: err }, 400);
+    var params = (e && e.parameter) || {};
+    var hasVote =
+      (params.briefId != null && params.briefId !== '') ||
+      (params.itemId != null && params.itemId !== '');
+
+    if (!hasVote) {
+      return jsonResponse_({ ok: true, service: 'anchor-brief-vote' }, 200);
     }
 
-    var token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
-    if (!token) {
-      return jsonResponse_({ ok: false, error: 'GITHUB_TOKEN script property not set' }, 500);
-    }
-
-    var payload = {
-      event_type: DISPATCH_EVENT,
-      client_payload: {
-        briefId: String(body.briefId),
-        itemId: String(body.itemId),
-        vote: Number(body.vote),
-        ts: Number(body.ts)
-      }
+    var body = {
+      briefId: params.briefId != null ? String(params.briefId) : '',
+      itemId: params.itemId != null ? String(params.itemId) : '',
+      vote: Number(params.vote),
+      ts: Number(params.ts)
     };
 
-    var url =
-      'https://api.github.com/repos/' +
-      GITHUB_OWNER +
-      '/' +
-      GITHUB_REPO +
-      '/dispatches';
-
-    var resp = UrlFetchApp.fetch(url, {
-      method: 'post',
-      contentType: 'application/json',
-      headers: {
-        Authorization: 'Bearer ' + token,
-        Accept: 'application/vnd.github+json',
-        'X-GitHub-Api-Version': '2022-11-28',
-        'User-Agent': 'anchor-brief-vote-apps-script'
-      },
-      payload: JSON.stringify(payload),
-      muteHttpExceptions: true
-    });
-
-    var code = resp.getResponseCode();
-    // GitHub returns 204 No Content on successful dispatch.
-    if (code === 204 || code === 200) {
-      return jsonResponse_({ ok: true }, 200);
-    }
-
-    return jsonResponse_(
-      {
-        ok: false,
-        error: 'github_dispatch_failed',
-        status: code,
-        body: safeTruncate_(resp.getContentText(), 500)
-      },
-      502
-    );
+    return dispatchVote_(body);
   } catch (ex) {
     return jsonResponse_({ ok: false, error: String(ex && ex.message ? ex.message : ex) }, 500);
   }
 }
 
 /**
- * Health check stub. Anchor will update doGet to accept vote query params
- * (briefId, itemId, vote, ts) from the site's GET+no-cors client — see docs/votes.md.
+ * Accept a vote POST (legacy text/plain JSON body) and fire repository_dispatch.
  */
-function doGet() {
-  return jsonResponse_({ ok: true, service: 'anchor-brief-vote' }, 200);
+function doPost(e) {
+  try {
+    var body = parseBody_(e);
+    return dispatchVote_(body);
+  } catch (ex) {
+    return jsonResponse_({ ok: false, error: String(ex && ex.message ? ex.message : ex) }, 500);
+  }
+}
+
+/**
+ * Validate and fire GitHub repository_dispatch (event_type: brief-vote).
+ * Shared by doGet (query params) and doPost (JSON body).
+ */
+function dispatchVote_(body) {
+  var err = validateVote_(body);
+  if (err) {
+    return jsonResponse_({ ok: false, error: err }, 400);
+  }
+
+  var token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+  if (!token) {
+    return jsonResponse_({ ok: false, error: 'GITHUB_TOKEN script property not set' }, 500);
+  }
+
+  var payload = {
+    event_type: DISPATCH_EVENT,
+    client_payload: {
+      briefId: String(body.briefId),
+      itemId: String(body.itemId),
+      vote: Number(body.vote),
+      ts: Number(body.ts)
+    }
+  };
+
+  var url =
+    'https://api.github.com/repos/' +
+    GITHUB_OWNER +
+    '/' +
+    GITHUB_REPO +
+    '/dispatches';
+
+  var resp = UrlFetchApp.fetch(url, {
+    method: 'post',
+    contentType: 'application/json',
+    headers: {
+      Authorization: 'Bearer ' + token,
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      'User-Agent': 'anchor-brief-vote-apps-script'
+    },
+    payload: JSON.stringify(payload),
+    muteHttpExceptions: true
+  });
+
+  var code = resp.getResponseCode();
+  // GitHub returns 204 No Content on successful dispatch.
+  if (code === 204 || code === 200) {
+    return jsonResponse_({ ok: true }, 200);
+  }
+
+  return jsonResponse_(
+    {
+      ok: false,
+      error: 'github_dispatch_failed',
+      status: code,
+      body: safeTruncate_(resp.getContentText(), 500)
+    },
+    502
+  );
 }
 
 function parseBody_(e) {
@@ -104,7 +141,7 @@ function parseBody_(e) {
     throw new Error('empty body');
   }
   var raw = e.postData.contents;
-  // Client sends text/plain (CORS simple request); still parse as JSON.
+  // Legacy clients send text/plain; still parse as JSON.
   return JSON.parse(raw);
 }
 
