@@ -42,17 +42,30 @@ Logical payload (also used by `repository_dispatch` / `votes.jsonl`):
 
 ## 3. Deploy as a web app
 
+### First-time deploy
+
 1. **Deploy** → **New deployment** → type **Web app**.
 2. **Execute as:** Me
 3. **Who has access:** Anyone
 4. Deploy and copy the **Web app URL** (ends with `/exec`).
 
-### Client request shape (GET + no-cors)
+### Updating Code.gs later (same `/exec` URL)
+
+After pasting a newer [`tools/vote-apps-script.gs`](../tools/vote-apps-script.gs) into the project, you must publish a **new version** of the existing deployment — saving the editor alone does **not** update the live `/exec` endpoint:
+
+1. **Deploy** → **Manage deployments**
+2. Click the **Edit** (pencil) icon on the active Web app deployment
+3. **Version:** choose **New version**
+4. **Deploy**
+
+Keep the same deployment (and thus the same `/exec` URL). Do **not** create a brand-new deployment unless you intentionally want a new URL (then update `PUBLIC_VOTE_URL` and rebuild Pages).
+
+### Client request shape (GET + no-cors) — primary path
 
 - The static site builds `PUBLIC_VOTE_URL` + `URLSearchParams` (`briefId`, `itemId`, `vote`, `ts`) and calls `fetch(url, { method: 'GET', mode: 'no-cors', keepalive: true })`.
 - **Why not POST?** Apps Script `/exec` often responds with **302**. Browsers commonly follow that redirect with **GET**, which drops the POST body — so `doPost` never runs and no `repository_dispatch` fires. Query params survive the redirect.
 - **`mode: 'no-cors'`** makes this a fire-and-forget “opaque” request: the client cannot read the response (and soft-fails either way). Local `localStorage` votes still stick.
-- **Apps Script:** Anchor owns updating deployed `doGet` to read these query params and dispatch (the template in this repo still has a stub `doGet` plus legacy `doPost` for older clients). Redeploy the web app after that change.
+- **Apps Script:** `doGet` reads those query params, validates, and fires `repository_dispatch` (`brief-vote`). A bare GET (no `briefId` / `itemId`) returns the health-check JSON `{ ok: true, service: 'anchor-brief-vote' }`. Legacy `doPost` (text/plain JSON body) remains for older clients.
 
 ## 4. Point the site at the web app
 
