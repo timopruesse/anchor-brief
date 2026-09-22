@@ -1,0 +1,117 @@
+name: Record brief vote
+
+on:
+  repository_dispatch:
+    types: [brief-vote]
+
+concurrency:
+  group: record-vote
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Validate payload and append vote
+        id: append
+        env:
+          BRIEF_ID: ${{ github.event.client_payload.briefId }}
+          ITEM_ID: ${{ github.event.client_payload.itemId }}
+          VOTE: ${{ github.event.client_payload.vote }}
+          TS: ${{ github.event.client_payload.ts }}
+        run: |
+          set -euo pipefail
+
+          ok=1
+          if [ -z "${BRIEF_ID:-}" ]; then
+            echo "::warning::Missing briefId"
+            ok=0
+          fi
+          if [ -z "${ITEM_ID:-}" ]; then
+            echo "::warning::Missing itemId"
+            ok=0
+          fi
+          case "${VOTE:-}" in
+            1|-1) ;;
+            *)
+              echo "::warning::vote must be 1 or -1 (got: ${VOTE:-})"
+              ok=0
+              ;;
+          esac
+          if ! [[ "${TS:-}" =~ ^[0-9]+([.][0-9]+)?$ ]]; then
+            echo "::warning::ts must be a number (got: ${TS:-})"
+            ok=0
+          fi
+
+          if [ "$ok" -ne 1 ]; then
+            echo "Malformed payload — skipping append (exit 0 to avoid retry storms)."
+            echo "appended=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          mkdir -p data
+          touch data/votes.jsonl
+          export RECEIVED_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # Build one JSONL line (stdlib only).
+          python3 - <<'PY' >> data/votes.jsonl
+          import json, os
+          ts_raw = os.environ["TS"]
+          ts = float(ts_raw) if "." in ts_raw else int(ts_raw)
+          print(json.dumps({
+              "briefId": os.environ["BRIEF_ID"],
+              "itemId": os.environ["ITEM_ID"],
+              "vote": int(float(os.environ["VOTE"])),
+              "ts": ts,
+              "receivedAt": os.environ["RECEIVED_AT"],
+          }, separators=(",", ":")))
+          PY
+          echo "appended=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.append.outputs.appended == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- data/votes.jsonl; then
+            echo "No file change to commit."
+            exit 0
+          fi
+
+          # Preserve the line we just appended in case a rebase conflict resets the file.
+          NEW_LINE="$(tail -n 1 data/votes.jsonl)"
+
+          git add data/votes.jsonl
+          git commit -m "chore: record vote"
+
+          # Rebase/retry a couple of times if main moved (other votes or publishes).
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}); rebasing onto origin/main…"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Rebase conflict on data/votes.jsonl — taking upstream and re-appending."
+              git checkout --theirs -- data/votes.jsonl || true
+              # Ensure file exists and our vote line is present once at the end.
+              touch data/votes.jsonl
+              if ! grep -Fxq -- "$NEW_LINE" data/votes.jsonl; then
+                printf '%s\n' "$NEW_LINE" >> data/votes.jsonl
+              fi
+              git add data/votes.jsonl
+              GIT_EDITOR=true git rebase --continue
+            fi
+          done
+          echo "::error::Failed to push vote after retries"
+          exit 1

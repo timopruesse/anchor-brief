@@ -3,6 +3,10 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+    # Vote appends land in data/votes.jsonl only — skip Pages rebuilds for those.
+    # Briefing publishes under data/*.json still trigger deploy as usual.
+    paths-ignore:
+      - 'data/votes.jsonl'
   workflow_dispatch:
 
 permissions:
@@ -36,6 +40,8 @@ jobs:
         run: bun run build
         env:
           BASE_PATH: /anchor-brief
+          # Optional: Apps Script web app URL (see docs/votes.md). Empty = local-only votes.
+          PUBLIC_VOTE_URL: ${{ vars.PUBLIC_VOTE_URL }}
 
       - name: Ensure .nojekyll
         run: touch build/.nojekyll
