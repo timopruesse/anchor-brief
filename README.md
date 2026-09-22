@@ -57,6 +57,24 @@ The `/gme` desk always renders the briefing JSON snapshot first. After load, the
 
 If the poll is blocked or fails, the snapshot quote stays on screen (soft fail). This is a delayed poll, not a websocket tick feed.
 
+## Story votes
+
+Story cards may show thumbs up/down (client PR). Votes stay optimistic in `localStorage`. When `PUBLIC_VOTE_URL` is set at **build** time, the client also `POST`s JSON `{ briefId, itemId, vote, ts }` (`vote` ∈ `{1, -1}`) to that public HTTPS endpoint. Soft-fail if unset or the request fails — no client secrets.
+
+**Sink (this repo):** do **not** use a Cloudflare Worker. Deploy the Google Apps Script template in [`tools/vote-apps-script.gs`](./tools/vote-apps-script.gs) as a web app and set:
+
+```sh
+# .env / GitHub Actions build env (repository variable)
+PUBLIC_VOTE_URL=https://script.google.com/macros/s/<DEPLOYMENT_ID>/exec
+```
+
+Setup steps, token property, and recorder workflow: **[docs/votes.md](./docs/votes.md)**. Votes append to `data/votes.jsonl` via `repository_dispatch` → [`.github/workflows/record-vote.yml`](./.github/workflows/record-vote.yml). Summarize for gather:
+
+```sh
+python3 tools/votes.py --help
+python3 tools/votes.py --since-hours 72 --json
+```
+
 ## Stack
 
 - SvelteKit 2 + Svelte 5 + TypeScript
