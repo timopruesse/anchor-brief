@@ -11,11 +11,12 @@
 
 	interface Props {
 		stories: Story[];
+		briefId?: string | null;
 		generatedAt?: string;
 		timezone?: string;
 	}
 
-	let { stories, generatedAt, timezone = 'Europe/Berlin' }: Props = $props();
+	let { stories, briefId = null, generatedAt, timezone = 'Europe/Berlin' }: Props = $props();
 
 	let density = $state<Density>('editorial');
 
@@ -84,6 +85,7 @@
 			{#each leadStories as story (story.id)}
 				<StoryCard
 					{story}
+					{briefId}
 					query={filterEngine.query.trim()}
 					{generatedAt}
 					{timezone}
@@ -94,6 +96,7 @@
 			{#each normalStories as story (story.id)}
 				<StoryCard
 					{story}
+					{briefId}
 					query={filterEngine.query.trim()}
 					{generatedAt}
 					{timezone}
@@ -111,6 +114,7 @@
 			{#each briefStories as story (story.id)}
 				<StoryCard
 					{story}
+					{briefId}
 					query={filterEngine.query.trim()}
 					{generatedAt}
 					{timezone}

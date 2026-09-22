@@ -79,6 +79,7 @@
 					{@const edLabel = editionLabel(row.edition)}
 					<StoryCard
 						story={row.story}
+						briefId={row.editionId}
 						query={filterEngine.query.trim()}
 						generatedAt={row.generatedAt}
 						editionHref={resolve(`/brief/${row.editionId}`)}

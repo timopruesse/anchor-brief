@@ -1,13 +1,17 @@
 <script lang="ts">
 	import Highlight from './Highlight.svelte';
 	import SourceChip from './SourceChip.svelte';
+	import VoteButtons from './VoteButtons.svelte';
 	import { normalizeFact } from '$lib/facts';
 	import { gradientFor, safeHref } from '$lib/format';
+	import { resolveFactItemId, resolveItemId } from '$lib/votes';
 	import { theme } from '$lib/theme.svelte';
 	import type { Story } from '$lib/types';
 
 	interface Props {
 		story: Story;
+		/** Briefing id for votes (e.g. 2026-09-22-evening). */
+		briefId?: string | null;
 		query?: string;
 		generatedAt?: string;
 		timezone?: string;
@@ -19,6 +23,7 @@
 
 	let {
 		story,
+		briefId = null,
 		query = '',
 		generatedAt,
 		timezone = 'Europe/Berlin',
@@ -33,6 +38,8 @@
 
 	const weight = $derived(story.weight || 'normal');
 	const facts = $derived((story.facts ?? []).map(normalizeFact));
+	const itemId = $derived(resolveItemId(story));
+	const voteFacts = $derived(Boolean(briefId) && weight === 'brief');
 
 	const defaultVisibleCount = $derived.by(() => {
 		if (density === 'compact') return 0;
@@ -135,6 +142,7 @@
 		<ul class="facts">
 			{#each visibleFacts as fact, i (`${i}:${fact.text}`)}
 				{@const linked = factSources(fact.sourceIndexes)}
+				{@const factItemId = voteFacts ? resolveFactItemId(itemId, fact.text, i) : null}
 				<li class="facts__item" class:facts__item--linked={linked.length > 0}>
 					<span class="facts__text"
 						><Highlight text={fact.text} {query} />{#if linked.length}<span
@@ -147,6 +155,16 @@
 								{/each}
 							</span>{/if}</span
 					>
+					{#if briefId && factItemId}
+						<span class="facts__vote">
+							<VoteButtons
+								{briefId}
+								itemId={factItemId}
+								compact
+								label={`Rate this brief item: ${fact.text.slice(0, 80)}`}
+							/>
+						</span>
+					{/if}
 				</li>
 			{/each}
 		</ul>
@@ -184,5 +202,11 @@
 				{/each}
 			</ul>
 		</nav>
+	{/if}
+
+	{#if briefId}
+		<div class="story__vote">
+			<VoteButtons {briefId} {itemId} label={`Rate story: ${story.title}`} />
+		</div>
 	{/if}
 </article>
