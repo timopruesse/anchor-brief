@@ -8,7 +8,7 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 		interface PublicEnv {
-			/** Optional Cloudflare Worker URL that accepts POST { briefId, itemId, vote, ts }. */
+			/** Optional public HTTPS endpoint that accepts POST { briefId, itemId, vote, ts }. */
 			PUBLIC_VOTE_URL?: string;
 		}
 	}
