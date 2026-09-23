@@ -1,0 +1,428 @@
+{
+  "id": "2026-09-23-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-23T19:50:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:00 Berlin / ~7h)",
+  "headline": "US and Iran hold first UNGA talks since June; Russia hits Kyiv with daytime jet drones; Tigray war resumes; Merz reform agenda wobbles; Adobe closes Topaz deal.",
+  "stories": [
+    {
+      "id": "us-iran-unga-talks",
+      "title": "US and Iran hold first talks since June on UNGA sidelines",
+      "topics": [
+        "World",
+        "Middle East",
+        "Diplomacy"
+      ],
+      "weight": "lead",
+      "facts": [
+        "BBC / CNA: first US–Iran shuttle contacts since the June ceasefire unravelled — Iran FM Abbas Araghchi and Trump envoy Steve Witkoff (with Jared Kushner also in the loop) via Qatari mediators at the UN in New York.",
+        "No breakthrough reported; Witkoff called the round “constructive and promising” and said mediators will continue; Iran again demanded an end to US “acts of aggression” and war on all fronts.",
+        "Same day, Trump told the General Assembly he could “annihilate” the Islamic Republic if no deal is reached, while telling reporters the three-hour sideline meeting was “very productive.”",
+        "Context: Hormuz disruption and Houthi pressure keep oil/diesel politics hot ahead of US midterms; Trump said he expects a deal after November’s elections."
+      ],
+      "whyItMatters": "First diplomatic opening in months while coercive rhetoric stays loud — markets and MidEast escalation both hinge on whether shuttle talks stick.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/94af/live/1e4085d0-b714-11f1-8d21-19ad84e0e822.jpg",
+        "alt": "US and Iranian officials meeting context at the United Nations",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/ck62m1631d7po"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ck62m1631d7po",
+          "kind": "article",
+          "time": "2026-09-23T07:45:00+02:00"
+        },
+        {
+          "label": "CNA / Reuters",
+          "url": "https://www.channelnewsasia.com/world/us-iran-talks-hopes-progress-no-concessions-6405111",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "kyiv-daytime-jet-drones",
+      "title": "Russia hits Kyiv with daytime jet drones after Zelenskyy–Trump talks",
+      "topics": [
+        "Europe",
+        "Ukraine",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Al Jazeera / Reuters: rare daytime Kyiv strike with faster high-flying jet drones into early afternoon — ≥2 killed and 30+ injured in the capital; 4 more killed in a Donetsk village (6 dead total).",
+        "Targets included railway infrastructure, warehouses, petrol stations (Ukrnafta), a business centre and a nine-storey non-residential building; Zelenskyy said many drones were jet-powered.",
+        "Hours after Zelenskyy–Trump UNGA talks on a possible bilateral energy-target ceasefire and more Patriots — no deal; Peskov said there are still no grounds for Ukraine peace talks ahead of Rubio–Lavrov."
+      ],
+      "whyItMatters": "Daytime jet-drone tactics and energy-infra hits undercut the ceasefire talk track just as UNGA diplomacy peaks.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab3bf3ad931-1790164794.jpg?resize=1920%2C1440",
+        "alt": "Smoke over Kyiv after a Russian air attack on September 23, 2026",
+        "credit": "Al Jazeera / AFP",
+        "creditUrl": "https://www.aljazeera.com/news/2026/09/23/russian-drone-strikes-target-kyiv-infrastructure-after-zelenskyy-trump-talk"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/09/23/russian-drone-strikes-target-kyiv-infrastructure-after-zelenskyy-trump-talk",
+          "kind": "article",
+          "time": "2026-09-23T18:00:00+02:00"
+        },
+        {
+          "label": "CBC / Reuters",
+          "url": "https://www.cbc.ca/news/world/unga-zelenskyy-rubio-lavrov-russia-ukraine-war-9.7354849",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "tigray-war-resumes",
+      "title": "Tigray says it has entered a “defensive war” as fighting spreads",
+      "topics": [
+        "World",
+        "Africa"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Reuters / CNN: Tigray regional authorities said Wednesday their forces entered a “defensive war” against federal troops — shattering the 2022 Pretoria peace deal after months of rising tension.",
+        "Tigrayan forces seized federally controlled airports in Mekelle (and reportedly Axum/Shire); Ethiopian Airlines suspended flights to all three.",
+        "Fighting reported in Afar and Amhara; Abiy adviser Getachew Reda accused the TPLF of an “all out offensive.” Sunday’s TPLF alliance with six other armed groups frames the escalation."
+      ],
+      "whyItMatters": "A return to northern Ethiopia war risks a wider Red Sea–Horn spillover just as regional energy and shipping stress is already high.",
+      "image": {
+        "url": "https://media.cnn.com/api/v1/images/stellar/prod/2026-09-21t102801z-1260821133-rc29q1atm3xs-rtrmadp-3-ethiopia-security.jpg?c=16x9",
+        "alt": "File photo of Mekelle cityscape in Ethiopia’s Tigray region",
+        "credit": "CNN / Reuters",
+        "creditUrl": "https://www.cnn.com/2026/09/23/africa/tigray-ethiopia-fighting-erupts-intl"
+      },
+      "sources": [
+        {
+          "label": "CNN",
+          "url": "https://www.cnn.com/2026/09/23/africa/tigray-ethiopia-fighting-erupts-intl",
+          "kind": "article",
+          "time": "2026-09-23T14:47:00+02:00"
+        },
+        {
+          "label": "ThePrint / Reuters",
+          "url": "https://theprint.in/world/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts/3051228/",
+          "kind": "article",
+          "time": "2026-09-23T14:30:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "merz-reform-pressure",
+      "title": "Merz reform agenda under pressure after state-election shock",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Reuters: after heavy CDU/SPD losses in eastern states and Berlin, pressure mounts to water down Merz’s tax/pensions/health reform package — SPD paper calls for a German “New Deal,” not “carrying on as normal.”",
+        "Open fight over scrapping “Rente mit 63” (full pension at 63 after 45 contribution years); eastern premiers from both parties want that change dropped.",
+        "Tagesschau: Union caucus grumbled but no revolt; overnight crisis summit on pensions/care/health produced no breakthrough after ~4 hours. AfD polling near 30% nationally keeps the squeeze on."
+      ],
+      "whyItMatters": "Europe’s largest economy may delay structural reforms just as investors need a clearer policy path — and coalition frictions are now public.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/656869a8-b020-4e28-b24b-a2b72411208e/AAABoMut700/AAABnSSvrFg/16x9-big/friedrich-merz-510.jpg?width=1280",
+        "alt": "German Chancellor Friedrich Merz",
+        "credit": "tagesschau.de",
+        "creditUrl": "https://www.tagesschau.de/inland/innenpolitik/merz-unionsfraktion-100.html"
+      },
+      "sources": [
+        {
+          "label": "BILD",
+          "url": "https://www.bild.de/politik/inland/renten-pflege-und-gesundheitsreform-koalition-findet-keinen-kurs-6ab2384778c3aee053a3c99a",
+          "kind": "article",
+          "time": "2026-09-23T08:18:00+02:00"
+        },
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/merz-unionsfraktion-100.html",
+          "kind": "article",
+          "time": "2026-09-23T07:13:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "adobe-topaz-closes",
+      "title": "Adobe completes Topaz Labs acquisition — brand stays standalone",
+      "topics": [
+        "Tech",
+        "Photo",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Adobe blog (Sep 23): closes Topaz Labs deal; Topaz remains a standalone brand with apps/models still available; CEO Eric Yang joins Adobe’s Digital Video and Audio team.",
+        "Forbes / SEC 10-Q trail: purchase price about $340M primarily cash; Adobe frames deeper Creative Cloud integration (archival restore, low-light, AI-video upscaling) as coming “soon.”",
+        "Topaz already surfaces in Firefly/Photoshop; Neurostream keeps on-device or cloud processing options."
+      ],
+      "whyItMatters": "A clear consolidation play in AI enhancement — photographers and video editors should watch licensing and whether perpetual Topaz tools stay independent of Creative Cloud.",
+      "image": {
+        "url": "https://blog.adobe.com/en/publish/2026/09/23/media_1442ea3699b2ecf6a2b0e8c31b33b8795cc75f01e.png?width=1200&format=pjpg&optimize=medium",
+        "alt": "Adobe announcement graphic for the Topaz Labs acquisition",
+        "credit": "Adobe",
+        "creditUrl": "https://blog.adobe.com/en/publish/2026/09/23/adobe-completes-acquisition-of-topaz-labs"
+      },
+      "sources": [
+        {
+          "label": "Adobe Blog",
+          "url": "https://blog.adobe.com/en/publish/2026/09/23/adobe-completes-acquisition-of-topaz-labs",
+          "kind": "primary",
+          "time": "2026-09-23T17:00:00+02:00"
+        },
+        {
+          "label": "Forbes",
+          "url": "https://www.forbes.com/sites/dbloom/2026/09/23/adobe-closes-topaz-labs-deal-adds-ai-video--image-enhancement-tools/",
+          "kind": "article",
+          "time": "2026-09-23T17:00:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/23/adobe-completes-acquisition-of-topaz-labs-and-says-topaz-will-remain-its-own-brand/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Google: Gemini 3.8 Flash TTS + Flash-Lite TTS ship — prompt-designed voices, 30s voice replication with consent check, 2,000+ presets; rolling out in AI Studio / Gemini API (Vids & Enterprise follow).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: Bundestag plans its own AI chatbot by end-2026 (12-month pilot) to curb “Schatten-KI” — transcription, drafting help, citizen-mail triage; no fully AI-written speeches, per Vizepräsidentin Lindholz.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Kyiv Independent: Rubio says the US will invite Putin to the December G20 in Miami after meeting Lavrov at UNGA — “hope that’s an invitation he’ll accept.”",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "OpenAI Status: elevated ChatGPT errors for Plus/Pro ~09:13–09:54 UTC fully recovered.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "golem: Bundesnetzagentur says fibre Open Access barely works in Germany so far as it floats a pricing formula.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+          "kind": "primary",
+          "time": "2026-09-23T15:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Bundestags-KI-Eigener-Chatbot-soll-Schatten-KI-im-Parlament-abloesen-11463718.html",
+          "kind": "article",
+          "time": "2026-09-23T18:31:00+02:00"
+        },
+        {
+          "label": "Kyiv Independent",
+          "url": "https://kyivindependent.com/putin-to-be-invited-to-g20-summit-in-miami-rubio-reveals/",
+          "kind": "article",
+          "time": "2026-09-23T18:25:00+02:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M36RMC01ZFWQ861WYJKC4XE1",
+          "kind": "primary",
+          "time": "2026-09-23T11:54:00+02:00"
+        },
+        {
+          "label": "golem.de",
+          "url": "https://www.golem.de/news/glasfaser-bundesnetzagentur-stellt-preisformel-fuer-open-access-vor-2609-213370.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "ESPN / Sportsnet: Stephen Curry (1yr/$62.6M left; eligible for up to 2yr/$136.7M) says “no drama” on Warriors extension options — he’ll decide when ready; wants to finish career in Golden State.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "bvb.de: DFB-Pokal R2 vs Werder Bremen set for Tue 27 Oct 20:45 at SIGNAL IDUNA PARK — member pre-sale Fri 25 Sep 12:00 (max 6); general sale Mon 28 Sep.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "49ers: Week 3 Cardinals broadcast/listen guides posted ahead of the matchup (practice-squad Cooks note already in afternoon).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Sportsnet",
+          "url": "https://www.sportsnet.ca/nba/article/warriors-stephen-curry-on-contract-status-no-drama/",
+          "kind": "article",
+          "time": "2026-09-23T18:40:00+02:00"
+        },
+        {
+          "label": "bvb.de",
+          "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/9/23/Pokalkracher-unter-Flutlicht-Alle-Ticketinfos-fuer-das-Spiel-gegen-Werder-Bremen.html",
+          "kind": "primary",
+          "time": "2026-09-23T12:00:00+02:00"
+        },
+        {
+          "label": "49ers.com",
+          "url": "https://www.49ers.com/news/ways-to-watch-and-listen-cardinals-vs-49ers-week-3",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: how to run ~1,000 AI agents overnight from your phone while offline.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Design Better Podcast: OpenAI designer Blaine Billingsley on the collaboration problem AI hasn’t solved.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Papers With Backtest: giving an AI agent access to 5,000 backtests — what it found.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/run-ai-agents-overnight-from-your-phone",
+          "kind": "article"
+        },
+        {
+          "label": "Design Better Podcast",
+          "url": "https://designbetterpodcast.com/p/blaine-billingsley",
+          "kind": "article"
+        },
+        {
+          "label": "Papers With Backtest",
+          "url": "https://blog.paperswithbacktest.com/p/i-gave-an-ai-agent-access-to-5000",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN (~509): “Jev in 25 Lines of Python” — tiny local LLM-judge pattern (discussion thread).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Radicle discloses critical network-protocol flaws (cleartext transport + broken peer auth); stop using private repos over the network until a breaking major fix lands.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "GNOME blog: “The GNOME LLM Policy That I Want” — Lobsters (~37).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN (~368): Claude Code was reading AGENTS.md only when telemetry was on — now fixed.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "SvelteKit merged PR #17125: reject query params beginning with `x-sveltekit-` (breaking).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49812769",
+          "kind": "article"
+        },
+        {
+          "label": "Radicle",
+          "url": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol/",
+          "kind": "primary",
+          "time": "2026-09-23T12:00:00+02:00"
+        },
+        {
+          "label": "GNOME blogs",
+          "url": "https://blogs.gnome.org/alatiera/2026/09/23/the-gnome-llm-policy-that-i-want/",
+          "kind": "article",
+          "time": "2026-09-23T12:00:00+02:00"
+        },
+        {
+          "label": "szypowi.cz",
+          "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on",
+          "kind": "article"
+        },
+        {
+          "label": "sveltejs/kit#17125",
+          "url": "https://github.com/sveltejs/kit/pull/17125",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
