@@ -1,0 +1,390 @@
+{
+  "id": "2026-09-23-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-23T13:09:46+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin / ~5h)",
+  "headline": "NATO jets scramble in Poland and Romania as Russia hits Ukraine; EU unlocks €4.2bn for Hungary; DJI Bluetooth CVE hits 16 drone models; German entry-level IT jobs down ~77% since 2022.",
+  "stories": [
+    {
+      "id": "nato-scramble-poland-romania",
+      "title": "NATO jets scramble in Poland and Romania as Russia strikes Ukraine",
+      "topics": [
+        "World",
+        "Europe",
+        "Ukraine"
+      ],
+      "weight": "lead",
+      "facts": [
+        "ABC News: overnight Russia launched 161 drones (82 jet-powered) plus Banderol cruise missiles into Ukraine; air defenses intercepted/suppressed 119 drones and three cruise missiles; impacts at 18 locations.",
+        "Poland’s Armed Forces Operational Command: fighters scrambled “to ensure safety” over jet-powered UAV strikes on western Ukraine; alert ~1 hour; no Polish airspace violation recorded.",
+        "Romania MoD / AGERPRES: two F-16s from Borcea scrambled after radar tracked a target NE of Vylkove (Ukraine) near the border; RO-Alert to northern Tulcea; later “no incursions into national airspace.”",
+        "Kyiv mayor Klitschko: 1 killed and 7 injured in the capital overnight; SES also reported injuries in Zaporizhzhia, Zhytomyr, and Kharkiv regions."
+      ],
+      "whyItMatters": "Allied air policing along NATO’s eastern flank remains on a hair-trigger as Russia’s overnight drone/missile waves brush the Polish and Romanian borders.",
+      "image": {
+        "url": "https://i.abcnewsfe.com/a/d01f2c24-5582-49e7-9eb3-0128d5591895/Russia-strikes-DB-260923_1790149843645_hpMain_16x9.jpg?w=1600",
+        "alt": "Aftermath imagery tied to overnight Russian strikes on Ukraine",
+        "credit": "ABC News",
+        "creditUrl": "https://abcnews.com/International/nato-jets-scrambled-poland-romania-russia-strikes-ukraine/story?id=136675492"
+      },
+      "sources": [
+        {
+          "label": "ABC News",
+          "url": "https://abcnews.com/International/nato-jets-scrambled-poland-romania-russia-strikes-ukraine/story?id=136675492",
+          "kind": "article",
+          "time": "2026-09-23T10:07:00+02:00"
+        },
+        {
+          "label": "AGERPRES",
+          "url": "https://agerpres.ro/english/2026/09/23/defence-ministry-aerial-target-detected-near-romanian-border-two-f-16s-scrambled-to-monitor-situatio--1596052",
+          "kind": "primary",
+          "time": "2026-09-23T07:45:42+03:00"
+        }
+      ]
+    },
+    {
+      "id": "eu-hungary-cohesion-unlock",
+      "title": "EU unlocks €4.2bn for Hungary and reopens Erasmus+ / Horizon",
+      "topics": [
+        "Europe",
+        "EU",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Euronews: Commission proposes unlocking €4.2bn in previously frozen cohesion funds after judging Budapest met rule-of-law conditions; also reopens Erasmus+ and Horizon Europe to Hungarian students/researchers.",
+        "Funds were suspended in 2022 (~€6.3bn under the conditionality mechanism) over anti-corruption, conflicts of interest, and procurement under Orbán.",
+        "Von der Leyen: “Hungary has taken important steps to strengthen the rule of law… Today, we are proposing to unlock €4.2 billion.”",
+        "May deal with PM Péter Magyar envisioned up to €16.4bn contingent on 27 “super milestones”; ~€2bn cohesion still blocked (asylum, child protection, academic freedom); €10bn recovery-fund request still under assessment."
+      ],
+      "whyItMatters": "Brussels is cashing in Magyar’s post-Orbán reform checklist — a rare unfreeze that also reopens EU research and exchange programmes to Hungary.",
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/92/42/78/1200x675_cmsv2_666dc092-9d3c-587c-8e18-1f581bc3959c-9924278.jpg",
+        "alt": "Ursula von der Leyen and Péter Magyar at EU headquarters",
+        "credit": "Euronews",
+        "creditUrl": "https://www.euronews.com/2026/09/23/von-der-leyen-says-hungary-strengthened-rule-of-law-unlocks-42bn-in-eu-funding"
+      },
+      "sources": [
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/2026/09/23/von-der-leyen-says-hungary-strengthened-rule-of-law-unlocks-42bn-in-eu-funding",
+          "kind": "article",
+          "time": "2026-09-23T10:53:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dji-bluetooth-cve-2026-78306",
+      "title": "CVE-2026-78306: unauthenticated DJI Bluetooth DUML on 16 drone models",
+      "topics": [
+        "Security",
+        "Hardware"
+      ],
+      "weight": "normal",
+      "facts": [
+        "CVE-2026-78306 (CIRCL): unauthenticated DUML over Bluetooth — in-range attacker can change Wi-Fi SSID/PSK/MAC/country/channel, disable/restart radios, disconnect clients, or reset wireless config.",
+        "Overwrite Wi-Fi PSK → join the drone’s internal Wi-Fi and potentially reach flight-control interfaces; DoS can cut operator control/video/telemetry mid-flight.",
+        "Affected (until fixed firmware): Neo, Neo 2, Flip, Air 3/3S, Avata 2/360, Mavic 3 / Classic / Pro / 4 Pro, Mini 2 / 3 / 3 Pro / 4 Pro / 5 Pro — remediation is a vendor firmware update.",
+        "Golem.de amplifies the advisory for German readers today; mid-air full takeover was not demonstrated as a completed PoC in the public summaries."
+      ],
+      "whyItMatters": "Consumer DJI fleets that skip firmware updates can be disrupted — or worse — by anyone close enough for Bluetooth.",
+      "image": null,
+      "sources": [
+        {
+          "label": "CVE-2026-78306",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-78306",
+          "kind": "primary"
+        },
+        {
+          "label": "GitHub Advisory GHSA-vq46-xr65-w8q7",
+          "url": "https://github.com/advisories/GHSA-vq46-xr65-w8q7",
+          "kind": "primary"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/per-bluetooth-exploit-laesst-angreifer-dji-drohnen-mitten-im-flug-kapern-2609-213353.html",
+          "kind": "article",
+          "time": "2026-09-23T12:48:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "de-entry-jobs-indeed",
+      "title": "German entry-level job postings down ~⅔ since 2022 — IT −77%",
+      "topics": [
+        "Germany",
+        "Jobs",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Tagesschau/Indeed: entry-level job ads since the 2022 peak are down about two-thirds; overall ads fell ~39% — newcomers hit harder than the market.",
+        "heise: IT applications/solutions −77% (steepest of 28 groups); marketing −75%; project management −60%; only care/pharma (+18%) and food/hospitality (+10%) rose.",
+        "Indeed economist Virginia Sondergeld: risk of a cohort starting with unemployment; decline began summer 2022 — “before ChatGPT” — so a clean AI-displacement signal isn’t in the data yet.",
+        "Apprenticeships (incl. dual study) look more resilient than graduate entry roles; Eurostat youth unemployment 2025 ~7.1%."
+      ],
+      "whyItMatters": "Germany’s soft economy is rationing junior seats first — especially in knowledge/IT roles — even while apprenticeships hold up better.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/94c9afc1-7b26-46e2-8320-53ec99eeb8c3/AAABm8BrXLo/AAABnSSvrFg/16x9-big/buergergeld-214.jpg?width=1280",
+        "alt": "Tagesschau coverage of shrinking entry-level job offers",
+        "credit": "tagesschau.de",
+        "creditUrl": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/stellenangebot-junge-berufseinsteiger-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau.de",
+          "url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/stellenangebot-junge-berufseinsteiger-100.html",
+          "kind": "article",
+          "time": "2026-09-23T10:11:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Arbeitslos-zum-Berufsstart-Drastisch-weniger-Einstiegsjobs-fuer-ITler-11463046.html",
+          "kind": "article",
+          "time": "2026-09-23T12:22:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dram-die-value-vs-logic",
+      "title": "DRAM die value now tops leading-edge logic on a $/mm² basis",
+      "topics": [
+        "Hardware",
+        "AI",
+        "Markets"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Tom’s Hardware (Anton Shilov, Sep 22): Kurnal Insights estimates 1b DRAM at ~$0.654/mm² vs assumed TSMC N2 wafer ~$0.424/mm² and N3 ~$0.283/mm² (nominal wafer-area math).",
+        "Assumption ~$1.50/Gb DRAM; DRAMeXchange Sep 21 session-average 16Gb DDR5 eTT $24.80 → ~$1.55/Gb, implying ~$0.676/mm² for 1b density.",
+        "Caveat: N2/N3 figures are estimated foundry wafer prices; DRAM figures are selling value of bits — not fab cost — and ignore packaging/yield; TrendForce notes DDR5 spot deals remain thin."
+      ],
+      "whyItMatters": "AI memory scarcity is so extreme that memory makers can extract more revenue per square millimeter than cutting-edge logic wafers — with the usual apples-to-oranges caveats.",
+      "image": {
+        "url": "https://cdn.mos.cms.futurecdn.net/mVEGUNr4j5GaFJZjRyhfk3-1920-80.png",
+        "alt": "DRAM versus compute silicon value illustration",
+        "credit": "Tom's Hardware",
+        "creditUrl": "https://www.tomshardware.com/pc-components/dram/dram-is-now-more-expensive-than-compute-chips-on-per-area-basis-ai-demand-drives-memory-die-value-past-leading-edge-silicon"
+      },
+      "sources": [
+        {
+          "label": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/dram/dram-is-now-more-expensive-than-compute-chips-on-per-area-basis-ai-demand-drives-memory-die-value-past-leading-edge-silicon",
+          "kind": "article",
+          "time": "2026-09-22T13:12:35+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "OpenAI Status: elevated ChatGPT errors for Plus/Pro (~09:13–09:54 Berlin) — identified, mitigated, marked resolved.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The Register / noyb: Schrems group says proposed GDPR “AI legitimate interest” tweaks would let AI firms reuse decades of personal data without consent — warns of ECJ challenge.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "CNBC: Trump–Xi summit week — AI-parts demand helped push the U.S.–China goods deficit higher again; businesses mainly hope for a trade-truce extension.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M36RMC01ZFWQ861WYJKC4XE1",
+          "kind": "primary",
+          "time": "2026-09-23T09:54:00+02:00"
+        },
+        {
+          "label": "The Register",
+          "url": "https://www.theregister.com/legal/2026/09/22/privacy-group-slams-eu-for-changing-the-data-rules-to-cater-to-ai/5298175",
+          "kind": "article",
+          "time": "2026-09-22T18:30:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
+          "kind": "article",
+          "time": "2026-09-23T11:13:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "ESPN / Schefter: free-agent WR Brandin Cooks (32) signing to the 49ers practice squad after Pearsall, Stribling, and Robinson injuries; Mike Evans managed with a hip issue.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: Koutsidis and Hoti each with a thigh muscle-fiber tear; Urbich capsule injury in the toe joint — club outlines return-to-training windows before Kiel.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Eintracht: away-ticket pre-sale info for the Oct 17 trip to SpVgg Greuther Fürth published this morning.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/50008765/niners-signing-veteran-receiver-cooks-practice-squad",
+          "kind": "article",
+          "time": "2026-09-23T00:03:00+02:00"
+        },
+        {
+          "label": "Eintracht Braunschweig",
+          "url": "https://www.eintracht.com/news/artikel/das-sind-die-diagnosen-bei-koutsidis-hoti-und-urbich",
+          "kind": "primary",
+          "time": "2026-09-22T16:58:00+02:00"
+        },
+        {
+          "label": "Eintracht Braunschweig",
+          "url": "https://www.eintracht.com/news/vorverkaufsinfos-zum-auswaertsspiel-in-fuerth",
+          "kind": "primary",
+          "time": "2026-09-23T09:38:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Five Minute Reads: Huberman “Protocols” stack — 21-day routine built from two printed protocols.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Five Minute Reads",
+          "url": "https://fiveminutereads1.substack.com/p/huberman-prints-2-protocols-twice",
+          "kind": "article",
+          "time": "2026-09-23T05:32:43+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Lobsters: Linebender ships fearless_simd v1.0 — safe portable SIMD / intrinsics for Rust, plus fearless_simd_macros #[simd]; 3-year security updates promised.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Merged: vitejs/vite#23543 — create-vite adds router-only options for TanStack Router/Start.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Merged: oven-sh/bun#43784 — orderfile tracing for compiled-app workloads + symbol hints (Jarred Sumner).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Infisical blog: rebuilt complex CASL/folder RBAC without a Zanzibar migration.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "DEV.to: “My CI hadn’t run a single one of those tests in two months and stayed green the whole time.”",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/d4f61ccde2095cc133f3c175b16c2efa3dc68adc29051fafa362ec6fe582996e/vitejs/vite/pull/23543",
+        "alt": "Selecting \"TanStack Router\" from vite create will create a full framework TanStack Start app. Appends --router-only to the TanStack CLI npm command for the \"TanStack Router\" op...",
+        "credit": "vitejs/vite#23543",
+        "creditUrl": "https://github.com/vitejs/vite/pull/23543"
+      },
+      "sources": [
+        {
+          "label": "Linebender",
+          "url": "https://linebender.org/blog/fearless-simd-1-0/",
+          "kind": "article",
+          "time": "2026-09-22T14:10:21+02:00"
+        },
+        {
+          "label": "Lobsters",
+          "url": "https://lobste.rs/s/wx3qsm/fearless_simd_v1_0_is_here",
+          "kind": "article"
+        },
+        {
+          "label": "vitejs/vite#23543",
+          "url": "https://github.com/vitejs/vite/pull/23543",
+          "kind": "primary",
+          "time": "2026-09-23T08:52:57+02:00"
+        },
+        {
+          "label": "oven-sh/bun#43784",
+          "url": "https://github.com/oven-sh/bun/pull/43784",
+          "kind": "primary",
+          "time": "2026-09-23T02:15:57+02:00"
+        },
+        {
+          "label": "Infisical",
+          "url": "https://infisical.com/blog/folder-based-rbac",
+          "kind": "article"
+        },
+        {
+          "label": "DEV.to",
+          "url": "https://dev.to/juanauriti/my-ci-hadnt-run-a-single-one-of-those-tests-in-two-months-and-stayed-green-the-whole-time-n15",
+          "kind": "article",
+          "time": "2026-09-23T13:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
