@@ -1,0 +1,373 @@
+{
+  "id": "2026-09-23-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-23T08:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h; last evening ~19:00 Berlin)",
+  "headline": "OpenAI ships GPT-6 Sol and Luna at half prior API prices; ShinyHunters claims FBI employee data theft; SF sues Truth Social over paid early access to Trump posts.",
+  "stories": [
+    {
+      "id": "gpt-6-sol-luna",
+      "title": "OpenAI expands GPT-6 with Sol and Luna — 50% cheaper API tiers",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "facts": [
+        "OpenAI launched GPT-6 Sol (coding/agentic) and GPT-6 Luna (fast, high-volume tasks), building on GPT-6 Astra with lower cost and higher usage limits.",
+        "API list prices cut 50% vs GPT-5.6 promos: Sol $2/$10 and Luna $0.10/$0.50 per 1M input/output tokens; company cites caching and inference gains.",
+        "OpenAI says Sol makes ~half as many factual mistakes as its predecessor on an internal real-conversation eval, approaching Astra-level reliability at lower cost.",
+        "Available now as gpt-6-sol / gpt-6-luna in the API and in ChatGPT Work + Codex for Plus/Pro/Business/Enterprise/Edu; Free/Go get Luna in the desktop app; Chat rollout gradual.",
+        "TechCrunch notes Anthropic’s Claude Opus 5.5 landed ~90 minutes earlier — the overnight HN thread (~1.4k points) treats the pair as a same-evening model race."
+      ],
+      "whyItMatters": "After evening’s Opus 5.5 lead, OpenAI’s cheaper GPT-6 mid-tier models are the clear overnight follow-through for builders watching cost-per-task, not just frontier benchmarks.",
+      "image": {
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?w=1600&h=900&fit=fill",
+        "alt": "GPT-6 Sol and Luna, with a glowing sun and crescent moon against a dark star-filled sky.",
+        "credit": "OpenAI",
+        "creditUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+      },
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "kind": "primary",
+          "time": "2026-09-22T20:00:00+02:00"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+          "kind": "article",
+          "time": "2026-09-22T20:00:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/sol-und-luna-openai-gpt-6-soll-viel-genauer-und-halb-so-teuer-sein-2609-213332.html",
+          "kind": "article",
+          "time": "2026-09-23T07:44:02+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49805509",
+          "kind": "article"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "fbi-shinyhunters",
+      "title": "ShinyHunters claim FBI employee/applicant data dump; bureau investigating FBIjobs.gov",
+      "topics": [
+        "Security",
+        "US"
+      ],
+      "facts": [
+        "ShinyHunters told 404 Media it breached FBI-related systems and holds data “on all FBI employees and applicants,” sharing a ~5,000-record sample (names, addresses, phones, DOBs; some spouse fields).",
+        "Group claims an Oracle PeopleSoft zero-day path into AWS GovCloud and 2–3 TB exfiltrated; apply.fbijobs.gov was defaced and the Special Agent Applicant Portal showed unavailable.",
+        "FBI (via CNN): aware of unauthorized-activity claims affecting FBIjobs.gov and investigating — has not publicly verified full dump scope or authenticity.",
+        "404 Media says some sample fields matched real people; CNN reports the FBI is investigating unauthorized activity on FBIjobs.gov without confirming the dump’s full scope."
+      ],
+      "whyItMatters": "If even partially real, a personnel PII breach at this scale is a counterintelligence and agent-safety problem — not just another website defacement.",
+      "image": {
+        "url": "https://www.bleepstatic.com/content/hl-images/2022/12/16/FBI__headpic.jpg",
+        "alt": "FBI",
+        "credit": "BleepingComputer",
+        "creditUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/"
+      },
+      "sources": [
+        {
+          "label": "404 Media",
+          "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+          "kind": "article",
+          "time": "2026-09-22T21:48:00+02:00"
+        },
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://www.cnn.com/2026/09/22/politics/fbi-investigating-stolen-agents-data-hackers",
+          "kind": "article",
+          "time": "2026-09-23T03:25:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49805278",
+          "kind": "article"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "sf-truth-api-lawsuit",
+      "title": "San Francisco sues Truth Social parent over paid early access to Trump posts",
+      "topics": [
+        "US",
+        "Tech",
+        "Markets"
+      ],
+      "facts": [
+        "SF City Attorney David Chiu sued Trump Media (Sep 22) alleging Truth API sells firms a ~50 ms head start on market-moving Truth posts for up to $100k/month.",
+        "Complaint says the feed covers the platform’s ten most influential accounts — including Trump and other White House officials — and that Trump remains the largest shareholder (~41% via trust).",
+        "City cites examples after Truth API went live Aug 1 (e.g., Iran-strike call-off moving oil; tariff-free ground-beef post moving cattle futures) and seeks an injunction plus UCL civil penalties.",
+        "heise flagged the case overnight for German readers as “Echtzeitzugriff” on Trump posts."
+      ],
+      "whyItMatters": "Turns a social product into an alleged pay-to-play wire for presidential market information — and puts a major US city on the plaintiff side.",
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13102391/1032340378.jpg.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200",
+        "alt": "President Trump Attends Congressional Medal Of Honor Society Reception",
+        "credit": "The Verge",
+        "creditUrl": "https://www.theverge.com/tech/998914/trump-truth-social-api-lawsuit-san-francisco"
+      },
+      "sources": [
+        {
+          "label": "SF City Attorney",
+          "url": "https://www.sf.gov/news-sf-city-attorney-sues-truth-social-for-enabling-insider-trading-by-selling-early-access-to-trump-posts",
+          "kind": "primary",
+          "time": "2026-09-22T00:00:00+02:00"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/998914/trump-truth-social-api-lawsuit-san-francisco",
+          "kind": "article",
+          "time": "2026-09-22T19:43:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Echtzeitzugriff-auf-Trumps-Beitraege-San-Francisco-klagt-gegen-Truth-Social-11462554.html",
+          "kind": "article",
+          "time": "2026-09-23T07:43:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "alibaba-zhenwu-v900",
+      "title": "Alibaba unveils Zhenwu V900 chip and multi-trillion-parameter model plans",
+      "topics": [
+        "Tech",
+        "China",
+        "AI"
+      ],
+      "facts": [
+        "At its Hangzhou Apsara conference (Tue), Alibaba CEO Eddie Wu called the new Zhenwu V900 “the most powerful AI chip in China today,” claiming ~3× the prior Zhenwu M890.",
+        "Company said it plans to train a next model at 5–10 trillion parameters; current flagship Qwen3.8-Max is listed at 2.4 trillion.",
+        "Alibaba also guided to >20 GW of cloud/AI compute capacity by 2032, citing exponential demand and supply-chain constraints on how fast it can scale.",
+        "AP notes the unveil comes days ahead of Xi’s Washington visit with Trump, where AI competition is expected on the agenda."
+      ],
+      "whyItMatters": "Another mainland self-reliance signal on chips and scale — timed for the US–China leadership meeting window.",
+      "image": null,
+      "sources": [
+        {
+          "label": "NBC News / AP",
+          "url": "https://www.nbcnews.com/world/asia/china-alibaba-unveils-powerful-chip-ambitious-ai-model-plans-rcna599343",
+          "kind": "article",
+          "time": "2026-09-23T06:08:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "pentagon-maven-minab",
+      "title": "Bloomberg: Pentagon probe ties Minab school strike to stale intel + AI overreliance",
+      "topics": [
+        "Security",
+        "AI",
+        "US"
+      ],
+      "facts": [
+        "Pentagon review officials told Bloomberg that stale intel, outdated imagery, rushed timelines, thin civilian-harm staffing, and overreliance on Palantir’s Maven contributed to the Feb 28 Minab school strike.",
+        "Reporting says two Tomahawks hit Shajarah Tayyebeh Elementary; death tolls cited around 123 children / 150+ total (UN-backed fact-finding has separately discussed war-crimes findings on February Iran strikes).",
+        "Some Centcom personnel reportedly expected Maven to flag stale or contradictory data; Palantir told Bloomberg it is “not responsible for the underlying data” and denies evidence its software was at fault.",
+        "Story resurged overnight on HN (~557 points) even though the Bloomberg investigation landed earlier in the week — still absent from yesterday’s evening brief."
+      ],
+      "whyItMatters": "Puts a concrete kill-chain failure next to the same AI-targeting stack the Pentagon has been racing to standardize.",
+      "image": {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/4156a59/2147483647/strip/true/crop/8640x4536+0+612/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F5b%2F78%2F753274554771b9ec9927125415f5%2Fap26248454088818.jpg",
+        "alt": "A woman walks at the graveyard of the school children who were killed after their school was a hit by a strike on Feb. 28, in town of Minab in southern Iran, Saturday, Sept. 5, 2026. (AP Photo/Vahid Salemi)",
+        "credit": "Los Angeles Times",
+        "creditUrl": "https://www.latimes.com/world-nation/story/2026-09-21/inside-u-s-kill-chain-that-destroyed-iranian-school"
+      },
+      "sources": [
+        {
+          "label": "Los Angeles Times",
+          "url": "https://www.latimes.com/world-nation/story/2026-09-21/inside-u-s-kill-chain-that-destroyed-iranian-school",
+          "kind": "article",
+          "time": "2026-09-21T00:00:00+02:00"
+        },
+        {
+          "label": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/americas/us-strike-on-iranian-school-stemmed-from-stale-intelligence-ai-overreliance-report/4061675",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49806430",
+          "kind": "article"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "Crypto Cellar: GPT-6 Astra autonomously broke WWII Enigma message MVUEH (unsolved since 2005) — wrote simulator/bombe code and used a ROSENOW crib; page updated Sep 19, huge overnight HN (~625).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Golem: Apple rumored to be working on a Whoop-style fitness band competitor.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "NASA-funded research: complex life documented surviving record heat conditions (planetary-science note).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "sport.de / Sport Bild: BVB expected to move on a Kovac extension in October after Geschaeftsfuehrer papers are renewed — not signed yet.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/astrobiology/research-images/icas_SEM.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+        "alt": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+        "credit": "NASA",
+        "creditUrl": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/"
+      },
+      "sources": [
+        {
+          "label": "Crypto Cellar Research",
+          "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+          "kind": "primary",
+          "time": "2026-09-19T10:41:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49801324",
+          "kind": "article"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/fitness-armband-apple-soll-an-whoop-konkurrenten-arbeiten-2609-213333.html",
+          "kind": "article",
+          "time": "2026-09-23T07:35:02+02:00"
+        },
+        {
+          "label": "NASA",
+          "url": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/",
+          "kind": "primary",
+          "time": "2026-09-22T19:33:10+02:00"
+        },
+        {
+          "label": "sport.de",
+          "url": "https://www.sport.de/news/ne17177980/schnelle-kovac-entscheidung-beim-bvb/",
+          "kind": "article",
+          "time": "2026-09-23T07:57:00+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Lobsters (~32): No Sloptober — a month-long “no AI slop” pledge site.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "oven-sh/bun: several overnight merges (#43820 macOS orderfile signals, #43822 bundler chunk output, #43724 vm importModuleDynamically lifetime).",
+          "sourceIndexes": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Lobsters: “tokens too cheap to meter” essay on collapsing inference economics.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "microsoft/TypeScript overnight: lazy diagnostic map speedup (#64402) + tsconfig plugin parse API (#64397).",
+          "sourceIndexes": [
+            5,
+            6
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://no-sloptober.com/images/no-sloptober-final.png",
+        "alt": "When you see this logo on any artwork, whether painting, poetry, or prose, you know that it was made by a human just like you The Brainmade mark can be attached to any work made mostly by you or your friends, not generative tools like GPT. It’s not anti-AI, it is a positive mark that celebrates human creation. It’s not AI = bad, it’s human = good. There’s something transcendent and magical in knowing a human made the artwork I’m consuming, knowing they tried hard is part of the experience. It doesn’t have to be 100% human made (what would that even MEAN these days?), perhaps 90% human made. I don’t hate AIs, I love humans!",
+        "credit": "no-sloptober.com",
+        "creditUrl": "https://no-sloptober.com/"
+      },
+      "sources": [
+        {
+          "label": "no-sloptober.com",
+          "url": "https://no-sloptober.com/",
+          "kind": "article"
+        },
+        {
+          "label": "bun#43820",
+          "url": "https://github.com/oven-sh/bun/pull/43820",
+          "kind": "primary",
+          "time": "2026-09-23T05:11:02+02:00"
+        },
+        {
+          "label": "bun#43822",
+          "url": "https://github.com/oven-sh/bun/pull/43822",
+          "kind": "primary",
+          "time": "2026-09-23T05:08:25+02:00"
+        },
+        {
+          "label": "bun#43724",
+          "url": "https://github.com/oven-sh/bun/pull/43724",
+          "kind": "primary",
+          "time": "2026-09-23T04:43:18+02:00"
+        },
+        {
+          "label": "jyn.dev",
+          "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+          "kind": "article"
+        },
+        {
+          "label": "TypeScript#64402",
+          "url": "https://github.com/microsoft/TypeScript/pull/64402",
+          "kind": "primary",
+          "time": "2026-09-23T02:48:38+02:00"
+        },
+        {
+          "label": "TypeScript#64397",
+          "url": "https://github.com/microsoft/TypeScript/pull/64397",
+          "kind": "primary",
+          "time": "2026-09-23T02:48:38+02:00"
+        }
+      ],
+      "weight": "brief"
+    }
+  ]
+}
