@@ -1,0 +1,354 @@
+{
+  "id": "2026-09-25-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-25T08:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h)",
+  "headline": "Trump rolls out the red carpet for Xi as Beijing pitches military crisis talks and AI cooperation; Senate keeps Iran war powers with Trump 49–50; Netanyahu’s fiery UNGA sparks mass walkouts; Anthropic seeks founder 50.1% voting control ahead of IPO.",
+  "stories": [
+    {
+      "id": "trump-xi-white-house-summit",
+      "title": "Trump hosts Xi at White House; Xi pitches peace terms and AI cooperation",
+      "topics": [
+        "World",
+        "Diplomacy",
+        "AI",
+        "China"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Thu White House: Xi’s state visit — welcome ceremony, bilateral talks, state dinner with tech CEOs (Altman, Zuckerberg, Huang, Cook, Musk).",
+        "Xi: US–China “gain from cooperation… both lose in confrontation”; militaries should keep regular dialogue and crisis-prevention mechanisms; “Thucydides Trap can be overcome.”",
+        "Also: invite 100,000 young Americans to China over five years; CNBC: Xi urges AI cooperation; Taiwan arms sales remain a Beijing red line (BBC).",
+        "Guardian: trade truce (Bessent) extended toward Feb after South Korea deal; substance still thin vs pageantry — Iran, AI chips, Taiwan unresolved."
+      ],
+      "whyItMatters": "Overnight’s biggest diplomacy print: a full state summit after afternoon’s trade-truce extension — symbolism first, hard files still open.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b040/live/c2a19a30-b893-11f1-bc1f-3f186ca4140c.jpg",
+        "alt": "US President Donald Trump (R) stands on the red carpet with Chinese President Xi Jinping (L) during an arrival ceremony on September 23, 2026 at Joint Base Andrews, Maryland.",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo"
+      },
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap",
+          "kind": "article",
+          "time": "2026-09-25T01:58:00+02:00"
+        },
+        {
+          "label": "CGTN (Xi remarks)",
+          "url": "https://news.cgtn.com/news/2026-09-25/Full-text-Xi-addresses-welcome-ceremony-at-White-House-1QHWGdHGw9i/p.html",
+          "kind": "primary",
+          "time": "2026-09-25T00:00:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html",
+          "kind": "article",
+          "time": "2026-09-25T03:22:00+02:00"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "senate-iran-war-powers-49-50",
+      "title": "Senate rejects Iran war-powers curb 49–50; four GOP defect",
+      "topics": [
+        "US",
+        "Iran",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Thu Senate: concurrent resolution directing Trump to pull US forces from Iran hostilities unless Congress authorizes — fails 49–50 (House passed 214–208 in July).",
+        "Four Republicans yes: Paul, Collins, Murkowski, Tillis. Sole Democrat no: Fetterman (CBS/NBC).",
+        "NBC: symbolic (no presidential signature); 19 US service members dead; Hormuz war zone still lifting fuel/food costs; poll — 62% say war “not worth it.”"
+      ],
+      "whyItMatters": "Midterms six weeks out and most Senate Republicans still refuse even a symbolic curb — while fuel-price politics hit Germany’s Tankrabatt vote the same morning.",
+      "image": {
+        "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-07/260729-centcom-rs-381c25.jpg",
+        "alt": "A plane lands on the USS Boxer in the Arabian Sea",
+        "credit": "NBC News / U.S. Central Command",
+        "creditUrl": "https://www.nbcnews.com/politics/congress/senate-rejects-resolution-calling-end-iran-war-republicans-stick-trump-rcna599624"
+      },
+      "sources": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/politics/congress/senate-rejects-resolution-calling-end-iran-war-republicans-stick-trump-rcna599624",
+          "kind": "article",
+          "time": "2026-09-24T20:40:00+02:00"
+        },
+        {
+          "label": "CBS News",
+          "url": "https://www.cbsnews.com/news/senate-iran-war-powers-resolution-vote/",
+          "kind": "article",
+          "time": "2026-09-24T21:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "netanyahu-unga-walkouts",
+      "title": "Netanyahu’s UNGA speech: mass walkouts, attacks on allies and Mamdani",
+      "topics": [
+        "World",
+        "Middle East",
+        "Israel"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Thu UNGA: Netanyahu defends Iran campaign as one of his “easiest decisions”; claims a “seven-front war”; thanks Trump as unmatched partner.",
+        "SBS/Al Jazeera: ~77 delegations walk out; he brands leavers “moral cowards”; hits UK/France over West Bank sanctions and NYC Mayor Mamdani as “antisemitic.”",
+        "Domestic angle: Oct 27 Israeli election loom; analysts say speech aimed at voters at home as much as the hall (Al Jazeera)."
+      ],
+      "whyItMatters": "Election-season UN theater that hardens Israel’s isolation narrative while Arab-list ban appeals from last night’s brief still hang over the Oct 27 ballot.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab56faa95e4-1790275498.jpg?resize=1920%2C1440",
+        "alt": "Benjamin Netanyahu attacks Israel’s enemies and allies in UN speech",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech",
+          "kind": "article",
+          "time": "2026-09-24T00:00:00+02:00"
+        },
+        {
+          "label": "UN News",
+          "url": "https://news.un.org/en/story/2026/09/1168431",
+          "kind": "primary",
+          "time": "2026-09-24T00:00:00+02:00"
+        },
+        {
+          "label": "SBS",
+          "url": "https://www.sbs.com.au/news/article/netanyahu-united-nations-general-assembly-speech-2026-genocide-israel/q7yqo7jwt",
+          "kind": "article",
+          "time": "2026-09-25T07:01:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-founder-voting-control",
+      "title": "Anthropic seeks 50.1% founder voting control ahead of IPO",
+      "topics": [
+        "Tech",
+        "AI",
+        "Business"
+      ],
+      "weight": "normal",
+      "facts": [
+        "The Information via CNA/Reuters (Thu): Anthropic asks shareholders for a Palantir-style special share class giving Dario Amodei + six co-founders combined 50.1% voting power.",
+        "Control holds while ≥3 of 7 co-founders keep a minimum stake; board elections stay an exception (7 seats, one vacant) — Long-Term Benefit Trust still elects most directors.",
+        "Also planned: employee special stock as tie-breaker on some votes. IPO may slip past Nov midterms; May raise $65B at ~$965B post-money.",
+        "Related overnight: White House (Politico/CNA) asks OpenAI and Anthropic to hold new models from UK AISI until a US security review — after this week’s OpenAI-agent breach headlines."
+      ],
+      "whyItMatters": "Governance rewrite on the eve of a potentially record IPO, plus a US-first safety-testing squeeze on UK partners — both deepen the “who controls frontier AI” fight.",
+      "image": {
+        "url": "https://dam.mediacorp.sg/image/upload/s--11TbeES0--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-09-24T222107Z_2_LYNXMPEM8N200_RTROPTP_3_AI-ANTHROPIC-SAFETY.JPG?itok=M1JFiLnk",
+        "alt": "Anthropic logo illustration",
+        "credit": "CNA / Reuters",
+        "creditUrl": "https://www.channelnewsasia.com/business/anthropic-seeks-501-voting-control-co-founders-ahead-ipo-information-reports-6409566"
+      },
+      "sources": [
+        {
+          "label": "CNA (The Information / Reuters)",
+          "url": "https://www.channelnewsasia.com/business/anthropic-seeks-501-voting-control-co-founders-ahead-ipo-information-reports-6409566",
+          "kind": "article",
+          "time": "2026-09-25T00:23:00+02:00"
+        },
+        {
+          "label": "CNA (Politico)",
+          "url": "https://www.channelnewsasia.com/business/white-house-asks-openai-anthropic-hold-models-british-testers-politico-reports-6409141",
+          "kind": "article",
+          "time": "2026-09-24T19:46:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "tagesschau: Bundestag + Bundesrat due today on Tankrabatt — Energiesteuer −14¢/L (~17¢ with VAT), planned Oct 1–Dec 31; ~€2.5B cost, Länder half; Spritpreisdeckel eyed for Jan 2027.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: US DOJ files to intervene in X’s EU General Court challenges (T-114/26, T-121/26) against the €120M Dec 2025 DSA fine — claims Commission overreach on US firms.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Google: Gemini 3.8 Live with Live Avatar lands in Gemini Enterprise — near-real-time talking avatar, async tools, 97-language lip-sync, SynthID watermark.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/entlastungen-spritpreise-bundestag-100.html",
+          "kind": "article",
+          "time": "2026-09-25T05:22:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/US-Regierung-will-Klage-von-X-gegen-Millionenstrafe-der-EU-beitreten-11465263.html",
+          "kind": "article",
+          "time": "2026-09-25T07:44:00+02:00"
+        },
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+          "kind": "primary",
+          "time": "2026-09-24T17:30:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: playbook from three founders who shipped Claude Managed Agents to production in two weeks.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "ways of seeing things: “I Want a Life That Doesn’t Photograph Well.”",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "How To Think More and Better: “Why Does It Take Me Eight Minutes (on Average) to Write a Sentence?”",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/managed-ai-agents-playbook",
+          "kind": "article",
+          "time": "2026-09-24T17:06:48+02:00"
+        },
+        {
+          "label": "ways of seeing things",
+          "url": "https://waysofseeingthings.substack.com/p/i-want-a-life-that-doesnt-photograph",
+          "kind": "article",
+          "time": "2026-09-24T21:25:10+02:00"
+        },
+        {
+          "label": "How To Think More and Better",
+          "url": "https://morebetterthinking.substack.com/p/why-does-it-take-me-eight-minutes",
+          "kind": "article",
+          "time": "2026-09-24T15:28:36+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Lobsters: SourceHut account takeover via build-log XSS in ansi2html.py — worth a patch check if you host builds.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Go blog: experimental platform-independent SIMD API for Go.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "gultsch.de: Conversations XMPP client goes free after breaking with Google Play billing.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "blog.arusekk.pl",
+          "url": "https://blog.arusekk.pl/posts/srht-account-takeover/",
+          "kind": "article"
+        },
+        {
+          "label": "Go blog",
+          "url": "https://go.dev/blog/simd-experiment",
+          "kind": "primary"
+        },
+        {
+          "label": "gultsch.de",
+          "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB: 17-year-old Christos Kostoglou released mid-season ablösefrei to PAOK Saloniki II (3-year deal) despite closed windows — free-agent path after contract cut (was to 2027).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "49ers: WR Mike Evans another Thursday DNP (hip) ahead of Week 3 vs Cardinals — status still pending Friday report (CBS).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "t-online",
+          "url": "https://www.t-online.de/sport/fussball/id_101451046/borussia-dortmund-gibt-christos-kostoglou-an-paok-saloniki-ab.html",
+          "kind": "article",
+          "time": "2026-09-24T14:44:00+02:00"
+        },
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/fantasy/football/news/49ers-mike-evans-another-dnp-on-thursday/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
