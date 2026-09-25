@@ -1,0 +1,324 @@
+{
+  "id": "2026-09-25-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-25T13:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin) today",
+  "headline": "Russian drone kills a child in central Kyiv; Iran floats a seven-day Hormuz roadmap; France moves to guard Saudi’s Yanbu as Houthis escalate; Trump–Xi Day 2 heads to the Archives; Claude Opus 5.5 targets longer coding sessions.",
+  "stories": [
+    {
+      "id": "kyiv-drone-pechersk-child",
+      "title": "Russian drone hits Kyiv high-rise; 14-year-old killed",
+      "topics": [
+        "Ukraine",
+        "Europe",
+        "World"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Ukrainska Pravda / Kyiv police: Russian drone hit a 16-storey residential building in Pecherskyi (~9th–10th floors); a 14-year-old boy was killed and at least seven residents injured.",
+        "hromadske / Air Force: overnight–morning barrage of 295 drones (52 jet-powered); air defences shot down or suppressed 267 as of 07:30; strikes at 16 locations.",
+        "Capital damage: Solomianskyi non-residential hit + fire; Podilskyi six-storey non-residential fire; overnight debris injured one when it hit a 25-storey building in Solomianskyi.",
+        "Also: Zaporizhzhia — two hospitals damaged (five evacuated from one); Kyiv Oblast fires/damage in Boryspil, Brovary, Obukhiv districts."
+      ],
+      "whyItMatters": "Fresh civilian toll in the capital as Russia’s harder-to-intercept high-flying drones keep pressure on Kyiv and the south.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/09/25/8054978/",
+          "kind": "article",
+          "time": "2026-09-25T08:23:00+03:00"
+        },
+        {
+          "label": "hromadske",
+          "url": "https://hromadske.ua/en/war/271517-russia-launches-295-drones-at-ukraine-14-year-old-killed-in-kyiv",
+          "kind": "article",
+          "time": "2026-09-25T10:01:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "iran-seven-day-roadmap",
+      "title": "Iran pitches seven-day roadmap to reopen Hormuz",
+      "topics": [
+        "Middle East",
+        "Iran",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "FM Abbas Araghchi (NY/UNGA sidelines, Thu): Tehran proposes a seven-day plan to implement the June MoU — halt hostilities and reopen the Strait of Hormuz.",
+        "NYT/Al Jazeera: end fighting all fronts (incl. Gaza/Lebanon) in 7 days; US release ≥$12bn assets, waive oil sanctions, lift blockade; Hormuz reopens day 7; nuclear talks start.",
+        "Passed via mediators earlier this week; unnamed White House official to CNN: “positive and constructive discussions”; NYT: Washington “would not rush into a deal.”",
+        "Analysts note the June 17 Pakistani/Qatari MoU’s 60-day window already collapsed — timetable is far more aggressive than anything that held."
+      ],
+      "whyItMatters": "A material diplomatic ask after morning’s Senate Iran war-powers vote — oil and Hormuz traffic still hinge on whether Washington bites.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/AA-20260909-42422213-42422202-IRANS_OIL_TANKERS_OFF_BANDAR_ABBAS_IN_STRAIT_OF_HORMUZ-1788948423.jpg?resize=1920%2C1440",
+        "alt": "Iran pitches seven-day roadmap to end conflict with US",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us",
+          "kind": "article",
+          "time": "2026-09-25T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "saudi-houthis-france-yanbu",
+      "title": "France to guard Yanbu as Houthis escalate on Saudi",
+      "topics": [
+        "Middle East",
+        "Energy",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Macron (TF1/France 2): France will send “soldiers, radars and defence systems” to protect Saudi Red Sea oil terminal Yanbu — “not to involve ourselves in any conflict, but to protect the site.”",
+        "Saudi-led coalition: intercepted six Houthi ballistic missiles Thu (alerts for Mecca, Yanbu, Taif, Jeddah, Tabuk); Houthis claimed Aramco Yanbu + a Riyadh “sensitive target.”",
+        "Saudi/Pakistan/Türkiye FMs set urgent chiefs-of-staff talks under Mecca Joint Defence Agreement (attack on one = attack on all) — pact not yet formally triggered.",
+        "Al Jazeera: Brent briefly topped $108 Thu (+3%), eased to ~$105.77 Fri morning; Houthis’ Mocha/island gains tighten Bab al-Mandab leverage as Hormuz stays constrained."
+      ],
+      "whyItMatters": "Allied hard power is shifting to Saudi export infrastructure while Yemen fighting and pipeline disruption keep oil elevated.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2022/03/2020-11-24T084048Z_429849381_RC2K9K9OV3MM_RTRMADP_3_YEMEN-SECURITY-SAUDI-ARAMCO-SAUDI.jpg?resize=1920%2C1440",
+        "alt": "Saudi Arabia allies line up support as Houthi attacks mount",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount",
+          "kind": "article",
+          "time": "2026-09-25T12:00:00+02:00"
+        },
+        {
+          "label": "CNA / AFP",
+          "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-yemen-france-military-support-6409816",
+          "kind": "article",
+          "time": "2026-09-25T03:38:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "trump-xi-day-two-update",
+      "title": "Trump–Xi Day 2: Taiwan line, warm dinner, Archives tour",
+      "topics": [
+        "US",
+        "China",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Material update vs morning (Xinhua/BBC): Xi urged US to “oppose Taiwan independence” and handle Taiwan “with prudence”; Washington has not publicly endorsed that wording.",
+        "State dinner Thu: warm toasts (Trump: “never gotten along better”; Xi: AI must stay “under human control”); tech CEOs at table (Cook, Huang, Musk, Altman, Pichai, Bezos, Zuckerberg) — Anthropic notably absent per BBC.",
+        "Substance still thin: $14bn Taiwan arms package remains paused as Trump’s “negotiating chip”; trade-truce extension already known from prior briefs.",
+        "Fri schedule (BBC): tea in the Red Room, then National Archives tour (Constitution / Declaration / Bill of Rights); Xi departs Washington later Friday."
+      ],
+      "whyItMatters": "Optics and a sharper Taiwan ask dominate Day 2 — still no public breakthrough on AI rules, tariffs, or arms sales.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/602f/live/4a515750-b8a7-11f1-a430-4d16ee157c41.jpg",
+        "alt": "US President Donald Trump holds a binder as he stands next to Chinese President Xi Jinping before Xi delivers a speech during a state dinner at the White House in Washington, D.C., US, September 24, 2026.",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/cxq63dqp93n1o"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cxq63dqp93n1o",
+          "kind": "article",
+          "time": "2026-09-25T12:40:00+02:00"
+        },
+        {
+          "label": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/25/asia-pacific/politics/trump-xi-taiwan-world-war-ii/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-5-5-coding",
+      "title": "Claude Opus 5.5: priced for longer, context-heavy coding",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Anthropic Claude blog (Sep 24): Opus 5.5 estimated ~40% cheaper than Opus 5 for typical token-billed workloads — aimed at longer Claude Code sessions.",
+        "Usage trends Mar–Sep 2026: Claude works 3.3× longer per prompt, >40% more model calls/prompt, 68% fewer interruptions; context/request up 2.6×; input:output ratio 189:1 → 324:1.",
+        "Pricing: input/output −20%; cached-token reads −60% (cache reads dominate agentic bills). Output >30% faster than Opus 5.",
+        "Harness: harder to break cache mid-session; 1-hour cache lifetime for API/cloud; forked subagents inherit parent cache; effort level can change without cache reset on Opus 5.5 / Fable 5.1."
+      ],
+      "whyItMatters": "A major Anthropic product/pricing beat for agentic coding — primary source is the company post, not press rewrites.",
+      "image": {
+        "url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6ab54ee79497f0573d0455eb_og_claude-opus-5-5-built-for-coding-sessions-that-use-more-context.jpg",
+        "alt": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind. | Claude by Anthropic",
+        "credit": "Claude blog",
+        "creditUrl": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context"
+      },
+      "sources": [
+        {
+          "label": "Claude blog",
+          "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+          "kind": "primary",
+          "time": "2026-09-24T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Bundestag (redo vote after July snafu): Bundespolizeigesetz passes with Kanzlermehrheit — 322 yes / 134 no / 118 abstain; adds TKÜ powers vs extremism/smuggling + sample weapons-zone checks.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise/Wardle: Meta’s macOS Muse agent was ClickFix-hijackable for days via undocumented endo_voyager_dictation_endpoint; Meta removed the knob, still disputes “remote exploit” framing.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "NASA Earth Observatory: Hurricane Polo underwent explosive intensification (Fri APOD companion: Omega Centauri).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/explosive-intensification-for-hurricane-polo/hurricanepolo_amo_20260923_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "Explosive Intensification for Hurricane Polo",
+        "credit": "NASA Earth Observatory",
+        "creditUrl": "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Wiederholtes-Votum-Bundestag-billigt-Bundespolizeigesetz-11465879.html",
+          "kind": "article",
+          "time": "2026-09-25T10:49:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/macOS-Metas-Muse-Agent-war-per-ClickFix-uebernehmbar-11465123.html",
+          "kind": "article",
+          "time": "2026-09-25T12:35:00+02:00"
+        },
+        {
+          "label": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/",
+          "kind": "primary",
+          "time": "2026-09-25T06:01:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN top: Dutch DAWO community building a NixOS-based digitally autonomous government workplace as a Microsoft alternative (open building blocks for OS/cloud/collab/AI).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Cursor blog: improved token efficiency for longer agent runs (dev-tools note; not a full product launch).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Claude blog: Claude Tag now supports personal connectors in channels — smaller Marketplace/channels feature → notes, not a lead.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050faaf1c82e21ceab419b_og_claude-and-slack.jpg",
+        "alt": "Claude Tag now supports personal connectors in channels | Claude by Anthropic",
+        "credit": "Claude blog",
+        "creditUrl": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels"
+      },
+      "sources": [
+        {
+          "label": "DAWO.community",
+          "url": "https://www.dawo.community/en/",
+          "kind": "primary",
+          "via": {
+            "label": "Hacker News",
+            "url": "https://news.ycombinator.com/item?id=49841563",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "Cursor blog",
+          "url": "https://cursor.com/blog/improved-token-efficiency",
+          "kind": "primary",
+          "time": "2026-09-23T12:00:00+00:00"
+        },
+        {
+          "label": "Claude blog",
+          "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+          "kind": "primary",
+          "time": "2026-09-24T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB: Sport Bild via sport.de — Niko Kovač expected to sign a new deal in October once GFs Ricken/Cramer/Treß extend first (his paper runs to end of season / 2027).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "49ers vs Cardinals (Week 3): Thu report — WR Mike Evans (hip) second straight DNP but spotted running; DE Nick Bosa missed with new calf issue (plus knee).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "sport.de",
+          "url": "https://www.sport.de/news/ne17177980/vertrag-laeuft-aus-so-plant-der-bvb-jetzt-mit-kovac/",
+          "kind": "article",
+          "time": "2026-09-24T06:27:00+02:00"
+        },
+        {
+          "label": "49ers Webzone",
+          "url": "https://www.49erswebzone.com/articles/203581-49ers-cardinals-injury-report-practice/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
