@@ -1,0 +1,335 @@
+{
+  "id": "2026-09-25-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-25T19:27:32+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~12:45 Berlin) today",
+  "headline": "Supreme Court green-lights Trump’s expanded SAVE citizenship database for voter-roll checks; Bitget revises hack to ~$387.5M and suspects North Korea; Vercel’s skills.sh hits 1M agent skills.",
+  "stories": [
+    {
+      "id": "scotus-save-voter-database",
+      "title": "SCOTUS lets Trump admin use expanded SAVE database for voter-roll checks",
+      "topics": [
+        "US",
+        "Politics",
+        "Courts"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Supreme Court Fri (6–3, conservatives in majority): emergency stay lets the Trump administration use an expanded SAVE citizenship database as states check voter rolls.",
+        "SAVE (1986 benefits tool) was bulk-expanded with Social Security data after a March 2025 EO; challengers (League of Women Voters et al.) say it is unreliable and risks flagging newly naturalized citizens.",
+        "Unsigned majority: NVRA still bars broad purges in the weeks before an election, “limits the potential impact” this year; federal law requires responding to state citizenship queries.",
+        "Jackson dissent: even a few disenfranchised lawful voters outweigh the government’s claimed injury; Texas ran 18M+ registrations through SAVE — only three illegal-voting charges."
+      ],
+      "whyItMatters": "Highest-court green light for a contested citizenship-matching tool weeks before midterms — with the court stressing the NVRA’s near-election purge ban as a partial brake.",
+      "image": {
+        "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260908-Markwayne-Mullin-ch-1222-a1c744.jpg",
+        "alt": "U.S. Homeland Security Secretary Markwayne Mullin",
+        "credit": "NBC News",
+        "creditUrl": "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trump-administration-use-expanded-database-potent-rcna596611"
+      },
+      "sources": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trump-administration-use-expanded-database-potent-rcna596611",
+          "kind": "article",
+          "time": "2026-09-25T17:52:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bitget-hack-north-korea",
+      "title": "Bitget hack revised to ~$387.5M; CEO points at North Korea patterns",
+      "topics": [
+        "Security",
+        "Crypto",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Bitget support update (Fri): on-chain accounting now ~$387.5M to attacker addresses (was $351.6M) after adding Zcash + TRON transfers — not further outflows; incident “contained.”",
+        "Attack path: backend wallet system spoofed transfer data and triggered auth signing; private keys / cold wallets ruled out; withdrawals still paused (status target Sep 26 04:00 UTC).",
+        "CEO Gracy Chen / CNBC: preliminary IP/VPN patterns match prior North Korean ops; Mandiant + SlowMist assisting; User Protection Fund >$464M said to cover losses.",
+        "Recovery bounty: 5% of frozen and 5% of recovered funds; live tracing dashboard published; Bybit LazarusBounty channel used."
+      ],
+      "whyItMatters": "One of the year’s larger exchange heists, with attribution still provisional and withdrawals gated until Bitget finishes validation.",
+      "image": {
+        "url": "https://www.bleepstatic.com/content/hl-images/2020/12/21/Bitcoin-cryptocurrency.jpg",
+        "alt": "Bitcoin cryptocurrency illustration",
+        "credit": "BleepingComputer",
+        "creditUrl": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
+      },
+      "sources": [
+        {
+          "label": "Bitget Support",
+          "url": "https://www.bitget.com/support/articles/12560603896108",
+          "kind": "primary",
+          "time": "2026-09-25T16:05:00+02:00"
+        },
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+          "kind": "article",
+          "time": "2026-09-25T06:33:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html",
+          "kind": "article",
+          "time": "2026-09-25T08:13:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "vercel-state-of-agent-skills",
+      "title": "Vercel: skills.sh hits 1M agent skills and ~280M installs in seven months",
+      "topics": [
+        "Tech",
+        "AI",
+        "Dev tools"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Vercel blog (Fri): skills.sh registry crossed 1M unique skills and ~280M installs seven months after launch (Agent Skills debuted Oct 2025; registry three months later).",
+        "Supply vs demand: >½ of listings are technical (eng/agents/data/infra/security), but >⅘ of installs go outside pure software engineering — business ops, writing, cloud over-index on installs per listing.",
+        "Concentration: top 375 skills (0.04%) = 62% of installs; top 1.2% = 94%; no single skill >1% share. Cross-industry skills = 87.5% of installs.",
+        "Thesis: next million skills will encode company-specific judgment; quality should shift from install counts toward effectiveness tests."
+      ],
+      "whyItMatters": "Official registry census of the agent-skills market — useful baseline as Cursor/Claude/OpenAI ecosystems keep shipping skill formats.",
+      "image": {
+        "url": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/MaAKsrZjYMVj8WiH0E6oN/81e02d48f2e566d0fda91ca42628f370/State_of_Skills_OG_10a.png",
+        "alt": "State of agent skills report cover graphic",
+        "credit": "Vercel",
+        "creditUrl": "https://vercel.com/blog/state-of-agent-skills"
+      },
+      "sources": [
+        {
+          "label": "Vercel blog",
+          "url": "https://vercel.com/blog/state-of-agent-skills",
+          "kind": "primary",
+          "time": "2026-09-25T08:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "netanyahu-uae-oct7-warning",
+      "title": "NYT: Netanyahu kept alleged UAE Oct. 7 warning out of Oct. 1 Gaza briefing",
+      "topics": [
+        "Middle East",
+        "Israel"
+      ],
+      "weight": "normal",
+      "facts": [
+        "NYT via ynet (Fri): minutes of an Oct. 1, 2023 Gaza security meeting show Netanyahu did not mention an alleged late-Sep call from UAE President MBZ warning Hamas was considering a major attack.",
+        "Five former senior Israeli officials told the Times the Emirati warning never reached security chiefs or later internal Oct. 7 probes; warning itself was vague (rocket vs ground unclear).",
+        "PMO denies any such warning/call; prior Times of Israel Emirati source had confirmed a phone warning. Meeting focus: keep Gaza calm; Netanyahu cautioned escalation could hurt Saudi normalization."
+      ],
+      "whyItMatters": "Adds a contemporaneous-minutes angle to the pre–Oct. 7 warning dispute ahead of Israel’s election — still contested by the PMO.",
+      "image": {
+        "url": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/08/r1yI6Xadzx/r1yI6Xadzx_0_0_850_479_0_large.jpg",
+        "alt": "Composite of Benjamin Netanyahu, Yahya Sinwar and Mohammed bin Zayed",
+        "credit": "ynet",
+        "creditUrl": "https://www.ynetnews.com/article/bjss2m49fl"
+      },
+      "sources": [
+        {
+          "label": "ynet (NYT reporting)",
+          "url": "https://www.ynetnews.com/article/bjss2m49fl",
+          "kind": "article",
+          "time": "2026-09-25T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Germany (Schneider at UNGA Wed): fossil phase-out road map by 2045 — third after France/NL; cites Hormuz/fuel shock. Greens/WWF say it mostly restates goals while Berlin still leans on new gas plants.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "NASA Hubble: new look at a chaotic galaxy feature (image article posted Fri).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "netzpolitik/Golem: Big Brother Awards — Telekom dinged over T-Mobile US merger plans; Fielmann + Apollo Optik get the “surveillance Oscar.”",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/germany-sets-out-plan-to-phase-out-fossil-fuels-by-2045/a-79404028",
+          "kind": "article",
+          "time": "2026-09-24T00:00:00+02:00"
+        },
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/image-article/hubble-spots-chaotic-secret-in-galaxy/",
+          "kind": "primary",
+          "time": "2026-09-25T17:54:00+02:00"
+        },
+        {
+          "label": "netzpolitik.org",
+          "url": "https://netzpolitik.org/2026/big-brother-awards-fielmann-und-apollo-optik-erhalten-ueberwachungs-oscar/",
+          "kind": "article",
+          "time": "2026-09-25T18:10:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner — “Your AI Agents Are Aging”: memory helps early, then drifts; argues for founding-job regression tests, charters above memory, and generational handoff.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://substackcdn.com/image/fetch/$s_!3nlE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1da4610-a535-4ac0-a4f8-e54277613c88_1694x928.png",
+        "alt": "Illustration for Your AI Agents Are Aging",
+        "credit": "The AI Corner",
+        "creditUrl": "https://www.the-ai-corner.com/p/ai-agents-have-a-lifespan"
+      },
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/ai-agents-have-a-lifespan",
+          "kind": "article",
+          "time": "2026-09-25T16:28:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Factorio FFF #447: Wube + Prusa release free early-game 3D-printable models (15 sets / 65 models / 247 STLs) — “Factorio that you can touch.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Robert O’Callahan — “Goodbye Google”: personal exit note trending on Lobsters.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "sveltejs/kit #17210 merged: fix bundling of dev deps for adapter-node (pkg:adapter-node).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "OpenAI News: Proaction case study (Codex / GPT-Live-1 / GPT-6 Astra) — customer story, not a model launch.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Factorio FFF",
+          "url": "https://factorio.com/blog/post/fff-447",
+          "kind": "primary",
+          "time": "2026-09-25T00:00:00+02:00",
+          "via": {
+            "label": "Hacker News",
+            "url": "https://news.ycombinator.com/item?id=49845133",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "Robert O’Callahan",
+          "url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
+          "kind": "article",
+          "via": {
+            "label": "Lobsters",
+            "url": "https://lobste.rs/s/sxlf4a/goodbye_google",
+            "kind": "article"
+          }
+        },
+        {
+          "label": "sveltejs/kit #17210",
+          "url": "https://github.com/sveltejs/kit/pull/17210",
+          "kind": "primary",
+          "time": "2026-09-25T14:43:00+02:00"
+        },
+        {
+          "label": "OpenAI News",
+          "url": "https://openai.com/index/proaction",
+          "kind": "primary",
+          "time": "2026-09-25T21:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers DE Nick Bosa (calf, missed Wed/Thu practice): out multiple weeks vs Cardinals; team “leaning towards” not placing him on IR (only eight IR return slots).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors camp watch (SF Standard): Draymond Green’s evolving role + rookie Yaxel Lendeborg as an early X-factor among the big preseason questions.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://sportshub.cbsistatic.com/i/r/2025/09/24/407fbf1e-d875-499c-9ee2-37e8cbc25eb3/thumbnail/1200x675/69797a83da230fd970bc2f3c74434a0e/getty-nick-bosa-49ers.jpg",
+        "alt": "San Francisco 49ers defensive end Nick Bosa",
+        "credit": "CBS Sports",
+        "creditUrl": "https://www.cbssports.com/nfl/news/49ers-nick-bosa-suffers-injury-will-miss-multiple-weeks/"
+      },
+      "sources": [
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nfl/news/49ers-nick-bosa-suffers-injury-will-miss-multiple-weeks/",
+          "kind": "article",
+          "time": "2026-09-25T19:02:00+02:00"
+        },
+        {
+          "label": "SF Standard",
+          "url": "https://sfstandard.com/2026/09/25/golden-state-warriors-draymond-green-new-role/",
+          "kind": "article",
+          "time": "2026-09-25T00:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
