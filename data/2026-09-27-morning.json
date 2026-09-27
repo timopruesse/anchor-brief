@@ -52,6 +52,17 @@
           "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
           "kind": "primary",
           "time": "2026-09-25T00:00:00+00:00"
+        },
+        {
+          "label": "DIE ZEIT",
+          "url": "https://trib.al/UEsNDwP",
+          "kind": "article",
+          "via": {
+            "label": "DIE ZEIT on X",
+            "url": "https://x.com/zeitonline/status/2103988777681129543",
+            "kind": "x"
+          },
+          "time": "2026-09-27T02:05:00+02:00"
         }
       ],
       "weight": "lead"
@@ -90,39 +101,56 @@
       ],
       "facts": [
         {
-          "text": "heise: Flink customers/staff get ETH extortion mails after a hub order-system breach — ~100 ETH (~€230k) crowdfunded in 0.005 ETH bites after Flink refused to pay; PII leaked, not passwords/payments.",
+          "text": "DOSB (Sat): München beats KölnRheinRuhr 91–50 to become Germany’s sole bidder for Olympic/Paralympic Summer Games in 2036/40/44; IOC process next (2036 award eyed ~2029).",
           "sourceIndexes": [
             0
           ]
         },
         {
-          "text": "heise: D-Trust revoked AusweisApp TLS certs (ausweisapp.bund.de / www.ausweisapp.de) Friday — “Privilege Withdrawn”; Governikus shipped a fresh cert Saturday evening.",
+          "text": "heise: Flink customers/staff get ETH extortion mails after a hub order-system breach — ~100 ETH (~€230k) crowdfunded in 0.005 ETH bites after Flink refused to pay; PII leaked, not passwords/payments.",
           "sourceIndexes": [
             1
           ]
         },
         {
-          "text": "heise: Bundesrat cleared holder liability for e-scooters (and other ≤20 km/h Elektrokleinstfahrzeuge) — rental firms can be sued like car holders once gazetted.",
+          "text": "heise: D-Trust revoked AusweisApp TLS certs (ausweisapp.bund.de / www.ausweisapp.de) Friday — “Privilege Withdrawn”; Governikus shipped a fresh cert Saturday evening.",
           "sourceIndexes": [
             2
           ]
         },
         {
-          "text": "Google Gemini blog (Sep 23): Connected Apps wave — Airtable, Linear, monday.com, Adobe, Squarespace/Webflow, Peloton, SeatGeek and more via settings or @-mention.",
+          "text": "heise: Bundesrat cleared holder liability for e-scooters (and other ≤20 km/h Elektrokleinstfahrzeuge) — rental firms can be sued like car holders once gazetted.",
           "sourceIndexes": [
             3
           ]
         },
         {
-          "text": "PetaPixel: Nikon’s stance could force Canon’s closed RF mount open — lens/mount interoperability angle for photo gear watchers.",
+          "text": "Google Gemini blog (Sep 23): Connected Apps wave — Airtable, Linear, monday.com, Adobe, Squarespace/Webflow, Peloton, SeatGeek and more via settings or @-mention.",
           "sourceIndexes": [
             4
+          ]
+        },
+        {
+          "text": "PetaPixel: Nikon’s stance could force Canon’s closed RF mount open — lens/mount interoperability angle for photo gear watchers.",
+          "sourceIndexes": [
+            5
           ]
         }
       ],
       "whyItMatters": null,
       "image": null,
       "sources": [
+        {
+          "label": "DOSB",
+          "url": "https://www.dosb.de/aktuelles/news/detail/deutschland-geht-mit-muenchen-ins-rennen-um-olympische-und-paralympische-spiele",
+          "kind": "primary",
+          "time": "2026-09-26T00:00:00+02:00",
+          "via": {
+            "label": "ZDFheute on X",
+            "url": "https://x.com/ZDFheute/status/2103828701058040002",
+            "kind": "x"
+          }
+        },
         {
           "label": "heise online",
           "url": "https://www.heise.de/news/Kunden-und-Mitarbeiter-von-Lieferdienst-Flink-werden-erpresst-11467086.html",
