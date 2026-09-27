@@ -544,9 +544,9 @@
       "userId": "1146058067244486656",
       "name": "Ryan Cohen",
       "role": "CEO",
-      "lastPostAt": "2026-07-04T18:29:35+02:00",
+      "lastPostAt": "2026-07-04T00:00:00+02:00",
       "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
-      "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February.",
+      "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸 🫡",
       "quiet": false
     },
     {
@@ -554,9 +554,9 @@
       "userId": "26281090",
       "name": "Larry Cheng",
       "role": "Board",
-      "lastPostAt": "2026-09-24T15:26:20+02:00",
+      "lastPostAt": "2026-09-24T00:00:00+02:00",
       "lastPostUrl": "https://x.com/larryvc/status/2103113808239866356",
-      "lastPostText": "There's a perspective in here worth deliberating on for all pre-AI B2B SaaS companies. How the ultimate AI tech stack plays out is TBD, but what it won't be is launching agents from each pre-AI SaaS application. That's for sure…",
+      "lastPostText": "There’s a perspective in here worth deliberating on for all pre-AI B2B SaaS companies. How the ultimate AI tech stack plays out is TBD, but what it won’t be is launching agents from each pre-AI SaaS application. That’s for sure…",
       "quiet": false
     },
     {
@@ -564,7 +564,7 @@
       "userId": "2902349190",
       "name": "Roaring Kitty",
       "role": "Community",
-      "lastPostAt": "2025-01-23T02:00:36+01:00",
+      "lastPostAt": "2025-01-23T00:00:00+01:00",
       "lastPostUrl": "https://x.com/TheRoaringKitty/status/1882231930021949446",
       "lastPostText": "",
       "quiet": true
@@ -573,9 +573,9 @@
   "cohen": {
     "handle": "ryancohen",
     "userId": "1146058067244486656",
-    "lastPostAt": "2026-07-04T18:29:35+02:00",
+    "lastPostAt": "2026-07-04T00:00:00+02:00",
     "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
-    "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February.",
+    "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸 🫡",
     "quiet": false
   },
   "community": {
