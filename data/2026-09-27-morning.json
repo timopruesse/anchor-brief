@@ -130,6 +130,30 @@
           "sourceIndexes": [
             5
           ]
+        },
+        {
+          "text": "BBC: PM Andy Burnham proposes a national care service for England, “free at the point of use”, to go on the ballot at the next general election; Conservatives and Reform vow to fight new taxes.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "IGN: Microsoft says its GTA 6 preorder share matches its console-market share, pushing back on a Verge report that preorders are “heavily skewed” to PS5; launch is Nov 19.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "Car and Driver: a published Tesla patent shows an active rear wing that deploys for downforce, pivots to cut drag and retracts if a collision is predicted — Roadster debut is due in early October.",
+          "sourceIndexes": [
+            8
+          ]
+        },
+        {
+          "text": "Ben Dicken built a visual guide to F1 car-construction rules — which parts teams may customize and what stays proprietary — aimed at newcomers.",
+          "sourceIndexes": [
+            9
+          ]
         }
       ],
       "whyItMatters": null,
@@ -175,6 +199,45 @@
           "url": "https://petapixel.com/2026/09/26/thanks-to-nikon-canons-closed-rf-mount-could-be-forced-open/",
           "kind": "article",
           "time": "2026-09-26T14:01:20+00:00"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.co.uk/news/live/cj4zwkp2p1kt",
+          "kind": "article",
+          "time": "2026-09-27T08:27:40+02:00",
+          "via": {
+            "label": "BBC Breaking News on X",
+            "url": "https://x.com/BBCBreaking/status/2104127029884911977",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "IGN",
+          "url": "https://www.ign.com/articles/xbox-says-its-share-of-gta-6-preorders-matches-its-share-of-the-console-market-following-ps5-dominance-claim",
+          "kind": "article",
+          "time": "2026-09-24T22:55:34+02:00",
+          "via": {
+            "label": "IGN on X",
+            "url": "https://x.com/IGN/status/2104133982656889282",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Car and Driver",
+          "url": "https://www.caranddriver.com/news/a73879703/tesla-roadster-clever-rear-wing-patent/",
+          "kind": "article",
+          "time": "2026-09-25T16:00:05+02:00",
+          "via": {
+            "label": "The Tesla Newswire on X",
+            "url": "https://x.com/TeslaNewswire/status/2104093817678733358",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Ben Dicken on X",
+          "url": "https://x.com/BenjDicken/status/2103989827859554398",
+          "kind": "x",
+          "time": "2026-09-27T01:27:19+02:00"
         }
       ],
       "weight": "brief"
@@ -245,6 +308,33 @@
           "sourceIndexes": [
             3
           ]
+        },
+        {
+          "text": "Bun: upcoming v1.4.3 cuts idle CPU ~67% via garbage-collector scheduling changes — Jarred Sumner: slightly lower memory, throughput ~neutral (latest tag is still v1.4.2).",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "antirez: good programmers getting weak results from GPT 6 Astra isn’t a paradox — good programming now takes a different skill set, only partly overlapping the old one.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Three.js showcase: mexicat/pdoom-video, a code-rendered music video (three.js + bun + Vite) built with Claude Opus 5.5 in Claude Code; Marcel Pociot sees room for such motion graphics outside Claude.",
+          "sourceIndexes": [
+            7,
+            8
+          ]
+        },
+        {
+          "text": "Gergely Orosz: a company split its departing CTO’s job into distinct areas instead of naming an acting CTO — he says CTOs are “so, so hard to hire” now.",
+          "sourceIndexes": [
+            9,
+            10
+          ]
         }
       ],
       "whyItMatters": null,
@@ -295,6 +385,52 @@
             "url": "https://news.ycombinator.com/item?id=49854693",
             "kind": "article"
           }
+        },
+        {
+          "label": "Jarred Sumner on X",
+          "url": "https://x.com/jarredsumner/status/2104092998967742739",
+          "kind": "x",
+          "time": "2026-09-27T08:17:17+02:00"
+        },
+        {
+          "label": "Bun on X",
+          "url": "https://x.com/bunjavascript/status/2104091263842804168",
+          "kind": "x",
+          "time": "2026-09-27T08:10:24+02:00"
+        },
+        {
+          "label": "antirez on X",
+          "url": "https://x.com/antirez/status/2104130171305680972",
+          "kind": "x",
+          "time": "2026-09-27T10:45:00+02:00"
+        },
+        {
+          "label": "GitHub — pdoom-video",
+          "url": "https://github.com/mexicat/pdoom-video",
+          "kind": "article",
+          "via": {
+            "label": "Three.js on X",
+            "url": "https://x.com/threejs/status/2104029135790072196",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Marcel Pociot on X",
+          "url": "https://x.com/marcelpociot/status/2104111119371588086",
+          "kind": "x",
+          "time": "2026-09-27T09:29:18+02:00"
+        },
+        {
+          "label": "Gergely Orosz on X",
+          "url": "https://x.com/GergelyOrosz/status/2104167582009811251",
+          "kind": "x",
+          "time": "2026-09-27T13:13:39+02:00"
+        },
+        {
+          "label": "The Pragmatic Engineer",
+          "url": "https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break",
+          "kind": "article",
+          "time": "2026-08-18T18:21:06+02:00"
         }
       ],
       "weight": "brief"
