@@ -54,9 +54,9 @@
           "time": "2026-09-25T00:00:00+00:00"
         },
         {
-          "label": "DIE ZEIT",
-          "url": "https://trib.al/UEsNDwP",
-          "kind": "article",
+          "label": "DIE ZEIT on X",
+          "url": "https://x.com/zeitonline/status/2103988777681129543",
+          "kind": "x",
           "via": {
             "label": "DIE ZEIT on X",
             "url": "https://x.com/zeitonline/status/2103988777681129543",
