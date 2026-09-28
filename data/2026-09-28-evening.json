@@ -1,0 +1,276 @@
+{
+  "id": "2026-09-28-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-28T19:40:13+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:02 Berlin) / last ~7 hours",
+  "headline": "Meta launches Enterprise Platform and hires MongoDB CEO CJ Desai; ESA Juice completes Earth flyby toward Jupiter; Artemis Accords pass 75 signatories.",
+  "stories": [
+    {
+      "id": "meta-enterprise-platform",
+      "title": "Meta launches Enterprise Platform; MongoDB CEO Desai jumps to lead it",
+      "topics": [
+        "Tech",
+        "AI",
+        "Business"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Meta (Mon): Mark Zuckerberg announces Meta Enterprise Platform as a “next major pillar” — packaging Muse agent, Meta Business Agent, Muse API, Muse Code and more for businesses/developers.",
+        "Chirantan “CJ” Desai joins Meta as Chief Enterprise Platform Officer, reporting to Zuckerberg; he steps down immediately as MongoDB President & CEO.",
+        "MongoDB primary: Board installs former CEO Dev Ittycheria (2014–2025) as interim President & CEO; permanent search begun; company reaffirms Q3 / FY2027 guidance from Sep 1; Investor Day Tue Sep 29 at Nasdaq.",
+        "THE DECODER / WSJ context: Meta is spending >$100B on AI infrastructure this year; enterprise lineup still lacks public pricing/how-it-works detail — faces Claude Code, Codex, Cursor and cheap open-weight rivals."
+      ],
+      "whyItMatters": "Meta is productizing Muse into a billed enterprise stack and poaching a sitting database CEO to run it — the clearest signal yet that ads-plus-infra alone won’t fund the AI buildout.",
+      "image": {
+        "url": "https://about.fb.com/wp-content/uploads/2026/09/Meta_Header.jpg?w=1200",
+        "alt": "Meta header graphic for Enterprise Platform announcement",
+        "credit": "Meta",
+        "creditUrl": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
+      },
+      "sources": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+          "kind": "primary",
+          "time": "2026-09-28T00:00:00+02:00"
+        },
+        {
+          "label": "MongoDB — CEO transition",
+          "url": "https://www.mongodb.com/company/newsroom/press-releases/mongodb-announces-ceo-transition",
+          "kind": "primary",
+          "time": "2026-09-28T00:00:00+02:00"
+        },
+        {
+          "label": "THE DECODER",
+          "url": "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
+          "kind": "article",
+          "time": "2026-09-28T00:00:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/meta-enterprise-platform-meta-wirbt-mongo-db-chef-fuer-seine-enterprise-sparte-ab-2609-213508.html",
+          "kind": "article",
+          "time": "2026-09-28T18:39:02+02:00"
+        }
+      ]
+    },
+    {
+      "id": "juice-earth-flyby",
+      "title": "ESA Juice skims Earth, slingshots toward Jupiter",
+      "topics": [
+        "Space",
+        "Science"
+      ],
+      "weight": "normal",
+      "facts": [
+        "ESA (Mon): Juice’s closest approach 13:45 CEST — ~8,640 km over the Indian Ocean; gravity assist deflected the path by ~20° and added ~3.5 km/s with almost no propellant.",
+        "Ops: only one tiny pre-flyby nudge used of six reserved opportunities; Angela Dietz says the propellant saved is banked for icy-moon observation time at Jupiter.",
+        "Science: instruments calibrated again (third real-surface chance after 2024 lunar-Earth assist and 2025 3I/ATLAS); magnetotail pass coordinated with Smile; JANUS Earth/Moon images expected in coming weeks.",
+        "Roadmap: one more Earth flyby in Jan 2029, then Jupiter arrival 2031 — 35 moon flybys before a Ganymede orbit."
+      ],
+      "whyItMatters": "Today’s Earth skim is the big mid-cruise course correction — fuel saved now buys observation time at Europa/Ganymede later.",
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/juice_images_earth_during_earth_flyby/27543775-1-eng-GB/Juice_images_Earth_during_Earth_flyby_pillars.jpg",
+        "alt": "Juice monitoring-camera view of Earth during the September 2026 flyby",
+        "credit": "ESA",
+        "creditUrl": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter"
+      },
+      "sources": [
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter",
+          "kind": "primary",
+          "time": "2026-09-28T15:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "artemis-accords-76",
+      "title": "Artemis Accords clear 75 nations as four more sign",
+      "topics": [
+        "Space",
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "NASA (Mon): Albania, Croatia, Côte d’Ivoire and San Marino join — total now 76 signatories (~40% of UN members).",
+        "Administrator Jared Isaacman: nearly one-third of all signatories have joined since the start of President Trump’s current term; Accords group meets twice yearly under the 2024 Method of Operations.",
+        "Next: Principals’ Meeting at IAC Antalya beginning Mon Oct 5, co-chaired by NASA Deputy Admin Matt Anderson and Peru’s CONIDA."
+      ],
+      "whyItMatters": "Civil lunar norms keep expanding as a soft coalition — useful context for Moon Base payload invites even when hard hardware news is quiet.",
+      "image": {
+        "url": "https://www.nasa.gov/wp-content/uploads/2026/09/artemis-accords-san-marino-76-092526.jpg",
+        "alt": "Signing ceremony as San Marino joins the Artemis Accords",
+        "credit": "NASA",
+        "creditUrl": "https://www.nasa.gov/news-release/nasa-celebrates-as-artemis-accords-surpasses-75-signatories/"
+      },
+      "sources": [
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/news-release/nasa-celebrates-as-artemis-accords-surpasses-75-signatories/",
+          "kind": "primary",
+          "time": "2026-09-28T18:26:45+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise / T&E: battery e-trucks already cheaper to run than diesel on 5-year TCO in 6 of 9 EU markets — DE up to ~€85k advantage; DE toll exemption to mid-2031 cited as a big lever; H1’26 EU e-truck share still only 4.8%.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Al Arabiya (state media, Mon): Iran’s UNGA delegation in New York says it has no plans for further US talks — material chill vs this morning’s “Trump expects Iran talks this week” framing.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "PetaPixel: Italian politician sparks AI scandal with a doctored photo that “undressed” a female lawmaker — another generative-image abuse flashpoint in EU politics.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/E-Lkw-laut-T-E-Analyse-in-sechs-EU-Maerkten-bereits-guenstiger-als-Diesel-Lkw-11468279.html",
+          "kind": "article",
+          "time": "2026-09-28T18:20:00+02:00"
+        },
+        {
+          "label": "Al Arabiya English",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/09/28/iran-has-no-plans-to-negotiate-with-us-state-media",
+          "kind": "article",
+          "time": "2026-09-28T00:00:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/28/italian-politician-sparks-ai-scandal-with-doctored-photo-that-undressed-female-lawmaker/",
+          "kind": "article",
+          "time": "2026-09-28T17:02:41+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: argues OpenAI’s Greg Brockman shifted ~25% of production engineers toward defense work after an “AGI era” framing — tip, not a company primary.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/greg-brockman-agi-era-playbook",
+          "kind": "article",
+          "time": "2026-09-28T16:48:36+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "HN tip — Alex Ewerlöf: “Coding Is Not Solved” — pushback on the idea that AI coding agents close the software problem.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Playwright merged PR #42968: MCP `browser_find` can save results to a file — small but useful agent tooling tweak (no new release tag).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Alex Ewerlöf",
+          "url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+          "kind": "article"
+        },
+        {
+          "label": "Playwright PR #42968",
+          "url": "https://github.com/microsoft/playwright/pull/42968",
+          "kind": "primary",
+          "time": "2026-09-28T18:52:38+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB (ad-hoc / dpa): Cramer named Vorsitzender der Geschäftsführung (was Sprecher); contract to 30 Jun 2031; Ricken (Sport) to 30 Jun 2030; Treß extends one year to 30 Jun 2028 then exits GF; Schlenker unchanged to 2028.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Warriors Media Day follow: Curry (via NBC Sports / Heavy) says knee feels great after managed offseason — “ready to go”; still expects selective rest on back-to-backs; Hawai’i camp practices start Tue Sep 29.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "EQS ad-hoc (BVB)",
+          "url": "https://www.eqs-news.com/de/news/ad-hoc/verlangerung-der-geschaftsfuhrer-anstellungsvertrage-von-carsten-cramer-lars-ricken-und-thomas-tres-carsten-cramer-zum-vorsitzenden-der-geschaftsfuhrung-ernannt/75d84c5e-190a-4c8d-a7be-57d16146d45c_de",
+          "kind": "primary",
+          "time": "2026-09-28T00:00:00+02:00"
+        },
+        {
+          "label": "Süddeutsche / dpa",
+          "url": "https://www.sueddeutsche.de/sport/fussball-bundesliga-bvb-verlaengert-mit-geschaeftsfuehrern-cramer-ricken-und-tress-dpa.urn-newsml-dpa-com-20090101-260928-930-758165",
+          "kind": "article",
+          "time": "2026-09-28T17:44:00+02:00"
+        },
+        {
+          "label": "Heavy Sports",
+          "url": "https://heavy.com/sports/nba/golden-state-warriors/stephen-curry-knee-injury-news-warriors/",
+          "kind": "article",
+          "time": "2026-09-28T00:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
