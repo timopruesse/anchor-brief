@@ -1,0 +1,363 @@
+{
+  "id": "2026-09-28-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-28T08:06:22+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since Sunday evening (~12–18h; no Sunday afternoon edition)",
+  "headline": "Union–SPD open the week fighting over Pflegereform; Trump expects Iran talks this week after rejecting Hormuz truce; Klopp’s DFB home debut ends 0–1 to Greece.",
+  "stories": [
+    {
+      "id": "pflegereform-koalition",
+      "title": "Germany: Union–SPD crisis talks as SPD threatens to block Pflegereform",
+      "topics": [
+        "Germany",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Health Minister Carsten Linnemann (CDU) still aimed to bring the Pflege package to the black-red cabinet on Wednesday; SPD leaders threaten to block what Fraktionschef Matthias Miersch called a “reines Kürzungspaket.”",
+        "SPD demands: a “gerechter Beitrag” from private Pflegeversicherung (toward solidarity/Bürgerversicherung-style balance) and a “Pflegedeckel” on out-of-pocket Heim costs — Saarland’s Anke Rehlinger floated €1,500.",
+        "Linnemann rejected the Pflegedeckel on ARD: discussing it is fine, but “wir würden das Problem nicht lösen”; wants a late-Oct structural commission and “erste Hilfe” now so benefits/Beiträge stay stable.",
+        "t-online/dpa (Mon 03:09): coalition crisis talks expected today — Merz spokesman cited “Verhandlungen auf Arbeitsebene”; Linnemann: public coalition fights should stay “hinter verschlossenen Türen.”",
+        "Pflegekassen-Spitzenverband (Oliver Blatt): year-end deficit path ~€4.4B; “in wenigen Monaten ist das Geld schlichtweg alle.” Patientenschutz’s Eugen Brysch warned against “apokalyptische Szenarien.”"
+      ],
+      "whyItMatters": "After bruising Landtagswahlen, Pflege is the first big Monday stress test of whether Merz’s “ohne Abstriche” reform tempo survives SPD red lines — cabinet Wed is now the near-term clock.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/pflegereform-streit-linnemann-100.html",
+          "kind": "article",
+          "time": "2026-09-27T18:14:00+02:00"
+        },
+        {
+          "label": "t-online (dpa)",
+          "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101455152/pflegereform-krach-zwischen-union-und-spd-krisengespraeche-geplant.html",
+          "kind": "article",
+          "time": "2026-09-28T03:09:00+02:00"
+        },
+        {
+          "label": "ZDF heute",
+          "url": "https://www.zdfheute.de/politik/deutschland/pflegereform-bundesregierung-schwarz-rote-koalition-spd-union-zerreissprobe-100.html",
+          "kind": "article",
+          "time": "2026-09-27T15:37:00+02:00"
+        },
+        {
+          "label": "taz",
+          "url": "https://taz.de/SPD-blockiert-bei-der-Pflegereform/!6216473/",
+          "kind": "article",
+          "time": "2026-09-28T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "iran-hormuz-talks",
+      "title": "Iran/Hormuz: Trump expects talks this week; Tehran won’t soften seven-day plan",
+      "topics": [
+        "World",
+        "Geopolitics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "RNZ / Axios (Sun): Trump says he expects Iran talks to resume this week after rejecting Tehran’s seven-day truce → reopen Hormuz roadmap; “They overplayed their hand” / “not the deal that I want.”",
+        "Axios sources: indirect US–Iran talks could start as early as Monday; Trump still muses about renewed strikes while claiming Washington will win “very soon.”",
+        "Iran FM Abbas Araghchi (IRIB/Al Jazeera Mon): conditions unchanged — “we will not back down”; open to “real diplomacy” but ready for an “apocalyptic” / “doomsday” war if attacks resume.",
+        "RNZ/IRIB wires: IRGC said Sunday it seized a US submersible drone in Hormuz “for espionage,” now under specialist review; Gulf energy chokepoint remains the leverage point.",
+        "US UN ambassador Mike Waltz (NBC): called Iran’s ask (lift blockade/sanctions, frozen assets, just to talk) a “pretty cynical attempt.”"
+      ],
+      "whyItMatters": "Overnight moves the weekend rejection into a same-week negotiation window — with Iran still tying Hormuz reopening to broad Middle East ceasefire terms, and a claimed US drone seizure raising the risk of miscalculation.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-27T171103Z_777393107_RC2ORNADPDDR_RTRMADP_3_IRAN-CRISIS-1790552079.jpg?resize=1920%2C1440",
+        "alt": "Iran open to ‘real diplomacy’ but ready for ‘apocalyptic war’ if US attacks",
+        "credit": "Al Jazeera liveblog",
+        "creditUrl": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions"
+      },
+      "sources": [
+        {
+          "label": "RNZ",
+          "url": "https://www.rnz.co.nz/news/world/1623233/iran-says-it-is-awaiting-definitive-us-response-despite-trump-rejecting-latest-proposal",
+          "kind": "article",
+          "time": "2026-09-28T00:08:00+02:00"
+        },
+        {
+          "label": "Al Jazeera liveblog",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions",
+          "kind": "article",
+          "time": "2026-09-28T00:00:00+02:00"
+        },
+        {
+          "label": "The Japan Times (Bloomberg)",
+          "url": "https://www.japantimes.co.jp/news/2026/09/28/world/politics/iran-demands-trump-hormuz-offer/",
+          "kind": "article",
+          "time": "2026-09-28T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "trump-xi-weapons",
+      "title": "Trump asked Xi if China wanted to buy US weapons, ambassador says",
+      "topics": [
+        "World",
+        "Geopolitics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Guardian (Sun): US ambassador to China David Perdue told Fox News Trump asked Xi Jinping during last week’s summit whether China would like to buy US arms — “we sell arms to other people around the world.”",
+        "Context: Taiwan still waiting on a ~$14B US arms package Trump previously called a “negotiating chip”; Beijing opposes arms sales to the island.",
+        "After the interview, the White House told the NYT there are no plans to sell arms to China; State said US law prohibits arms sales to China and there is “no offer or plan.”",
+        "Perdue on CNBC Friday had said Taiwan policy including arms sales was unchanged; Taiwan deputy FM Chen Ming-chi separately warned of a “severe” PLA threat across the Strait."
+      ],
+      "whyItMatters": "An on-record ambassador claim that Trump floated arms sales to Beijing — immediately walked back by White House/State — muddies the already ambiguous Taiwan arms signal after the Xi summit.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/28/trump-xi-jinping-china-buy-weapons",
+          "kind": "article",
+          "time": "2026-09-28T02:52:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "heise/dpa: San Diego jury awards Taction ~$5.72B vs Apple over two Taptic Engine haptics patents; Apple will appeal and denies using Taction tech; jurors found infringement not willful.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise/Reuters/NetBlocks: Russia hit Ukrainian DCs (Vodafone Ukraine, Datagroup, Cosmonova, Omega, DreamLine) + Kyivstar HQ; gov’t says a Kyiv DC was struck twice Sun — 2 children + 1 adult injured.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "heise/dpa via BSW-Solar: Germany’s solar generation hit 90.2 TWh by 27 Sep — already above full-year 2025 (90 TWh); lobby warns EEG 2027 / Netzpaket could chill small-PV investment.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Golem: UN reporting — US and Russia weaken a treaty track on AI-controlled weapons (overnight German tech desk).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Patent-Urteil-Apple-soll-5-7-Milliarden-Dollar-zahlen-11467192.html",
+          "kind": "article",
+          "time": "2026-09-27T11:56:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Mehrere-Stoerungen-Russland-attackiert-zahlreiche-Rechenzentren-in-der-Ukraine-11467458.html",
+          "kind": "article",
+          "time": "2026-09-28T06:55:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Solarstromproduktion-uebertrifft-bereits-jetzt-Vorjahreswert-11467510.html",
+          "kind": "article",
+          "time": "2026-09-28T07:45:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/un-usa-und-russland-schwaechen-vertrag-ueber-ki-gesteuerte-waffen-2609-213476.html",
+          "kind": "article",
+          "time": "2026-09-28T07:31:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "shit you should care about: ❤︎ only good news today ❤︎ — Sunday roundup of brighter headlines.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The AI Corner: “Your AI Agent Might Be Paying $11,000 a Month to Answer Yes or No” — Jev decision-layer costs for agent stacks.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Algo Trading & AI: “Six Strategies Have Survived Seventeen Years. Here They Are.”",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/only-good-news-today-e27",
+          "kind": "article",
+          "time": "2026-09-27T18:02:18+02:00"
+        },
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/jev-decision-layer-ai-agents-kit-2026",
+          "kind": "article",
+          "time": "2026-09-27T17:12:09+02:00"
+        },
+        {
+          "label": "Algo Trading & AI",
+          "url": "https://blog.paperswithbacktest.com/p/six-strategies-have-survived-seventeen",
+          "kind": "article",
+          "time": "2026-09-27T14:02:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Nura (ex-postmarketOS) primary: project formally rebrands to Nura (nuraghe → stability); nura.eco domain; trademark filed; logo kept with small spacing fix — announced at their conference Sat/Sun.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Vercel blog: public Bug Bounty Program now open (in 168h vendor lane).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "vitejs/vite #23605 merged: test replace for native config loader incompatible code (sapphi-red).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "sveltejs/kit #17238 merged: dispose platform proxy when Vite dev/preview closes (adapter-cloudflare).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Lobsters/HN: “When did Google get so weird?” — longread on product/culture drift (sancho.bearblog).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Nura blog",
+          "url": "https://nura.eco/blog/2026/09/27/nura-rename/",
+          "kind": "primary",
+          "time": "2026-09-27T00:00:00+02:00"
+        },
+        {
+          "label": "Vercel blog",
+          "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
+          "kind": "primary"
+        },
+        {
+          "label": "vitejs/vite#23605",
+          "url": "https://github.com/vitejs/vite/pull/23605",
+          "kind": "primary",
+          "time": "2026-09-28T05:00:08+02:00"
+        },
+        {
+          "label": "sveltejs/kit#17238",
+          "url": "https://github.com/sveltejs/kit/pull/17238",
+          "kind": "primary",
+          "time": "2026-09-27T23:25:39+02:00"
+        },
+        {
+          "label": "sancho.bearblog (via HN)",
+          "url": "https://sancho.bearblog.dev/google-weird/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BILD/FAZ: Klopp’s first home DFB game — Germany 0–1 Greece (Augsburg, Nations League); Dimitrios Kourbelis 74’; Klopp still winless (after 1–1 NL); next chance Thu vs Serbia. Tah: “Wir haben das nicht gut gemacht.”",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "fussballdaten.de: BVB still planning early Kovac extension talks (contract runs to summer 2027) — sequenced after Lars Ricken’s own extension; timeline pointed at autumn, not a signed deal overnight.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "49ers.com: Nick Bosa OUT for Week 3 vs Cardinals (calf); Romello Height also OUT; Mike Evans available — Shanahan camp still framing multi-week absence, not IR.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "BILD",
+          "url": "https://www.bild.de/sport/fussball/deutsche-nationalmannschaft-juergen-klopp-verpatzt-sein-heim-debuet-6ab94a6aa8b3f6fdb1edd1e6",
+          "kind": "article",
+          "time": "2026-09-27T22:39:00+02:00"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/sport/fussball/juergen-klopps-heimdebuet-geht-gegen-griechenland-0-1-verloren-201203548.html",
+          "kind": "article",
+          "time": "2026-09-27T22:48:00+02:00"
+        },
+        {
+          "label": "fussballdaten.de",
+          "url": "https://www.fussballdaten.de/news/gruende-kovac-verlaengerung-bvb-zeitplan-steht-fest/",
+          "kind": "article",
+          "time": "2026-09-28T07:00:00+02:00"
+        },
+        {
+          "label": "49ers.com",
+          "url": "https://www.49ers.com/news/romello-height-and-nick-bosa-out-mike-evans-available-vs-cardinals-inactives-for-week-3-azvssf",
+          "kind": "primary",
+          "time": "2026-09-28T00:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
