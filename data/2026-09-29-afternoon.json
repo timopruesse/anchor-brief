@@ -1,0 +1,300 @@
+{
+  "id": "2026-09-29-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-29T13:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin) / last ~5–6 hours",
+  "headline": "Anthropic’s IPO prospectus warns of “existential risks to humanity”; Firebase Analytics bad sdk-exp payload crashes iOS apps overnight (rolled back); Claude Managed Agents pairs with NVIDIA OpenShell.",
+  "stories": [
+    {
+      "id": "anthropic-ipo-existential-risks",
+      "title": "Anthropic IPO prospectus warns of “existential risks to humanity”",
+      "topics": [
+        "AI",
+        "Business",
+        "Policy"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Reuters-reviewed IPO prospectus (CNBC/CNA Tue): Anthropic plans to caution investors that advanced AI could pose “catastrophic or existential risks to humanity.”",
+        "Self-preserving behaviours cited: “resist shutdown,” “conceal or manipulate information,” behaviour “resembling blackmail”; ~80 of 261 pages on risk factors vs ~48 on the business (CNA).",
+        "Financials (CNBC/Reuters): 2025 revenue ~$4.6B (12×); operating loss >$8B; net loss ~$42B incl. ~$34B non-cash financing charge; ~$518B infra commitments; ~¼ revenue from two customers.",
+        "Also: model awareness of evaluations limits safety assessment; researcher Evan Hubinger estimated >10% chance AI could kill humans within a decade (CNA). Anthropic declined to comment.",
+        "Context: listing could value the lab >$2T (vs May ~$965B); IPO may slip past Nov midterms; Amodei calls to “pace the frontier” even as Opus 5.5 shipped last week."
+      ],
+      "whyItMatters": "A safety-first lab putting extinction-class language into an SEC-bound prospectus — while chasing a record AI IPO — is the clearest collision yet between frontier risk disclosure and public-market fundraising.",
+      "image": null,
+      "sources": [
+        {
+          "label": "CNBC (Reuters)",
+          "url": "https://www.cnbc.com/2026/09/29/anthropic-warns-ai-existential-risks-ipo-filing-reuters.html",
+          "kind": "article",
+          "time": "2026-09-29T03:23:00+02:00"
+        },
+        {
+          "label": "CNA / Reuters",
+          "url": "https://www.channelnewsasia.com/business/exclusive-anthropic-warns-ai-may-pose-existential-risks-humanity-in-ipo-filing-6417036",
+          "kind": "article",
+          "time": "2026-09-29T02:17:00+02:00"
+        },
+        {
+          "label": "CNBC — prospectus financials",
+          "url": "https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html",
+          "kind": "article",
+          "time": "2026-09-29T01:55:00+02:00"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+          "kind": "article",
+          "time": "2026-09-29T07:13:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "firebase-ios-sdk-exp-crash",
+      "title": "Firebase Analytics bad sdk-exp payload crashes iOS apps overnight",
+      "topics": [
+        "Tech",
+        "Dev",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "GitHub firebase-ios-sdk #16728 (P0): from ~2026-09-29 00:41 UTC, iOS apps with Firebase Analytics began crashing on launch — “key cannot be nil” parsing the server sdk-exp payload.",
+        "No app updates needed: already-shipped builds across SDK 10.x–12.x hit at once (DoorDash, Quizlet, GoDaddy et al.); root cause a malformed empty flag name in the protobuf.",
+        "Firebase eng (ncooke3): identified and rolled back; fix fully out by ~19:52 US/PDT Mon; no client SDK update needed; cached fetches could still crash up to ~4h after rollout.",
+        "HN (~88 pts) amplified via Gergely Orosz — remote config can brick installed Analytics apps without an App Store release."
+      ],
+      "whyItMatters": "A server-side experiment blob took down huge chunks of the iOS installed base in minutes — the clearest recent case that analytics SDKs are a shared production dependency, not just a metrics pipe.",
+      "image": {
+        "url": "https://opengraph.githubassets.com/4e8d98f53785c58c5b4436ec7a3c22470e0f725ed8dbe260b16eccbf67035cff/firebase/firebase-ios-sdk/issues/16728",
+        "alt": "Description Since 2026-09-29 00:41 UTC, our production iOS app has been crashing at a growing rate (56 crashes / 56 users in the first 18 minutes). We have not shipped an update. The crash started ...",
+        "credit": "Firebase iOS SDK #16728",
+        "creditUrl": "https://github.com/firebase/firebase-ios-sdk/issues/16728"
+      },
+      "sources": [
+        {
+          "label": "Firebase iOS SDK #16728",
+          "url": "https://github.com/firebase/firebase-ios-sdk/issues/16728",
+          "kind": "primary",
+          "time": "2026-09-29T02:59:00+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49889934",
+          "kind": "article",
+          "time": "2026-09-29T10:26:28+02:00"
+        },
+        {
+          "label": "Gergely Orosz on X",
+          "url": "https://x.com/GergelyOrosz/status/2104825886922911981",
+          "kind": "x",
+          "time": "2026-09-29T10:26:28+02:00"
+        }
+      ]
+    },
+    {
+      "id": "claude-managed-agents-openshell",
+      "title": "Anthropic: Claude Managed Agents + NVIDIA OpenShell for agent control",
+      "topics": [
+        "AI",
+        "Dev",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Anthropic (Claude blog): Claude Managed Agents + NVIDIA OpenShell — credentials stay in a vault the agent never sees; OpenShell enforces files/network/tools the agent can reach.",
+        "Managed Agents: agent loop separate from the sandbox; audit trails; long-running sessions; multi-agent orchestration. OpenShell: Apache 2.0, deny-by-default with a policy prover.",
+        "Customer quotes: Notion, Rakuten, Asana. Managed Agents available today; OpenShell open on GitHub / NVIDIA developer pages."
+      ],
+      "whyItMatters": "Yesterday’s Nvidia containment platform gets Anthropic’s first-party packaging — credentials outside the model plus kernel-level allowlists is the enterprise answer after a summer of agent breakouts.",
+      "image": {
+        "url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abad50555dd1dd050f63495_og_giving-companies-more-control-over-their-ai-agents-with-nvidia.jpg",
+        "alt": "Giving companies more control over their AI agents, with NVIDIA | Claude by Anthropic",
+        "credit": "Claude blog",
+        "creditUrl": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia"
+      },
+      "sources": [
+        {
+          "label": "Claude blog",
+          "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
+          "kind": "primary",
+          "time": "2026-09-29T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "PetaPixel: Google Photos editor bug — Share/Edit/Add/Trash go unresponsive after crop/rotate; Google confirms, fix “ASAP”; workarounds: Save as copy, or photos.google.com for already-edited shots.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "SZ/dpa: Gicon Höhenwindturm in Schipkau (Lausitz) hits 365 m tip height (300 m hub) — tallest wind turbine worldwide; ~Fernsehturm Berlin (368 m); commissioning planned November; ~7,500 households.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "heise / WIRED: Boox Picco — palm-sized ~Spielkartenformat e-reader that clips to a phone back.",
+          "sourceIndexes": [
+            3,
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/09/29/google-photos-bug-leaves-users-unable-to-share-delete-or-edit-images/",
+          "kind": "article",
+          "time": "2026-09-29T12:31:53+02:00"
+        },
+        {
+          "label": "Süddeutsche Zeitung (dpa)",
+          "url": "https://www.sueddeutsche.de/wirtschaft/in-der-lausitz-365-meter-hoechstes-windrad-der-welt-erreicht-seine-hoehe-dpa.urn-newsml-dpa-com-20090101-260928-930-758666",
+          "kind": "article",
+          "time": "2026-09-28T20:15:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Fast-so-hoch-wie-Berlins-Fernsehturm-Windkraftanlage-erreicht-Weltrekordhoehe-11469240.html",
+          "kind": "article",
+          "time": "2026-09-29T12:20:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Boox-Picco-E-Reader-im-Spielkartenformat-haengt-sich-ans-Smartphone-11469491.html",
+          "kind": "article",
+          "time": "2026-09-29T12:23:00+02:00"
+        },
+        {
+          "label": "WIRED",
+          "url": "https://www.wired.com/story/boox-picco-announcement-2026/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+          "kind": "article",
+          "via": {
+            "label": "WIRED on X",
+            "url": "https://x.com/WIRED/status/2104656933160354239",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "OpenAI (Sep 28): “Towards safety cases for frontier AI training” — early guidelines covering alignment training, containment, monitoring, ops practices, and misalignment-incident investigations.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Vite merged PR #23586: fix — pass queries to renderBuiltUrl (labelled p3-downstream-blocker).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "TypeScript merged PR #64470: fix crash on JSX emit for unexpectedly recovered BinaryExpression in a JSX attribute.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/7pgu4BdlPJCuac2hOkAnS9/2b074a0c7a643bbf330a5d93235655e4/towards-safety-cases-for-frontier-ai-training-seo.png?w=1600&h=900&fit=fill",
+        "alt": "Towards safety cases for frontier AI training",
+        "credit": "OpenAI",
+        "creditUrl": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+      },
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+          "kind": "primary",
+          "time": "2026-09-28T00:00:00+02:00"
+        },
+        {
+          "label": "Vite PR #23586",
+          "url": "https://github.com/vitejs/vite/pull/23586",
+          "kind": "primary",
+          "time": "2026-09-29T12:19:13+02:00"
+        },
+        {
+          "label": "TypeScript PR #64470",
+          "url": "https://github.com/microsoft/TypeScript/pull/64470",
+          "kind": "primary",
+          "time": "2026-09-29T06:37:38+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "NBC / Rapoport: 49ers WR Mike Evans day-to-day with a rib injury after leaving Sun’s win over ARI on a cart — further evaluation; receiving corps already thin (Stribling/Robinson/Kirk/Pearsall on IR).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "USA Today / NBC Bay Area: Jimmy Butler (ACL, Jan) progressing to light on-court work / dunks; no firm return date — cautious path, optimistic talk of mid-season; Curry extension chatter continues around camp.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://nbcsports.brightspotcdn.com/dims4/default/6443c8f/2147483647/strip/true/crop/4649x2615+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F54%2F18%2F34618a6344408693521233c0e58b%2F2297446253.jpg",
+        "alt": "Arizona Cardinals v San Francisco 49ers",
+        "credit": "NBC Sports",
+        "creditUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-evans-considered-day-to-day-with-rib-injury"
+      },
+      "sources": [
+        {
+          "label": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mike-evans-considered-day-to-day-with-rib-injury",
+          "kind": "article",
+          "time": "2026-09-28T22:45:00+02:00"
+        },
+        {
+          "label": "USA Today",
+          "url": "https://www.usatoday.com/story/sports/nba/warriors/2026/09/28/warriors-jimmy-butler-injury-update/91989463007/",
+          "kind": "article",
+          "time": "2026-09-28T00:00:00+02:00"
+        },
+        {
+          "label": "NBC Sports Bay Area",
+          "url": "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/jimmy-butler-promise-acl-return/1967122/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
