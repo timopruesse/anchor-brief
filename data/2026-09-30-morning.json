@@ -1,0 +1,436 @@
+{
+  "id": "2026-09-30-morning",
+  "edition": "morning",
+  "generatedAt": "2026-09-30T08:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h), Europe/Berlin",
+  "headline": "White House: Trump + AI CEOs ink “morally binding” voluntary safety accord (internal controls, independent audits, board oversight); OpenAI ships always-on Dots agents on GPT-6 Astra; US completes Iraq troop exit.",
+  "stories": [
+    {
+      "id": "white-house-ai-accord",
+      "title": "Trump + AI CEOs sign voluntary “morally binding” safety accord",
+      "topics": [
+        "AI",
+        "Policy",
+        "US"
+      ],
+      "weight": "lead",
+      "facts": [
+        "White House lunch Tue (~2h): Trump posted a voluntary accord on Truth Social that he called “morally binding” / “almost like a constitution” — no legal force, opens door to later codification.",
+        "Signers on the posted document (Euronews/CNN): Trump, Anthropic’s Dario Amodei, Google’s Sundar Pichai, Meta’s Mark Zuckerberg, OpenAI’s Greg Brockman, Nvidia’s Jensen Huang, Elon Musk (X/SpaceX/xAI).",
+        "Four voluntary steps (Bloomberg/CNN): robust internal controls (cyber/bio/chem/unintended acts); internal monitoring team; independent external auditor; board committee on audit reports — plus regular best-practice meetings.",
+        "Trump said he’ll name ~10 people to “watch over the whole enterprise” and someone to oversee the deal soon; still rejects slowing AI vs China — also floated renaming AI to “super intelligence.”",
+        "Context: pressure after OpenAI/Anthropic agent-safety headlines; Amodei told reporters the tech has “very real risks” and how to address them is “still under discussion.”"
+      ],
+      "whyItMatters": "Overnight’s political answer to the week’s agent-safety scare is voluntary self-policing — audits and board committees without new liability rules.",
+      "image": {
+        "url": "https://media.cnn.com/api/v1/images/stellar/prod/2026-09-29t191530z-1931030326-rc27tnah1x4k-rtrmadp-3-usa-trump.JPG?c=16x9&q=w_800,c_fill",
+        "alt": "President Trump speaks with tech executives at the White House",
+        "credit": "CNN / Reuters",
+        "creditUrl": "https://us.cnn.com/2026/09/29/business/amodei-huang-karp-trump"
+      },
+      "sources": [
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/2026/09/30/top-ai-and-tech-firms-sign-morally-binding-accord-to-self-police-development-after-meeting",
+          "kind": "article",
+          "time": "2026-09-30T06:01:00+02:00"
+        },
+        {
+          "label": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/artificial-intelligence/trump-backs-independent-ai-audits-in-shift-of-safety-posture",
+          "kind": "article",
+          "time": "2026-09-30T02:44:00+02:00"
+        },
+        {
+          "label": "CNN Business",
+          "url": "https://us.cnn.com/2026/09/29/business/amodei-huang-karp-trump",
+          "kind": "article",
+          "time": "2026-09-29T23:30:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "openai-dots",
+      "title": "OpenAI ships Dots — always-on agents on GPT-6 Astra",
+      "topics": [
+        "AI",
+        "Dev",
+        "Product"
+      ],
+      "weight": "normal",
+      "facts": [
+        "OpenAI (Sep 29 / DevDay): Dots are proactive, always-on agents with their own cloud computer + browser; connect to 4,000+ apps via plugins; reachable in ChatGPT, Slack, and Teams.",
+        "Powered by GPT-6 Astra (despite GPT-6.1 Astra being held). Rollout: Pro + Business Premium in eligible markets today (first Dot included); Enterprise/Edu/Healthcare beta when workspace admin enables.",
+        "Safety pitch: background “proactive research” uses read-only tools; saved passwords used without exposing them to the model; auto-review + Custom Rules for approvals; monitoring can pause/stop a Dot.",
+        "Specialist org Dots (own identity/credentials) in focused enterprise pilots; Microsoft Agent 365 integration planned. HN: ~534 pts overnight."
+      ],
+      "whyItMatters": "Same DevDay week as Sol pricing news — OpenAI is shipping a consumer/enterprise always-on agent product while still pausing tool-use on its most capable training runs.",
+      "image": {
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+        "alt": "Introducing dots",
+        "credit": "OpenAI",
+        "creditUrl": "https://openai.com/index/introducing-dots/"
+      },
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-dots/",
+          "kind": "primary",
+          "time": "2026-09-29T19:07:57+02:00"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49896604",
+          "kind": "article",
+          "time": "2026-09-29T19:07:57+02:00"
+        },
+        {
+          "label": "OpenAI — DevDay 2026 Recap",
+          "url": "https://openai.com/index/devday-2026-recap",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-iraq-exit",
+      "title": "US completes withdrawal from remaining Iraq bases",
+      "topics": [
+        "World",
+        "Middle East"
+      ],
+      "weight": "normal",
+      "facts": [
+        "AP / Reuters (Baghdad, Wed): US forces withdraw from remaining bases in Iraq today — exit agreed 2024 under Biden, carried out under Trump even amid conflict with Iran.",
+        "Tehran/allies cast it as a win for the “axis of resistance”; Iraqi analysts warn of a security vacuum for Iranian-backed militias and Islamic State sleeper cells.",
+        "US troops had supplied intel/ISR against IS; ~4,500 US dead over 20+ years; 7 of 18 US service members listed killed in this year’s Iran conflict were in Iraq."
+      ],
+      "whyItMatters": "End of the post-2014 US advisory footprint in Iraq — timed while Washington is still in a wider fight with Iran.",
+      "image": null,
+      "sources": [
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/iraq-us-withdrawal-7d050ff17a0c52298207bd9e60851fcd",
+          "kind": "article",
+          "time": "2026-09-30T02:01:00+02:00"
+        },
+        {
+          "label": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/09/29/iraq-prepares-for-new-chapter-after-us-troop-withdrawal-as-security-concerns-remain/",
+          "kind": "article",
+          "time": "2026-09-29T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "germany-pflege-gas",
+      "title": "Germany: Pflege reform still unresolved for Kabinett; Reiche orders more gas into storage",
+      "topics": [
+        "Germany",
+        "Policy",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Deutschlandfunk: ahead of today’s planned Kabinett decision on the Pflegereform, Union and SPD still not aligned — SPD (Miersch) keeps demanding changes beyond a pure cuts package.",
+        "Handelsblatt/dpa overnight: talks ran through Tuesday; Linnemann draft aims to avoid next-year contribution hikes (e.g. stretching Pflegeheim Leistungszuschläge — ~€2.6B 2027 relief in Warken-era draft).",
+        "Handelsblatt (ministry circles): Wirtschaftministerin Reiche instructed state gas trader Sefe late Tue (aligned with Merz) to store more gas — fill level ~57% vs ~70% typical this time of year."
+      ],
+      "whyItMatters": "Two overnight domestic pressure points: care-insurance politics before Kabinett, and a harder winter gas-storage push.",
+      "image": {
+        "url": "https://bilder.deutschlandfunk.de/34/19/41/72/34194172-1e17-4d97-9d25-ffa254a3225f/matthias-miersch-112-1920x1080.jpg",
+        "alt": "SPD Fraktionschef Matthias Miersch",
+        "credit": "Deutschlandfunk",
+        "creditUrl": "https://www.deutschlandfunk.de/spd-fordert-weiter-aenderungen-an-pflegereform-100.html"
+      },
+      "sources": [
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/spd-fordert-weiter-aenderungen-an-pflegereform-100.html",
+          "kind": "article",
+          "time": "2026-09-30T05:53:30+02:00"
+        },
+        {
+          "label": "Handelsblatt (via HeadTopics)",
+          "url": "https://de.headtopics.com/news/energie-wirtschaftsministerin-reiche-ordnet-88284985",
+          "kind": "article",
+          "time": "2026-09-30T04:15:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "OpenAI Status (Wed ~05:47–05:56 CEST): elevated errors for ChatGPT Pro/Plus — mitigation applied, monitoring recovery.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise/Bloomberg: Oracle seeking force-majeure rent deferral on ~$18B “Project Jupiter” Stargate datacenter (~570 ha) with Blue Owl — partners say financing obligations unchanged.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Golem: FritzOS 8.50 shipping — better DNS filtering + failover protection for Fritzboxes.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Golem: Bundesrat wants to drop Umweltplakette requirement for E-Kennzeichen EVs.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "HN (~486 pts): America.gov — White House AI-era gov services chatbot launched alongside the tech lunch.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/7/3/7/4/0/shutterstock_2147037333-b5fa87ec266ce4c6.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Data center infrastructure",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Riesiges-KI-Rechenzentrum-verzoegert-Oracle-will-Stundung-von-Mietzahlungen-11470269.html"
+      },
+      "sources": [
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
+          "kind": "primary",
+          "time": "2026-09-30T05:56:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Riesiges-KI-Rechenzentrum-verzoegert-Oracle-will-Stundung-von-Mietzahlungen-11470269.html",
+          "kind": "article",
+          "time": "2026-09-30T07:45:00+02:00"
+        },
+        {
+          "label": "Golem — FritzOS 8.50",
+          "url": "https://www.golem.de/news/fritzos-8-50-ist-fertig-fritzboxen-erhalten-bessere-dns-filter-funktionen-und-ausfallschutz-2609-213562.html",
+          "kind": "article",
+          "time": "2026-09-30T07:58:01+02:00"
+        },
+        {
+          "label": "Golem — E-Kennzeichen",
+          "url": "https://www.golem.de/news/nur-mit-e-kennzeichen-bundesrat-will-e-autos-von-umweltplakette-befreien-2609-213560.html",
+          "kind": "article",
+          "time": "2026-09-30T07:36:02+02:00"
+        },
+        {
+          "label": "Hacker News — America.gov",
+          "url": "https://news.ycombinator.com/item?id=49893509",
+          "kind": "article",
+          "time": "2026-09-29T16:04:57+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Five Minute Reads: Kishimi’s separation of tasks framed as a 7-day audit, not permission to stop caring.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "How To Think More and Better: “Unreasonable People.”",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "notes of an overthinking girl: satirical take on “how I grew my Substack following to [very high number]…” posts.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Five Minute Reads",
+          "url": "https://fiveminutereads1.substack.com/p/kishimis-separation-of-tasks-is-a",
+          "kind": "article",
+          "time": "2026-09-30T05:30:42+02:00"
+        },
+        {
+          "label": "How To Think More and Better",
+          "url": "https://morebetterthinking.substack.com/p/unreasonable-people",
+          "kind": "article",
+          "time": "2026-09-29T18:43:19+02:00"
+        },
+        {
+          "label": "notes of an overthinking girl",
+          "url": "https://notesofanoverthinkinggirl.substack.com/p/how-i-grew-my-substack-following",
+          "kind": "article",
+          "time": "2026-09-29T14:40:12+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Warriors + Clippers back on Oahu for training camp (first time since 2024); Warriors at BYU-Hawaii Laie; preseason tip Sun Oct 4, 1:00 p.m. HST at Stan Sheriff Center — Curry wants a make-up 3 after 2024 blank.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "49ers 3–0 after surviving Cardinals; Brock Purdy’s start (Yahoo) matched by only 3 MVPs in NFL history on early QBR; club reuniting with former 2nd-round WR Dante Pettis amid Mike Evans rib uncertainty.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://gray-khnl-prod.gtv-cdn.com/resizer/v2/LEALL4QDKVAF7NXBC6K4LDRNVY.png?auth=f83f229584b834ea0936cf5eb78c8335a049f4d50df42dc3ad99c9b23bb548e3&width=1200&height=600&smart=true",
+        "alt": "NBA training camp in Hawaii",
+        "credit": "Hawaii News Now",
+        "creditUrl": "https://www.hawaiinewsnow.com/2026/09/30/nba-returns-hawaii-clippers-warriors-train-oahu/"
+      },
+      "sources": [
+        {
+          "label": "Hawaii News Now",
+          "url": "https://www.hawaiinewsnow.com/2026/09/30/nba-returns-hawaii-clippers-warriors-train-oahu/",
+          "kind": "article",
+          "time": "2026-09-30T05:22:00+02:00"
+        },
+        {
+          "label": "Yahoo Sports — Purdy",
+          "url": "https://sports.yahoo.com/articles/brock-purdys-ridiculous-start-only-033016971.html",
+          "kind": "article",
+          "time": "2026-09-30T05:30:16+02:00"
+        },
+        {
+          "label": "Yahoo Sports — Pettis",
+          "url": "https://sports.yahoo.com/articles/49ers-news-san-francisco-reunites-004213484.html",
+          "kind": "article",
+          "time": "2026-09-30T02:42:13+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Playwright: merged PR #42981 — feat(webmcp): add page.webmcp API; also #42993 loopback hosts allowed by default for MCP bind addresses.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "bun: merged PR #43868 — clear O_NONBLOCK for spawned children so stdout/stderr don’t drop console output on EAGAIN.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Vite overnight: #23590 avoid unsupported warnings for browser:false mappings; #23611 preload CSS with renderBuiltUrl query URLs; #23609 percent-encoded srcset.",
+          "sourceIndexes": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Vercel changelog: Connect now accepts service submissions; CLI can search trace spans.",
+          "sourceIndexes": [
+            6,
+            7
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/b2b7a99b6cc878117f53e073df60cf2cd199ac36103f3fd909f73fe82f18e009/microsoft/playwright/pull/42993",
+        "alt": "Summary Default allowed hosts are now localhost, 127.0.0.1, [::1] and the host passed via --host (with the server port); 0.0.0.0/:: binds allow only the loopback names. Other hosts must be passed ...",
+        "credit": "Playwright PR #42993",
+        "creditUrl": "https://github.com/microsoft/playwright/pull/42993"
+      },
+      "sources": [
+        {
+          "label": "Playwright PR #42981",
+          "url": "https://github.com/microsoft/playwright/pull/42981",
+          "kind": "primary",
+          "time": "2026-09-30T01:06:07+02:00"
+        },
+        {
+          "label": "Playwright PR #42993",
+          "url": "https://github.com/microsoft/playwright/pull/42993",
+          "kind": "primary",
+          "time": "2026-09-30T02:49:24+02:00"
+        },
+        {
+          "label": "bun PR #43868",
+          "url": "https://github.com/oven-sh/bun/pull/43868",
+          "kind": "primary",
+          "time": "2026-09-30T01:59:39+02:00"
+        },
+        {
+          "label": "Vite PR #23590",
+          "url": "https://github.com/vitejs/vite/pull/23590",
+          "kind": "primary",
+          "time": "2026-09-30T06:14:01+02:00"
+        },
+        {
+          "label": "Vite PR #23611",
+          "url": "https://github.com/vitejs/vite/pull/23611",
+          "kind": "primary",
+          "time": "2026-09-30T04:50:45+02:00"
+        },
+        {
+          "label": "Vite PR #23609",
+          "url": "https://github.com/vitejs/vite/pull/23609",
+          "kind": "primary",
+          "time": "2026-09-30T04:31:49+02:00"
+        },
+        {
+          "label": "Vercel — Connect submissions",
+          "url": "https://vercel.com/changelog/vercel-connect-service-submissions",
+          "kind": "primary",
+          "time": "2026-09-30T00:00:00+02:00"
+        },
+        {
+          "label": "Vercel — CLI trace spans",
+          "url": "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli",
+          "kind": "primary",
+          "time": "2026-09-29T15:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
