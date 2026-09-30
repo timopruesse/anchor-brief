@@ -1,0 +1,360 @@
+{
+  "id": "2026-09-30-evening",
+  "edition": "evening",
+  "generatedAt": "2026-09-30T19:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~12:45 Berlin) / last ~6–7 hours",
+  "headline": "DeepMind SynthID Bio watermarks AI-designed proteins; BWI IT outage cuts ~60k Reservisten off systems; Cariad eyes ~1,000 more cuts; Gemini Skills replace Gems",
+  "stories": [
+    {
+      "id": "synthid-bio",
+      "title": "DeepMind introduces SynthID Bio — watermarks for AI-designed proteins",
+      "topics": [
+        "AI",
+        "Science",
+        "Biosecurity"
+      ],
+      "facts": [
+        "DeepMind (Sep 30): SynthID Bio embeds an imperceptible, verifiable watermark into AI-generated protein sequences and predicted 3D structures — detectable on the synthesized physical protein, not just the digital model.",
+        "Wet-lab: watermarked binders (AlphaProteo + SynthID-enabled ProteinMPNN) matched hit rate, affinity, and sequence diversity vs unwatermarked across VEGF-A, SARS-CoV-2 spike RBD, and PD-L1.",
+        "Also fine-tunes part of AlphaFold 3’s diffusion network so predicted coordinates carry a detectable signature while preserving accuracy.",
+        "Publishing methods paper + open-sourcing code/in-vitro data/weights (Nature DOI 10.1038/s41586-026-10965-y). Framed as one biosecurity layer for synthesis screening — not a silver bullet."
+      ],
+      "whyItMatters": "First major lab demo that an AI protein design can stay functional while carrying a machine-readable provenance signal — relevant as generative bio tools scale and synthesis screeners lose the ‘unknown = natural’ assumption.",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/BioSynthID_socialshare.max-1440x810.png",
+        "alt": "Visualization of a watermarked VEGF-A protein binder with SynthID Bio signal",
+        "credit": "Google / DeepMind",
+        "creditUrl": "https://deepmind.google/blog/introducing-synthid-bio/"
+      },
+      "sources": [
+        {
+          "label": "Google DeepMind — SynthID Bio",
+          "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+          "kind": "primary",
+          "time": "2026-09-30T17:00:00+02:00"
+        },
+        {
+          "label": "Google Blog — SynthID Bio",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/",
+          "kind": "primary",
+          "time": "2026-09-30T17:00:00+02:00"
+        },
+        {
+          "label": "Nature News",
+          "url": "https://www.nature.com/articles/d41586-026-03033-y",
+          "kind": "article",
+          "time": "2026-09-30T00:00:00+02:00"
+        },
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
+          "kind": "article",
+          "time": "2026-09-30T13:54:00+02:00"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "bwi-reservisten-it",
+      "title": "BWI IT outage: ~60k Reservisten cut off from Bundeswehr systems for a week+",
+      "topics": [
+        "Germany",
+        "Security",
+        "Defense"
+      ],
+      "facts": [
+        "Handelsblatt / MoD: roughly 60,000 non-active Reservisten have had no access to BWI workstations, Bundeswehr email, and the messenger for more than a week.",
+        "MoD: operational causes, not a cyberattack — “no data exfiltration or third-party access.” BWI cites update-related impairment; working to restore access “soon.”",
+        "Bundeswehr circles (via Handelsblatt): mass data import during system updates allegedly deleted records for non-called-up Reservisten — described as a catastrophe in a defense scenario."
+      ],
+      "whyItMatters": "Even without a breach, losing reserve connectivity for a week exposes how brittle command-and-control IT is when updates and imports go wrong.",
+      "image": {
+        "url": "https://images.handelsblatt.com/0MC0OUflEsj9/cover/6000/3375/0/0/314/313/0.5/0.5/bundeswehrsoldat-am-laptop.jpg",
+        "alt": "Bundeswehr soldier working at a laptop",
+        "credit": "Handelsblatt / IMAGO",
+        "creditUrl": "https://www.handelsblatt.com/politik/deutschland/bundeswehr-massiver-it-ausfall-trennt-reservisten-von-bundeswehrsystemen/100258620.html"
+      },
+      "sources": [
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/bundeswehr-massiver-it-ausfall-trennt-reservisten-von-bundeswehrsystemen/100258620.html",
+          "kind": "article",
+          "time": "2026-09-30T15:51:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/bwi-it-panne-trennt-reservisten-von-it-bundeswehrsystemen-2609-213596.html",
+          "kind": "article",
+          "time": "2026-09-30T19:03:02+02:00"
+        },
+        {
+          "label": "Finanznachrichten (wire)",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69721367-it-panne-trennt-zehntausende-reservisten-von-bundeswehrsystemen-003.htm",
+          "kind": "article",
+          "time": "2026-09-30T00:00:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "cariad-job-cuts",
+      "title": "VW’s Cariad plans ~1,000 more job cuts (~¼ of remaining staff)",
+      "topics": [
+        "Germany",
+        "Auto",
+        "Tech"
+      ],
+      "facts": [
+        "Handelsblatt (via heise): Cariad told staff at a Wed Betriebsversammlung it plans ~1,000 further cuts — about a quarter of ~4,300 remaining employees after last year’s ~1,600 cuts.",
+        "Timing/instruments still open; worker negotiations not started. Rationale cited: stay competitive vs external software vendors; also reviewing AI efficiency.",
+        "Internal paper (HB): cut investments ~€6.1B for 2027–2031 and contribute another ~€400M to group EBIT by early next decade; concept due by end-Dec 2026.",
+        "~500 roles tied to the ended Bosch “Automated Driving Alliance” are especially under pressure. Cariad also reportedly cancelled several Tarifverträge (VW cancelled many group contracts the same day)."
+      ],
+      "whyItMatters": "Confirms Cariad’s shift from sole group software-platform builder to a smaller integrator/maintainer under harsh cost targets — more German auto-software jobs at risk.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/7/4/4/9/6/shutterstock_2515362835-b104434c46ec42bf.jpg?func=bound&height=1200&org_if_sml=1&width=2000",
+        "alt": "Volkswagen factory / industrial site aerial view",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Bericht-Cariad-will-weitere-1000-Stellen-streichen-11471731.html"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Bericht-Cariad-will-weitere-1000-Stellen-streichen-11471731.html",
+          "kind": "article",
+          "time": "2026-09-30T17:42:00+02:00"
+        },
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-softwaretochter-cariad-plant-abbau-von-1000-weiteren-stellen/100258613.html",
+          "kind": "article",
+          "time": "2026-09-30T15:15:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "gemini-skills",
+      "title": "Gemini rolls out Skills globally — Gems to be replaced",
+      "topics": [
+        "AI",
+        "Google"
+      ],
+      "facts": [
+        "Google (Sep 30): Skills land in Gemini chat globally (18+; AI subscription tiers) — save reusable instructions, invoke with `/skill-name`, stack multiple skills, attach reference files (txt/PDF/images).",
+        "Skills already in Gemini Spark; Workspace business/enterprise/nonprofit/edu follow in coming weeks.",
+        "Gems sunset: Nov 2026 for personal accounts; Mar 2027 Workspace biz/enterprise/nonprofit; Jun 2027 education — auto-migrate Gems → Skills. Opal mini-apps experiment also turns down with personal Gems."
+      ],
+      "whyItMatters": "Google is consolidating custom assistants onto a slash-command skills model and sunsetting Gems on a published timetable.",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Skills_thumbnail.width-1300.png",
+        "alt": "Gemini Skills product thumbnail from Google Blog",
+        "credit": "Google",
+        "creditUrl": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+      },
+      "sources": [
+        {
+          "label": "Google Blog — Gemini Skills",
+          "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
+          "kind": "primary",
+          "time": "2026-09-30T18:00:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "BVB: agreement with Niko Kovač on extension — current deal to Jun 2027 to be stretched +2y to summer 2029; numbers agreed, signatures still pending (Bild via WELT); after exec extensions for Cramer/Ricken/Treß.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: Robin Heußer (Innenband) back in partial team training Mon — passes/sprints/COD OK, still no tackles or shooting; full team training possible next week if recovery holds.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "WELT — Kovač Verlängerung",
+          "url": "https://www.welt.de/sport/fussball/article6abd2bbfca5c42fe8f930f83/bvb-einigung-erzielt-trainer-niko-kovac-bekommt-neuen-vertrag.html",
+          "kind": "article",
+          "time": "2026-09-30T17:52:00+02:00"
+        },
+        {
+          "label": "Eintracht Braunschweig — Heußer",
+          "url": "https://www.eintracht.com/news/artikel/robin-heusser-macht-schritte-richtung-comeback",
+          "kind": "primary",
+          "time": "2026-09-29T00:00:00+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "OpenAI Status: new “Elevated latency for some API requests” incident (identified ~19:13 Berlin); ChatGPT Pro/Plus recovery from afternoon still listed resolved; Space Pages still monitoring.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "heise: EU planning a cross-border broadband network for emergency responders (Notfall-Kommunikation).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "heise: Nuance Audio Plus hearing glasses start in Germany (audio-focused wearable, not a camera glass).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "BBC/HN: Vermont virtual power plant of home batteries helping keep lights on in storms.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "OpenAI Status — API latency",
+          "url": "https://status.openai.com/incidents/01M3SMF1Q0TDCQVNYSXYG37QMR",
+          "kind": "primary",
+          "time": "2026-09-30T19:13:13+02:00"
+        },
+        {
+          "label": "heise — EU Einsatzkräfte-Netz",
+          "url": "https://www.heise.de/news/Grenzenlose-Notfall-Kommunikation-EU-plant-Breitbandnetz-fuer-Einsatzkraefte-11471767.html",
+          "kind": "article",
+          "time": "2026-09-30T18:13:00+02:00"
+        },
+        {
+          "label": "heise — Nuance Audio Plus",
+          "url": "https://www.heise.de/news/Hoer-statt-Kamerabrille-Nuance-Audio-Plus-startet-in-Deutschland-11471787.html",
+          "kind": "article",
+          "time": "2026-09-30T18:38:00+02:00"
+        },
+        {
+          "label": "BBC Future — Vermont batteries",
+          "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+          "kind": "article",
+          "time": "2026-09-28T00:00:00+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "facts": [
+        {
+          "text": "The AI Corner: “The 9 Bottlenecks Actually Deciding Who Wins in AI.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "On Substack: “Model Behavior: George Saunders.”",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/nine-bottlenecks-deciding-ai",
+          "kind": "article"
+        },
+        {
+          "label": "On Substack",
+          "url": "https://on.substack.com/p/model-behavior-george-saunders",
+          "kind": "article"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "TypeScript #64530 merged: keep a pure return-type inference filtered by its constraint in recursive call resolution.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Playwright #42970 merged: Tracing.start / startChunk return a Disposable.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Lobsters: Nicholas Nethercote — “How to speed up the Rust compiler in September 2026.”",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN (~250 comments): “You Said No MCP” — pushback on MCP-centric tooling assumptions.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "TypeScript #64530",
+          "url": "https://github.com/microsoft/TypeScript/pull/64530",
+          "kind": "primary",
+          "time": "2026-09-30T19:12:32+02:00"
+        },
+        {
+          "label": "Playwright #42970",
+          "url": "https://github.com/microsoft/playwright/pull/42970",
+          "kind": "primary",
+          "time": "2026-09-30T01:03:58+02:00"
+        },
+        {
+          "label": "Nethercote — Rustc speed",
+          "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+          "kind": "article",
+          "time": "2026-09-30T00:00:00+02:00"
+        },
+        {
+          "label": "HN — You Said No MCP",
+          "url": "https://news.ycombinator.com/item?id=49906637",
+          "kind": "article"
+        }
+      ],
+      "weight": "brief"
+    }
+  ]
+}
