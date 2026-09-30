@@ -1,0 +1,400 @@
+{
+  "id": "2026-09-30-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-09-30T12:53:54+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin) / last ~5–6 hours",
+  "headline": "Kabinett clears Linnemann’s Pflege “kleine Lösung” (childless surcharge → 0.9% from Jan 2027); Chrome 154.0.8037.92 patches 32 bugs incl. Critical ANGLE CVE; EU draft offers conditional single-market access to candidates.",
+  "stories": [
+    {
+      "id": "germany-pflege-cabinet",
+      "title": "Kabinett clears Pflege “kleine Lösung” — childless surcharge to 0.9%",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Policy"
+      ],
+      "weight": "lead",
+      "facts": [
+        "SPIEGEL/SZ (Wed): Federal Cabinet approved Health Minister Carsten Linnemann’s (CDU) care-insurance draft after overnight Union–SPD talks — morning brief still had Kabinett unresolved.",
+        "BMG via SZ/dpa: general Pflege contribution stays 3.6%; childless surcharge rises +0.3pp to 0.9% from 1 Jan 2027.",
+        "SPIEGEL: framed as a “kleine Lösung” to stabilize finances amid a multi-billion shortfall risk; SPD had threatened to block a pure cuts package.",
+        "Next week: formal decision for a Pflegekommission tasked with structural reforms, including models for balancing social and private care insurance (SPD priority).",
+        "Bill still needs Bundestag passage; exact cut details (e.g. care-grade rules, co-insured spouses) not fully public in today’s coverage."
+      ],
+      "whyItMatters": "Morning’s open coalition fight is over for now — a short-term contribution fix is in Cabinet, with the harder structural fight parked in a commission.",
+      "image": {
+        "url": "https://static.dw.com/image/74729464_6.jpg",
+        "alt": "Old man sitting at table eating, with carer",
+        "credit": "DW",
+        "creditUrl": "https://www.dw.com/en/germany-news-cabinet-approves-care-reform-bill/live-79481802"
+      },
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/deutschland/bundesregierung-kabinett-beschliesst-pflegereform-a-e17f7594-d4ac-4789-8ac5-cfb0aaffa7a3",
+          "kind": "article",
+          "time": "2026-09-30T11:23:00+02:00"
+        },
+        {
+          "label": "Süddeutsche / dpa",
+          "url": "https://www.sueddeutsche.de/politik/bundesregierung-regierung-bringt-pflegereform-auf-den-weg-dpa.urn-newsml-dpa-com-20090101-260929-930-764713",
+          "kind": "article",
+          "time": "2026-09-30T12:17:00+02:00"
+        },
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/germany-news-cabinet-approves-care-reform-bill/live-79481802",
+          "kind": "article",
+          "time": "2026-09-30T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "chrome-154-security",
+      "title": "Chrome 154.0.8037.92: 32 fixes, Critical ANGLE buffer overflow",
+      "topics": [
+        "Security",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Chrome Releases (Tue): Stable → 154.0.8037.92/.93 (Win/Mac) and 154.0.8037.92 (Linux); rollout over coming days/weeks.",
+        "32 security fixes; top issue Critical CVE-2026-102331 — buffer overflow in ANGLE (reported by @mfx, 2026-08-24).",
+        "Batch is heavy on High memory-safety bugs (V8 type confusion, GPU/WebGPU uninitialized resources, use-after-free in Views/Passwords/PiP); Google has not reported exploitation in the wild.",
+        "Golem (Wed ~12:00 Berlin) amplified the Critical ANGLE hole for DE readers — update promptly."
+      ],
+      "whyItMatters": "Another large mid-cycle Chrome security drop weeks after 154’s launch — Critical graphics-stack memory bugs are the ones to chase first.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Chrome Releases",
+          "url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01807488085.html",
+          "kind": "primary",
+          "time": "2026-09-29T00:00:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/kritische-schwachstelle-google-stopft-32-loecher-in-chrome-2609-213576.html",
+          "kind": "article",
+          "time": "2026-09-30T12:00:02+02:00"
+        },
+        {
+          "label": "HKCERT",
+          "url": "https://www.hkcert.org/security-bulletin/google-chrome-multiple-vulnerabilities_20260930",
+          "kind": "article",
+          "time": "2026-09-30T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "eu-candidate-single-market",
+      "title": "EU draft: conditional single-market access for candidate countries",
+      "topics": [
+        "Europe",
+        "Politics",
+        "Policy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "POLITICO (Wed ~10:39 CEST): draft Commission “pre-enlargement” review (Alexandre Adam) would offer gradual single-market integration — frictionless trade + research access — while accession talks continue.",
+        "Economic benefits tied to foreign-policy alignment and not sharing key tech with hostile states/rivals; sensitive sectors flagged: semiconductors, quantum, biotech, AI, space.",
+        "Ukraine, Moldova, Albania, Montenegro get accelerated “road maps”; access is reversible if conditions fail.",
+        "Package due to top officials ~Oct 6 after von der Leyen’s Western Balkans trip; leaders debate at Oct 15 Brussels summit — also more QMV via passerelle clauses."
+      ],
+      "whyItMatters": "Brussels is trying to buy time and leverage on a stalled enlargement track by trading market access for alignment — with an explicit tech-security choke.",
+      "image": null,
+      "sources": [
+        {
+          "label": "POLITICO",
+          "url": "https://www.politico.eu/article/ursula-von-der-leyen-eu-offer-single-market-access-to-candidate-countries/",
+          "kind": "article",
+          "time": "2026-09-30T10:39:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "wsl-containers-ga",
+      "title": "Microsoft: WSL Containers generally available",
+      "topics": [
+        "Dev",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Windows Developer Blog (Sep 29): WSL Containers GA — `wsl --update` / GitHub release unlocks `wslc.exe` (alias `container.exe`) to build/run Linux containers on Windows without a separate engine.",
+        "Native apps can drive containers via NuGet `Microsoft.WSL.Containers` (C#/C++/WinRT) — Microsoft pitches local AI workloads and cloud-native apps on the desktop.",
+        "GA adds restart/cp/events/health checks, network connect/disconnect, configurable storage; Intune can allow/deny containers + registry allow-lists; Defender for Endpoint extends into container activity.",
+        "Roadmap: compose support next; heise (Wed ~11:53) notes WSL 3.0.1 (Sep 29) as the ship vehicle."
+      ],
+      "whyItMatters": "Windows is productizing a first-party Linux container runtime with enterprise controls — a direct alternative path to Docker Desktop for many Windows-dev workflows.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Windows Developer Blog",
+          "url": "https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available/",
+          "kind": "primary",
+          "time": "2026-09-29T00:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/WSL-Container-sind-da-Linux-Container-ohne-Extra-Engine-11470785.html",
+          "kind": "article",
+          "time": "2026-09-30T11:53:00+02:00"
+        },
+        {
+          "label": "Microsoft Learn — WSL container",
+          "url": "https://learn.microsoft.com/en-us/windows/wsl/wsl-container",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "OpenAI Status (Wed ~12:36 Berlin): ChatGPT Pro/Plus elevated errors — “all impacted services are recovered,” still monitoring (morning had mitigation only).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "OpenAI Status: separate “Elevated errors in ChatGPT Space Pages” incident also listed Wed morning (~12:34 Berlin stamp on feed).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "ESA: science operations begin for Smile (Solar wind Magnetosphere Ionosphere Link Explorer).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Gicon Höhenwindturm in Schipkau (Brandenburg) reaches full 365 m hub/tower height — billed world’s tallest wind turbine; ops targeted November.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "DW: >1,000 officers raid Hells Angels / money-laundering network across DE + BE/BG/NL — up to €48.6M targeted, 71 under investigation.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Golem: TSMC reportedly planning a second US fab site beyond Arizona (tip; details still thin).",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/smile_s_first_ultraviolet_image_shows_auroral_substorm/27545329-1-eng-GB/Smile_s_first_ultraviolet_image_shows_auroral_substorm_pillars.png",
+        "alt": "Smile’s first ultraviolet image shows auroral substorm",
+        "credit": "ESA — Smile",
+        "creditUrl": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile"
+      },
+      "sources": [
+        {
+          "label": "OpenAI Status — ChatGPT Pro/Plus",
+          "url": "https://status.openai.com/incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
+          "kind": "primary",
+          "time": "2026-09-30T12:36:00+02:00"
+        },
+        {
+          "label": "OpenAI Status — Space Pages",
+          "url": "https://status.openai.com/incidents/01M3R1T4FCR1337FBBYY9K2RPB",
+          "kind": "primary",
+          "time": "2026-09-30T12:34:00+02:00"
+        },
+        {
+          "label": "ESA — Smile",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile",
+          "kind": "primary",
+          "time": "2026-09-30T09:05:00+02:00"
+        },
+        {
+          "label": "GICON",
+          "url": "https://www.gicon.de/aktuelles/artikel/gicon-hoehenwindturm-erreicht-weltrekordhoehe-von-365-metern",
+          "kind": "primary"
+        },
+        {
+          "label": "DW — Hells Angels raids",
+          "url": "https://www.dw.com/en/germany-news-cabinet-approves-care-reform-bill/live-79481802",
+          "kind": "article",
+          "time": "2026-09-30T12:00:00+02:00"
+        },
+        {
+          "label": "Golem.de — TSMC",
+          "url": "https://www.golem.de/news/nicht-in-arizona-tsmc-plant-wohl-zweiten-us-standort-2609-213577.html",
+          "kind": "article",
+          "time": "2026-09-30T12:32:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "shit you should care about: “The ‘Cornell 7’ is a story about men. They aren’t seeing it.”",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/the-cornell-7-is-a-story-about-men",
+          "kind": "article",
+          "time": "2026-09-30T08:52:59+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB: Kovac pushing load management for Konstantinos Karetsas around Greece’s Nations League vs Netherlands/Germany — protect the teen ahead of club fixtures.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors: Kerr wants more five-out offense; Kristaps Porziņģis out of training camp “indefinitely” (undisclosed health) muddies the spacing plan.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "SF Chronicle: Porziņģis will miss training camp; Warriors exploring other big options while five-out remains the stated intent.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "sport.de — Karetsas",
+          "url": "https://www.sport.de/news/ne17198801/bvb-star-karetsas-gegen-dfb-elf-aussen-vor-kovac-telefonierte-mit-nationaltrainer/",
+          "kind": "article"
+        },
+        {
+          "label": "Yahoo Sports — Warriors five-out",
+          "url": "https://sports.yahoo.com/articles/warriors-want-play-more-five-075323151.html",
+          "kind": "article",
+          "time": "2026-09-30T08:57:00+02:00"
+        },
+        {
+          "label": "SF Chronicle — Porziņģis",
+          "url": "https://www.sfchronicle.com/sports/warriors/article/warriors-kristaps-porzingis-miss-training-22452758.php",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "vite#23510 merged: perf(build) avoid quadratic link scan in the preload helper.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "bun#44279 merged: cancel a dead realm’s deferred work at end of the collecting GC.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Claude blog: Asana case study on coaching human–agent teams (customer story).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Lobsters: OpenBSD ports keeps GPL coreutils; rejects uutils Rust rewrite.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "HN (~265 pts): “September 2026: The world today, as seen by one Polish guy.”",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/9b107a72ac0df86ca871aa86b4031811422ca9458df1c7dd5aab28d4f6a1c5c8/vitejs/vite/pull/23510",
+        "alt": "Hey I found this little opportunity while looking at browser performance traces originally, I've run this patch in prod with measured (inline in my patch) improvement metrics across the populat...",
+        "credit": "vite#23510",
+        "creditUrl": "https://github.com/vitejs/vite/pull/23510"
+      },
+      "sources": [
+        {
+          "label": "vite#23510",
+          "url": "https://github.com/vitejs/vite/pull/23510",
+          "kind": "primary",
+          "time": "2026-09-30T08:59:17+02:00"
+        },
+        {
+          "label": "bun#44279",
+          "url": "https://github.com/oven-sh/bun/pull/44279",
+          "kind": "primary",
+          "time": "2026-09-30T11:01:37+02:00"
+        },
+        {
+          "label": "Claude blog — Asana",
+          "url": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
+          "kind": "primary",
+          "time": "2026-09-29T02:00:00+02:00"
+        },
+        {
+          "label": "OpenBSD ports (mail archive)",
+          "url": "https://www.mail-archive.com/ports%40openbsd.org/msg143892.html",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49905487",
+          "kind": "article",
+          "time": "2026-09-30T09:12:31+02:00",
+          "via": {
+            "label": "tomwojcik.com",
+            "url": "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/",
+            "kind": "article"
+          }
+        }
+      ]
+    }
+  ]
+}
