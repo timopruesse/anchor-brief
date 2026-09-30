@@ -2,7 +2,7 @@
   "id": "2026-09-30-afternoon-gme",
   "parentId": "2026-09-30-afternoon",
   "edition": "afternoon",
-  "generatedAt": "2026-09-30T12:53:54+02:00",
+  "generatedAt": "2026-09-30T12:54:05+02:00",
   "timezone": "Europe/Berlin",
   "coverage": "Tue US close (Yahoo) / Berlin lunch Wed (pre-NYSE open) + Form 4 press / Cheng livestream",
   "headline": "Still Tue close ~$23.76 (−0.8%); Cohen Form 4 (~450k / ~$10.56M) still the catalyst in Wed press; Cheng Livestream #13 aired; no fresh IR; Kitty quiet.",
@@ -765,10 +765,10 @@
           "kind": "article"
         },
         {
-          "label": "Seeking Alpha — Cohen buy tip",
-          "url": "https://seekingalpha.com/symbol/GME/news?source=feed_symbol_GME",
+          "label": "Yahoo Finance — market wrap tip",
+          "url": "https://finance.yahoo.com/m/9bef82b0-bc35-31b4-a05e-cfa3a8677db4/boeing%2C-gamestop%2C-robinhood%2C.html",
           "kind": "article",
-          "time": "2026-09-30T11:38:59+02:00"
+          "time": "2026-09-30T10:57:00+02:00"
         },
         {
           "label": "Larry Cheng — Livestream #13",
