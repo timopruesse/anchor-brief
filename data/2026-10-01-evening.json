@@ -1,0 +1,391 @@
+{
+  "id": "2026-10-01-evening",
+  "edition": "evening",
+  "generatedAt": "2026-10-01T19:35:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:05 Berlin) / last ~6–7 hours",
+  "headline": "Berlin Linke/Greens/SPD Vorgespräch: no deal yet, maybe weekend round 2; Pistorius announces Drohnenregiment (≤600, 2027); RKI: first locally acquired Sindbis case in DE; Gemini Guided Vision on Android.",
+  "stories": [
+    {
+      "id": "berlin-coalition-vorgesprache-update",
+      "title": "Berlin: first Dreier-Vorgespräch — no deal yet",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Berlin"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Linke (25.7% winner), Greens and SPD held the first three-way Vorgespräch on antisemitism / racism / organised crime at Haus der Statistik near Alexanderplatz (dpa-AFX ~17:53).",
+        "No joint line announced; chairs Kerstin Wolter (Linke), Nina Stahr (Greens), Bettina König (SPD) called the exchange “constructive” and agreed confidentiality.",
+        "Parties say they will talk again — not Friday; weekend (possibly Saturday) floated unofficially; Sondierungen could follow next week if Vorgespräche clear.",
+        "Context: Neukölln election-party / clan-contact debate and Ferat Koçak quitting the Bundestag Innenausschuss still frame the trust hurdle before formal sondings."
+      ],
+      "whyItMatters": "Material update on this afternoon’s lead: the first Dreierformat happened and did not unlock Sondierungen yet — the antisemitism/clan gate remains the path dependency for a red-green-red Berlin executive.",
+      "image": {
+        "url": "https://www.ariva.de/news/attachments/?fid=d5179a9ad26b56cee0b779ea60429760&resize_x=1200&",
+        "alt": "News illustration for Berlin coalition Vorgespräche coverage",
+        "credit": "ARIVA / dpa-AFX",
+        "creditUrl": "https://www.ariva.de/news/roundup-bei-dreiergespraechen-in-berlin-noch-keine-einigung-12155811"
+      },
+      "sources": [
+        {
+          "label": "dpa-AFX via ARIVA",
+          "url": "https://www.ariva.de/news/roundup-bei-dreiergespraechen-in-berlin-noch-keine-einigung-12155811",
+          "kind": "article",
+          "time": "2026-10-01T17:53:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bundeswehr-drohnenregiment",
+      "title": "Pistorius: first Bundeswehr Drohnenregiment in 2027",
+      "topics": [
+        "Germany",
+        "Defence"
+      ],
+      "weight": "normal",
+      "facts": [
+        "At Truppenübungsplatz Bergen, Defence Minister Boris Pistorius said the Heer will stand up a standalone unmanned-systems regiment during 2027.",
+        "Up to ~600 personnel; ranges from close-in to ~500 km; includes unmanned air and ground systems plus an organic electromagnetic-warfare company.",
+        "Loitering munition (“Kamikaze”) drones already in trials are slated to reach troops next year and equip the new regiment.",
+        "Quote: “Wer sich zu Land durchsetzen will, der muss eben den Kampf mit unbemannten Systemen beherrschen.”"
+      ],
+      "whyItMatters": "First named Drohnenregiment packages Ukraine-war lessons into a permanent Heer formation — tempo and EW, not just airframes.",
+      "image": {
+        "url": "https://images.handelsblatt.com/97pAwINlGYNu/cover/6000/3375/0/0/313/312/0.5/0.5/15.07.2026-berlin-boris-pistorius-spd-verteidigungsminister-bekommt-beim-besuch-der-heimatschu.jpg",
+        "alt": "Defence Minister Boris Pistorius during a Bundeswehr visit",
+        "credit": "Handelsblatt / dpa",
+        "creditUrl": "https://www.handelsblatt.com/politik/deutschland/ruestung-pistorius-laesst-drohnenregiment-aufstellen/100259088.html"
+      },
+      "sources": [
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/ruestung-pistorius-laesst-drohnenregiment-aufstellen/100259088.html",
+          "kind": "article",
+          "time": "2026-10-01T17:51:00+02:00"
+        },
+        {
+          "label": "BILD",
+          "url": "https://www.bild.de/politik/eilmeldung-pistorius-laesst-drohnen-einheit-aufstellen-6abe7c7f3ff652909b794b6d",
+          "kind": "article",
+          "time": "2026-10-01T17:58:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sindbis-germany-first-case",
+      "title": "RKI: first locally acquired Sindbis fever case in Germany",
+      "topics": [
+        "Germany",
+        "Health"
+      ],
+      "weight": "normal",
+      "facts": [
+        "RKI reports the first confirmed human Sindbis-virus (SINV) illness acquired in Germany: a 60-year-old man in Baden-Württemberg.",
+        "Onset 12 Jul; doctors first tested for Chikungunya (Asian tiger mosquito area), then expanded to SINV — lab confirmation in September.",
+        "Prior clues: SINV in mosquitoes near Weinheim and antibodies in local blood donors years ago; bird–mosquito cycle; no known human-to-human spread.",
+        "Symptoms: sudden fever, itchy rash, marked joint pain (Chikungunya-like); not considered life-threatening; no specific antiviral — supportive care / mosquito protection."
+      ],
+      "whyItMatters": "Confirms that where SINV already circulates in mosquitoes/birds, clinical human cases are possible — a diagnostic nudge for mosquito season, not a pandemic alarm.",
+      "image": {
+        "url": "https://www.n-tv.de/img/31370638/1790872074/Img_16_9/1200/imago0085065632h.jpg",
+        "alt": "Mosquito close-up illustrating vector-borne infection risk",
+        "credit": "n-tv / imago",
+        "creditUrl": "https://www.n-tv.de/wissen/Sindbis-Virus-infiziert-erstmals-Menschen-in-Deutschland-id31370551.html"
+      },
+      "sources": [
+        {
+          "label": "n-tv (dpa)",
+          "url": "https://www.n-tv.de/wissen/Sindbis-Virus-infiziert-erstmals-Menschen-in-Deutschland-id31370551.html",
+          "kind": "article",
+          "time": "2026-10-01T17:53:00+02:00"
+        },
+        {
+          "label": "Süddeutsche Zeitung (dpa)",
+          "url": "https://www.sueddeutsche.de/wissen/infektion-in-baden-wuerttemberg-erster-nachweis-von-sindbis-fieber-in-deutschland-dpa.urn-newsml-dpa-com-20090101-261001-930-775495",
+          "kind": "article",
+          "time": "2026-10-01T16:07:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-guided-vision",
+      "title": "Google: Guided Vision in Gemini Live for Android",
+      "topics": [
+        "Tech",
+        "AI",
+        "Accessibility"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Google launches Guided Vision in Gemini Live on compatible Android 9+ devices where Gemini Live is supported.",
+        "Camera share → real-time spoken scene descriptions, follow-ups, and verbal reframing cues (pan/tilt/step back) built with the blind and low-vision community.",
+        "Training/testing partnership with Aira (tens of thousands of hours of visual interpretation; 1,000+ Trusted Testers); access via Gemini app toggle, Android accessibility shortcut, or TalkBack menu.",
+        "Google caveat: assistive only — not a medical device, mobility aid, or navigation/obstacle tool."
+      ],
+      "whyItMatters": "A shipped, camera-first accessibility agent from Google — primary source is the company post, not a press rewrite.",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GuidedVision_hero.width-1300.png",
+        "alt": "Guided Vision in Gemini Live hero artwork",
+        "credit": "Google",
+        "creditUrl": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/"
+      },
+      "sources": [
+        {
+          "label": "Google Blog — Gemini",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+          "kind": "primary",
+          "time": "2026-10-01T18:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "reiche-investitionspruefgesetz",
+      "title": "Reiche drafts tougher Investitionsprüfgesetz",
+      "topics": [
+        "Germany",
+        "Economy",
+        "Geopolitics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Handelsblatt reports an 86-page draft “Investitionsprüfgesetz” from Economy Minister Katherina Reiche (CDU) consolidating and tightening foreign-investment screening.",
+        "Ban thresholds easier; more sectors treated as critical; screening would also cover certain buyers from European partner countries for the first time.",
+        "China is not named, but critical deals are often Chinese-linked; Zippel logistics takeover by Cosco reportedly headed for a federal ban next week.",
+        "Draft is finished in BMWK this week but not yet inter-ministerially agreed; ministry spokesperson declined detail."
+      ],
+      "whyItMatters": "Moves Germany from scattered FDI rules toward a harder security screen — still a draft, not law.",
+      "image": {
+        "url": "https://images.handelsblatt.com/-269npS9vHd2/cover/4408/2479/0/0/0/460/0.437/0.255/katherina-reiche.jpg",
+        "alt": "Economy Minister Katherina Reiche",
+        "credit": "Handelsblatt / IMAGO",
+        "creditUrl": "https://www.handelsblatt.com/politik/deutschland/geopolitik-reiche-will-mit-neuem-gesetz-china-einfluss-abwehren/100259028.html"
+      },
+      "sources": [
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/geopolitik-reiche-will-mit-neuem-gesetz-china-einfluss-abwehren/100259028.html",
+          "kind": "article",
+          "time": "2026-10-01T17:31:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "NASA/SpaceX Crew-13 launched 11:10 a.m. EDT from SLC-40 — Watkins, Delaney, Kutryk (CSA), Teteryatnikov (Roscosmos); docking targeted ~7 p.m. EDT (fastest ISS launch-to-dock claim).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Chatkontrolle trilogue #6 (Tue): no deal on scanning private chats; agreement only on the EU child-protection centre; next political trilogue date unset (netzpolitik).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "BNetzA draft critical-functions catalogue (filed at EU TRIS) treats antenna access network as critical infra — legal path for BMI to ban vendor components (Huawei ~46k sites cited) (WiWo).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Fujifilm raising Japanese camera prices by up to 23% (PetaPixel).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "kind": "primary",
+          "time": "2026-10-01T17:59:24+02:00"
+        },
+        {
+          "label": "netzpolitik.org",
+          "url": "https://netzpolitik.org/2026/chatkontrolle-verhandlungen-eu-staaten-und-parlament-weiter-uneins/",
+          "kind": "article",
+          "time": "2026-10-01T18:17:00+02:00"
+        },
+        {
+          "label": "WirtschaftsWoche",
+          "url": "https://www.wiwo.de/unternehmen/dienstleister/mobilfunk-droht-huawei-durch-den-bnetza-katalog-das-komplett-aus/100258336.html",
+          "kind": "article",
+          "time": "2026-09-30T17:07:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/01/fujifilm-increases-japanese-camera-prices-by-up-to-23/",
+          "kind": "article",
+          "time": "2026-10-01T15:13:33+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers: Brock Purdy named FedEx Air & Ground Player of the Week after 297 yds / 4 TD vs Cardinals (36–30); next up Broncos Sunday (49ers.com).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: Fri friendly at Eintracht Frankfurt 15:30 (closed doors; free SGE YouTube stream); league resumes 9 Oct vs Holstein Kiel 18:30 (club).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: Wolters beer supply for home games guaranteed through year-end despite planned brewery site closure; post-NY outlook open (club).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "49ers.com",
+          "url": "https://www.49ers.com/news/brock-purdy-named-fedex-air-ground-nfl-player-of-the-week-vs-cardinals",
+          "kind": "primary",
+          "time": "2026-09-30T22:01:00+02:00"
+        },
+        {
+          "label": "Eintracht Braunschweig",
+          "url": "https://www.eintracht.com/news/artikel/zu-gast-bei-der-eintracht-testspiel-gegen-frankfurt",
+          "kind": "primary",
+          "time": "2026-10-01T12:00:00+02:00"
+        },
+        {
+          "label": "Eintracht Braunschweig — Wolters",
+          "url": "https://www.eintracht.com/news/artikel/eintracht-braunschweig-informiert-zur-partnerschaft-mit-der-hofbrauhaus-wolters-gmbh",
+          "kind": "primary",
+          "time": "2026-10-01T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Shit You Should Care About: “[UNPAYWALLED] The ‘Cornell 7’ is a story about men. Men aren’t seeing it.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The AI Corner: “What AI Agents See When They Look at Your Pricing”.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Shit You Should Care About",
+          "url": "https://shityoushouldcareabout.substack.com/p/unpaywalled-the-cornell-7-is-a-story",
+          "kind": "article",
+          "time": "2026-10-01T18:00:50+02:00"
+        },
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/ai-agents-pricing-page-citations",
+          "kind": "article",
+          "time": "2026-10-01T17:17:25+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "@sveltejs/kit@3.0.0 (Thu ~19:21 Berlin): major — Node 22+, Vite 8, Svelte 5.56.4+, remote-fn types to $app/server, $lib→#lib, many breaks; companion package/adapter majors same tag wave.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Rust 1.99.0: stabilize defining C-ABI variadic fns; Layout::for_value_raw / size_of_val_raw / align_of_val_raw; doc guidance vs Box::leak round-trips.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "claude.dev: “What a task costs on Opus 5.5” + “Using Claude Code: Spending your effort” (vendor how-tos).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Claude blog: Anthropic sales rebuilt inbound with Claude Managed Agents (customer/how-to).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "GitHub — @sveltejs/kit@3.0.0",
+          "url": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs/kit%403.0.0",
+          "kind": "primary",
+          "time": "2026-10-01T19:21:04+02:00"
+        },
+        {
+          "label": "Rust Blog — 1.99.0",
+          "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+          "kind": "primary",
+          "time": "2026-10-01T12:00:00+02:00"
+        },
+        {
+          "label": "claude.dev — Opus 5.5 costs",
+          "url": "https://claude.dev/blog/what-a-task-costs-on-opus-5-5/",
+          "kind": "primary"
+        },
+        {
+          "label": "claude.dev — Spending your effort",
+          "url": "https://claude.dev/blog/spending-your-effort/",
+          "kind": "primary"
+        },
+        {
+          "label": "Claude blog — inbound agents",
+          "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
