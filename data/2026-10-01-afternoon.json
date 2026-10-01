@@ -1,0 +1,457 @@
+{
+  "id": "2026-10-01-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-01T13:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin) / last ~5–6 hours",
+  "headline": "Berlin Linke/Greens/SPD open coalition Vorgespräche (antisemitism & clan issues first); Proofpoint TA419 phished AI-policy experts; Anthropic: Barclays scales Claude; DE renewables ~61% of power use in Q1–Q3.",
+  "stories": [
+    {
+      "id": "berlin-coalition-vorgesprache",
+      "title": "Berlin: Linke, Greens, SPD open coalition Vorgespräche",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Berlin"
+      ],
+      "weight": "lead",
+      "facts": [
+        "tagesschau/rbb (Thu ~11:47): Linke, Greens and SPD Spitzen began Dreier-Vorgespräche at Haus der Statistik (Alexanderplatz) — ~1h early to dodge photo ops; not yet Sondierungen.",
+        "Greens/SPD (via dpa/tagesschau): want binding agreements on antisemitism, protecting Jewish life, racism, organized crime and social cohesion before formal exploratory talks; Linke agreed to that sequence.",
+        "Linke won the Sep 20 Abgeordnetenhauswahl with 25.7%; Co-Fraktionschefin Elif Eralp could become Berlin’s first female Regierende Bürgermeisterin in a rot-grün-rote coalition.",
+        "Caution trigger: Neukölln election-night guests included an Arab-clan figure and a controversial pro-Palestinian activist; Linke MdB Ferat Kocak said Tue he would leave the Bundestag Innenausschuss.",
+        "If Vorgespräche clear: formal Sondierungen next week (teams already named); housing/rents — Linke/Greens push Vergesellschaftung of large landlords (~220k units), SPD’s Steffen Krach campaigned against Enteignungen."
+      ],
+      "whyItMatters": "The capital’s government formation is gated on trust questions around antisemitism and organized crime before policy bargaining even starts — and a Linke-led Berlin would be a national first.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/2cb4b3ed-6f28-4150-8ef9-3ca2a2b36558/AAABoPa2tnc/AAABnSSvrFg/16x9-big/rbb-linke-spd-gruene-100.jpg?width=1280",
+        "alt": "Politicians from Linke, SPD and Greens associated with Berlin coalition talks",
+        "credit": "tagesschau / rbb",
+        "creditUrl": "https://www.tagesschau.de/inland/regional/berlin/rbb-nach-abgeordnetenhauswahl-rot-gruen-rot-trifft-sich-zu-vorgespraechen-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau / rbb",
+          "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-nach-abgeordnetenhauswahl-rot-gruen-rot-trifft-sich-zu-vorgespraechen-100.html",
+          "kind": "article",
+          "time": "2026-10-01T11:47:00+02:00"
+        },
+        {
+          "label": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/berlin/liveblog/diskussion-uber-antisemitismus-linke-grune-und-spd-treffen-sich-am-donnerstag-zu-vorgesprachen-in-berlin-16053722.html",
+          "kind": "article",
+          "time": "2026-10-01T11:00:00+02:00"
+        },
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/germany-news-berlin-leftists-seek-to-pave-way-for-coalition/live-79496180",
+          "kind": "article",
+          "time": "2026-10-01T12:00:00+02:00"
+        },
+        {
+          "label": "Süddeutsche / dpa",
+          "url": "https://www.sueddeutsche.de/politik/nach-der-berlin-wahl-linke-gruene-und-spd-in-berlin-reden-ueber-antisemitismus-dpa.urn-newsml-dpa-com-20090101-261001-930-771671",
+          "kind": "article",
+          "time": "2026-10-01T06:34:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ta419-ai-policy-phish",
+      "title": "Proofpoint: China-aligned TA419 phished US AI-policy experts",
+      "topics": [
+        "Security",
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Proofpoint (Thu Oct 1): China-aligned actor TA419 ran credential-phishing against AI experts at US think tanks, universities and law firms — first public report on the group (seen since ≥ Apr 2025).",
+        "From 8 Jul 2026: impersonated Lynne Edwards Parker (ex White House OSTP) then Heidi Crebo-Rediker — fake AI Policy Advisory Committee and a purported SFRC AI export-controls report.",
+        "After a reply, shortened URLs led via actor-controlled domains to a fake OneDrive Adversary-in-the-Middle / Frameless BitB page targeting Microsoft 365 / Entra ID (session cookies, including MFA).",
+        "Feb 2026 precursor: spoofed a senior Anthropic employee (“Request for Feedback on Military Integration of Claude”) against a think-tank AI policy analyst — same AitM pattern.",
+        "Proofpoint: espionage aimed at US AI policy/regulatory landscape amid distillation/export-control friction; recommends passkeys and out-of-band verification of cold outreach."
+      ],
+      "whyItMatters": "Policy researchers — not just labs — are in the credential-theft crosshairs, with Anthropic-branded lures sitting next to fake Senate/White House personas.",
+      "image": {
+        "url": "https://cdn.nextgov.com/media/img/cd/2026/09/30/093026ChinaNG/open-graph.jpg",
+        "alt": "Open-graph image for Nextgov coverage of China-linked AI-policy phishing",
+        "credit": "Nextgov/FCW",
+        "creditUrl": "https://www.nextgov.com/cybersecurity/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416356/"
+      },
+      "sources": [
+        {
+          "label": "Proofpoint Threat Insight",
+          "url": "https://www.proofpoint.com/us/blog/threat-insight/hallucinating-credibility-china-aligned-ta419-impersonates-its-way-us-ai-policy",
+          "kind": "primary",
+          "time": "2026-10-01T00:00:00+02:00"
+        },
+        {
+          "label": "Nextgov/FCW",
+          "url": "https://www.nextgov.com/cybersecurity/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416356/",
+          "kind": "article",
+          "time": "2026-10-01T11:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-barclays-claude",
+      "title": "Anthropic: Barclays scales Claude across the bank",
+      "topics": [
+        "AI",
+        "Tech",
+        "Business"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Anthropic (Oct 1): Barclays is expanding its strategic collaboration to integrate Claude across global operations — software development, legacy modernization, ops efficiency.",
+        "Barclays expects Claude Code adoption to reach 50% of developers by end-2026 and a majority of software engineers in 2027.",
+        "Colleague Knowledge Assistant (live since 2025, Claude + RAG): >16,000 UK colleagues adopted; >1M searches supporting ~20M UK retail customers.",
+        "Global Markets: Claude helps classify/enrich/route ~120,000 emails/day; COOs Anne Marie Darling and Craig Bright framed it as agentic build/test/secure/operate with governance.",
+        "Anthropic CCO Paul Smith called it a significant UK milestone — security and oversight called out as the bank’s bar for AI."
+      ],
+      "whyItMatters": "A major universal bank is productizing Claude from knowledge assist into engineer tooling and markets ops — a concrete regulated-enterprise scale signal after morning’s Claude-for-Government GA.",
+      "image": {
+        "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "alt": "Anthropic announcement artwork for Barclays Claude partnership",
+        "credit": "Anthropic",
+        "creditUrl": "https://www.anthropic.com/news/barclays-scales-claude"
+      },
+      "sources": [
+        {
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news/barclays-scales-claude",
+          "kind": "primary",
+          "time": "2026-10-01T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "germany-renewables-q3",
+      "title": "DE renewables: ~61% of electricity use in Q1–Q3 2026",
+      "topics": [
+        "Germany",
+        "Climate",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "BDEW/ZSW (Thu Oct 1): renewables covered 60.7% of Germany’s gross electricity consumption in Jan–Sep 2026 — a record, +4pp vs year-ago, even as consumption rose 1.6%.",
+        "Renewable generation: 237.5 TWh (+8.7% YoY); drivers: onshore wind +9.1%, offshore wind +19.8%, PV +13.9%; hydro −14.3% (low rainfall), biomass −2.1%.",
+        "Build-out still high: PV gross additions 11.8 GW YTD (vs 11.0 GW prior-year period); onshore wind 3.5 GW (vs 3.1); offshore already 1.3 GW in 2026 vs 0.5 GW all of 2025.",
+        "Share of gross generation: 60.4%; BDEW’s Andreae urges EEG agreement + Verteilnetz acceleration; ZSW’s Staiß flags rising cooling demand in heatwaves."
+      ],
+      "whyItMatters": "Germany is clearing the 60% mark on consumption share midway through the year — the bottleneck narrative shifts further toward grids, connections and storage, not just turbines and panels.",
+      "image": null,
+      "sources": [
+        {
+          "label": "BDEW press",
+          "url": "https://www.bdew.de/presse/erneuerbare-decken-in-den-ersten-drei-quartalen-61-prozent-des-stromverbrauchs/",
+          "kind": "primary",
+          "time": "2026-10-01T00:00:00+02:00"
+        },
+        {
+          "label": "dpa international",
+          "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:261001-930-772398/",
+          "kind": "article",
+          "time": "2026-10-01T08:47:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "germany-manufacturing-pmi",
+      "title": "German manufacturing PMI final Sep: 53.9",
+      "topics": [
+        "Germany",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "S&P Global final Germany Manufacturing PMI Sep: 53.9 (flash 53.8; Aug 54.3) — still expansion, slightly softer than August’s multi-year high.",
+        "Wire coverage: production up a 9th month; new orders up a 4th month with export demand from Asia, Europe and the US.",
+        "Cost pressures intensified after three months of easing — input-price inflation highest since June; output-price inflation a 3-month high; 12-month output expectations highest since February.",
+        "S&P Global’s Phil Smith: conditions holding up better than expected vs elevated energy prices and rising long-term rates."
+      ],
+      "whyItMatters": "Factories are still expanding into the energy-price shock — soft landing narrative for DE industry, with cost inflation the watch item.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Trading Economics",
+          "url": "https://tradingeconomics.com/germany/manufacturing-pmi/news/588681",
+          "kind": "article",
+          "time": "2026-10-01T10:09:00+02:00"
+        },
+        {
+          "label": "Newsquawk",
+          "url": "https://www.newsquawk.com/headlines/german-sp-global-manufacturing-pmi-final-sep-539-vs-exp-538-prev-543",
+          "kind": "article",
+          "time": "2026-10-01T09:55:00+02:00"
+        },
+        {
+          "label": "MNI",
+          "url": "https://www.mnimarkets.com/articles/mni-germany-sep-final-manuf-pmi-539-538-flash-543-aug-1790841315421",
+          "kind": "article",
+          "time": "2026-10-01T09:55:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Poland will extend border controls with Germany (and Lithuania) by six months to 30 Mar 2027 — ~1,200 refusals at DE border since Jul 2025 reintroduction (Polish Interior Ministry via DW).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "BSW drops Sahra Wagenknecht’s name → “Alliance for Social Justice and Economic Reason,” keeps the BSW abbreviation (DW).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "NATO receives Westphalian Peace Prize in Münster Thu afternoon; Chancellor Merz to give the laudatio; Mark Rutte expected to accept (DW).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Nikon “re-reviewing” Small World in Motion contest winner after AI-generation accusation (PetaPixel).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "ESA EarthCARE: volcanic-plume view used to boost air-safety products (ESA).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "HN: IEEE Spectrum’s “brief history of the Bloomberg terminal” (~127 comments).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "DW Germany live",
+          "url": "https://www.dw.com/en/germany-news-berlin-leftists-seek-to-pave-way-for-coalition/live-79496180",
+          "kind": "article",
+          "time": "2026-10-01T12:00:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/01/nikon-re-reviewing-winner-of-small-world-in-motion-contest-after-ai-accusation/",
+          "kind": "article",
+          "time": "2026-10-01T10:45:00+02:00"
+        },
+        {
+          "label": "ESA",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/EarthCARE_s_view_of_volcanic_plume_boosts_air_safety",
+          "kind": "primary",
+          "time": "2026-10-01T09:30:00+02:00"
+        },
+        {
+          "label": "IEEE Spectrum via HN",
+          "url": "https://spectrum.ieee.org/bloomberg-terminal",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB: Panasonic Heating & Cooling Europe named official partner from 1 Oct 2026 — heat-pump/AC/cooling pilots for club infrastructure; five seasons through 2031 (Cooling Post).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors: Stephen Curry praises the late Don Nelson, his first coach in Golden State (Honolulu Star-Advertiser via GN).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "49ers: Week matchup chatter vs Broncos — Ed McCaffrey on watching Christian vs Denver as “family vs. family” (GN/local wires).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Cooling Post",
+          "url": "https://www.coolingpost.com/world-news/panasonic-partners-with-borussia-dortmund/",
+          "kind": "article",
+          "time": "2026-10-01T00:00:00+02:00"
+        },
+        {
+          "label": "Honolulu Star-Advertiser via Google News",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaEgxQlpIUkIyS3MtWmd0THdvNTNEd3lDeVJtdWU2RUNoVDhYY1BENnpNNXFjeUI0TGd4aVFJT1BHZHhja0p5c3VhYnFMYWo0Y2VYb2RraHc1ekpZV2lnZVF5WndkOTJIcGJGV3ByVWpSekQtZ3VHNVJTMkNHZ2JheGtDd3pXMHFuWXVseE16R0UxNnFiQ2s4eC1DNGp0WXlPNktlR0NiejJ1X2RaQ3Z0c3lwLTgxcHpV?oc=5",
+          "kind": "article",
+          "time": "2026-10-01T12:12:00+02:00"
+        },
+        {
+          "label": "Google News — 49ers/McCaffrey",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZU9iMWFWejJDY1owVC1EY01qTklWd3ZvalVDMG80dXVaYnRnREkyMjNLRmkxREY2TmhLMWJzOElLandJcE9JencycTJoUDZ6V1RiWFJDdUZSbnNfMFZVendURkNCVWJKQl93bDhrdEUwYTJMcVlsLVpTak1lcWZmMw?oc=5",
+          "kind": "article",
+          "time": "2026-10-01T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "notes of an overthinking girl: “LIVING DEARLY — INVITATION TO EXPERIMENT #02”.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "How To Think More and Better: “Are You Certain?”.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Marketing Ideas: “How to look 1000000x more popular than you are”.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "notes of an overthinking girl",
+          "url": "https://notesofanoverthinkinggirl.substack.com/p/living-dearly-invitation-to-experiment-845",
+          "kind": "article",
+          "time": "2026-10-01T12:01:00+02:00"
+        },
+        {
+          "label": "How To Think More and Better",
+          "url": "https://morebetterthinking.substack.com/p/are-you-certain-626",
+          "kind": "article",
+          "time": "2026-10-01T11:56:00+02:00"
+        },
+        {
+          "label": "Marketing Ideas",
+          "url": "https://www.marketingideas.com/p/how-to-look-1000000x-more-popular",
+          "kind": "article",
+          "time": "2026-10-01T07:58:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "vite v8.3.2 (Thu ~12:14 Berlin): bugfixes — preload CSS with query URLs; serve lazy-chunk sourcemaps in bundled-dev.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "vite#23614 merged: fix worker URL alignment client/server when using terser.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "bun#44350 merged: --hot use-after-free of entry-point promise.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Vercel Changelog: Agent can install private packages from npm and custom registries.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Golem RSS: Mispel regulation — “deutliche Erleichterungen” for bidirectional EV charging (title-level; page cookie-walled).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "HN still buzzing on Gemini 4 Argon (~920 comments) — covered in morning; EDG C++ front-end public also morning.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "vite v8.3.2",
+          "url": "https://github.com/vitejs/vite/releases/tag/v8.3.2",
+          "kind": "primary",
+          "time": "2026-10-01T12:14:36+02:00"
+        },
+        {
+          "label": "vite#23614",
+          "url": "https://github.com/vitejs/vite/pull/23614",
+          "kind": "primary",
+          "time": "2026-10-01T11:34:12+02:00"
+        },
+        {
+          "label": "bun#44350",
+          "url": "https://github.com/oven-sh/bun/pull/44350",
+          "kind": "primary",
+          "time": "2026-10-01T10:25:20+02:00"
+        },
+        {
+          "label": "Vercel Changelog",
+          "url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries",
+          "kind": "primary",
+          "time": "2026-10-01T01:22:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/mispel-regulierung-deutliche-erleichterungen-fuer-bidirektionales-laden-2610-213610.html",
+          "kind": "article",
+          "time": "2026-10-01T12:15:02+02:00"
+        },
+        {
+          "label": "HN — Gemini 4 Argon",
+          "url": "https://news.ycombinator.com/item?id=49913571",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
