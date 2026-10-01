@@ -1,0 +1,420 @@
+{
+  "id": "2026-10-01-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-01T08:10:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h)",
+  "headline": "Google DeepMind unveils Gemini 4 Argon (phased Fairwind rollout, 1M output tokens); OpenAI says it disrupted a Moonshot-linked distillation campaign; Flydubai FZ1073 cockpit stabbing ends in Tabuk emergency landing; German Tankrabatt cuts pump prices overnight.",
+  "stories": [
+    {
+      "id": "gemini-4-argon",
+      "title": "Gemini 4 Argon: DeepMind’s next frontier model, phased release",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "facts": [
+        "DeepMind/Google (Sep 30 ~22:00 Berlin): Gemini 4 Argon announced — frontier performance claimed on long-horizon software engineering, enterprise knowledge work (legal/finance), and cybersecurity defense.",
+        "Access starts via Fairwind Program for trusted cyber defenders; Google says it’s in the U.S. voluntary pre-release access process before broader developer/enterprise/consumer rollout (paid API + AI Ultra first).",
+        "Capabilities called out: output context up to 1M tokens (from 64K); DeepSWE v1.1 SOTA 77.9%; AutomationBench #1 at 51.3%; LVBench long-video 91.7%; CWE-bench v1 ties first at 68%.",
+        "Internal Google use: Argon agents cited for C/C++→Rust migrations (e.g. libgav1 SIMD rewrite → 2.7× faster safe Rust vs prior Rust port) and fleet memory opts (300+ TiB freed so far).",
+        "Intro pricing: $2 / $10 per 1M input/output tokens (cached input 95% off); after intro period $4 / $20. Wiz Scan for Good already using Argon for critical-infra vuln hunting."
+      ],
+      "whyItMatters": "First major frontier-model drop since the evening brief — overnight primary from DeepMind/blog.google, already topping HN (~1.2k pts).",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+        "alt": "Gemini 4 Argon key art from Google",
+        "credit": "Google / DeepMind",
+        "creditUrl": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+      },
+      "sources": [
+        {
+          "label": "Google DeepMind — Gemini 4 Argon",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "kind": "primary",
+          "time": "2026-09-30T22:01:45+02:00"
+        },
+        {
+          "label": "Google Blog — Gemini 4 Argon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "kind": "primary",
+          "time": "2026-09-30T22:00:00+02:00"
+        },
+        {
+          "label": "HN — Gemini 4 Argon",
+          "url": "https://news.ycombinator.com/item?id=49913571",
+          "kind": "article",
+          "time": "2026-09-30T22:04:37+02:00"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "openai-distillation",
+      "title": "OpenAI: disrupted coordinated model-distillation campaign",
+      "topics": [
+        "AI",
+        "Security"
+      ],
+      "facts": [
+        "OpenAI (Sep 30): identified and disrupted adversarial distillation aimed at extracting protected reasoning — earliest activity early July; operators manipulated interactions rather than breaking encryption or databases.",
+        "Volume spikes Jul 24–25: ~16k extraction-pattern requests from 4k+ users; related prompt patterns across a cluster of 15k+ users; fully disrupted by Jul 28.",
+        "Attribution: core cluster linked to individuals associated with Moonshot AI (Kimi developer); OpenAI says single-actor origin for all activity is unclear.",
+        "Shared findings via Frontier Model Forum + government channels; continuing mitigations for partner-hosted deployments and tool-output attacks."
+      ],
+      "whyItMatters": "Rare public attribution of a distillation campaign to a named frontier rival — industry-wide defense coordination story, not just a ToS enforcement note.",
+      "image": {
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill",
+        "alt": "Disrupting a coordinated model-distillation campaign on a pink, purple, and orange gradient.",
+        "credit": "OpenAI — distillation campaign",
+        "creditUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+      },
+      "sources": [
+        {
+          "label": "OpenAI — distillation campaign",
+          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+          "kind": "primary",
+          "time": "2026-09-30T12:30:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "flydubai-cockpit",
+      "title": "Flydubai FZ1073: cockpit stabbing, emergency landing in Tabuk",
+      "topics": [
+        "World"
+      ],
+      "facts": [
+        "tagesschau FAQ: Flydubai FZ1073 Dubai→Tel Aviv diverted after a violent cockpit incident; emergency landing at Tabuk, Saudi Arabia.",
+        "Netanyahu: one pilot stabbed the other and appeared to try to crash the aircraft; a passenger described helping crew overpower the attacker while instruments were being manipulated.",
+        "Tabuk airport: captain and first officer hospitalized with injuries; Israeli media ~174 passengers incl. 27 children — later flown to Tel Aviv on a replacement aircraft.",
+        "Flydubai confirmed a cockpit confrontation on FZ1073 but urged against speculation on motive while investigations continue; Israeli ministers floated “attempted terror,” motive not officially settled."
+      ],
+      "whyItMatters": "Overnight world lead with primary German wire updates — rare in-cockpit violence on a commercial flight with all passengers reported safe after diversion.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/fbe9bd8d-95ad-49dd-b3d7-3b17cac47ac8/AAABoPPLqPg/AAABnSSvrFg/16x9-big/flydubai-flugzeug-102.jpg?width=1280",
+        "alt": "Flydubai aircraft",
+        "credit": "tagesschau.de",
+        "creditUrl": "https://www.tagesschau.de/ausland/asien/faq-flydubai-gewalt-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau — FAQ Flydubai",
+          "url": "https://www.tagesschau.de/ausland/asien/faq-flydubai-gewalt-100.html",
+          "kind": "article",
+          "time": "2026-09-30T21:40:00+02:00"
+        },
+        {
+          "label": "tagesschau — Cockpit Gewaltvorfall",
+          "url": "https://www.tagesschau.de/ausland/asien/flydubai-notlandung-terrorverdacht-100.html",
+          "kind": "article",
+          "time": "2026-09-30T17:50:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "germany-tankrabatt",
+      "title": "Tankrabatt starts: overnight pump prices drop ~10–11¢",
+      "topics": [
+        "Germany"
+      ],
+      "facts": [
+        "heise (Thu ~07:47): Steuernachlass 16.7 ct/L on petrol/diesel leaving depots/refineries since midnight — no direct obligation for stations to pass it through fully.",
+        "Tankerkönig national averages fell ~10–11 ct between 23:41 and 00:41; early morning ADAC listings showed many E10 offers under €2/L in Munich/Stuttgart/Leipzig (fewer in Hamburg/Cologne).",
+        "Ifo’s Clemens Fuest and DIW’s Tomaso Duso criticize the measure as poorly targeted — biggest gains to high-mileage / higher-income drivers; non-car households get no relief."
+      ],
+      "whyItMatters": "Same-day German pocketbook story at morning briefing time — prices moved overnight as the rebate kicked in.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/7/4/6/4/3/012-6d94b015d2a9b8fe.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Fuel pump / petrol station",
+        "credit": "heise online",
+        "creditUrl": "https://www.heise.de/news/Tankrabatt-startet-mit-schnell-fallenden-Preisen-und-erneuter-Kritik-11472021.html"
+      },
+      "sources": [
+        {
+          "label": "heise — Tankrabatt Start",
+          "url": "https://www.heise.de/news/Tankrabatt-startet-mit-schnell-fallenden-Preisen-und-erneuter-Kritik-11472021.html",
+          "kind": "article",
+          "time": "2026-10-01T07:47:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "swiss-glaciers-2026",
+      "title": "Swiss glaciers: >5% volume lost in 2026 (GLAMOS / ETH)",
+      "topics": [
+        "Climate",
+        "Europe"
+      ],
+      "facts": [
+        "ETH Zurich / GLAMOS (Oct 1): Swiss glaciers lost more than 5% of ice volume in 2026 after a low-snow winter and record summer heatwaves — thickness down ~2.5–4 m on average; some tongues up to 10 m.",
+        "Nearly 20% of total Swiss glacier volume gone in the past five years; Rhône, Aletsch, Clariden among greatest melts on record in 2026.",
+        "Smaller glaciers disappeared permanently (e.g. Bella Tola/VS, Griessfirn/GL); 76 days with freezing level above 4,000 m (Swiss record, >2× average).",
+        "Jul–Sep meltwater ~2,200 billion litres — more than 4× annual Swiss household drinking-water use — temporary drought buffer that shrinks as ice area vanishes."
+      ],
+      "whyItMatters": "Hard primary from the monitoring network itself — stark multi-year drawdown, not just a single heatwave anecdote.",
+      "image": {
+        "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/devastating-year-for-switzerlands-glaciers/_jcr_content/pageimages/imageCarousel.imageformat.lightbox.1169777791.jpg",
+        "alt": "Claridenfirn glacier without snow cover, September 2026",
+        "credit": "ETH Zurich / Matthias Huss, VAW",
+        "creditUrl": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/devastating-year-for-switzerlands-glaciers.html"
+      },
+      "sources": [
+        {
+          "label": "ETH Zurich — Swiss glaciers 2026",
+          "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/devastating-year-for-switzerlands-glaciers.html",
+          "kind": "primary",
+          "time": "2026-10-01T00:00:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "tagesschau: EU interior ministers in Luxembourg today — Ceuta aftershock plus “Return Hubs” outside the EU; Germany among five states aiming to table hub details by year-end (Dobrindt).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Anthropic: Claude for Government generally available (FedRAMP High) for federal/state agencies; Claude Code CLI + Claude for Microsoft 365 early access in the same environment — usage-based prepaid caps, no seat fees.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "EDG C++ front end went public Sep 30 — nonprofit home is the C++ Alliance; continuity-focused steward change for the long-running production C++ source-to-source engine (HN ~193 pts).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://images.tagesschau.de/image/cb92c856-3f49-40fe-864a-1168cef68bcd/AAABoPV_3OM/AAABnSSvrFg/16x9-big/fluechtlinge-ceuta-102.jpg?width=1280",
+        "alt": "Migrants at the Ceuta border fence area",
+        "credit": "tagesschau.de",
+        "creditUrl": "https://www.tagesschau.de/ausland/europa/treffen-eu-innenminister-ceuta-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau — EU Innenminister / Ceuta",
+          "url": "https://www.tagesschau.de/ausland/europa/treffen-eu-innenminister-ceuta-100.html",
+          "kind": "article",
+          "time": "2026-10-01T05:26:00+02:00"
+        },
+        {
+          "label": "Claude — for Government GA",
+          "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+          "kind": "primary",
+          "time": "2026-09-30T02:00:00+02:00"
+        },
+        {
+          "label": "EDGCPP — open source transition",
+          "url": "https://edgcpp.org/#transition",
+          "kind": "primary",
+          "time": "2026-09-30T00:00:00+02:00"
+        },
+        {
+          "label": "HN — EDG C++ front-end",
+          "url": "https://news.ycombinator.com/item?id=49913192",
+          "kind": "article",
+          "time": "2026-09-30T21:26:37+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "BVB/DFB: Schlotterbeck — Außenband right ankle in Wed finish training; out vs Serbia (Thu 20:45) + Greece (Sun); BVB vs Werder Oct 9 in doubt; no surgery expected (SPIEGEL/DFB).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "49ers 3–0: Evans (ribs) week-to-week; Williams (stinger) expected Thu; Mykel Williams practice window Wed; Judon individual drills; Week 4 home vs Broncos.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://cdn.prod.www.spiegel.de/images/78f399d5-c1c1-47da-813e-0856cee86edb_w1200_r1.778_fpx53.34_fpy50.jpg",
+        "alt": "Nico Schlotterbeck with DFB staff",
+        "credit": "DER SPIEGEL / IMAGO",
+        "creditUrl": "https://www.spiegel.de/sport/fussball/fussball-nationalmannschaft-dfb-verteidiger-schlotterbeck-verpasst-laenderspiele-wegen-knoechelverletzung-a-11d625d0-49a1-454e-aea7-5fb3e600bc98"
+      },
+      "sources": [
+        {
+          "label": "SPIEGEL — Schlotterbeck aus",
+          "url": "https://www.spiegel.de/sport/fussball/fussball-nationalmannschaft-dfb-verteidiger-schlotterbeck-verpasst-laenderspiele-wegen-knoechelverletzung-a-11d625d0-49a1-454e-aea7-5fb3e600bc98",
+          "kind": "article",
+          "time": "2026-09-30T17:20:00+02:00"
+        },
+        {
+          "label": "49ers.com — Shanahan injury updates",
+          "url": "https://www.49ers.com/news/shanahan-reviews-week-3-win-shares-new-injury-updates",
+          "kind": "primary"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "facts": [
+        {
+          "text": "Papers With Backtest: “The Strategy That Pays You for Being Boring.”",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Five Minute Reads: Book of Enoch reading map across Bible editions.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Papers With Backtest",
+          "url": "https://blog.paperswithbacktest.com/p/the-strategy-that-pays-you-for-being",
+          "kind": "article",
+          "time": "2026-09-30T14:00:45+02:00"
+        },
+        {
+          "label": "Five Minute Reads",
+          "url": "https://fiveminutereads1.substack.com/p/the-book-of-enoch-is-in-a-bible-and",
+          "kind": "article",
+          "time": "2026-09-30T15:30:05+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "bun overnight: #44281 crash on module remove during import(); #44340 OOB panic; #44345 Fast Refresh hook-in-method; #44351 restore console.write.",
+          "sourceIndexes": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Playwright #43021 merged: roll ffmpeg to r1013; encode videos with VP9.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "TypeScript release vscode-typescript/v1.0.1 (Sep 30) — bundles TypeScript 7.0.2; also #64558 merged (preserve reverse mapped types in declaration emit).",
+          "sourceIndexes": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "claude.dev (uncited): “Building with Claude Sonnet 5.5” + “Automating eval design and hillclimbing with Claude.”",
+          "sourceIndexes": [
+            7,
+            8
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/5183ee0f8053b2ef6d7585394e0166095645a1ac738b096374261b82549fedc3/oven-sh/bun/pull/44281",
+        "alt": "What does this PR do? Fixes a segfault at address 0x10 in JSC::JSModuleLoader::loadModule ← moduleLoadTopSettled (Sentry BUN-4NFS, BUN-41VH), on every platform. The fix is in oven-sh/WebKit#748 (me...",
+        "credit": "bun #44281",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/44281"
+      },
+      "sources": [
+        {
+          "label": "bun #44281",
+          "url": "https://github.com/oven-sh/bun/pull/44281",
+          "kind": "primary",
+          "time": "2026-10-01T01:09:29+02:00"
+        },
+        {
+          "label": "bun #44340",
+          "url": "https://github.com/oven-sh/bun/pull/44340",
+          "kind": "primary",
+          "time": "2026-10-01T03:18:49+02:00"
+        },
+        {
+          "label": "bun #44345",
+          "url": "https://github.com/oven-sh/bun/pull/44345",
+          "kind": "primary",
+          "time": "2026-10-01T05:56:16+02:00"
+        },
+        {
+          "label": "bun #44351",
+          "url": "https://github.com/oven-sh/bun/pull/44351",
+          "kind": "primary",
+          "time": "2026-10-01T07:46:01+02:00"
+        },
+        {
+          "label": "Playwright #43021",
+          "url": "https://github.com/microsoft/playwright/pull/43021",
+          "kind": "primary",
+          "time": "2026-10-01T02:53:34+02:00"
+        },
+        {
+          "label": "TypeScript vscode-typescript/v1.0.1",
+          "url": "https://github.com/microsoft/TypeScript/releases/tag/vscode-typescript/v1.0.1",
+          "kind": "primary",
+          "time": "2026-09-30T21:10:03+02:00"
+        },
+        {
+          "label": "TypeScript #64558",
+          "url": "https://github.com/microsoft/TypeScript/pull/64558",
+          "kind": "primary",
+          "time": "2026-10-01T02:02:16+02:00"
+        },
+        {
+          "label": "claude.dev — Sonnet 5.5",
+          "url": "https://claude.dev/blog/building-with-claude-sonnet-5-5/",
+          "kind": "primary",
+          "time": "2026-09-28T14:00:00+02:00"
+        },
+        {
+          "label": "claude.dev — eval hillclimbing",
+          "url": "https://claude.dev/blog/automating-eval-design-and-hillclimbing/",
+          "kind": "primary",
+          "time": "2026-09-28T14:00:00+02:00"
+        }
+      ],
+      "weight": "brief"
+    }
+  ]
+}
