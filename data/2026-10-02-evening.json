@@ -1,0 +1,300 @@
+{
+  "id": "2026-10-02-evening",
+  "edition": "evening",
+  "generatedAt": "2026-10-02T19:29:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since afternoon (~13:10 Berlin) / last ~6–7 hours",
+  "headline": "G7 agree up to 100M barrels of diesel and crude to ease fuel prices; Chancellery walk-back on Zuckersteuer “stop”; Anthropic launches $100M Claude Frontier Academy.",
+  "stories": [
+    {
+      "id": "g7-diesel-reserven",
+      "title": "G7: up to 100M barrels of diesel and crude",
+      "topics": [
+        "Energy",
+        "Europe",
+        "Germany"
+      ],
+      "weight": "lead",
+      "facts": [
+        "G7 agreed a coordinated IEA release of up to 100 million barrels of diesel and crude over four months, starting immediately (tagesschau ~18:07 Berlin).",
+        "Front-loaded: a “substantial” diesel release in the first 20 days by G7 members and partners.",
+        "Merz joined the G7 video call (France chairs); Macron said all participants — including Trump — committed to no export bans among themselves.",
+        "Earlier Friday, deputy spokesperson Hille had urged calm after US pressure/Trump diesel-export threats: don’t unsettle markets; US still a reliable fuel partner; no new IEA request known then."
+      ],
+      "whyItMatters": "Evening flip from Berlin caution to a G7 deal — the first big coordinated fuel-reserve move since the March 400M-barrel IEA release after the Iran war.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/60251f3c-31b5-44e4-b51e-90fe19b5360d/AAABoP04Dqg/AAABnSSvrFg/16x9-big/oelraffinerie-106.jpg?width=1280",
+        "alt": "Oil refinery facilities and storage tanks",
+        "credit": "tagesschau.de",
+        "creditUrl": "https://www.tagesschau.de/ausland/g7-dieselreserven-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/g7-dieselreserven-100.html",
+          "kind": "article",
+          "time": "2026-10-02T18:07:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/wirtschaft/diesel-und-rohoel-g7-geben-bis-zu-100-millionen-barrel-frei-a-c0ef3afe-2923-476c-9732-87300e24ae4b",
+          "kind": "article"
+        },
+        {
+          "label": "n-tv / Reuters — Hille earlier",
+          "url": "https://www.n-tv.de/wirtschaft/Nach-Trumps-Drohung-Bundesregierung-zeigt-sich-zurueckhaltend-bei-Freigabe-von-Dieselreserven-id31374687.html",
+          "kind": "article",
+          "time": "2026-10-02T15:05:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "zuckersteuer-sprecher-klarstellung",
+      "title": "Zuckersteuer: Chancellery says it did not “stop” the bill",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Deputy spokesperson Hille (Fri): Chancellery did not stop the BMF draft — inter-ministry talks are “as usual”; ministries are “in good talks,” confident of a deal.",
+        "Klingbeil still expects a quick agreement; CSU Ag minister Rainer’s shop: coalition agrees the tax will come — details still being aligned.",
+        "Still disputed: revenue size. Commission path ~€400M+/yr vs BMF planning ≥€650M in H2’27 and ~€1.2B from 2028 — numbers matter for the 2027 federal budget.",
+        "Material update vs afternoon lead that framed a hard Chancellery brake."
+      ],
+      "whyItMatters": "Walks back the “gestoppt” framing without resolving the rate/revenue fight — coalition optics still fragile into next week’s committee talks.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/06101728-7650-439e-b730-871770edf9ba/AAABndgM06Q/AAABnSSvrFg/16x9-big/kiosk-zucker-102.jpg?width=1280",
+        "alt": "Sugary soft drinks on a kiosk shelf",
+        "credit": "tagesschau.de",
+        "creditUrl": "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-kanzleramt-100.html"
+      },
+      "sources": [
+        {
+          "label": "onvista / Reuters",
+          "url": "https://www.onvista.de/news/2026/10-02-regierung-gesetzentwurf-zur-zuckersteuer-wurde-vom-kanzleramt-nicht-gestoppt-0-20-26559979",
+          "kind": "article",
+          "time": "2026-10-02T12:10:00+02:00"
+        },
+        {
+          "label": "tagesschau — earlier brake framing",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-kanzleramt-100.html",
+          "kind": "article",
+          "time": "2026-10-01T13:01:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL — Klingbeil holds line",
+          "url": "https://www.spiegel.de/politik/deutschland/zuckersteuer-lars-klingbeil-haelt-nach-vorlaeufigem-stopp-vom-kanzleramt-an-umstrittener-reform-fest-a-d7b71c75-60cc-4589-a1dd-5c93b175e877",
+          "kind": "article",
+          "time": "2026-10-02T08:46:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-frontier-academy",
+      "title": "Anthropic: Claude Frontier Academy — $100M, 10k engineers",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Anthropic launches Claude Frontier Academy with a $100M commitment to train 10,000 Frontier Deployed Engineers by end-2027.",
+        "First program: FDE Residency — multi-day in-person + simulated enterprise deploy + graded practical, then 12 weeks leading a real Claude use case; first credentials expected early 2027.",
+        "Opening cohorts (SF/NY/London) include Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk.",
+        "Nomination-only via Anthropic account/partner teams — aims to close the enterprise AI deployment talent gap."
+      ],
+      "whyItMatters": "Major vendor talent play — Anthropic training customer/partner engineers to its own FDE bar, not just shipping another model card.",
+      "image": {
+        "url": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=heather",
+        "alt": "Anthropic open-graph illustration for Claude Frontier Academy",
+        "credit": "Anthropic",
+        "creditUrl": "https://www.anthropic.com/news/claude-frontier-academy"
+      },
+      "sources": [
+        {
+          "label": "Anthropic — Claude Frontier Academy",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Telekom asset deal: buys ruhrfibre Essen + Metrofibre FTTH (~87k households); will re-home onto Telekom architecture, keep self-build, then open to wholesale (press).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "DeepSeek ships Harness Desktop for macOS/Windows (HN hot).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "NASA opens applications for the next Flight Director class.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Starlink testing a community Wi-Fi host program (heise).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www.deepseek.com/harness/images/deepseek-harness-social.jpg",
+        "alt": "DeepSeek Harness desktop product artwork",
+        "credit": "DeepSeek",
+        "creditUrl": "https://www.deepseek.com/en/harness/"
+      },
+      "sources": [
+        {
+          "label": "Deutsche Telekom",
+          "url": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/zukunftssichere-infrastruktur-fuer-essen",
+          "kind": "primary",
+          "time": "2026-10-02T00:00:00+02:00"
+        },
+        {
+          "label": "DeepSeek Harness",
+          "url": "https://www.deepseek.com/en/harness/",
+          "kind": "primary",
+          "time": "2026-10-02T05:11:20+02:00"
+        },
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/",
+          "kind": "primary",
+          "time": "2026-10-02T17:49:26+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Starlink-testet-Community-WLAN-Programm-fuer-Hosts-11474765.html",
+          "kind": "article",
+          "time": "2026-10-02T18:26:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Eintracht Braunschweig: lost Fri friendly 0–4 at Eintracht Frankfurt (Otávio 33’, Tempelmann OG 57’, Knauff 68’, Wünsch 79’; kickoff delayed ~30′ by traffic). League: home vs Holstein Kiel Fri 9 Oct 18:30.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "49ers: host Broncos Sunday Week 4 (Levi’s; NFL.com game center) after 3–0 start — Purdy vs Denver defense is the preview frame.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "FAZ / dpa",
+          "url": "https://www.faz.net/agenturmeldungen/dpa/eintracht-duell-frankfurt-siegt-im-test-gegen-braunschweig-201284432.html",
+          "kind": "article",
+          "time": "2026-10-02T17:59:00+02:00"
+        },
+        {
+          "label": "Eintracht Braunschweig",
+          "url": "https://www.eintracht.com/news/artikel/testspiel-in-frankfurt-eintracht-trifft-auf-eintracht",
+          "kind": "primary"
+        },
+        {
+          "label": "NFL.com — Broncos at 49ers",
+          "url": "https://www.nfl.com/games/broncos-at-49ers-2026-reg-4",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "“The forgetful CPU (Linux on M4)” — Yureka Lilian on Lobsters/HN today.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "OpenAI Status: ChatGPT data-analysis / file-creation incident — fully recovered.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Vercel: “Jev for Python engineers”.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Google AI September 2026 roundup on the Gemini blog.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/3JqorqWK9YfLUoNHKDbBuV/887e6f03a2fb0d836995ac077c006253/jev_for_python_eng.png",
+        "alt": "Vercel blog artwork for Jev for Python engineers",
+        "credit": "Vercel",
+        "creditUrl": "https://vercel.com/blog/jev-for-python-engineers"
+      },
+      "sources": [
+        {
+          "label": "Yureka — Linux on M4",
+          "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+          "kind": "primary",
+          "time": "2026-10-02T11:01:47+02:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M3YNNVTSCXS8YM2V1YMHMVSE",
+          "kind": "primary",
+          "time": "2026-10-02T18:51:13+02:00"
+        },
+        {
+          "label": "Vercel — Jev for Python",
+          "url": "https://vercel.com/blog/jev-for-python-engineers",
+          "kind": "primary",
+          "time": "2026-10-02T09:00:00+02:00"
+        },
+        {
+          "label": "Google AI — September updates",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+          "kind": "primary",
+          "time": "2026-10-02T17:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
