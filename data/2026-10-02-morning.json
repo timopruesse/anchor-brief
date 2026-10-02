@@ -1,0 +1,437 @@
+{
+  "id": "2026-10-02-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-02T08:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h)",
+  "headline": "Merz warns of serious Russian hybrid attacks while awarding NATO the Westphalian Peace Prize; OpenAI fires three researchers over mishandled sensitive info; government to lift 2026 growth forecast to ~1.3%; Crew-13 docks in record time.",
+  "stories": [
+    {
+      "id": "merz-hybrid-nato-preis",
+      "title": "Merz: prepare for serious Russian hybrid attacks",
+      "topics": [
+        "Germany",
+        "Defence",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "In Münster, Chancellor Friedrich Merz awarded NATO the 2026 Westphalian Peace Prize (€100k; proceeds to a Ukrainian charity) and used the laudatio for a foreign-policy keynote (tagesschau ~21:41).",
+        "Quote: “Wir stellen uns auf weitere hybride Angriffe ein, auch auf schwere” — framing drone/cyber threats after the August Leipzig airport attempt ascribed to Russia.",
+        "Warning chain: if Germany/Europe waver, Ukraine wavers; if Moscow isn’t stopped, Merz said the war machine could later turn on NATO (Baltic drone war / city ballistic strikes cited).",
+        "Also: Germany will not be split by hybrid ops or “Parolen der AfD und ihrer russischen Hintermänner”; NATO SecGen Mark Rutte accepted the prize and echoed Ukraine support."
+      ],
+      "whyItMatters": "First major overnight DE security speech after last evening’s brief — packages hybrid-threat readiness with the AfD/Ukraine aid fight in one venue.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/9217fa6f-07c5-41d7-84a2-0ed72c0e5266/AAABoPhecmE/AAABnSSvrFg/16x9-big/merz-rednerpult-100.jpg?width=1280",
+        "alt": "Chancellor Friedrich Merz speaking at a podium",
+        "credit": "tagesschau.de",
+        "creditUrl": "https://www.tagesschau.de/inland/innenpolitik/merz-grundsatzrede-friedenspreis-muenster-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/merz-grundsatzrede-friedenspreis-muenster-100.html",
+          "kind": "article",
+          "time": "2026-10-01T21:41:00+02:00"
+        },
+        {
+          "label": "Reuters via Straits Times",
+          "url": "https://www.straitstimes.com/world/europe/merz-warns-of-more-russian-hybrid-attacks-as-he-reaffirms-support-for-ukraine",
+          "kind": "article",
+          "time": "2026-10-02T00:53:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "openai-fires-researchers",
+      "title": "OpenAI fires three researchers over sensitive-info mishandling",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "OpenAI told the BBC it parted ways with three individuals for “violating our policies on accessing and handling sensitive company information,” including work involving an external org that evaluates AI models.",
+        "Spokesperson: mishandling “outside established company procedures… breaking the trust essential to our work.” Names withheld; BBC: ≥2 were in safety research.",
+        "BBC understands the firings were for mishandling sensitive info — not for raising safety concerns — amid intensifying AI-safety debate and after recent rogue-agent / unauthorized-activity disclosures.",
+        "Context (AFP): firings land after White House voluntary AI pact talk and continued scrutiny of agent security incidents."
+      ],
+      "whyItMatters": "Rare public staff-exit story at a frontier lab tied to sensitive-info handling while safety politics are hot — overnight wire, not a product launch.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/136d/live/561b92b0-bdf9-11f1-a76b-bdcdab65a1b7.jpg",
+        "alt": "OpenAI chief executive Sam Altman",
+        "credit": "BBC / Getty",
+        "creditUrl": "https://www.bbc.com/news/articles/c6y9z9r4ejzwo"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/c6y9z9r4ejzwo",
+          "kind": "article",
+          "time": "2026-10-02T03:01:00+02:00"
+        },
+        {
+          "label": "AFP",
+          "url": "https://www.afp.com/en/openai-says-three-staffers-fired-mishandling-sensitive-info-0",
+          "kind": "article",
+          "time": "2026-10-02T04:20:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "de-growth-forecast-raise",
+      "title": "Berlin to lift 2026 growth forecast to ~1.3%",
+      "topics": [
+        "Germany",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Reuters/Handelsblatt (Thu): draft Herbstprojektion raises real GDP growth to 1.3% for 2026 and 1.1% for 2027 (was 0.5% / 0.9% in the spring outlook); Economy Minister Reiche to present officially next week (~8 Oct).",
+        "Drivers cited: debt-financed infrastructure and Bundeswehr spending; Iran war/fuel shock hurt less than feared; export growth ~3.7% this year in the draft read.",
+        "Inflation path in the draft: 2.7% (2026) → 3.0% (2027) → 2.2% (2028); Sep CPI already printed 3.3%.",
+        "Overnight counterweight (dpa/BGA): wholesalers see “light at the end of the tunnel” but still “handbrake on”; 82% cite bureaucracy as a top competitiveness obstacle; more firms planning job cuts than hires."
+      ],
+      "whyItMatters": "Official forecast catch-up to the institutes’ 1.3% — politically useful for Merz after regional election hits, but BGA says the recovery is still fragile.",
+      "image": {
+        "url": "https://images.handelsblatt.com/PC6dL3Iw2Rdx/cover/6000/3375/0/0/313/312/0.5/0.5/statement-der-bundesministerin-katherina-reiche-zur-gemeinschaftsdiagnose-herbst-2026-der-wirtschaft.jpg",
+        "alt": "Economy Minister Katherina Reiche speaking on the autumn economic forecast",
+        "credit": "Handelsblatt / IMAGO",
+        "creditUrl": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-bundesregierung-hebt-wachstumsprognosen-kraeftig-an/100259096.html"
+      },
+      "sources": [
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-bundesregierung-hebt-wachstumsprognosen-kraeftig-an/100259096.html",
+          "kind": "article",
+          "time": "2026-10-01T18:20:00+02:00"
+        },
+        {
+          "label": "dpa International — BGA",
+          "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:261002-930-777798/",
+          "kind": "article",
+          "time": "2026-10-02T05:57:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "crew-13-docked",
+      "title": "Crew-13 docks in record time, joins Expedition 75",
+      "topics": [
+        "Space",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Update vs last evening’s launch note: Dragon docked to Harmony forward at 7:05 p.m. EDT — 7h 55m after liftoff, NASA’s fastest U.S. spacecraft launch-to-docking to ISS.",
+        "Crew: NASA Jessica Watkins & Luke Delaney, CSA Joshua Kutryk, Roscosmos Sergey Teteryatnikov; hatch open 9:19 p.m. EDT; joined Expedition 75.",
+        "Liftoff was 11:10 a.m. EDT Oct 1 from Cape Canaveral SLC-40 on Falcon 9 (NASA release 26-081)."
+      ],
+      "whyItMatters": "Material overnight completion of the Crew-13 flight — not just liftoff; record dock tempo and a full crew handover into Exp 75.",
+      "image": {
+        "url": "https://www.nasa.gov/wp-content/uploads/2026/10/crew-13-docking-still-1.png",
+        "alt": "SpaceX Dragon approaching the International Space Station for Crew-13 docking",
+        "credit": "NASA",
+        "creditUrl": "https://www.nasa.gov/blogs/spacestation/2026/10/01/dragon-docks-bringing-spacex-crew-13-to-station/"
+      },
+      "sources": [
+        {
+          "label": "NASA — docking",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/dragon-docks-bringing-spacex-crew-13-to-station/",
+          "kind": "primary",
+          "time": "2026-10-02T01:05:00+02:00"
+        },
+        {
+          "label": "NASA — hatch / Exp 75",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/crew-13-members-enter-station-join-expedition-75/",
+          "kind": "primary",
+          "time": "2026-10-02T03:19:00+02:00"
+        },
+        {
+          "label": "NASA news release",
+          "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+          "kind": "primary",
+          "time": "2026-10-01T17:59:24+02:00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-clef",
+      "title": "Cloudflare ships Clef decision models + RL fine-tune path",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Cloudflare (Oct 1): open-sources Clef and Clef-flash decision models (Apache 2.0 on Hugging Face), hosts them on Workers AI, Jev-API compatible.",
+        "Decision models return typed answers with probabilities for workflow routing (vs open-ended LLM generation); Clef adds a vision encoder + 64k context vs Jev’s text-only / 32k.",
+        "Latency claims: Clef median ~209 ms, Clef-flash ~39 ms on their bench table; internal Threat Intel domain-classify example ~2.2s end-to-end vs ~4.7s for gpt-oss-120b.",
+        "Also launching hands-on FDE fine-tuning toward a self-serve RL product (AI Gateway datasets → Containers sandboxes → BYO model redeploy)."
+      ],
+      "whyItMatters": "Major vendor primary — a new open decision-model family aimed at agent hot-paths, not another chat LLM.",
+      "image": {
+        "url": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJV43SPQCPKJ6GBXFCDKNE.01M3TJV53VYDMVNCZDPH1FBFYN.png",
+        "alt": "Cloudflare Clef decision models announcement artwork",
+        "credit": "Cloudflare",
+        "creditUrl": "https://blog.cloudflare.com/clef-decision-models/"
+      },
+      "sources": [
+        {
+          "label": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/clef-decision-models/",
+          "kind": "primary",
+          "time": "2026-10-01T18:00:00+02:00"
+        },
+        {
+          "label": "HN — Clef",
+          "url": "https://news.ycombinator.com/item?id=49923692",
+          "kind": "article",
+          "time": "2026-10-01T18:18:57+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers: Brock Purdy named NFC Offensive Player of the Month (first career monthly) — 60/83, 789 yds, 9 TD pass + 1 rush TD, 133.1 rating through 3–0; Broncos next Sunday (49ers.com / NFL).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "BVB: Julian Ryerson subbed off in 16' for Norway vs Wales (1 Oct) with another injury after also exiting vs Portugal — no diagnosis yet; set at RB every Dortmund Pflichtspiel this season (ruhr24).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: today only Länderspielpause friendly at Eintracht Frankfurt 15:30 (closed doors; free SGE YouTube) — club preview (eintracht.com).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/kxy08urzb88e0odmhwly",
+        "alt": "Brock Purdy named NFC Offensive Player of the Month",
+        "credit": "49ers.com",
+        "creditUrl": "https://www.49ers.com/news/a-september-to-remember-brock-purdy-named-nfc-offensive-player-of-the-month"
+      },
+      "sources": [
+        {
+          "label": "49ers.com",
+          "url": "https://www.49ers.com/news/a-september-to-remember-brock-purdy-named-nfc-offensive-player-of-the-month",
+          "kind": "primary",
+          "time": "2026-10-02T01:04:00+02:00"
+        },
+        {
+          "label": "NFL.com",
+          "url": "https://www.nfl.com/news/players-of-the-month-september-2026-kenneth-walker-brock-purdy",
+          "kind": "article",
+          "time": "2026-10-02T02:00:00+02:00"
+        },
+        {
+          "label": "ruhr24",
+          "url": "https://www.ruhr24.de/bvb/bvb-julian-ryerson-verletzt-verletzung-diagnose-norwegen-wales-heute-spiel-borussia-dortmund-94521110.html",
+          "kind": "article",
+          "time": "2026-10-01T22:04:00+02:00"
+        },
+        {
+          "label": "Eintracht Braunschweig",
+          "url": "https://www.eintracht.com/news/artikel/zu-gast-bei-der-eintracht-testspiel-gegen-frankfurt",
+          "kind": "primary",
+          "time": "2026-10-01T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Pi 1.0 ships — hardened minimal extensible agent harness (earendil); topping HN overnight (~1k pts).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "GitButler’s Scott Chacon: Git 3.0’s planned SHA-256 default will be a “costly mistake” (gitbutler blog; also on Lobsters/HN).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Poland extends temporary border controls with Germany & Lithuania through 30 Mar 2027 (Interior Ministry / wires).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Waterfox 6.7.5 adds a built-in feed reader (Waterfox releases / Lobsters).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://earendil.com/static/og/posts/pi-1-0.png",
+        "alt": "Pi 1.0 — Earendil",
+        "credit": "earendil — Pi 1.0",
+        "creditUrl": "https://earendil.com/posts/pi-1-0/"
+      },
+      "sources": [
+        {
+          "label": "earendil — Pi 1.0",
+          "url": "https://earendil.com/posts/pi-1-0/",
+          "kind": "primary",
+          "time": "2026-10-01T21:33:05+02:00"
+        },
+        {
+          "label": "HN — Pi 1.0",
+          "url": "https://news.ycombinator.com/item?id=49926069",
+          "kind": "article",
+          "time": "2026-10-01T21:33:05+02:00"
+        },
+        {
+          "label": "GitButler",
+          "url": "https://blog.gitbutler.com/git-3-sha-256",
+          "kind": "article",
+          "time": "2026-10-01T18:57:03+02:00"
+        },
+        {
+          "label": "Yeni Şafak (wire)",
+          "url": "https://en.yenisafak.com/world/poland-extends-border-controls-with-germany-lithuania-3723982",
+          "kind": "article",
+          "time": "2026-10-01T14:39:00+02:00"
+        },
+        {
+          "label": "Waterfox 6.7.5",
+          "url": "https://www.waterfox.com/releases/6.7.5/",
+          "kind": "primary",
+          "time": "2026-10-01T23:17:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "The AI Corner: What AI agents see when they look at your pricing page.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The Art of Noticing: Savor of the Month (22).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "shit you should care about: unpaywalled Cornell 7 essay — “a story about men.”",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/ai-agents-pricing-page-citations",
+          "kind": "article",
+          "time": "2026-10-01T17:17:25+02:00"
+        },
+        {
+          "label": "The Art of Noticing",
+          "url": "https://robwalker.substack.com/p/savor-of-the-month-22",
+          "kind": "article",
+          "time": "2026-10-01T23:14:41+02:00"
+        },
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/unpaywalled-the-cornell-7-is-a-story",
+          "kind": "article",
+          "time": "2026-10-01T18:00:50+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "claude.dev (Addy Osmani): Getting started with Claude Code mods — hooks-in-plugins that can rewrite tools/UI; Token Weather walkthrough (needs Claude Code ≥2.1.287).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Claude blog twin: Customize Claude Code with mods in TypeScript (claude.com).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Rust 1.99.0: stabilize defining extern \"C\" / \"C-unwind\" variadics (VaList), plus Layout::for_value_raw / size_of_val_raw / align_of_val_raw.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abe945ed70dd868af96f9df_og_claude-code-mods.jpg",
+        "alt": "Customize Claude Code with mods in TypeScript | Claude by Anthropic",
+        "credit": "Claude blog — mods",
+        "creditUrl": "https://claude.com/blog/claude-code-mods"
+      },
+      "sources": [
+        {
+          "label": "claude.dev — Code mods",
+          "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/",
+          "kind": "primary",
+          "time": "2026-10-01T14:00:00+02:00"
+        },
+        {
+          "label": "Claude blog — mods",
+          "url": "https://claude.com/blog/claude-code-mods",
+          "kind": "primary",
+          "time": "2026-10-01T02:00:00+02:00"
+        },
+        {
+          "label": "Rust Blog — 1.99.0",
+          "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+          "kind": "primary",
+          "time": "2026-10-01T14:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
