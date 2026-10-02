@@ -1,0 +1,323 @@
+{
+  "id": "2026-10-02-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-02T13:10:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin) / last ~5–6 hours",
+  "headline": "Klingbeil holds the Zuckersteuer line after the Chancellery stop; Union threatens to block his income-tax bill until Bas delivers pension/labor drafts; Google’s Project Suncatcher TPUs reach orbit; Boston Dynamics ships a 13-DOF Atlas hand.",
+  "stories": [
+    {
+      "id": "zuckersteuer-kanzleramt-klingbeil",
+      "title": "Zuckersteuer: Chancellery brakes; Klingbeil still says it will come",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Economy"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Kanzleramt paused Klingbeil’s soft-drink sugar-levy draft — government circles (dpa/tagesschau): diverges from Finanzkommission Gesundheit; “nicht mehrheitsfähig.”",
+        "Draft: levy from 1 Jul 2027 on drinks ≥5 g sugar/100 ml; Zero/ersatz, pure juices, AF beer/wine exempt. MoF ~€1 bn/yr vs commission ~€450 m (two tiers, max 32¢/L vs Klingbeil peak 38¢).",
+        "Today (SPIEGEL ~11:12): Klingbeil to ZDFheute/RTL/n-tv — “Wir haben verabredet, eine Zuckersteuer einzuführen. Wir werden das auch tun”; expects a quick deal; frames child health.",
+        "SPD deputy Schweitzer (dpa): surprised by the open Chancellery brake — “nicht zuträglich” for coalition trust; NGG plans 8 Oct MoF protest."
+      ],
+      "whyItMatters": "Fresh Friday midday pushback from Klingbeil turns Thursday’s Chancellery stop into an open coalition-finance fight — and the levy is tied into GKV/health-fund funding before the budget vote.",
+      "image": {
+        "url": "https://images.tagesschau.de/image/06101728-7650-439e-b730-871770edf9ba/AAABndgM06Q/AAABnSSvrFg/16x9-big/kiosk-zucker-102.jpg?width=1280",
+        "alt": "Sugary soft drinks on a kiosk shelf",
+        "credit": "tagesschau.de",
+        "creditUrl": "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-kanzleramt-100.html"
+      },
+      "sources": [
+        {
+          "label": "SPIEGEL — Klingbeil holds firm",
+          "url": "https://www.spiegel.de/politik/deutschland/zuckersteuer-lars-klingbeil-haelt-nach-vorlaeufigem-stopp-vom-kanzleramt-an-umstrittener-reform-fest-a-d7b71c75-60cc-4589-a1dd-5c93b175e877",
+          "kind": "article",
+          "time": "2026-10-02T11:12:00+02:00"
+        },
+        {
+          "label": "tagesschau — Chancellery brake",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-kanzleramt-100.html",
+          "kind": "article",
+          "time": "2026-10-01T13:01:00+02:00"
+        },
+        {
+          "label": "tagesschau — context / tiers",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-protest-klingbeil-entwurf-100.html",
+          "kind": "article",
+          "time": "2026-10-01T19:49:00+02:00"
+        },
+        {
+          "label": "n-tv / dpa",
+          "url": "https://www.n-tv.de/politik/Kanzleramt-stoppt-vorerst-Klingbeils-Zuckersteuer-id31369008.html",
+          "kind": "article",
+          "time": "2026-10-01T12:03:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "union-bas-renten-steuerblockade",
+      "title": "Union presses Bas on pensions — threatens to block Klingbeil tax bill",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "CDU GS Hoppermann (FAZ): Labor Minister Bas must table the pension draft so talks can get concrete; Merz wants labor flexibilization on the 7 Oct Koalitionsausschuss.",
+        "Union Fraktion (Handelsblatt/dpa via WELT & n-tv): discussed blocking Klingbeil’s income-tax bill until Bas delivers pension + labor drafts — July package framed as linked.",
+        "Flashpoints: end of penalty-free early retirement after 45 years (also opposed by three eastern CDU MPs); Bild cites 4-yr sachgrundlose Befristung + looser Kündigungsschutz above €177k.",
+        "WELT/SPIEGEL: Steinmeier phoned Klingbeil and Dobrindt amid a care-reform flare-up; a government official called the mood “echte Ampel-Vibes.”"
+      ],
+      "whyItMatters": "Same Friday coalition stress as the Zuckersteuer fight — tax relief for SPD vs. pensions/labor for the Union, with the committee and first tax reading stacked Oct 7–8.",
+      "image": {
+        "url": "https://static.dw.com/image/79513105_6.jpg",
+        "alt": "Bavarian Premier Markus Söder, Chancellor Friedrich Merz, Labor Minister Bärbel Bas and Finance Minister Lars Klingbeil sit together at Oktoberfest in Munich on September 21, 2025",
+        "credit": "DW live blog",
+        "creditUrl": "https://www.dw.com/en/germany-news-reform-row-raises-fears-for-merzs-coalition/live-79512757"
+      },
+      "sources": [
+        {
+          "label": "WELT / dpa",
+          "url": "https://www.welt.de/politik/deutschland/article6abe9efe3e84d8c745a1a2ea/union-droht-bas-mit-blockade-von-steuerreform-steinmeier-schaltete-sich-in-koalitionsstreit-ein.html",
+          "kind": "article",
+          "time": "2026-10-02T06:10:00+02:00"
+        },
+        {
+          "label": "n-tv / dpa",
+          "url": "https://www.n-tv.de/politik/Union-draengt-Bas-beim-Rentengesetz-zur-Eile-id31371294.html",
+          "kind": "article",
+          "time": "2026-10-01T19:29:00+02:00"
+        },
+        {
+          "label": "DW live blog",
+          "url": "https://www.dw.com/en/germany-news-reform-row-raises-fears-for-merzs-coalition/live-79512757",
+          "kind": "article",
+          "time": "2026-10-02T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "google-project-suncatcher",
+      "title": "Google Project Suncatcher prototype reaches orbit",
+      "topics": [
+        "Tech",
+        "AI",
+        "Space"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Google Research (Travis Beals, Oct 1): Project Suncatcher prototype satellite — built with Planet — launched on SpaceX Transporter-18; contact confirmed, “operating as expected.”",
+        "Mission: gather in-orbit data on how Google TPUs handle launch stress, radiation and thermal extremes — first step of a moonshot on whether space can host scalable ML infrastructure (peer-reviewed paper in Joule).",
+        "NPR context: fridge-sized craft carries four TPUs; plans to run Gemma briefly (~15 min bursts for heat); 2027 follow-on aims to test high-bandwidth laser links between two more sats."
+      ],
+      "whyItMatters": "Primary vendor hardware-in-space milestone overnight into the Friday window — not Crew-13, and not yet an orbital data center.",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/wagtailvideo-fgyv69rc_thumb.jpg",
+        "alt": "Google Project Suncatcher satellite artwork",
+        "credit": "Google",
+        "creditUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+      },
+      "sources": [
+        {
+          "label": "Google Blog — Suncatcher",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "kind": "primary",
+          "time": "2026-10-02T01:30:00+02:00"
+        },
+        {
+          "label": "NPR",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5988044/google-launches-satellite-to-test-feasibility-of-building-data-centers-in-space",
+          "kind": "article",
+          "time": "2026-10-02T10:45:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "boston-dynamics-atlas-hand",
+      "title": "Boston Dynamics: new 13-DOF Atlas hand (no pinky)",
+      "topics": [
+        "Tech",
+        "Hardware"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Boston Dynamics blog (picked up by heise ~12:17): next-gen Atlas hand jumps from 7 to 13 DOF — four fingers, denser fingertip/palm pressure sensing, encapsulated backdrivable direct actuators.",
+        "Designed for pinch/tripod grasps, in-hand reorientation, and triggered tool use (drills, drivers, welders); sized like a large human hand; claims ~100 lb+ loaded-minifridge class strength with the body.",
+        "No pinky after an internal “tape your pinky for a day” experiment — three fewer actuators for cost/repair/mass-manufacture; built for high-fidelity sim2real RL."
+      ],
+      "whyItMatters": "Concrete humanoid hardware step aimed at factory tool use, not another demo reel — primary vendor post landing in DE tech feeds today.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/7/5/6/9/3/Roboterhand_Atlas-c59ca634fb14c302.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Boston Dynamics Atlas robot hand holding a tool",
+        "credit": "heise / Boston Dynamics",
+        "creditUrl": "https://www.heise.de/news/Boston-Dynamics-Was-macht-die-neue-Atlas-Roboterhand-besser-11474127.html"
+      },
+      "sources": [
+        {
+          "label": "Boston Dynamics",
+          "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/",
+          "kind": "primary"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Boston-Dynamics-Was-macht-die-neue-Atlas-Roboterhand-besser-11474127.html",
+          "kind": "article",
+          "time": "2026-10-02T12:17:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "berlin-vorgespraeche-wochenende",
+      "title": "Berlin: Vorgespräche resume Saturday morning",
+      "topics": [
+        "Germany",
+        "Politics",
+        "Berlin"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Update vs last evening’s “maybe weekend”: taz (Fri ~10:56) — Tagesspiegel says Linke/Greens/SPD Vorgespräch continues Saturday morning; no denial to taz.",
+        "Still not Sondierungen: Greens/SPD want a firmer Linke antisemitism line (Graf: unspecified “Mechanismus”); Thu ~5h at Haus der Statistik ended with only “konstruktiv.”",
+        "Parties used Friday for internal Rückkopplung after leaving Thu without naming a next date."
+      ],
+      "whyItMatters": "Material scheduling update on the capital’s coalition gate — antisemitism/OK still block formal Sondierungen.",
+      "image": {
+        "url": "https://taz.de/picture/8777817/1200/422151861.jpeg",
+        "alt": "Das Bild zeigt die Parteivorsitzenden von LInkspartei, Grünen und SPD vor Journalistenmikrofonen",
+        "credit": "taz",
+        "creditUrl": "https://taz.de/Vorgespraech-ueber-Linksbuendns/!6218450/"
+      },
+      "sources": [
+        {
+          "label": "taz",
+          "url": "https://taz.de/Vorgespraech-ueber-Linksbuendns/!6218450/",
+          "kind": "article",
+          "time": "2026-10-02T10:56:00+02:00"
+        },
+        {
+          "label": "rbb24",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/berlin-wahl-vorgespraeche-regierungsbildung-linke-gruene-spd.html",
+          "kind": "article",
+          "time": "2026-10-01T19:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "WhatsApp rolling out optional parental controls for teens (13–17): privacy/group/Channels/Status/Meta AI limits via parent PIN — messages stay E2E; parents can’t read chats (WhatsApp blog / BBC).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Semafor: Merz under pressure after electoral/legislative stumbles; sugar-tax retreat + stalled labor/pension bills cited — Politico says some EU capitals are war-gaming “life after Merz.”",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f4b8/live/e7f33150-bcc5-11f1-ae14-0b840f99ba59.jpg",
+        "alt": "Young person with curly brown hair lying on a sofa, looking at a white phone",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/cm986x65we88o"
+      },
+      "sources": [
+        {
+          "label": "WhatsApp Blog",
+          "url": "https://blog.whatsapp.com/new-controls-to-help-parents-guide-their-teens-on-whatsapp",
+          "kind": "primary"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cm986x65we88o",
+          "kind": "article"
+        },
+        {
+          "label": "Semafor",
+          "url": "https://www.semafor.com/article/10/02/2026/german-chancellor-friedrich-merz-feels-the-heat-of-electoral-and-legislative-failures",
+          "kind": "article",
+          "time": "2026-10-02T12:28:00+02:00"
+        },
+        {
+          "label": "POLITICO",
+          "url": "https://www.politico.eu/article/europe-contemplates-life-after-friedrich-merz/",
+          "kind": "article",
+          "time": "2026-10-02T04:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Rust Inside Blog (Oct 2): “Generic Const Args and You” — Const Generics Project Group documents the GCA feature family meant to replace generic_const_exprs (still unstable; gca! macro).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Anthropic research guest post: Matthew Schwartz on “Claude-shaped science” / open-source BootLoops harness for exact quantitative calculations across fields.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Also on Lobsters today: Rust demoting i686 Windows targets to std-only; Storyteller epub v1.0.0.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5dca367673e615ac7abbbdac9f44733d1f52638a-2000x1125.jpg",
+        "alt": "Anthropic logo",
+        "credit": "Anthropic — Claude-shaped science",
+        "creditUrl": "https://www.anthropic.com/research/claude-shaped-science"
+      },
+      "sources": [
+        {
+          "label": "Inside Rust — GCA",
+          "url": "https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you/",
+          "kind": "primary",
+          "time": "2026-10-02T00:00:00+02:00"
+        },
+        {
+          "label": "Anthropic — Claude-shaped science",
+          "url": "https://www.anthropic.com/research/claude-shaped-science",
+          "kind": "primary",
+          "time": "2026-10-01T00:00:00+02:00"
+        },
+        {
+          "label": "Rust Blog — i686 Windows",
+          "url": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
+          "kind": "primary",
+          "time": "2026-10-02T00:00:00+02:00"
+        },
+        {
+          "label": "Storyteller epub v1",
+          "url": "https://storyteller-platform.dev/blog/20261001_epub_v1",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
