@@ -1,0 +1,334 @@
+{
+  "id": "2026-10-03-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-03T08:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h)",
+  "headline": "North Korea fires a ballistic missile (>700 km) after the DMZ mine dispute; Škoda recalls 1.7M cars for steering-bolt risk; OpenAI ships a GPT-6 family model guide.",
+  "stories": [
+    {
+      "id": "nk-missile-wonsan",
+      "title": "North Korea fires ballistic missile toward the East Sea",
+      "topics": [
+        "World",
+        "Security"
+      ],
+      "weight": "lead",
+      "facts": [
+        "South Korea and Japan: ballistic missile launched from the Wonsan area ~06:30 Sat local, flew >700 km toward the East Sea / Sea of Japan.",
+        "Seoul’s presidential NSC held an emergency meeting; military heightened monitoring and is sharing intel with the US and Japan.",
+        "Context: Friday, Kim Yo-jong rejected Seoul’s demand for an apology over North Korean mines that Seoul says wounded three South Korean soldiers in the DMZ."
+      ],
+      "whyItMatters": "First weekend missile shot tied to the DMZ mine spat and Kim Yo-jong’s Friday blast — another test of Seoul–Washington–Tokyo coordination.",
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/9ba691b79ce886213316c0877262c106a43521f1/356_0_3778_3022/master/3778.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c15d7bafbf46d3e632bbd76a8730585a",
+        "alt": "TV screen shows a North Korean missile launch file image during a news program in Seoul",
+        "credit": "The Guardian / AP",
+        "creditUrl": "https://www.theguardian.com/world/2026/oct/03/north-korea-launches-ballistic-missile-after-seoul-demands-apology-over-wounded-soldiers"
+      },
+      "sources": [
+        {
+          "label": "The Guardian / Reuters",
+          "url": "https://www.theguardian.com/world/2026/oct/03/north-korea-launches-ballistic-missile-after-seoul-demands-apology-over-wounded-soldiers",
+          "kind": "article",
+          "time": "2026-10-03T07:31:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "skoda-steering-recall",
+      "title": "Škoda recalls ~1.7M vehicles over steering-bolt risk",
+      "topics": [
+        "Germany",
+        "Auto"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Czech VW subsidiary recalls about 1.7 million cars worldwide; KBA database cites a screw that can break and cause steering failure.",
+        "Affected models: Kodiaq, Karoq, Octavia, Superb; fix replaces the bolt with a corrosion-resistant screw.",
+        "Follows parent VW / Audi / SEAT recalls of several million vehicles on the same steering issue this week."
+      ],
+      "whyItMatters": "Largest Škoda tranche yet in the VW-group steering-bolt campaign — Germany is a big share of the park.",
+      "image": {
+        "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/7/6/0/6/6/shutterstock_1296164965-ce1fcd9c35d19eb6.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+        "alt": "Škoda vehicle illustration accompanying recall coverage",
+        "credit": "heise",
+        "creditUrl": "https://www.heise.de/news/Skoda-ruft-1-7-Millionen-Fahrzeuge-zurueck-11474865.html"
+      },
+      "sources": [
+        {
+          "label": "dpa International",
+          "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:261002-930-781957/",
+          "kind": "article",
+          "time": "2026-10-02T18:04:00+02:00"
+        },
+        {
+          "label": "heise",
+          "url": "https://www.heise.de/news/Skoda-ruft-1-7-Millionen-Fahrzeuge-zurueck-11474865.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt6-model-guide",
+      "title": "OpenAI: practical guide to the GPT-6 model family",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Official guide (2 Oct): match workload — Astra for hardest reasoning, GPT-6.1 Sol for complex coding/research/computer use, Luna for routine extraction/classification at scale.",
+        "API tips: set reasoning effort low→max by task; use Fast/Ultrafast when latency matters; prefer Responses API tooling; lean on prompt caching (up to ~95% cheaper cached input) and compaction for long runs.",
+        "Long-running work: mid-turn steering, async tools, and (beta) multi-agent delegation on Sol; computer use when no API exists."
+      ],
+      "whyItMatters": "First clear public playbook for picking among GPT-6 variants and running them in production without burning cost on every token.",
+      "image": null,
+      "sources": [
+        {
+          "label": "OpenAI — GPT-6 model guide",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "kind": "primary",
+          "time": "2026-10-02T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "brazil-election-diplomatic-closures",
+      "title": "US and Australia pause Brazil diplomatic ops before Sunday’s vote",
+      "topics": [
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "US embassy suspended consular services from Friday, citing security concerns; advised Americans not to visit embassy/consulates.",
+        "Australia’s embassy in Brasília also closed Friday, citing the US alert; ambassador advised citizens to avoid US facilities.",
+        "Brazil police ran preventive searches in São Paulo and Brasília over suspected plans against US facilities — said no corroborating threat yet; Lula vs Flávio Bolsonaro vote Sunday (runoff Oct 25 if needed)."
+      ],
+      "whyItMatters": "Unusual pre-election diplomatic freeze lands in a race already charged with interference claims — optics matter even if police later downplay the tip.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ac03839c0-1790982201.jpg?resize=1920%2C1440",
+        "alt": "US and Australia suspend diplomatic operations in Brazil before election",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/3/us-and-australia-suspend-diplomatic-operations-in-brazil-before-election"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/3/us-and-australia-suspend-diplomatic-operations-in-brazil-before-election",
+          "kind": "article",
+          "time": "2026-10-03T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers: NFL suspends owner Jed York six games + $500k fine (Personal Conduct Policy after Aug Ohio sting); first three missed games count — return eligible Tue Oct 20 after Week 6 vs Commanders.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "49ers host Broncos Sunday Week 4 at Levi’s Stadium after a 3–0 start without York on site.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/rwvtddbxm0zei9krxyhe",
+        "alt": "york tn",
+        "credit": "NFL.com — York suspension",
+        "creditUrl": "https://www.nfl.com/news/niners-owner-jed-york-suspended-six-games-fined-500k"
+      },
+      "sources": [
+        {
+          "label": "NFL.com — York suspension",
+          "url": "https://www.nfl.com/news/niners-owner-jed-york-suspended-six-games-fined-500k",
+          "kind": "primary",
+          "time": "2026-10-02T12:00:00+02:00"
+        },
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nfl/news/49ers-owner-jed-york-suspended-fined-nfl/",
+          "kind": "article",
+          "time": "2026-10-02T20:27:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Flydubai: injured captain describes cockpit knife attack by co-pilot on Dubai→Tel Aviv flight; UAE investigating; carrier paused Israel flights — thousands of Israelis stranded in Gulf (tagesschau).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Apple ships Pass Designer for Wallet passes (HN overnight ~380 pts).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Ars: AI finally beats a top Stratego player — imperfect-info breakthrough on a budget.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "heise: IFG reform draft would shift burden — citizens must justify requests while the state can stay silent.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg",
+        "alt": "A cartoon version of a Stratego piece, specifically one showing a bomb.",
+        "credit": "Ars Technica — Stratego AI",
+        "creditUrl": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+      },
+      "sources": [
+        {
+          "label": "tagesschau — Flydubai",
+          "url": "https://www.tagesschau.de/ausland/asien/flydubai-angriff-pilot-100.html",
+          "kind": "article",
+          "time": "2026-10-03T02:18:00+02:00"
+        },
+        {
+          "label": "Apple — Pass Designer",
+          "url": "https://developer.apple.com/pass-designer/",
+          "kind": "primary"
+        },
+        {
+          "label": "Ars Technica — Stratego AI",
+          "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+          "kind": "article"
+        },
+        {
+          "label": "heise — IFG",
+          "url": "https://www.heise.de/news/Glaeserner-Buerger-geheimer-Staat-Informationsfreiheitgesetz-in-Gefahr-11474799.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Design Better: Matt Owens (Athletics co-founder) on keeping creative fire lit.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Substack On: “A CEO tried to bully a journalist into silence. He failed.”",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Design Better Podcast",
+          "url": "https://designbetterpodcast.com/p/matt-owens-athletics-co-founder-on",
+          "kind": "article",
+          "time": "2026-10-02T22:41:34+02:00"
+        },
+        {
+          "label": "Substack On",
+          "url": "https://on.substack.com/p/a-ceo-tried-to-bully-a-journalist",
+          "kind": "article",
+          "time": "2026-10-02T17:10:42+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Zig 0.17.0 release notes land (Lobsters hot overnight).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Vercel: How Rogo ships agent-written code to production in ~5 minutes.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Salvatore Sanfilippo (Redis): dwarfstar.sh — run LLM locally with ds4 (HN).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Apple: updates to Full Disk Access on macOS (developer news).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://dwarfstar.sh/og-preview-v2.png",
+        "alt": "DwarfStar 4 logo and local inference project card",
+        "credit": "dwarfstar.sh",
+        "creditUrl": "https://dwarfstar.sh/"
+      },
+      "sources": [
+        {
+          "label": "Zig 0.17.0 notes",
+          "url": "https://ziglang.org/download/0.17.0/release-notes.html",
+          "kind": "primary"
+        },
+        {
+          "label": "Vercel — Rogo",
+          "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
+          "kind": "primary"
+        },
+        {
+          "label": "dwarfstar.sh",
+          "url": "https://dwarfstar.sh/",
+          "kind": "primary"
+        },
+        {
+          "label": "Apple — Full Disk Access",
+          "url": "https://developer.apple.com/news/?id=p6zjojqw",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
