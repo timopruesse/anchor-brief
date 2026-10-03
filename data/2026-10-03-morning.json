@@ -196,6 +196,13 @@
           "sourceIndexes": [
             3
           ]
+        },
+        {
+          "text": "Nikita Bier: “officially disconnected from my X laptop” after his chapter running the app — Elon replied “Thanks for everything.”",
+          "sourceIndexes": [
+            4,
+            5
+          ]
         }
       ],
       "whyItMatters": null,
@@ -226,6 +233,18 @@
           "label": "heise — IFG",
           "url": "https://www.heise.de/news/Glaeserner-Buerger-geheimer-Staat-Informationsfreiheitgesetz-in-Gefahr-11474799.html",
           "kind": "article"
+        },
+        {
+          "label": "Nikita Bier on X",
+          "url": "https://x.com/nikitabier/status/2106208271778668930",
+          "kind": "x",
+          "time": "2026-10-03T04:22:38+02:00"
+        },
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2106238887106396283",
+          "kind": "x",
+          "time": "2026-10-03T06:24:17+02:00"
         }
       ]
     },
@@ -298,6 +317,12 @@
           "sourceIndexes": [
             3
           ]
+        },
+        {
+          "text": "Cactus Compute: Whistle — on-device STT in a 16.9MB file (CPU), claims beat Whisper-base with ~9× smaller file / ~6× speed; EN+DE+FR+ES+IT+NL+PL (X).",
+          "sourceIndexes": [
+            4
+          ]
         }
       ],
       "whyItMatters": null,
@@ -327,6 +352,12 @@
           "label": "Apple — Full Disk Access",
           "url": "https://developer.apple.com/news/?id=p6zjojqw",
           "kind": "primary"
+        },
+        {
+          "label": "Cactus Compute on X",
+          "url": "https://x.com/cactuscompute/status/2106083041265562075",
+          "kind": "x",
+          "time": "2026-10-02T20:05:00+02:00"
         }
       ]
     }
