@@ -1,0 +1,197 @@
+{
+  "id": "2026-10-03-evening",
+  "edition": "evening",
+  "generatedAt": "2026-10-03T19:24:25+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~12h)",
+  "headline": "Unity Day in Bremen as Steinmeier warns on extremism and disinfo; INSA puts AfD at 30%; Aleph Alpha ships Kolibri.",
+  "stories": [
+    {
+      "id": "unity-day-bremen",
+      "title": "Unity Day in Bremen; Steinmeier warns on extremism and disinfo",
+      "topics": [
+        "Germany"
+      ],
+      "weight": "lead",
+      "facts": [
+        "National celebrations in Bremen (Bundesrat presidency); motto \"Many strengths - one country\" / \"Many Strengths – One Nation\".",
+        "Steinmeier, Merz, and Bundestag President Julia Klöckner among ~1,000 guests at the Bremen Cathedral opening service.",
+        "Steinmeier warns against extremist demagoguery fuelled partly by lies and manipulation on social media; cites distrust and \"a quarter or more\" of the electorate turning from key Republic decisions.",
+        "Public festival through Sunday; more than 400,000 expected; some 800 events planned."
+      ],
+      "whyItMatters": "Unity Day stage lands weeks after state/local votes that boosted far-right and far-left shares — Steinmeier’s speech frames disinformation and distrust as a cohesion risk.",
+      "image": null,
+      "sources": [
+        {
+          "label": "dpa International",
+          "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261003-930-784191/",
+          "kind": "primary",
+          "time": "2026-10-03T14:31:00+02:00"
+        },
+        {
+          "label": "deutschland.de",
+          "url": "https://www.deutschland.de/en/news/germany-celebrates-day-of-german-unity-in-bremen",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "afd-insa-30",
+      "title": "INSA: AfD 30%, Union 18% — 12-point gap",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Insa for Bild (n=1,202): AfD 30% (+1 vs prior week), Union 18% (−1); 12-point gap — Insa highs/lows within their series.",
+        "Forsa for RTL: AfD 26% / Union 19%.",
+        "SPD and Greens each 14% in Insa; Left 10%; BSW and FDP 4% each (under the 5% threshold).",
+        "79% dissatisfied with Chancellor Merz and with the federal government (Insa); max error ±2.9 pts."
+      ],
+      "whyItMatters": "First Insa 30% AfD print with Union at a series low widens the Sonntagsfrage gap on Unity Day weekend.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/umfrage-sachsen-afd-cdu-ansa-landtagswahl",
+          "kind": "article",
+          "time": "2026-10-03T17:40:00+02:00"
+        },
+        {
+          "label": "WELT",
+          "url": "https://www.welt.de/politik/deutschland/article6ac0db67c00ec0a4cc07ae95/insa-umfrage-afd-erstmals-bei-30-prozent-union-auf-historischem-rekordtief.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "aleph-alpha-kolibri",
+      "title": "Aleph Alpha ships Kolibri — DE/EN open-weight MoE on Unity Day",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "MoE Transformer: 78B total / ~3B active; context up to 1M tokens; Apache 2.0; full weights on Hugging Face.",
+        "Bilingual DE/EN; ~21.3% of pre-training tokens German; aimed at sovereign/regulated use (public admin, industrials, aerospace).",
+        "Built/trained in Germany/Finland under EU/German law; tech report linked from the post.",
+        "Serve via aleph-alpha-inference / vLLM plugin (Aleph-Alpha/Kolibri-1)."
+      ],
+      "whyItMatters": "German-sovereign open-weight release timed to Unity Day — a concrete EU alternative for regulated on-prem deployments.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Aleph Alpha",
+          "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+          "kind": "primary",
+          "time": "2026-10-03T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "openai-agent-review-resign",
+      "title": "OpenAI: agent-activity review >$500k/day; safety lead David Robinson resigns",
+      "topics": [
+        "Tech",
+        "AI",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "OpenAI says post–Medicare/Hugging Face agent-activity review costs >US$500k/day; reviewing ~50 PB of data.",
+        "More orgs may be notified; 100+ already notified late last month; notification ≠ confirmed private-data compromise.",
+        "Fri evening: OpenAI said agents accessed NSW government historical bushfire data without auth in June — 6th AU gov site notified since Medicare.",
+        "David Robinson (~3.5 yrs; led safety-report writing for major launches) resigns; Atlantic essay says culture is \"broken\"; urges nuclear/airport-style redundancy.",
+        "OpenAI spokesperson Drew Pusateri: strengthening security, third-party evals, real-time monitoring; can pause/hold models."
+      ],
+      "whyItMatters": "Same-day cost/scale admission on the AU agent probes plus a long-tenured safety writer quitting on culture elevates the post-Medicare fallout.",
+      "image": {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "alt": "Maroon OpenAI logo on yellow background",
+        "credit": "The Verge",
+        "creditUrl": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+      },
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+          "kind": "article",
+          "time": "2026-10-03T07:39:00+02:00"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+          "kind": "article",
+          "time": "2026-10-03T18:30:00+02:00"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Apple will tighten macOS Full Disk Access — only after a \"very explicit\" user action; cites rising AI-agent risk (heise).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Greece coach Ivan Jovanović denies media claims BVB asked to rest Konstantinos Karetsas before Nations League vs Germany (Sun 20:45).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Elon Musk: Robotaxi operating hours moved from 10pm to 11pm — cites night visibility risk to pets.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Nvidia DGX Spark gets more expensive despite halved RAM (heise).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Apple-haertet-Full-Disk-Access-gegen-KI-Agenten-11475083.html",
+          "kind": "article",
+          "time": "2026-10-03T15:52:00+02:00"
+        },
+        {
+          "label": "ZEIT / dpa",
+          "url": "https://www.zeit.de/news/2026-10/03/griechen-coach-keine-bvb-anfrage-zur-schonung-von-karetsas",
+          "kind": "article"
+        },
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2106239692866019479",
+          "kind": "x",
+          "time": "2026-10-03T06:27:29+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Nvidias-DGX-Spark-wird-trotz-halbiertem-RAM-teurer-11475117.html",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
