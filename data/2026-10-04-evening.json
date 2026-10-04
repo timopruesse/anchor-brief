@@ -1,0 +1,410 @@
+{
+  "id": "2026-10-04-evening",
+  "edition": "evening",
+  "generatedAt": "2026-10-04T19:40:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~12h; no afternoon Sunday)",
+  "headline": "Kyiv bridge hit during Merz visit; Yemen all-out push; VW picks Wayve over Nvidia.",
+  "stories": [
+    {
+      "id": "merz-kyiv-bridge",
+      "title": "Russia hits Kyiv Northern Bridge as Merz meets Zelenskyy",
+      "topics": [
+        "Europe",
+        "Germany",
+        "Ukraine"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Material update to morning visit: Russia struck the Northern Bridge over the Dnipro during Merz’s surprise Kyiv trip — Klitschko cited road/hot-water disruption; second capital bridge hit this weekend.",
+        "Air-raid sirens and explosions marked the day; Merz and Zelenskyy met at the National Academy of Sciences (drone-hit Sep 28).",
+        "Merz (written statement): travelled because Ukraine needs support in the coming weeks; again: if Russia is not stopped, its war machine will turn on Europe.",
+        "Aid package still the morning frame: ~€1bn military (interceptor drones / long-range) + ~€350m energy repairs; Siemens Energy and Diehl Defence among accompanying execs."
+      ],
+      "whyItMatters": "The overnight story was the aid announcement; Sunday’s strike makes the security backdrop concrete while Merz is still in the capital.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261004__D2794KE__v4__HighRes__TopshotUkraineGermanyRussiaConflictWar-1791111443.jpg?resize=1920%2C1440",
+        "alt": "Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine",
+          "kind": "article",
+          "time": "2026-10-04T16:00:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/04/germanys-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid.html",
+          "kind": "article",
+          "time": "2026-10-04T10:40:00+02:00"
+        },
+        {
+          "label": "deutschland.de / dpa",
+          "url": "https://www.deutschland.de/en/news/war-in-ukraine-further-military-aid-planned",
+          "kind": "primary",
+          "time": "2026-10-04T12:00:00+02:00"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4jmMC8H",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2106685814511923543",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yemen-all-out",
+      "title": "Yemen’s government declares all-out war to retake Houthi territory",
+      "topics": [
+        "World",
+        "Middle East"
+      ],
+      "weight": "normal",
+      "facts": [
+        "President Rashad al-Alimi (televised, Sun): start of military operations to retake remaining republic territory and restore state authority nationwide.",
+        "Houthis (Yahya Saree): claimed ballistic + drone hits on Aramco in Riyadh and Khurais; Saudi yet to comment on Sunday’s claim (coalition earlier called Saturday’s Riyadh claim misleading).",
+        "AFP: Houthis cut a vital Taiz–Aden supply route, effectively encircling Taiz per Yemeni military sources.",
+        "Context: war reignited July; last month Houthis seized Red Sea coast / Bab al-Mandab leverage amid wider Iran–US conflict."
+      ],
+      "whyItMatters": "Morning covered the Aramco claim; evening adds an explicit government all-out campaign plus a Taiz logistics squeeze.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/7653/live/2853dd30-bffa-11f1-8c3e-3b2eab095459.jpg",
+        "alt": "Several people ride in the back of a pick-up truck carrying mounted equipment along an unpaved road lined with trees and scrub",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/cx8dzj9vpp01o"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cx8dzj9vpp01o",
+          "kind": "article",
+          "time": "2026-10-04T16:24:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html",
+          "kind": "article",
+          "time": "2026-10-04T14:02:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "hormuz-tankers",
+      "title": "Two tankers struck near Hormuz; Iran: strait stays shut until seven conditions",
+      "topics": [
+        "World",
+        "Middle East",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "UKMTO: crude tanker hit by unknown projectile ~4 nm east of Oman (Sat); another tanker struck Sun in the Strait of Hormuz with engine-room damage.",
+        "Parliament Speaker Ghalibaf (Nour News): Hormuz will not reopen until Iran’s seven Islamabad MoU conditions are met — halt to US “aggression,” end naval blockade/economic warfare, release of Iranian assets among them.",
+        "Brent closed Fri ~$102.25; WTI ~$91.11 after G7 stock release softened Thursday’s carrier-group spike."
+      ],
+      "whyItMatters": "Shipping hits keep energy risk live even when crude prints ease on strategic-release headlines.",
+      "image": null,
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html",
+          "kind": "article",
+          "time": "2026-10-04T14:02:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ethiopia-mekelle",
+      "title": "Ethiopian forces take Tigray capital Mekelle as TPLF withdraws",
+      "topics": [
+        "World",
+        "Africa"
+      ],
+      "weight": "normal",
+      "facts": [
+        "TPLF (Sat night): “temporarily moved out of Mekelle” to operate elsewhere after federal army + allied fighters advanced.",
+        "Reuters/AFP: airport retaken earlier Sat; fighters entered city centre; humanitarian sources and a resident confirmed government control Sunday.",
+        "Fighting resumed Sep 23 after a seven-group alliance aimed at removing PM Abiy; 2022 peace deal had collapsed.",
+        "US State Dept urged Ethiopia and Eritrea to show restraint; Egypt’s el-Sisi (AU summit) stressed dialogue over confrontation."
+      ],
+      "whyItMatters": "Mekelle’s fall is the sharpest Tigray turn since the 2022 deal broke — with regional spillover risk already flagged by Washington and Cairo.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261004__D2776ZE__v2__HighRes__TopshotEthiopiaTigrayConflictUnrest-1791106361.jpg?resize=1920%2C1440",
+        "alt": "Ethiopian government forces seize Tigray capital Mekelle as rebels withdraw",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels",
+          "kind": "article",
+          "time": "2026-10-04T15:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "vw-wayve",
+      "title": "VW picks London startup Wayve over Nvidia for autonomous driving",
+      "topics": [
+        "Tech",
+        "Germany",
+        "Autos"
+      ],
+      "weight": "normal",
+      "facts": [
+        "SPIEGEL (insiders) + heise Sun: VW selected Wayve’s end-to-end AI driving stack after London city tests beat Nvidia and other bidders; final contract still unsigned (Audi procurement to negotiate).",
+        "Follows end of Cariad–Bosch Automated Driving Alliance; Level-2 system retained (e.g. ID.EVERY1); Wayve to supply AI software Cariad integrates into existing sensors/compute.",
+        "Wayve (~$2.8bn raised) also partners/investors with Mercedes, Nissan, Stellantis; Nvidia remains a Wayve investor and possible chip supplier."
+      ],
+      "whyItMatters": "Europe’s largest carmaker is choosing a UK foundation-model AD stack over a full Nvidia software pitch — a Cariad jobs/architecture story as much as a supplier swap.",
+      "image": {
+        "url": "https://www.electrive.com/media/2026/10/idbuzz-cariad-tu-muenchen-pruefstand.jpeg",
+        "alt": "Volkswagen ID.Buzz Cariad TU Muenchen Pruefstand",
+        "credit": "electrive",
+        "creditUrl": "https://www.electrive.com/2026/10/01/volkswagen-announce-autonomous-driving-partnership-with-wayve/"
+      },
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Autonomes-fahren-VW-arbeitet-mit-Wayve-statt-mit-Nvidia-11475343.html",
+          "kind": "article",
+          "time": "2026-10-04T18:32:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-vw-sagt-nvidia-ab-und-setzt-beim-autonomen-fahren-auf-wayve-a-b1ffd8f0-cf2a-416c-b99e-1c38244a1d19",
+          "kind": "article",
+          "time": "2026-10-01T11:36:00+02:00"
+        },
+        {
+          "label": "electrive",
+          "url": "https://www.electrive.com/2026/10/01/volkswagen-announce-autonomous-driving-partnership-with-wayve/",
+          "kind": "article",
+          "time": "2026-10-01T09:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "reiche-pachtdeckel",
+      "title": "Reiche’s wind-lease cap draws bank and renewables fire",
+      "topics": [
+        "Germany",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "EEG draft: 20-year Pachtdeckel at 3.5% of pre-ops gross annual yield (raised from 2.5% after consultation); EEG + Netzpaket targeted mid-October; Wirtschaftsausschuss hearing this week, key vote Oct 14.",
+        "18 banks (open letter): monitoring/penalty risk raises financing costs and undercuts intended savings; BEE and Waldeigentümer warn of fewer projects; di Fabio opinion calls cap unconstitutional.",
+        "BMWK still argues past high leases inflate EEG costs; VKU backs some cap but wants regional flexibility."
+      ],
+      "whyItMatters": "Separate from morning’s Rentenreform spat — this is Reiche’s cost-cut Energiewende package colliding with lenders and renewables lobbies before the mid-October vote.",
+      "image": {
+        "url": "https://taz.de/picture/8775923/1200/41765631.jpeg",
+        "alt": "Katherina Reiche",
+        "credit": "taz",
+        "creditUrl": "https://taz.de/Reform-der-Energiegesetze/!6218081/"
+      },
+      "sources": [
+        {
+          "label": "taz",
+          "url": "https://taz.de/Reform-der-Energiegesetze/!6218081/",
+          "kind": "article",
+          "time": "2026-10-04T13:03:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Trump names DNI Jay Clayton to lead a “Super Intelligence Force” (SIF) AI task force with FTC’s Ferguson, Pentagon CTO Emil Michael, OPM’s Kupor — 120-day assessment window.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ACI Europe / IATA / Amadeus / Sita / Idemia “Responsible Biometrics” coalition pushes Digital Omnibus rules for voluntary airport face ID; EDSA proportionality stance called too strict.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Photoshop beta Relight: reposition/soften/recolor light on finished photos; free low-res preview, 30 generative credits per final render (Fstoppers / Jesús Ramirez).",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "DGB, IG Metall, Verdi, Caritas, Diakonie, VdK urge halt to Pflegereform grade-tightening and other social cuts after Wednesday’s Kabinett draft.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://fortune.com/img-assets/wp-content/uploads/2026/10/AP26277465438671-e1791122345180.jpg?resize=1200,600",
+        "alt": "Jay Clayton testifies during a Senate Intelligence Committee confirmation hearing on Capitol Hill, July 15, 2026.",
+        "credit": "Fortune / AP",
+        "creditUrl": "https://fortune.com/2026/10/04/trump-national-intelligence-director-jay-clayton-super-intelligence-force-ai-agency/"
+      },
+      "sources": [
+        {
+          "label": "Fortune / AP",
+          "url": "https://fortune.com/2026/10/04/trump-national-intelligence-director-jay-clayton-super-intelligence-force-ai-agency/",
+          "kind": "article",
+          "time": "2026-10-04T16:03:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Der-KI-Zar-der-USA-kommt-von-den-Geheimdiensten-11475401.html",
+          "kind": "article",
+          "time": "2026-10-04T17:56:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Flugreisen-Biometrie-Allianz-fordert-Aufweichung-des-EU-Datenschutzes-11475373.html",
+          "kind": "article",
+          "time": "2026-10-04T16:49:00+02:00"
+        },
+        {
+          "label": "Fstoppers",
+          "url": "https://fstoppers.com/photoshop/photoshop-can-now-move-light-your-photo-904920",
+          "kind": "article",
+          "time": "2026-10-04T11:03:00+02:00"
+        },
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/pflegereform-sozialbuendnis-ruft-regierung-zu-stopp-von-kuerzungsplaenen-auf/100259557.html",
+          "kind": "article",
+          "time": "2026-10-04T09:11:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers (3-0) host Broncos (2-1) Week 4 at Levi’s — kickoff ~1:25 PT / ~22:25 CEST; no final yet at briefing time.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors @ Clippers preseason in Honolulu (Stan Sheriff) — tip ~4:00 PT / ~01:00 CEST Mon; still pregame at Berlin evening.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "49ers.com",
+          "url": "https://www.49ers.com/game-day/2026/reg-week4/broncos-at-49ers/box-score",
+          "kind": "primary"
+        },
+        {
+          "label": "NBA.com",
+          "url": "https://www.nba.com/game/gsw-vs-lac-0012600066",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Google Blog: Gemini 3.8 Flash builder showcase (orbit sims, ink animation, T. rex skeleton, transmission model) — tip; model already launched late Sep.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "oven-sh/bun #44560 merged: bump mimalloc for faster heaps / less purge churn; release memory during GC.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "HN: Run Qwen 3.8 Flash Next (125B) on consumer RTX 4090 at ~100 tok/s (Strata).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "microsoft/TypeScript #64621 merged: ensure stable ordering in getInferTypeParameters result.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Jarred Sumner (X): Claude Code AoT binary ~304 MB now vs ~430 MB.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/6ebb32cabe94c1ba06496ee1a277c3c4cfcbbafa3b8a8d4d955addc914294bd9/oven-sh/bun/pull/44560",
+        "alt": "What does this PR do? Bumps mimalloc to oven-sh/mimalloc#59, and tells mimalloc when Bun.sleepSync blocks. mimalloc mi_heap_new + mi_heap_destroy (every MimallocArena) is about 7x cheaper with one...",
+        "credit": "GitHub — bun#44560",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/44560"
+      },
+      "sources": [
+        {
+          "label": "Google Blog — Gemini",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
+          "kind": "primary",
+          "time": "2026-09-28T12:00:00+02:00"
+        },
+        {
+          "label": "GitHub — bun#44560",
+          "url": "https://github.com/oven-sh/bun/pull/44560",
+          "kind": "primary"
+        },
+        {
+          "label": "HN / Strata",
+          "url": "https://github.com/Niko1221/Strata",
+          "kind": "primary"
+        },
+        {
+          "label": "GitHub — TypeScript#64621",
+          "url": "https://github.com/microsoft/TypeScript/pull/64621",
+          "kind": "primary"
+        },
+        {
+          "label": "Jarred Sumner on X",
+          "url": "https://x.com/jarredsumner/status/2106719577275302344",
+          "kind": "x"
+        }
+      ]
+    }
+  ]
+}
