@@ -1,0 +1,324 @@
+{
+  "id": "2026-10-04-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-04T08:06:55+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~12–18h)",
+  "headline": "Merz surprise Kyiv visit with €1bn military aid; Houthis claim Aramco Riyadh strike.",
+  "stories": [
+    {
+      "id": "merz-kyiv",
+      "title": "Merz surprise visit to Kyiv — €1bn military + €350m energy",
+      "topics": [
+        "Germany",
+        "Europe",
+        "Ukraine"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Chancellor Merz arrived Sunday morning by special train with Economy Minister Katherina Reiche and ~10 defence/energy executives.",
+        "Government circles: ~€1bn already-approved military funds (thousands of interceptor drones vs Russian jet-powered Shaheds) + ~€350m for energy-plant repairs.",
+        "Joint long-range weapons (>1,000 km) production to be pushed; Merz: if Russia is not stopped, it will turn its war machine against Europe \"sooner or later\".",
+        "Fifth war winter; Russian MFA had warned diplomats away from Kyiv hours earlier."
+      ],
+      "whyItMatters": "A surprise Sunday presence in Kyiv with drone/energy packages and industry CEOs signals Berlin’s wartime industrial track, not just another photo-op.",
+      "image": {
+        "url": "https://static.dw.com/image/79534831_6.jpg",
+        "alt": "German Chancellor Friedrich Merz is greeted in Kyiv on Sunday morning",
+        "credit": "Deutsche Welle",
+        "creditUrl": "https://www.dw.com/en/germanys-merz-arrives-in-kyiv-to-pledge-more-support/a-79534734"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/ausland/europa/eilmeldung-merz-kiew-100.html",
+          "kind": "article",
+          "time": "2026-10-04T06:44:00+02:00"
+        },
+        {
+          "label": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germanys-merz-arrives-in-kyiv-to-pledge-more-support/a-79534734",
+          "kind": "article"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/ausland/russland-ukraine-krieg-friedrich-merz-ueberraschend-in-kyjiw-eingetroffen-a-c6e7607a-70a0-4a19-b913-46020ce53a2d",
+          "kind": "article",
+          "time": "2026-10-04T06:23:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "houthis-aramco",
+      "title": "Houthis claim Aramco strike near Riyadh as Yemen fighting intensifies",
+      "topics": [
+        "Middle East",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Sat: Houthi spokesman Yahya Saree claimed ballistic missiles and drones hit an Aramco facility in Riyadh; smoke/flames seen near the site (AFP photos).",
+        "Saudi-led coalition spokesman called the Riyadh-targeting claim \"misleading\".",
+        "Early Sun: coalition claimed 97 ops on Tor al-Baha / Taiz axes; truce collapse since July; Bab al-Mandeb / Mocha shipping context."
+      ],
+      "whyItMatters": "Even a disputed claim on Riyadh energy infrastructure keeps Red Sea / Gulf oil risk in play while Yemen fighting escalates.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac1b72c7627-1791080236.jpg?resize=1920%2C1440",
+        "alt": "Houthis claim strike on Aramco site as Yemen fighting intensifies",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies",
+          "kind": "article"
+        },
+        {
+          "label": "ABC News (AU)",
+          "url": "https://www.abc.net.au/news/2026-10-04/houthi-saudi-yemen-iraq-middle-east-hostilities/107226524",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "rente-reiche",
+      "title": "Reiche pushes Rentenreform decision by year-end vs Bas",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "BamS interview (ZEIT/dpa ~03:15): Economy Minister Katherina Reiche wants pension reform passed this year; Bas should table a draft quickly.",
+        "Warns against watering down Rentenkommission elements; open fight includes abschlagsfreie Rente nach 45 Jahren (\"Rente mit 63\").",
+        "Interior Minister Dobrindt said disputes are to be cleared \"in the next days\"."
+      ],
+      "whyItMatters": "Coalition pension timing pressure lands the same weekend Reiche accompanies Merz to Kyiv — domestic fiscal politics stay live.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/rentenreform-katherina-reiche-cdu-baerbel-bas-spd",
+          "kind": "article",
+          "time": "2026-10-04T03:15:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "flock-alpr",
+      "title": "Federal judge: Flock ALPR is \"indiscriminate mass surveillance\"",
+      "topics": [
+        "Tech",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Judge Sara Hill (N.D. Okla.): Tulsa deputy’s warrantless Flock plate search violated the Fourth Amendment; evidence suppressed.",
+        "First-ish federal finding that a Flock search was unconstitutional (not binding precedent).",
+        "Sen. Sanders introduced a \"Block Flock Act\"; some FL/TX jurisdictions pulling back; Flock offering buyouts."
+      ],
+      "whyItMatters": "A federal suppression ruling against Flock’s ALPR dragnet raises the legal temperature on mass plate tracking beyond local politics.",
+      "image": null,
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+          "kind": "article",
+          "time": "2026-10-03T21:33:00+02:00",
+          "via": {
+            "label": "TechCrunch on X",
+            "url": "https://x.com/TechCrunch/status/2106468112316973441",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "altman-ai-religion",
+      "title": "Altman: ascribing religion to models is a safety issue",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Sat: Sam Altman said he is \"very uncomfortable\" with religious force / surrender of human judgment to models — framing it as a safety issue.",
+        "Contrasts with Anthropic/Olah outreach to religious leaders on consciousness and moral behaviour (NYT earlier in the week).",
+        "DeepMind’s Jon Barron also critical (\"Team Meatbag\")."
+      ],
+      "whyItMatters": "Fresh overnight AI beat distinct from Fri’s Robinson resign / agent-review costs — consciousness-and-faith framing is now a safety talking point.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/10/03/openai-anthropic-altman-amodei-religious-force-models",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Deutsche Bahn makes Familienticket permanent: family round-trip €99.99 from 1 Nov (incl. ICE reservation); sales from 26 Oct.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Simon Willison: default hard budget caps for agent-era APIs — soft email warnings fail; cites AWS spend limits + GCP Spend Caps.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Suspected ShinyHunters member \"Rey\" (Saif al-Din Khader) reportedly detained in Jordan; cooperating with FBI.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Switzerland glaciers: ~20% of glacial ice gone since 2021 (GLAMOS); WaPo on the 2026 melt report.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "SOS-Kinderdörfer + Terre des Hommes: kids not adequately protected from AI; regulation lagging (ZEIT).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/deutsche-bahn-familienticket-100.html",
+          "kind": "article",
+          "time": "2026-10-04T02:51:00+02:00"
+        },
+        {
+          "label": "simonwillison.net",
+          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+          "kind": "article"
+        },
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/climate-environment/2026/09/30/switzerlands-glaciers-are-losing-an-astonishing-amount-ice-see-meltdown/",
+          "kind": "article",
+          "via": {
+            "label": "Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2106353697575870598",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "DIE ZEIT",
+          "url": "https://www.zeit.de/digital/2026-10/kuenstliche-intelligenz-ki-kinder-jugendliche-kinderschutz-sos-kinderdoerfer-terre-des-hommes",
+          "kind": "article",
+          "via": {
+            "label": "DIE ZEIT on X",
+            "url": "https://x.com/zeitonline/status/2106528838624628937",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Node.js download docs now list Vite+ as a community install method.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Kagi Orion browser update ships for Linux and Windows.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Valve/Timur Kristóf work improving old AMD GPUs on Linux (XDC) — Phoronix.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "nodejs.org",
+          "url": "https://nodejs.org/en/download",
+          "kind": "primary"
+        },
+        {
+          "label": "Kagi Blog",
+          "url": "https://blog.kagi.com/update-orion-linux-windows",
+          "kind": "article"
+        },
+        {
+          "label": "Phoronix",
+          "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers host Broncos Week 4 at Levi’s later today US (~1:25 PT / ~22:25 CEST) — preview only; no final at briefing time.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors: Jimmy Butler staying active at Hawaii training camp despite ACL rehab (SF Chronicle).",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "49ers.com",
+          "url": "https://www.49ers.com/news/ways-to-watch-and-listen-broncos-vs-49ers-week-4",
+          "kind": "primary"
+        },
+        {
+          "label": "SF Chronicle",
+          "url": "https://www.sfchronicle.com/sports/warriors/article/warriors-jimmy-butler-though-injured-makes-22461500.php",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
