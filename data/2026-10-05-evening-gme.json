@@ -1,0 +1,847 @@
+{
+  "id": "2026-10-05-evening-gme",
+  "parentId": "2026-10-05-evening",
+  "edition": "evening",
+  "generatedAt": "2026-10-05T19:44:54+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "Monday US session to ~13:44 ET (19:44 CEST); close pending",
+  "headline": "GME ~$25.66 (+3.9%) mid-session, holding above $25; no new filings or IR; Cheng’s only post is about Grove, not GME.",
+  "disclaimer": "News desk for a personal watchlist — not investment advice. Superstonk is community sentiment, not reporting.",
+  "stance": "bullish",
+  "stanceWhy": "Price is holding about 5% above Cohen’s ~$24.41 Form 4 buy, with a month of insider-only buying behind it and nothing new (filing, IR release, GME-related voice post) arguing the other way. Mid-session read, close pending; desk read, not advice.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 25.655,
+    "change": 0.955,
+    "changePct": 3.867,
+    "currency": "USD",
+    "dayHigh": 25.775,
+    "dayLow": 24.77,
+    "prevClose": 24.7,
+    "volume": 7277623,
+    "week52High": 26.88,
+    "week52Low": 17.79,
+    "asOf": "2026-10-05T17:44:52+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-04-06",
+      "c": 23.08
+    },
+    {
+      "t": "2026-04-07",
+      "c": 23.43
+    },
+    {
+      "t": "2026-04-08",
+      "c": 22.91
+    },
+    {
+      "t": "2026-04-09",
+      "c": 22.87
+    },
+    {
+      "t": "2026-04-10",
+      "c": 23.22
+    },
+    {
+      "t": "2026-04-13",
+      "c": 23.4
+    },
+    {
+      "t": "2026-04-14",
+      "c": 24.03
+    },
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
+    },
+    {
+      "t": "2026-09-04",
+      "c": 19.16
+    },
+    {
+      "t": "2026-09-08",
+      "c": 18.89
+    },
+    {
+      "t": "2026-09-09",
+      "c": 19.89
+    },
+    {
+      "t": "2026-09-10",
+      "c": 20.39
+    },
+    {
+      "t": "2026-09-11",
+      "c": 21.15
+    },
+    {
+      "t": "2026-09-14",
+      "c": 21.62
+    },
+    {
+      "t": "2026-09-15",
+      "c": 21.44
+    },
+    {
+      "t": "2026-09-16",
+      "c": 21.98
+    },
+    {
+      "t": "2026-09-17",
+      "c": 22.77
+    },
+    {
+      "t": "2026-09-18",
+      "c": 22.64
+    },
+    {
+      "t": "2026-09-21",
+      "c": 22.76
+    },
+    {
+      "t": "2026-09-22",
+      "c": 24.03
+    },
+    {
+      "t": "2026-09-23",
+      "c": 24.2
+    },
+    {
+      "t": "2026-09-24",
+      "c": 25.02
+    },
+    {
+      "t": "2026-09-25",
+      "c": 23.39
+    },
+    {
+      "t": "2026-09-28",
+      "c": 23.96
+    },
+    {
+      "t": "2026-09-29",
+      "c": 23.76
+    },
+    {
+      "t": "2026-09-30",
+      "c": 24.65
+    },
+    {
+      "t": "2026-10-01",
+      "c": 24.11
+    },
+    {
+      "t": "2026-10-02",
+      "c": 24.7
+    },
+    {
+      "t": "2026-10-05",
+      "c": 25.655
+    }
+  ],
+  "voices": [
+    {
+      "handle": "ryancohen",
+      "userId": "1146058067244486656",
+      "name": "Ryan Cohen",
+      "role": "CEO",
+      "lastPostAt": "2026-07-04T18:29:35+02:00",
+      "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
+      "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸 🫡",
+      "quiet": true
+    },
+    {
+      "handle": "larryvc",
+      "userId": "26281090",
+      "name": "Larry Cheng",
+      "role": "Board",
+      "lastPostAt": "2026-10-05T18:58:26+02:00",
+      "lastPostUrl": "https://x.com/larryvc/status/2107153450681385068",
+      "lastPostText": "Excited to welcome Jason Karp (@humankarp), founder/CEO, of HumanCo to the Board of Grove Collaborative. Jason's career has been dedicated to the advancement of human health, and we're honored to have his leadership in supporting Grove's human health mission.",
+      "quiet": false
+    },
+    {
+      "handle": "TheRoaringKitty",
+      "userId": "2902349190",
+      "name": "Roaring Kitty",
+      "role": "Community",
+      "lastPostAt": "2025-01-23T02:00:36+01:00",
+      "lastPostUrl": "https://x.com/TheRoaringKitty/status/1882231930021949446",
+      "lastPostText": "",
+      "quiet": true
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "lastPostAt": "2026-07-04T18:29:35+02:00",
+    "lastPostUrl": "https://x.com/ryancohen/status/2073444118538359104",
+    "lastPostText": "Your Bell is safe. Your job is here when you get back. See you in February. 🇺🇸 🫡",
+    "quiet": true
+  },
+  "community": {
+    "asOf": "2026-10-05T19:44:54.592033+02:00",
+    "windowHours": 12,
+    "totals": {
+      "posts": 10,
+      "withOutbound": 0
+    },
+    "byKind": {
+      "dd": 0,
+      "daily": 0,
+      "news": 0,
+      "junk": 10
+    },
+    "posts": [
+      {
+        "title": "Tell me $25 is an important number without telling me $25 is an important number…",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wy88id/tell_me_25_is_an_important_number_without_telling/",
+        "url": null,
+        "updated": "2026-10-05T13:13:22+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "We have crossed the weekly PMO",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wy8v9b/we_have_crossed_the_weekly_pmo/",
+        "url": null,
+        "updated": "2026-10-05T13:41:28+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "For no reason at all I would like to point out that the 1yr chart is now green",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1wy9ga1/for_no_reason_at_all_i_would_like_to_point_out/",
+        "url": null,
+        "updated": "2026-10-05T14:06:04+00:00",
+        "kind": "junk"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-09-22",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-09-23",
+        "posts": 10,
+        "dd": 1,
+        "daily": 0,
+        "news": 2,
+        "junk": 7
+      },
+      {
+        "date": "2026-09-24",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 3,
+        "junk": 7
+      },
+      {
+        "date": "2026-09-25",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-09-26",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 2,
+        "junk": 7
+      },
+      {
+        "date": "2026-09-27",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 8
+      },
+      {
+        "date": "2026-09-28",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-09-29",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 2,
+        "junk": 7
+      },
+      {
+        "date": "2026-09-30",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-01",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-02",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-03",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-04",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-05",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "gme-monday-session",
+      "title": "GME holds above $25.5 in Monday’s session",
+      "topics": [
+        "GME"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Yahoo at 19:44 CEST (13:44 ET): $25.66, +0.95 / +3.9% vs Friday’s $24.70; range $24.77–$25.775, volume ~7.3M so far.",
+        "That is about 5.1% above Cohen’s 2 Oct Form 4 buy (700,000 shares at a weighted ~$24.41) and below the 52-week high of $26.88.",
+        "EDGAR: no new filing since the 2 Oct Form 4 and Schedule 13D/A; no new investor.gamestop.com release (8 Sep Q2 results still the latest).",
+        "US regular session runs to 22:00 CEST; the close is not in yet."
+      ],
+      "whyItMatters": "The move above $25 that pre-market hinted at is holding on real volume so far; a close above Friday would extend the insider-buying run.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance — GME",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary"
+        },
+        {
+          "label": "SEC EDGAR — GameStop filings",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326380&type=&dateb=&owner=include&count=40",
+          "kind": "primary"
+        },
+        {
+          "label": "SEC Form 4 — Cohen 2 Oct 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326380/000092189526002719/xslF345X05/form413177018_10022026.xml",
+          "kind": "primary",
+          "time": "2026-10-02T22:57:33+02:00"
+        },
+        {
+          "label": "GameStop IR — Q2 2026 results",
+          "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Discloses-Second-Quarter-2026-Results/default.aspx",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "gme-press-insider-run",
+      "title": "Press: “35% in a month” on insider buying; Cohen BI profile",
+      "topics": [
+        "GME"
+      ],
+      "weight": "normal",
+      "facts": [
+        "24/7 Wall St: every insider Form 4 at GameStop over the past month was an open-market buy, no sales; Cohen and four directors paid from below $19 up to above $24.",
+        "Same piece: GME +35% over the month while Take-Two fell 6%, Roblox rose 7% and the ESPO gaming ETF 2% — a company-specific rally; it warns Form 4s land after the move.",
+        "Business Insider profile (Cohen by email): best investment was time with his late father; worst was “trusting people who were better at selling themselves than doing the work.” No figures or guidance."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "24/7 Wall St",
+          "url": "https://247wallst.com/investing/2026/10/05/gamestop-just-ripped-35-in-a-month-are-ryan-cohens-insider-purchases-your-buy-signal/",
+          "kind": "article",
+          "time": "2026-10-05T17:48:05+02:00"
+        },
+        {
+          "label": "Business Insider",
+          "url": "https://www.businessinsider.com/gamestop-ryan-cohen-best-worst-investments-chewy-father-buffett-trust-2026-10",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "gme-voices-superstonk",
+      "title": "Voices: Cheng posts about Grove, not GME; Cohen and Kitty quiet; Superstonk all memes",
+      "topics": [
+        "GME",
+        "Community"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Larry Cheng (18:58 CEST): welcomes HumanCo founder/CEO Jason Karp to the board of Grove Collaborative — not GME-related, nothing for the stock in it.",
+        "Ryan Cohen: quiet; his latest post is still the 4 Jul “Your Bell is safe. Your job is here when you get back. See you in February.”",
+        "Roaring Kitty: quiet; latest post is a video-only clip from January 2025.",
+        "Superstonk 12h: 10 posts, 10 memes/junk, 0 DD, 0 news — e.g. “Tell me $25 is an important number without telling me $25 is an important number…”, “We have crossed the weekly PMO”. Sentiment, not reporting."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Larry Cheng on X",
+          "url": "https://x.com/larryvc/status/2107153450681385068",
+          "kind": "x",
+          "time": "2026-10-05T18:58:26+02:00"
+        },
+        {
+          "label": "Ryan Cohen on X",
+          "url": "https://x.com/ryancohen/status/2073444118538359104",
+          "kind": "x",
+          "time": "2026-07-04T18:29:35+02:00"
+        },
+        {
+          "label": "r/Superstonk",
+          "url": "https://www.reddit.com/r/Superstonk/",
+          "kind": "article"
+        },
+        {
+          "label": "r/Superstonk — “$25 is an important number”",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1wy88id/tell_me_25_is_an_important_number_without_telling/",
+          "kind": "article",
+          "time": "2026-10-05T15:13:22+02:00"
+        }
+      ],
+      "whyItMatters": "None of the three watchlist voices posted about GameStop today, so tonight’s move has no voice-post catalyst."
+    }
+  ]
+}
