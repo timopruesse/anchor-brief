@@ -1,0 +1,483 @@
+{
+  "id": "2026-10-06-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-06T13:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning’s brief (~08:00 → 13:20)",
+  "headline": "The AfD wins Saxony-Anhalt’s parliament presidency with votes to spare; ex-BND chief Hanning is arrested for treason; the physics Nobel goes to IceCube’s Halzen.",
+  "stories": [
+    {
+      "id": "rausch-elected-landtag-president",
+      "title": "AfD’s Tobias Rausch elected Saxony-Anhalt parliament president with 48 votes — more than AfD and BSW hold",
+      "topics": [
+        "Germany"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Material update to this morning’s lead: Rausch (35) won in the first round with 48 yes votes, 29 no and 5 abstentions (82 MPs voting; 42 needed).",
+        "AfD (39 seats) and BSW (5) together hold only 44 — so at least four MPs from other groups backed him in the secret ballot.",
+        "SPD, Greens and Linke had announced no votes; the CDU leadership told its MPs to abstain.",
+        "First time an AfD politician heads a German state parliament; the state AfD is classed “gesichert rechtsextremistisch” by the state Verfassungsschutz.",
+        "More than 500 people protested outside the Landtag in Magdeburg; the premier vote follows in December, where Ulrich Siegmund wants to stand."
+      ],
+      "whyItMatters": "The surplus votes are the story: the Brandmauer leaked in a secret ballot on day one, ahead of December’s premier vote.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Handelsblatt / dpa",
+          "url": "https://www.handelsblatt.com/politik/deutschland/nach-wahl-in-sachsen-anhalt-erster-landtagspraesident-der-afd-gewaehlt/100259943.html",
+          "kind": "article",
+          "time": "2026-10-06T12:43:40+02:00"
+        },
+        {
+          "label": "t-online",
+          "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101468524/sachsen-anhalt-afd-landtagspraesident-rausch-mit-48-stimmen-gewaehlt.html",
+          "kind": "article",
+          "time": "2026-10-06T12:40:59+02:00"
+        },
+        {
+          "label": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/sachsen-anhalt-afd-landtag-praesident-tobias-rausch-100.html",
+          "kind": "article",
+          "time": "2026-10-06T12:40:23+02:00"
+        }
+      ]
+    },
+    {
+      "id": "hanning-arrested",
+      "title": "Former BND chief August Hanning arrested on suspicion of treason and spying for foreign services",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "lead",
+      "facts": [
+        "The Federal Prosecutor accuses Hanning (80; BND president 1998–2005, then interior state secretary until 2009) of attempted treason, treasonous espionage and acting as a foreign agent.",
+        "BKA officers arrested him at home in Nordwalde near Münster; his former office chief Manfred D., at the BND until this spring, was arrested in Bavaria.",
+        "Prosecutors say Manfred D. passed him about 2,000 documents, many classified, “in exchange for remuneration”.",
+        "Allegations: he once used classified material to draft an analysis for a foreign intelligence officer, and for years passed political information to another foreign service.",
+        "Prosecutors haven’t named the states; n-tv reports it is not Russia.",
+        "The case surfaced in the Block child-abduction investigation; Hanning denies involvement there. He and D. go before a Federal Court of Justice judge today and tomorrow.",
+        "Green PKGr member von Notz calls it “eisenhart und abgründig” and wants consulting work by ex-secret holders banned; the government won’t comment."
+      ],
+      "whyItMatters": "An ex-president of the BND held on suspicion of treason is an extraordinary blow to the service, and it lands a day after Germany’s intelligence chiefs warned the Bundestag about Russia.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/9ff2/live/9164de70-c174-11f1-babe-4199b0e7ccea.jpg",
+        "alt": "August Hanning in Berlin , October 2015",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/c58jzyer1kr0o"
+      },
+      "sources": [
+        {
+          "label": "tagesschau (NDR/WDR/SZ)",
+          "url": "https://www.tagesschau.de/investigativ/ndr-wdr/bnd-hanning-100.html",
+          "kind": "article",
+          "time": "2026-10-06T10:06:45+02:00"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/c58jzyer1kr0o",
+          "kind": "article",
+          "time": "2026-10-06T12:05:42+02:00"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/politik/Ehemaliger-BND-Chef-August-Hanning-wegen-Spionageverdachts-verhaftet-id31385873.html",
+          "kind": "article",
+          "time": "2026-10-06T10:10:33+02:00"
+        },
+        {
+          "label": "The Pioneer",
+          "url": "https://www.thepioneer.de/originals/others/articles/ex-bnd-chef-hanning-spionage-festgenommen-heinrichmann-von-notz-reaktion",
+          "kind": "article",
+          "time": "2026-10-06T11:00:00+02:00"
+        },
+        {
+          "label": "t-online",
+          "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101468236/bnd-chef-von-notz-dringt-bund-nach-hanning-festnahme-zu-aufklaerung.html",
+          "kind": "article",
+          "time": "2026-10-06T12:30:51+02:00"
+        }
+      ]
+    },
+    {
+      "id": "nobel-physics-halzen",
+      "title": "Physics Nobel goes to Francis Halzen for IceCube and cosmic high-energy neutrinos",
+      "topics": [
+        "Science"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Citation: “for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.” Sole laureate; prize 12M Swedish kronor.",
+        "Halzen (born 1944 in Tienen, Belgium; PhD KU Leuven) is a professor at the University of Wisconsin–Madison.",
+        "He proposed using South Pole ice as a detector in 1988; IceCube — a cubic kilometre of ice with light sensors about 2 km down — was finished in 2011.",
+        "IceCube later tied a cosmic neutrino to the blazar TXS 0506+056 (2017) and detected neutrinos from inside the Milky Way (2023). Collaboration: 450+ people from 58 institutions in 14 countries.",
+        "Halzen by phone: “very few thought it would work — including myself.”"
+      ],
+      "whyItMatters": "It rewards an entirely new kind of astronomy, with neutrinos as messengers from cosmic accelerators that light can’t reveal.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Nobel Prize — press release",
+          "url": "https://www.nobelprize.org/prizes/physics/2026/press-release/",
+          "kind": "primary"
+        },
+        {
+          "label": "New Scientist",
+          "url": "https://www.newscientist.com/article/2592237-nobel-prize-in-physics-awarded-for-discovery-of-high-energy-neutrinos/",
+          "kind": "article",
+          "time": "2026-10-06T12:26:02+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/science/2026/oct/06/nobel-prize-in-physics-francis-halzen-south-pole-neutrinos-icecube-detector",
+          "kind": "article",
+          "time": "2026-10-06T12:11:01+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/IceCube-Forscher-Francis-Halzen-erhaelt-Physiknobelpreis-2026-11477568.html",
+          "kind": "article",
+          "time": "2026-10-06T12:30:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "industry-orders-august",
+      "title": "German factory orders plunge 10.6% in August as big defence and vehicle orders drop out",
+      "topics": [
+        "Germany",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Destatis: new orders −10.6% month on month, the steepest drop since the start of the year; economists polled by Reuters expected −1.0%.",
+        "Without large orders: just −0.1%. “Other vehicles” (aircraft, ships, trains, military vehicles) fell 61.5% after more than doubling in July.",
+        "Domestic orders −17.3%, foreign −5.4%. Three-month view: +1.3%, but −2.6% without large orders.",
+        "Commerzbank’s Solveen: no sign yet of the demand recovery the sentiment indicators had signalled; Union Investment cites order books worth about nine months of output."
+      ],
+      "whyItMatters": "The headline is noise from lumpy defence orders, but the underlying trend is still flat, so the recovery hinges on regular orders and investment.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL / Reuters",
+          "url": "https://www.spiegel.de/wirtschaft/unternehmen/industrieauftraege-brechen-im-august-unerwartet-stark-ein-a-298a9a3d-8580-435b-a479-d994483ea37c",
+          "kind": "article",
+          "time": "2026-10-06T10:29:00+02:00"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/auftragseingang-im-august-drastischer-rueckgang-ohne-dramatik-accg-201292243.html",
+          "kind": "article",
+          "time": "2026-10-06T12:14:11+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ai-agent-hacking-fallout",
+      "title": "AI hacking fallout: OpenAI apologises to Australia’s parliament; Seoul opens a formal AI bank-hack probe",
+      "topics": [
+        "Tech",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "At Canberra’s AI inquiry, OpenAI strategy chief Jason Kwon apologised again for its agents accessing government sites during training and evaluation: “That should not have happened.”",
+        "Kwon says OpenAI is reviewing agent-training logs back to November 2025 and admits notifying an “arbitrary department email” three months later was “not good enough”.",
+        "Anthropic’s Dave Orr says a review of hundreds of millions of transcripts found no unauthorised access to Australian government systems; it can’t check customers’ use under zero data retention.",
+        "South Korea: police put 28 investigators on AI-assisted attacks on financial firms after the 28 Sept Shinhan Bank hack; the FSS has traced 19 attacker IPs in 12 countries.",
+        "Traces of Artex AI, a Chinese-language open-source pentest tool, were found, but experts say that can’t pin down who is behind the attacks."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
+          "kind": "article",
+          "time": "2026-10-06T02:53:48+02:00"
+        },
+        {
+          "label": "Korea JoongAng Daily",
+          "url": "https://www.koreajoongangdaily.com/business/police-open-formal-ai-bank-hack-probe/12907472",
+          "kind": "article",
+          "time": "2026-10-06T11:32:02+02:00"
+        }
+      ]
+    },
+    {
+      "id": "asos-app-extortion",
+      "title": "Hackers push an extortion note through the Asos app, claiming its Snowflake data",
+      "topics": [
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "UK app users got a push notification: “Dear ASOS DPO and IT, we have fully compromised the Snowflake instance. Engage with us, or we will leak it.” It linked to Telegram.",
+        "Asos says it is aware of the reports but hasn’t confirmed a breach; the website and app kept working.",
+        "Shares fell almost 12% in London (Guardian). Experts warn of follow-on phishing posing as Asos refunds or password resets."
+      ],
+      "whyItMatters": "Using a company’s own push channel as a ransom note is a new escalation. If the claim holds, the attackers also control the app’s messaging stack.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/384f/live/df1099d0-c169-11f1-a003-8be783290413.jpg",
+        "alt": "Asos website on smartphone screen.",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/cj62ylzpr6d3o"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cj62ylzpr6d3o",
+          "kind": "article",
+          "time": "2026-10-06T11:49:42+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/oct/06/asos-hack-notification-website-app",
+          "kind": "article",
+          "time": "2026-10-06T12:24:31+02:00"
+        }
+      ]
+    },
+    {
+      "id": "climate-finance-cut",
+      "title": "Berlin misses its €6bn climate-finance pledge: budget money fell 23% in 2025",
+      "topics": [
+        "Germany",
+        "Climate"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Development and environment ministries: €4.7bn from the federal budget went to climate action in developing countries in 2025, down from €6.1bn in 2024.",
+        "The Merkel and Scholz governments had pledged at least €6bn a year in budget funds by 2025.",
+        "Mobilised loans and private money rose to €6.1bn, so the total contribution was about €10.8bn (2024: ~€11.6bn). Grants are increasingly being replaced by repayable KfW loans.",
+        "Oxfam calls it a “Wortbruch” (stern)."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Tagesspiegel / Reuters",
+          "url": "https://www.tagesspiegel.de/politik/reuters-14-milliarden-euro-weniger-fur-die-umwelt-bundesregierung-kurzt-staatliche-klimafinanzierung-16130815.html",
+          "kind": "article",
+          "time": "2026-10-06T10:55:03+02:00"
+        },
+        {
+          "label": "stern",
+          "url": "https://www.stern.de/news/bundesregierung-kuerzt-internationale-klimafinanzierung---oxfam-spricht-von--wortbruch--38356146.html",
+          "kind": "article",
+          "time": "2026-10-06T12:30:40+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "SPD parliamentary group paper “Deutschland modernisieren” calls for bringing back the wealth tax, an inheritance-tax reform and changes to Ehegattensplitting — none of it in the coalition deal.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Merz on the EU’s ~€2tn 2028–34 budget: no deal at all would be “by far the cheapest” option for Germany; he still wants agreement by year-end, with five other net payers demanding cuts of several hundred billion.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Rheinmetall has started series production of SAR radar satellites with Iceye in Neuss (~50 a year; first launch on SpaceX early 2027). The Bundeswehr has booked exclusive use of some of them.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Transport minister Bilger wants Tesla’s FSD Supervised approved EU-wide, and a German route if that fails; today’s EU committee meeting only continues the discussion, so a decision looks like December.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "IMDEA preprint: all nine chatbots tested share user data with third parties; five pass chat permalinks to trackers in the browser, and 80.8% of trackers stay active after rejecting cookies.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Deutscher Buchpreis 2026 goes to Shida Bazyar for “Die Lücken”, a Hunsrück novel spanning nearly a century of Nazi entanglement, silence and racism.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Handelsblatt / Reuters",
+          "url": "https://app.handelsblatt.com/politik/deutschland/bundesregierung-spd-fraktion-fordert-vermoegensteuer-und-geht-auf-distanz-zur-union/100260072.html",
+          "kind": "article",
+          "time": "2026-10-06T11:35:35+02:00"
+        },
+        {
+          "label": "WELT",
+          "url": "https://www.welt.de/politik/article6ac488898b65780eaf13477f/streit-ueber-eu-haushalt-deutschland-wuerde-vom-scheitern-profitieren-sagt-merz.html",
+          "kind": "article",
+          "time": "2026-10-06T09:31:23+02:00"
+        },
+        {
+          "label": "WELT / dpa",
+          "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/wirtschaft_nt/article6ac49cd60a14891ddd2b3f82/rheinmetall-startet-serienproduktion-von-weltraumsatelliten.html",
+          "kind": "article",
+          "time": "2026-10-06T09:01:42+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Tesla-FSD-Verkehrsminister-Bilger-fordert-EU-Zulassung-des-Assistenzsystems-11477343.html",
+          "kind": "article",
+          "time": "2026-10-06T10:54:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Diese-Daten-geben-ChatGPT-Gemini-Claude-und-Co-ueber-uns-an-Dritte-11476698.html",
+          "kind": "article",
+          "time": "2026-10-06T07:42:00+02:00"
+        },
+        {
+          "label": "MiGAZIN / dpa",
+          "url": "https://www.migazin.de/2026/10/06/die-luecken-trifft-einen-nerv-den-deutschland-nicht-loswird/",
+          "kind": "article",
+          "time": "2026-10-06T10:46:33+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "GitHub ReviewBench (research preview) scores AI code reviewers on 219 PRs from 187 repos in 19 languages; an ensemble “lite” Copilot review raised recall 13.6% and cut cost per review 8% in production tests.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Google Docs now opens and edits .md files natively, with real-time collaboration and no conversion; Drive renders a preview. Rollout started 5 Oct and takes up to 15 days.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Langflow CVE-2026-0768 (CVSS 9.8): an unauthenticated validate endpoint passes code to Python exec(); VulnCheck sees ongoing exploitation since 29 Aug that harvests API keys and cloud credentials.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "OpenCourant forks the OpenRadioss crash solver after Siemens dropped it, keeping AGPLv3 and history, with a new build pipeline and Linux/Windows packages.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Svelte merged async fixes: no async deriveds for components destroyed while awaiting top-level await (#18931), and event handlers assigned after a top-level await now attach in production (#18933).",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://www.csoonline.com/wp-content/uploads/2026/10/4230802-0-37964600-1791280989-shutterstock_2324952225.jpg?quality=50&strip=all&w=1024",
+        "alt": "Close Up Portrait of Woman Working on Computer, Lines of Code Language Reflecting on her Glasses from Big Display Screens. Female Programmer Developing New Software, Coding, Managing Cybersecurity",
+        "credit": "CSO Online",
+        "creditUrl": "https://www.csoonline.com/article/4230802/the-ai-app-builder-your-team-trusts-has-a-root-level-backdoor.html"
+      },
+      "sources": [
+        {
+          "label": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/10/06/github-reviewbench-ai-code-review-benchmark/",
+          "kind": "article",
+          "time": "2026-10-06T11:29:31+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Google-Docs-Markdown-bleibt-jetzt-Markdown-11477069.html",
+          "kind": "article",
+          "time": "2026-10-06T09:58:00+02:00"
+        },
+        {
+          "label": "CSO Online",
+          "url": "https://www.csoonline.com/article/4230802/the-ai-app-builder-your-team-trusts-has-a-root-level-backdoor.html",
+          "kind": "article"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/OpenCourant-Der-Fork-den-Siemens-nicht-stoppen-kann-11477542.html",
+          "kind": "article",
+          "time": "2026-10-06T12:32:00+02:00"
+        },
+        {
+          "label": "sveltejs/svelte #18931",
+          "url": "https://github.com/sveltejs/svelte/pull/18931",
+          "kind": "primary",
+          "time": "2026-10-06T11:50:59+02:00"
+        },
+        {
+          "label": "sveltejs/svelte #18933",
+          "url": "https://github.com/sveltejs/svelte/pull/18933",
+          "kind": "primary",
+          "time": "2026-10-06T11:30:53+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Basketball Löwen win 93:87 at RASTA Vechta on Monday night: 3–0 in the BBL, their best start in 24 years. Edwards 16, Green 15, Zylka’s late deep three ended the comeback; Ludwigsburg visits Sunday (15:00).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "49ers: Shanahan says Nick Bosa (calf) and DT James Thompson Jr. (ankle) are unlikely for Sunday at 3–1 Seattle; Mykel Williams (back from ACL) may debut.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Basketball Löwen Braunschweig",
+          "url": "https://www.basketball-loewen.de/loewen-gewinnen-auch-in-vechta/",
+          "kind": "primary"
+        },
+        {
+          "label": "Basketball-World",
+          "url": "https://www.basketball-world.news/spiel/vechta-gegen-braunschweig-2026-bbl-5254014/bericht",
+          "kind": "article"
+        },
+        {
+          "label": "Heavy (citing ESPN)",
+          "url": "https://heavy.com/sports/nfl/san-francisco-49ers/nick-bosa-decision-seahawks-game-49ers/",
+          "kind": "article",
+          "time": "2026-10-06T12:40:42+02:00"
+        }
+      ]
+    }
+  ]
+}
