@@ -1,0 +1,430 @@
+{
+  "id": "2026-10-06-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-06T08:30:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight since last night’s brief (~19:30 → 08:15)",
+  "headline": "Saxony-Anhalt is set to seat Germany’s first AfD parliament president; the Mecca pact sends Turkish and Pakistani troops to Saudi Arabia; Reflection unveils Beam.",
+  "stories": [
+    {
+      "id": "saxony-anhalt-afd-speaker",
+      "title": "Saxony-Anhalt is set to elect Germany’s first AfD state parliament president today",
+      "topics": [
+        "Germany"
+      ],
+      "weight": "lead",
+      "facts": [
+        "The new Magdeburg Landtag meets for its constituent session at 11:00; AfD nominee Tobias Rausch (35, in the Landtag since 2016 and the party’s state general secretary) is all but certain to win.",
+        "Arithmetic: AfD 39 seats plus BSW 5 makes 44, enough for a majority; CDU, SPD, Linke and Greens together hold 39. CDU leader and caretaker premier Sven Schulze tells his MPs to abstain.",
+        "Wagenknecht to dpa: “Das BSW beendet die Brandmauer-Idiotie!” — the strongest group should get the post “at 44 percent of the vote”; she calls Göring comparisons from SPD, Greens and Linke a trivialisation of Nazism.",
+        "Critics cite Rausch’s past calls to order, his double role as party general secretary, and the AfD nepotism affair; Rausch promises to be “hart in der Sache, aber fair in der Person”.",
+        "With BSW backing, the AfD also won a new seating plan: its 39 MPs now sit in the centre of the chamber. The premier vote follows in December, where the CDU again rules out backing Ulrich Siegmund."
+      ],
+      "whyItMatters": "First time the AfD would hold a Land’s top parliamentary office, and the first real test of whether AfD and BSW can deliver votes together.",
+      "image": null,
+      "sources": [
+        {
+          "label": "MDR — Liveticker",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/liveticker-erste-sitzung-landtagspraesident-108,landtag-572.html",
+          "kind": "article",
+          "time": "2026-10-06T07:53:00+02:00"
+        },
+        {
+          "label": "Frankfurter Rundschau",
+          "url": "https://www.fr.de/politik/sachsen-anhalt-afd-und-bsw-wollen-rausch-zum-landtagspraesidenten-waehlen-zr-94526451.html",
+          "kind": "article",
+          "time": "2026-10-06T07:05:00+02:00"
+        },
+        {
+          "label": "WELT / dpa",
+          "url": "https://www.welt.de/politik/deutschland/article6ac44e4b0a14891ddd2b3a1f/sachsen-anhalt-bsw-beendet-brandmauer-idiotie-wagenknecht-haelt-afd-landtagspraesidenten-fuer-selbstverstaendlich.html",
+          "kind": "article",
+          "time": "2026-10-06T03:38:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "mecca-pact-activated",
+      "title": "Turkey and Pakistan send forces to Saudi Arabia as the Mecca defence pact is triggered for the first time",
+      "topics": [
+        "World"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Emergency meeting of defence and foreign ministers in Riyadh on Monday: the three states “activate collective deterrence measures” and will rapidly deploy “agreed military forces and capabilities” to the kingdom (joint statement via Pakistan’s foreign ministry).",
+        "The pact, signed 7 August, treats an attack on one as an attack on all; this is its first invocation. Trigger: last week’s Houthi strike on a Medina substation that powers the Prophet’s Mosque.",
+        "Riyadh was shaken by loud explosions on Monday evening (AFP); the Houthis claim hits on King Khalid airport and Aramco’s Rabigh refinery — not confirmed by Riyadh.",
+        "Material update to last night’s Bab el-Mandeb card: Yemeni government forces now claim to have retaken Mocha and launched a “strategic offensive” on Sanaa; the Houthis deny Mocha fell and Al Jazeera can’t verify either side."
+      ],
+      "whyItMatters": "Turns a Saudi–Houthi war into a three-country military commitment — and pulls Ankara and Islamabad out of their mediator roles in the wider Iran war.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/AA-20261005-42659451-42659450-TURKISH_FOREIGN_MINISTER_HAKAN_FIDAN_IN_RIYADH-1791227857.jpg?resize=1920%2C1440",
+        "alt": "Turkiye, Pakistan agree Saudi Arabia military deployment under Mecca pact",
+        "credit": "Al Jazeera — Mecca pact",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera — Mecca pact",
+          "url": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures",
+          "kind": "article",
+          "time": "2026-10-05T20:32:00+02:00"
+        },
+        {
+          "label": "Tagesspiegel / Reuters / AFP",
+          "url": "https://www.tagesspiegel.de/internationales/angriffe-der-huthi-miliz-auf-medina-turkei-und-pakistan-schicken-truppen-nach-saudi-arabien-16129191.html",
+          "kind": "article",
+          "time": "2026-10-06T06:16:00+02:00"
+        },
+        {
+          "label": "Al Jazeera — Mocha",
+          "url": "https://www.aljazeera.com/news/2026/10/5/yemen-forces-claim-to-seize-dhubab-sites-near-bab-al-mandeb-from-houthis",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "reflection-beam",
+      "title": "Reflection unveils Beam, a 501B open-weight model pitched as the West’s answer to Chinese open models",
+      "topics": [
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Sparse mixture-of-experts: 501B total / 23B active parameters, pretrained on 23.8T tokens, text-only, 1M-token context (TechCrunch).",
+        "RL run: 10.5K Nvidia GB300 GPUs for four weeks, 100M+ rollouts, ~1.3bn sandboxes — Reflection calls it one of the largest RL runs by any open lab.",
+        "Claims: reasoning on par with Z.ai’s GLM-5.2 at 3–4× less inference compute, approaching Qwen 3.8-Max on coding/agentic; it concedes Kimi K3 is still ahead on raw capability. Not independently verified.",
+        "Still in red-teaming: weights, technical report and model card are due “later this month”; early-access sign-up now.",
+        "Backers include Nvidia, Sequoia and Lightspeed (~$4.7bn raised, $25bn pre-money per PitchBook); it pitches “AI factories” to enterprises and sovereign buyers."
+      ],
+      "whyItMatters": "The best-funded US bet on open weights finally has a model; the real test is when the weights and report land.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Reflection — Introducing Beam",
+          "url": "https://reflection.ai/blog/introducing-beam",
+          "kind": "primary"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "kind": "article",
+          "time": "2026-10-05T21:33:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "fbi-accenture-breach",
+      "title": "FBI removes an Accenture contractor over an unpatched system behind its staff-data breach",
+      "topics": [
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "FBI cyber chief Brett Leatherman: the breach came from “a security failure of a platform managed by a third-party organisation” after a contractor failed to apply a patch “explicitly issued” for it; the contractor was removed on 5 October.",
+        "Two sources told Reuters the platform was Oracle’s PeopleSoft HR system and the third party was Accenture; the FBI named neither.",
+        "ShinyHunters said on 22 September it had breached the FBI’s job site and stolen data on current and former employees; thousands of staff had sensitive details exposed.",
+        "Accenture said it is “proud to support the mission of the FBI” and didn’t answer questions on the patch."
+      ],
+      "image": {
+        "url": "https://cassette.sphdigital.com.sg/image/straitstimes/694ebdec9dd70266aa17a396615fa96a4bb06f88103fa94c4340ca6cda96f5e0",
+        "alt": "The hacking group ShinyHunters said on Sept 22 that they had breached the FBI, stealing data on a large number of current and former FBI employees.",
+        "credit": "Reuters via The Straits Times",
+        "creditUrl": "https://www.straitstimes.com/world/united-states/accenture-contractor-removed-from-fbi-following-damaging-data-breach-sources-say"
+      },
+      "sources": [
+        {
+          "label": "Reuters via The Straits Times",
+          "url": "https://www.straitstimes.com/world/united-states/accenture-contractor-removed-from-fbi-following-damaging-data-breach-sources-say",
+          "kind": "article",
+          "time": "2026-10-06T03:35:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "nyc-ai-hearing",
+      "title": "Ex-lab researchers tell New York City Council AI companies are “extremely reckless”",
+      "topics": [
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Hearing called by Council Speaker Julie Menin as the city weighs its own AI guardrails; Anthropic, OpenAI, Google and Meta sent policy staff, appearing virtually.",
+        "Former Anthropic researcher Jacob Coxon: “the majority of the code is now written by AI, and people do not check it that carefully anymore.”",
+        "Ex-DeepMind researcher Alex Turner put AI-takeover odds at “roughly one in three”; Daniel Kokotajlo (AI Futures Project) warned labs could use control of AI to become “dictators or oligarchs”."
+      ],
+      "image": {
+        "url": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-53iby6tw4-1791227047758.jpg?quality=75&strip=all&1791212732&w=1200",
+        "alt": "An image collage containing 3 images, Image 1 shows Jacob Coxon attends an artificial intelligence hearing at the New York City Council chambers, Image 2 shows Protesters holding a banner reading \"COMMUNITY OVER ECOCIDE!\" and various signs during a demonstration against artificial intelligence at City Hall Park in New York, Image 3 shows A protest sign that reads \"AI is out of control. Hit the brakes!\"",
+        "credit": "New York Post",
+        "creditUrl": "https://nypost.com/2026/10/05/business/anthropic-whistleblower-jacob-coxon-to-testify-at-nyc-ai-hearing-on-kill-switches-regulations/"
+      },
+      "sources": [
+        {
+          "label": "New York Post",
+          "url": "https://nypost.com/2026/10/05/business/anthropic-whistleblower-jacob-coxon-to-testify-at-nyc-ai-hearing-on-kill-switches-regulations/",
+          "kind": "article",
+          "time": "2026-10-05T16:54:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "bfv-iran-russia",
+      "title": "Verfassungsschutz: Iran is ramping up shopping for missile tech in Germany; Russian sabotage risk rising",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "New BfV situation report on counter-espionage (reported by WELT): “persistently high” Iranian procurement for its launcher and missile programmes, “with a rising tendency”.",
+        "Rationale: after the war since February 2026, Iran is expected to refill and expand its arsenals and rebuild destroyed plants — and still depends on Western tech where Germany is a leading maker.",
+        "UN and EU sanctions (back since September 2025) push Iranian buyers toward “concealing and conspiratorial” behaviour.",
+        "Same report warns of a “further falling threshold” for Russian sabotage acts that accept collateral damage — following Monday’s BND warning."
+      ],
+      "image": {
+        "url": "https://honnef-heute.de/wp-content/uploads/2026/10/dts_image_6411_thecrocigo_08600_1140_760.jpg",
+        "alt": "Bundeskriminalamt (BKA) und Bundesamt für Verfassungsschutz (Archiv)",
+        "credit": "Honnef heute (citing WELT)",
+        "creditUrl": "https://honnef-heute.de/verfassungsschutz-iran-beschafft-in-deutschland-technologie-fuer-raketenprogramm/"
+      },
+      "sources": [
+        {
+          "label": "Honnef heute (citing WELT)",
+          "url": "https://honnef-heute.de/verfassungsschutz-iran-beschafft-in-deutschland-technologie-fuer-raketenprogramm/",
+          "kind": "article",
+          "time": "2026-10-06T06:05:00+02:00"
+        },
+        {
+          "label": "WELT+",
+          "url": "https://www.welt.de/politik/deutschland/plus6ac355e7b0ca83ad0a1d978a/hybride-bedrohungen-verfassungsschutz-warnt-vor-sabotage-akten-mit-bewussten-kollateralschaeden-in-deutschland.html",
+          "kind": "article",
+          "time": "2026-10-06T05:23:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "kdv-surge",
+      "title": "Conscientious-objector applications triple in Germany",
+      "topics": [
+        "Germany"
+      ],
+      "weight": "normal",
+      "facts": [
+        "12,102 applications Jan–Aug 2026 at the federal family/civil-society office, vs 3,879 in all of 2025 (Funke/RND, via SPIEGEL).",
+        "End of June the count was 5,862 — it has roughly doubled in two months.",
+        "Drivers named: the tense security situation and the new Wehrdienst law; many applications are being sent back unprocessed."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/deutschland/wehrdienst-zahl-der-kriegsdienstverweigerer-schnellt-weiter-nach-oben-a-9e3785bd-ff6e-48ea-925d-fed7482df2f0",
+          "kind": "article",
+          "time": "2026-10-06T03:13:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "databroker-worship",
+      "title": "netzpolitik.org: ad-tech location data tracks visitors to German churches, mosques and synagogues",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "More than one million phone location points at Christian, Muslim and Jewish sites in Germany — found in free preview data from data brokers.",
+        "Movement profiles are accurate to a few metres and lead to home addresses; the team traced one Göttingen churchgoer to a named household.",
+        "Also visible: regular visitors to the German Bishops’ Conference, the EKD headquarters and Jewish community centres and schools; experts warn of a risk for religiously motivated violence."
+      ],
+      "image": {
+        "url": "https://cdn.netzpolitik.org/wp-upload/2026/10/databroker-files-glaubige.jpg",
+        "alt": "Umrisse von Glaubensstätten, Nebel, eine rote Ortsmarke.",
+        "credit": "netzpolitik.org — Databroker Files",
+        "creditUrl": "https://netzpolitik.org/2026/kirchen-moscheen-synagogen-datenhaendler-gefaehrden-glaeubige-in-deutschland/"
+      },
+      "sources": [
+        {
+          "label": "netzpolitik.org — Databroker Files",
+          "url": "https://netzpolitik.org/2026/kirchen-moscheen-synagogen-datenhaendler-gefaehrden-glaeubige-in-deutschland/",
+          "kind": "article",
+          "time": "2026-10-06T05:55:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "trump-red-diesel",
+      "title": "Trump opens tax-free “red dye” farm diesel to all drivers",
+      "topics": [
+        "World",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Executive order signed Monday at a Nebraska rally: waives the off-road requirement so anyone can buy dyed, excise-tax-exempt diesel “for any reason”.",
+        "Transportation, Agriculture, Defense and Treasury are told to widen access, and states are encouraged to suspend their diesel taxes (White House fact sheet).",
+        "Trump says truckers save >$100 per fill-up; diesel prices have spiked because of the Iran war, and fuel costs are a top midterm issue."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/business/energy/aiming-fuel-costs-trump-opens-tax-exempt-red-dye-diesel-rcna601748",
+          "kind": "article",
+          "time": "2026-10-06T03:48:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ac426e320a06-1791239907.jpg?resize=1920%2C1440",
+        "alt": "New York state declares measles disaster amid resurgence of disease in US",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/6/new-york-state-declares-measles-disaster-amid-resurgence-of-disease-in-us"
+      },
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/05/trump-fort-hood-shooter-execution",
+          "kind": "article",
+          "time": "2026-10-06T03:33:00+02:00"
+        },
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/6/new-york-state-declares-measles-disaster-amid-resurgence-of-disease-in-us",
+          "kind": "article",
+          "time": "2026-10-06T02:00:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war",
+          "kind": "article",
+          "time": "2026-10-06T01:50:00+02:00"
+        },
+        {
+          "label": "Nieman Lab",
+          "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+          "kind": "article"
+        }
+      ],
+      "facts": [
+        {
+          "text": "Trump approved Hegseth’s recommendation of death by Army firing squad for Fort Hood shooter Nidal Hasan (13 killed in 2009); he’d be the first US soldier executed by the military in 60+ years.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "New York declares a measles disaster emergency through 4 Nov: 108 cases this year, 92 since mid-July in under-vaccinated rural communities; more staff may now give MMR shots.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Guardian analysis: over 176,000 tonnes of mostly diesel left South Korean ports for Russia’s far east in July–August on seven tankers, three of them under UK/EU sanctions.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "ChatGPT is putting real New Yorker cartoonists’ signatures on AI cartoons — Nieman Lab documented 15+ artists, including Brendan Loper, whose fake “BLOPER” cartoon went viral.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "image": {
+        "url": "https://opengraph.githubassets.com/b3173d11699b8d022ef82a054dc376d8ce4e59b2815c879aad9bc3bd164ab0a2/vitejs/vite/releases/tag/v8.3.3",
+        "alt": "Bug Fixes deps: update launch-editor to v2.14.2 (#23654) (22fd1d5) html: filename passed to transformIndexHtml should not include queries (#23653) (7dafd8e) server: check fs.serve for ?vite-wasm-i...",
+        "credit": "vitejs/vite v8.3.3",
+        "creditUrl": "https://github.com/vitejs/vite/releases/tag/v8.3.3"
+      },
+      "sources": [
+        {
+          "label": "vitejs/vite v8.3.3",
+          "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3",
+          "kind": "primary"
+        },
+        {
+          "label": "Gleam v1.19.0",
+          "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+          "kind": "primary"
+        },
+        {
+          "label": "@vxunderground on X",
+          "url": "https://x.com/vxunderground/status/2107328611925524596",
+          "kind": "x",
+          "time": "2026-10-06T06:34:28+02:00"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M47HC9SGHGFPBN44KGC6SKAQ",
+          "kind": "primary"
+        },
+        {
+          "label": "Vals AI",
+          "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+          "kind": "article"
+        },
+        {
+          "label": "sveltejs/kit #17325",
+          "url": "https://github.com/sveltejs/kit/pull/17325",
+          "kind": "primary"
+        }
+      ],
+      "facts": [
+        {
+          "text": "Vite shipped five patch lines overnight (8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4) with dev-server hardening: `fs.serve` now checked for `?vite-wasm-instance`, and safe-module tracking stores ids instead of URLs. No advisory published yet — worth updating.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Gleam 1.19 stops generating Erlang source: the rewritten backend emits Erlang abstract forms, for faster builds and BEAM stack traces that point at the real Gleam lines.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "vx-underground says GitHub banned it and wiped its entire malware source-code collection.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "OpenAI had a rough night: several incidents, the latest hitting ChatGPT conversations, image generation, Spaces/Pages, API rehydration and Dots; all now marked resolved.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Vals AI: a team of Claude Opus 5.5 agents proposed two room-temperature magnet candidates for spintronic memory — zero net magnetism yet spin-sorting; one new, one first made in 1999; calculations and code are published, but nothing has been tested in a lab yet (HN front page).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "SvelteKit merged #17325: +server handlers now emit a tracing span when tracing is enabled.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ]
+    }
+  ]
+}
