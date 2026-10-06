@@ -1,0 +1,656 @@
+{
+ "id": "2026-10-06-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-06T19:55:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon brief (~13:25 → 19:50 CEST)",
+ "headline": "Mistral’s 1T-parameter Large 4 takes aim at the open-weight crown; Trump says Iran could “take out” LA and San Diego; Paramount closes its Warner takeover as Skydance.",
+ "stories": [
+  {
+   "id": "mistral-large-4",
+   "title": "Mistral launches Large 4 “Le Chonk”: a 1T-parameter open-weight model, weights due end of October",
+   "topics": [
+    "Tech",
+    "AI",
+    "Europe"
+   ],
+   "weight": "lead",
+   "facts": [
+    "Public preview API on Mistral Studio today; Mistral says weights ship by the end of the month. 1 trillion parameters, 49B active, natively multimodal.",
+    "Trained from scratch on 3,800 Nvidia Grace Blackwell GPUs in Mistral’s own European data centres; a Europe deployment runs end-to-end under EU law.",
+    "Pitch is cyber defence: Mistral says it ranks top five on the Artificial Analysis Cyber Index and scores 82% on a reproduce-and-patch test where Claude Opus 5.5 and GPT-6 Astra score near zero because they refuse.",
+    "Coding: 61.7% DeepSWE v1.1, 28.3% Terminal-Bench 4; in a blind Surge AI review it placed second of five, behind only Claude Opus 5.",
+    "Independent check: 38 points on the Artificial Analysis Intelligence Index (Large 3: 9), still about 20 behind Claude Opus 5.5 (58), per The Decoder.",
+    "Until the weights drop, cyber firms, vetted partners and state authorities red-team a version with reduced moderation. It is already on Vercel’s AI Gateway as mistral/mistral-large-4."
+   ],
+   "whyItMatters": "It is the strongest open-weight claim from outside China in a while, and the cyber angle (“we don’t refuse security work”) is a direct shot at US closed models.",
+   "image": {
+    "url": "https://media.wired.com/photos/6ac4f176165d7d326c8d86b1/191:100/w_1280,c_limit/GettyImages-2277901311.jpg",
+    "alt": "Mistral cofounder and chief science officer Guillaume Lample",
+    "credit": "WIRED / Getty Images",
+    "creditUrl": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/"
+   },
+   "sources": [
+    {
+     "label": "Mistral AI — announcement",
+     "url": "https://mistral.ai/news/mistral-large-4/",
+     "kind": "primary",
+     "time": "2026-10-06T14:00:27+02:00"
+    },
+    {
+     "label": "Mistral AI on X",
+     "url": "https://x.com/MistralAI/status/2107457414387622310",
+     "kind": "x",
+     "time": "2026-10-06T15:06:16+02:00"
+    },
+    {
+     "label": "The Decoder",
+     "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+     "kind": "article",
+     "time": "2026-10-06T16:18:08+02:00"
+    },
+    {
+     "label": "WIRED",
+     "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+     "kind": "article",
+     "time": "2026-10-06T15:15:23+02:00"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
+     "kind": "article",
+     "time": "2026-10-06T15:00:01+02:00"
+    },
+    {
+     "label": "Vercel changelog",
+     "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "google-nano-banana-embeddinggemma",
+   "title": "Google ships Nano Banana 2.1 and open EmbeddingGemma 2; free Gemini drops to Flash Lite on 9 Oct",
+   "topics": [
+    "Tech",
+    "AI"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Nano Banana 2.1 (image generation/editing): Google claims gains in visual design, mask-based editing, subject consistency and more natural images. It is live in the Gemini app, AI Studio and AI Mode in Search.",
+    "Announced tonight on Google’s X accounts; Search VP Robby Stein says it is rolling out in AI Mode (🍌 icon in the Google app).",
+    "EmbeddingGemma 2: open-weight (Apache 2.0), 740M parameters, one embedding space for text, code, images, video and audio. Text-only needs about 270M parameters; vision and audio encoders are optional.",
+    "Built on Gemma 4; Matryoshka vectors can be truncated from 768 to 512, 256 or 128 dimensions for up to 6x less storage. The first EmbeddingGemma passed 20M downloads.",
+    "Separately, The Verge reports that from 9 Oct free Gemini users only get Flash Lite. Flash needs AI Plus ($4.99), and Pro/Deep Think need AI Pro ($19.99) or Ultra."
+   ],
+   "whyItMatters": "Same day, two directions: an on-device open model for local RAG/search, and a tighter paywall on the hosted Gemini app.",
+   "image": {
+    "url": "https://images.seroundtable.com/nano-banana-google-app-button-ktje2V8A.jpg",
+    "alt": "Nano Banana Google App Button",
+    "credit": "Search Engine Roundtable",
+    "creditUrl": "https://www.seroundtable.com/nano-banana-21-google-ai-mode-42246.html"
+   },
+   "sources": [
+    {
+     "label": "Google AI Studio on X",
+     "url": "https://x.com/GoogleAIStudio/status/2107501303890915550",
+     "kind": "x",
+     "time": "2026-10-06T18:00:40+02:00"
+    },
+    {
+     "label": "Nano Banana on X",
+     "url": "https://x.com/NanoBanana/status/2107521202466046453",
+     "kind": "x",
+     "time": "2026-10-06T19:19:45+02:00"
+    },
+    {
+     "label": "Search Engine Roundtable",
+     "url": "https://www.seroundtable.com/nano-banana-21-google-ai-mode-42246.html",
+     "kind": "article",
+     "time": "2026-10-06T19:10:00+02:00"
+    },
+    {
+     "label": "Google blog — EmbeddingGemma 2",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+     "kind": "primary",
+     "time": "2026-10-06T18:00:00+02:00"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+     "kind": "article",
+     "time": "2026-10-06T15:19:01+02:00"
+    }
+   ]
+  },
+  {
+   "id": "trump-iran-la-san-diego",
+   "title": "Trump at rally: Iran could “take out” Los Angeles and San Diego — “a small price to pay”",
+   "topics": [
+    "World",
+    "USA"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Monday night in Grand Island, Nebraska, on war-driven high prices: “They can take out a city. Let them take out Los Angeles, let them take out San Diego.” Parts of the crowd cheered.",
+    "Newsom called it “deranged and dangerous — if not treasonous” and told California’s State Threat Assessment Center to monitor whether foreign actors read it as an invitation.",
+    "LA mayor Karen Bass called it encouraging attacks on Americans; San Diego mayor Todd Gloria: “We are not expendable.” San Diego is home port of the Pacific Fleet.",
+    "White House communications director Cheung says Trump meant US cities would have been threatened if a nuclear Iran hadn’t been stopped; the rapid-response account called LA Times reporters “buffoons”.",
+    "Rare GOP pushback: San Diego House candidate Jim Desmond said he “served to protect Americans, not write off American cities”."
+   ],
+   "whyItMatters": "The White House reading is plausible, but the remark lands four weeks before midterms in an unpopular war, and Republicans in swing seats are distancing themselves.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/6e38/live/ca132f80-c177-11f1-bed0-05ebd781c53c.jpg",
+    "alt": "File image of Gavin Newsom and Donald Trump in conversation. Newsom holds his finger aloft as he makes a point",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/c6r7yn8pknyxo"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/c6r7yn8pknyxo",
+     "kind": "article",
+     "time": "2026-10-06T13:13:27+02:00"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/oct/06/trump-suggests-let-iran-take-out-los-angeles-san-diego",
+     "kind": "article",
+     "time": "2026-10-06T10:04:20+02:00"
+    },
+    {
+     "label": "The Guardian — Republican rebuke",
+     "url": "https://www.theguardian.com/us-news/2026/oct/06/republican-trump-iran-los-angeles-san-diego",
+     "kind": "article",
+     "time": "2026-10-06T17:39:22+02:00"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2107514876117856333",
+     "kind": "x",
+     "time": "2026-10-06T18:54:36+02:00"
+    }
+   ]
+  },
+  {
+   "id": "paramount-wbd-skydance",
+   "title": "Paramount closes ~$111bn Warner Bros. Discovery takeover; the combined company is now “Skydance”",
+   "topics": [
+    "Business",
+    "Media"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Closed Tuesday. Skydance combines the Paramount and Warner Bros. studios, HBO Max, Paramount+, CBS News and CNN. David Ellison leads it with ex-Mattel CEO Ynon Kreiz as co-CEO.",
+    "Deal value is reported at $110–111bn; THR says the new owner is carrying more than $80bn of debt. Shares start trading as SKYD this week.",
+    "Final hurdle: a California judge approved a settlement with 12 states. It requires at least 30 films a year and 180+ TV shows, plus independent editorial boards at CBS News and CNN, watched by a trustee.",
+    "Paramount beat Netflix after a months-long bidding war; WBD management had preferred Netflix.",
+    "HBO Max and Paramount+ will merge into one service over time, with more than 200M subscribers combined."
+   ],
+   "whyItMatters": "Two of Hollywood’s five legacy studios and two major US newsrooms now sit under one owner, the Ellisons, and press-freedom conditions are written into the settlement.",
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/9a282f79db8e6ffa47a3059b463463be690f1508/118_0_6864_5489/master/6864.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=04d99981f535df59425ede2979af1f57",
+    "alt": "The Paramount water tower in Los Angeles, California",
+    "credit": "The Guardian / Getty Images",
+    "creditUrl": "https://www.theguardian.com/business/2026/oct/06/paramount-warner-bros-skydance-merger"
+   },
+   "sources": [
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/oct/06/paramount-warner-bros-skydance-merger",
+     "kind": "article",
+     "time": "2026-10-06T16:14:56+02:00"
+    },
+    {
+     "label": "The Hollywood Reporter",
+     "url": "https://www.hollywoodreporter.com/business/business-news/paramount-closes-warner-bros-deal-skydance-official-1236723233/",
+     "kind": "article",
+     "time": "2026-10-06T14:54:31+02:00"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/paramount-warner-uebernahme-102.html",
+     "kind": "article",
+     "time": "2026-10-06T17:18:04+02:00"
+    },
+    {
+     "label": "Polygon",
+     "url": "https://www.polygon.com/paramount-plus-hbo-max-combined-streaming-service-skydance/",
+     "kind": "article",
+     "time": "2026-10-06T19:12:52+02:00"
+    },
+    {
+     "label": "CNN on X",
+     "url": "https://x.com/CNN/status/2107466150804070616",
+     "kind": "x",
+     "time": "2026-10-06T15:40:59+02:00"
+    }
+   ]
+  },
+  {
+   "id": "saxony-anhalt-tillschneider",
+   "title": "Saxony-Anhalt follow-up: AfD hardliner Tillschneider also elected Landtag vice-president",
+   "topics": [
+    "Germany"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Update to the Rausch vote: Hans-Thomas Tillschneider, on the AfD’s völkisch wing, won the first vice-presidency with 44 of 82 votes, 38 against and no abstentions.",
+    "BSW had said it would not back him. Its group leader Thomas Schulze then handed him flowers, and one BSW MP applauded; the BSW still insists it didn’t vote for him.",
+    "Per the taz live blog, the AfD now holds at least half of the new presidium. The CDU says all 15 of its MPs present agreed internally to vote no.",
+    "Linke co-leader Reichinnek alleges nine of 15 Union MPs helped Rausch; the CDU denies known yes votes. ZEIT says its reporting points to arrangements."
+   ],
+   "whyItMatters": "A second AfD presidium seat on day one makes the “secret ballot leak” look less like an accident and puts the CDU under pressure ahead of December’s premier vote.",
+   "image": {
+    "url": "https://taz.de/picture/8783264/1200/42254526.jpeg",
+    "alt": "Thomas Schulze (r, BSW) gratuliert Hans-Thomas Tillschneider (AfD) zu dessen Wahl zum stellvertretenden Landtagspräsidenten während der konstituierenden Sitzung des Landtags in Sachsen-Anhalt.",
+    "credit": "taz — live blog",
+    "creditUrl": "https://taz.de/Liveticker-zu-Sachsen-Anhalt-Erster-AfD-Parlamentspraesident-der-Geschichte-wird-gewaehlt/!6219259/"
+   },
+   "sources": [
+    {
+     "label": "taz — live blog",
+     "url": "https://taz.de/Liveticker-zu-Sachsen-Anhalt-Erster-AfD-Parlamentspraesident-der-Geschichte-wird-gewaehlt/!6219259/",
+     "kind": "article",
+     "time": "2026-10-06T15:59:38+02:00"
+    },
+    {
+     "label": "DIE ZEIT",
+     "url": "https://www.zeit.de/politik/deutschland/2026-10/landtagspraesident-sachsen-anhalt-tobias-rausch-afd-bsw-cdu-gxe",
+     "kind": "article",
+     "time": "2026-10-06T16:47:16+02:00"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2107472950639075767",
+     "kind": "x",
+     "time": "2026-10-06T16:08:01+02:00"
+    }
+   ]
+  },
+  {
+   "id": "coalition-crisis-forsa",
+   "title": "Coalition heads meet Wednesday in crisis mode; Forsa has the Greens two points behind the Union",
+   "topics": [
+    "Germany"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Forsa (29 Sep–5 Oct, n=2,502): AfD 26%, CDU/CSU 19%, Greens 17% (+1), SPD 14%. Only 11% are satisfied with Merz (87% not), including 60% of Union supporters who are dissatisfied.",
+    "Wednesday evening’s coalition committee covers pensions, care and taxes. The SPD no longer wants to scrap penalty-free retirement after 45 contribution years, a key part of the pension financing plan.",
+    "Merz rejected the finance ministry’s sugar-tax plan, another point of dispute. The CDU calls the meeting routine, “to sound out the mood”.",
+    "New levy in the budget draft: a plastic-packaging tax of €550 per tonne from mid-2027, bringing in €670M next year and €1.5bn a year from 2028. It replaces the ~€1.4bn a year Berlin now pays Brussels out of taxes."
+   ],
+   "whyItMatters": "With the Union stuck under 20% and reforms stalled, Wednesday is a test of whether the coalition can still agree on anything major.",
+   "image": {
+    "url": "https://taz.de/picture/8783400/1200/42253774.jpeg",
+    "alt": "Gelbe und blaue Säcke voller Plastikmüll",
+    "credit": "taz — plastic tax",
+    "creditUrl": "https://taz.de/Bundesregierung-plant-neue-Abgabe/!6219285/"
+   },
+   "sources": [
+    {
+     "label": "WELT — Forsa",
+     "url": "https://www.welt.de/politik/deutschland/article6ac4f5ab6a0860be6e208474/forsa-umfrage-gruene-ruecken-bis-auf-zwei-punkte-an-union-heran-werte-fuer-merz-bleiben-miserabel.html",
+     "kind": "article",
+     "time": "2026-10-06T15:45:36+02:00"
+    },
+    {
+     "label": "Frankfurter Rundschau",
+     "url": "https://www.fr.de/politik/koalitionsausschuss-tagt-spd-blockiert-rente-nach-45-versicherungsjahren-94527519.html",
+     "kind": "article",
+     "time": "2026-10-06T15:00:19+02:00"
+    },
+    {
+     "label": "Augsburger Allgemeine",
+     "url": "https://www.augsburger-allgemeine.de/politik/union-und-spd-in-der-krise-hat-kanzler-merz-noch-die-kraft-zum-regieren-115444659",
+     "kind": "article",
+     "time": "2026-10-06T17:37:43+02:00"
+    },
+    {
+     "label": "taz — plastic tax",
+     "url": "https://taz.de/Bundesregierung-plant-neue-Abgabe/!6219285/",
+     "kind": "article",
+     "time": "2026-10-06T18:28:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "eu-enlargement-safeguards",
+   "title": "Brussels’ enlargement plan: 15-year probation for new members and limits on Ukrainian farm access",
+   "topics": [
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "The Commission’s 25-page communication would add “safeguards” for 15 years after accession against blocking EU business or rolling back the rule of law, with easier sanctions.",
+    "Newcomers would also commit not to veto later candidates. The Commission wants current members to move from unanimity to majority voting in areas like foreign policy, which looks unlikely to pass.",
+    "Ukraine: commissioner Marta Kos proposes “special arrangements” that limit CAP money and EU market access for some products such as wheat and grain, aimed at Polish and French concerns.",
+    "Roadmaps with dates for the four frontrunners (Montenegro, Albania, Moldova, Ukraine) come later this month. Montenegro is aiming to be the 28th member by 2028; for Ukraine, Kos says “so many ifs”.",
+    "EU leaders debate it at next week’s summit."
+   ],
+   "whyItMatters": "It is the Hungary lesson written into the treaties-to-be, and it signals that Ukraine’s path will come with farm carve-outs.",
+   "image": {
+    "url": "https://images.euronews.com/articles/stories/09/94/16/12/1200x675_cmsv2_ac819502-4de9-52a7-b29d-7b0ffb7be821-9941612.jpg",
+    "alt": "Brussels eyes agricultural carve-outs from Ukraine's EU membership",
+    "credit": "Euronews",
+    "creditUrl": "https://www.euronews.com/2026/10/06/brussels-eyes-agricultural-carve-outs-from-ukraines-eu-membership"
+   },
+   "sources": [
+    {
+     "label": "Euronews",
+     "url": "https://www.euronews.com/2026/10/06/brussels-eyes-agricultural-carve-outs-from-ukraines-eu-membership",
+     "kind": "article",
+     "time": "2026-10-06T16:46:32+02:00"
+    },
+    {
+     "label": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/everything-you-need-to-know-about-eus-first-step-to-making-ukraines-membership-real/",
+     "kind": "article",
+     "time": "2026-10-06T16:06:40+02:00"
+    },
+    {
+     "label": "Free Malaysia Today / AFP",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/10/06/eu-eyes-safeguards-to-keep-bloc-workable-if-it-gets-bigger",
+     "kind": "article",
+     "time": "2026-10-06T17:04:05+02:00"
+    }
+   ]
+  },
+  {
+   "id": "google-constellation-nuclear",
+   "title": "Google signs 20-year deal for 890 MW of nuclear uprates with Constellation, plus a 2.7 GW supply deal",
+   "topics": [
+    "Energy",
+    "Tech"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Google’s PPA finances upgrades at six operating Constellation plants in Illinois, Pennsylvania and New Jersey (11 reactors), adding 890 MW to the PJM grid.",
+    "Yahoo Finance puts it at $4.3bn over 20 years. A separate 15-year supply agreement covers another 2.7 GW, about 3.6 GW in total.",
+    "Google says it has now enabled over 1.5 GW of new US nuclear capacity from uprates and restarts, “at no cost to other ratepayers”. Constellation will also use Gemini Enterprise for plant operations.",
+    "Constellation shares jumped more than 12%; Alphabet was flat."
+   ],
+   "whyItMatters": "Squeezing more out of existing reactors is the fastest way to add firm power for data centres, and the AI-power race keeps landing on nuclear.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Google blog",
+     "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+     "kind": "primary",
+     "time": "2026-10-06T12:00:00+02:00"
+    },
+    {
+     "label": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/article/google-signs-20-year-nuclear-deal-with-constellation-energy-to-power-ai-build-out-131104702.html",
+     "kind": "article",
+     "time": "2026-10-06T16:37:43+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "S&P 500 and Nasdaq hit fresh intraday records as oil and Treasury yields eased; the Dow was up ~340 points (+0.7%) by mid-session.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Spain’s Constitutional Court ruling means the arrest warrant for Carles Puigdemont must be lifted: the 2024 amnesty also covers embezzlement charges. Return possible after nine years in Belgium.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Irkutsk update: Russia says no plague among the dead lab worker’s contacts (60% tested, two Covid and two rhinovirus cases). WHO was told no plague case has been recorded.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "RAF Fairford: UK counter-terror police arrested a 22-year-old Briton on suspicion of preparing a terrorist act; six earlier arrestees are out on bail. The US pulled its bombers from the base at the weekend.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Seattle bans large grocers and delivery apps from using personal data or AI to set individual prices, billed as a US first; it takes effect 1 Sept 2027.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Crew-12 (Meir, Hathaway, ESA’s Sophie Adenot, Fedyaev) undocks from the ISS Wed ~14:05 CEST and splashes down off California Thu ~17:34 CEST.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://www.nasa.gov/wp-content/uploads/2026/10/55559507519-2d24859fff-k.jpg",
+    "alt": "Four astronauts in white space suits smile at the camera and put their gloved hands together aboard the space station.",
+    "credit": "NASA",
+    "creditUrl": "https://www.nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live/"
+   },
+   "sources": [
+    {
+     "label": "CNBC — markets",
+     "url": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
+     "kind": "article",
+     "time": "2026-10-06T17:33:47+02:00"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/europa/spanien-puigdemont-verfassungsgericht-100.html",
+     "kind": "article",
+     "time": "2026-10-06T15:40:37+02:00"
+    },
+    {
+     "label": "NBC News",
+     "url": "https://www.nbcnews.com/world/russia/russia-says-no-plague-found-contacts-siberian-lab-worker-died-rcna601805",
+     "kind": "article",
+     "time": "2026-10-06T15:01:39+02:00"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/ausland/raf-fairford-weiterer-verdaechtiger-festgenommen-a-36fb0003-3507-45c5-abbc-4b3a70ba77cb",
+     "kind": "article",
+     "time": "2026-10-06T16:16:00+02:00"
+    },
+    {
+     "label": "KPTV",
+     "url": "https://www.kptv.com/2026/10/06/seattle-bans-ai-based-grocery-pricing-us-first/",
+     "kind": "article",
+     "time": "2026-10-06T18:23:15+02:00"
+    },
+    {
+     "label": "NASA",
+     "url": "https://www.nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live/",
+     "kind": "primary"
+    },
+    {
+     "label": "Space Station on X",
+     "url": "https://x.com/Space_Station/status/2107446318457110819",
+     "kind": "x",
+     "time": "2026-10-06T14:22:11+02:00"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Polars 2.0 is out: first out-of-core (spill-to-disk) support, SQL as a first-class citizen, and stricter dtypes. Its own TPC-H/TPC-DS-derived runs have it ahead of DuckDB and DataFusion.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "curl ran into two arm64-only compiler optimisation bugs this week, one in gcc 15/16 and one in Rust (research by @vsz).",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Armin Ronacher on “Codemode”: why Pi 1.0 now supports MCP by exposing tools as code rather than loading tool definitions into context.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "LibreOffice says it “will not add” AI for the foreseeable future, so documents never leave the machine; local-model extensions remain possible.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Shaders open-sourced its 200+ WebGPU effect components, with first-class React, Vue, Svelte, Solid and plain JS entries.",
+     "sourceIndexes": [
+      4,
+      5
+     ]
+    },
+    {
+     "text": "Anthropic widened Claude for Startups: a free year of Claude Team (5 seats), $1,000 API credit, up to ~$45k in perks. claude.dev posted a Claude Code cloud-sessions guide.",
+     "sourceIndexes": [
+      6,
+      7,
+      8
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/10/libreoffice.jpg?w=1016",
+    "alt": "LibreOffice",
+    "credit": "TechCrunch",
+    "creditUrl": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/"
+   },
+   "sources": [
+    {
+     "label": "Polars blog",
+     "url": "https://pola.rs/posts/release-polars-2/",
+     "kind": "primary"
+    },
+    {
+     "label": "Daniel Stenberg on Mastodon",
+     "url": "https://mastodon.social/@bagder/117392573268225646",
+     "kind": "article",
+     "time": "2026-10-06T08:35:13+02:00"
+    },
+    {
+     "label": "Armin Ronacher",
+     "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+     "kind": "article"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+     "kind": "article",
+     "time": "2026-10-06T17:25:00+02:00"
+    },
+    {
+     "label": "GitHub — shaders",
+     "url": "https://github.com/shader-effects-inc/shaders",
+     "kind": "primary"
+    },
+    {
+     "label": "shaders on X",
+     "url": "https://x.com/npm_i_shaders/status/2107467668009963819",
+     "kind": "x",
+     "time": "2026-10-06T15:47:01+02:00"
+    },
+    {
+     "label": "CNBC — Claude Startups",
+     "url": "https://www.cnbc.com/2026/10/06/anthropic-claude-startups-program.html",
+     "kind": "article",
+     "time": "2026-10-06T18:00:28+02:00"
+    },
+    {
+     "label": "Claude on X",
+     "url": "https://x.com/claudeai/status/2107513494493179954",
+     "kind": "x",
+     "time": "2026-10-06T18:49:07+02:00"
+    },
+    {
+     "label": "claude.dev — cloud sessions field guide",
+     "url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+     "kind": "primary",
+     "time": "2026-10-06T14:00:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "49ers LB Dre Greenlaw was fined $11,941 for taunting the Broncos bench and ex-coach Sean Payton in Sunday’s 24-14 win. He also led the team with 12 tackles and a forced fumble.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "BVB captain Emre Can reportedly used his cruciate-ligament layoff (since February) for adductor surgery as well, per Kicker; no return date yet.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig host winless Holstein Kiel on Friday at 18:30 (2. Bundesliga, matchday 7); Kiel keeper Timon Weiner says the streak is grating.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://images.noz-mhn.de/img/51552431/crop/cbase_16_9-w1200/1072986454/1891367058/weiner-jubelt.jpg",
+    "alt": "Timon Weiner präsentiert sich in dieser Saison bisher in Top-Form: Der Torhüter hofft im anstehenden Auswärtsspiel bei Eintracht Brauschweig auf den ersten Sieg von Holstein Kiel.",
+    "credit": "shz.de",
+    "creditUrl": "https://www.shz.de/sport/holstein-kiel/artikel/holstein-kiel-mit-wut-im-bauch-ins-krisenduell-in-braunschweig-51542585"
+   },
+   "sources": [
+    {
+     "label": "Niners Wire / VC Star",
+     "url": "https://www.vcstar.com/story/sports/nfl/niners/2026/10/06/nfl-fines-49ers-lb-dre-greenlaw-for-taunting-broncos-bench/92120441007/",
+     "kind": "article",
+     "time": "2026-10-06T18:54:03+02:00"
+    },
+    {
+     "label": "t-online",
+     "url": "https://www.t-online.de/sport/fussball/bundesliga/id_101469264/bvb-kapitaen-emre-can-offenbar-erneut-operiert.html",
+     "kind": "article",
+     "time": "2026-10-06T18:33:40+02:00"
+    },
+    {
+     "label": "Eintracht Braunschweig — tickets",
+     "url": "https://www.eintracht.com/news/artikel/ticketinfos-zum-heimspiel-gegen-holstein-kiel",
+     "kind": "primary"
+    },
+    {
+     "label": "shz.de",
+     "url": "https://www.shz.de/sport/holstein-kiel/artikel/holstein-kiel-mit-wut-im-bauch-ins-krisenduell-in-braunschweig-51542585",
+     "kind": "article",
+     "time": "2026-10-06T16:10:38+02:00"
+    }
+   ]
+  }
+ ]
+}
