@@ -1,0 +1,406 @@
+{
+  "id": "2026-10-07-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-07T13:10:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning’s brief (~08:00 → 13:10 CEST)",
+  "headline": "The chemistry Nobel goes to Kagan and Soai for mirror-image chemistry; Russia’s strike toll climbs to 20 and a ship sinks off Bulgaria; Berlin blocks Cosco’s Hamburg logistics deal.",
+  "stories": [
+    {
+      "id": "nobel-chemistry-kagan-soai",
+      "title": "Chemistry Nobel goes to Henri Kagan and Kenso Soai for showing how chemistry can pick one mirror image",
+      "topics": [
+        "Science"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Kagan (b. 1930, Université Paris-Sud, France) and Soai (b. 1950, Tokyo University of Science, Japan) share the prize “for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis”.",
+        "The puzzle: life is homochiral — proteins use only one of the two mirror-image forms of amino acids — yet ordinary reactions make both forms in equal amounts.",
+        "Kagan, 1986: a new way of steering reactions that produced a bigger excess of one mirror image than was thought possible (the “non-linear effect”).",
+        "Soai’s self-amplifying (autocatalytic) reaction, first described in 1995, made only one mirror image by 2003 — “other than life itself, no one had previously achieved this feat”.",
+        "The Academy calls the work decisive for designing reactions that make pharmaceuticals, where often only one mirror image has the wanted effect. Prize: SEK 12 million, shared equally."
+      ],
+      "whyItMatters": "A prize for a century-old origin-of-life question that also feeds straight into how single-mirror-image drugs are made today.",
+      "image": null,
+      "sources": [
+        {
+          "label": "NobelPrize.org — press release",
+          "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+          "kind": "primary"
+        },
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wissen/forschung/chemie-nobelpreis-fuer-kagan-und-soai-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://www.zeit.de/wissenschaft/2026-10/chemienobelpreis-fuer-zwei-katalyse-forscher",
+          "kind": "article",
+          "time": "2026-10-07T11:58:23+02:00"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-strike-toll-black-sea-ships",
+      "title": "Russia’s overnight strike toll climbs to 20 with a Pryluky apartment block hit; drones sink a cargo ship in Bulgaria’s Black Sea zone",
+      "topics": [
+        "World",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Material update to this morning’s card: Kyiv Post now counts 20 dead across Ukraine from the overnight and morning missile and drone assault.",
+        "In Pryluky (Chernihiv region, ~150 km east of Kyiv) a missile hit a five-storey apartment block; the regional governor put the toll there at 14, including four children, with 50 injured.",
+        "Zelensky: about 70 missiles plus drones, with energy infrastructure a key target; the air force says it downed 161 targets. Russia says it hit Fire Point sites that build Flamingo cruise missiles and drones.",
+        "Black Sea: drones hit two merchant ships ~80 miles off Bulgaria early Tuesday, the first attack on shipping in the NATO member’s economic zone. The Alfa Watan sank; all 18 crew of the burning Able were rescued.",
+        "Bulgaria has called off the Alfa Watan search with no survivors found and says the drones’ origin is under investigation; Zelensky blames Russia. Bulgaria’s Security Council meets this afternoon."
+      ],
+      "whyItMatters": "A sunk ship in a NATO member’s waters takes the war at sea closer to the alliance, on the same day as one of the deadliest strikes on Ukrainian cities this autumn.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/86298",
+          "kind": "article",
+          "time": "2026-10-07T07:50:00+02:00"
+        },
+        {
+          "label": "RTÉ / Reuters",
+          "url": "https://www.rte.ie/news/world/2026/1007/1594350-ukraine-russia/",
+          "kind": "article",
+          "time": "2026-10-07T09:24:50+02:00"
+        },
+        {
+          "label": "NBC News / AP",
+          "url": "https://www.nbcnews.com/world/europe/bulgaria-says-drone-attack-hits-2-commercial-vessels-black-sea-rcna602019",
+          "kind": "article",
+          "time": "2026-10-07T11:22:06+02:00"
+        },
+        {
+          "label": "The Sofia Globe",
+          "url": "https://sofiaglobe.com/2026/10/07/bulgaria-calls-off-search-for-crew-of-ship-sunk-in-drone-attack-in-black-sea/",
+          "kind": "article",
+          "time": "2026-10-07T08:55:10+02:00"
+        }
+      ]
+    },
+    {
+      "id": "cosco-zippel-blocked",
+      "title": "Berlin blocks China’s Cosco from buying 80% of Hamburg logistics firm Zippel",
+      "topics": [
+        "Germany",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Cabinet decision on Wednesday; the Economy Ministry will now issue the ban under the Foreign Trade and Payments Act.",
+        "Ministry spokesman: the purchase “would have deepened dependencies and endangered the resilience of Germany’s and the EU’s supply chains”.",
+        "The Bundeskartellamt had cleared the deal on competition grounds in February; in late April it emerged that the domestic intelligence agency (BfV) had concerns.",
+        "Zippel moves goods arriving at the Hamburg and Bremerhaven seaports by rail, ship and truck and has about 350 staff.",
+        "Cosco already holds 24.99% of Hamburg’s Tollerort container terminal — the stake was capped below 25% after a bitter coalition fight in 2022."
+      ],
+      "whyItMatters": "After the 2022 Tollerort compromise, Berlin now says no outright to Chinese control of port logistics, in line with its tougher line on China.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/wirtschaft/unternehmen/hamburg-hafen-bund-untersagt-verkauf-von-logistikfirma-an-chinesen-a-580de607-c10e-4da9-bd4c-897b7c399123",
+          "kind": "article",
+          "time": "2026-10-07T11:22:00+02:00"
+        },
+        {
+          "label": "Süddeutsche Zeitung",
+          "url": "https://www.sueddeutsche.de/politik/bundesregierung-news-liveblog-logistikfirma-china-zippel-cosco-hamburg-li.3529564",
+          "kind": "article",
+          "time": "2026-10-07T10:12:44+02:00"
+        },
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/logistik-bund-stoppt-chinesische-uebernahme-am-hamburger-hafen/100260199.html",
+          "kind": "article",
+          "time": "2026-10-07T10:33:05+02:00"
+        }
+      ]
+    },
+    {
+      "id": "hanning-allies-review",
+      "title": "Hanning fallout: MI6, GCHQ and US agencies review everything they shared with the BND",
+      "topics": [
+        "Germany",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "New since yesterday’s arrest: per the Telegraph, MI6, GCHQ and several US services are reviewing all sensitive intel shared with European allies in the period, to protect agents and informants.",
+        "The accusation: after leaving office, the 80-year-old allegedly got ~2,000 secret documents via his former office head and wrote an analysis for a foreign intelligence apparatus; some came from partner services.",
+        "Federal prosecutors allege intelligence-agent activity, treasonous espionage and attempted treason; Hanning is due before an investigating judge today. His ex-office head was also arrested as an alleged accomplice.",
+        "BND president Martin Jäger: “no compromises” on internal security. The chair of the Bundestag oversight panel, Marc Henrichmann (CDU), says Germany now has to send clear signals to partner services."
+      ],
+      "whyItMatters": "The damage could reach beyond Germany: if allied sources were exposed, intelligence sharing with Berlin may cool for a while.",
+      "image": null,
+      "sources": [
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/politik/Britische-Geheimdienste-nach-Festnahme-von-August-Hanning-in-Sorge-id31390870.html",
+          "kind": "article",
+          "time": "2026-10-07T11:13:00+02:00"
+        },
+        {
+          "label": "WELT",
+          "url": "https://www.welt.de/politik/deutschland/article6ac55c6abd194adf91010bc8/bnd-nach-festnahme-von-ex-chef-sorge-britischer-geheimdienste-nach-dem-super-gau.html",
+          "kind": "article",
+          "time": "2026-10-07T10:40:33+02:00"
+        },
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/festnahme-hanning-bnd-reaktionen-100.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "finland-halts-google-datacentres",
+      "title": "Finland orders Google to stop work at two data-centre sites after 300+ hectares of forest were cleared",
+      "topics": [
+        "Tech",
+        "Climate",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "The Finnish Supervisory Agency (LVV) says work at one site went ahead without a mandatory environmental impact assessment; anything that would “significantly alter the environment” must stop by 23 October.",
+        "The order covers preparatory work at Muhos and Kajaani: removing trees and topsoil, building site roads and storage areas, and changing ditches.",
+        "Tuike Finland, the company behind the projects, must explain itself and set out next steps by 14 October or face enforcement proceedings.",
+        "Google: “We understand the concerns and have fallen short of our own high standards in this instance”; it promises tree planting across 130 ha at Muhos.",
+        "The sites are part of Google’s record €13bn Finland plan for 2027–28 (Kajaani, Muhos, Vaala plus Hamina) — its largest single investment in Europe."
+      ],
+      "whyItMatters": "The AI data-centre boom is running into Europe’s environmental rules on the ground — here less than a month after the investment was announced.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/8809/live/12b85c00-c1a6-11f1-8fa2-19a1e9b6288f.jpg",
+        "alt": "An aerial view shows the site where Google's data centre is set to be built in Muhos, Finland.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cvj6jkx6g1r0o"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cvj6jkx6g1r0o",
+          "kind": "article",
+          "time": "2026-10-06T19:15:46+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Viel-zu-viele-Baeume-gefaellt-Baustopp-fuer-Rechenzentren-von-Google-in-Finnland-11478845.html",
+          "kind": "article",
+          "time": "2026-10-07T10:57:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "japan-beer-cartel-raids",
+      "title": "Japan raids Asahi, Kirin, Sapporo and Suntory over a suspected beer price cartel",
+      "topics": [
+        "World",
+        "Business"
+      ],
+      "weight": "normal",
+      "facts": [
+        "The Japan Fair Trade Commission opened compulsory, warrant-backed investigations on Wednesday on suspicion of violating the Antimonopoly Act.",
+        "The four control more than 90% of a beer market worth over ¥1tn a year and are suspected of coordinating the timing and size of price rises for beer, low-malt beer and beer-like drinks over several years.",
+        "According to reports, sales executives met after the monthly Brewers Association of Japan meetings to set wholesale price increases per litre and by container type.",
+        "The JFTC is considering a criminal complaint; all four companies confirmed the probe and said they would cooperate."
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/adce/live/8f5568b0-c21f-11f1-b7d8-6f930589c871.jpg",
+        "alt": "Asahi Super Dry beers are seen on display at a supermarket in Tokyo on October 3, 2025.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cm5yn3592xk9o"
+      },
+      "sources": [
+        {
+          "label": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/10/07/companies/beer-cartel-ftc/",
+          "kind": "article",
+          "time": "2026-10-07T08:14:00+02:00"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cm5yn3592xk9o",
+          "kind": "article",
+          "time": "2026-10-07T11:45:56+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Thuringia’s premier Mario Voigt (CDU) withdrew his lawsuit against TU Chemnitz revoking his doctorate over plagiarism; he says the fight costs time he owes the state.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Cabinet passed Hubig’s digital-violence bill: up to two years for sexualised deepfakes (even for own use or labelled as AI) and harmful impersonation, up to three for sharing rape videos. Bundestag next.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "France suspends stun grenades at school protests after a 15-year-old in Lens lost a hand; police inspectors are probing 18 cases, and 6,500+ people, mostly minors, have been detained.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Irkutsk lab death: Trump says he’ll talk to Putin “very soon” and report “probably” Thursday; Russia says everyone in contact with the 28-year-old tested negative and plague is unconfirmed.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Musk says Grok Bot will now use “the best back end model for any given task”, naming Claude Opus 5.5, MidJourney and Suno — no terms or timeline given.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Sport Bild: BVB is leaning towards not renewing the Rheinmetall sponsorship (up to €10m a year) when it ends in summer 2027; Rheinmetall says it is happy and will decide jointly with the club.",
+          "sourceIndexes": [
+            6
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/3744/live/6325d7d0-c18d-11f1-83c7-97e75190a976.png",
+        "alt": "A view of the entrance to the grounds of the anti-plague institute in the Russian city of Irkutsk, with red-brick buildings visible behind a gate, 6 October 2026",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cqgm0vrl3xp7o"
+      },
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/deutschland/thueringens-ministerpraesident-mario-voigt-gibt-rechtsstreit-um-doktortitel-auf-a-c0d2f4ca-7ba5-4637-b2e2-7c4a79fb5d77",
+          "kind": "article",
+          "time": "2026-10-07T12:31:00+02:00"
+        },
+        {
+          "label": "WELT / dpa",
+          "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/Politik__Inland_/article6ac5dcfef69f0a623981ef95/kabinett-beschliesst-strafen-fuer-sexualisierte-deepfakes.html",
+          "kind": "article",
+          "time": "2026-10-07T11:23:00+02:00"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/politik/Frankreichs-Regierung-setzt-Einsatz-von-Polizeigranaten-aus-id31390865.html",
+          "kind": "article",
+          "time": "2026-10-07T11:42:44+02:00"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cqgm0vrl3xp7o",
+          "kind": "article",
+          "time": "2026-10-07T11:59:13+02:00"
+        },
+        {
+          "label": "Elon Musk on X",
+          "url": "https://x.com/elonmusk/status/2107724314451878104",
+          "kind": "x",
+          "time": "2026-10-07T08:46:50+02:00"
+        },
+        {
+          "label": "Digg AI",
+          "url": "https://digg.com/ai/c52r1epm",
+          "kind": "article",
+          "time": "2026-10-07T09:15:58+02:00"
+        },
+        {
+          "label": "sport.de / Sport Bild",
+          "url": "https://www.sport.de/news/ne17216901/bericht-bvb-tendenz-in-der-umstrittenen-rheinmetall-frage/",
+          "kind": "article",
+          "time": "2026-10-06T13:22:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Next Bun ships `bun check`, a built-in TypeScript type checker written in Rust; a merged PR aligns it with `tsc --noEmit`. Jarred Sumner’s goal: ahead-of-time compiled JS/TS that rivals Go.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Atlassian CVE-2026-21589 (CVSS 9.3): unauthenticated reads of known files across eight self-hosted products incl. Jira, Confluence, Bitbucket and Crowd. Not exploited yet — patch now.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Outlook on the web and new Outlook will block .msix and .msixbundle attachments by default from early November (done by mid-November); admins can allow them per mailbox policy.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Svelte 5.57.2: patch release fixing event handlers assigned after a top-level `await` in production, async deriveds on components destroyed mid-await, and a missing error for doubled `{:else}` blocks.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/a6f34ebd63614cc692d2c680167a741986cc1a8eab73aceb307cd9b3ba769a7e/oven-sh/bun/pull/44665",
+        "alt": "Follow-up to #44361. Fixes cases where bun check and tsc 7.0.2 do different things. bun check checks what tsc checks bun check <args> now reports the same projects as tsc <args> --noEmi...",
+        "credit": "GitHub — oven-sh/bun #44665",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/44665"
+      },
+      "sources": [
+        {
+          "label": "Jarred Sumner on X",
+          "url": "https://x.com/jarredsumner/status/2107777528626827681",
+          "kind": "x",
+          "time": "2026-10-07T12:18:18+02:00"
+        },
+        {
+          "label": "GitHub — oven-sh/bun #44665",
+          "url": "https://github.com/oven-sh/bun/pull/44665",
+          "kind": "primary",
+          "time": "2026-10-07T08:39:41+02:00"
+        },
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/",
+          "kind": "article",
+          "time": "2026-10-07T08:37:16+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Microsoft-blockiert-MSIX-Dateien-in-Outlook-11479085.html",
+          "kind": "article",
+          "time": "2026-10-07T12:24:00+02:00"
+        },
+        {
+          "label": "GitHub — svelte@5.57.2",
+          "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.2",
+          "kind": "primary",
+          "time": "2026-10-06T16:20:22+02:00"
+        }
+      ]
+    }
+  ]
+}
