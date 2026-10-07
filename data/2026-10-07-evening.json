@@ -1,0 +1,637 @@
+{
+ "id": "2026-10-07-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-07T19:55:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon brief (~13:00 → 19:55 CEST)",
+ "headline": "A global bond sell-off sends US yields to 24-year highs and oil back above $100; the first nuclear clocks tick in Vienna and Beijing; the EU agrees its biggest Russia sanctions list.",
+ "stories": [
+  {
+   "id": "bond-selloff-24-year-highs",
+   "title": "Global bond sell-off: US 10- and 30-year yields hit 24-year highs, French debt under pressure, oil back above $100",
+   "topics": [
+    "Markets",
+    "World"
+   ],
+   "weight": "lead",
+   "facts": [
+    "US 10-year Treasury yield rose more than 8bp to about 5.356%, its highest since April 2002; the 30-year reached about 5.725%, highest since May 2002 (Quartz).",
+    "Stocks slid a day after record closes: Dow −451 points (−0.9%), S&P 500 −0.6%, Nasdaq −0.9%. Europe’s Stoxx 600 fell 1%, Italy’s FTSE MIB nearly 2.5%.",
+    "NBC: French and Italian bond yields were heading for their biggest one-day jump since March, and the UK 30-year gilt yield hit its highest since 1998.",
+    "Brent traded back above $101 a barrel. Yahoo Finance cites UK officials reporting at least nine attacks in the Strait of Hormuz so far in October, plus a storm heading for the Gulf Coast.",
+    "IMF chief Georgieva told France to “get your house in order”: French 10-year yields are up more than 100bp this year and now exceed Italy’s. WSJ reports Paris is weighing more short-term debt issuance.",
+    "Still to come: a $39bn 10-year Treasury auction and minutes from the Fed’s September meeting, where it raised rates for the first time since 2023."
+   ],
+   "whyItMatters": "This is the cost of the Iran-war energy shock moving into government borrowing costs. Higher long-term yields feed into mortgages, corporate debt and budgets, including the German and French ones.",
+   "image": {
+    "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261007-Treasury-Department-Building-ch-0952-13faef.jpg",
+    "alt": "The US Treasury Department building in Washington",
+    "credit": "NBC News / Getty Images",
+    "creditUrl": "https://www.nbcnews.com/business/markets/treasury-yields-hit-24-year-highs-global-sell-accelerates-rcna602045"
+   },
+   "sources": [
+    {
+     "label": "Quartz",
+     "url": "https://qz.com/dow-drop-treasury-yields-24-year-high-100726",
+     "kind": "article",
+     "time": "2026-10-07T16:01:14+02:00"
+    },
+    {
+     "label": "NBC News",
+     "url": "https://www.nbcnews.com/business/markets/treasury-yields-hit-24-year-highs-global-sell-accelerates-rcna602045",
+     "kind": "article",
+     "time": "2026-10-07T16:47:17+02:00"
+    },
+    {
+     "label": "CNBC — IMF on France",
+     "url": "https://www.cnbc.com/2026/10/07/imf-france-debt-student-protests-yields.html",
+     "kind": "article",
+     "time": "2026-10-07T11:57:23+02:00"
+    },
+    {
+     "label": "WSJ — France debt plans",
+     "url": "https://www.wsj.com/world/europe/france-considers-issuing-more-shorter-term-debt-amid-bond-market-turmoil-db2966fd",
+     "kind": "article",
+     "time": "2026-10-07T17:13:00+02:00"
+    },
+    {
+     "label": "Yahoo Finance — oil",
+     "url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html",
+     "kind": "article",
+     "time": "2026-10-07T14:26:12+02:00"
+    }
+   ]
+  },
+  {
+   "id": "first-nuclear-clocks",
+   "title": "The first nuclear clocks are ticking, in Vienna and Beijing",
+   "topics": [
+    "Science"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Two teams published in Nature: TU Wien in Vienna and a Tsinghua-led group in Beijing. Both keep time with thorium-229 nuclei embedded in crystals, using the atomic nucleus instead of electrons as in atomic clocks.",
+    "Both prototypes drift by only a few millionths of a second per year. That is still several orders of magnitude worse than today’s best atomic clocks, but this is the very first generation (Welt der Physik).",
+    "SCMP: the Beijing clock is about six times as stable, and two separately grown crystals kept the same time, a sign the clocks can be reproduced. Vienna used its clock to look for dark matter and found none.",
+    "RND’s headline credits Braunschweig’s PTB with the breakthrough: a thorium clock running stably for more than 24 hours."
+   ],
+   "whyItMatters": "Nuclear clocks could eventually beat atomic clocks and test whether the constants of nature really are constant. Braunschweig’s national metrology institute, the PTB, is part of the story.",
+   "image": {
+    "url": "https://www.weltderphysik.de/fileadmin/_processed_/5/a/csm_20261007_Crystal_holder-Kernuhr_T._Schumm_TU_Wien_c2b468ea3c.jpg",
+    "alt": "Crystal holder of the thorium nuclear clock at TU Wien",
+    "credit": "Welt der Physik / T. Schumm, TU Wien",
+    "creditUrl": "https://www.weltderphysik.de/gebiet/technik/nachrichten/2026/zeitmessung-die-erste-kernuhr-tickt/"
+   },
+   "sources": [
+    {
+     "label": "Welt der Physik",
+     "url": "https://www.weltderphysik.de/gebiet/technik/nachrichten/2026/zeitmessung-die-erste-kernuhr-tickt/",
+     "kind": "article",
+     "time": "2026-10-07T17:02:51+02:00"
+    },
+    {
+     "label": "South China Morning Post",
+     "url": "https://www.scmp.com/news/china/science/article/3370006/chinas-thorium-229-nuclear-clock-beats-viennas-stability-studies-show",
+     "kind": "article",
+     "time": "2026-10-07T17:00:07+02:00"
+    },
+    {
+     "label": "The New York Times",
+     "url": "https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html",
+     "kind": "article",
+     "time": "2026-10-07T17:00:19+02:00"
+    },
+    {
+     "label": "RND — PTB Braunschweig",
+     "url": "https://www.rnd.de/lokales/niedersachsen/braunschweig/ptb-braunschweig-kernuhr-mit-thorium-laeuft-erstmals-mehr-als-24-stunden-stabil-XLUB73DTEJCSZLC2LV755UZILQ.html",
+     "kind": "article",
+     "time": "2026-10-07T17:00:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "eu-russia-sanctions-1646",
+   "title": "EU ambassadors agree the largest-ever Russia sanctions list: 1,646 names",
+   "topics": [
+    "Europe",
+    "Ukraine"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Agreed unanimously in Brussels on Wednesday: 743 individuals and 826 entities tied to Russia’s war effort, plus 77 lawmakers who ran in occupied Ukraine in September’s Duma vote (Euronews).",
+    "Targets span Russia’s defence industry, from shipyards and aviation firms to electronics makers, armoured-vehicle repair shops and aerospace companies (Kyiv Independent).",
+    "Foreign ministers formally adopt it on Monday 12 Oct in Luxembourg, when the names are published. It means travel bans, asset freezes and funding bans.",
+    "The blacklist will then cover almost 4,650 names. After this, the EU plans smaller rolling listings; work on listings over the Leipzig airport drone incident has already started."
+   ],
+   "whyItMatters": "It shows unity after last month’s fight over delisting Usmanov and Fridman, but sanctions still need unanimity, and the plan to switch to majority voting needs unanimity too.",
+   "image": {
+    "url": "https://images.euronews.com/articles/stories/09/94/25/81/1200x675_cmsv2_25ff35e1-c942-5209-a3fc-907b7b74ef13-9942581.jpg",
+    "alt": "Vladimir Putin at a table with uniformed Russian military officers",
+    "credit": "Euronews",
+    "creditUrl": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war"
+   },
+   "sources": [
+    {
+     "label": "Euronews",
+     "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+     "kind": "article",
+     "time": "2026-10-07T14:23:12+02:00"
+    },
+    {
+     "label": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
+     "kind": "article",
+     "time": "2026-10-07T13:51:18+02:00"
+    }
+   ]
+  },
+  {
+   "id": "grok-bot-rival-models",
+   "title": "Musk: Grok Bot will route tasks to rival models too, including Claude Opus 5.5, Midjourney and Suno",
+   "topics": [
+    "Tech",
+    "AI"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Musk on X: “@SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs.”",
+    "In a follow-up post he said simple questions go to small, fast models and complex ones to large models. He did not say which jobs go to which outside provider (TNW).",
+    "TNW: the change came a day after users reported trouble reaching Grok on mobile and web; SpaceXAI gave no official cause.",
+    "City AM calls it a notable U-turn after billions spent on xAI’s own models, and a commercial boost for Anthropic ahead of its planned listing."
+   ],
+   "whyItMatters": "Agent products are turning into routers that pick a model per task, which makes the model behind the brand matter less than the routing.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Elon Musk on X",
+     "url": "https://x.com/elonmusk/status/2107849623364895151",
+     "kind": "x",
+     "time": "2026-10-07T17:04:46+02:00"
+    },
+    {
+     "label": "The Next Web",
+     "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
+     "kind": "article",
+     "time": "2026-10-07T17:06:02+02:00"
+    },
+    {
+     "label": "City AM",
+     "url": "https://www.cityam.com/musk-turns-to-rival-anthropic-to-power-grok/",
+     "kind": "article",
+     "time": "2026-10-07T14:26:27+02:00"
+    },
+    {
+     "label": "Teslarati on X",
+     "url": "https://x.com/Teslarati/status/2107823181772083573",
+     "kind": "x",
+     "time": "2026-10-07T15:19:42+02:00"
+    }
+   ]
+  },
+  {
+   "id": "surface-laptop-ultra-rtx-spark",
+   "title": "Nadella and Huang unveil the Surface Laptop Ultra on Nvidia’s RTX Spark chip, built to run AI locally",
+   "topics": [
+    "Tech",
+    "Hardware"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Unveiled together by Microsoft’s Satya Nadella and Nvidia’s Jensen Huang at Wednesday’s Windows and Surface event in San Francisco (Quartz).",
+    "RTX Spark is Nvidia’s first main processor for Windows PCs: a Blackwell GPU fused with a MediaTek-designed Arm CPU (N1X), up to 128GB unified memory and 1 petaflop of AI compute.",
+    "The laptop has a 15-inch mini-LED display, Microsoft’s biggest trackpad yet, USB-C, USB-A and a full-size SD reader.",
+    "They are also building agent-security tooling: new Windows protections and an Nvidia runtime, OpenShell, that controls what agents can access and where queries go.",
+    "Price is the open question. Memory costs are pushing AI hardware up, and Nvidia recently raised its DGX Spark desktop about 75% to $6,950."
+   ],
+   "whyItMatters": "Microsoft wants part of the AI workload off Azure and onto Windows PCs, and Nvidia gets into laptops as the main chip, not just the graphics card.",
+   "image": {
+    "url": "https://qz.com/cdn-cgi/image/width=1200,quality=85,format=auto/https://assets.qz.com/media/863454c9693823837c4ee3c21ff12710.jpg",
+    "alt": "Microsoft logo on a phone screen in front of an Nvidia logo",
+    "credit": "Quartz",
+    "creditUrl": "https://qz.com/microsoft-nvidia-surface-laptop-ultra-ai-windows-100726"
+   },
+   "sources": [
+    {
+     "label": "Quartz",
+     "url": "https://qz.com/microsoft-nvidia-surface-laptop-ultra-ai-windows-100726",
+     "kind": "article",
+     "time": "2026-10-07T15:51:55+02:00"
+    },
+    {
+     "label": "Microsoft on X",
+     "url": "https://x.com/MSFTnews/status/2107832254063861884",
+     "kind": "x",
+     "time": "2026-10-07T15:55:45+02:00"
+    }
+   ]
+  },
+  {
+   "id": "google-playground-synthid",
+   "title": "Google opens Playground, a prompt-to-game maker, and a public SynthID checker for AI media",
+   "topics": [
+    "Tech",
+    "AI"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Playground (Google Labs): describe a game in text, pick 2D/3D and single- or multiplayer, then share it by link or publish it to a gallery with leaderboards. Unity Spark integration is coming later.",
+    "It starts US-only for 18+. Playing is free; creating uses weekly tokens, with higher limits for Google One AI subscribers (TechCrunch).",
+    "SynthID.com lets anyone check images, video and audio for AI watermarks, now including those from partners OpenAI, Nvidia, Kakao and soon Apple (Ars Technica).",
+    "You need a Google, OpenAI or Apple login, and the quota is about 10 checks a day, to stop people tuning watermark-removal tools. Google says it gets 1 million verification requests a day.",
+    "Limits: Meta uses its own watermark, and open-weight models often use none, so a clean result does not mean a file is real."
+   ],
+   "whyItMatters": "Google is making it easier to create media and to check it on the same day; the checker only catches watermarks from companies that opt in.",
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/10/Google-Playground1.png?w=1142",
+    "alt": "Google Labs Playground game-creation interface",
+    "credit": "TechCrunch / Google",
+    "creditUrl": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/"
+   },
+   "sources": [
+    {
+     "label": "Google blog — Playground",
+     "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+     "kind": "primary",
+     "time": "2026-10-07T14:00:00+02:00"
+    },
+    {
+     "label": "TechCrunch — Playground",
+     "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+     "kind": "article",
+     "time": "2026-10-07T16:36:23+02:00"
+    },
+    {
+     "label": "Ars Technica — SynthID",
+     "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+     "kind": "article",
+     "time": "2026-10-07T16:00:08+02:00"
+    },
+    {
+     "label": "TechCrunch — SynthID",
+     "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+     "kind": "article",
+     "time": "2026-10-07T16:00:00+02:00"
+    },
+    {
+     "label": "9to5Google on X",
+     "url": "https://x.com/9to5Google/status/2107803176451592630",
+     "kind": "x",
+     "time": "2026-10-07T14:00:13+02:00"
+    }
+   ]
+  },
+  {
+   "id": "ryanair-quits-bremen",
+   "title": "Ryanair pulls out of Bremen from April 2027 over airport fees and cuts 12 routes in Vienna",
+   "topics": [
+    "Germany",
+    "Business"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Bremen loses about 400,000 passengers a year, more than a fifth of its traffic. Ryanair had paid the city roughly €3M a year (n-tv, airliners.de).",
+    "Economy senator Kristina Vogt (Linke): Ryanair wanted the airport’s services “almost free of charge”. Meeting its demands would have cost about €4M more a year and broken state-aid rules.",
+    "Ryanair has already cut back in Hamburg and Berlin over fees and is shifting to smaller airports, where Bremen says state-aid rules are looser.",
+    "In Vienna it removes four based aircraft and 12 routes this winter, affecting 80 jobs. O’Leary blames Austria’s €12 ticket tax and threatens more cuts."
+   ],
+   "whyItMatters": "Low-cost flying in Germany keeps shrinking toward subsidised regional airports. For Bremen, an airport already being restructured, the gap is hard to fill.",
+   "image": {
+    "url": "https://www.n-tv.de/img/31392909/1791389996/Img_16_9/1200/586483934.jpg",
+    "alt": "A Ryanair Boeing 737 on an airport taxiway",
+    "credit": "n-tv",
+    "creditUrl": "https://www.n-tv.de/wirtschaft/Ryanair-stellt-Betrieb-in-Bremen-ein-und-streicht-in-Wien-Fluege-id31392796.html"
+   },
+   "sources": [
+    {
+     "label": "n-tv",
+     "url": "https://www.n-tv.de/wirtschaft/Ryanair-stellt-Betrieb-in-Bremen-ein-und-streicht-in-Wien-Fluege-id31392796.html",
+     "kind": "article",
+     "time": "2026-10-07T18:13:42+02:00"
+    },
+    {
+     "label": "airliners.de",
+     "url": "https://www.airliners.de/ryanair-verlaesst-bremen-verhandlungen-ueber-flughafengebuehren-kuerzt-wien/90666",
+     "kind": "article",
+     "time": "2026-10-07T12:25:50+02:00"
+    }
+   ]
+  },
+  {
+   "id": "libor-convictions-quashed",
+   "title": "Five ex-Barclays traders have their Libor/Euribor rate-rigging convictions quashed",
+   "topics": [
+    "Business",
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "The Court of Appeal in London overturned the convictions of Jay Merchant, Jonathan Mathew, Philippe Moryoussef, Alex Pabon and Colin Bermingham on Wednesday (BBC).",
+    "Four had served jail terms; Moryoussef was sentenced in his absence in 2018 after France refused to extradite him.",
+    "It follows two other traders’ convictions being overturned last year. Full reasons are due later; 19 City traders were convicted across nine trials in the UK and US from 2015 to 2019.",
+    "Merchant says he wants “those responsible for what happened” held accountable."
+   ],
+   "whyItMatters": "One of the signature prosecutions of the post-2008 era keeps falling apart, which puts pressure on the UK Serious Fraud Office.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f749/live/38a2e400-c244-11f1-b2a8-994b2a5598cb.jpg",
+    "alt": "The Royal Courts of Justice in London",
+    "credit": "BBC / Getty Images",
+    "creditUrl": "https://www.bbc.co.uk/news/articles/cm4g175e8163o"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm4g175e8163o",
+     "kind": "article",
+     "time": "2026-10-07T13:46:05+02:00"
+    }
+   ]
+  },
+  {
+   "id": "isaias-gulf-hurricane",
+   "title": "Tropical Storm Isaias heads for the US Gulf Coast as a likely Cat 2 hurricane, the season’s latest first hurricane since 1905",
+   "topics": [
+    "World",
+    "Climate"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Formed Wednesday off eastern Mexico; the NHC expects rapid strengthening into a strong Category 2 before landfall between eastern Louisiana and the western Florida Panhandle (Guardian).",
+    "The Atlantic season’s first hurricane has not formed this late since 8 October 1905; a strong El Niño had kept the Atlantic quiet.",
+    "A hurricane watch covers Gulf, Bay, Walton and Okaloosa counties in Northwest Florida; landfall is expected Friday or Saturday, with storm surge, flash flooding and possible tornadoes (WJHG).",
+    "Chevron is evacuating non-essential staff from offshore platforms, which adds to the oil spike (Yahoo Finance)."
+   ],
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/8cf7593c003e641df96d914b7c891029d403f87e/0_188_2000_1600/master/2000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e8394c3c42c0d37558bc3117e315dea7",
+    "alt": "Satellite image of Tropical Storm Isaias over the Gulf of Mexico",
+    "credit": "The Guardian / NOAA",
+    "creditUrl": "https://www.theguardian.com/world/2026/oct/07/tropical-storm-isaias-mexico-hurricane"
+   },
+   "sources": [
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/07/tropical-storm-isaias-mexico-hurricane",
+     "kind": "article",
+     "time": "2026-10-07T15:51:25+02:00"
+    },
+    {
+     "label": "WJHG",
+     "url": "https://www.wjhg.com/2026/10/07/tropical-storm-isaias-hurricane-watch-effect-northwest-florida/",
+     "kind": "article",
+     "time": "2026-10-07T18:16:09+02:00"
+    },
+    {
+     "label": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html",
+     "kind": "article",
+     "time": "2026-10-07T14:26:12+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "The Bundestag transport committee backed the Hannover–Hamburg high-speed line plus about €250M in upgrades to the existing route by 2034. The aim is under an hour between the cities; the full Bundestag vote looks like a formality.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "“snake”, a 28-year-old Russian alleged to be a core member of the Qilin ransomware group, was arrested on holiday in Japan and extradited to Frankfurt (LKA NRW investigation).",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "DeepSeek is weighing doubling its funding round to as much as ¥100bn (~$14.9bn), with Tencent and CATL among the biggest backers and an IPO eyed for early 2027.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "The FCC approved up to 15,000 SpaceX satellites for Starlink Mobile (direct-to-cell); Musk says V2 offers over 100× the bandwidth of V1.",
+     "sourceIndexes": [
+      4,
+      5
+     ]
+    },
+    {
+     "text": "Krebs: suspected ShinyHunters leader “Rey”, now detained in Jordan and reportedly cooperating with the FBI, was extorting Jeppesen ForeFlight (sold by Boeing) when he was picked up.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "NDR",
+     "url": "https://www.ndr.de/nachrichten/niedersachsen/verkehrsausschuss-stimmt-fuer-neubaustrecke-hannover-hamburg,neubaustrecke-132.html",
+     "kind": "article",
+     "time": "2026-10-07T17:23:54+02:00"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/panorama/cyberkriminalitaet-mutmasslicher-ransomware-entwickler-in-japan-festgenommen-a-edbdbfc5-52de-4ea6-a789-10f0bf27664f",
+     "kind": "article",
+     "time": "2026-10-07T15:11:00+02:00"
+    },
+    {
+     "label": "BILD",
+     "url": "https://www.bild.de/news/cyberkriminalitaet-russen-hacker-snake-nach-deutschland-ausgeliefert-6ac62a44f69f0a623981f844",
+     "kind": "article",
+     "time": "2026-10-07T15:23:49+02:00"
+    },
+    {
+     "label": "TradingView / Seeking Alpha",
+     "url": "https://www.tradingview.com/news/seekingalpha:ddb85ba50094b:0-deepseek-eyes-doubling-latest-funding-round-to-15b-report/",
+     "kind": "article",
+     "time": "2026-10-07T06:54:06+02:00"
+    },
+    {
+     "label": "ISPreview",
+     "url": "https://www.ispreview.co.uk/index.php/2026/10/spacex-granted-approval-to-launch-15000-leo-satellites-for-starlink-mobile.html",
+     "kind": "article",
+     "time": "2026-10-07T13:56:27+02:00"
+    },
+    {
+     "label": "Elon Musk on X",
+     "url": "https://x.com/elonmusk/status/2107853835528274320",
+     "kind": "x",
+     "time": "2026-10-07T17:21:31+02:00"
+    },
+    {
+     "label": "Krebs on Security",
+     "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Chrome explains its JPEG XL support (decoding since Chrome 155): 30–50% better compression than JPEG, lossless JPEG recompression, HDR, and a decoder rewritten in Rust (jxl-rs) for memory safety.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "curl 8.23.0 ships early, on 14 Oct, with 22 CVE fixes, including CVE-2026-92392, only the project’s third HIGH since 2021. Details stay under embargo until release.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "GitHub had another incident hitting Git operations, pull requests and Actions. Jack Ellis: “This is happening constantly”; ex-GitHub engineer Sam Lambert says that kind of growth arriving so fast is very hard to react to.",
+     "sourceIndexes": [
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "text": "ArtCraft: Brandon Thomas released clean-room Rust remakes of seven Adobe apps, built with Claude Opus 5.5. PhotoCraft has 14.6k stars; it is alpha, and patents are an open question.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    },
+    {
+     "text": "Meta and Sierra’s Personal Agent Protocol (with Shopify, Stripe, Walmart and others): OAuth-based sessions for agents dealing with businesses via web, MCP/OpenAPI or company agents. v0.1 spec due later this month.",
+     "sourceIndexes": [
+      7,
+      8
+     ]
+    },
+    {
+     "text": "Status pages this evening: elevated errors on platform.claude.com, and degraded Codex/Work mode at OpenAI.",
+     "sourceIndexes": [
+      9,
+      10
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Chrome for Developers",
+     "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+     "kind": "primary"
+    },
+    {
+     "label": "Daniel Stenberg",
+     "url": "https://daniel.haxx.se/blog/2026/10/07/twenty-two-pending-curl-vulnerabilities/",
+     "kind": "primary",
+     "time": "2026-10-07T09:12:11+02:00"
+    },
+    {
+     "label": "GitHub Status",
+     "url": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
+     "kind": "primary"
+    },
+    {
+     "label": "Jack Ellis on X",
+     "url": "https://x.com/JackEllis/status/2107853343980945709",
+     "kind": "x",
+     "time": "2026-10-07T17:19:33+02:00"
+    },
+    {
+     "label": "Sam Lambert on X",
+     "url": "https://x.com/samlambert/status/2107857305098387868",
+     "kind": "x",
+     "time": "2026-10-07T17:35:18+02:00"
+    },
+    {
+     "label": "GitHub — photocraft",
+     "url": "https://github.com/storytold/photocraft",
+     "kind": "primary"
+    },
+    {
+     "label": "PetaPixel",
+     "url": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
+     "kind": "article",
+     "time": "2026-10-07T19:05:47+02:00"
+    },
+    {
+     "label": "Sierra — Personal Agent Protocol",
+     "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+     "kind": "primary",
+     "time": "2026-10-06T19:32:00+02:00"
+    },
+    {
+     "label": "Constellation Research",
+     "url": "https://www.constellationr.com/insights/news/meta-sierra-pitch-personal-agent-protocol-govern-how-personal-ai-agents-deal-business",
+     "kind": "article"
+    },
+    {
+     "label": "Claude Status",
+     "url": "https://status.claude.com/incidents/978mjkgw6mh7",
+     "kind": "primary",
+     "time": "2026-10-07T19:28:02+02:00"
+    },
+    {
+     "label": "OpenAI Status",
+     "url": "https://status.openai.com/incidents/01M4BP5JE7DKJSP3VG2S2DCWF2",
+     "kind": "primary",
+     "time": "2026-10-07T19:21:52+02:00"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Warriors: Kristaps Porziņģis is out indefinitely with an undisclosed health issue and didn’t travel to camp in Hawaii. Steve Kerr calls it “definitely concerning”; he has missed 90 games over two seasons (POTS diagnosis in 2025).",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "BVB coach Niko Kovac calls the four-game international window “totally unacceptable” for clubs, after weeks without about 20 players. He would prefer three windows of two games.",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Bleacher Report",
+     "url": "https://bleacherreport.com/articles/25507619-kristaps-porzingis-health-update-given-steve-kerr-warriors-star-out-indefinitely",
+     "kind": "article",
+     "time": "2026-10-07T03:53:47+02:00"
+    },
+    {
+     "label": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/steve-kerr-admits-kristaps-porzingis-120448001.html",
+     "kind": "article",
+     "time": "2026-10-07T14:04:48+02:00"
+    },
+    {
+     "label": "WELT",
+     "url": "https://www.welt.de/sport/fussball/bundesliga/borussia-dortmund/article6ac6460c1f1875475631ad01/borussia-dortmund-total-inakzeptabel-laenderspielreigen-veraergert-niko-kovac.html",
+     "kind": "article",
+     "time": "2026-10-07T16:32:45+02:00"
+    }
+   ]
+  }
+ ]
+}
