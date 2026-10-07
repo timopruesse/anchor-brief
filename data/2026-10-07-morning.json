@@ -1,0 +1,588 @@
+{
+ "id": "2026-10-07-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-07T08:45:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight since the evening brief (~19:40 → 08:45 CEST)",
+ "headline": "OpenAI dumps 722 AI-made math papers on GitHub; Russia pounds Kyiv on Putin’s birthday; Merz and Macron eye a deal to loosen the 2035 combustion ban.",
+ "stories": [
+  {
+   "id": "openai-math-release",
+   "weight": "lead",
+   "topics": [
+    "Tech",
+    "AI",
+    "Science"
+   ],
+   "title": "OpenAI dumps 722 math manuscripts from an unreleased model on GitHub — and mathematicians want receipts",
+   "facts": [
+    "New public repo openai/math: 722 manuscripts in 372 result families, from an internal frontier model OpenAI hasn’t released (Apache-2.0). Released ~00:00 CEST.",
+    "OpenAI says the model was posed ~4,000 problems; the average accepted result used about three hours of ChatGPT Pro-equivalent thinking. Many, not all, proofs are formalised in Lean.",
+    "Claimed results include the four-dimensional Kakeya conjecture, a Riemann zeta zero-free region (Re(s) > 11/12) and the Hodge conjecture for CM abelian varieties; 10 families come with abridged reasoning summaries.",
+    "Same model as last month’s Navier–Stokes blow-up proof. OpenAI told Scientific American almost every result came from a single prompt to a single agent, and that its own mathematicians don’t yet understand many of them.",
+    "The IAS advisory group (AGMAI) asked labs to stop testing open problems on proprietary models and to disclose model, prompts and compute per result; OpenAI gives averages and says it isn’t bound.",
+    "Reactions split: MIT’s Andrew Sutherland says treat single-agent claims as unverified — “We should ask for receipts”; Toronto’s Daniel Litt calls the release “a good thing for mathematics”."
+   ],
+   "whyItMatters": "Hundreds of machine-made results at once, from a model nobody outside can run, push the question of who checks and gets credit for AI mathematics from theory to practice.",
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2297765991.jpg?quality=90&strip=all&crop=0%2C10.744316765259%2C100%2C78.511366469482&w=1200",
+    "alt": "Sam Altman speaks at the OpenAI developers conference in San Francisco",
+    "credit": "The Verge / Getty Images",
+    "creditUrl": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
+   },
+   "sources": [
+    {
+     "label": "OpenAI — Sharing AI progress in mathematics",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+     "kind": "primary"
+    },
+    {
+     "label": "GitHub — openai/math",
+     "url": "https://github.com/openai/math",
+     "kind": "primary",
+     "time": "2026-10-06T23:47:02+02:00"
+    },
+    {
+     "label": "Scientific American",
+     "url": "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
+     "kind": "article",
+     "time": "2026-10-07T00:19:00+02:00"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+     "kind": "article",
+     "time": "2026-10-07T01:26:38+02:00"
+    },
+    {
+     "label": "The New York Times",
+     "url": "https://www.nytimes.com/2026/10/06/science/openai-math-problems.html",
+     "kind": "article"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/OpenAI-Hunderte-weitere-KI-generierte-Loesungen-fuer-Mathematikprobleme-11478615.html",
+     "kind": "article",
+     "time": "2026-10-07T06:55:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "kyiv-strike-putin-birthday",
+   "weight": "normal",
+   "topics": [
+    "World",
+    "Europe"
+   ],
+   "title": "Russia hits Kyiv with missiles and drones on Putin’s 74th birthday, a night after Ukraine’s ~700-drone raid on Moscow",
+   "facts": [
+    "Explosions in Kyiv from ~02:15 CEST with a second missile wave two hours later; two people were found dead after a fire at a garage cooperative in Darnytskyi district.",
+    "Hits in Obolon (non-residential site) and Podil (warehouses); a residential building was damaged in Kremenchuk and transport infrastructure in Zaporizhzhia.",
+    "The strike came hours after Zelensky said intelligence showed Russia preparing a massive attack.",
+    "The night before, Moscow’s mayor Sobyanin counted 650+ drones heading for the Moscow region plus 68 more downed en route; Russian authorities reported two dead — one of the largest raids on the capital of the war."
+   ],
+   "whyItMatters": "Both sides are now trading capital-scale strikes; expect more pressure on European air-defence deliveries.",
+   "image": null,
+   "sources": [
+    {
+     "label": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+     "kind": "article",
+     "time": "2026-10-07T02:25:09+02:00"
+    },
+    {
+     "label": "Ukrinform",
+     "url": "https://www.ukrinform.net/amp/rubric-ato/4171757-missile-attack-on-kyiv-two-people-killed-damage-reported-in-several-districts.html",
+     "kind": "article",
+     "time": "2026-10-07T06:42:00+02:00"
+    },
+    {
+     "label": "Reuters — Zelensky warning",
+     "url": "https://www.reuters.com/world/ukraines-zelenskiy-says-intelligence-shows-russia-is-preparing-massive-attack-2026-10-06/",
+     "kind": "article",
+     "time": "2026-10-06T19:52:00+02:00"
+    },
+    {
+     "label": "Merkur",
+     "url": "https://www.merkur.de/politik/ukraine-greift-moskau-mit-fast-700-drohnen-an-zwei-tote-zr-94528168.html",
+     "kind": "article",
+     "time": "2026-10-06T20:01:10+02:00"
+    }
+   ]
+  },
+  {
+   "id": "merz-macron-combustion-deal",
+   "weight": "normal",
+   "topics": [
+    "Europe",
+    "Germany",
+    "Energy"
+   ],
+   "title": "FAZ: Merz and Macron are lining up a swap — Paris drops its veto on softening the 2035 combustion phase-out, Berlin bends on “Made in EU”",
+   "facts": [
+    "A joint Franco-German position paper is being drafted in the Chancellery and Élysée, to be presented before the EU summit at the end of next week.",
+    "Macron would stop blocking looser CO₂ fleet limits for cars; Merz would drop resistance to strict “Made in EU” rules in the Industrial Accelerator Act.",
+    "France leads a seven-country blocking minority (incl. Spain, Netherlands) on the car rules; the EP transport committee vote set for Monday was postponed.",
+    "Goal is to end the combustion ban by early 2027. China, meanwhile, attacked the Merz–Macron letter calling for new EU anti-coercion tools: “Protectionism cannot increase competitiveness.”"
+   ],
+   "whyItMatters": "If it holds, the de facto end of the 2035 ban moves from a German wish to a Council majority within weeks.",
+   "image": null,
+   "sources": [
+    {
+     "label": "F.A.Z.",
+     "url": "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/verbrennerverbot-merz-und-macron-planen-ueberraschenden-deal-201291103.html",
+     "kind": "article",
+     "time": "2026-10-06T21:17:44+02:00"
+    },
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/politik/international/eu-deutschland-und-frankreich-wollen-das-verbrenner-aus-weiter-lockern/100256426.html",
+     "kind": "article",
+     "via": {
+      "label": "r/de",
+      "url": "https://www.reddit.com/r/de/comments/1wzolwk/eu_deutschland_und_frankreich_wollen_das/",
+      "kind": "article"
+     }
+    },
+    {
+     "label": "Handelsblatt — China’s reaction",
+     "url": "https://global.handelsblatt.com/politik/deutschland/handelspolitik-china-kritisiert-plaene-fuer-neue-eu-handelsinstrumente/100260272.html",
+     "kind": "article",
+     "time": "2026-10-07T05:53:26+02:00"
+    }
+   ]
+  },
+  {
+   "id": "coalition-committee-poll",
+   "weight": "normal",
+   "topics": [
+    "Germany"
+   ],
+   "title": "Coalition committee meets today for the first time in three months; Spiegel poll: two in three Germans call Merz’s chancellorship a failure",
+   "facts": [
+    "Union and SPD leaders meet Wednesday on the reform course; no decisions on disputed items expected, possibly a timetable. SPD wants changes after the September state-election losses.",
+    "Flashpoints: Klingbeil’s planned sugar, tobacco and plastic taxes, a 2027 budget that may slip past year-end, pensions after 45 contribution years, and care-insurance finances.",
+    "Spiegel/Ipsos: 48% fully and 19% partly agree Merz’s chancellorship has failed (80% in the east); 58% back his resignation as chancellor and party leader."
+   ],
+   "whyItMatters": "Today shows whether the coalition resets after the AfD’s state-level gains or keeps drifting into open conflict.",
+   "image": {
+    "url": "https://images.wiwo.de/rhR-4hnXfK0S/cover/6000/3375/0/0/0/686/0.481/0.347/archiv-16.09.2026-berlin-bundeskanzler-friedrich-merz-r-cdu-spricht-mit-lars-klingbeil-spd.jpg",
+    "alt": "Chancellor Friedrich Merz (right, CDU) talks with Finance Minister Lars Klingbeil (SPD), archive photo from 16 Sept 2026",
+    "credit": "WirtschaftsWoche / dpa, Michael Kappeler",
+    "creditUrl": "https://www.wiwo.de/politik/deutschland/bundesregierung-koalitionsausschuss-beraet-ueber-reformkurs/100260296.html"
+   },
+   "sources": [
+    {
+     "label": "WirtschaftsWoche (dpa)",
+     "url": "https://www.wiwo.de/politik/deutschland/bundesregierung-koalitionsausschuss-beraet-ueber-reformkurs/100260296.html",
+     "kind": "article",
+     "time": "2026-10-07T07:41:29+02:00"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/politik/deutschland/friedrich-merz-mehrheit-der-deutschen-haelt-seine-kanzlerschaft-fuer-gescheitert-a-b755b7f7-77b9-4881-8c18-e25af26ee21b",
+     "kind": "article",
+     "time": "2026-10-07T06:53:00+02:00"
+    },
+    {
+     "label": "New-Facts (dts)",
+     "url": "https://www.new-facts.eu/sortierung-top/deutschlandwelt-block/2026/10/07/mehrheit-der-deutschen-haelt-merz-kanzlerschaft-fuer-gescheitert/731627/",
+     "kind": "article",
+     "time": "2026-10-07T07:00:13+02:00"
+    }
+   ]
+  },
+  {
+   "id": "cctld-hijack-rogue-certs",
+   "weight": "normal",
+   "topics": [
+    "Security",
+    "Tech"
+   ],
+   "title": "Hijacked .gh, .sl and .as registries let attackers mint real TLS certificates for Google and other big brands",
+   "facts": [
+    "Google: attackers compromised the three country-code TLD registries, rewrote authoritative DNS for selected domains and passed CA domain-validation checks.",
+    "Unauthorised certs covered “several Google domains” plus, per Certificate Transparency logs, “several leading global brands and widely used online services” (unnamed).",
+    "Chrome blocked them via CRLSets and the CAs revoked Google’s; Google says the CAs did nothing wrong and Chrome users need not act.",
+    "Advice to domain owners: watch CT logs and publish restrictive CAA records — browser blocks don’t protect non-Chrome users, and Google can’t guarantee it found every domain."
+   ],
+   "whyItMatters": "Domain validation is only as strong as the registry above you — a reminder that CAA and CT monitoring aren’t optional.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Google — Chrome’s response to ccTLD hijacks",
+     "url": "https://blog.google/security/chromes-response-to-recent-cctld-registry-hijacks/",
+     "kind": "primary",
+     "time": "2026-10-06T13:53:00+02:00"
+    },
+    {
+     "label": "Ars Technica",
+     "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+     "kind": "article",
+     "time": "2026-10-06T21:21:14+02:00"
+    }
+   ]
+  },
+  {
+   "id": "ai-cyber-defenders",
+   "weight": "normal",
+   "topics": [
+    "Security",
+    "AI"
+   ],
+   "title": "Anthropic opens Mythos-class cyber access to more defenders; Chrome 155’s patch list shows AI bug-hunting at scale",
+   "facts": [
+    "Anthropic merged Project Glasswing and its Cyber Verification Program into three tiers — Defense, Red Team, Specialized — all with Opus 5.5, Sonnet 5.5 and Mythos 5.1. Specialized is vetted with the US government.",
+    "Its numbers: Glasswing partners found ≥129,000 verified vulnerabilities Apr–Jul 2026 (>33,000 critical/high), plus 5,500 from Anthropic’s own open-source scanning.",
+    "Test: on CyScenarioBench every task was blocked without CVP; Red Team tier ran unblocked and solved 34 of 50.",
+    "Chrome 155 stable (6 Oct) carries four critical fixes; 12 of the critical/high bugs are credited to Anthropic’s Xinyang Ge “assisted by Claude”, two to OpenAI Codex Security."
+   ],
+   "whyItMatters": "Labs are now gating offensive capability by customer tier rather than refusing outright — and their models already show up all over browser patch notes.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Anthropic — Expanding the Cyber Verification Program",
+     "url": "https://www.anthropic.com/news/cyber-verification-program",
+     "kind": "primary",
+     "time": "2026-10-06T21:00:00+02:00"
+    },
+    {
+     "label": "Reuters",
+     "url": "https://www.reuters.com/legal/litigation/anthropic-opens-its-most-powerful-ai-models-more-security-teams-2026-10-06/",
+     "kind": "article",
+     "time": "2026-10-06T22:37:46+02:00"
+    },
+    {
+     "label": "Chrome Releases — Stable update",
+     "url": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_086471744.html",
+     "kind": "primary",
+     "via": {
+      "label": "@samilaiho on X",
+      "url": "https://x.com/samilaiho/status/2107711841820410223",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sungrow-solar-cloud-hole",
+   "weight": "normal",
+   "topics": [
+    "Germany",
+    "Energy",
+    "Security"
+   ],
+   "title": "ZEIT: a hole in Sungrow’s inverter cloud put gigawatts of European solar one click from shutdown",
+   "facts": [
+    "An ethical hacker got into user, management and admin accounts on the Chinese maker’s cloud platform in late August without a password and could have switched off plants or pushed malware Europe-wide.",
+    "At times about 18 GW was reachable via the platform; Germany alone has ~250,000 Sungrow systems with 7.8 GW peak output.",
+    "Experts warn a sudden loss of 3 GW can trigger blackouts. Sungrow closed the gap with a hotfix; authorities see a regulatory gap because such inverters barely count as critical infrastructure."
+   ],
+   "whyItMatters": "Distributed solar is now grid-scale, but its remote-control plane still sits in vendor clouds with consumer-grade security.",
+   "image": {
+    "url": "https://img.zeit.de/digital/2026-10/hackerangriff-solaranlagen-sicherheitsluecke-blackout-solarenergie-teaserbild/wide__1300x731",
+    "alt": "ZEIT graphic: map of Europe dotted with networked solar installations, with aerial close-ups of individual plants",
+    "credit": "DIE ZEIT",
+    "creditUrl": "https://www.zeit.de/digital/2026-10/hackerangriff-solaranlagen-sicherheitsluecke-blackout-solarenergie"
+   },
+   "sources": [
+    {
+     "label": "DIE ZEIT",
+     "url": "https://www.zeit.de/digital/2026-10/hackerangriff-solaranlagen-sicherheitsluecke-blackout-solarenergie",
+     "kind": "article",
+     "time": "2026-10-07T05:32:55+02:00",
+     "via": {
+      "label": "r/de",
+      "url": "https://www.reddit.com/r/de/comments/1wznqv2/hackerangriff_auf_solaranlagen_deutschland_war/",
+      "kind": "article"
+     }
+    }
+   ]
+  },
+  {
+   "id": "spacex-nvidia-40bn",
+   "weight": "normal",
+   "topics": [
+    "Tech",
+    "Business"
+   ],
+   "title": "FT: SpaceX wants to raise $40bn — mostly bonds — to buy Nvidia AI chips",
+   "facts": [
+    "Per the FT’s sources: ~$10bn in bank loans and ~$30bn in bonds, led by Apollo, with Pimco in talks; closing expected in 2027.",
+    "Musk had already announced more Nvidia chips for xAI; companies didn’t comment and Pimco declined."
+   ],
+   "whyItMatters": "Debt-financed GPU buying on this scale is the kind of AI-capex leverage that bubble sceptics keep flagging.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Financial Times",
+     "url": "https://www.ft.com/content/d3f5928d-f38c-4666-8f7a-8737f9c45f51",
+     "kind": "article",
+     "time": "2026-10-07T00:28:55+02:00"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/digital/2026-10/spacex-nvidia-ki-chips-finanzierung-apollo-pimco",
+     "kind": "article",
+     "time": "2026-10-07T07:33:12+02:00",
+     "via": {
+      "label": "ZEIT ONLINE on X",
+      "url": "https://x.com/zeitonline/status/2107707109844402279",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "WELT",
+     "url": "https://www.welt.de/wirtschaft/article6ac5b0056a0860be6e208c88/fuer-spacex-elon-musk-will-ki-chips-von-nvidia-fuer-40-milliarden-dollar-kaufen.html",
+     "kind": "article",
+     "time": "2026-10-07T04:43:38+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "topics": [
+    "Worth a look"
+   ],
+   "title": "Worth a look",
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gta6.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "alt": "Grand Theft Auto VI key art: two protagonists pulling up bandanas outside a gas station",
+    "credit": "The Verge",
+    "creditUrl": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights"
+   },
+   "sources": [
+    {
+     "label": "WORLD (AP/WHO)",
+     "url": "https://wng.org/sift/kenya-confirms-first-imported-ebola-case-and-begins-quarantines-1791314154",
+     "kind": "article",
+     "time": "2026-10-06T21:21:00+02:00"
+    },
+    {
+     "label": "NBC News",
+     "url": "https://www.nbcnews.com/world/europe/france-protests-riot-police-students-tear-gas-fires-education-rcna601878",
+     "kind": "article",
+     "time": "2026-10-06T19:07:17+02:00"
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/10/06/protests-sweep-france-closing-schools-student-walkouts-escalate/",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post on X",
+      "url": "https://x.com/washingtonpost/status/2107535172799168801",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "n-tv",
+     "url": "https://www.n-tv.de/wirtschaft/Koalition-ebnet-Weg-fuer-Bahn-Ausbau-zwischen-Hamburg-und-Hannover-id31389426.html",
+     "kind": "article",
+     "time": "2026-10-07T01:18:33+02:00"
+    },
+    {
+     "label": "Radio Köln (dpa)",
+     "url": "https://www.radio-koeln.de/dpa/strafen-fuer-sexualisierte-deepfakes-was-das-kabinett-plant-2774716",
+     "kind": "article",
+     "time": "2026-10-07T07:45:05+02:00"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Seltene-Sache-Japan-liefert-Ransomware-Verdaechtigen-an-Deutschland-aus-11478517.html",
+     "kind": "article",
+     "time": "2026-10-06T22:52:00+02:00"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights",
+     "kind": "article",
+     "time": "2026-10-07T00:12:27+02:00"
+    },
+    {
+     "label": "IGN",
+     "url": "https://www.ign.com/articles/previous-game-pass-strategy-sent-xbox-into-freefall-ceo-asha-sharma-reportedly-tells-staff",
+     "kind": "article",
+     "time": "2026-10-06T20:37:31+02:00",
+     "via": {
+      "label": "IGN on X",
+      "url": "https://x.com/IGN/status/2107675034047201666",
+      "kind": "x"
+     }
+    }
+   ],
+   "facts": [
+    {
+     "text": "Kenya has its first Ebola case: a Kenyan who fell ill in DR Congo travelled to Nairobi via Kampala and died there on Monday (Bundibugyo strain, per WHO); 28 contacts are quarantined.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "France’s school protests escalate: 250,000+ students, parents and teachers marched Tuesday amid tear gas and water cannon; unions joined, and 5,000+ people, many minors, have been detained in two weeks.",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Hamburg–Hannover rail: the coalition agreed a Bundestag motion for a 109 km two-track new line (Vinnhorst–Meckelfeld) plus upgrades to the old route; committee today, plenum vote Thursday night.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Cabinet takes up Justice Minister Hubig’s digital-violence bill today: new offences for sexualised deepfakes and identity abuse, and wider protection against intimate images taken without consent.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Japan extradited a 28-year-old Russian alleged to be Qilin’s ransomware coder to Germany — rare, as Japan only has treaties with the US and South Korea. The case rests on a 2024 extortion of a German logistics firm.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Xbox lands GTA VI cloud-streaming rights at launch (not exclusive, and not to PCs, per Xbox strategy chief Matthew Ball); CEO Asha Sharma told staff the old Game Pass strategy sent Xbox into “freefall”.",
+     "sourceIndexes": [
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "topics": [
+    "Dev notes"
+   ],
+   "title": "Dev notes",
+   "image": null,
+   "sources": [
+    {
+     "label": "OpenAI API — Decisions guide",
+     "url": "https://developers.openai.com/api/docs/guides/decisions",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel changelog",
+     "url": "https://vercel.com/changelog/confidence-based-decision-fallbacks",
+     "kind": "primary",
+     "time": "2026-10-06T19:19:00+02:00"
+    },
+    {
+     "label": "Cursor changelog",
+     "url": "https://cursor.com/changelog/remote-control-local-agents",
+     "kind": "primary"
+    },
+    {
+     "label": "9to5Google",
+     "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+     "kind": "article",
+     "time": "2026-10-06T21:10:00+02:00"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Post-Quanten-Krypto-BSI-besorgt-ueber-McEliece-11473897.html",
+     "kind": "article",
+     "time": "2026-10-06T22:42:00+02:00"
+    },
+    {
+     "label": "IGN",
+     "url": "https://www.ign.com/articles/wizards-of-the-coast-union-demands-company-stop-pushing-generative-ai",
+     "kind": "article",
+     "time": "2026-10-06T23:10:06+02:00",
+     "via": {
+      "label": "IGN on X",
+      "url": "https://x.com/IGN/status/2107682584884879406",
+      "kind": "x"
+     }
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenAI’s Decisions API is in public beta: POST /v1/decisions returns typed predicate/choice/score answers on text or images ~10× faster than Responses (gpt-6-luna only). Vercel AI Gateway adds confidence-based fallbacks.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Cursor Remote Control: follow and reply to agents running on your own computer from the Cursor iOS app; on by default except for Enterprise orgs, with a “keep this computer awake” option.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Claude for Google Workspace is in public beta for paid Claude users: a sidebar in Docs, Sheets and Slides with an “ask before edits” mode, plus connectors to edit Workspace files from Claude.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "BSI now advises against Classic McEliece for new post-quantum projects after a paper cut a theoretical attack from well over 2^200 to ~2^114 operations; hybrid deployments aren’t practically at risk.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Wizards of the Coast’s D&D and Magic teams are joining the CWA union; their demand letter tells Hasbro to stop pushing generative AI and gives a 13 Oct deadline for voluntary recognition.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "topics": [
+    "Sports"
+   ],
+   "title": "Sports",
+   "image": {
+    "url": "https://s.hdnux.com/photos/01/67/43/61/31341662/3/rawImage.jpg",
+    "alt": "Warriors forward Yaxel Lendeborg goes up for a shot against Lakers forward Jake LaRavia at Chase Center",
+    "credit": "San Francisco Chronicle / Yalonda M. James",
+    "creditUrl": "https://www.sfchronicle.com/sports/warriors/article/warriors-yaxel-lendeborg-heeds-advice-preseason-22466010.php"
+   },
+   "sources": [
+    {
+     "label": "San Francisco Chronicle",
+     "url": "https://www.sfchronicle.com/sports/warriors/article/warriors-yaxel-lendeborg-heeds-advice-preseason-22466010.php",
+     "kind": "article",
+     "time": "2026-10-07T07:04:51+02:00"
+    },
+    {
+     "label": "Orange County Register",
+     "url": "https://www.ocregister.com/2026/10/06/depleted-lakers-drop-preseason-game-against-warriors/",
+     "kind": "article",
+     "time": "2026-10-07T07:01:04+02:00"
+    },
+    {
+     "label": "sport.de",
+     "url": "https://www.sport.de/news/ne17218749/kobel-deutet-bvb-knall-an/",
+     "kind": "article",
+     "time": "2026-10-07T07:56:52+02:00"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Warriors beat a short-handed Lakers 124-98 in their preseason home opener at Chase Center; LA sat seven players including Luka Dončić and Austin Reaves. Rookie Yaxel Lendeborg stood out.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "BVB keeper Gregor Kobel (contract to 2028) to Sport Bild: he can “very well imagine playing here for a long time” and a summer exit was “zero” topic; extension talks are expected soon.",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ]
+  }
+ ]
+}
