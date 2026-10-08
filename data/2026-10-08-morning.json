@@ -1,0 +1,638 @@
+{
+ "id": "2026-10-08-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-08T08:20:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight, since the evening brief (~19:40 → 08:20 CEST)",
+ "headline": "Anthropic’s Haiku 5.5 slashes small-model prices as OpenAI rolls GPT-6 out to all ChatGPT users; Apollo software pioneer Margaret Hamilton has died.",
+ "stories": [
+  {
+   "id": "claude-haiku-5-5",
+   "title": "Anthropic launches Claude Haiku 5.5: its fastest model, at about a quarter of Haiku 4.5’s running cost",
+   "topics": [
+    "AI",
+    "Dev"
+   ],
+   "weight": "lead",
+   "facts": [
+    "Haiku 5.5 is the third model of the 5.5 generation, two weeks after Opus 5.5. Anthropic pitches it for high-volume work (summaries, classification, compaction) and as a subagent under Opus or Sonnet on coding jobs.",
+    "List price drops to $0.10 per million input tokens and $0.50 output for prompts up to 100k tokens, 90% below Haiku 4.5’s $1/$5. Longer prompts get 50% off. Anthropic’s “~75% cheaper on average” figure accounts for a new tokenizer (SiliconANGLE).",
+    "First Haiku with an adjustable effort setting. Anthropic’s own benchmarks: 72.4% on OSWorld 2.1 (offline subset) vs 48.9% for OpenAI’s same-priced GPT-6 Luna; 39.2% on Terminal-Bench 4.0 vs 16.4%.",
+    "Alongside it: Sonnet 5.5 cache reads are now half price (Anthropic says ~20% cheaper on most agentic work), and Claude Max and Team plans get a new monthly API credit.",
+    "Already GA in GitHub Copilot (Pro and up, gradual rollout), Visual Studio Copilot Chat and GitLab Duo Agent Platform on all tiers."
+   ],
+   "whyItMatters": "Small-model pricing just fell by an order of magnitude on the Claude side, matching OpenAI’s Luna. For agent pipelines that fan out to many subagent calls, that changes the cost math more than any flagship launch.",
+   "image": {
+    "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+    "alt": "Claude Haiku 5.5 announcement graphic",
+    "credit": "Anthropic",
+    "creditUrl": "https://www.anthropic.com/claude-haiku-5-5"
+   },
+   "sources": [
+    {
+     "label": "Anthropic — Introducing Claude Haiku 5.5",
+     "url": "https://www.anthropic.com/claude-haiku-5-5",
+     "kind": "primary"
+    },
+    {
+     "label": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/10/07/anthropic-releases-claude-haiku-5-5-small-model-and-halves-sonnet-5-5-cache-read-prices/",
+     "kind": "article",
+     "time": "2026-10-08T00:28:07+02:00"
+    },
+    {
+     "label": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot/",
+     "kind": "primary",
+     "time": "2026-10-07T22:12:18+02:00"
+    },
+    {
+     "label": "Mike Krieger on X",
+     "url": "https://x.com/mikeyk/status/2107894911907614872",
+     "kind": "x",
+     "time": "2026-10-07T20:04:00+02:00"
+    },
+    {
+     "label": "GitLab on X",
+     "url": "https://x.com/gitlab/status/2107949097252536777",
+     "kind": "x",
+     "time": "2026-10-07T23:40:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "gpt-6-intelligent-ui",
+   "title": "OpenAI brings GPT-6 to every ChatGPT tier, with “Intelligent UI” answers built from live widgets",
+   "topics": [
+    "AI"
+   ],
+   "weight": "normal",
+   "facts": [
+    "GPT-6 Sol rolled out on Wednesday to Plus, Pro, Business and Enterprise; Free and Go users get GPT-6 Luna starting today (Thursday). GPT-6 is limited to the Chat tab for now (MacRumors).",
+    "Intelligent UI lets answers include tappable buttons, forms, charts, maps, checklists and small generated tools such as a bill splitter or a recipe that rescales to guest count.",
+    "OpenAI says it runs on a library of native, streamable components with a compiler that renders the interface as the model generates it. GPT-6 can also start answering while still thinking."
+   ],
+   "whyItMatters": "The chat window is turning into an app surface. That matters for anyone building on top of ChatGPT, and it lands the same evening Anthropic undercut it on small-model price.",
+   "image": {
+    "url": "https://images.macrumors.com/t/Z8vDrbzJy6xQokBTzE8L6Dhad40=/1600x/article-new/2026/10/gpt-6-intelligent-ui.jpg",
+    "alt": "Examples of ChatGPT’s Intelligent UI answers with interactive elements",
+    "credit": "MacRumors",
+    "creditUrl": "https://www.macrumors.com/2026/10/07/chatgpt-intelligent-ui/"
+   },
+   "sources": [
+    {
+     "label": "OpenAI — GPT-6 and Intelligent UI for everyone",
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
+     "kind": "primary"
+    },
+    {
+     "label": "MacRumors",
+     "url": "https://www.macrumors.com/2026/10/07/chatgpt-intelligent-ui/",
+     "kind": "article",
+     "time": "2026-10-08T00:26:55+02:00"
+    },
+    {
+     "label": "9to5Mac",
+     "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
+     "kind": "article",
+     "time": "2026-10-07T22:57:28+02:00"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+     "kind": "article",
+     "via": {
+      "label": "TechCrunch on X",
+      "url": "https://x.com/TechCrunch/status/2107894002133463221",
+      "kind": "x"
+     },
+     "time": "2026-10-07T20:01:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "margaret-hamilton-dies",
+   "title": "Margaret Hamilton, who led the Apollo flight software team, has died at 90",
+   "topics": [
+    "Science",
+    "Tech"
+   ],
+   "weight": "normal",
+   "facts": [
+    "MIT announced on Wednesday that she died on 30 September. She led the software engineering team at MIT’s Instrumentation Lab during NASA’s Apollo program.",
+    "She worked at MIT from 1959 to the mid-1970s, wrote more than 130 publications and helped establish software engineering as its own discipline, before founding companies and serving as CEO.",
+    "Obama gave her the Presidential Medal of Freedom in 2016; the citation says her software architecture “led to giant leaps for humankind.”"
+   ],
+   "image": {
+    "url": "https://news.mit.edu/sites/default/files/images/202610/margaret-hamilton-portrait-toan-trinh-mit-technology-review-A1_1.png",
+    "alt": "Portrait of Margaret Hamilton",
+    "credit": "MIT News",
+    "creditUrl": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007"
+   },
+   "sources": [
+    {
+     "label": "MIT News",
+     "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+     "kind": "primary",
+     "time": "2026-10-07T22:55:00+02:00"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/science/2026/oct/07/margaret-hamilton-moon-computer-software",
+     "kind": "article",
+     "time": "2026-10-08T02:40:37+02:00"
+    },
+    {
+     "label": "CNN",
+     "url": "https://www.cnn.com/2026/10/07/science/nasa-apollo-margaret-hamilton-software",
+     "kind": "article",
+     "time": "2026-10-08T02:05:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "openai-math-backlash",
+   "title": "Mathematicians push back on OpenAI’s 722-paper math dump; Terence Tao reposts a call to stop working with OpenAI",
+   "topics": [
+    "AI",
+    "Science"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Tao’s blog reposted a statement from the Association for Human Mathematics calling the 6 Oct release “not a demonstration of scholarship, but a demonstration of power” and urging mathematicians to discontinue work with OpenAI.",
+    "Fortune counts full or partial solutions to more than 370 open problems. Toronto’s Dan Litt calls it “great for mathematics” but worries about funding and young researchers; NYU’s Tristan Buckmaster says OpenAI hasn’t done due diligence on whether it built on others’ work.",
+    "New Scientist: OpenAI says each result took on average about “three hours of ChatGPT Pro thinking compute”, from a campaign against 4,000 open problems, but gave no true cost."
+   ],
+   "whyItMatters": "This is a material turn from yesterday’s release story: the field’s most prominent mathematician amplifying a boycott call, while others welcome the results. Verification and credit are now the fight.",
+   "image": {
+    "url": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-564056561-e1791395875162.jpg?resize=1200,600",
+    "alt": "Photo of mathematician Terence Tao sitting cross-legged on a wood floor, partly in sun and partly in shadow, shot from above.",
+    "credit": "Fortune",
+    "creditUrl": "https://fortune.com/2026/10/07/openai-math-controversy-solutions-370-outstanding-challenges-published-criticisms-celebration/"
+   },
+   "sources": [
+    {
+     "label": "Terence Tao — AHM statement (repost)",
+     "url": "https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents",
+     "kind": "primary",
+     "time": "2026-10-08T02:02:51+02:00"
+    },
+    {
+     "label": "Fortune",
+     "url": "https://fortune.com/2026/10/07/openai-math-controversy-solutions-370-outstanding-challenges-published-criticisms-celebration/",
+     "kind": "article",
+     "time": "2026-10-07T21:47:06+02:00"
+    },
+    {
+     "label": "New Scientist",
+     "url": "https://www.newscientist.com/article/2592684-openai-has-dumped-722-maths-papers-now-it-must-clean-up-the-mess/",
+     "kind": "article",
+     "time": "2026-10-07T18:22:38+02:00"
+    }
+   ]
+  },
+  {
+   "id": "fed-minutes-yields",
+   "title": "Fed minutes point to one more hike by year end; a 10-year auction clears at the highest yield since 2000",
+   "topics": [
+    "Markets"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Minutes of the September meeting: “most participants” saw another rate increase as likely appropriate by year end; Sharecast reads it as many happy to wait until December. WSJ: no urgency for October.",
+    "The $39bn 10-year auction priced at 5.300%, the highest at an auction since late 2000. The 10- and 30-year yields closed at 5.361% and 5.730%, highest since mid-2002.",
+    "Wall Street closed off its intraday lows: S&P 500 and Nasdaq −0.2%, Dow −0.7%. Brent slipped back to about $100 as Gulf shipments improved.",
+    "The 30-year fixed mortgage rate hit 7.49%, its highest in nearly three years; mortgage applications fell for a fifth straight week (MBA).",
+    "Washington Post: Fed officials see the data-center and AI investment boom as one driver of rising prices."
+   ],
+   "whyItMatters": "Follow-up to last night’s bond sell-off: the Fed isn’t rushing, but the market is still repricing long-term debt higher, and that is feeding straight into mortgages.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Sharecast — US close",
+     "url": "https://www.sharecast.com/news/market-report-us-close/us-close-stocks-fall-as-bond-yields-hit-highest-since-2002--23789040.html",
+     "kind": "article",
+     "time": "2026-10-08T01:05:03+02:00"
+    },
+    {
+     "label": "CNBC — Fed minutes",
+     "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
+     "kind": "article",
+     "time": "2026-10-07T20:00:37+02:00"
+    },
+    {
+     "label": "WSJ — Fed minutes",
+     "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f",
+     "kind": "article",
+     "time": "2026-10-07T20:24:00+02:00"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/business/2026/10/07/datacenter-boom-is-pushing-prices-higher-fed-officials-said/",
+     "kind": "article",
+     "via": {
+      "label": "Washington Post on X",
+      "url": "https://x.com/washingtonpost/status/2108022076887998560",
+      "kind": "x"
+     },
+     "time": "2026-10-08T04:30:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "samsung-record-profit",
+   "title": "Samsung guides to an $80bn quarterly operating profit on AI memory demand",
+   "topics": [
+    "Tech",
+    "Markets"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Preliminary Q3 operating profit of 107.4 trillion won (~$80bn), the first time above 100 trillion won and about 782% above a year ago (12.17 trillion). Revenue about 195 trillion won, up ~127%.",
+    "Benzinga/Reuters put the LSEG SmartEstimate at 106.1 trillion won. Shares still slipped about 0.7% in Seoul; eToro’s Josh Gilbert says the market “doesn’t hand out points for effort.”",
+    "Memory buyers are signing multiyear supply deals as AI agents consume far more memory than single chatbot queries (CNBC). Full results come later this month."
+   ],
+   "image": {
+    "url": "https://image.cnbcfm.com/api/v1/image/108373696-1791330151985-gettyimages-2264237810-cros-mobilewo260304_npWoD.jpeg?v=1791330161&w=1920&h=1080",
+    "alt": "Samsung logo at an exhibition stand",
+    "credit": "CNBC / Getty Images",
+    "creditUrl": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html"
+   },
+   "sources": [
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+     "kind": "article",
+     "time": "2026-10-08T00:51:03+02:00"
+    },
+    {
+     "label": "Yahoo Finance / Benzinga",
+     "url": "https://finance.yahoo.com/technology/ai/articles/samsungs-q3-profit-guidance-tops-015135868.html",
+     "kind": "article",
+     "time": "2026-10-08T03:51:35+02:00"
+    },
+    {
+     "label": "Reuters",
+     "url": "https://www.reuters.com/business/samsung-q3-profit-jumps-783-ai-memory-boom-lifts-chip-earnings-2026-10-07/",
+     "kind": "article",
+     "time": "2026-10-08T00:48:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "iran-strikes-houthi-airports",
+   "title": "Trump says he no longer wants an Iran deal as the US readies possible strikes; Houthi attacks on Saudi airports kill three",
+   "topics": [
+    "World"
+   ],
+   "weight": "normal",
+   "facts": [
+    "At a San Antonio rally, Trump said a deal “isn’t really something that I want to do.” NBC reports his team has discussed resuming large-scale operations in the coming weeks; Axios says that could mean “massive bombing” of energy, infrastructure and nuclear targets.",
+    "Houthi-claimed attacks hit Abha and Riyadh’s King Khalid airports on Tuesday and Wednesday: three foreign residents killed, 36 injured, per Saudi civil aviation.",
+    "The Saudi-led coalition says it intercepted a ballistic missile north of Riyadh and destroyed a launch platform in Sanaa; France 24 reports Saudi Arabia striking back.",
+    "Oil stayed near $100 even though Gulf exports are back to roughly pre-war levels of 18.5 million barrels a day (Kpler via CNBC)."
+   ],
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac68de0-1791397344.jpg?resize=1920%2C1440",
+    "alt": "Scene after an attack at a Saudi airport",
+    "credit": "Al Jazeera / Reuters",
+    "creditUrl": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports"
+   },
+   "sources": [
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
+     "kind": "article",
+     "time": "2026-10-08T05:18:52+02:00"
+    },
+    {
+     "label": "Axios",
+     "url": "https://www.axios.com/2026/10/07/trump-us-central-command-iran-israel-war-elections",
+     "kind": "article",
+     "time": "2026-10-08T01:22:57+02:00"
+    },
+    {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports",
+     "kind": "article",
+     "time": "2026-10-07T20:29:34+02:00"
+    },
+    {
+     "label": "France 24",
+     "url": "https://www.france24.com/en/middle-east/20261008-saudi-arabia-strikes-deadly-houthi-attacks-airports",
+     "kind": "article",
+     "time": "2026-10-08T05:02:35+02:00"
+    }
+   ]
+  },
+  {
+   "id": "coalition-committee-merz-false-flag",
+   "title": "Coalition committee ends quietly after four hours; Merz floats a “false flag” theory over the AfD Landtag vote",
+   "topics": [
+    "Germany"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Union and SPD leaders met at the Chancellery for about four hours, the first coalition committee in over three months. Thorsten Frei leaving: “Gut war’s.” Results are due in writing this morning, with no press conference (ZDF).",
+    "Topics were the July reform package (pensions, care, labour market, taxes) and the 2027 budget. Merz already said he doesn’t expect the package done by Christmas, hoping for spring.",
+    "On Saxony-Anhalt, Merz suggested AfD’s Tobias Rausch may also have received votes from SPD, Greens or Left lawmakers, calling it a possible “false flag” operation (DLF). Rausch himself assumes CDU votes.",
+    "Greens leader Felix Banaszak told WELT the remark “undermines the remaining trust” he has in Merz as chancellor."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "ZDFheute",
+     "url": "https://www.zdfheute.de/politik/deutschland/koalitionsausschuss-reformen-haushalt-cdu-csu-spd-100.html",
+     "kind": "article",
+     "time": "2026-10-08T03:30:00+02:00"
+    },
+    {
+     "label": "n-tv",
+     "url": "https://www.n-tv.de/politik/Koalitionsausschuss-schweigt-nach-vier-Stunden-Beratung-zu-Beschluessen-id31394109.html",
+     "kind": "article",
+     "time": "2026-10-08T02:22:09+02:00"
+    },
+    {
+     "label": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/merz-haelt-auch-false-flag-aktion-bei-wahl-von-afd-politiker-fuer-moeglich-100.html",
+     "kind": "article",
+     "time": "2026-10-08T03:53:50+02:00"
+    },
+    {
+     "label": "WELT",
+     "url": "https://www.welt.de/politik/article6ac6a07975caf261c519ce8f/nach-false-flag-vorwurf-untergraebt-das-restvertrauen-das-ich-in-friedrich-merz-als-bundeskanzler-noch-habe-sagt-banaszak.html",
+     "kind": "article",
+     "time": "2026-10-08T07:54:08+02:00"
+    }
+   ]
+  },
+  {
+   "id": "kenya-ebola",
+   "title": "Kenya’s first Ebola death: 10 in quarantine, 57 contacts still being traced",
+   "topics": [
+    "Health",
+    "World"
+   ],
+   "weight": "brief",
+   "facts": [
+    "A Kenyan man who had lived in DR Congo for 11 years died in Nairobi on Monday of the Bundibugyo strain. He had been sick for a month and flew in from Uganda; nobody knows why screening missed him in DRC, Uganda or at Nairobi airport (CIDRAP).",
+    "The DRC outbreak has killed at least 4,148 of 8,300 reported cases. Uganda was declared Ebola-free in July, which the overland route now calls into question (Al Jazeera)."
+   ],
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac66094d7af-1791385748.jpg?resize=1920%2C1440",
+    "alt": "Why single Ebola death in Kenya has sparked fears of wider African spread",
+    "credit": "Al Jazeera",
+    "creditUrl": "https://www.aljazeera.com/news/2026/10/8/why-single-ebola-death-in-kenya-has-sparked-fears-of-wider-african-spread"
+   },
+   "sources": [
+    {
+     "label": "CIDRAP",
+     "url": "https://www.cidrap.umn.edu/ebola/kenya-10-people-quarantine-officials-try-reach-57-more-contacts-deceased-ebola-patient",
+     "kind": "article",
+     "time": "2026-10-07T22:57:52+02:00"
+    },
+    {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/8/why-single-ebola-death-in-kenya-has-sparked-fears-of-wider-african-spread",
+     "kind": "article",
+     "time": "2026-10-08T07:37:09+02:00"
+    },
+    {
+     "label": "CNN",
+     "url": "https://edition.cnn.com/2026/10/07/world/kenya-ebola-first-case",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2107991889404219751",
+      "kind": "x"
+     },
+     "time": "2026-10-08T02:30:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Lithuania’s interior minister asked for army units to help guard the Kaliningrad border, citing signals Russia may announce mobilisation, after two incursions at Latvia’s border with Belarus.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "DHS proposes a $70,000 fee for international students’ Optional Practical Training work permits, calling the program “never meant to be a back door into the American workforce.”",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Police with a helicopter, drones and a thermal camera searched the Notzinger Moos near Munich airport overnight for a possible puma a hunter spotted; no trace so far, and Erding warns against leaving children to play unsupervised.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The leap second is set to go: the CGPM wants to abolish it, with final confirmation due on 15 October in Versailles. 27 have been inserted, the last in 2016.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Sony transferred 43 US patents, including XR headset designs, to Meta between June and September, a sign it is pulling back from AR/VR hardware.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Florida declared a state of emergency for 25 counties as Tropical Storm Isaias heads for the Gulf Coast.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Kyiv Independent",
+     "url": "https://kyivindependent.com/lithuania-to-deploy-troops-along-border-with-russias-kaliningrad-after-latvia-incident/",
+     "kind": "article",
+     "time": "2026-10-08T00:56:37+02:00"
+    },
+    {
+     "label": "STAT",
+     "url": "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/",
+     "kind": "article",
+     "time": "2026-10-07T21:41:16+02:00"
+    },
+    {
+     "label": "SZ.de",
+     "url": "https://www.sueddeutsche.de/muenchen/flughafen-muenchen-freilaufender-puma-warnung-behoerde-li.3559970",
+     "kind": "article",
+     "time": "2026-10-08T07:26:24+02:00"
+    },
+    {
+     "label": "Tagesspiegel (dpa)",
+     "url": "https://www.tagesspiegel.de/wissen/dpa-zeitmessung-der-schaltsekunde-steht-das-aus-bevor-16138593.html",
+     "kind": "article",
+     "time": "2026-10-08T04:03:16+02:00"
+    },
+    {
+     "label": "Road to VR",
+     "url": "https://roadtovr.com/sony-sells-xr-headset-patents-meta/",
+     "kind": "article",
+     "time": "2026-10-07T10:53:19+02:00"
+    },
+    {
+     "label": "WPBF",
+     "url": "https://www.wpbf.com/article/florida-gulf-state-of-emergency-panhandle-big-bend-isaias/74064082",
+     "kind": "article",
+     "time": "2026-10-08T06:21:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Playwright 1.64 adds page.webmcp / frame.webmcp to list and call tools a page registers via the experimental WebMCP browser API; Playwright MCP now offers them to agents by default (--no-webmcp to opt out). The release is flagged with a breaking change.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Microsoft Execution Containers (MXC) are now generally available on Windows 11: admins define which files and network destinations an agent may touch, and Windows enforces it at runtime. Replit Desktop is among the first users.",
+     "sourceIndexes": [
+      1,
+      5
+     ]
+    },
+    {
+     "text": "bun check, Bun’s tsc-compatible type checker, merged fixes for 378 more programs where it disagreed with tsc 7.0.2.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Docker’s docker-agent, a CLI plugin for defining multi-agent setups in YAML, was on the HN front page (3.9k stars).",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "ROCm 10.1 focuses on storage-to-GPU data movement: hipFile gains direct storage-to-GPU paths and the HIP runtime adds NUMA-aware host allocation.",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Playwright v1.64.0",
+     "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.0",
+     "kind": "primary",
+     "time": "2026-10-07T22:40:43+02:00"
+    },
+    {
+     "label": "Windows Developer Blog — MXC",
+     "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+     "kind": "primary",
+     "time": "2026-10-07T20:00:28+02:00"
+    },
+    {
+     "label": "oven-sh/bun #44711",
+     "url": "https://github.com/oven-sh/bun/pull/44711",
+     "kind": "primary",
+     "time": "2026-10-08T00:44:19+02:00"
+    },
+    {
+     "label": "docker/docker-agent",
+     "url": "https://github.com/docker/docker-agent",
+     "kind": "primary"
+    },
+    {
+     "label": "AMD ROCm blog — ROCm 10.1",
+     "url": "https://rocm.blogs.amd.com/ecosystems-and-partners/rocm-10.1-blog/README.html",
+     "kind": "primary"
+    },
+    {
+     "label": "Windows Developer on X",
+     "url": "https://x.com/windowsdev/status/2107961671318659508",
+     "kind": "x",
+     "time": "2026-10-08T00:30:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "BVB come back from the international break as perfect leaders (four wins from four) and host Werder Bremen on Friday at 20:30 to open matchday 5.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig host winless Holstein Kiel on Friday at 18:30 in a 2. Bundesliga crisis derby; NDR calls Braunschweig the league’s “Schießbude”.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Warriors lost 123–118 in Portland with only nine players dressed (no Curry, Green or Horford); Dalen Terry had 23 points and Miles Kelly 24 off the bench.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "49ers play at Seattle on Sunday in Week 5; the Seahawks’ Leonard Williams (ankle) was limited at Wednesday practice.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Sport Bild",
+     "url": "https://sportbild.bild.de/fussball/1-bundesliga/bundesliga-am-freitag-wer-zeigt-borussia-dortmund-werder-bremen-live-im-tv-6ac4e17573cfe42b5b025d66",
+     "kind": "article",
+     "time": "2026-10-08T06:00:48+02:00"
+    },
+    {
+     "label": "NDR",
+     "url": "https://www.ndr.de/sport/fussball/eintracht-oder-holstein-wer-kriegt-endlich-die-kurve,nordduell-324.html",
+     "kind": "article",
+     "time": "2026-10-07T16:26:15+02:00"
+    },
+    {
+     "label": "Yahoo Sports / Warriors Wire",
+     "url": "https://sports.yahoo.com/articles/short-handed-warriors-fall-preseason-051736863.html",
+     "kind": "article",
+     "time": "2026-10-08T07:17:36+02:00"
+    },
+    {
+     "label": "Seattle Seahawks",
+     "url": "https://www.seahawks.com/news/week-5-injury-report-seahawks-vs-49ers",
+     "kind": "article",
+     "time": "2026-10-08T01:15:36+02:00"
+    }
+   ]
+  }
+ ]
+}
