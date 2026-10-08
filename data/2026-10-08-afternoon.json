@@ -1,0 +1,509 @@
+{
+ "id": "2026-10-08-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-10-08T13:20:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning brief (~08:40 → 13:20 CEST)",
+ "headline": "Oil tops $102 on a report Trump wants pre-midterm Iran strike options and the DAX slips below 25,000; Anne Carson wins the literature Nobel; drones knock out a Yandex data center.",
+ "stories": [
+  {
+   "id": "hormuz-oil-markets",
+   "title": "Oil tops $102 on a report Trump wants Iran strike options before the midterms; DAX slips under 25,000",
+   "topics": [
+    "Markets",
+    "World"
+   ],
+   "weight": "lead",
+   "facts": [
+    "The Atlantic, citing two officials, reports the White House asked the Pentagon for Iran strike options that could be carried out before November’s midterms. Size, targets and whether to go ahead are still being debated.",
+    "Brent climbed above $102 and WTI traded near $90 (Bloomberg). Hurricane Isaias also shut in over 510,000 barrels a day of Gulf of Mexico output, about a quarter of the region’s supply.",
+    "A tanker off Qatar’s northern tip was hit “by multiple projectiles”, the first reported attack deep inside the Gulf in about a month (UKMTO). An IRGC adviser says Iran will close the southern route along Oman’s coast that ships use to get around its blockade.",
+    "Houthis claimed a ballistic missile strike on Riyadh’s King Khalid airport on Thursday; witnesses heard several explosions and diplomats were told to shelter in embassies. Saudi Arabia has not confirmed damage.",
+    "A new Congressional Research Service report counts 81 US aircraft destroyed or damaged in the war so far, including an F-35A and an E-3 Sentry; MQ-9 Reaper drones are more than half. Replacement cost: $1.9bn–3.3bn (CNN).",
+    "The DAX fell 0.8% to about 24,900 by midday, MDax −1.1%, Euro Stoxx 50 −1.1%; Infineon lost more than 3%. US futures point lower again, with the Dow down roughly 400 points (CNBC)."
+   ],
+   "whyItMatters": "This morning’s story was the Fed and yields; by lunch, oil and war risk are back on top. As long as both stay high, CMC Markets’ Andreas Lipkow expects investors to stay away from bigger stock purchases.",
+   "image": {
+    "url": "https://www.energyconnects.com/media/a0rh4pol/bloombergmedia_tmiu6it96osg00_08-10-2026_08-06-35_639270144000000000.jpg?width=1200&height=628&v=1dd56fbeff0d220",
+    "alt": "Oil Gains on Report Trump May Order Iran Strikes Before Midterms",
+    "credit": "Energy Connects (Bloomberg)",
+    "creditUrl": "https://www.energyconnects.com/news/oil/2026/october/oil-gains-on-report-trump-may-order-iran-strikes-before-midterms/"
+   },
+   "sources": [
+    {
+     "label": "Energy Connects (Bloomberg)",
+     "url": "https://www.energyconnects.com/news/oil/2026/october/oil-gains-on-report-trump-may-order-iran-strikes-before-midterms/",
+     "kind": "article",
+     "time": "2026-10-08T10:07:59+02:00"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/08/tanker-attacked-qatar-coast-strait-of-hormuz-iran-oil-price",
+     "kind": "article",
+     "time": "2026-10-08T11:41:00+02:00"
+    },
+    {
+     "label": "Euronews",
+     "url": "https://www.euronews.com/2026/10/08/houthis-claim-missile-strike-on-riyadh-airport-as-explosions-heard-in-saudi-capital",
+     "kind": "article",
+     "time": "2026-10-08T10:29:54+02:00"
+    },
+    {
+     "label": "Yahoo Finanzen (dpa-AFX)",
+     "url": "https://de.finance.yahoo.com/nachrichten/aktien-frankfurt-keine-entlastung-dax-093605147.html",
+     "kind": "article",
+     "time": "2026-10-08T11:36:05+02:00"
+    },
+    {
+     "label": "CNN — aircraft losses",
+     "url": "https://www.cnn.com/2026/10/08/middleeast/us-iran-war-aircraft-losses-intl-hnk-ml",
+     "kind": "article",
+     "time": "2026-10-08T07:53:57+02:00"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4javqmH",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2108137652566290941",
+      "kind": "x"
+     },
+     "time": "2026-10-08T12:09:18+02:00"
+    },
+    {
+     "label": "CNBC — live updates",
+     "url": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
+     "kind": "article",
+     "time": "2026-10-08T12:40:00+02:00"
+    },
+    {
+     "label": "The Atlantic",
+     "url": "https://www.theatlantic.com/national-security/2026/10/trump-iran-strike-midterms/688910/",
+     "kind": "article",
+     "time": "2026-10-07T21:00:34+02:00"
+    }
+   ]
+  },
+  {
+   "id": "ukraine-yandex-kramatorsk",
+   "title": "Drones knock out a Yandex data center; a Russian strike on a bus in Kramatorsk kills at least 30",
+   "topics": [
+    "World",
+    "Tech"
+   ],
+   "weight": "normal",
+   "facts": [
+    "A drone attack set fire to Yandex’s data center in Sasovo, Ryazan region; the site has stopped operating entirely and some services may be unavailable, the company told CNBC. Reuters calls it the first major attack on a Russian data hub.",
+    "Yandex says core consumer services were not affected and there were no casualties; Yandex Cloud reported power problems in one zone and told customers to switch zones. Ukraine has not claimed the attack.",
+    "In Kramatorsk, a Russian strike on a bus killed 33 people, officials say (BBC); first reports said 12. Donetsk governor Vadym Filashkin halted public transport in Kramatorsk and Sloviansk and urged residents to leave.",
+    "South Korea is recalling its ambassador from Kyiv in a row over Zelensky publicly revealing the handover of two captured North Korean soldiers, which Seoul says broke a confidentiality agreement."
+   ],
+   "whyItMatters": "Data centers are now on the target list alongside refineries, and Yandex runs Russia’s main search engine and its leading AI model, YandexGPT.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/0a5b/live/25d71060-c2fa-11f1-b8c6-6d610e41a5d9.jpg",
+    "alt": "The burning metal shell of a bus in Kramatorsk. Flames can be seen inside the bus with black smoke coming out, with debris strewn across the road",
+    "credit": "BBC World",
+    "creditUrl": "https://bbc.in/4yFyZGk"
+   },
+   "sources": [
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+     "kind": "article",
+     "time": "2026-10-08T09:52:25+02:00"
+    },
+    {
+     "label": "NBC News (Reuters)",
+     "url": "https://www.nbcnews.com/world/russia/drones-hit-yandex-data-center-first-major-attack-russian-data-hub-rcna602241",
+     "kind": "article",
+     "time": "2026-10-08T12:04:01+02:00"
+    },
+    {
+     "label": "Tagesspiegel (dpa)",
+     "url": "https://www.tagesspiegel.de/internationales/dpa-krieg-gegen-die-ukraine-viele-tote-nach-russischem-angriff-auf-bus-in-ostukraine-16139651.html",
+     "kind": "article",
+     "time": "2026-10-08T12:19:50+02:00"
+    },
+    {
+     "label": "Berliner Zeitung",
+     "url": "https://www.berliner-zeitung.de/article/streit-mit-ukraine-eskaliert-suedkorea-ruft-botschafter-aus-kiew-zurueck-10471953",
+     "kind": "article",
+     "time": "2026-10-08T11:19:44+02:00"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4yFyZGk",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X — bus strike",
+      "url": "https://x.com/BBCWorld/status/2108140476477976613",
+      "kind": "x"
+     },
+     "time": "2026-10-08T12:20:31+02:00"
+    }
+   ]
+  },
+  {
+   "id": "nobel-literature-carson",
+   "title": "Anne Carson wins the 2026 Nobel Prize in Literature",
+   "topics": [
+    "Culture"
+   ],
+   "weight": "normal",
+   "facts": [
+    "The Swedish Academy announced the prize for the Canadian author at 13:00 CEST.",
+    "Citation: “for her bold and inventive oeuvre that, in playful dialogue with the classical tradition, has created new forms for contemporary literature.”",
+    "She went in as the favourite: Kalshi traders had her at 22% before the announcement, ahead of Can Xue and Gerald Murnane."
+   ],
+   "image": {
+    "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/4f1eee84-4d80-4c77-9f3e-7dd394df3f93/nobel-prize.jpg?t=1791414203",
+    "alt": "A Nobel Prize medal",
+    "credit": "Kalshi News — pre-announcement odds",
+    "creditUrl": "https://news.kalshi.com/p/nobel-prize-in-literature-odds-anne-carson-2026"
+   },
+   "sources": [
+    {
+     "label": "The Nobel Prize on X",
+     "url": "https://x.com/NobelPrize/status/2108150755790369160",
+     "kind": "x",
+     "time": "2026-10-08T13:01:22+02:00"
+    },
+    {
+     "label": "Kalshi News — pre-announcement odds",
+     "url": "https://news.kalshi.com/p/nobel-prize-in-literature-odds-anne-carson-2026",
+     "kind": "article",
+     "time": "2026-10-08T01:11:07+02:00"
+    }
+   ]
+  },
+  {
+   "id": "germany-growth-forecast",
+   "title": "Berlin raises its 2026 growth forecast to 1.3%, up from 0.5% in April",
+   "topics": [
+    "Germany",
+    "Markets"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Economy minister Katherina Reiche’s ministry now expects 1.3% GDP growth this year, after cutting the outlook to 0.5% in April.",
+    "The ministry says the economy proved more resilient than expected to the Iran war and the jump in energy prices.",
+    "Exports, public investment and higher defence spending are named as the main drivers."
+   ],
+   "whyItMatters": "A rare upgrade, and it lands on a day when the DAX is falling on oil and bond yields.",
+   "image": null,
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/wachstumsprognose-regierung-100.html",
+     "kind": "article",
+     "time": "2026-10-08T12:38:47+02:00"
+    },
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/wirtschaft/regierung-rechnet-mit-1-3-prozent-wachstum-fuer-2026-accg-201299207.html",
+     "kind": "article",
+     "time": "2026-10-08T12:19:49+02:00"
+    }
+   ]
+  },
+  {
+   "id": "galeria-insolvency",
+   "title": "Galeria’s fourth insolvency in six years widens to its restaurants; Braunschweig store among those affected",
+   "topics": [
+    "Germany"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Galeria filed at Düsseldorf district court last Friday, its fourth insolvency in six years. Frank Kebekus, who handled the 2020 and 2022 cases, is the provisional administrator. About 12,000 people work in its 83 stores (NDR).",
+    "Two more filings now cover the restaurant and food-hall subsidiaries, affecting around 2,000 employees (RP Online). Galeria runs 36 restaurants nationwide.",
+    "In Lower Saxony and Bremen, 672 jobs in Hannover, Lüneburg, Braunschweig, Göttingen, Goslar, Oldenburg and Bremen are affected.",
+    "Braunschweig mayor Thorsten Kornblum calls it “a slap in the face”: promised investments were barely made while Galeria kept asking for rent cuts. Co-owner Bernd Beetz told Bild the insolvency was “avoidable”."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "NDR",
+     "url": "https://www.ndr.de/nachrichten/niedersachsen/erneute-galeria-insolvenz-sechs-haeuser-in-niedersachsen-sind-betroffen,galeria-248.html",
+     "kind": "article",
+     "time": "2026-10-08T12:50:12+02:00"
+    },
+    {
+     "label": "RP Online",
+     "url": "https://rp-online.de/nrw/staedte/duesseldorf/galeria-auch-restaurant-und-markthalle-sind-insolvent_aid-156110725",
+     "kind": "article",
+     "time": "2026-10-08T08:05:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "ryanair-germany-cuts",
+   "title": "Ryanair cuts 700,000 German winter seats and halves its BER schedule as the Berlin base closes on 24 October",
+   "topics": [
+    "Germany"
+   ],
+   "weight": "brief",
+   "facts": [
+    "Winter capacity in Germany drops by about 10%. The seven-aircraft Berlin base closes on 24 October, 12 routes from BER go (including Gran Canaria, Palermo, Thessaloniki, Tallinn) and Berlin capacity roughly halves.",
+    "Hamburg loses about 5%; Memmingen grows 12% and Cologne 10%, and Saarbrücken and Friedrichshafen join the winter schedule.",
+    "Ryanair blames the aviation tax and airport, security and air-traffic fees, saying BER charges are up more than 50% since 2019. The cuts follow this week’s Bremen exit."
+   ],
+   "image": {
+    "url": "https://images.airliners.de/2026/04/5fb934007c0dc717-1UBHXB__wide__1320?v=1777230127",
+    "alt": "Ein Flugzeug der Fluggesellschaft Ryanair startet vom Hauptstadtflughafen Berlin Brandenburg",
+    "credit": "airliners.de",
+    "creditUrl": "https://www.airliners.de/ryanair-kuerzt-winter-angebot-bestaetigt-aus-berliner-basis/90689"
+   },
+   "sources": [
+    {
+     "label": "airliners.de",
+     "url": "https://www.airliners.de/ryanair-kuerzt-winter-angebot-bestaetigt-aus-berliner-basis/90689",
+     "kind": "article",
+     "time": "2026-10-08T11:05:47+02:00"
+    },
+    {
+     "label": "DIE ZEIT",
+     "url": "https://www.zeit.de/mobilitaet/2026-10/ryanair-reduziert-flugangebot-deutschland-berlin-gxe",
+     "kind": "article",
+     "time": "2026-10-08T10:37:24+02:00"
+    }
+   ]
+  },
+  {
+   "id": "berlin-red-green-red-talks",
+   "title": "Berlin: Linke, SPD and Greens agree to start exploratory coalition talks after an antisemitism pact",
+   "topics": [
+    "Germany"
+   ],
+   "weight": "brief",
+   "facts": [
+    "Two and a half weeks after the 20 September election, which the Linke won with 25.7%, the three parties agreed on a package of measures for antisemitic incidents, the Greens’ and SPD’s condition for talks.",
+    "Background: a radical anti-Israel activist and a clan boss at the Linke’s election party, and incidents in its Neukölln branch. A CDU-led coalition with Greens and SPD would also have a majority.",
+    "Defence minister Boris Pistorius (SPD) opposes the alliance, saying the Berlin Linke’s problems can’t be fixed with “a few sentences” in a paper."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "DIE ZEIT",
+     "url": "https://www.zeit.de/politik/deutschland/2026-10/linke-gruene-und-spd-in-berlin-einigen-sich-auf-sondierungsgespraeche",
+     "kind": "article",
+     "time": "2026-10-08T10:34:03+02:00"
+    },
+    {
+     "label": "ZDFheute",
+     "url": "https://www.zdfheute.de/politik/deutschland/berlin-rot-gruen-rot-sondierungen-paket-gegen-antisemitismus-100.html",
+     "kind": "article",
+     "time": "2026-10-08T10:18:21+02:00"
+    },
+    {
+     "label": "DIE ZEIT",
+     "url": "https://trib.al/zZu5TxM",
+     "kind": "article",
+     "via": {
+      "label": "DIE ZEIT on X",
+      "url": "https://x.com/zeitonline/status/2108099939016323378",
+      "kind": "x"
+     },
+     "time": "2026-10-08T09:39:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "wwf-living-planet",
+   "title": "WWF: wildlife populations down 73% since 1970, but tigers, bluefin tuna and green turtles are recovering",
+   "topics": [
+    "Science",
+    "Climate"
+   ],
+   "weight": "normal",
+   "facts": [
+    "The new report covers nearly 36,000 populations of more than 5,000 vertebrate species, which WWF calls the largest such database yet. Freshwater populations are down 85%, land 69%, marine 59%.",
+    "Losses are steepest in the tropics: −95% in Latin America and the Caribbean and −80% in Africa between 1970 and 2022, against −23% in Europe and Central Asia.",
+    "Wild tigers have grown from about 3,200 in 2010 to roughly 5,700. Atlantic and Pacific bluefin tuna are no longer considered threatened.",
+    "The report says about half of global GDP, roughly $58tn in 2023, depends on nature, and calls food production the next “positive tipping point” needed."
+   ],
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/87620fbfe5b49ee45f780665e6f0a61454c1be15/123_50_5877_4699/master/5877.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=653698874e46c2e863569e843bb6e940",
+    "alt": "A wild tiger; after conservation work, wild tiger numbers have risen by more than 70% since 2010",
+    "credit": "The Guardian / wesdotphotography, Alamy",
+    "creditUrl": "https://www.theguardian.com/environment/2026/oct/08/world-must-change-food-avoid-biodiversity-collapse-wwf"
+   },
+   "sources": [
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/environment/2026/oct/08/world-must-change-food-avoid-biodiversity-collapse-wwf",
+     "kind": "article",
+     "time": "2026-10-08T01:01:03+02:00"
+    },
+    {
+     "label": "WWF — Four species whose populations are growing",
+     "url": "https://www.worldwildlife.org/news/stories/four-wildlife-species-with-population-numbers-rising/",
+     "kind": "primary",
+     "time": "2026-10-08T01:43:47+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Britain’s consulate in East Jerusalem stays open as the smaller “UK Mission, Jerusalem” with seven diplomats after Israel’s closure order expired; 20 diplomats, including the consul general, are leaving.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Amazon confirmed retail layoffs affecting fewer than 1,000 corporate roles across teams in the US, UK and India.",
+     "sourceIndexes": [
+      1,
+      5
+     ]
+    },
+    {
+     "text": "The Draconid meteor shower peaks this evening, right after dusk, with dark skies ahead of the new moon.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Apple’s spec pages now list the Magic Mouse and Magic Trackpad as compatible only with Apple Silicon Macs; macOS 27 already dropped Intel.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Former Swiss international Ramon Vega says he will run against Gianni Infantino for FIFA president, the first declared challenger.",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac71dfa-1791434234.jpg?resize=1920%2C1440",
+    "alt": "UK renames East Jerusalem consulate as a mission; some diplomats to remain",
+    "credit": "Al Jazeera",
+    "creditUrl": "https://www.aljazeera.com/news/2026/10/8/signage-at-uk-consulate-in-east-jerusalem-removed-as-israels-deadline-over"
+   },
+   "sources": [
+    {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/8/signage-at-uk-consulate-in-east-jerusalem-removed-as-israels-deadline-over",
+     "kind": "article",
+     "time": "2026-10-08T07:06:25+02:00"
+    },
+    {
+     "label": "Seeking Alpha",
+     "url": "https://seekingalpha.com/news/4651211-amazon-confirms-retail-layoffs-impacting-under-1000-corporate-roles",
+     "kind": "article",
+     "time": "2026-10-08T06:59:19+02:00"
+    },
+    {
+     "label": "Space.com",
+     "url": "https://www.space.com/stargazing/meteor-showers/the-draconid-meteor-shower-peaks-on-oct-8-before-bedtime-heres-how-to-see-it",
+     "kind": "article",
+     "time": "2026-10-07T22:00:00+02:00"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Intel-Macs-Offizieller-Support-fuer-Magic-Mouse-und-Magic-Trackpad-gestrichen-11480598.html",
+     "kind": "article",
+     "time": "2026-10-08T12:37:00+02:00"
+    },
+    {
+     "label": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/former-tottenham-hotspur-defender-ramon-175736926.html",
+     "kind": "article",
+     "time": "2026-10-08T03:22:00+02:00"
+    },
+    {
+     "label": "The Federal",
+     "url": "https://thefederal.com/category/business/amazon-cuts-fewer-than-1000-jobs-aaross-retail-operations-in-india-us-and-uk-258923",
+     "kind": "article",
+     "time": "2026-10-08T08:52:21+02:00"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "jj 0.46 can colocate extra workspaces as Git worktrees (jj workspace add --colocate), and jj bisect run now sanity-checks its endpoints first. It needs git 2.42 or newer.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Vite shipped patches on four release lines (8.2.4, 8.1.6, 7.3.7, 6.4.4) on Tuesday, mostly dev-server file-access fixes: transform access is now checked on resolved ids and safeModulePaths stores ids instead of URLs.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Vite merged import.meta.hot.acceptExports support for its bundled dev mode.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "SonicWall patched a maximum-severity (CVSS 10) pre-auth SSRF, CVE-2026-102255, in SMA1000 6210, 7210 and 8200v appliances; SMA 100 and firewall SSL-VPN are not affected.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "SvelteKit no longer treats every module as server-only when the project itself sits inside a folder named server.",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/7a050c9aa9a5c0676c156ffdd3878b96fca9be4fbed70d094a5c9516ec497f3c/jj-vcs/jj/releases/tag/v0.46.0",
+    "alt": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights Jujutsu can now colocate workspaces besid...",
+    "credit": "jj v0.46.0",
+    "creditUrl": "https://github.com/jj-vcs/jj/releases/tag/v0.46.0"
+   },
+   "sources": [
+    {
+     "label": "jj v0.46.0",
+     "url": "https://github.com/jj-vcs/jj/releases/tag/v0.46.0",
+     "kind": "primary"
+    },
+    {
+     "label": "Vite 6.4.4 changelog",
+     "url": "https://github.com/vitejs/vite/blob/v6.4.4/packages/vite/CHANGELOG.md",
+     "kind": "primary",
+     "time": "2026-10-06T07:45:15+02:00"
+    },
+    {
+     "label": "vitejs/vite #23463",
+     "url": "https://github.com/vitejs/vite/pull/23463",
+     "kind": "primary",
+     "time": "2026-10-08T12:46:53+02:00"
+    },
+    {
+     "label": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+     "kind": "article",
+     "time": "2026-10-07T13:37:07+02:00"
+    },
+    {
+     "label": "sveltejs/kit #17376",
+     "url": "https://github.com/sveltejs/kit/pull/17376",
+     "kind": "primary",
+     "time": "2026-10-08T11:26:56+02:00"
+    }
+   ]
+  }
+ ]
+}
