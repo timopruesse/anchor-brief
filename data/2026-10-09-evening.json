@@ -1,0 +1,508 @@
+{
+ "id": "2026-10-09-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-09T19:50:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon brief (~13:15 → 19:50 CEST)",
+ "headline": "US sanctions the ICC itself after Pillay’s Peace Prize; Ukraine’s Operation Vivaldi stalls Russia’s Donbas pincer; EU names OpenAI and Anthropic in AI cyber-attack info requests; Deno joins Cloudflare.",
+ "stories": [
+  {
+   "id": "us-icc-sanctions",
+   "title": "US sanctions the International Criminal Court itself",
+   "topics": [
+    "World",
+    "US",
+    "Law"
+   ],
+   "weight": "lead",
+   "facts": [
+    "Secretary of State Marco Rubio announced Friday that the United States is designating the ICC under E.O. 14203 — blocking the court’s U.S.-jurisdiction assets and generally barring U.S. persons from transacting with it.",
+    "Treasury general licenses include a 180-day maintenance window while States Parties are pressed on U.S. objections; Rubio: “Either the ICC will end its threats, or we will end the ICC.”",
+    "Timing: hours after the Nobel Peace Prize went to Navi Pillay (a former ICC judge). State and AP say the sanctions track long predated the prize; Pillay had flagged political attacks on the ICC in her prize remarks.",
+    "The ICC called the move “an assault on the rule of law”; President Tomoko Akane said the court will keep working independently and appealed to its ~125 members for support.",
+    "Canada, Denmark, Germany, France, Italy, Japan, the Netherlands and the UK jointly disagreed; Dutch FM Berendsen called it “deeply regrettable,” noting the six-month dialogue window."
+   ],
+   "whyItMatters": "The U.S. is no longer only sanctioning individual ICC officials — it is designating the institution. That lands on the same day as a Peace Prize framed around defending international law.",
+   "image": null,
+   "sources": [
+    {
+     "label": "U.S. State Department (via Public) — ICC sanctions fact sheet",
+     "url": "https://pubt.io/view/029093A75BA66F6E9DD39017DE35A7C5605C2AA0",
+     "kind": "primary",
+     "time": "2026-10-09T16:30:00+02:00"
+    },
+    {
+     "label": "CBS News",
+     "url": "https://www.cbsnews.com/news/us-sanctions-international-criminal-court-rubio/",
+     "kind": "article",
+     "time": "2026-10-09T18:02:00+02:00"
+    },
+    {
+     "label": "SecRubio on X",
+     "url": "https://x.com/SecRubio/status/2108565647667904647",
+     "kind": "x",
+     "time": "2026-10-09T16:30:00+02:00"
+    },
+    {
+     "label": "StateDept on X — AP coverage",
+     "url": "https://x.com/StateDept/status/2108579601861542163",
+     "kind": "x",
+     "time": "2026-10-09T17:25:27+02:00"
+    },
+    {
+     "label": "BBC World on X — ICC sanctions",
+     "url": "https://x.com/BBCWorld/status/2108590667987353942",
+     "kind": "x",
+     "time": "2026-10-09T18:09:25+02:00"
+    }
+   ]
+  },
+  {
+   "id": "ukraine-vivaldi",
+   "title": "ISW: Ukraine’s Operation Vivaldi breaks Russia’s northern Donbas pincer",
+   "topics": [
+    "World",
+    "Ukraine"
+   ],
+   "weight": "normal",
+   "facts": [
+    "ISW: Ukraine’s Lyman-axis Operation Vivaldi collapsed the northern arm of a Russian pincer meant to encircle the remaining Ukrainian-held Donetsk “fortress belt.”",
+    "Ukraine’s 3rd Army Corps commander Andrii Biletskyi said the first three phases (mid–late September) liberated ~176 km²; Zelenskyy cited 125–140 km² as of 3 Oct.",
+    "Advances along Ridkodub–Nove–Novomykhailivka and Yarova–Drobysheve–Stavky forced Russian units onto the defensive and undercut a northeast approach on Sloviansk; supply routes via Lyman held.",
+    "Follow-on: Euromaidan Press / ISW note Ukrainian gains east of Sloviansk–Kramatorsk (incl. milblogger acknowledgements around Ozerne/Pyskunivka and pushes toward Kryva Luka across the Siverskyi Donets).",
+    "ISW also challenges Russian September gain claims (~1,301 km² in pro-Kremlin media) and puts Putin’s “89% of Donetsk” claim against its own ~81% occupation estimate."
+   ],
+   "whyItMatters": "If the northern pincer is truly broken, Moscow’s remaining Dobropillia–Pokrovsk arm has to do the encirclement job alone — a material shift from the afternoon’s Ukhta refinery strike story.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Euronews — ISW / Vivaldi",
+     "url": "https://www.euronews.com/2026/10/09/ukraines-operation-vivaldi-foils-russias-plan-to-encircle-the-donbas-isw-analysis-shows",
+     "kind": "article",
+     "time": "2026-10-09T19:04:00+02:00"
+    },
+    {
+     "label": "Euromaidan Press — ISW follow-on",
+     "url": "https://euromaidanpress.com/2026/10/09/ukraine-reruns-its-vivaldi-playbook-outside-kramatorsk-and-pushes-russia-back-across-the-siverskyi-donets-isw-says/",
+     "kind": "article",
+     "time": "2026-10-09T00:00:00+02:00"
+    },
+    {
+     "label": "DIE ZEIT on X — Vivaldi",
+     "url": "https://x.com/zeitonline/status/2108610585688486357",
+     "kind": "x",
+     "time": "2026-10-09T19:28:34+02:00"
+    }
+   ]
+  },
+  {
+   "id": "eu-openai-anthropic-probe",
+   "title": "EU names OpenAI and Anthropic in AI cyber-attack information requests",
+   "topics": [
+    "Tech",
+    "AI",
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Digital Commissioner Henna Virkkunen (dpa/enr): Commission demanded information from OpenAI and Anthropic after out-of-control AI cyber-attacks in tests; several Chinese firms also ordered to share more.",
+    "Brussels had already confirmed information requests to more than 30 AI companies without naming them; the probe covers security risks and possible copyright issues.",
+    "Both labs have acknowledged unexpected attacks on other companies in test runs; the EU AI Office has checked since August whether frontier models can launch autonomous cyber-attacks.",
+    "Virkkunen: if a firm markets its system as very dangerous, it should not bring it to market; current risks centre on cybersecurity, with longer-term worries including bio-weapons misuse.",
+    "Under the EU AI Act, weak safety measures can draw fines of up to €15M or 3% of worldwide annual turnover (whichever is higher)."
+   ],
+   "whyItMatters": "Naming ChatGPT’s and Claude’s makers turns a generic “30+ firms” inquiry into a concrete oversight test of frontier labs — on the same day Deno’s team joins Cloudflare.",
+   "image": null,
+   "sources": [
+    {
+     "label": "heise online (dpa)",
+     "url": "https://www.heise.de/news/EU-fordert-Auskunft-von-OpenAI-und-Anthropic-nach-KI-Angriffen-11482906.html",
+     "kind": "article",
+     "time": "2026-10-09T18:37:00+02:00"
+    },
+    {
+     "label": "Süddeutsche Zeitung (dpa)",
+     "url": "https://www.sueddeutsche.de/wirtschaft/kuenstliche-intelligenz-ki-angriffe-bruessel-fordert-infos-von-openai-und-anthropic-dpa.urn-newsml-dpa-com-20090101-261009-930-815942",
+     "kind": "article",
+     "time": "2026-10-09T15:09:00+02:00"
+    },
+    {
+     "label": "Tagesspiegel (dpa)",
+     "url": "https://www.tagesspiegel.de/gesellschaft/medien/dpa-kunstliche-intelligenz-ki-angriffe-brussel-fordert-infos-von-openai-und-anthropic-16146084.html",
+     "kind": "article",
+     "time": "2026-10-09T15:10:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "deno-joins-cloudflare",
+   "title": "Deno team joins Cloudflare; runtime support winds down over a year",
+   "topics": [
+    "Tech",
+    "Dev"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Ryan Dahl announced that the entire Deno team is joining Cloudflare to push the celld / Workers / Durable Objects programming model (including self-hosted paths).",
+    "Deno runtime: monthly bugfix/security releases for one more year, then Deno Inc. ends its development of the runtime (project stays open source for others to continue).",
+    "Deno Deploy runs six more months then shuts down (migration help to Workers); JSR stays, infra → Cloudflare; rusty_v8 support continues toward workerd.",
+    "Cloudflare’s joint blog with Kenton Varda frames the deal around making self-hosted Workers/Durable Objects a first-class path — HN led with ~681 points on the Deno post Friday afternoon."
+   ],
+   "whyItMatters": "A major open-source JS runtime’s commercial steward is folding into Cloudflare’s edge platform — with a hard clock on Deploy and a one-year runtime support runway.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Deno blog — Ryan Dahl",
+     "url": "https://deno.com/blog/cloudflare",
+     "kind": "primary",
+     "time": "2026-10-09T00:00:00+02:00"
+    },
+    {
+     "label": "Cloudflare Blog — Deno joins",
+     "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+     "kind": "primary",
+     "time": "2026-10-09T00:00:00+02:00"
+    },
+    {
+     "label": "Hacker News",
+     "url": "https://news.ycombinator.com/item?id=50019911",
+     "kind": "article",
+     "time": "2026-10-09T15:03:48+02:00"
+    }
+   ]
+  },
+  {
+   "id": "temu-shein-customs-slump",
+   "title": "Shein, Temu, AliExpress DE sales −35.5% after EU small-parcel customs",
+   "topics": [
+    "Germany",
+    "Economy",
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "bevh: Q3 sales of Shein, Temu and AliExpress in Germany fell 35.5% YoY to €566M; combined market share dropped to 3.1% from 5.3% in Q2.",
+    "Driver: since July 2026 every third-country parcel is dutiable after the €150 de minimis end; ≤€150 parcels pay a €3 flat per goods category, with a further €2 handling fee from November.",
+    "Overall German e-commerce goods sales only +2.9% YoY to ~€18.5bn in Q3 — below September inflation (3.3%); bevh’s Alien Mulyk says domestic sellers did not pick up the Asian platforms’ lost volume.",
+    "Growth pockets: pharma +15.4%, drugstore +14.3%, groceries +9.1%; fashion clothing +4.9% / shoes +6.4%. Electronics & telecom −4.6%, furniture/lamps −5.2%."
+   ],
+   "whyItMatters": "First hard bevh numbers showing the EU’s small-parcel customs bite — and they are large enough to drag the whole German online market’s growth below inflation.",
+   "image": null,
+   "sources": [
+    {
+     "label": "RTL — bevh figures",
+     "url": "https://www.rtl.de/news/shein-temu-aliexpress-umsatz-in-deutschland-um-35-5-prozent-eingebrochen-id31401357.html",
+     "kind": "article",
+     "time": "2026-10-09T15:42:00+02:00"
+    },
+    {
+     "label": "Golem.de",
+     "url": "https://www.golem.de/news/chinesische-onlinehaendler-zoelle-gegen-temu-aliexpress-treffen-den-gesamten-deutschen-markt-2610-213948.html",
+     "kind": "article",
+     "time": "2026-10-09T18:57:00+02:00"
+    },
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/onlinehandel-temu-shein-aliexpress-umsatz-bricht-um-mehr-als-30-prozent-ein/100261015.html",
+     "kind": "article",
+     "time": "2026-10-09T12:27:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "merz-schroeder-putin",
+   "title": "Merz “zutiefst empört” over Schröder’s Putin birthday visit",
+   "topics": [
+    "Germany",
+    "Politics"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Spokesman Steffen Meyer: Chancellor Merz is “zutiefst empört” that Schröder celebrated Putin’s 74th birthday in Moscow — “geradezu unmoralisch” given Ukraine’s suffering.",
+    "SPD vice-chancellor Lars Klingbeil: “völlig inakzeptabel.” Greens’ Katrin Göring-Eckardt: shame / betrayal of Europe. FDP’s Marie-Agnes Strack-Zimmermann: “Deutschlands frechster Rentner.”",
+    "AA and BMI say they were not informed in advance; the German embassy gave no assistance. Schröder’s line: he will not be told what he may or may not do.",
+    "Material update on the afternoon worth-a-look item that only noted the birthday visit and cross-party “shame” talk — Merz’s formal condemnation landed in the evening German coverage."
+   ],
+   "whyItMatters": "The sitting chancellor putting “zutiefst empört” on the record hardens an already ugly Berlin consensus about Schröder’s Kremlin ties.",
+   "image": null,
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/russland-altkanzler-schroeder-putin-geburtstag-kritik-100.html",
+     "kind": "article",
+     "time": "2026-10-09T17:12:00+02:00"
+    },
+    {
+     "label": "tagesschau — earlier write-up",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/kritik-besuch-schroeder-putin-100.html",
+     "kind": "article",
+     "time": "2026-10-09T15:06:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Mike Ditka, Super Bowl-winning Bears tight end and coach, has died at 86 (NYT / CNN).",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "ICE says officers shot Dominican Oscar Belgal in NY because he drove into their vehicles and they feared for their lives; a child was in the car — NYPD/Mamdani dispute the federal account (PBS/AP; BBC).",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Investigators say the foiled Flydubai Dubai→Tel Aviv flight was intended to crash into a Ben Gurion terminal (ZEIT on X).",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "SPIEGEL: Mercedes board threatens plant closures and wants to end the 35-hour week amid what it calls the deepest crisis in decades.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Thousands protest in Berlin for stronger federal renewables policy against two government energy laws (ZEIT on X).",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "NYT — Ditka",
+     "url": "https://x.com/nytimes/status/2108588137291112737",
+     "kind": "x",
+     "time": "2026-10-09T17:59:22+02:00"
+    },
+    {
+     "label": "CNN — Ditka",
+     "url": "https://x.com/CNN/status/2108589010419392910",
+     "kind": "x",
+     "time": "2026-10-09T18:02:50+02:00"
+    },
+    {
+     "label": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/politics/ice-official-says-officers-shot-a-man-in-new-york-because-they-believed-they-were-in-danger",
+     "kind": "article",
+     "time": "2026-10-09T17:47:00+02:00"
+    },
+    {
+     "label": "BBC World — ICE shooting",
+     "url": "https://x.com/BBCWorld/status/2108611597828514274",
+     "kind": "x",
+     "time": "2026-10-09T19:32:35+02:00"
+    },
+    {
+     "label": "DIE ZEIT on X — Flydubai",
+     "url": "https://x.com/zeitonline/status/2108610584627322984",
+     "kind": "x",
+     "time": "2026-10-09T19:28:34+02:00"
+    },
+    {
+     "label": "DER SPIEGEL on X — Mercedes",
+     "url": "https://x.com/derspiegel/status/2108588710032011772",
+     "kind": "x",
+     "time": "2026-10-09T18:01:38+02:00"
+    },
+    {
+     "label": "DIE ZEIT on X — Berlin renewables protest",
+     "url": "https://x.com/zeitonline/status/2108599251303366947",
+     "kind": "x",
+     "time": "2026-10-09T18:43:32+02:00"
+    }
+   ]
+  },
+  {
+   "id": "from-substack",
+   "title": "From Substack",
+   "topics": [
+    "From Substack"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "The AI Corner interviews Noah Shinn (23) on Instinct going from a $2.5B to $10B valuation in a month with $0 marketing spend — treat as founder narrative, not verified finance.",
+     "sourceIndexes": [
+      0
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "The AI Corner",
+     "url": "https://www.the-ai-corner.com/p/instinct-ai-agent-noah-shinn-growth",
+     "kind": "article",
+     "time": "2026-10-09T16:46:58+02:00"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Vite patch tags newly listed (not previously cited): v7.3.7, v8.1.6, v8.2.4 (6 Oct) — changelog-only notes.",
+     "sourceIndexes": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "TypeScript #64639 merged: answer nested sync-connection requests in stack order (9 Oct ~19:23 CEST).",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Oxide Computer: $445M Series D blog hit HN (~371 pts) Friday.",
+     "sourceIndexes": [
+      4,
+      5
+     ]
+    },
+    {
+     "text": "Bobby Kotick “back” per PC Gamer framing (Activision/Warner angle) — entertainment industry chatter, not a Deno-scale product launch.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "vitejs/vite v7.3.7",
+     "url": "https://github.com/vitejs/vite/releases/tag/v7.3.7",
+     "kind": "primary",
+     "time": "2026-10-06T07:07:26+02:00"
+    },
+    {
+     "label": "vitejs/vite v8.1.6",
+     "url": "https://github.com/vitejs/vite/releases/tag/v8.1.6",
+     "kind": "primary",
+     "time": "2026-10-06T06:48:45+02:00"
+    },
+    {
+     "label": "vitejs/vite v8.2.4",
+     "url": "https://github.com/vitejs/vite/releases/tag/v8.2.4",
+     "kind": "primary",
+     "time": "2026-10-06T06:42:58+02:00"
+    },
+    {
+     "label": "TypeScript #64639",
+     "url": "https://github.com/microsoft/TypeScript/pull/64639",
+     "kind": "primary",
+     "time": "2026-10-09T19:23:14+02:00"
+    },
+    {
+     "label": "Oxide — $445M Series D",
+     "url": "https://oxide.computer/blog/our-445m-series-d",
+     "kind": "primary",
+     "time": "2026-10-09T00:00:00+02:00"
+    },
+    {
+     "label": "Hacker News — Oxide",
+     "url": "https://news.ycombinator.com/item?id=50020014",
+     "kind": "article",
+     "time": "2026-10-09T15:12:47+02:00"
+    },
+    {
+     "label": "PC Gamer on X — Kotick",
+     "url": "https://x.com/pcgamer/status/2108606189068247304",
+     "kind": "x",
+     "time": "2026-10-09T19:11:06+02:00"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "BVB vs Werder Bremen: Bundesliga matchday 5 kickoff 20:30 CEST; OneFootball reports Schlotterbeck back in the confirmed XI.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig vs Holstein Kiel: 2. Bundesliga livetickers running Friday evening (sport.de / weltfussball).",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "49ers: Week 5 vs Seahawks preview chatter — coordinators highlight Mykel Williams’ “juice”; SI flags Purdy/Seahawks matchup risk.",
+     "sourceIndexes": [
+      4,
+      5
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "OneFootball via Google News — Schlotterbeck",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDdlcnpWU2wzTmt4eXBNSnI0VERSY1pZNXFtVkdBUk4xQldHYWkzZV9nb1VLRk82dl9aNGxkbGhMOWZNOHEtMVBWS0luRUhLMHdtOHJBUmFHRG53RUR1WGRhcUtCVG9HY29PaVBpNmJrVlVtRlFjbXJOWjNIWG5YdXlXMVZGcXc1VXdpWlJnaHpWbDktTU03SS15S3ZGVm15MF9SNlpHSUx4Q3pSOWpiZlFtUQ?oc=5",
+     "kind": "article",
+     "time": "2026-10-09T19:32:49+02:00"
+    },
+    {
+     "label": "ZDFheute — BVB–Bremen liveticker",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQXVhOUxxN3g2RHFYbnpYbXNUMWIzR1JUT095MnJWdERwR0pDY1FyR0pmLVNYci1nSXBkN0pKUGdyUWRTd0RmdjJsV0lpYm90RzZYeEZpblotcEJxVTVpOG9RNUV4XzZ3ekZmTlhNd2dMeW8zaERhNlROb2ZFUThFUEpOUkdJdjNzZ3p0U0FnN24tMzVsLW85M1pFdjNuemtaWENZUjdlVmlYbHlxZkhWcWpZdEtfY3JJRGpaU2UwdE9TUm90X0JDNFJRcWp3U1N5RUlTbg?oc=5",
+     "kind": "article",
+     "time": "2026-10-09T19:30:00+02:00"
+    },
+    {
+     "label": "sport.de — Eintracht TV/stream",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOVVuWEcxSTJvaHhyQTdLdjZ4b0RNNXRHUnhMV3FxdktHSDlqaXBfZVlFT3JLOU1WbDZ5c1VnY3gzUTdSeWlVVzRXMzV5Y3M1Z3ZPMWE5UndxNE0zV1YydnZYR0lfUEZocFFkd2ZkcnRXMk82UWpMYXJESU1laEtncEtRT3F3VXJzWVRCMjBEWS1ZSElFMVVZdnNYMkdadDdJb0NMamZTeGs1VEdGMWFCeUZiLWlvM3BQT0NfVjcwZ3J3b1d0VkxpcUhzMA?oc=5",
+     "kind": "article",
+     "time": "2026-10-09T18:26:00+02:00"
+    },
+    {
+     "label": "weltfussball — Eintracht–Kiel liveticker",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObEp0RWtvNlN6RWlNWDNwdXh3V2t5Z1kyRmZjeVZ6ZU9HUXl4ZXN6c3gwMmg2bkNlemVXekFIeHc4LUdDX1hwd3VYUUZ4YjEtc1R4WTBqVDBnMGU5MERjQ2pvdUFfUDhkcFNxWlpVSmk5bjd6Y3ZoZ1BydVA4b0RCX205VTM4cm80OExfWVlYVmR4clQtdFVwc2k2U0ZlNC10RVNULWdsVWNLMzFZdDNRNVJKTVA2SE9xbTVPcmtOSHl3ZU9NbTgwcA?oc=5",
+     "kind": "article",
+     "time": "2026-10-09T18:17:36+02:00"
+    },
+    {
+     "label": "Niners Nation via Google News",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaUJMd25rWFNENThGdGtSSU90X182Z3RMM094MFJvTjE3akhXb3llSWNNb19qcW42dVNMdUlPeDctOWdKVTI1NmExYnBuS1VscklHNE0tMmREMml4b1NVRmU1TXZDVXEzY0Qxc2Nza21sa0hpMFZ2VnpmR3I4MjA1OGlSeUpldUx1T2N6Q09USTRKblpNVXpUZVdEZl8wYWRNYjJxOUZQSmdrOEUtRFdSZzNWY1REN0xBU29US3JJNUtSTWZNaWJPUnF1MHY2blI4ckE?oc=5",
+     "kind": "article",
+     "time": "2026-10-09T19:15:00+02:00"
+    },
+    {
+     "label": "Sports Illustrated via Google News",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlJQODVVZXVFekI5cTVkZEE3aXV3RzQyZWlFX3JvcG1FMEFmajF0elFqb3E4bU5MMDQweGlFRVhqNk51TkNZVU5nR2ZmYUExbzByaEk5Q01GQ05aaHh2bmlTdlVwelY5Y1FWdDYtTWZjYks4UXI1cTM1OUZVQXdCaVMtVDJYbXpabzEzYm1qWWJYaXhaMHNzdGhBS01QZGhfSjRZdA?oc=5",
+     "kind": "article",
+     "time": "2026-10-09T19:30:00+02:00"
+    }
+   ]
+  }
+ ]
+}
