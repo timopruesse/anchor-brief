@@ -1,0 +1,493 @@
+{
+ "id": "2026-10-09-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-09T08:15:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight / since the afternoon brief (~13:20 → 08:15 CEST); evening 2026-10-08 did not publish",
+ "headline": "OpenAI bans Russia’s first Category-5 “false front” and an Iranian fake-journalist network; Trump rules out Iran strikes before the midterms as Tehran weighs a Hormuz reopen plan.",
+ "stories": [
+  {
+   "id": "openai-false-front-io",
+   "title": "OpenAI bans Russia’s first Category-5 “false front” and Iran’s “Bogus Bylines” journalist network",
+   "topics": [
+    "Tech",
+    "Security",
+    "World"
+   ],
+   "weight": "lead",
+   "facts": [
+    "OpenAI on Thursday banned ChatGPT clusters from Russia and Iran that ran “false front” influence ops — the first Category-5 disruption since it began IO reporting (Breakout Scale 1–6).",
+    "Russia “Dark Clark”: operators ran Latin America’s Social Research Center under fake persona “Mia Clark,” co-opting unwitting local staff; messaging hit Ukraine and local politics (Argentina, Bolivia).",
+    "Some Dark Clark fakes triggered fact-checks and official denials; one Peru-school Bandera stunt fed into Polish–Ukrainian tensions and comment from a Polish MEP.",
+    "Iran “Bogus Bylines” (Category 4): seven fake Western journalist personas pitched ~100 articles into about a dozen outlets (Jul 2025–Oct 2026), mostly on the US–Iran war; activity looked like a for-hire commercial actor.",
+    "AI mainly sped workflows (internal reports, pitches, language polish) on top of pre-AI tradecraft — fake bylines, front think tanks, planted “leaks.” OpenAI shared findings with authorities and peers."
+   ],
+   "whyItMatters": "The ops that land in real outlets, not just fake social accounts, still score highest on OpenAI’s scale — and Dark Clark is the first Category 5 the company has cut since it started publishing these reports.",
+   "image": {
+    "url": "https://www.afp.com/sites/default/files/afp-stories/e8543d10f47fdda61439ee722ce97084-0-hi.jpg",
+    "alt": "State actors are exploiting AI tools to peddle sophisticated propaganda, researchers say — ANDREJ IVANOV / AFP",
+    "credit": "AFP",
+    "creditUrl": "https://www.afp.com/en/openai-says-iran-russia-influence-ops-busted"
+   },
+   "sources": [
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+     "kind": "primary",
+     "time": "2026-10-08T02:00:00+02:00"
+    },
+    {
+     "label": "NPR",
+     "url": "https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatgpt",
+     "kind": "article",
+     "time": "2026-10-09T02:25:00+02:00"
+    },
+    {
+     "label": "CNA",
+     "url": "https://www.channelnewsasia.com/world/openai-russia-iran-chatgpt-influence-fake-front-6444996",
+     "kind": "article",
+     "time": "2026-10-08T12:00:00+02:00"
+    },
+    {
+     "label": "AFP",
+     "url": "https://www.afp.com/en/openai-says-iran-russia-influence-ops-busted",
+     "kind": "article",
+     "time": "2026-10-09T03:24:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "iran-hormuz-diplomacy",
+   "title": "Trump rules out Iran strikes before the midterms; Tehran reviews a 7-day Hormuz reopen plan; EU warns of a winter gas shortfall",
+   "topics": [
+    "World",
+    "Markets",
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Trump said Thursday the US “will not be attacking Iran at any time prior to” the Nov 3 midterms, citing “productive discussions” with Tehran (Truth Social; AP). The naval blockade of Iranian ports stays in place.",
+    "Foreign Minister Abbas Araghchi says Tehran is reviewing Washington’s reply to its “seven-day plan” to reopen the Strait of Hormuz and expects to respond within days (IRNA via Anadolu/TRT).",
+    "Under that plan, the US would take agreed steps in the first 4–5 days; normal navigation would resume on day 6 and broader talks start on day 7.",
+    "Treasury (Operation Economic Outcast) blacklisted 17 more shadow-fleet vessels; State sanctioned 10 entities, 6 individuals and 5 vessels (UPI Oct 9).",
+    "POLITICO (IEEFA + ENTSO-G): the EU faces a winter gas shortfall of up to 14 bcm (~7% of demand / power for ~10–12 million homes) with storage at a seasonal record low near 70%."
+   ],
+   "whyItMatters": "Afternoon’s lead was oil above $102 on a report of pre-midterm strike options. Overnight the White House publicly took strikes off the table before Nov 3 while sanctions and Hormuz diplomacy keep running — and Europe’s storage math gets tighter.",
+   "image": {
+    "url": "https://media.assettype.com/gulfnews%2F2026-08-02%2Fuygte2y2%2Fgulfnews2026-01-28lywsxm9gIranian-Foreign-Minister-Abbas-Araghchi.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+    "alt": "X | CentCom",
+    "credit": "Gulf News",
+    "creditUrl": "https://gulfnews.com/world/mena/us-iran-war-trump-rules-out-strikes-before-midterms-as-tehran-weighs-hormuz-plan-iranian-spies-eye-us-bases-in-germany-1.500704037"
+   },
+   "sources": [
+    {
+     "label": "WSJ",
+     "url": "https://www.wsj.com/politics/national-security/trump-says-u-s-wont-resume-strikes-on-iran-before-midterms-1e8ed73e",
+     "kind": "article",
+     "time": "2026-10-08T19:25:00+02:00"
+    },
+    {
+     "label": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/us-iran-war-trump-rules-out-strikes-before-midterms-as-tehran-weighs-hormuz-plan-iranian-spies-eye-us-bases-in-germany-1.500704037",
+     "kind": "article",
+     "time": "2026-10-09T06:00:00+02:00"
+    },
+    {
+     "label": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/middle-east/iran-reviewing-us-feedback-on-7-day-plan-expects-to-respond-within-days/4082358",
+     "kind": "article",
+     "time": "2026-10-08T18:00:00+02:00"
+    },
+    {
+     "label": "CNBC — shadow fleet",
+     "url": "https://www.cnbc.com/2026/10/08/iran-treasury-sanctions-shadow-fleet.html",
+     "kind": "article",
+     "time": "2026-10-08T22:00:00+02:00"
+    },
+    {
+     "label": "POLITICO — EU gas",
+     "url": "https://www.politico.eu/article/eu-faces-gas-supply-shortage-iran-war-winter-looms/",
+     "kind": "article",
+     "time": "2026-10-09T06:01:00+02:00"
+    },
+    {
+     "label": "US Treasury",
+     "url": "https://home.treasury.gov/news/press-releases/sb0653",
+     "kind": "primary",
+     "time": "2026-10-08T18:00:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "hanning-china-track",
+   "title": "Hanning case: Spiegel reports China contacts via ex-attaché Wang Jianzheng; ~2,000 BND docs still the core of the probe",
+   "topics": [
+    "Germany",
+    "Security"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Ex-BND chief August Hanning (80) and ex-aide Manfred D. were arrested ~Oct 6 on suspicion of espionage, attempted treason and related charges; the federal prosecutor confirmed the detentions (tagesschau / DW).",
+    "Prosecutors say D. passed Hanning roughly 2,000 internal BND documents — many ND-Lage briefings — for pay, into at least mid-2022; topics allegedly include Iran’s nuclear programme and Russia’s army.",
+    "Spiegel reports investigators are looking at Hanning’s contacts with Chinese Maj. Gen. (ret.) Wang Jianzheng, a former military attaché in Germany; the prosecutor has not confirmed that angle.",
+    "Allied services were already reviewing shared material after the arrests (covered Oct 7). No country of origin was named in the prosecutor’s first statement."
+   ],
+   "whyItMatters": "If a former BND president used live service material with a foreign power, partner trust is the casualty — the China track is the new overnight angle on a case already called Germany’s biggest espionage scandal of the century.",
+   "image": {
+    "url": "https://static.dw.com/image/79560324_6.jpg",
+    "alt": "man in glasses and suit",
+    "credit": "Deutsche Welle",
+    "creditUrl": "https://www.dw.com/en/germanys-ex-spy-chief-arrested-for-espionage/a-79560278"
+   },
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/investigativ/ndr-wdr/bnd-hanning-100.html",
+     "kind": "article",
+     "time": "2026-10-06T10:06:00+02:00"
+    },
+    {
+     "label": "Deutsche Welle",
+     "url": "https://www.dw.com/en/germanys-ex-spy-chief-arrested-for-espionage/a-79560278",
+     "kind": "article",
+     "time": "2026-10-06T18:00:00+02:00"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/panorama/justiz/august-hanning-ex-bnd-chef-soll-kontakte-zu-chinesischem-geheimdienstmann-gepflegt-haben-a-f998f90b-f899-4c5f-ad64-d449ca6104a1",
+     "kind": "article",
+     "time": "2026-10-08T12:00:00+02:00"
+    },
+    {
+     "label": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/europe/report-says-german-ex-spy-chief-suspected-of-passing-secrets-to-china/4082368",
+     "kind": "article",
+     "time": "2026-10-08T18:00:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "ecosia-drops-mistral",
+   "title": "Ecosia drops Mistral for open-weight models (Qwen, GLM, Kimi) via Melious — CEO says quality lagged ~a year, costs halved",
+   "topics": [
+    "Tech",
+    "Europe",
+    "Germany"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Berlin search engine Ecosia is leaving French AI lab Mistral for open-weight models hosted by Melious, including Chinese Qwen, GLM and Kimi, CEO Christian Kroll told POLITICO.",
+    "Kroll: Mistral quality is “a year behind,” servers were overloaded (“we were simply too large a customer”), and nuclear-heavy French power plus foreign investors undercut Ecosia’s climate and “sovereignty” pitch.",
+    "Switch “roughly cut our costs in half while improving quality and performance,” Kroll said. Ecosia had replaced OpenAI with Mistral only in May.",
+    "Mistral co-founder Guillaume Lample invited Ecosia to test Large 4 with early access; Mistral did not comment to POLITICO on the dump."
+   ],
+   "whyItMatters": "A high-profile European customer walking from Europe’s AI champion to Chinese open weights is a sharp signal for the EU’s “sovereign AI” story — and for who actually wins on price and quality.",
+   "image": null,
+   "sources": [
+    {
+     "label": "POLITICO",
+     "url": "https://www.politico.eu/article/germany-ecosia-search-engine-mistral-china-open-source-ai/",
+     "kind": "article",
+     "time": "2026-10-06T19:07:00+02:00"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/en/news/Adieu-Mistral-Ecosia-switches-to-Chinese-open-source-AI-models-11481432.html",
+     "kind": "article",
+     "time": "2026-10-08T12:00:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "afd-bsw-saxony-anhalt",
+   "title": "AfD and BSW in Saxony-Anhalt push a joint Landtag “peace” motion to end Ukraine aid and Russia sanctions",
+   "topics": [
+    "Germany",
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "AfD and BSW plan their first joint Landtag motion in Magdeburg: stop German weapons and financial aid to Ukraine, lift Russia sanctions, and prioritise peace talks (MDR / dpa).",
+    "The draft asks the state government to use every lever — especially a Bundesrat initiative — against “further escalation.” A special session could come within two weeks once a quarter of deputies demand it.",
+    "BSW floor leader Thomas Schulze calls it a “peace-policy signal to Berlin”; SPD’s Andreas Schmidt says pretending Magdeburg can end federal/EU policy only manufactures headlines.",
+    "Effect is mostly symbolic: weapons deliveries and sanctions are decided in Berlin and Brussels, not the Landtag."
+   ],
+   "whyItMatters": "First joint AfD–BSW act after the new Landtag convened — a test of how far Magdeburg’s majority tries to nationalise Ukraine policy from a state chamber that cannot decide it.",
+   "image": null,
+   "sources": [
+    {
+     "label": "MDR",
+     "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landespolitik/ukraine-russland-sanktionen-104,afd-bsw-antrag-100.html",
+     "kind": "article",
+     "time": "2026-10-08T21:58:00+02:00"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/politik/deutschland/sachsen-anhalt-bsw-will-mit-afd-ukraine-antrag-verabschieden-a-8bd24922-614f-44d4-aa1f-b99c3e69e839",
+     "kind": "article",
+     "time": "2026-10-08T12:00:00+02:00"
+    },
+    {
+     "label": "Süddeutsche Zeitung (dpa)",
+     "url": "https://www.sueddeutsche.de/politik/vorstoss-von-afd-und-bsw-sachsen-anhalt-laesst-vorgehen-zu-ukraine-antrag-offen-dpa.urn-newsml-dpa-com-20090101-261008-930-811055",
+     "kind": "article",
+     "time": "2026-10-08T18:00:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "SpaceX is buying US mobile spectrum from Grain Management to pair a terrestrial network with Starlink; AT&T briefly −7% after hours, T-Mobile US and Verizon each more than −6% (heise).",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "An ICE agent shot a man in the neck in Marble Hill, Manhattan; NYPD said seven rounds were fired, a child in the car was unhurt, and the wounded man was hospitalised then taken into ICE custody (Gothamist / BBC).",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "NASA Earth Observatory: floodwaters overwhelm large parts of Thailand in new satellite imagery.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/7221/live/91f77890-c384-11f1-ade5-f77879e85d6f.jpg",
+    "alt": "Law enforcement officers at the scene in New York",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/c59vzk9yypn3o"
+   },
+   "sources": [
+    {
+     "label": "heise online — SpaceX mobile",
+     "url": "https://www.heise.de/news/In-Kombination-mit-Starlink-SpaceX-will-ins-Mobilfunkgeschaeft-einsteigen-11481748.html",
+     "kind": "article",
+     "time": "2026-10-09T07:25:00+02:00"
+    },
+    {
+     "label": "Gothamist",
+     "url": "https://gothamist.com/news/person-shot-during-encounter-with-federal-agents-in-nycs-marble-hill-nypd-says",
+     "kind": "article",
+     "time": "2026-10-09T02:00:00+02:00"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/c59vzk9yypn3o",
+     "kind": "article",
+     "time": "2026-10-09T04:00:00+02:00",
+     "via": {
+      "label": "The New York Times on X",
+      "url": "https://x.com/nytimes/status/2108339168019402792",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "NASA Earth Observatory",
+     "url": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
+     "kind": "primary",
+     "time": "2026-10-09T06:01:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "from-substack",
+   "title": "From Substack",
+   "topics": [
+    "From Substack"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "The AI Corner asks whether AI agents can actually use a computer — and what “real” computer use looks like beyond demos.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Rob Walker (The Art of Noticing): “Double Booked” — on overcommitted calendars and attention.",
+     "sourceIndexes": [
+      1
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "The AI Corner",
+     "url": "https://www.the-ai-corner.com/p/can-ai-agents-use-a-computer",
+     "kind": "article",
+     "time": "2026-10-08T16:52:23+02:00"
+    },
+    {
+     "label": "The Art of Noticing",
+     "url": "https://robwalker.substack.com/p/double-booked",
+     "kind": "article",
+     "time": "2026-10-08T19:34:54+02:00"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Anthropic’s 2026 Usage Policy (effective Nov 12) adds a consolidated “Deceptive Campaigns” section, sharpens elections/weapons/surveillance rules, and bans sustained needless cruelty toward models.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Bevy 0.20: Solari path tracing + DLSS upgrades (now on macOS), BSN syntax cleanup, Feathers widgets, WESL shaders replacing Bevy’s custom WGSL dialect, sprite materials, pan-orbit camera (227 contributors / 817 PRs).",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Let’s Encrypt: from Feb 10, 2027 default cert lifetime drops to 64 days (staging switch Oct 14, 2026); auth reuse 30→10 days. Renew at ~⅔ lifetime if hard-coded.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Vite v8.3.4: bundled-dev gains import.meta.hot.acceptExports.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Whistle: on-device speech-to-text in a 16.9 MB model (HN front page overnight).",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "alt": "Anthropic logo",
+    "credit": "Anthropic — Usage Policy 2026",
+    "creditUrl": "https://www.anthropic.com/news/2026-usage-policy-update"
+   },
+   "sources": [
+    {
+     "label": "Anthropic — Usage Policy 2026",
+     "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+     "kind": "primary",
+     "time": "2026-10-08T19:00:00+02:00"
+    },
+    {
+     "label": "Bevy 0.20",
+     "url": "https://bevy.org/news/bevy-0-20/",
+     "kind": "primary",
+     "time": "2026-10-09T01:21:00+02:00"
+    },
+    {
+     "label": "Let’s Encrypt — 64-day certs",
+     "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
+     "kind": "primary",
+     "time": "2026-10-07T12:00:00+02:00"
+    },
+    {
+     "label": "vitejs/vite v8.3.4",
+     "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4",
+     "kind": "primary",
+     "time": "2026-10-08T14:03:54+02:00"
+    },
+    {
+     "label": "Whistle (Cactus)",
+     "url": "https://cactuscompute.com/blog/whistle",
+     "kind": "article",
+     "time": "2026-10-08T18:59:39+02:00",
+     "via": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50008427",
+      "kind": "article"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "BVB host Werder tonight; Ole Book confirmed Emre Can had an extra adductors op during ACL rehab — comeback still open, full return unlikely in calendar 2026 (sport.de / SZ).",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig host winless Holstein Kiel Friday evening in a 2. Bundesliga basement derby.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "49ers GM John Lynch called Kyle Juszczyk’s hyperextended knee a “significant loss”; sources say 2–3 weeks out after avoiding an ACL tear vs Denver (ESPN / VC Star).",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Steve Kerr floated ~February 2027 for Jimmy Butler’s return (~one year post-ACL) but said there is still no timetable for Kristaps Porziņģis (HoopsHype / RealGM).",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "sport.de — Can OP",
+     "url": "https://www.sport.de/news/ne17221707/can-op-bestaetigt---bvb-comeback-offen/",
+     "kind": "article",
+     "time": "2026-10-09T07:50:00+02:00"
+    },
+    {
+     "label": "Süddeutsche Zeitung (dpa)",
+     "url": "https://www.sueddeutsche.de/sport/fussball-bundesliga-weiterer-eingriff-comeback-von-bvb-kapitaen-can-weiter-offen-dpa.urn-newsml-dpa-com-20090101-261007-930-801044",
+     "kind": "article",
+     "time": "2026-10-07T18:00:00+02:00"
+    },
+    {
+     "label": "SPOX — Braunschweig vs Kiel",
+     "url": "https://www.spox.com/fussball/news/Braunschweig-vs-Holstein%20Kiel-heute-live-sehen-wer-zeigt-uebertraegt-das-spiel-im-tv-und-livestream/blt8c358e4702cb6d3a",
+     "kind": "article",
+     "time": "2026-10-09T06:30:00+02:00"
+    },
+    {
+     "label": "ESPN — Juszczyk",
+     "url": "https://www.espn.com/nfl/story/_/id/50111202/sources-49ers-pro-bowl-fb-juszczyk-knee-expected-2-3-weeks",
+     "kind": "article",
+     "time": "2026-10-08T20:00:00+02:00"
+    },
+    {
+     "label": "Heavy — Butler timeline",
+     "url": "https://heavy.com/sports/nba/golden-state-warriors/updated-timeline-for-jimmy-butler-return/",
+     "kind": "article",
+     "time": "2026-10-09T05:49:00+02:00"
+    }
+   ]
+  }
+ ]
+}
