@@ -1,0 +1,431 @@
+{
+ "id": "2026-10-09-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-10-09T13:15:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning brief (~08:00 → 13:15 CEST)",
+ "headline": "Navi Pillay wins the 2026 Nobel Peace Prize; Ukrainian drones hit Lukoil’s Ukhta refinery ~1,700 km into Russia; ESMA gives EU platforms until 8 Jan 2027 to wind down non-MiCA stablecoins.",
+ "stories": [
+  {
+   "id": "nobel-peace-pillay",
+   "title": "Navi Pillay wins the 2026 Nobel Peace Prize for advancing international law",
+   "topics": [
+    "World",
+    "Nobel"
+   ],
+   "weight": "lead",
+   "facts": [
+    "The Norwegian Nobel Committee awarded the 2026 Peace Prize to Navanethem “Navi” Pillay “for her efforts to promote peace and international law.”",
+    "Committee cites her role advancing prosecution of war crimes, crimes against humanity and genocide — including ICTR breakthroughs on rape as genocide and propaganda as genocide incitement.",
+    "Career arc: South African High Court judge, ICTR and ICC judge, UN High Commissioner for Human Rights, chaired the UN inquiry on the Occupied Palestinian Territory; currently an ICJ judge in the Myanmar genocide case.",
+    "287 candidates were nominated (208 individuals, 79 organisations). Prize money is set at 12 million Swedish kronor.",
+    "Announcement came Friday morning in Oslo (~11:00 CEST); BBC, CNN and the NYT led live coverage."
+   ],
+   "whyItMatters": "A clear primary from Oslo on a day when Trump had again claimed the prize. The committee’s text is explicitly about defending international law under pressure.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Nobel Prize — press release",
+     "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+     "kind": "primary",
+     "time": "2026-10-09T11:00:00+02:00"
+    },
+    {
+     "label": "Nobel Prize — announcement PDF",
+     "url": "https://www.nobelprize.org/uploads/2026/10/press-peaceprize2026.pdf",
+     "kind": "primary",
+     "time": "2026-10-09T11:00:00+02:00"
+    },
+    {
+     "label": "UN News",
+     "url": "https://news.un.org/en/story/2026/10/1168558",
+     "kind": "article",
+     "time": "2026-10-09T11:30:00+02:00"
+    },
+    {
+     "label": "BBC Breaking",
+     "url": "https://bbc.in/4dsXL3Z",
+     "kind": "article",
+     "via": {
+      "label": "BBC Breaking",
+      "url": "https://x.com/BBCBreaking/status/2108485685132792146",
+      "kind": "x"
+     },
+     "time": "2026-10-09T11:12:15+02:00"
+    },
+    {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay",
+     "kind": "article",
+     "time": "2026-10-09T11:30:00+02:00",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2108485612902678611",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ukraine-ukhta-refinery",
+   "title": "Ukrainian drones hit Lukoil’s Ukhta refinery ~1,700 km into Russia",
+   "topics": [
+    "World",
+    "Ukraine"
+   ],
+   "weight": "normal",
+   "facts": [
+    "On the morning of 9 October, drones struck the Lukoil Ukhta oil refinery in Russia’s Komi Republic, about 1,700 km from the front / Ukrainian border (Barents Observer; Ukrainska Pravda).",
+    "Exilenova+ posted local videos of fires, sirens and black smoke; Komi authorities confirmed a UAV attack and said drones were being destroyed, without confirming refinery damage.",
+    "The plant processes ~4.2 million tonnes of oil a year (petrol, diesel and other products). It had been hit before (Aug 2025, Feb 2026).",
+    "Rosaviatsiya temporarily restricted flights at Ukhta Airport; Moscow’s Vnukovo, Domodedovo and Zhukovsky also faced long overnight outages."
+   ],
+   "whyItMatters": "Another deep strike on Russian refining capacity on the same morning Oslo awarded the Peace Prize — range and persistence of Ukraine’s drone campaign, not a one-off near the border.",
+   "image": null,
+   "sources": [
+    {
+     "label": "The Barents Observer",
+     "url": "https://www.thebarentsobserver.com/news/oil-refinery-in-northern-russia-under-attack/459577",
+     "kind": "article",
+     "time": "2026-10-09T10:46:00+02:00"
+    },
+    {
+     "label": "Ukrainska Pravda",
+     "url": "https://www.pravda.com.ua/eng/news/2026/10/09/8057186/",
+     "kind": "article",
+     "time": "2026-10-09T10:46:00+02:00"
+    },
+    {
+     "label": "X News — Ukhta trending",
+     "url": "https://x.com/i/trending/2108506919405036005",
+     "kind": "x",
+     "time": "2026-10-09T12:55:33+02:00"
+    }
+   ]
+  },
+  {
+   "id": "esma-stablecoins",
+   "title": "ESMA: EU crypto platforms get until 8 Jan 2027 to wind down non-MiCA stablecoins",
+   "topics": [
+    "Europe",
+    "Crypto",
+    "Markets"
+   ],
+   "weight": "normal",
+   "facts": [
+    "ESMA’s 8 Oct opinion: MiCA-authorised CASPs should stop services that let EU clients acquire or increase exposure to non-MiCA-compliant asset-referenced and e-money tokens.",
+    "Legacy holdings: remediate ASAP and no later than three months after publication (by 8 Jan 2027). Sell/convert/withdraw/transfer/safekeeping OK for exit; new buys and promotion are not.",
+    "The opinion does not name tokens; USDT (and e.g. PYUSD) are the large examples not authorised under MiCA. Private self-custody is not banned.",
+    "CoinDesk and other trade press framed it as the hard date on an EU wind-down that in practice started earlier."
+   ],
+   "whyItMatters": "Closes loopholes beyond spot delistings: custody, transfers and advice are in scope too. EU users still holding USDT on licensed venues have a clock.",
+   "image": {
+    "url": "https://cdn.sanity.io/images/s3y3vcno/production/94e6ebdc0df01fa3450702f6a99a15fd9ae46153-6016x4016.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+    "alt": "ESMA offices. (ESMA/Media)",
+    "credit": "CoinDesk",
+    "creditUrl": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins"
+   },
+   "sources": [
+    {
+     "label": "ESMA opinion (PDF)",
+     "url": "https://www.esma.europa.eu/sites/default/files/2026-10/ESMA75-113276571-1742_Opinion_on_the_provision_of_crypto_asset_services_in_relation_to_non-MiCA-compliant_asset-referenced_tokens_and_e-money_tokens.pdf",
+     "kind": "primary",
+     "time": "2026-10-08T00:00:00+02:00"
+    },
+    {
+     "label": "CoinDesk",
+     "url": "https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins",
+     "kind": "article",
+     "time": "2026-10-08T17:23:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "uk-germany-tech-corridor",
+   "title": "UK and Germany launch an Industrial Tech Corridor under the Kensington Treaty",
+   "topics": [
+    "Germany",
+    "Europe",
+    "Tech"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Burnham and Merz finalised Kensington Treaty ratification in Berlin (8 Oct) and launched a UK–Germany Industrial Tech Corridor linking AI/critical-tech scale-ups with industrial demand.",
+    "A CEO roundtable of primes, AI scale-ups and officials is due later in autumn. Backers cited in UK materials include Allianz, Bosch, RWE and Siemens.",
+    "Quantum R&D backing rises to €19.5m total for bilateral projects (five more selected projects; ten funded overall).",
+    "Also agreed: a counter-hybrid-threat partnership, deeper space cooperation (MoU eyed for early-2027 consultations; SaxaVord launch access), and a Regional Growth Forum follow-up in 2027."
+   ],
+   "whyItMatters": "Concrete bilateral industrial-AI plumbing the day after the first Merz–Burnham Berlin meeting — less rhetoric, more named money and roundtables.",
+   "image": null,
+   "sources": [
+    {
+     "label": "GOV.UK — joint statement",
+     "url": "https://www.gov.uk/government/news/joint-uk-germany-statement-berlin-8-october-2026",
+     "kind": "primary",
+     "time": "2026-10-08T00:00:00+02:00"
+    },
+    {
+     "label": "GOV.UK — tech corridor",
+     "url": "https://www.gov.uk/government/news/first-ever-uk-germany-tech-corridor-unlocks-investment-jobs-and-opportunity-for-british-business",
+     "kind": "primary",
+     "time": "2026-10-08T00:00:00+02:00"
+    },
+    {
+     "label": "Tech.eu",
+     "url": "https://tech.eu/2026/10/08/uk-and-germany-launch-industrial-tech-corridor-to-accelerate-ai-and-deeptech-growth/",
+     "kind": "article",
+     "time": "2026-10-08T00:00:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "tesla-assisted-driving",
+   "title": "Tesla offers to rename FSD as “Tesla Assisted Driving”; Germany pushes EU approval",
+   "topics": [
+    "Tech",
+    "Germany",
+    "Autos"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Germany’s Federal Transport Ministry (BMV, 6 Oct) says Tesla offered to rename “FSD – Full Self-Driving Supervised” to “Tesla Assisted Driving” because the current name is misleading: the driver must stay attentive.",
+    "Minister Steffen Bilger says Berlin and Tesla agreed in September that the system may exceed posted limits by at most 10%, with the driver remaining 100% responsible; he will push for timely EU-wide approval.",
+    "heise: Dutch RDW already granted a provisional Article 39 exemption; seven member states (~12% of EU population) have adopted it. An EU TCMV vote is unlikely before December.",
+    "European coverage notes websites/apps beginning to show the Assisted Driving branding; the product is still not generally available to German customers pending approval."
+   ],
+   "whyItMatters": "Naming and liability framing matter for EU type approval — Germany is no longer the blocker on speed offset, but a qualified-majority vote is still months away.",
+   "image": {
+    "url": "https://www.bmv.de/SharedDocs/DE/Bilder/StV/fahrassistenzsysteme.jpg?__blob=normal",
+    "alt": "Fahrassistenzsysteme",
+    "credit": "BMV — Tesla Assistenzsystem",
+    "creditUrl": "https://www.bmv.de/SharedDocs/DE/Artikel/StV/Digitalisierung-der-Mobilitaet/aktueller-stand-tesla-assistenzsysteme.html"
+   },
+   "sources": [
+    {
+     "label": "BMV — Tesla Assistenzsystem",
+     "url": "https://www.bmv.de/SharedDocs/DE/Artikel/StV/Digitalisierung-der-Mobilitaet/aktueller-stand-tesla-assistenzsysteme.html",
+     "kind": "primary",
+     "time": "2026-10-06T00:00:00+02:00"
+    },
+    {
+     "label": "heise autos",
+     "url": "https://www.heise.de/en/news/Tesla-FSD-Transport-Minister-Bilger-calls-for-EU-approval-of-assistance-system-11477430.html",
+     "kind": "article",
+     "time": "2026-10-06T12:07:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "BMW withdrew its lease offer for Saxony-Anhalt Landtag president Tobias Rausch (AfD) the day he was elected; the Landtag confirmed the pull to Die Zeit/dpa — a concrete follow-on to this morning’s AfD politics lane.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Ex-chancellor Gerhard Schröder visited Putin at home in Moscow for Putin’s birthday (7 Oct); German politicians across parties called it a “shame” / “bear service for peace” (SPIEGEL / ZEIT / DW).",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "FT reports SoftBank’s Masayoshi Son is seeking up to ~$100bn from Gulf/UAE investors for an AI-focused acquisition push (talks early; no deal confirmed).",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Three Saudis killed in Houthi attacks on Riyadh’s King Khalid airport, BBC World reports — a casualty update on Thursday’s claimed strike.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://static.dw.com/image/79605854_6.jpg",
+    "alt": "An official image from the Kremlin shows Schröder meeting Putin for his birthday",
+    "credit": "DW — Schröder/Putin",
+    "creditUrl": "https://www.dw.com/en/ex-german-chancellor-schr%C3%B6der-attends-putins-birthday-bash/a-79606017"
+   },
+   "sources": [
+    {
+     "label": "Tagesspiegel — BMW/Rausch",
+     "url": "https://www.tagesspiegel.de/politik/neuer-landtagsprasident-in-sachsen-anhalt-bmw-storniert-offenbar-angebot-fur-dienstwagen-von-afd-politiker-rausch-16143827.html",
+     "kind": "article",
+     "time": "2026-10-09T00:00:00+02:00"
+    },
+    {
+     "label": "DER SPIEGEL on X — BMW lease",
+     "url": "https://x.com/derspiegel/status/2108501481242628315",
+     "kind": "x",
+     "time": "2026-10-09T12:15:01+02:00"
+    },
+    {
+     "label": "DW — Schröder/Putin",
+     "url": "https://www.dw.com/en/ex-german-chancellor-schr%C3%B6der-attends-putins-birthday-bash/a-79606017",
+     "kind": "article",
+     "time": "2026-10-09T00:00:00+02:00"
+    },
+    {
+     "label": "DER SPIEGEL on X — Schröder",
+     "url": "https://x.com/derspiegel/status/2108495248875987339",
+     "kind": "x",
+     "time": "2026-10-09T11:50:15+02:00"
+    },
+    {
+     "label": "Zawya (FT report) — SoftBank",
+     "url": "https://www.zawya.com/en/business/ai-shaping-digital-future/softbank-ceo-seeks-up-to-100bln-from-gulf-investors-for-new-ai-push-report-1586400",
+     "kind": "article",
+     "time": "2026-10-09T00:00:00+02:00"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4jMiMKK",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X — Riyadh",
+      "url": "https://x.com/BBCWorld/status/2108500046891151536",
+      "kind": "x"
+     },
+     "time": "2026-10-09T12:09:19+02:00"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Let’s Encrypt: production default certificate lifetime drops to 64 days on 10 Feb 2027 (staging switches 14 Oct 2026); renew ~⅔ of lifetime or use ARI; auth reuse period 30→10 days.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Show HN: Quake ported to safe Rust, playable in the browser (~170 points / 132 comments by lunch).",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Microsoft open-sources MXC, a sandboxed code-execution system (HN).",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Golem: Anthropic’s usage-policy update also framed as barring users from being “too mean” to Claude — same policy drop already noted this morning, new German angle only.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "bun: Jarred Sumner merged a PR fixing every type error in test/ (overnight).",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/232bea92ba1597d1acb4bc70062c3c0d7b609e4f697a8962a4f076703fcb490c/microsoft/mxc",
+    "alt": "Policy-driven, layered isolation and containment . Contribute to microsoft/mxc development by creating an account on GitHub.",
+    "credit": "GitHub — microsoft/mxc",
+    "creditUrl": "https://github.com/microsoft/mxc"
+   },
+   "sources": [
+    {
+     "label": "Let's Encrypt — 64-day certs",
+     "url": "https://letsencrypt.org/2026/10/07/64-day-certs",
+     "kind": "primary",
+     "time": "2026-10-07T00:00:00+02:00"
+    },
+    {
+     "label": "HN — Quake safe Rust",
+     "url": "https://news.ycombinator.com/item?id=50016312",
+     "kind": "article",
+     "time": "2026-10-09T07:22:58+02:00"
+    },
+    {
+     "label": "GitHub — microsoft/mxc",
+     "url": "https://github.com/microsoft/mxc",
+     "kind": "primary",
+     "time": "2026-10-09T07:51:29+02:00"
+    },
+    {
+     "label": "Golem.de — Anthropic/Claude",
+     "url": "https://www.golem.de/news/ki-anthropic-verbietet-nutzern-zu-gemein-zu-claude-zu-sein-2610-213924.html",
+     "kind": "article",
+     "time": "2026-10-09T12:41:01+02:00"
+    },
+    {
+     "label": "GitHub — bun#44614",
+     "url": "https://github.com/oven-sh/bun/pull/44614",
+     "kind": "primary",
+     "time": "2026-10-09T07:10:12+02:00"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Eintracht Braunschweig: NDR preview asks how the club avoids another “Traumstart then crash” after the Magdeburg opener and a thin points haul into the international break.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Basketball Löwen Braunschweig extend their partnership with Gifhorn butcher Gmyrek for 2026/27 (club site).",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Warriors: Steve Kerr gives an updated Butler return timeline (Heavy / NBA desk).",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "NDR — Eintracht Braunschweig",
+     "url": "https://www.ndr.de/sport/fussball/traumstart-und-jetzt-braunschweig-will-absturz-vermeiden,eintracht-360.html",
+     "kind": "article",
+     "time": "2026-10-09T11:32:10+02:00"
+    },
+    {
+     "label": "Basketball Löwen — Gmyrek",
+     "url": "https://www.basketball-loewen.de/basketball-loewen-verlaengern-partnerschaft-mit-fleischerei-gmyrek/",
+     "kind": "primary",
+     "time": "2026-10-09T10:01:49+02:00"
+    },
+    {
+     "label": "Heavy — Kerr/Butler timeline",
+     "url": "https://heavy.com/sports/nba/golden-state-warriors/updated-timeline-for-jimmy-butler-return/",
+     "kind": "article",
+     "time": "2026-10-09T00:00:00+02:00"
+    }
+   ]
+  }
+ ]
+}
