@@ -1,0 +1,391 @@
+{
+ "id": "2026-10-10-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-10T19:35:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since morning (~08:15 → ~19:30 Sat CEST); no afternoon (weekend)",
+ "headline": "Houthis hit Riyadh’s airport again as Germany warns travelers; Axios says Trump’s diesel deal followed ignored Zelenskyy requests; Isaias leaves 2 dead and ~780k without power.",
+ "stories": [
+  {
+   "id": "riyadh-airport-houthi",
+   "title": "Houthi missile hits Riyadh’s King Khalid Airport; Germany warns against flying there",
+   "topics": [
+    "World",
+    "Middle East",
+    "Germany"
+   ],
+   "weight": "lead",
+   "facts": [
+    "GACA: King Khalid International Airport in Riyadh was targeted Saturday afternoon (10 Oct); several injured (number still assessed); operations temporarily suspended pending damage/safety checks.",
+    "tagesschau/AFP: ≥5 in intensive care (mostly Saudis); some heli-evacuated. Witnesses: explosion / hit near gate 401; airport evacuated; flights diverted (last landing ~14:05 local).",
+    "Auswärtiges Amt urgently advises against using Riyadh airport; Canada/Spain warn citizens too. Kuwait Airways cancels Riyadh flights citing closure/security.",
+    "Guardian/AP: Yemen’s Houthis blamed for the strike amid a wider airport campaign this week (earlier attacks killed Saudis and damaged a Saudia plane). No fresh Houthi claim for Saturday as of evening German coverage.",
+    "Context: Saudi-backed Yemen forces claim progress reclaiming Bab al-Mandab / Perim Island from Houthis; accounts of how far that push has gone still conflict."
+   ],
+   "whyItMatters": "A civilian hub in the Saudi capital is closed again on a Saturday while Berlin tells Germans to stay away — the Red Sea/Yemen war is spilling onto commercial aviation, not just tankers.",
+   "image": {
+    "url": "https://images.tagesschau.de/image/5bbfe4e2-86c9-4c3d-bff3-4ba19e164089/AAABoSasmBE/AAABnSSvrFg/16x9-big/riad-134.jpg?width=1280",
+    "alt": "Aerial view related to Riyadh airport coverage on tagesschau",
+    "credit": "tagesschau",
+    "creditUrl": "https://www.tagesschau.de/ausland/asien/saudi-arabien-angriffe-reisewarnung-100.html"
+   },
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/asien/saudi-arabien-angriffe-reisewarnung-100.html",
+     "kind": "article",
+     "time": "2026-10-10T18:44:00+02:00"
+    },
+    {
+     "label": "Asharq Al-Awsat / GACA",
+     "url": "https://english.aawsat.com/gulf/5328111-gaca-operations-riyadh-airport-suspended-after-attack",
+     "kind": "primary",
+     "time": "2026-10-10T18:04:00+02:00"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+     "kind": "article",
+     "time": "2026-10-10T17:54:00+02:00"
+    },
+    {
+     "label": "CNN on X — Riyadh blast",
+     "url": "https://x.com/CNN/status/2108956088187904167",
+     "kind": "x",
+     "time": "2026-10-10T18:21:28+02:00"
+    }
+   ]
+  },
+  {
+   "id": "diesel-deal-axios",
+   "title": "Axios: Trump cut the Russian diesel deal after Zelenskyy ignored ~6 requests to stop refinery strikes",
+   "topics": [
+    "US",
+    "Ukraine",
+    "Energy",
+    "World"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Material update on this morning’s diesel lead: a US official tells Axios Trump moved after Zelenskyy ignored roughly half a dozen US asks to halt Ukrainian strikes on Russian oil refineries.",
+    "Zelenskyy tells Axios he was blindsided; calls the deal “not fair and not honest” and an unwarranted gift to Putin. Official quote: continuing refinery hits is “eroding the good will” built with Trump.",
+    "Miami Friday: Witkoff/Kushner told Ukraine the Putin call and diesel ease were coming; Ukrainian side claims an intel cut-off threat — US official denies it.",
+    "Zelenskyy had offered a mutual halt (refineries ↔ Ukrainian power plants); Trump wanted a unilateral Ukrainian pause because US pump prices matter more to him than parity with Russian grid strikes, per the official.",
+    "Putin still declined immediate trilateral talks on the same call (Ushakov); Witkoff/Kushner weighing Moscow/Kyiv trips next week despite the blowup."
+   ],
+   "whyItMatters": "The diesel waiver isn’t just midterms optics anymore — Washington is framing Kyiv’s energy campaign as the reason it eased sanctions, which hardens the split right as peace envoys shop security guarantees.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Axios — Barak Ravid",
+     "url": "https://www.axios.com/2026/10/10/trump-zelensky-putin-diesel-deal-war",
+     "kind": "article",
+     "time": "2026-10-10T02:00:00+02:00"
+    },
+    {
+     "label": "BBC — gift to Putin",
+     "url": "https://www.bbc.com/news/articles/cm1dwgr666wno",
+     "kind": "article",
+     "time": "2026-10-10T07:00:00+02:00"
+    },
+    {
+     "label": "FAZ on X — diesel Kehrtwende",
+     "url": "https://x.com/faznet/status/2108865889525231881",
+     "kind": "x",
+     "time": "2026-10-10T12:23:03+02:00"
+    }
+   ]
+  },
+  {
+   "id": "isaias-aftermath",
+   "title": "Hurricane Isaias aftermath: at least 2 dead, ~780k without power across FL/AL/GA",
+   "topics": [
+    "US",
+    "Climate"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Material update: NPR confirms ≥2 storm deaths — Escambia Co., Fla. (tree into home) and Jefferson Co., Ala. (tree on house near Birmingham).",
+    "~780k still without power across FL/AL/GA as of ~11:50 ET Sat (Poweroutage.us; peak nearer 900k). DeSantis: several Panhandle counties >80% dark; ~16k utility workers from ~3 a.m.",
+    "Isaias made Cat-2 landfall near Destin Fri ~20:30 local with ~105 mph winds, ~5 ft surge (short of worst-case 6–9 ft); by Sat 5 a.m. winds ~35 mph as a post-tropical cyclone racing through Alabama.",
+    "I-10, US 98, and state-owned bridges reopened after overnight cut-and-toss; Pensacola and Destin–Fort Walton Beach airports still closed Saturday morning while Panama City’s NW Florida Beaches airport reopened.",
+    "Flash-flood and tornado risk persists inland as the remnant band pushes thunderstorms into Georgia."
+   ],
+   "whyItMatters": "The first US landfall of the season is now a multi-state recovery story — deaths, mass outages, and closed Gulf airports on a Saturday travel day.",
+   "image": {
+    "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8124x4570+0+563/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff6%2F42%2F04e44b504ab1a96d22c59d2a7b51%2Fgettyimages-2298960624.jpg",
+    "alt": "Overturned truck in a flooded parking lot near Isaias landfall in Florida",
+    "credit": "NPR / AFP via Getty — Ronaldo Schemidt",
+    "creditUrl": "https://www.npr.org/2026/10/10/g-s1-147632/at-least-2-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama"
+   },
+   "sources": [
+    {
+     "label": "NPR",
+     "url": "https://www.npr.org/2026/10/10/g-s1-147632/at-least-2-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama",
+     "kind": "article",
+     "time": "2026-10-10T19:14:00+02:00"
+    },
+    {
+     "label": "Florida Governor — recovery update",
+     "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-issues-updates-state-response-and-recovery-efforts-hurricane",
+     "kind": "primary"
+    },
+    {
+     "label": "CNN on X — landfall",
+     "url": "https://x.com/CNN/status/2108819015766245620",
+     "kind": "x",
+     "time": "2026-10-10T09:16:47+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Christa Pike, who survived Tennessee’s lethal-injection attempt, was moved back to prison, her lawyers say (CNN / NYT).",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "BMW cancels the company car for Saxony-Anhalt’s AfD Landtag president (Golem).",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "NRW Higher Admin Court lifts web blocks for Pornhub and YouPorn (heise).",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Danish CPR registry breach used password `123456` (HN discussion → Copenhagen Post tip).",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "OpenDesk (Zendis): agentic KI plus air-gap mode for the open-source office suite (heise).",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": null,
+   "sources": [
+    {
+     "label": "CNN on X — Christa Pike",
+     "url": "https://x.com/CNN/status/2108962474150019483",
+     "kind": "x",
+     "time": "2026-10-10T18:46:51+02:00"
+    },
+    {
+     "label": "NYT on X — Pike discharged",
+     "url": "https://x.com/nytimes/status/2108948280067432903",
+     "kind": "x",
+     "time": "2026-10-10T17:50:26+02:00"
+    },
+    {
+     "label": "Golem — BMW / AfD",
+     "url": "https://www.golem.de/news/mobilitaet-bmw-cancelt-dienstwagen-fuer-afd-landtagspraesidenten-2610-213957.html",
+     "kind": "article",
+     "time": "2026-10-10T14:53:02+02:00"
+    },
+    {
+     "label": "heise — Pornhub Sperren",
+     "url": "https://www.heise.de/news/Oberverwaltungsgericht-NRW-kippt-Websperren-fuer-Pornhub-und-YouPorn-11483348.html",
+     "kind": "article",
+     "time": "2026-10-10T17:41:00+02:00"
+    },
+    {
+     "label": "HN — Danish CPR `123456`",
+     "url": "https://news.ycombinator.com/item?id=50031269",
+     "kind": "article",
+     "time": "2026-10-10T11:51:49+02:00"
+    },
+    {
+     "label": "heise — OpenDesk",
+     "url": "https://www.heise.de/news/Open-Source-Office-OpenDesk-Zendis-bringt-agentische-KI-und-Air-Gap-Modus-11483419.html",
+     "kind": "article",
+     "time": "2026-10-10T18:21:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "from-substack",
+   "title": "From Substack",
+   "topics": [
+    "From Substack"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Five-Minute Reads: Jim Simons’ returns beat Buffett ~3:1 with a quarter of the capital — tip only.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Post: “When you’re at rock bottom, the only way to go is up.”",
+     "sourceIndexes": [
+      1
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": null,
+   "sources": [
+    {
+     "label": "Five-Minute Reads — Simons",
+     "url": "https://fiveminutereads1.substack.com/p/jim-simons-beat-buffetts-returns",
+     "kind": "article",
+     "time": "2026-10-10T12:14:48+02:00"
+    },
+    {
+     "label": "Post — rock bottom",
+     "url": "https://post.substack.com/p/when-youre-at-rock-bottom-the-only",
+     "kind": "article",
+     "time": "2026-10-10T15:03:34+02:00"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "HN: Bitwarden dual-license model update in app stores (community thread).",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "HN: Apple/macOS silently removed from the official Unix registry (Open Group).",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Talorys — self-hosted personal AI agent on Cloudflare’s free tier (HN tip → GitHub).",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "bun check: Jarred shipping cubic-time / false-error fixes across several merged PRs (gh_activity).",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Vercel: How Rillet ships 3× faster with AI agents on Vercel (customer post).",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": null,
+   "sources": [
+    {
+     "label": "Bitwarden community",
+     "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+     "kind": "article",
+     "time": "2026-10-10T16:32:50+02:00"
+    },
+    {
+     "label": "Open Group Unix registry",
+     "url": "https://www.opengroup.org//openbrand/register/",
+     "kind": "primary"
+    },
+    {
+     "label": "Talorys on GitHub",
+     "url": "https://github.com/rociiu/talorys",
+     "kind": "primary"
+    },
+    {
+     "label": "bun check PR #44895",
+     "url": "https://github.com/oven-sh/bun/pull/44895",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel — Rillet agents",
+     "url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "BVB 2:2 Werder Bremen (Fri): Svensson 80’, Schlotterbeck 85’ → Reis 88’, Füllkrug 90+2’ — first dropped points; still top for now; next CL away at Bodø/Glimt Wed.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Warriors: Brandin Podziemski agrees to a fully guaranteed 5-year, $110M extension (ESPN / Shams).",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "49ers (4-0) at Seahawks (3-1) Sunday: SF without Bosa, Juszczyk and others; Seattle hosts at Lumen Field.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": {
+    "url": "https://s7g10.scene7.com/is/image/BORUSSIADORTMUNDGMBHANDCOKGAA/schlotterbeck-werder2",
+    "alt": "Nico Schlotterbeck celebrating against Werder Bremen",
+    "credit": "BVB.de",
+    "creditUrl": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/9/BVB-kassiert-Last-Minute-Ausgleich-gegen-Werder-Bremen.html"
+   },
+   "sources": [
+    {
+     "label": "BVB.de — 2:2 Bremen",
+     "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/9/BVB-kassiert-Last-Minute-Ausgleich-gegen-Werder-Bremen.html",
+     "kind": "primary",
+     "time": "2026-10-09T22:30:00+02:00"
+    },
+    {
+     "label": "ESPN — Podziemski $110M",
+     "url": "https://www.espn.com/nba/story/_/id/50148027/warriors-give-brandin-podziemski-5-year-110m-extension",
+     "kind": "article",
+     "time": "2026-10-10T19:00:00+02:00"
+    },
+    {
+     "label": "Seattle Times — SEA hosts SF",
+     "url": "https://www.seattletimes.com/sports/seahawks/seahawks-49ers-what-to-know-as-seattle-hosts-unbeaten-san-francisco/",
+     "kind": "article"
+    },
+    {
+     "label": "49ers.com — outs vs SEA",
+     "url": "https://www.49ers.com/news/juszczyk-and-three-more-ruled-out-vs-seahawks-in-week-5-williams-questionable-ahead-of-sfvssea",
+     "kind": "primary"
+    }
+   ]
+  }
+ ]
+}
