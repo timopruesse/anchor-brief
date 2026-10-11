@@ -122,14 +122,9 @@
           "time": "2026-10-11T07:00:00+02:00"
         },
         {
-          "label": "NYT",
-          "url": "https://nyti.ms/4hWQxXm",
-          "kind": "article",
-          "via": {
-            "label": "NYT on X — DOJ antitrust",
-            "url": "https://x.com/nytimes/status/2109059747034911184",
-            "kind": "x"
-          },
+          "label": "NYT on X — DOJ antitrust",
+          "url": "https://x.com/nytimes/status/2109059747034911184",
+          "kind": "x",
           "time": "2026-10-11T01:13:22+02:00"
         },
         {
