@@ -1,0 +1,326 @@
+{
+  "id": "2026-10-11-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-11T08:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight / since evening (~19:20 Sat → ~08:15 Sun CEST)",
+  "headline": "Riyadh airport toll rises to 12 dead as Trump weighs joining Saudi strikes on Houthis; US disables a tanker running the Iran blockade; DOJ probes TV networks over Trump pool boycott.",
+  "stories": [
+    {
+      "id": "riyadh-toll-trump",
+      "title": "Riyadh airport: 12 dead, 309 hurt; Trump weighs joining Saudi strikes on Houthis",
+      "topics": [
+        "Middle East",
+        "Security",
+        "US"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Material update: Saudi GACA says ≥12 killed and ~309 injured at King Khalid Airport — four Saudis, two Bangladeshis, plus one each from the US, Jordan, Palestine, Syria, Sudan and Egypt (Al Jazeera / Reuters).",
+        "Deadliest attack in the kingdom in more than a decade; third Houthi hit on Riyadh’s airport this week. Flights to/from Riyadh remain suspended or diverted (ABC / Australian travel advice).",
+        "Trump called the attack “terrible,” said he will speak with Crown Prince Mohammed bin Salman, and that the US is evaluating whether to join Saudi strikes on the Houthis — “We’ll move very quickly.”",
+        "SecState Rubio: an American was among the dead. UN Sec-Gen Guterres and envoy Hans Grundberg condemned attacks on civilian airports as a grave escalation; Egypt, Qatar, Pakistan, Jordan, Canada and others also condemned.",
+        "Germany’s Auswärtiges Amt already warned against using Riyadh airport Saturday evening; Australia now says do not travel to King Khalid International."
+      ],
+      "whyItMatters": "A confirmed mass-casualty toll plus an open US debate on striking the Houthis turns Saturday’s airport hit into a wider Gulf escalation risk for travelers and energy routes.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/2020-03-29T193017Z_579250648_RC2VTF9P1UK5_RTRMADP_3_SAUDI-RIYADH-ROCKETS-1791683246.jpg?resize=1920%2C1440",
+        "alt": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport",
+        "credit": "Al Jazeera — world condemns Riyadh attack",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera — world condemns Riyadh attack",
+          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+          "kind": "article",
+          "time": "2026-10-11T00:00:00+02:00"
+        },
+        {
+          "label": "ABC News — Riyadh flights suspended",
+          "url": "https://www.abc.net.au/news/2026-10-11/riyadh-airport-suspends-flights-houthi-attacks-middle-east/107253260",
+          "kind": "article",
+          "time": "2026-10-11T00:00:00+02:00"
+        },
+        {
+          "label": "Al Jazeera liveblog — Trump weigh-in",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis",
+          "kind": "article",
+          "time": "2026-10-11T02:00:00+02:00"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4hZALuW",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X — Saturday blast",
+            "url": "https://x.com/CNN/status/2108956088187904167",
+            "kind": "x"
+          },
+          "time": "2026-10-10T18:21:28+02:00"
+        }
+      ]
+    },
+    {
+      "id": "gulf-oman-blockade",
+      "title": "US disables tanker running Iran blockade; IRGC claims Hormuz strike",
+      "topics": [
+        "Middle East",
+        "Energy",
+        "US"
+      ],
+      "weight": "normal",
+      "facts": [
+        "CENTCOM: US jet struck the stern of Panama-flagged M/V Ocean Molica (aka Arika Sun) in the Gulf of Oman Sat after it ignored warnings and tried to run the Iran-port blockade — propulsion out, crew unharmed.",
+        "CENTCOM says the blockade (resumed 14 Jul) has disabled four commercial vessels and turned around 135 ships in three months, and destroyed 10 IRGC-linked shadow-fleet tankers.",
+        "IRGC claims it struck LPG carrier NV Sunshine (NatWit) for taking an “illegal” southern Hormuz route; UKMTO separately reported an outbound tanker hit on the port side with a fire, crew safe.",
+        "Sen. Chris Murphy criticized the US strike as taxpayers “paying billions to hit commercial ships.” About a fifth of world oil/LNG used to transit Hormuz before the war."
+      ],
+      "whyItMatters": "Parallel US and Iranian enforcement of rival Gulf blockades keeps tanker risk elevated even when the Riyadh story dominates the headlines.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20260905__C7FF8WM__v1__HighRes__UsIranIsraelWar-1791684574.jpg?resize=1920%2C1440",
+        "alt": "US forces disable ship ‘attempting to run’ Iran blockade in Gulf of Oman",
+        "credit": "Al Jazeera — US disables Ocean Molica",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera — US disables Ocean Molica",
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman",
+          "kind": "article",
+          "time": "2026-10-11T00:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "doj-tv-pool",
+      "title": "DOJ probes ABC, CBS, CNN, NBC and Fox over Trump pool coverage pause",
+      "topics": [
+        "US",
+        "Media",
+        "Law"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Justice Department Antitrust Division is investigating whether major TV networks violated the Sherman Act when they briefly suspended White House pool coverage last month (BBC / NYT).",
+        "Targets named in coverage: ABC, CBS, CNN, NBC and Fox News — DOJ asked for pool-related communications after the networks paused coverage when the administration pulled credentials for CNN, MS Now and Politico.",
+        "Those three outlets later regained access after suing; a judge restored credentials. Networks have not commented on the probe.",
+        "Context: White House took control of the press pool from the Correspondents’ Association earlier in 2026; separate fights continue over AP access and “Gulf of America” naming."
+      ],
+      "whyItMatters": "Treating a collective press-pool protest as a potential antitrust boycott is a new pressure tool against US broadcast news.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/83c9/live/2af322e0-c50d-11f1-8473-7b5057186a7a.jpg",
+        "alt": "Donald Trump",
+        "credit": "BBC — DOJ investigates TV networks",
+        "creditUrl": "https://www.bbc.com/news/articles/c9vgregzk6gro"
+      },
+      "sources": [
+        {
+          "label": "BBC — DOJ investigates TV networks",
+          "url": "https://www.bbc.com/news/articles/c9vgregzk6gro",
+          "kind": "article",
+          "time": "2026-10-11T07:00:00+02:00"
+        },
+        {
+          "label": "NYT",
+          "url": "https://nyti.ms/4hWQxXm",
+          "kind": "article",
+          "via": {
+            "label": "NYT on X — DOJ antitrust",
+            "url": "https://x.com/nytimes/status/2109059747034911184",
+            "kind": "x"
+          },
+          "time": "2026-10-11T01:13:22+02:00"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4hGyEx7",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X — DOJ investigating networks",
+            "url": "https://x.com/CNN/status/2109102873925595312",
+            "kind": "x"
+          },
+          "time": "2026-10-11T04:04:45+02:00"
+        }
+      ]
+    },
+    {
+      "id": "isaias-four-dead",
+      "title": "Isaias aftermath: at least 4 dead; ~438k still without power Sat night",
+      "topics": [
+        "US",
+        "Climate"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Material update: ABC confirms ≥4 storm deaths — two in Escambia Co., Fla. (tree into home; generator in garage) and two in Alabama (incl. Jefferson Co. tree-on-house).",
+        "Sat night: >438k customers without power across FL/AL/GA (≈345k Fla., ≈82k Ala., >10k Ga.) after Cat-2 landfall near Destin Fri ~20:30 CT / 105 mph.",
+        "DeSantis: statewide accounts without power were ~439k as of Sat 1 p.m.; FPL said it restored >43k by late morning Sat with a ~16k-person restoration workforce.",
+        "Remnants bring level-3 flash-flood risk into NE Georgia / western Carolinas (Athens, Greenville, Asheville corridor); Destin–Fort Walton / Pensacola airports still closed into Saturday."
+      ],
+      "whyItMatters": "The death toll and multi-day outage map matter more than the landfall itself now that the storm is post-tropical.",
+      "image": null,
+      "sources": [
+        {
+          "label": "ABC News — ≥4 dead, outages",
+          "url": "https://abcnews.com/US/live-updates/hurricane-isaias-updates-isaias-strengthens-category-3/?entryId=137168716&id=137128637",
+          "kind": "article",
+          "time": "2026-10-11T06:01:00+02:00"
+        },
+        {
+          "label": "Florida Governor — recovery update",
+          "url": "https://flgov.com/eog/news/press/2026/governor-ron-desantis-issues-updates-state-response-and-recovery-efforts-0",
+          "kind": "primary"
+        },
+        {
+          "label": "FPL — 43k restored",
+          "url": "https://newsroom.fpl.com/FPL-restores-more-than-43,000-customers-as-Hurricane-Isaias-response-is-underway",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Microsoft’s Satya Nadella: AI needs an “emergency brake” — separate model from harness, tamper-proof action logs, authorized human pause mid-task (TechCrunch / his X post).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Philadelphia police officer killed and partner wounded on an early-morning West Philly call; suspect in custody (CNN).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Guardian deep-dive on ex-BND chief August Hanning’s treason case: alleged ~2,000 docs via a mole, “crown jewels” briefings, reform/lobbying-ban calls.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Sony patent filing would train NPC behavior from player-generated data (IGN tip).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000",
+        "alt": "Satya Nadella at Microsoft Ignite 2023",
+        "credit": "TechCrunch — Nadella emergency brake",
+        "creditUrl": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+      },
+      "sources": [
+        {
+          "label": "TechCrunch — Nadella emergency brake",
+          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+          "kind": "article",
+          "time": "2026-10-10T23:47:00+02:00",
+          "via": {
+            "label": "TechCrunch on X",
+            "url": "https://x.com/TechCrunch/status/2109038598700077514",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4dAt7FL",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X — Philly officer killed",
+            "url": "https://x.com/CNN/status/2109128107344986270",
+            "kind": "x"
+          },
+          "time": "2026-10-11T05:45:01+02:00"
+        },
+        {
+          "label": "The Guardian — Hanning arrest",
+          "url": "https://www.theguardian.com/world/2026/oct/11/stab-to-the-heart-arrest-of-german-ex-spymaster-sparks-calls-for-reform",
+          "kind": "article",
+          "time": "2026-10-11T07:00:00+02:00"
+        },
+        {
+          "label": "IGN",
+          "url": "https://bit.ly/4ziZGQP",
+          "kind": "article",
+          "via": {
+            "label": "IGN on X — Sony NPC patent",
+            "url": "https://x.com/IGN/status/2109132135978123371",
+            "kind": "x"
+          },
+          "time": "2026-10-11T06:01:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "bun: TLS consolidation PR merged overnight (node:tls / node:https / WebSocket, both engines) — oven-sh/bun.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Lobsters tip: iframes that finally size to their content (alfy.blog).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "DEV tip: rebuild agent workflows as a declarative DAG of targets instead of numbered prompt checklists (ThePracticalDev).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/bc94dd8edc7f1627853f5c3814962649a58f4e4d6b49d41acf9a3706e9449029/oven-sh/bun/pull/44618",
+        "alt": "What does this PR do? Consolidates the open TLS pull requests into one. Each was reproduced on main and, for node:* behavior, on Node v26.3.0 first. About a third are ported as written, the rest ar...",
+        "credit": "oven-sh/bun — tls: consolidate the open TLS fixes (both engines, node:tls,",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/44618"
+      },
+      "sources": [
+        {
+          "label": "oven-sh/bun — tls: consolidate the open TLS fixes (both engines, node:tls,",
+          "url": "https://github.com/oven-sh/bun/pull/44618",
+          "kind": "primary",
+          "time": "2026-10-10T20:53:13+00:00"
+        },
+        {
+          "label": "alfy.blog — iframe sizing",
+          "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
+          "kind": "article",
+          "time": "2026-10-09T00:00:00+02:00"
+        },
+        {
+          "label": "ThePracticalDev",
+          "url": "https://dev.to/gde/stuart-feldman-was-right-in-1976-why-your-ai-agent-needs-a-makefile-not-a-20-step-prompt-5bn2",
+          "kind": "article",
+          "via": {
+            "label": "ThePracticalDev on X — DAG agents",
+            "url": "https://x.com/ThePracticalDev/status/2109133139591242027",
+            "kind": "x"
+          },
+          "time": "2026-10-11T06:05:00+02:00"
+        }
+      ]
+    }
+  ]
+}
