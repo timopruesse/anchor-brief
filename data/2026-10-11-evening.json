@@ -1,0 +1,327 @@
+{
+  "id": "2026-10-11-evening",
+  "edition": "evening",
+  "generatedAt": "2026-10-11T19:40:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:15 → ~19:40 Sun CEST; no afternoon — Sunday)",
+  "headline": "Second Houthi hit on Riyadh airport as Trump still weighs joining Saudi strikes; Trump claims an energy ceasefire Zelenskyy says is news to him; Ukraine downs a third Yandex data center.",
+  "stories": [
+    {
+      "id": "riyadh-second-strike",
+      "title": "Riyadh airport hit again; Houthis claim missiles/drones; Trump still undecided on joining Saudi strikes",
+      "topics": [
+        "Middle East",
+        "Security",
+        "US"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Material update: Sunday a projectile hit King Khalid’s Passenger Hall No 4 and sparked a fire; GACA reported injuries. Air defenses intercepted a missile nearby (BBC / Saudi coalition).",
+        "Comes a day after Saturday’s strike — deadliest on the kingdom in more than a decade. Death toll figures still circulate as 12–13 killed and ~308–309 injured; an Indian national later died of wounds (BBC).",
+        "Houthis claimed ballistic/cruise missiles and drones over 24h, also said they hit oil sites and Dammam airport, and warned airlines to stay out of Saudi airspace (except Mecca/Medina).",
+        "Airport stayed shut; Flightradar24 showed the closure extended toward midnight local Mon 12 Oct. Trump: US may join Saudi strikes — “We’ll make a decision… move very quickly.” UK’s Streeting floated more UK support.",
+        "Saudi-led coalition called Saturday’s attack a “war crime” and vowed a decisive response; Germany/Australia already warned against using Riyadh airport."
+      ],
+      "whyItMatters": "A same-airport follow-up strike while Washington openly debates joining Saudi operations widens Gulf escalation risk for travelers and oil routes.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/01f0/live/59d06e70-c57a-11f1-a64c-550be9e3c66b.jpg",
+        "alt": "Smoke rises above King Khalid airport in Riyadh.",
+        "credit": "BBC — second Riyadh strike",
+        "creditUrl": "https://www.bbc.com/news/articles/cr93znyk44e1o"
+      },
+      "sources": [
+        {
+          "label": "BBC — second Riyadh strike",
+          "url": "https://www.bbc.com/news/articles/cr93znyk44e1o",
+          "kind": "article",
+          "time": "2026-10-11T18:40:00+02:00"
+        },
+        {
+          "label": "Euronews — airport stays shut / Trump",
+          "url": "https://www.euronews.com/2026/10/11/riyadh-airport-stays-shut-after-deadly-attack-as-trump-says-us-may-join-saudi-strikes-on-h",
+          "kind": "article",
+          "time": "2026-10-11T12:00:00+02:00"
+        },
+        {
+          "label": "The Guardian — coalition vows retaliation",
+          "url": "https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport",
+          "kind": "article",
+          "time": "2026-10-11T16:23:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "trump-energy-ceasefire",
+      "title": "Trump announces Russia–Ukraine “energy ceasefire”; Zelenskyy: “news to me”",
+      "topics": [
+        "Ukraine",
+        "US",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Trump posted that an ENERGY CEASEFIRE is effective immediately and “both parties have agreed” — without detailing terms (Truth Social via Guardian).",
+        "Zelenskyy told Axios he was surprised: if Trump negotiated it with Putin, “tell us when the ceasefire begins. We are ready.” He earlier said any halt on Russian refinery strikes must be reciprocal with real guarantees.",
+        "No sign Russia complied Sunday: Zelenskyy said Russian drones flew “throughout the day,” with hits including Kharkiv thermal power station No 5 and more energy targets.",
+        "Row follows Friday’s US diesel-sanctions lift and Saturday’s Trump call for a “new leader” in Kyiv; Kyiv says refinery strikes continue unless Moscow stops energy hits (tagesschau / Guardian).",
+        "UK’s Burnham told Zelenskyy London will strengthen sanctions despite Washington’s diesel move; similar solidarity calls from Macron, Stubb, Carney, Tusk, von der Leyen (Guardian)."
+      ],
+      "whyItMatters": "A White House ceasefire claim Kyiv didn’t negotiate — while Russian energy strikes continue — deepens the US–Ukraine rift just as Europe digs in behind Zelenskyy.",
+      "image": {
+        "url": "https://i.guim.co.uk/img/media/62d3825fd05f64d5f42c14092f1ba77f16006018/0_0_2942_2353/master/2942.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5686fd1c6ae3897260e0b3d74b4a845f",
+        "alt": "Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’",
+        "credit": "The Guardian — energy ceasefire",
+        "creditUrl": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire"
+      },
+      "sources": [
+        {
+          "label": "The Guardian — energy ceasefire",
+          "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire",
+          "kind": "article",
+          "time": "2026-10-11T17:56:00+02:00"
+        },
+        {
+          "label": "tagesschau — Zelenskyy/Trump reaction",
+          "url": "https://www.tagesschau.de/ausland/europa/trump-selenskyj-russland-reaktion-raffinerien-angriffe-100.html",
+          "kind": "article",
+          "time": "2026-10-11T12:00:00+02:00"
+        },
+        {
+          "label": "CNN on X — energy ceasefire claim",
+          "url": "https://x.com/CNN/status/2109298914184564768",
+          "kind": "x",
+          "time": "2026-10-11T17:03:44+02:00"
+        }
+      ]
+    },
+    {
+      "id": "yandex-third-dc",
+      "title": "Ukraine hits a third Yandex data center; Cloud connectivity collapses",
+      "topics": [
+        "Ukraine",
+        "Tech",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Yandex said a UAV damaged its Vladimir data center east of Moscow; operations there “completely suspended,” no injuries (company Telegram / BBC).",
+        "Third strike in four days after Sasovo/Ryazan (Thu, fire; two AI supercomputers offline) and Kaluga (Fri). Yandex told users to activate disaster-recovery; remaining capacity “unstable.”",
+        "NetBlocks (via heise): Yandex connections ~80% Sunday morning; Yandex Cloud ~30%. Outages hit taxis, banking, streaming across Russia and neighbors (Astra).",
+        "Zelenskyy framed earlier DC hits as answering Russian strikes on Ukrainian data hubs (Vodafone Ukraine, Kyivstar HQ, etc.)."
+      ],
+      "whyItMatters": "Long-range drone war is now chewing through Russia’s biggest consumer/cloud/AI stack — a civilian-facing echo of the energy infrastructure fight.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/92b1/live/fca86430-c56c-11f1-a64c-550be9e3c66b.jpg",
+        "alt": "Yandex logo on a smartphone which is resting on a laptop keyboard. only part of the keyboard is visible",
+        "credit": "BBC — third Yandex DC strike",
+        "creditUrl": "https://www.bbc.com/news/articles/cw0k0g57mk3zo"
+      },
+      "sources": [
+        {
+          "label": "BBC — third Yandex DC strike",
+          "url": "https://www.bbc.com/news/articles/cw0k0g57mk3zo",
+          "kind": "article",
+          "time": "2026-10-11T14:50:00+02:00"
+        },
+        {
+          "label": "heise — massive Yandex outages",
+          "url": "https://www.heise.de/news/Massive-Ausfaelle-bei-Yandex-nach-ukrainischen-Angriffen-11483627.html",
+          "kind": "article",
+          "time": "2026-10-11T17:20:00+02:00"
+        },
+        {
+          "label": "Al Jazeera — Vladimir DC shut",
+          "url": "https://www.aljazeera.com/news/2026/10/11/russias-yandex-says-data-centre-in-vladimir-shut-down-after-drone-attack",
+          "kind": "article",
+          "time": "2026-10-11T12:00:00+02:00"
+        },
+        {
+          "label": "BBC World on X",
+          "url": "https://x.com/BBCWorld/status/2109306560048513508",
+          "kind": "x",
+          "time": "2026-10-11T17:34:07+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Deutsche Bank CEO Christian Sewing warns AfD/Left state wins risk scaring foreign investors who don’t split “state vs Germany” (Bild / Reuters).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Panama state of emergency after Fri’s M7.7 + M6.6 quakes; ~100 aftershocks, ~27–30 injured, no deaths reported; up to $100m aid path (Guardian / Straits Times).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Meta removed human Instagram support for paying customers — AI-only — and users say the bot fails outright (Gergely Orosz on X).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "BBC: flash floods on Nepal’s Budhi Gandaki swept buildings away (video circulating Sunday).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Reuters via The Star — Sewing",
+          "url": "https://www.thestar.com.my/news/world/2026/10/11/deutsche-bank-chief-warns-german-election-results-worrying-foreign-investors",
+          "kind": "article",
+          "time": "2026-10-11T14:56:00+02:00"
+        },
+        {
+          "label": "The Guardian — Panama emergency",
+          "url": "https://www.theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency",
+          "kind": "article",
+          "time": "2026-10-11T08:56:00+02:00"
+        },
+        {
+          "label": "Gergely Orosz on X — Meta IG AI support",
+          "url": "https://x.com/GergelyOrosz/status/2109240069089325292",
+          "kind": "x",
+          "time": "2026-10-11T13:09:54+02:00"
+        },
+        {
+          "label": "BBC World on X — Nepal floods",
+          "url": "https://x.com/BBCWorld/status/2109296080332435672",
+          "kind": "x",
+          "time": "2026-10-11T16:52:29+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Warriors: Brandin Podziemski agreed to a 5-year, $110m extension (mutual option Year 5; ~$18.9m Year 1) — official announce Sat, dollars via Duffy/Shams (ESPN / Warriors).",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "49ers: George Kittle expected to play through illness vs Seahawks Week 5 (NBC Sports Bay Area / CBS).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "BBL: Basketball Löwen Braunschweig’s first loss — 98:107 OT at home to MHP RIESEN Ludwigsburg after 3–0 start (Sport1).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "ESPN — Podziemski $110m",
+          "url": "https://www.espn.com/nba/story/_/id/50148027/warriors-give-brandin-podziemski-5-year-110m-extension",
+          "kind": "article",
+          "time": "2026-10-10T17:28:00+02:00"
+        },
+        {
+          "label": "Warriors — extension announced",
+          "url": "https://www.nba.com/warriors/news/warriors-sign-guard-brandin-podziemski-to-contract-extension-20261010",
+          "kind": "primary",
+          "time": "2026-10-11T02:08:00+02:00"
+        },
+        {
+          "label": "The Big Lead — Kittle to play",
+          "url": "https://www.thebiglead.com/george-kittle-49ers-injury-update-seahawks-week-5/",
+          "kind": "article",
+          "time": "2026-10-11T19:17:00+02:00"
+        },
+        {
+          "label": "Sport1 — Löwen OT loss",
+          "url": "https://www.sport1.de/news/basketball/bbl/2026/10/bbl-bayern-verfolger-braunschweig-patzt-in-der-overtime",
+          "kind": "article",
+          "time": "2026-10-11T17:41:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "LineageOS 24.0 (Android 17): “Slick Seventeen” — WebUSB flash tools at flash.lineageos.org, Canvas editor, Oct 2026 security patches, Pixel 10 family among added devices (Changelog 32).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "sharp#4630 merged: null no longer treated as an object during validation (lovell/sharp).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Futhark blog: what they ended up doing about alias propagation (compiler notes, Oct 11).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Anthropic: “Building on our commitment to American scientific discovery” / Genesis Mission post (fresh vs prior cited cyber/usage posts).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "LineageOS Changelog 32",
+          "url": "https://lineageos.org/Changelog-32/",
+          "kind": "primary",
+          "time": "2026-10-11T00:00:00+02:00"
+        },
+        {
+          "label": "sharp PR #4630",
+          "url": "https://github.com/lovell/sharp/pull/4630",
+          "kind": "primary",
+          "time": "2026-10-11T12:47:00+02:00"
+        },
+        {
+          "label": "Futhark — alias propagation",
+          "url": "https://futhark-lang.org/blog/2026-10-11-what-we-did-about-aliasing.html",
+          "kind": "article",
+          "time": "2026-10-11T00:00:00+02:00"
+        },
+        {
+          "label": "Anthropic — Genesis Mission commitment",
+          "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
