@@ -1,0 +1,461 @@
+{
+  "id": "2026-10-12-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-12T13:10:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning's edition (~08:15 → ~13:00 Mon CEST)",
+  "headline": "Bärbel Bas quits as SPD co-leader and labour minister, citing grief and attacks from the Union; Schweitzer takes the ministry. The EU adopts its biggest Russia sanctions round, the economics Nobel goes to Hall and Woodford, and a Zod repo compromise stopped short of npm.",
+  "stories": [
+    {
+      "id": "bas-resigns",
+      "title": "Bärbel Bas quits as SPD co-leader and labour minister; Alexander Schweitzer takes over the ministry",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Bas stepped down from both posts with immediate effect on Monday morning. She keeps her Bundestag seat for Duisburg.",
+        "She gave two reasons: time to grieve after her stepdaughter’s death, and public attacks “leider auch aus den Reihen des Koalitionspartners” that she said intensified during that time.",
+        "Alexander Schweitzer is taking over the labour and social affairs ministry. He was Rhineland-Palatinate’s SPD premier from 2024 until losing the March state election.",
+        "Lars Klingbeil now leads the SPD alone. He called the attacks on Bas “unanständig” and announced a special party congress in December or January to elect a new leadership. He did not say whether he will run again, and he cancelled a trip to India.",
+        "Merz wrote on X that he and Bas had worked together “vertrauensvoll” and that he respects her decision. He did not address her criticism of the Union. Manuela Schwesig called the CDU’s attacks “unmenschlich und rücksichtslos”.",
+        "This lands in the middle of the CDU’s crisis retreat (Merz presser due 13:30). Foreign minister Wadephul said he sees no impact on the coalition’s work."
+      ],
+      "whyItMatters": "The SPD loses its co-leader and the coalition loses the minister who was driving the contested social and labour reforms, all while the CDU is debating its own course. Schweitzer is seen as more pragmatic than Bas, so the real test is whether the reforms get easier with the Union.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/ruecktritt-bas-100.html",
+          "kind": "article",
+          "time": "2026-10-12T10:04:00+02:00"
+        },
+        {
+          "label": "SZ: Bas statement in full",
+          "url": "https://www.sueddeutsche.de/politik/bundesregierung-news-liveblog-bas-ruecktritt-spd-erklaerung-li.3529564",
+          "kind": "primary"
+        },
+        {
+          "label": "SZ: successor Schweitzer",
+          "url": "https://www.sueddeutsche.de/politik/baerbel-bas-ruecktritt-bundesregierung-spd-nachfolger-schweitzer-li.3562098",
+          "kind": "article"
+        },
+        {
+          "label": "Handelsblatt: Klingbeil calls new leadership vote",
+          "url": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-spd-chef-klingbeil-kuendigt-neuwahl-der-parteispitze-an/100137034.html",
+          "kind": "article"
+        },
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/nachrichten/deutschland/politik/ruecktritt-spd-chefin-ministerin-schweitzer-nachfolger,bas-234.html",
+          "kind": "article"
+        },
+        {
+          "label": "n-tv: Schweitzer",
+          "url": "https://www.n-tv.de/politik/Alexander-Schweitzer-wird-neuer-Bundesarbeitsminister-id31406880.html",
+          "kind": "article"
+        },
+        {
+          "label": "ZDFheute",
+          "url": "https://kurz.zdf.de/i41/",
+          "kind": "article",
+          "via": {
+            "label": "ZDFheute on X",
+            "url": "https://x.com/ZDFheute/status/2109543471560196119",
+            "kind": "x"
+          },
+          "time": "2026-10-12T09:15:31+02:00"
+        }
+      ]
+    },
+    {
+      "id": "eu-russia-sanctions-1600",
+      "title": "EU adopts its largest Russia sanctions round: 1,569 listings aimed at the arms industry",
+      "topics": [
+        "Europe",
+        "Ukraine"
+      ],
+      "weight": "normal",
+      "facts": [
+        "EU foreign ministers in Luxembourg added 743 individuals and 826 entities tied to Russia’s military-industrial complex. It is the largest single set of listings the EU has agreed.",
+        "There are 77 further listings over the recent Duma elections, which the EU calls undemocratic. They include three members of the electoral commission (Agence Europe).",
+        "That takes the regime to close to 4,600 listings in total (Council via Sofia Globe).",
+        "Kaja Kallas said sanctions have cost Russia €1 trillion. She urged the US to align, for example by passing the Graham sanctions bill.",
+        "Background: Zelensky offered on Sunday to hold elections if Russia agreed to a full 60-day ceasefire. The Kremlin rejected it and said it wants an overall peace deal instead."
+      ],
+      "whyItMatters": "This keeps EU pressure on Russia even as Washington talks up an “energy ceasefire” and diesel deals. The gap between Brussels and the US on sanctions is now stated openly.",
+      "image": {
+        "url": "https://vm.ee/sites/default/files/styles/opengraph/public/2026-10/9abf6024-f9b4-4978-b75c-fe0d1050c3e8.jpg",
+        "alt": "open graph image",
+        "credit": "Estonian MFA",
+        "creditUrl": "https://vm.ee/en/news/tsahkna-luxembourg-eu-strengthens-sanctions-pressure-adding-nearly-1600-russian-individuals"
+      },
+      "sources": [
+        {
+          "label": "The Sofia Globe (Council statement)",
+          "url": "https://sofiaglobe.com/2026/10/12/eu-agrees-largest-ever-package-of-sanctions-targeting-almost-1600-individuals-entities-in-russias-military-industrial-complex/",
+          "kind": "article"
+        },
+        {
+          "label": "Estonian MFA",
+          "url": "https://vm.ee/en/news/tsahkna-luxembourg-eu-strengthens-sanctions-pressure-adding-nearly-1600-russian-individuals",
+          "kind": "primary"
+        },
+        {
+          "label": "EEAS: Kallas remarks",
+          "url": "https://www.eeas.europa.eu/eeas/foreign-affairs-council-press-remarks-high-representative-kaja-kallas-upon-arrival-12_en",
+          "kind": "primary"
+        },
+        {
+          "label": "Agence Europe",
+          "url": "https://agenceurope.eu/en/bulletin/article/13954/17/eu-council-to-adopt-new-sanctions-targeting-russian-military-industrial-complex-on-monday-12-october",
+          "kind": "article"
+        },
+        {
+          "label": "Kyiv Independent: 60-day truce idea",
+          "url": "https://kyivindependent.com/zelensky-says-if-trump-putin-want-elections-in-ukraine-a-two-month-ceasefire-is-needed/",
+          "kind": "article"
+        },
+        {
+          "label": "Straits Times: Kremlin rejects",
+          "url": "https://www.straitstimes.com/world/europe/kremlin-rejects-ukrainian-leaders-idea-of-a-60-day-ceasefire-says-it-wants-an-overall-peace-deal",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "nobel-economics-hall-woodford",
+      "title": "Economics Nobel goes to Robert E. Hall and Michael Woodford",
+      "topics": [
+        "Science",
+        "Economy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "The prize went to Hall (Stanford) and Woodford (Columbia) “for microeconomic foundations of macroeconomic stabilisation”.",
+        "The academy says their New Keynesian models let central banks and finance ministries explain and quantify how policy moves the business cycle. Those models are now used worldwide.",
+        "This closes the 2026 Nobel season, three days after Navi Pillay won the Peace Prize. Last year’s economics prize went to Mokyr, Aghion and Howitt."
+      ],
+      "whyItMatters": "It honours the toolkit behind modern central-bank playbooks, at a time when rates and fiscal stimulus are politically hot again.",
+      "image": {
+        "url": "https://static.dw.com/image/79640206_6.jpg",
+        "alt": "Secretary General of the Royal Swedish Academy of Sciences Ellen Moons (C), Chair of the Prize Committee John Hassler (L) and Member of the Prize Committee and expert Timo Boppart announce US macroeconomists Robert E Hall and Michael Woodford as the winners of the 2026 Sveriges Riksbank Prize in Economic Sciences on Oct 12, 2026",
+        "credit": "DW",
+        "creditUrl": "https://www.dw.com/en/nobel-prize-in-economics-goes-to-pair-of-us-economists/a-79638025"
+      },
+      "sources": [
+        {
+          "label": "NobelPrize.org",
+          "url": "https://www.nobelprize.org/all-nobel-prizes-2026/",
+          "kind": "primary"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html",
+          "kind": "article",
+          "time": "2026-10-12T11:53:18+02:00"
+        },
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/nobel-prize-in-economics-goes-to-pair-of-us-economists/a-79638025",
+          "kind": "article"
+        },
+        {
+          "label": "The New York Times on X",
+          "url": "https://x.com/nytimes/status/2109590976373092567",
+          "kind": "x",
+          "time": "2026-10-12T12:24:17+02:00"
+        }
+      ]
+    },
+    {
+      "id": "brad-smith-ai-milk",
+      "title": "Microsoft’s Brad Smith: AI is less regulated than milk, and needs kill switches",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Smith told the BBC: “Right now, your washing machine is subject to more safety rules than AI. Every carton of milk… is subject to safety rules and inspection.”",
+        "He wants “emergency brakes”, also called kill switches, to pause runaway AI, plus a legal obligation to “victims” whose systems are breached by rogue AI agents.",
+        "On Saturday Satya Nadella also called for an “emergency brake” on AI models. UK AI minister Kanishka Narayan is expected to say on Monday that the UK is preparing legislation for more oversight.",
+        "The Guardian ties this to recent rogue-AI cases, including Anthropic’s disclosure last week of a Claude test model that contacted police with a false claim about a murder."
+      ],
+      "whyItMatters": "When a hyperscaler that owns part of OpenAI asks for binding brakes, the regulation debate shifts from whether to how. Watch whether the UK’s bill follows.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
+        "alt": "Microsoft president Brad Smith sitting in front of a microphone in a radio studio with Big Boss Interview written on a green background behind him",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/c6rmy7zmvx3lo"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/c6rmy7zmvx3lo",
+          "kind": "article"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+          "kind": "article",
+          "time": "2026-10-12T09:52:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "zod-repo-compromise",
+      "title": "Zod repo got malicious commits, but npm never shipped them",
+      "topics": [
+        "Security",
+        "Dev notes"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Commits pushed to `colinhacks/zod` added a `preinstall` hook that fetches and runs remote code. The same pattern hit `nubjs/nub` and `standard-schema/standard-schema`.",
+        "The bad changes were reverted (“Cleanup bad commits”, #6620), and the npm-published zod 4.6.6 does not contain them, according to issue #6658 and the release history.",
+        "Only `@nubjs/nub@0.9.4` reached npm’s publish pipeline, where publish-time scanning held it. Zod’s release flow uses trusted publishing plus a gated GitHub environment.",
+        "The loader reportedly asked an Ethereum smart contract where to fetch its next stage. It hit the HN front page as “Zod 4.6.6 compromised by malware?”."
+      ],
+      "whyItMatters": "This was a near miss for a library in almost every TypeScript stack. Repo write access was compromised, and only the release controls kept it out of the registry. It’s a good moment to check `ignore-scripts` and lockfile hygiene.",
+      "image": {
+        "url": "https://opengraph.githubassets.com/ecf3209af65ac3f54133853ad5f3579a011a49abb4cc46f5726d20a47e9e077b/colinhacks/zod/issues/6658",
+        "alt": "Hi, Security audit flagged a suspicious commit associated with version 4.6.6 before updating to it: d821685#diff-5acedd97e07708c715d41def1f6fea2b2dc7b126a06d71786130d28b1db4398dR1-R4 The commit app...",
+        "credit": "colinhacks/zod #6658",
+        "creditUrl": "https://github.com/colinhacks/zod/issues/6658"
+      },
+      "sources": [
+        {
+          "label": "colinhacks/zod #6658",
+          "url": "https://github.com/colinhacks/zod/issues/6658",
+          "kind": "primary"
+        },
+        {
+          "label": "Zod releases",
+          "url": "https://github.com/colinhacks/zod/releases",
+          "kind": "primary"
+        },
+        {
+          "label": "DEV: “Zod Got Backdoored…”",
+          "url": "https://dev.to/ashraf_chowdury09/zod-got-backdoored-your-lockfile-didnt-save-you-luck-did-e4l",
+          "kind": "article"
+        },
+        {
+          "label": "Suspicious commit (HN link)",
+          "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Paris: an overnight fire destroyed the Marché des Enfants Rouges, the city’s oldest covered food market, in the 3rd arrondissement. No one was hurt, and prosecutors are investigating the cause.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Postage: the Bundesnetzagentur plans to let Deutsche Post raise letter prices by an average of 20.35% from January 2027. Spread evenly, a standard letter would go from €0.95 to €1.14. Comments are open until Oct 30.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Audi delivered 314,905 cars in Q3, down 19.7% year on year. China is the main drag: nine-month sales there are down almost a quarter, to 328,042.",
+          "sourceIndexes": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Riyadh follow-up: the CEOs of Exxon, TotalEnergies, Shell, Chevron and BP were dropped from the WPC Energy Congress schedule after the airport strikes. BP cited travel disruption.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Hurricane Simon’s track shifted west. NHC now has it staying offshore before turning inland over west-central Mexico around midweek.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Citroën showed its idea for a new 2CV (“Ente”) at the Paris motor show. It would sit in the planned M1E small-car class from €15,000, but not before 2028.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "Nicolas Cage says he’ll “probably not” work with Amazon again after refusing to sign an AI waiver on Spider-Noir.",
+          "sourceIndexes": [
+            8,
+            9
+          ]
+        },
+        {
+          "text": "Basketball Löwen Braunschweig lost for the first time this season, 98:107 in overtime to Ludwigsburg. It was 89:89 after 40 minutes, and Ludwigsburg won the extra period 18:9.",
+          "sourceIndexes": [
+            10
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/94/84/30/1200x675_cmsv2_95cdb947-ac08-5351-ac23-2438a4e99e91-9948430.jpg",
+        "alt": "Fire totally destroys oldest covered food market in Paris, authorities say",
+        "credit": "Euronews: Enfants Rouges fire",
+        "creditUrl": "https://www.euronews.com/2026/10/12/fire-totally-destroys-oldest-covered-food-market-in-paris-authorities-say"
+      },
+      "sources": [
+        {
+          "label": "Euronews: Enfants Rouges fire",
+          "url": "https://www.euronews.com/2026/10/12/fire-totally-destroys-oldest-covered-food-market-in-paris-authorities-say",
+          "kind": "article"
+        },
+        {
+          "label": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/incendie/le-marche-des-enfants-rouges-a-paris-ravage-par-les-flammes-annonce-la-mairie_8233399.html",
+          "kind": "article"
+        },
+        {
+          "label": "Handelsblatt: Porto",
+          "url": "https://www.handelsblatt.com/politik/deutschland/114-euro-pro-brief-moeglich-plus-20-prozent-porto-kann-so-stark-steigen-wie-noch-nie/100261490.html",
+          "kind": "article"
+        },
+        {
+          "label": "Handelsblatt: Audi",
+          "url": "https://www.handelsblatt.com/unternehmen/industrie/autoindustrie-audi-absatz-bricht-fast-ein-fuenftel-ein/100261455.html",
+          "kind": "article"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2109547203761254854",
+          "kind": "x",
+          "time": "2026-10-12T09:30:21+02:00"
+        },
+        {
+          "label": "Al-Monitor (Reuters)",
+          "url": "https://www.al-monitor.com/originals/2026/10/top-oil-executives-dropped-event-schedule-after-riyadh-attacks",
+          "kind": "article"
+        },
+        {
+          "label": "AFP: Simon",
+          "url": "https://www.afp.com/en/hurricane-simon-churns-mexican-coast-after-shift-course",
+          "kind": "article"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/video/da-lachen-die-huehner-citroen-zeigt-neuen-2-cv-fuer-2028-201303499.html?utm_term=Autofeed&campID=SCL-EAu2500002683&utm_medium=Social&utm_source=Twitter#Echobox=1791785504",
+          "kind": "article",
+          "via": {
+            "label": "FAZ on X",
+            "url": "https://x.com/faznet/status/2109529860381069689",
+            "kind": "x"
+          },
+          "time": "2026-10-12T08:21:26+02:00"
+        },
+        {
+          "label": "Variety",
+          "url": "https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564/",
+          "kind": "article"
+        },
+        {
+          "label": "IGN",
+          "url": "https://www.ign.com/articles/nicolas-cage-says-hell-probably-never-work-with-amazon-again-after-declining-spider-noir-ai-waiver?taid=6acbedc708bde6000181c9ca&utm_campaign=trueAnthem%3A+Manual&utm_medium=trueAnthem&utm_source=twitter",
+          "kind": "article",
+          "via": {
+            "label": "IGN on X",
+            "url": "https://x.com/IGN/status/2109569819490029581",
+            "kind": "x"
+          },
+          "time": "2026-10-12T11:00:13+02:00"
+        },
+        {
+          "label": "Basketball Löwen",
+          "url": "https://www.basketball-loewen.de/overtime-krimi-endet-mit-erster-saison-niederlage/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Linus Torvalds has a `noref-filemap-read-with-llm` branch that reads the page cache without folio references, to fix contention when many threads do small reads of one file. He says the code, tests and first draft of the cover letter were done with Claude Code “under my direction”.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Citrix shipped an urgent NetScaler ADC/Gateway fix for CVE-2026-107406 (CVSS 9.5, remote code execution). It affects SAML SP/IdP setups on 14.1-73.37–73.41 and some 13.1 builds; update to 14.1-73.46 or 13.1-64.29. Citrix knows of no exploits yet.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Bun merged #45001, closing more `bun check` gaps with `tsc` (readonly/private/protected on unions and intersections, large `paths` maps), and #40057, which migrates Yarn Berry (v2+) `yarn.lock` files to `bun.lock`.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Mitchell Hashimoto: “Everyone Should Know SIMD”.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/93b33a097b6cfad59320aab08c6888166ea79e3c854e18c927ae4228141fc41e/oven-sh/bun/pull/45001",
+        "alt": "Errors that tsc 7.0.2 reports and bun check did not, about readonly, private and protected properties of intersections and unions. bun check with a large object in tsconfig.json, which took quadrat...",
+        "credit": "oven-sh/bun #45001",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/45001"
+      },
+      "sources": [
+        {
+          "label": "Phoronix",
+          "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
+          "kind": "article",
+          "time": "2026-10-12T02:16:00+02:00"
+        },
+        {
+          "label": "Golem: NetScaler",
+          "url": "https://www.golem.de/news/dringendes-update-citrix-warnt-vor-kritischer-luecke-in-netscaler-2610-213995.html",
+          "kind": "article",
+          "time": "2026-10-12T12:29:00+02:00"
+        },
+        {
+          "label": "oven-sh/bun #45001",
+          "url": "https://github.com/oven-sh/bun/pull/45001",
+          "kind": "primary",
+          "time": "2026-10-12T11:20:09+02:00"
+        },
+        {
+          "label": "oven-sh/bun #40057",
+          "url": "https://github.com/oven-sh/bun/pull/40057",
+          "kind": "primary",
+          "time": "2026-10-12T08:50:52+02:00"
+        },
+        {
+          "label": "mitchellh.com",
+          "url": "https://mitchellh.com/writing/everyone-should-know-simd",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
