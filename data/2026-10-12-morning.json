@@ -1,0 +1,481 @@
+{
+  "id": "2026-10-12-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-12T08:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight since last evening (~19:40 Sun → ~08:15 Mon CEST)",
+  "headline": "CDU crisis retreat wraps with Merz presser at 13:30 after Söder tells AfD-voting defectors to leave; a judge pulls Trump’s taxpayer-funded TV ads; North Korea fires missiles 900+ km; Amazon eyes Decart for ~$7bn.",
+  "stories": [
+    {
+      "id": "cdu-crisis-retreat",
+      "title": "CDU crisis retreat: Söder tells AfD-voting defectors to leave, Merz reports results at 13:30",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "lead",
+      "facts": [
+        "The CDU leadership’s two-day retreat continues Monday: presidium from 09:00, wider board from 11:00, then a Merz–Hoppermann press conference at 13:30 (dpa).",
+        "It was called after three state-election defeats in September. In national polls the CDU has slid from 28.5% at the federal election to around 20% (dpa).",
+        "Söder on ARD’s Miosga, aimed at Saxony-Anhalt MPs who may vote for AfD candidates: “Wollt ihr woanders hin? Dann sagt’s auch.” He also said: “Friedrich Merz bleibt Bundeskanzler.”",
+        "Söder warned that toppling Merz from within would risk new elections and “extreme AfD dominance”. He again backed Ilse Aigner for federal president (tagesschau / Dlf).",
+        "According to BILD, ex-president Joachim Gauck backed Merz at Sunday’s dinner but demanded a clearer course. Seehofer separately attacked Merz over the electricity-tax promise and his ‘Arbeitsmoral’ remarks.",
+        "Background noise: nine Union farm ministers came out against the sugar tax the coalition just agreed on. AfD’s Ulrich Siegmund is standing for Saxony-Anhalt premier in December."
+      ],
+      "whyItMatters": "Today’s presser is the first test of whether the CDU toughens its line toward the SPD or opens a leadership debate. The Saxony-Anhalt vote in December is where the firewall question becomes concrete.",
+      "image": {
+        "url": "https://bilder.deutschlandfunk.de/74/af/be/3d/74afbe3d-056c-4fcf-8a34-7d20243222a5/berlin-koalitionsgespraeche-koalitionsverhandlungen-cdu-zentrale-spd-100-1920x1080.jpg",
+        "alt": "Blick von unten auf das Konrad-Adenauer-Haus in der Abenddämmerung. In der oberen Bildhälfte im Vordergrund eine leuchtende Laterne.",
+        "credit": "Deutschlandfunk",
+        "creditUrl": "https://www.deutschlandfunk.de/cdu-beraet-ueber-wege-aus-der-krise-hoppermann-klausur-ist-keine-wunderwaffe-102.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/soeder-cdu-abweichler-100.html",
+          "kind": "article",
+          "time": "2026-10-12T04:20:00+02:00"
+        },
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/cdu-beraet-ueber-wege-aus-der-krise-hoppermann-klausur-ist-keine-wunderwaffe-102.html",
+          "kind": "article"
+        },
+        {
+          "label": "dpa-AFX via ARIVA",
+          "url": "https://www.ariva.de/news/merz-informiert-ueber-ergebnisse-der-cdu-fuehrungsklausur-12165702",
+          "kind": "article",
+          "time": "2026-10-12T05:50:00+02:00"
+        },
+        {
+          "label": "BILD",
+          "url": "https://www.bild.de/politik/inland/altpraesident-klare-gauck-ansage-an-merz-bei-cdu-krisensitzung-6acbeaf35528343575e00aee",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "judge-blocks-trump-ads",
+      "title": "Judge orders taxpayer-funded pro-Trump TV ads off the air",
+      "topics": [
+        "US",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "On Sunday evening, US District Judge Jennifer Rochon (SDNY) issued a 14-day temporary restraining order against DHS’s ~$20m ad buy featuring Trump, weeks before the midterms.",
+        "DHS must cancel all remaining placements, including those booked for Sunday night, and may not disburse more funds or sign new ad deals. The order took effect 6:45pm EDT.",
+        "The plaintiffs (Common Cause, SEIU 32BJ and others) say Congress-appropriated money was repurposed for “publicity and propaganda”. The ads were paid from CBP-earmarked funds (The Hill).",
+        "The administration argued the campaign was ending Sunday anyway. This is the first known ruling to block the ads; other suits are pending."
+      ],
+      "whyItMatters": "It’s an early court line on using agency budgets for campaign-style messaging before the midterms.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Court order (SDNY TRO, PDF)",
+          "url": "https://campaignlegal.org/sites/default/files/2026-10/26-cv-08882_common_cause_order__tro__2026.10.11.pdf",
+          "kind": "primary"
+        },
+        {
+          "label": "POLITICO",
+          "url": "https://www.politico.com/news/2026/10/11/judge-order-immediate-halt-taxpayer-funded-pro-trump-ads-01116062",
+          "kind": "article",
+          "time": "2026-10-12T02:34:00+02:00"
+        },
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/trump-tv-ads-f845554063cea0b4b41275d32abd3633",
+          "kind": "article",
+          "time": "2026-10-12T02:06:05+02:00"
+        },
+        {
+          "label": "The Hill",
+          "url": "https://thehill.com/regulation/court-battles/6141904-judge-blocks-trump-ads/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "north-korea-missiles",
+      "title": "North Korea fires multiple ballistic missiles, one flying 900+ km",
+      "topics": [
+        "World",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "South Korea’s JCS detected launches from the Pyongyang area at ~09:20 KST Monday. At least one missile flew more than 900 km (Yonhap).",
+        "Japan logged two missiles: one flew ~220 km with a 20 km apogee, the other 910+ km with a 70 km apogee. Both fell outside Japan’s EEZ (Japan Times).",
+        "Seoul reads it as a protest against its first hypersonic glide vehicle test, which President Lee oversaw last week. It is the North’s 16th ballistic launch this year and comes nine days after the Oct 3 IRBM test (SBS)."
+      ],
+      "image": {
+        "url": "https://img1.yna.co.kr/photo/yna/YH/2026/10/04/PYH2026100402340031500_P4.jpg",
+        "alt": "(2nd LD) N. Korea fires multiple ballistic missiles after S. Korea's hypersonic weapon test",
+        "credit": "Yonhap",
+        "creditUrl": "https://en.yna.co.kr/view/AEN20261012002751315"
+      },
+      "sources": [
+        {
+          "label": "Yonhap",
+          "url": "https://en.yna.co.kr/view/AEN20261012002751315",
+          "kind": "article",
+          "time": "2026-10-12T05:10:00+02:00"
+        },
+        {
+          "label": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/12/japan/north-korea-multiple-ballistic-missiles-launch/",
+          "kind": "article"
+        },
+        {
+          "label": "SBS News",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008792941",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "riyadh-airport-toll",
+      "title": "Riyadh airport: Sunday strike killed 1, week’s toll reaches 18",
+      "topics": [
+        "Middle East",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Update on last night’s card: Saudi Arabia’s civil aviation authority (GACA) says Sunday’s projectile on King Khalid’s Terminals 3/4 killed a Pakistani resident and injured 11 (Al Jazeera).",
+        "An Indian national died of injuries from Saturday’s strike, which brings that attack to 13 dead. Reuters counts 18 dead at the airport this week, with four hits in five days.",
+        "The Houthis claimed four operations in 24h, including Dammam airport and two Aramco sites, and warned that “worse is yet to come”. They say Saudi Arabia flew 124 airstrikes in Yemen in a day.",
+        "The airport remains closed."
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-11T224221Z_1359573611_RC241OA0S2CQ_RTRMADP_3_IRAN-CRISIS-SAUDI-AIRPORT-1791766025.jpg?resize=1200%2C675",
+        "alt": "Saudi Arabia says 1 dead, 11 injured in latest attack on Riyadh airport",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/12/saudi-arabia-says-1-dead-11-injured-in-latest-attack-on-riyadh-airport"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/12/saudi-arabia-says-1-dead-11-injured-in-latest-attack-on-riyadh-airport",
+          "kind": "article"
+        },
+        {
+          "label": "Reuters via CNA",
+          "url": "https://www.channelnewsasia.com/world/saudi-arabia-riyadh-airport-attack-houthis-6451631",
+          "kind": "article"
+        },
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-11-at-riyadh-airport/a-79632306",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "amazon-decart",
+      "title": "Amazon in talks to buy AI startup Decart for ~$7bn",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "WSJ: Amazon is negotiating to acquire Decart for around $7bn. A deal could be signed soon but could still fall apart.",
+        "Decart (founded 2023) builds software that runs AI models efficiently across different chips, plus real-time video and world models. AWS is already a customer and got it early Trainium3 access (Ctech).",
+        "The startup was valued at ~$4bn in May. Nvidia and then Anthropic pursued it earlier, and Anthropic walked away after due diligence in September (Ctech).",
+        "At that size it would be among Amazon’s largest deals, bigger than MGM (~$6.5bn)."
+      ],
+      "whyItMatters": "Software that makes non-Nvidia chips easier to use is exactly what AWS needs to sell Trainium at scale.",
+      "image": {
+        "url": "https://images.wsj.net/im-92736782/social",
+        "alt": "The Amazon exhibit at the 2025 CES event, with attendees in the foreground.",
+        "credit": "WSJ (exclusive)",
+        "creditUrl": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad"
+      },
+      "sources": [
+        {
+          "label": "WSJ (exclusive)",
+          "url": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad",
+          "kind": "article"
+        },
+        {
+          "label": "Ctech by Calcalist",
+          "url": "https://www.calcalistech.com/ctechnews/article/ec25jzet0",
+          "kind": "article",
+          "time": "2026-10-12T03:35:00+03:00"
+        }
+      ]
+    },
+    {
+      "id": "guilfoyle-greece",
+      "title": "Trump and Rubio weigh firing Greece envoy Kimberly Guilfoyle",
+      "topics": [
+        "US",
+        "Politics"
+      ],
+      "weight": "brief",
+      "facts": [
+        "AP: Trump and Rubio are considering firing US Ambassador to Greece Kimberly Guilfoyle after mounting reports of improper and possibly illegal conduct. A decision is expected after the Columbus Day holiday.",
+        "The State Department inspector general is probing an alleged request that a donor pay a ~$100,000 credit-card bill in exchange for administration access (NBC).",
+        "No firing has been confirmed."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/trump-rubio-guilfoyle-364465fc46b023cacf2b70c94cc76ae2",
+          "kind": "article"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/state-department-watchdog-probing-kimberly-guilfoyle-alleged-100000-de-rcna602544",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Djibouti: at least 139 migrants dead (15 children) and 84 missing after a boat with 305 people bound for Yemen capsized off Obock on Oct 8–9 (UN/IOM via AFP).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "El Niño record: September sea-surface temperature in the Niño 3.4 zone hit 29.70°C, above the 1982–83, 1997–98 and 2015–16 peaks. Global SST also hit a record 21.05°C (Copernicus via France 24).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Hurricane Simon, a Cat 4 with ~145–150 mph winds, is hugging Mexico’s west-central Pacific coast. NHC flags possible landfall between Playa Perula and Cabo Corrientes.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "‘SI’ instead of ‘KI’: after Trump called people who still say “artificial intelligence” “THE ENEMY”, Nadella, Huang and Bezos are now writing “superintelligence”, and Salesforce renamed AIForce to SIForce (heise).",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Karlsruhe: the Federal Constitutional Court hears Bavaria’s inheritance-tax challenge today at 14:00, and the business-asset exemption case Tuesday at 10:00.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "F1: Verstappen won Singapore for the first time, in his 250th Grand Prix. Kimi Antonelli, in P3, could clinch the title in two weeks (DER SPIEGEL on X).",
+          "sourceIndexes": [
+            6
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://www.afp.com/sites/default/files/afp-stories/17381355d6d1c7041574affb67e33969-0-hi.jpg",
+        "alt": "The International Organization for Migration released a photograph of the wreck — Handout / AFP",
+        "credit": "AFP",
+        "creditUrl": "https://www.afp.com/en/djibouti-boat-wreck-leaves-139-migrants-dead-84-missing-un"
+      },
+      "sources": [
+        {
+          "label": "AFP",
+          "url": "https://www.afp.com/en/djibouti-boat-wreck-leaves-139-migrants-dead-84-missing-un",
+          "kind": "article"
+        },
+        {
+          "label": "France 24",
+          "url": "https://www.france24.com/en/environment/20261012-el-nino-pacific-temperature-record-weather",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://www.cnn.com/2026/10/11/americas/mexico-hurricane-simon-intl-latam",
+          "kind": "article"
+        },
+        {
+          "label": "NHC public advisory",
+          "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP5+shtml/120248.shtml?text=",
+          "kind": "primary"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Superintelligenz-statt-KI-Nadella-Huang-Bezos-Co-folgen-Trumps-Vorgabe-11483733.html",
+          "kind": "article",
+          "time": "2026-10-12T07:02:00+02:00"
+        },
+        {
+          "label": "Bundesverfassungsgericht",
+          "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2026/bvg26-048.html",
+          "kind": "primary"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2109515665677906155",
+          "kind": "x",
+          "time": "2026-10-12T07:25:02+02:00"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers won 32–29 at Seattle as Purdy led two late scoring drives. It is their fifth win (AP).",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Warriors signed forward Tyler Burton to an Exhibit 10 deal and waived guard Miles Kelly (RealGM).",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Löwen Braunschweig: Chemnitz guard Cobe Williams got a three-game BBL ban plus a €6,000 fine for grabbing Adam Kunkel’s throat, so he misses the Oct 18 game in Braunschweig (easyCredit BBL / TAG24).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Ex-Eintracht coach Jens Härtel stepped down as Union Berlin U19 coach over anonymous allegations of discriminatory remarks. The DFB control committee is seeking a multi-week ban (rbb24).",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/49ers-seahawks-score-276352fdcf90033278014750488cf673",
+          "kind": "article"
+        },
+        {
+          "label": "RealGM",
+          "url": "https://basketball.realgm.com/wiretap/287595/Warriors-Sign-Tyler-Burton-To-Exhibit-10-Contract;-Waive-Miles-Kelly",
+          "kind": "article"
+        },
+        {
+          "label": "easyCredit BBL",
+          "url": "https://easycredit-bbl.de/de/n/news/2026/oktober/spielleiter-verhaengt-spielsperre-und-geldstrafe-gegen-chemnitz-cobe-williams",
+          "kind": "primary"
+        },
+        {
+          "label": "TAG24",
+          "url": "https://www.tag24.de/sport/basketball/niners-chemnitz/ein-baerendienst-niners-boss-herhold-bedauert-taetlichkeit-und-sperre-von-us-guard-williams-3539288",
+          "kind": "article"
+        },
+        {
+          "label": "rbb24",
+          "url": "https://www.rbb24.de/sport/beitrag/2026/10/fusball-bundesliga-union-berlin-u19-jens-haertel-dfb-diskriminierung-vorwuerfe-ruecktritt.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Bun merged #44805, adding `bun lint` (ESLint/oxlint configs, 1,021 built-in rules, type-aware) and `bun format` (Prettier/oxfmt-compatible). It claims ~2x the speed of oxlint/oxfmt on vscode.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "@bunjavascript is polling what the formatter subcommand should be called.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Claude Max 20x: a user said they burned the plan in 19 hours. Anthropic’s Boris Cherny replied that there were “no changes on our end” and pointed to `claude -p /usage` for debugging.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Lobsters: “D-Bus Hell” by David Bushell, and Verdagon on Valen’s new group-borrowing approach to memory safety.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "HN: Terence Tao’s “Math 2.0” Caltech slides (PDF).",
+          "sourceIndexes": [
+            6
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/83286c2e85c8887f6e734adb3aa0248628051288061e54708602f342758606d9/oven-sh/bun/pull/44805",
+        "alt": "What does this PR do? Adds two commands: bun lint: a linter that reads ESLint and oxlint configs. 1,021 rules built in, type-aware rules included. bun format: a formatter that reads Prettier and o...",
+        "credit": "oven-sh/bun #44805",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/44805"
+      },
+      "sources": [
+        {
+          "label": "oven-sh/bun #44805",
+          "url": "https://github.com/oven-sh/bun/pull/44805",
+          "kind": "primary",
+          "time": "2026-10-12T07:17:06+02:00"
+        },
+        {
+          "label": "Bun on X",
+          "url": "https://x.com/bunjavascript/status/2109504533768659229",
+          "kind": "x",
+          "time": "2026-10-12T06:40:48+02:00"
+        },
+        {
+          "label": "ziwenxu_ on X",
+          "url": "https://x.com/ziwenxu_/status/2109286078079496248",
+          "kind": "x",
+          "time": "2026-10-11T16:12:44+02:00"
+        },
+        {
+          "label": "Boris Cherny on X",
+          "url": "https://x.com/bcherny/status/2109426207658066360",
+          "kind": "x",
+          "time": "2026-10-12T01:29:33+02:00"
+        },
+        {
+          "label": "dbushell.com",
+          "url": "https://dbushell.com/2026/10/11/d-bus-hell/",
+          "kind": "article"
+        },
+        {
+          "label": "verdagon.dev",
+          "url": "https://verdagon.dev/blog/valen-group-borrowing",
+          "kind": "article"
+        },
+        {
+          "label": "Terence Tao (PDF)",
+          "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+          "kind": "primary"
+        }
+      ]
+    }
+  ]
+}
