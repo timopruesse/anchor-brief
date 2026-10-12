@@ -5,6 +5,13 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 10
+    ignore:
+      # SvelteKit 3 / adapter-static 4 broke `bun run check` (tsconfig_extends_missing).
+      # Keep minor/patch on the current majors; do not auto-propose these majors again.
+      - dependency-name: "@sveltejs/kit"
+        versions: ["3.x"]
+      - dependency-name: "@sveltejs/adapter-static"
+        versions: ["4.x"]
     groups:
       svelte-ecosystem:
         patterns:
