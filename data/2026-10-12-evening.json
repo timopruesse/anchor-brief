@@ -1,0 +1,385 @@
+{
+  "id": "2026-10-12-evening",
+  "edition": "evening",
+  "generatedAt": "2026-10-12T20:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since the afternoon edition (~12:45 to 20:00 CEST)",
+  "headline": "Merz answers the CDU’s slump with a promise to cut electricity tax for everyone; federal agents search Ilhan Omar’s home 22 days before the midterms; Meta launches its Muse Wonder frontier models; Saudi Arabia probes how Houthi missiles got through.",
+  "stories": [
+    {
+      "id": "cdu-stromsteuer",
+      "title": "After its crisis retreat, the CDU promises to cut electricity tax for all households",
+      "topics": [
+        "Germany",
+        "Energy"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Merz said after the two-day CDU presidium retreat that electricity tax should drop to the EU minimum for everyone, households included, paid for from budget headroom.",
+        "For households that means €20.50 per MWh (2.05 ct/kWh, unchanged since 2003) down to €1 per MWh (0.1 ct/kWh). MDR puts the tax at about €80 a year for an average household.",
+        "Merz tied it to the raised growth forecast: 1.3% this year (from 0.5%) and 1.1% next. He said 1% growth brings about €10bn more tax, €5bn of it federal.",
+        "The cut was promised in the CDU’s 2025 programme and the coalition agreement, but so far applies only to some industries. Merz called it a promise “we have not kept to this day”.",
+        "He said Bas’s resignation does not endanger the coalition’s reforms and that he would propose Alexander Schweitzer to President Steinmeier as labour minister today.",
+        "Next: a conference of CDU district chairs in early November, then member and regional conferences in 2027."
+      ],
+      "whyItMatters": "This is the concrete outcome of the morning’s crisis retreat, and the first relief pledge aimed at households rather than industry. Whether it happens depends on the budget and the SPD, which is reorganising after Bas’s exit.",
+      "image": {
+        "url": "https://bilder.deutschlandfunk.de/e7/80/65/a2/e78065a2-7e3f-4f2d-a9f2-f98b8ba89a93/merz-klingbeil-bundestag-100-1920x1080.jpg",
+        "alt": "Bundesfinanzminister Lars Klingbeil (links) und Bundeskanzler Friedrich Merz /CDU) sitzen am 11.06.2026 im Bundestag. Merz erzählt Klingbeil offenbar etwas. Beide wirken angespannt.",
+        "credit": "Deutschlandfunk",
+        "creditUrl": "https://www.deutschlandfunk.de/cdu-will-stromsteuer-fuer-alle-auf-europaeisches-minimum-absenken-100.html"
+      },
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/cdu-klausur-merz-hoppermann-100.html",
+          "kind": "article",
+          "time": "2026-10-12T15:11:00+02:00"
+        },
+        {
+          "label": "Deutschlandfunk",
+          "url": "https://www.deutschlandfunk.de/cdu-will-stromsteuer-fuer-alle-auf-europaeisches-minimum-absenken-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/deutschland/cdu-friedrich-merz-will-strompreise-fuer-alle-haushalte-senken-a-d03b9498-3d41-4141-adce-c5ab8404cea2",
+          "kind": "article",
+          "time": "2026-10-12T14:58:00+02:00"
+        },
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/nachrichten/deutschland/politik/klausur-stromsteuer-senkung-afd,cdu-550.html",
+          "kind": "article",
+          "time": "2026-10-12T17:50:00+02:00"
+        },
+        {
+          "label": "CDU: retreat results",
+          "url": "https://www.cdu.de/aktuelles/cdu-deutschlands/was-jetzt-passieren-muss-ergebnisse-der-klausurtagung-des-praesidiums-der-cdu-deutschlands/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "omar-home-search",
+      "title": "Federal agents search Rep. Ilhan Omar’s home in a criminal probe",
+      "topics": [
+        "US"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Homeland Security Investigations agents executed a judicially authorised, DOJ-secured search warrant at Omar’s Washington, D.C.-area home on Monday morning.",
+        "The DOJ says it is part of an ongoing federal criminal investigation and gave no further details. A BBC crew saw agents carrying boxes to a van.",
+        "Fox News, cited by CNBC, ABC and the BBC, reports that the probe concerns immigration paperwork filed by her late father when Omar was a child.",
+        "It comes 22 days before the midterms, in which Omar is running again in Minnesota’s 5th district.",
+        "Last month DHS Secretary Markwayne Mullin said “something is going to happen” and alleged marital fraud. Border tsar Tom Homan told Fox she was being investigated for immigration violations."
+      ],
+      "whyItMatters": "A raid on a sitting member of Congress this close to an election will be read as political whatever the evidence turns out to be. Watch for charges or an unsealed warrant.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/dc45/live/01c4d970-c64f-11f1-b47f-e3f9cf703bc3.png",
+        "alt": "HSI agents with boxes outside Ilhan Omar's home.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cvp8glg97393o"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cvp8glg97393o",
+          "kind": "article"
+        },
+        {
+          "label": "ABC News",
+          "url": "https://abcnews.com/US/rep-ilhan-omars-residence-searched-part-ongoing-criminal/story?id=137192001",
+          "kind": "article"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html",
+          "kind": "article"
+        },
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/ilhan-omar-home-searched-8e18c2aea948bd90f4d7a4eb32b9ec3a",
+          "kind": "article",
+          "time": "2026-10-12T14:24:39+02:00"
+        },
+        {
+          "label": "NPR",
+          "url": "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj",
+          "kind": "article",
+          "time": "2026-10-12T19:17:17+02:00"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-wonder",
+      "title": "Meta launches Muse Wonder and Muse Wonder Full, its most capable models so far",
+      "topics": [
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Meta calls Muse Wonder and Muse Wonder Full its most capable models to date, aimed at personal and professional agent tasks: law, finance, health and coding.",
+        "Muse Wonder is available now through the Meta Model API and Muse Code. Muse Wonder Full is for Muse Code subscribers, and the Muse app gets Wonder soon, subscribers first.",
+        "Meta highlights “Active Memory” across conversations and “Active Focus” for retrying, recovering from errors and checking in before important actions.",
+        "The models were released under Meta’s Superintelligence Scaling Framework. A full safety-evaluation report is promised “soon”.",
+        "Meta says it got here 14 months into an overhaul of its AI work, building on Muse Spark."
+      ],
+      "whyItMatters": "Meta is back to claiming the frontier, this time with an agent-first pitch and a paid API. Independent benchmarks and the delayed safety report are what to wait for.",
+      "image": {
+        "url": "https://research.meta.ai/articles/introducing-muse-wonder/social/muse-wonder-social-v1.webp",
+        "alt": "Blue Muse Wonder title over a pale repeating pattern of the word Wonder.",
+        "credit": "Meta AI Research",
+        "creditUrl": "https://research.meta.ai/blog/muse-wonder"
+      },
+      "sources": [
+        {
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+          "kind": "primary"
+        },
+        {
+          "label": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/muse-wonder",
+          "kind": "primary"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50059115",
+          "kind": "article",
+          "time": "2026-10-12T18:48:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "saudi-air-defence-probe",
+      "title": "Saudi Arabia faces new Houthi fire and probes why its air defences failed",
+      "topics": [
+        "Middle East"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Saudi Arabia reported a new barrage of drones and missiles on Monday. Riyadh’s King Khalid airport stays shut for now (Reuters).",
+        "Two regional officials told AP that Riyadh has opened an investigation. The first findings: drones went first to clear a path for cruise and ballistic missiles that flew over 1,000 km.",
+        "The UAE’s Anwar Gargash called for reviving joint Gulf security and defence action, saying neglect had “emboldened others”.",
+        "The US shares intelligence and targeting with the Saudis but has not struck the Houthis itself. Trump said the US “may” join.",
+        "Iran says it is still reviewing a US reply to its proposal for reopening the Strait of Hormuz (CNBC, citing Reuters)."
+      ],
+      "whyItMatters": "The attacks keep coming even as Riyadh hosts the World Petroleum Congress. A US decision on striking Yemen is now the main way this could escalate.",
+      "image": {
+        "url": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-11T224410Z_1659588386_RC241OAGCJLV_RTRMADP_3_IRAN-CRISIS-SAUDI-AIRPORT.jpg",
+        "alt": "Surveillance footage shows the moment of the attack at King Khalid International Airport in Saudi Arabia",
+        "credit": "PBS / AP",
+        "creditUrl": "https://www.pbs.org/newshour/world/saudis-probe-how-defense-systems-failed-to-stop-deadly-houthi-attack-on-riyadh-airport"
+      },
+      "sources": [
+        {
+          "label": "Reuters via Yahoo",
+          "url": "https://www.yahoo.com/news/world/articles/saudi-arabia-faces-missile-drone-132132207.html",
+          "kind": "article"
+        },
+        {
+          "label": "PBS / AP",
+          "url": "https://www.pbs.org/newshour/world/saudis-probe-how-defense-systems-failed-to-stop-deadly-houthi-attack-on-riyadh-airport",
+          "kind": "article",
+          "time": "2026-10-12T16:47:00+02:00"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/12/us-iran-war-trump-hormuz-saudi.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "zeit-house-of-block",
+      "title": "Hamburg court has Zeit’s “House of Block” interview tapes seized",
+      "topics": [
+        "Germany",
+        "Media"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Prosecutors and Hamburg police (LKA) came to Zeit on Monday morning with an order from the Landgericht for the recordings behind the podcast “ZEIT Verbrechen: House of Block”, threatening a search.",
+        "The court wants the tapes as possible evidence in the Christina Block abduction trial, partly to test witnesses’ credibility. Zeit itself is not accused.",
+        "Zeit handed the material over sealed, objected to the seizure and has filed a complaint. Editors-in-chief di Lorenzo and Wegner cite source protection.",
+        "In the podcast, one of the two abducted Block children spoke publicly for the first time. The trial resumes Tuesday."
+      ],
+      "whyItMatters": "German law only lets courts seize editorial material when evidence can’t be had otherwise, so the complaint is a real test of press protections. It lands during Hamburg’s press-freedom week.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau / NDR",
+          "url": "https://www.tagesschau.de/inland/regional/hamburg/block-prozess-staatsanwaltschaft-beschlagnahmt-aufnahmen-der-zeit,house-of-block-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "WELT",
+          "url": "https://www.welt.de/regionales/hamburg/article6accf942f2750bc2e609f156/gespraechsaufnahmen-beschlagnahmt-ein-angriff-auf-die-presse-zeit-verlag-wehrt-sich-gegen-gerichtsbeschluss-im-block-prozess.html",
+          "kind": "article"
+        },
+        {
+          "label": "persoenlich.com",
+          "url": "https://www.persoenlich.com/medien/redaktion-muss-podcast-aufnahmen-herausgeben/amp",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Alexander Zverev will finish 2026 as world No. 1, the first German man at the top since Boris Becker in 1991 and the first ever to end a season there. Alcaraz’s loss in Shanghai settled it.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Pope Leo XIV goes into Rome’s Gemelli hospital Tuesday to have a small, early-stage lung nodule removed. He expects about a week there, and audiences are cancelled through Oct 20.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Leaker MEGAsizeGPU reports that Nvidia has effectively discontinued the RTX 5090, steering GB202 dies to RTX Pro workstation cards. Nvidia hasn’t confirmed it.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Warriors: Kristaps Porziņģis is still away from the team with an undisclosed illness. He has missed camp and all four preseason games, and there’s no return date.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "sportschau",
+          "url": "https://www.sportschau.de/tennis/zverev-wird-weltranglistenerster,zverevs-weg-weltrangliste-platz-eins-100.html",
+          "kind": "article",
+          "time": "2026-10-12T14:59:00+02:00"
+        },
+        {
+          "label": "Vatican News",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-to-be-admitted-gemelli-hospital-october-13.html",
+          "kind": "primary"
+        },
+        {
+          "label": "CBS News",
+          "url": "https://www.cbsnews.com/news/pope-leo-hospital-lung-nodule-surgery/",
+          "kind": "article"
+        },
+        {
+          "label": "Digital Foundry",
+          "url": "https://www.digitalfoundry.net/news/2026/10/report-rtx-5090-gpus-discontinued-by-nvidia-as-gb202-is-reserved-for-ai-workstation-cards",
+          "kind": "article"
+        },
+        {
+          "label": "CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/warriors-kristaps-porzingis-away-from-team-mystery-illness/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "QGIS adopted QEP 428, a flat “no AI contributions” policy replacing its human-in-the-loop rule. Maintainers call it a stop-gap they may loosen case by case; it topped HN with 332 points.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "GitHub had a multi-hour incident hitting Actions, Issues, Projects and PR review requests from 14:21 CEST. Core services were mitigated by 16:37, but notifications were still backlogged at 19:34.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Playwright merged #43258: the MCP server now redacts URL parameter values in tool responses.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Bun merged #45066, bringing `bun check` closer to `tsc` on circular types, loops and `then` on `Promise<T> | PromiseLike<T>`.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Reads: Filippo Valsorda’s “(Post-Quantum) Cryptographic Right Answers”, and a write-up of a $90,000 RCE in Google’s devsite via a pickled Flask session.",
+          "sourceIndexes": [
+            5,
+            6
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/ecd8d0f901eee0f806d831e96afb55ccec8a03b57832f9afe745d5fb8238f56c/qgis/QGIS-Enhancement-Proposals/pull/387",
+        "alt": "Followup discussion at https://lists.osgeo.org/pipermail/qgis-developer/2026-September/068576.html. This formally changes the AI policy to a strict \"NOT ALLOWED\" policy.",
+        "credit": "qgis/QGIS-Enhancement-Proposals #387",
+        "creditUrl": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+      },
+      "sources": [
+        {
+          "label": "qgis/QGIS-Enhancement-Proposals #387",
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50054751",
+          "kind": "article"
+        },
+        {
+          "label": "GitHub Status",
+          "url": "https://www.githubstatus.com/incidents/93njd414rpbx",
+          "kind": "primary"
+        },
+        {
+          "label": "microsoft/playwright #43258",
+          "url": "https://github.com/microsoft/playwright/pull/43258",
+          "kind": "primary",
+          "time": "2026-10-12T17:35:41+02:00"
+        },
+        {
+          "label": "oven-sh/bun #45066",
+          "url": "https://github.com/oven-sh/bun/pull/45066",
+          "kind": "primary",
+          "time": "2026-10-12T16:40:36+02:00"
+        },
+        {
+          "label": "words.filippo.io",
+          "url": "https://words.filippo.io/right-answers/",
+          "kind": "article"
+        },
+        {
+          "label": "simonkoeck.com",
+          "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
