@@ -1,0 +1,387 @@
+{
+  "id": "2026-10-13-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-13T13:25:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since the morning edition (~08:20 to 13:20 CEST)",
+  "headline": "Drones sink a ship off Bulgaria a week after the last attack, and Sofia summons Russia’s ambassador; Anthropic warns small AI models could soon worm through smart-home devices; Saxony-Anhalt’s CDU weighs a walkout over the AfD’s premier bid; Ledger confirms a spy-chip implant.",
+  "stories": [
+    {
+      "id": "black-sea-bulgaria-drones",
+      "title": "Drones sink a ship off Bulgaria, and Sofia summons Russia’s ambassador",
+      "topics": [
+        "Europe",
+        "Security"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Drones struck two merchant ships off Bulgaria’s Black Sea coast on Tuesday. One sank 17 nautical miles east of Krapets: 11 crew are missing and one sailor was rescued (BBC, local officials).",
+        "The other, the Maltese-flagged, Odesa-registered Chelsea 3, was hit about 18 nautical miles off Byala. All 15 crew were rescued, and five have minor injuries.",
+        "PM Rumen Radev summoned Russian ambassador Eleonora Mitrofanova. He said there is no conclusive evidence, but “the logic suggests that the outcome benefits the Russian Federation”.",
+        "Mitrofanova reportedly said she had no information from Russia’s defence ministry and suggested a third-party provocation. Ukraine blames Russia directly.",
+        "It comes a week after the Oct 6 attacks in Bulgaria’s exclusive economic zone that sank the Alfa Watan. Radev also spoke to NATO chief Rutte, who said the alliance will adjust its posture “as needed”.",
+        "Von der Leyen called the Black Sea “another front of escalation of the Russian war in Ukraine”."
+      ],
+      "whyItMatters": "Two attacks in a week right next to a NATO member’s territorial waters, with a sinking and missing crew each time, push the Black Sea shipping war onto the alliance’s doorstep. Watch whether Bulgaria formally asks NATO for more than technical help.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c339/live/811bb020-c6e2-11f1-bc2e-018d645d8d21.jpg",
+        "alt": "Rescued crew members from a ship that was damaged in drone attack are taken away in an ambulance in Varna, Bulgaria, October 13, 2026.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o",
+          "kind": "article"
+        },
+        {
+          "label": "AP",
+          "url": "https://apnews.com/article/bulgaria-black-sea-drones-ships-7dfef251fb7d47a717f0d600873dbf5b",
+          "kind": "article"
+        },
+        {
+          "label": "Balkan Insight",
+          "url": "https://balkaninsight.com/2026/10/13/bulgaria-summons-russian-envoy-over-new-black-sea-drone-attacks/bi/",
+          "kind": "article"
+        },
+        {
+          "label": "The Sofia Globe",
+          "url": "https://sofiaglobe.com/2026/10/13/bulgarian-pm-holds-talks-with-russian-ambassador-after-latest-drone-attacks-on-vessels-in-bulgarias-eez/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-self-replicating-ai",
+      "title": "Anthropic’s red team says small AI models may soon copy themselves onto smart-home devices",
+      "topics": [
+        "AI",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Anthropic’s Frontier Red Team says small models may be “months away” from being able to self-replicate on insecure IoT devices such as smart ovens and off-brand Android TV boxes, with no datacenter needed.",
+        "Demo: Gemma4-26B-A4B ran across 15 cheap (~$55) Android TV boxes at 0.39 tokens per second. Qwen3.5-9B got inference running on 8 of 9 hardware types tested.",
+        "In a firewalled 8-node Android-emulator test, only GLM-5.2 replicated end to end: 8/8 nodes in 4 of 5 trials. The exploit was a trivial unauthenticated ADB port, so Anthropic calls this an upper bound.",
+        "On the current trend, small models reach GLM-5.2’s level by the end of 2026. Such a worm would be slow (doubling time of days) but hard to shut down, since there’s no central point to switch off.",
+        "Suggested defences: ISP traffic monitoring and quarantine (as with Mirai) and better device defaults, such as the UK’s ban on default IoT passwords."
+      ],
+      "whyItMatters": "It lands the morning after hackers heated up supermarket fridges through exposed controllers, which is exactly the kind of poorly secured, internet-facing hardware the paper describes. Patching and taking these devices off the open internet now protects against both threats.",
+      "image": {
+        "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "alt": "Anthropic logo",
+        "credit": "Anthropic",
+        "creditUrl": "https://www.anthropic.com/research/self-replicating-ai"
+      },
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/self-replicating-ai",
+          "kind": "primary"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
+          "kind": "article"
+        },
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
+          "kind": "article"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/anthropic-warnt-unsichere-iot-geraete-koennen-ki-wuermer-verbreiten-2610-214047.html",
+          "kind": "article",
+          "time": "2026-10-13T12:27:02+02:00"
+        }
+      ]
+    },
+    {
+      "id": "saxony-anhalt-cdu-walkout",
+      "title": "Saxony-Anhalt’s CDU votes today on walking out when the AfD’s Siegmund stands for premier",
+      "topics": [
+        "Germany"
+      ],
+      "weight": "normal",
+      "facts": [
+        "The CDU group’s leadership (Sven Schulze, Stefan Ruland) proposes that all CDU members leave the chamber when AfD lead candidate Ulrich Siegmund stands for premier in December. The group decides on Tuesday.",
+        "The aim is to kill suspicion of secret CDU votes for the AfD. When the AfD’s Tobias Rausch was elected Landtag president, he got four more votes than AfD and BSW combined, and he says CDU members voted for him.",
+        "In the first round, Siegmund needs 42 of 83 votes. With the BSW abstaining, the AfD is three votes short, and Siegmund says he will only stand in the first round.",
+        "Rausch told dpa the four CDU votes are “so abgesprochen” (agreed) for Siegmund too. The CDU rules out supporting an AfD candidate.",
+        "If no one is elected, a second round must follow within seven days. After that, the Landtag decides within 14 days whether to dissolve itself."
+      ],
+      "whyItMatters": "A walkout would make any extra votes for Siegmund traceable to other parties, which takes the pressure off the CDU but leaves the state without a clear path to a government.",
+      "image": null,
+      "sources": [
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/cdu-fraktion-afd,landtag-wahl-ministerpraesident-cdu-100.html",
+          "kind": "article",
+          "time": "2026-10-13T08:10:00+02:00"
+        },
+        {
+          "label": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/cdu-sachsen-anhalt-wahl-ministerpraesidenten-plenarsaal-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "WELT",
+          "url": "https://www.welt.de/politik/deutschland/article6acd227e8776d79fbd9caaa0/wegen-verdachts-auf-stimmen-fuer-afd-cdu-will-bei-ministerpraesidentenwahl-in-sachsen-anhalt-den-saal-verlassen.html",
+          "kind": "article"
+        },
+        {
+          "label": "t-online",
+          "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101477938/cdu-sachsen-anhalt-verlaesst-die-cdu-bei-siegmund-wahl-den-saal-.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "ledger-spy-implant",
+      "title": "Ledger confirms a spy-chip implant in wallets sold through a Malaysian reseller",
+      "topics": [
+        "Security",
+        "Crypto"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Ledger confirmed an unauthorised hardware implant in at least one wallet from CryptoBilis, a Malaysia-based reseller. It says every reported fund drain links to devices sold there, and calls the volume “limited”.",
+        "Researchers (Mark Karpelès, Tibane Labs) say the implant reads the screen and button presses to capture the recovery phrase, then sends it out over LTE via a tiny eSIM.",
+        "Tibane Labs found two variants, one on a professionally made flex PCB tucked under the display. The giveaway was an antenna wire along the top edge.",
+        "Ledger’s Genuine Check can’t detect added implants while the original Secure Element is intact.",
+        "Ledger’s advice: don’t set up a device from this reseller, and if you already have, move funds to a new device with a new seed."
+      ],
+      "whyItMatters": "This is a supply-chain attack that gets around the secure chip entirely by watching the screen. For any hardware wallet, buying direct or from authorised resellers is now a real security control.",
+      "image": {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/10/12/Ledger.jpg",
+        "alt": "Ledger confirms hardware wallet spy implant behind crypto thefts",
+        "credit": "BleepingComputer",
+        "creditUrl": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
+      },
+      "sources": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+          "kind": "article"
+        },
+        {
+          "label": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+          "kind": "article"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/kryptodiebstahl-ledger-bestaetigt-hardware-implantat-in-wallet-2610-214036.html",
+          "kind": "article",
+          "time": "2026-10-13T12:09:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Destatis confirms German inflation at 3.3% in September, the highest since December 2023. Energy is up 14.9%, fuel 37.1% and heating oil 74.9%; core inflation stays at 2.4%.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Nuremberg airport was closed around midday over an “unconfirmed air emergency”. Overnight, three pilots had independently reported a possible drone, and a police helicopter found nothing.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Formula 1 signs a 10-year deal for an African Grand Prix in Rwanda, on a new circuit in Bugesera about 40 km south of Kigali, from the early 2030s.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "SpaceX’s CRS-35 Dragon launched on time and the booster landed at LZ-40. Docking with the ISS is set for Wednesday at about 17:00 CEST.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Christa Pike’s failed execution: 911 records show the first call for help was treated as a false alarm because the caller lacked a verification code. Responders got in about half an hour later.",
+          "sourceIndexes": [
+            7
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://taz.de/picture/8797750/1200/42301296.jpeg",
+        "alt": "Preisanzeiger an einer Zapfsäule",
+        "credit": "taz / Reuters",
+        "creditUrl": "https://taz.de/Kaufkraftverlust-steigt/!6221208/"
+      },
+      "sources": [
+        {
+          "label": "Destatis",
+          "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html",
+          "kind": "primary"
+        },
+        {
+          "label": "taz / Reuters",
+          "url": "https://taz.de/Kaufkraftverlust-steigt/!6221208/",
+          "kind": "article"
+        },
+        {
+          "label": "BR24",
+          "url": "https://www.br.de/nachrichten/bayern/unbestaetigte-luftnotlage-flughafen-nuernberg-gesperrt,VXvMxwh",
+          "kind": "article",
+          "time": "2026-10-13T12:44:12+02:00"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/regionales/bayern/Moegliche-Drohne-stoert-Flugbetrieb-am-Nuernberger-Flughafen-id31411723.html",
+          "kind": "article",
+          "time": "2026-10-13T10:18:00+02:00"
+        },
+        {
+          "label": "Formula 1",
+          "url": "https://www.formula1.com/en/latest/article/formula-1-returns-to-africa-with-10-year-agreement-to-race-in-rwanda.13xs9VMK7cGFiBd2IplyES",
+          "kind": "primary"
+        },
+        {
+          "label": "F1 on X",
+          "url": "https://x.com/F1/status/2109937043413622963",
+          "kind": "x",
+          "time": "2026-10-13T11:19:26+02:00"
+        },
+        {
+          "label": "SpaceX on X",
+          "url": "https://x.com/SpaceX/status/2109958876971860291",
+          "kind": "x",
+          "time": "2026-10-13T12:46:12+02:00"
+        },
+        {
+          "label": "AP",
+          "url": "https://apnews.com/article/christa-pike-failed-execution-911-call-d9798c737c60bf77e6d6b15e0c075572",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Context for the fridge attack: Claroty’s August research found ~2,765 Danfoss AK-SM 800A controllers online, with a hidden date-based login (CVE-2025-41450) and an RCE bug. Firmware R4.3.1 fixes both.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Daniel Stenberg: curl’s easy handle shrank from 4,256 to 3,064 bytes in two months (almost 40%), and one parser now runs almost twice as fast.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Rust soundness bug #164250 (labelled I-unsound, P-high): struct lifetime requirements can be bypassed through covariant field assignment.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Read: “500+ billion tokens later”, on AI agents decompiling a first-person shooter function by function until the bytes match the original EXE.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://web-assets.claroty.com/_danfoss/image4.png",
+        "alt": "Team82 researched the attack surface of the Danfoss AK-SM 800A refrigeration controller platform and identified multiple vulnerabilities affecting the embedded web management interface. Team82 disclosed the vulnerabilities to Danfoss, which addressed them in a new firmware version. Successful exploits of the vulnerabilities, including a hidden",
+        "credit": "Claroty Team82",
+        "creditUrl": "https://claroty.com/team82/research/freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers"
+      },
+      "sources": [
+        {
+          "label": "Claroty Team82",
+          "url": "https://claroty.com/team82/research/freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers",
+          "kind": "primary"
+        },
+        {
+          "label": "daniel.haxx.se",
+          "url": "https://daniel.haxx.se/blog/2026/10/13/a-slightly-faster-slimmer-curl/",
+          "kind": "article"
+        },
+        {
+          "label": "rust-lang/rust #164250",
+          "url": "https://github.com/rust-lang/rust/issues/164250",
+          "kind": "primary"
+        },
+        {
+          "label": "momo5502",
+          "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB extends Niko Kovac’s contract to 30 June 2029, along with assistants Robert Kovac and Filip Tapalovic. That settles the length dispute flagged this morning.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "49ers: Deebo Samuel will miss at least two games with a hamstring injury from the Seattle win. With the Week 8 bye, Week 9 is the earliest likely return.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "BVB",
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/10/13/BVB-Extends-Contract-with-Kovac-Through-2029.html",
+          "kind": "primary"
+        },
+        {
+          "label": "Sportschau",
+          "url": "https://www.sportschau.de/regional/wdr/wdr-niko-kovac-bleibt-bvb-cheftrainer-bis-2029-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/50168446/shanahan-49ers-wr-samuel-miss-hamstring-injury",
+          "kind": "article"
+        },
+        {
+          "label": "Niners Wire",
+          "url": "https://ninerswire.usatoday.com/story/sports/nfl/niners/2026/10/12/deebo-samuel-injury-update-hamstring-kyle-shanahan/92221848007/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
