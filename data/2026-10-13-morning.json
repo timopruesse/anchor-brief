@@ -1,7 +1,7 @@
 {
   "id": "2026-10-13-morning",
   "edition": "morning",
-  "generatedAt": "2026-10-13T08:15:00+02:00",
+  "generatedAt": "2026-10-13T08:16:00+02:00",
   "timezone": "Europe/Berlin",
   "coverage": "overnight, since the evening edition (~19:45 to 08:20 CEST)",
   "headline": "Hackers heat up the fridges in 400+ French supermarkets and may have reached other EU countries; the IMF warns of an AI-driven correction as Korea’s chip stocks crash; xAI folds Cursor into one “X Subscription”; Germany’s digital minister wants to tax AI revenue.",
@@ -297,6 +297,27 @@
           "sourceIndexes": [
             4
           ]
+        },
+        {
+          "text": "RJ Mitte, Walt Jr. on “Breaking Bad” and a disability-rights advocate, has died at 34 in Brownsville, Texas. Police say the cause is still undetermined and no foul play is suspected; Bryan Cranston and Aaron Paul have posted tributes.",
+          "sourceIndexes": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "SpaceX CRS-35: Falcon 9 is targeting liftoff today at 12:33 Berlin (6:33 a.m. ET) from SLC-40, with a backup Wednesday at 12:08. Dragon is due to dock with the ISS on Thursday around 17:00 Berlin. This is the capsule’s fourth flight and the booster’s eighth.",
+          "sourceIndexes": [
+            7,
+            8
+          ]
+        },
+        {
+          "text": "French YC startup HyLight raised €13m (~$14.5m) for autonomous hydrogen airships that inspect power lines, pipelines and rail. Rubio Impact Ventures led the round. The company aims to grow from 4 to 15 airships by 2027 and is prioritising Germany and the Netherlands.",
+          "sourceIndexes": [
+            9,
+            10
+          ]
         }
       ],
       "image": null,
@@ -326,6 +347,39 @@
           "label": "Unione Sarda",
           "url": "https://www.unionesarda.it/en/italy/lung-nodule-leo-xiv-at-gemelli-hospital-surgery-likely-this-afternoon-i8x5bg6i",
           "kind": "article"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cmn045en7d88o",
+          "kind": "article"
+        },
+        {
+          "label": "@nytimes",
+          "url": "https://x.com/nytimes/status/2109767983144861792",
+          "kind": "x",
+          "time": "2026-10-13T00:07:39+02:00"
+        },
+        {
+          "label": "SpaceX",
+          "url": "https://spacex.com/launches/crs35",
+          "kind": "primary"
+        },
+        {
+          "label": "@SpaceX",
+          "url": "https://x.com/SpaceX/status/2109716075562799346",
+          "kind": "x",
+          "time": "2026-10-12T20:41:23+02:00"
+        },
+        {
+          "label": "EU-Startups",
+          "url": "https://www.eu-startups.com/2026/10/hylight-raises-e13-million-for-its-autonomous-airships-inspecting-europes-critical-infrastructure/",
+          "kind": "article"
+        },
+        {
+          "label": "@ycombinator",
+          "url": "https://x.com/ycombinator/status/2109715679230427446",
+          "kind": "x",
+          "time": "2026-10-12T20:39:49+02:00"
         }
       ]
     },
