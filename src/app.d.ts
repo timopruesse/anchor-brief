@@ -7,10 +7,6 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
-		interface PublicEnv {
-			/** Optional public HTTPS endpoint that accepts GET ?briefId&itemId&vote&ts. */
-			PUBLIC_VOTE_URL?: string;
-		}
 	}
 }
 

@@ -15,19 +15,19 @@
 		sortStoriesByWeight,
 		toDate,
 		makeFormatters
-	} from '$lib/format';
+	} from '#lib/format.js';
 	import {
 		COMMUNITY_KINDS,
 		COMMUNITY_KIND_LABELS,
 		normalizeCommunity
-	} from '$lib/community';
-	import { normalizeEarnings } from '$lib/earnings';
+	} from '#lib/community.js';
+	import { normalizeEarnings } from '#lib/earnings.js';
 	import {
 		fetchLiveQuote,
 		LIVE_QUOTE_POLL_MS,
 		type LiveQuote
-	} from '$lib/gmeLiveQuote';
-	import type { GmeBriefing, GmeVoice } from '$lib/types';
+	} from '#lib/gmeLiveQuote.js';
+	import type { GmeBriefing, GmeVoice } from '#lib/types.js';
 
 	interface Props {
 		briefing: GmeBriefing;

@@ -4,9 +4,9 @@
 		formatOutlookChip,
 		defaultComparisonMode,
 		type ComparisonMode
-	} from '$lib/earnings';
-	import { safeHref } from '$lib/format';
-	import type { EarningsComparison, EarningsMetric, GmeEarnings } from '$lib/types';
+	} from '#lib/earnings.js';
+	import { safeHref } from '#lib/format.js';
+	import type { EarningsComparison, EarningsMetric, GmeEarnings } from '#lib/types.js';
 
 	interface Props {
 		earnings: GmeEarnings;

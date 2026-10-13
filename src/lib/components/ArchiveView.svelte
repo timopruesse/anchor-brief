@@ -2,10 +2,10 @@
 	import { resolve } from '$app/paths';
 	import StoryCard from './StoryCard.svelte';
 	import StoryFilters from './StoryFilters.svelte';
-	import { factText } from '$lib/facts';
-	import { editionLabel, makeFormatters, toDate } from '$lib/format';
-	import { StoryFilterEngine } from '$lib/storyFilter.svelte';
-	import type { EditionSummary, IndexedStory } from '$lib/types';
+	import { factText } from '#lib/facts.js';
+	import { editionLabel, makeFormatters, toDate } from '#lib/format.js';
+	import { StoryFilterEngine } from '#lib/storyFilter.svelte.js';
+	import type { EditionSummary, IndexedStory } from '#lib/types.js';
 
 	interface Props {
 		/** Main-desk edition summaries only (for the archive list). */
@@ -82,7 +82,7 @@
 						briefId={row.editionId}
 						query={filterEngine.query.trim()}
 						generatedAt={row.generatedAt}
-						editionHref={resolve(`/brief/${row.editionId}`)}
+						editionHref={resolve('/brief/[id]', { id: row.editionId })}
 						editionLabel={edLabel}
 					/>
 				{/each}
@@ -110,7 +110,7 @@
 				{@const fmt = makeFormatters('Europe/Berlin')}
 				<li>
 					<div class="archive-card">
-						<a class="main" href={resolve(`/brief/${ed.id}`)}>
+						<a class="main" href={resolve('/brief/[id]', { id: ed.id })}>
 							<span class="ed">{editionLabel(ed.edition)}</span>
 							<span class="hl">{ed.headline}</span>
 							{#if d}
@@ -118,14 +118,14 @@
 							{/if}
 						</a>
 						{#if gme}
-							<a class="gme" href={resolve(`/brief/${gme.id}`)}>GME</a>
+							<a class="gme" href={resolve('/brief/[id]', { id: gme.id })}>GME</a>
 						{/if}
 					</div>
 				</li>
 			{/each}
 		</ul>
 		{#if gmeEditions.length && !mainEditions.length}
-			<p class="empty__body">No main editions yet. GME desks live at <a href={resolve('/gme')}>/gme</a>.</p>
+			<p class="empty__body">No main editions yet. GME desks live at <a href={resolve('gme')}>/gme</a>.</p>
 		{/if}
 	</section>
 {/if}

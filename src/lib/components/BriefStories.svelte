@@ -1,10 +1,10 @@
 <script lang="ts">
 	import StoryCard from './StoryCard.svelte';
 	import StoryFilters from './StoryFilters.svelte';
-	import { factText } from '$lib/facts';
-	import { sortStoriesByWeight } from '$lib/format';
-	import { StoryFilterEngine } from '$lib/storyFilter.svelte';
-	import type { Story } from '$lib/types';
+	import { factText } from '#lib/facts.js';
+	import { sortStoriesByWeight } from '#lib/format.js';
+	import { StoryFilterEngine } from '#lib/storyFilter.svelte.js';
+	import type { Story } from '#lib/types.js';
 
 	type Density = 'editorial' | 'compact';
 	const DENSITY_KEY = 'anchor-brief:density';

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import ThemeToggle from './ThemeToggle.svelte';
-	import { editionLabel, makeFormatters, toDate } from '$lib/format';
+	import { editionLabel, makeFormatters, toDate } from '#lib/format.js';
 
 	interface Props {
 		edition?: string;
@@ -28,7 +28,8 @@
 	const fmt = $derived(makeFormatters(timezone));
 	const generated = $derived(toDate(generatedAt));
 	const label = $derived(desk === 'gme' ? 'GME desk' : editionLabel(edition));
-	const briefingHref = $derived(resolve(parentId ? `/brief/${parentId}` : '/'));
+
+	const briefingHref = $derived(parentId ? resolve('/brief/[id]', { id: parentId }) : resolve('/'));
 	const hasDeskNav = $derived((desk === 'main' && Boolean(gmeId)) || desk === 'gme');
 	const hasNav = $derived(showArchive || hasDeskNav);
 </script>
@@ -43,10 +44,10 @@
 			{#if hasNav}
 				<nav class="masthead__nav" aria-label="Desk navigation">
 					{#if showArchive}
-						<a class="nav-link nav-link--ghost" href={resolve('/archive')}>Archive</a>
+						<a class="nav-link nav-link--ghost" href={resolve('archive')}>Archive</a>
 					{/if}
 					{#if desk === 'main' && gmeId}
-						<a class="desk-link" href={resolve(`/brief/${gmeId}`)}>
+						<a class="desk-link" href={resolve('/brief/[id]', { id: gmeId })}>
 							<span class="desk-link__full">GME desk</span>
 							<span class="desk-link__short">GME</span>
 						</a>

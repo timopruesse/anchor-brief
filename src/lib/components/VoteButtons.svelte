@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { votes } from '$lib/votes.svelte';
-	import { voteStorageKey, type VoteValue } from '$lib/votes';
+	import { votes } from '#lib/votes.svelte.js';
+	import { voteStorageKey, type VoteValue } from '#lib/votes.js';
 
 	interface Props {
 		briefId: string;

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { formatSourceTime, domainFromUrl, faviconUrl, formatVia } from '$lib/format';
-	import type { Source } from '$lib/types';
+	import { formatSourceTime, domainFromUrl, faviconUrl, formatVia } from '#lib/format.js';
+	import type { Source } from '#lib/types.js';
 
 	interface Props {
 		src: Source & { href: string };

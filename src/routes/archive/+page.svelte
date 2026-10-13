@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import ArchiveView from '$lib/components/ArchiveView.svelte';
-	import Masthead from '$lib/components/Masthead.svelte';
+	import ArchiveView from '#lib/components/ArchiveView.svelte';
+	import Masthead from '#lib/components/Masthead.svelte';
 
 	let { data } = $props();
 </script>

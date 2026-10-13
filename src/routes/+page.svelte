@@ -1,5 +1,5 @@
 <script lang="ts">
-	import MainBrief from '$lib/components/MainBrief.svelte';
+	import MainBrief from '#lib/components/MainBrief.svelte';
 
 	let { data } = $props();
 </script>

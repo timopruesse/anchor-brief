@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { formatMoney, formatPct, formatSigned } from '$lib/format';
-	import type { SparkPoint } from '$lib/types';
+	import { formatMoney, formatPct, formatSigned } from '#lib/format.js';
+	import type { SparkPoint } from '#lib/types.js';
 
 	type RangeKey = '1M' | '3M' | '6M' | 'YTD';
 

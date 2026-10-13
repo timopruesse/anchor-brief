@@ -1,5 +1,5 @@
 <script lang="ts">
-	import GmeDesk from '$lib/components/GmeDesk.svelte';
+	import GmeDesk from '#lib/components/GmeDesk.svelte';
 
 	let { data } = $props();
 </script>

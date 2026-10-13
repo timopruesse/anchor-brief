@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import Masthead from '$lib/components/Masthead.svelte';
+	import Masthead from '#lib/components/Masthead.svelte';
 
 	let { error } = $props();
 </script>

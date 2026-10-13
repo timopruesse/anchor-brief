@@ -1,5 +1,5 @@
-import { getAllBriefingIds, getBriefing, findGmeSibling } from '$lib/server/briefs';
-import { isGmeBriefing } from '$lib/types';
+import { getAllBriefingIds, getBriefing, findGmeSibling } from '#lib/server/briefs.js';
+import { isGmeBriefing } from '#lib/types.js';
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageServerLoad } from './$types';
 

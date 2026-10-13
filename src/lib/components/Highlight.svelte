@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { splitHighlight, type HighlightPart } from '$lib/highlight';
+	import { splitHighlight, type HighlightPart } from '#lib/highlight.js';
 
 	interface Props {
 		text: string;

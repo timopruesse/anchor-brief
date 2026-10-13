@@ -1,4 +1,4 @@
-import { getLatestGme } from '$lib/server/briefs';
+import { getLatestGme } from '#lib/server/briefs.js';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 

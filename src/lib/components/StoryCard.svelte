@@ -2,11 +2,11 @@
 	import Highlight from './Highlight.svelte';
 	import SourceChip from './SourceChip.svelte';
 	import VoteButtons from './VoteButtons.svelte';
-	import { normalizeFact } from '$lib/facts';
-	import { gradientFor, safeHref } from '$lib/format';
-	import { resolveFactItemId, resolveItemId } from '$lib/votes';
-	import { theme } from '$lib/theme.svelte';
-	import type { Story } from '$lib/types';
+	import { normalizeFact } from '#lib/facts.js';
+	import { gradientFor, safeHref } from '#lib/format.js';
+	import { resolveFactItemId, resolveItemId } from '#lib/votes.js';
+	import { theme } from '#lib/theme.svelte.js';
+	import type { Story } from '#lib/types.js';
 
 	interface Props {
 		story: Story;

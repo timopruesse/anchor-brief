@@ -1,7 +1,7 @@
 <script lang="ts">
-	import MainBrief from '$lib/components/MainBrief.svelte';
-	import GmeDesk from '$lib/components/GmeDesk.svelte';
-	import type { GmeBriefing, MainBriefing } from '$lib/types';
+	import MainBrief from '#lib/components/MainBrief.svelte';
+	import GmeDesk from '#lib/components/GmeDesk.svelte';
+	import type { GmeBriefing, MainBriefing } from '#lib/types.js';
 
 	let { data } = $props();
 </script>

@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Masthead from './Masthead.svelte';
 	import BriefStories from './BriefStories.svelte';
-	import { editionLabel } from '$lib/format';
-	import type { MainBriefing } from '$lib/types';
+	import { editionLabel } from '#lib/format.js';
+	import type { MainBriefing } from '#lib/types.js';
 
 	interface Props {
 		briefing: MainBriefing;

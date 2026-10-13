@@ -3,8 +3,8 @@
 		COMMUNITY_KINDS,
 		COMMUNITY_KIND_LABELS,
 		shortBerlinDate
-	} from '$lib/community';
-	import type { CommunityDay, CommunityKind } from '$lib/types';
+	} from '#lib/community.js';
+	import type { CommunityDay, CommunityKind } from '#lib/types.js';
 
 	interface Props {
 		history: CommunityDay[];

@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import favicon from '$lib/assets/favicon.svg';
-	import '$lib/styles/app.css';
-	import ReadingProgress from '$lib/components/ReadingProgress.svelte';
-	import BackToTop from '$lib/components/BackToTop.svelte';
-	import { bootTheme } from '$lib/theme';
+	import favicon from '#lib/assets/favicon.svg';
+	import '#lib/styles/app.css';
+	import ReadingProgress from '#lib/components/ReadingProgress.svelte';
+	import BackToTop from '#lib/components/BackToTop.svelte';
+	import { bootTheme } from '#lib/theme.js';
 
 	let { children } = $props();
 

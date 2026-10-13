@@ -1,5 +1,5 @@
-import { browser } from '$app/environment';
-import { env } from '$env/dynamic/public';
+import { browser } from '$app/env';
+import { PUBLIC_VOTE_URL } from '$app/env/public';
 import {
 	buildVoteRequestUrl,
 	nextVote,
@@ -16,7 +16,7 @@ import {
  * Soft-fails when unset — local votes still persist. See docs/votes.md.
  */
 function voteEndpoint(): string | undefined {
-	const url = env.PUBLIC_VOTE_URL?.trim();
+	const url = PUBLIC_VOTE_URL?.trim();
 	return url || undefined;
 }
 
