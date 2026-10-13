@@ -1,0 +1,477 @@
+{
+  "id": "2026-10-13-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-13T08:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight, since the evening edition (~19:45 to 08:20 CEST)",
+  "headline": "Hackers heat up the fridges in 400+ French supermarkets and may have reached other EU countries; the IMF warns of an AI-driven correction as Korea’s chip stocks crash; xAI folds Cursor into one “X Subscription”; Germany’s digital minister wants to tax AI revenue.",
+  "stories": [
+    {
+      "id": "supermarket-fridge-cyberattack",
+      "title": "Hackers heat up supermarket fridges across France, and the attack may reach further into Europe",
+      "topics": [
+        "Security",
+        "Europe"
+      ],
+      "weight": "lead",
+      "facts": [
+        "From Sunday night, attackers remotely triggered forced defrost cycles in store refrigeration systems, heating fridges and freezers to as much as 50 °C for about six hours (AFP, Reuters).",
+        "Retailers report 400+ stores hit: Intermarché/Netto about 150–300, Coopérative U 100+, Carrefour 80, about 5% of Monoprix’s ~490 stores, plus several E. Leclerc branches.",
+        "Stock was thrown out, and the Paris prosecutor reports fires at some sites. Coopérative U’s CEO called the attack “unprecedented”.",
+        "The targeted controllers are reportedly from Danish supplier Danfoss. Intermarché says outdated, remotely reachable consoles were hit, and Danfoss points to old firmware and end-of-life AK-SM800/AK-SC355 units.",
+        "France’s cyber agency ANSSI is investigating with European partners. Sekoia says Spain, Portugal, Poland, Germany and Belgium were also affected. Ahold Delhaize took its refrigeration systems offline but sees no link.",
+        "EU food commissioner Christophe Hansen says food security needs “more attention at all levels”."
+      ],
+      "whyItMatters": "This is one of the clearest cases yet of a cyberattack causing physical damage across a whole sector at once: internet-reachable maintenance panels became a single point of failure for the cold chain. German confirmation is still missing, so check whether local chains run the same controllers.",
+      "image": {
+        "url": "https://www.afp.com/sites/default/files/afp-stories/7c20d3e6cc43ae9598fec7dbe162d544-0-hi.jpg",
+        "alt": "Intermarche was one of the groups affected — Gabriel BOUYS / AFP",
+        "credit": "AFP",
+        "creditUrl": "https://www.afp.com/en/french-supermarkets-suffer-refrigerator-shutdown-after-unprecedented-cyberattack"
+      },
+      "sources": [
+        {
+          "label": "AFP",
+          "url": "https://www.afp.com/en/french-supermarkets-suffer-refrigerator-shutdown-after-unprecedented-cyberattack",
+          "kind": "article"
+        },
+        {
+          "label": "CBC / Reuters",
+          "url": "https://www.cbc.ca/news/world/france-supermarket-freezers-overheated-cyberattack-9.7378180",
+          "kind": "article",
+          "time": "2026-10-12T23:51:00+02:00"
+        },
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/hundreds-of-french-supermarkets-hit-by-a-cyberattack-that-defrosted-refrigeration-systems/a-79646097",
+          "kind": "article"
+        },
+        {
+          "label": "Infosecurity Magazine",
+          "url": "https://www.infosecurity-magazine.com/news/french-supermarket-chains/",
+          "kind": "article"
+        },
+        {
+          "label": "Cooling Post",
+          "url": "https://www.coolingpost.com/world-news/danfoss-moves-to-mitigate-cyberattack/",
+          "kind": "article"
+        },
+        {
+          "label": "CBS News",
+          "url": "https://www.cbsnews.com/news/cyberattack-supermarkets-refrigerators-france-fires-food-losses/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "imf-ai-correction-kospi",
+      "title": "IMF warns of an AI-driven market correction as Korea’s chip stocks crash",
+      "topics": [
+        "Markets",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "The IMF’s Global Financial Stability Report names three near-term risks: an AI-driven market correction, another jump in government bond yields, and cyberattacks.",
+        "It cites “growing evidence” that AI may need less investment, or pay off less, than expected. Hyperscalers now make up 10% of global investment-grade bond issuance, up from under 1% in 2024.",
+        "The IMF slightly raised its world growth forecast, assuming oil averages $96 a barrel. For Germany it now expects 1.3% growth in 2026 (from 0.7%) and 1.1% in 2027.",
+        "South Korea’s Kospi lost up to 7.4% on Tuesday, dropping below 6,000 to its lowest level since late July. Samsung fell ~8% and SK hynix ~9–11%, and a sell-side sidecar halted program selling for 5 minutes.",
+        "The trigger was China’s CXMT saying it will bring next-gen server DRAM this year, after Micron fell 3.9% on Wall Street on Monday."
+      ],
+      "whyItMatters": "The warning came with a real-time demonstration: memory chips, the most AI-leveraged corner of the market, sold off hard on a single supply headline. Watch whether Europe’s chip names and the US open follow.",
+      "image": {
+        "url": "https://www.irishtimes.com/resizer/v2/QXXZ3H6R3MBDCNXYNGR6LSRRXI.jpg?smart=true&auth=b653bb2eb3c954080ca38fdb1494ea3ec057db9c8b4f2bed3d5827dd99693a38&width=1200&height=630",
+        "alt": "International Monetary Fund chief economist Pierre-Olivier Gourinchas participates in a news conference. Photograph: Brendan Smialowski/AFP via Getty Images",
+        "credit": "The Irish Times",
+        "creditUrl": "https://www.irishtimes.com/business/2026/10/13/imf-warns-of-ai-driven-market-correction-in-global-economy/"
+      },
+      "sources": [
+        {
+          "label": "Reuters via US News",
+          "url": "https://money.usnews.com/investing/news/articles/2026-10-12/imf-cites-ai-slowdown-spiking-yields-as-looming-global-market-risks",
+          "kind": "article"
+        },
+        {
+          "label": "The Irish Times",
+          "url": "https://www.irishtimes.com/business/2026/10/13/imf-warns-of-ai-driven-market-correction-in-global-economy/",
+          "kind": "article"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "kind": "article",
+          "time": "2026-10-13T05:15:12+02:00"
+        },
+        {
+          "label": "IMF — GFSR October 2026",
+          "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+          "kind": "primary"
+        },
+        {
+          "label": "AP — IMF outlook",
+          "url": "https://apnews.com/article/imf-economy-growth-ai-war-oil-23aa01c0c6922fbf0b564a0ff9b2c8e5",
+          "kind": "article"
+        },
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iwf-prognose-deutschland-104.html",
+          "kind": "article"
+        },
+        {
+          "label": "AP — Kospi",
+          "url": "https://apnews.com/article/stocks-markets-us-tech-oil-mideast-a2edaf9ec297fb75ff2a4e245063ec08",
+          "kind": "article"
+        },
+        {
+          "label": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/10/13/kospi-plunges-6-percent-falls-below-6000-on-memory-supply",
+          "kind": "article",
+          "time": "2026-10-13T03:44:02+02:00"
+        }
+      ]
+    },
+    {
+      "id": "x-subscription",
+      "title": "xAI bundles Grok, Cursor and X Premium into one “X Subscription”",
+      "topics": [
+        "Tech",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "New tiers: Free, Plus $8, Premium $30, Super $100 and Ultra $200 a month. Premium covers what SuperGrok, Cursor Pro and X Premium+ did, which together cost $90.",
+        "Paid plans share one weekly-refreshing usage pool across Grok and Cursor, with at least 2× the coding usage of the comparable Cursor plan.",
+        "Third-party models (e.g. Claude, GPT) stay available in Cursor on Premium and above, but are billed separately at API list prices via top-ups.",
+        "Team seats cost the same as individual plans and include SSO, admin controls and SOC 2. xAI says that is cheaper per seat than old Cursor Teams, with 3× the coding usage.",
+        "Existing SuperGrok, Cursor and X Premium plans continue for now. Switching gives a prorated refund, and old plans are closed to new sign-ups."
+      ],
+      "whyItMatters": "For anyone paying for Cursor, the default economics now favour xAI’s own models: included usage applies to Grok models, while other vendors’ models are pay-as-you-go.",
+      "image": null,
+      "sources": [
+        {
+          "label": "xAI News",
+          "url": "https://x.ai/news/x-subscription",
+          "kind": "primary"
+        },
+        {
+          "label": "TeslaNorth",
+          "url": "https://teslanorth.com/2026/10/12/x-premium-grok-cursor-bundle-leak/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-distillation-defenses",
+      "title": "Anthropic says new defences cut model-distillation harvesting by 90–99%",
+      "topics": [
+        "AI",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Anthropic says its new measures cut the data that distillers harvest from Claude by about 90–99%, and extracted reasoning tokens by 10–100×.",
+        "“Preserved thinking” (Claude Fable 5.1 / Opus 5.5) stops API accounts created on or after Aug 31, 2026 from editing Claude’s prior context. That makes proxy-network extraction harder.",
+        "A two-stage classifier blocks extraction attempts. Anthropic says it is about as robust as its bioweapons safeguards, with under 0.1% false positives.",
+        "Tens of thousands of accounts were banned. Anthropic names China’s Z.ai (Zhipu) as having tried to distil Claude while building GLM-5.3.",
+        "Trade-offs: some developers have to update their integrations."
+      ],
+      "whyItMatters": "Distillation is now treated like a misuse category, not just a terms-of-service issue. Expect more of the reasoning-visibility limits that developers have been noticing.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/distillation-defenses",
+          "kind": "primary"
+        },
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/technik/ki/ki-anthropic-daemmt-heimliche-ki-kopien-durch-konkurrenten-ein/100261710.html",
+          "kind": "article",
+          "time": "2026-10-13T04:06:11+02:00"
+        }
+      ]
+    },
+    {
+      "id": "wildberger-ki-steuer",
+      "title": "Digital minister Wildberger wants to tax AI revenue in Germany",
+      "topics": [
+        "Germany",
+        "AI"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Karsten Wildberger (CDU) told Tagesspiegel that the “extrem hohen Umsatz” (extremely high revenue) from AI must be taxed, with the money paying for reshaping the job market.",
+        "His argument: “Wenn hierzulande Wachstum und Wertschöpfung entstehen, müssen hierzulande auch Steuern gezahlt werden” (if growth and value are created here, taxes have to be paid here).",
+        "He would spend it on retraining and new jobs, e.g. in skilled trades and care. He expects more jobs long term, but different ones.",
+        "He is revisiting the idea behind a basic income as a response to AI-driven job change, but no longer wants to use the term.",
+        "So far there is no concrete tax design or draft law."
+      ],
+      "whyItMatters": "It’s a first from a sitting federal digital minister, and it lands the same day as the IMF warning about AI valuations. Expect pushback from his own party’s economic wing and the industry.",
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/wirtschaft/unternehmen/digitalminister-karsten-wildberger-will-ki-umsaetze-in-deutschland-besteuern-a-a10bfd19-847f-4d49-b0ee-f32a5ea1a285",
+          "kind": "article"
+        },
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/wildberger-digitalminister-will-ki-umsaetze-in-deutschland-besteuern/100261740.html",
+          "kind": "article",
+          "time": "2026-10-13T06:58:00+02:00"
+        },
+        {
+          "label": "ad-hoc-news",
+          "url": "https://www.ad-hoc-news.de/politik/grundeinkommen-wildberger-prueft-antwort-auf-ki-jobwandel-erneut/70308542",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "starlink-fire-arrests-germany",
+      "title": "Germany detains two Turkish nationals over the sabotage of a Starlink station in Poland",
+      "topics": [
+        "Europe",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Poland says German authorities detained two Turkish citizens suspected of setting fire to a Starlink ground station near Grójec on Sept 23.",
+        "The fire damaged the station’s power system and backup generator. Poland calls it sabotage aimed at disrupting internet services, including Ukraine’s military communications.",
+        "Polish officials say Russian intelligence was behind it. The suspects are awaiting transfer to Poland under European arrest warrants."
+      ],
+      "whyItMatters": "It’s another case of Russia-linked sabotage run through hired proxies, this time with the arrests made in Germany.",
+      "image": {
+        "url": "https://static.dw.com/image/79410514_6.jpg",
+        "alt": "The Starlink photo is seen on a mobile device with Ukraine on a map in the background in this illustration photo in Warsaw, Poland on 21 September, 2022.",
+        "credit": "DW",
+        "creditUrl": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138"
+      },
+      "sources": [
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138",
+          "kind": "article"
+        },
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/12/poland-says-two-turks-arrested-over-russia-linked-starlink-station-fire",
+          "kind": "article"
+        },
+        {
+          "label": "TVP World",
+          "url": "https://tvpworld.com/95894904/poland-says-two-turkish-nationals-detained-in-germany-over-starlink-station-fire",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Trump defends his Russian diesel deal (“I made the right choice”) after seven senators, including Republicans Collins, Murkowski, Tillis and Curtis, demanded he reverse it.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Memory crunch: Counterpoint says global smartphone shipments fell 20% year on year in Q3, the lowest level since 2012. Xiaomi, Oppo and Vivo were down 20–30%.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Getty Images will go private through Chapter 11, backed by $533m from the Getty family and Koch Equity Development. The restructuring is due by year-end, with no change to contributor payments announced so far.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Pope Leo XIV checks into Rome’s Gemelli hospital today. Surgery to remove the lung nodule is expected this afternoon or Wednesday morning.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/12/trump-russia-diesel-putin.html",
+          "kind": "article"
+        },
+        {
+          "label": "POLITICO",
+          "url": "https://www.politico.com/news/2026/10/11/senators-demand-trump-kill-russia-diesel-deal-01116050",
+          "kind": "article"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Speicherkrise-Weltweit-jetzt-so-wenig-Smartphones-ausgeliefert-wie-zuletzt-2012-11485211.html",
+          "kind": "article",
+          "time": "2026-10-13T06:51:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/12/getty-going-private-as-the-beleaguered-stock-photo-brand-files-for-bankruptcy/",
+          "kind": "article"
+        },
+        {
+          "label": "Unione Sarda",
+          "url": "https://www.unionesarda.it/en/italy/lung-nodule-leo-xiv-at-gemelli-hospital-surgery-likely-this-afternoon-i8x5bg6i",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Codex CLI 0.157.0 starts a persistent, self-updating `app-server` daemon by default and copies ~374 MB of binaries into `~/.codex`. Issue #48195 asks for opt-in, and it hit 520 points on HN.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "GitLab patched CVE-2026-97229, a CVSS 10.0 unauthenticated RCE in self-managed CE/EE. Upgrade to 19.4.2, 19.3.4 or 19.2.8; GitLab.com is already fixed.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "SvelteKit merged #17398: CSP config now accepts the `report-sha256`/`report-sha384`/`report-sha512` keywords.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Bun merged #45099, fixing a startup SIGILL on Linux arm64 machines that report SVE2 without SVE.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Read: Daniel Lemire on parsing JSON at tens of gigabytes per second from Python.",
+          "sourceIndexes": [
+            6
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/ded22d74fe6fbff9b2b664f14d2050e4c8cbd3236313c1167714825f0121e236/openai/codex/issues/48195",
+        "alt": "What variant of Codex are you using? CLI — 0.157.0, installed via npm install -g @openai/codex, Linux (WSL2) What feature would you like to see? Please make daemon_auto_start opt-in (default false)...",
+        "credit": "openai/codex #48195",
+        "creditUrl": "https://github.com/openai/codex/issues/48195"
+      },
+      "sources": [
+        {
+          "label": "openai/codex #48195",
+          "url": "https://github.com/openai/codex/issues/48195",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50060694",
+          "kind": "article"
+        },
+        {
+          "label": "GitLab patch release",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/",
+          "kind": "primary"
+        },
+        {
+          "label": "CERT-EU",
+          "url": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+          "kind": "article"
+        },
+        {
+          "label": "sveltejs/kit #17398",
+          "url": "https://github.com/sveltejs/kit/pull/17398",
+          "kind": "primary",
+          "time": "2026-10-13T07:34:50+02:00"
+        },
+        {
+          "label": "oven-sh/bun #45099",
+          "url": "https://github.com/oven-sh/bun/pull/45099",
+          "kind": "primary",
+          "time": "2026-10-13T03:43:35+02:00"
+        },
+        {
+          "label": "Daniel Lemire",
+          "url": "https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "49ers: Dre Greenlaw got a one-game ban for headbutting Seattle’s Ernest Jones IV in the 32–29 win. He plans to appeal; if it stands, he misses Oct 19 vs Washington.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "BVB: Niko Kovac’s extension is stuck on length. The club offers 2029, he wants longer, and a deal is targeted for October.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "BVB play at Bodø/Glimt in the Champions League on Wednesday at 21:00.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/uwovdl8g65un2gr1uint",
+        "alt": "dre greenlaw_TN",
+        "credit": "NFL.com",
+        "creditUrl": "https://www.nfl.com/news/nfl-suspends-49ers-lb-dre-greenlaw-one-game-unsportsmanlike-conduct"
+      },
+      "sources": [
+        {
+          "label": "AP",
+          "url": "https://apnews.com/article/49ers-dre-greenlaw-suspended-9b132c1bd95ce37ea3ebfe4f7e7d3c85",
+          "kind": "article"
+        },
+        {
+          "label": "NFL.com",
+          "url": "https://www.nfl.com/news/nfl-suspends-49ers-lb-dre-greenlaw-one-game-unsportsmanlike-conduct",
+          "kind": "article"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/transfermarkt/Transfer-Ticker-Laufzeit-verzoegert-Kovac-Verlaengerung-beim-BVB-id31409876.html",
+          "kind": "article"
+        },
+        {
+          "label": "Transfermarkt",
+          "url": "https://www.transfermarkt.de/spielbericht/index/spielbericht/5035937",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
