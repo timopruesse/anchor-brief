@@ -1,0 +1,428 @@
+{
+ "id": "2026-10-13-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-13T20:05:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon edition (~13:25 to 19:55 CEST)",
+ "headline": "Google ships Gemini 4 Argon at a fraction of rivals' prices; Apple's new smart-home lineup arrives, but HomeView won't be sold in the EU; Saxony-Anhalt's CDU will walk out of Siegmund's premier vote; Character.AI files for bankruptcy.",
+ "stories": [
+  {
+   "id": "gemini-4-argon",
+   "title": "Google ships Gemini 4 Argon, its first big frontier model since Gemini 3",
+   "topics": [
+    "Tech",
+    "AI"
+   ],
+   "weight": "lead",
+   "facts": [
+    "Gemini 4 Argon is out globally today: API in AI Studio and the Gemini platform for developers, the Gemini app and AI Mode for Google AI Pro and Ultra, and Antigravity for Ultra.",
+    "Introductory API price is $2 per million input tokens and $10 per million output (cached input 95% off). The Verge says that doubles at the end of November and is still about a fifth of GPT-6 Astra or Fable 5 pricing.",
+    "Google claims #1 on the Vals Index and 87% on the ERQA embodied-reasoning benchmark, and says Argon beats GPT-6 Astra, Claude Fable 5.1 and Opus 5.5 across coding, cyber, science, finance and law.",
+    "Internal use cases it cites: agentic code submissions up 35%+ with nearly a third fewer rollbacks, a Chromium refactor of a ~6M-line legacy folder, and a 2.85× vLLM speedup for Gemma 4 E2B.",
+    "The Gemini app also gets a chat-to-tasks toggle, 40+ connected apps (Instacart, OpenTable, Adobe, Shopify) and Antigravity's coding interface inside the macOS app.",
+    "It follows weeks of access limited to “trusted cyber defenders”. Google is widening that Fairwind programme to hundreds more partners and giving 10,000 scientists free top-tier Antigravity for six months."
+   ],
+   "whyItMatters": "Google is back at the frontier with aggressive pricing, which puts direct pressure on OpenAI and Anthropic API margins. Free and Plus users don't get it yet, and the benchmark claims are Google's own.",
+   "image": {
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+    "alt": "Gemini 4 Argon announcement header",
+    "credit": "Google",
+    "creditUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+   },
+   "sources": [
+    {
+     "label": "Google — Introducing Gemini 4 Argon",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+     "kind": "primary",
+     "time": "2026-10-13T18:00:00+02:00"
+    },
+    {
+     "label": "Google — Argon in the Gemini app",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+     "kind": "primary"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+     "kind": "article",
+     "time": "2026-10-13T18:00:00+02:00"
+    },
+    {
+     "label": "Google for Developers on X",
+     "url": "https://x.com/googledevs/status/2110041042896728437",
+     "kind": "x",
+     "time": "2026-10-13T18:12:00+02:00"
+    },
+    {
+     "label": "Guillermo Rauch on X",
+     "url": "https://x.com/rauchg/status/2110044152482365747",
+     "kind": "x",
+     "time": "2026-10-13T18:25:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "apple-home-lineup",
+   "title": "Apple goes after the smart home with HomeView, a new Apple TV 4K and HomePod mini 2, but HomeView skips the EU",
+   "topics": [
+    "Tech",
+    "Hardware"
+   ],
+   "weight": "normal",
+   "facts": [
+    "HomeView is a 7-inch screen on a speaker base (or wall-mounted) that recognises up to six household members by face. It costs $299, with pre-orders today and availability from Nov 13.",
+    "It won't be sold in the EU for now because Siri AI isn't available on iOS there. Apple says it is “working constructively with the EU” on a solution (ComputerBase).",
+    "The new Apple TV 4K gets an A19 chip (up to 50% faster CPU, 2× GPU), far-field mics for hands-free Siri AI, an AV1 decoder, and a Siri Remote with Find My. It ships Nov 13.",
+    "HomePod mini 2 ($149) arrives Oct 30, but Siri AI only comes later in a software update. Four of them plus the new Apple TV make a surround setup.",
+    "Apple Home Collection adds LG cameras, a video doorbell, a smart lock and LG/Schneider thermostats built for the Home app."
+   ],
+   "whyItMatters": "For buyers in Germany, the centrepiece device is simply unavailable. The Digital Markets Act standoff over Siri AI is now blocking Apple hardware, not just features.",
+   "image": {
+    "url": "https://www.apple.com/newsroom/images/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/tile/Apple-HomeView-lineup-261013-lp.jpg.og.jpg?202610131304",
+    "alt": "Apple HomeView in silver, starlight, rose pink and space gray",
+    "credit": "Apple",
+    "creditUrl": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
+   },
+   "sources": [
+    {
+     "label": "Apple Newsroom — HomeView",
+     "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+     "kind": "primary"
+    },
+    {
+     "label": "ComputerBase",
+     "url": "https://www.computerbase.de/news/smart-home/smart-home-zentrale-apple-homeview-kommt-wegen-siri-ai-nicht-in-der-eu.99806/",
+     "kind": "article"
+    },
+    {
+     "label": "Apple Newsroom — Apple TV 4K",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+     "kind": "primary"
+    },
+    {
+     "label": "Apple Newsroom — HomePod mini 2",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-announces-the-next-generation-of-homepod-mini/",
+     "kind": "primary"
+    },
+    {
+     "label": "Apple Newsroom — Home Collection",
+     "url": "https://www.apple.com/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/",
+     "kind": "primary"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2110018975015063689",
+     "kind": "x",
+     "time": "2026-10-13T16:45:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "saxony-anhalt-cdu-walkout-decided",
+   "title": "Saxony-Anhalt's CDU decides to walk out when the AfD's Siegmund stands for premier in December",
+   "topics": [
+    "Germany"
+   ],
+   "weight": "normal",
+   "facts": [
+    "After a three-hour meeting, the CDU group voted 14–0 with one abstention to leave the chamber before the first round of the December premier vote, and to stay out of a possible second round (MDR, SZ).",
+    "The aim is to rule out secret CDU votes for Ulrich Siegmund, after suspicion that CDU MPs backed AfD candidates at the Landtag's opening session.",
+    "The maths: the AfD has 39 of 83 seats and needs 42 in rounds one and two. Siegmund says he will only run in the first round, and the BSW has refused to back him.",
+    "MDR notes the risk: if the CDU also stayed out of a third round, where a simple majority is enough, the result could be 39 to 24 for Siegmund."
+   ],
+   "whyItMatters": "It settles this morning's open question, but SPIEGEL frames the walkout as a move that could block Siegmund or, in a third round, help him into office.",
+   "image": null,
+   "sources": [
+    {
+     "label": "MDR",
+     "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/cdu-fraktion-afd-beschluss-plenarsaal,landtag-wahl-ministerpraesident-cdu-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "Süddeutsche Zeitung",
+     "url": "https://www.sueddeutsche.de/politik/sachsen-anhalt-siegmund-ministerpraesident-wahl-cdu-li.3560633",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/politik/sachsen-anhalt-wie-die-cdu-ulrich-siegmund-ausmanoevrieren-will-a-7ad8008f-f5b5-4420-b934-bea6966c80c2",
+     "kind": "article",
+     "time": "2026-10-13T15:39:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "character-ai-chapter-11",
+   "title": "Character.AI files for Chapter 11, and Disney bids $20m for a licence to its IP",
+   "topics": [
+    "Tech",
+    "AI"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Character Technologies filed a voluntary Chapter 11 case in Delaware to sell all or most of its assets in a court-supervised process. The app stays online during the sale.",
+    "Disney is the stalking-horse bidder: $20m for a non-exclusive perpetual licence to certain IP and claims, plus transition services from ex-Character.AI staff it hired along with former CEO Karandeep Anand.",
+    "The filing lists assets and liabilities of $50–100m. Google is the largest creditor at more than $4m (Hollywood Reporter).",
+    "The sale should close in late November or early December. If no buyer wants to run the platform, it will be wound down."
+   ],
+   "whyItMatters": "It's the first big consumer-chatbot collapse, after lawsuits alleging its bots encouraged self-harm. The company itself cites “legal, regulatory, and operational headwinds”.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Character.ai blog",
+     "url": "https://blog.character.ai/an-update-on-character-ai/",
+     "kind": "primary"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+     "kind": "article",
+     "time": "2026-10-13T14:23:00+02:00"
+    },
+    {
+     "label": "The Hollywood Reporter",
+     "url": "https://www.hollywoodreporter.com/business/digital/disney-may-buy-character-ai-chatbot-chapter-11-bankruptcy-1236728629/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "mi5-threat-update",
+   "title": "MI5 now spends more fighting state threats than in the Cold War, and calls Russia “aggressor number one”",
+   "topics": [
+    "Europe",
+    "Security"
+   ],
+   "weight": "normal",
+   "facts": [
+    "In his annual threat update, Sir Ken McCallum said MI5's state-threats caseload has quadrupled in a decade. Its counter-terrorism and state-threat missions are now about equal in size.",
+    "Russia is escalating hybrid warfare “below the NATO Article 5 threshold”. He cited a cyber attack on Polish energy infrastructure and an attempt to use a drone to blow up a cargo plane in Germany.",
+    "MI5 investigations led to more than 50 arrests in Iran-linked operations in the UK in the past year, and there have been dozens of National Security Act arrests since 2023.",
+    "MI5 has added a third core mission, “Protect”, on national resilience, and the UK terrorism threat level is back at SEVERE for the first time in almost five years."
+   ],
+   "whyItMatters": "It fits this week's European pattern of Black Sea drone strikes and the Starlink sabotage: Western services now openly describe a sustained hybrid campaign rather than one-off incidents.",
+   "image": null,
+   "sources": [
+    {
+     "label": "MI5 — Annual Threat Update",
+     "url": "https://www.mi5.gov.uk/mi5-director-general-delivers-annual-threat-update",
+     "kind": "primary"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o",
+     "kind": "article"
+    },
+    {
+     "label": "The Independent",
+     "url": "https://www.independent.co.uk/news/uk/home-news/mi5-uk-national-security-russia-iran-ken-mccallum-b3065833.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "berlin-sondierungen-paused",
+   "title": "SPD and Greens pause Berlin coalition talks with the Left over a disputed new MP",
+   "topics": [
+    "Germany"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Greens lead candidate Werner Graf and SPD's Steffen Krach said on Tuesday evening that the Left's group had “come to other arrangements”, so talks are paused while they check whether last week's agreement still holds.",
+    "The likely trigger is that the Left took Vanessa Emde, who won Neukölln directly, into its group. Critics accuse her of anti-Israel statements.",
+    "All 44 Left MPs, Emde included, had signed a declaration on fighting antisemitism and on Israel's right to exist at the group's first meeting (ZDFheute)."
+   ],
+   "whyItMatters": "Red-green-red was the most likely government after the Sept 20 election, and this is its first open rupture.",
+   "image": null,
+   "sources": [
+    {
+     "label": "ZDFheute",
+     "url": "https://www.zdfheute.de/politik/deutschland/berlin-linke-antisemitismus-erklaerung-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZDFheute on X",
+     "url": "https://x.com/ZDFheute/status/2110058467629174934",
+     "kind": "x",
+     "time": "2026-10-13T19:21:00+02:00"
+    },
+    {
+     "label": "Tagesspiegel live blog",
+     "url": "https://www.tagesspiegel.de/berlin/liveblog/regierungsbildung-in-berlin-grune-und-spd-unterbrechen-sondierungen-mit-linken-16053722.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Nuremberg follow-up: the closure was a Corendon 737 from Corfu squawking 7500 (hijack) after a radio fault over Croatia. Two Eurofighters escorted it in, and the airline says nobody was ever in danger.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Alexander Schweitzer is now labour minister. He says a pension bill comes only after the coalition agrees on “all questions of old-age provision”.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Kimberly Guilfoyle resigned as US ambassador to Greece after the White House asked her to, following allegations of improper conduct, which she denies.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The chip selloff deepened: SK Hynix −10%+ and Samsung −7.4% in Seoul, Micron −4.5%, and the Philadelphia chip index fell for a fifth straight session on fears over China's CXMT memory progress.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Nord Stream: the trial of Ukrainian suspect Serhii K. opens Wednesday at 11:00 at Hamburg's Higher Regional Court, on charges including war crimes and causing an explosion.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Nvidia takes a small minority stake in Doctolib to help the French health platform train its own AI models in Europe. Terms weren't disclosed.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "AP",
+     "url": "https://apnews.com/article/germany-flight-russia-corfu-greece-11d2cd07542fa968416d357f74443222",
+     "kind": "article"
+    },
+    {
+     "label": "n-tv",
+     "url": "https://www.n-tv.de/politik/Neuer-Arbeitsminister-Schweitzer-knuepft-Rentengesetz-an-Bedingung-id31413486.html",
+     "kind": "article"
+    },
+    {
+     "label": "AP",
+     "url": "https://apnews.com/article/trump-ambassador-greece-guilfoyle-9da9d2e50e18bccc38946404c1ca756f",
+     "kind": "article"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+     "kind": "article"
+    },
+    {
+     "label": "OLG Hamburg",
+     "url": "https://justiz.hamburg.de/gerichte/oberlandesgericht/gerichtspressestelle/anklage-wegen-der-sprengung-der-nord-stream-gaspipelines-1215728",
+     "kind": "primary"
+    },
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/technik/medizin/chiphersteller-nvidia-steigt-bei-aerzteplattform-doctolib-ein/100261997.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Anthropic Engineering: merges went from ~2,500/day in May to 30,000+/day in September, so it replaced git with Scion, an in-house always-online VCS, and migrated the monorepo in five months.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Firefox 158 can now display JPEG XL, makes more accessible PDFs, and comes alongside a new Firefox Enterprise with central admin, launching first in DACH and France.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Bun merged #45146: `bun fmt` now formats Svelte components.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Playwright merged #43320, an experimental esbuild-based transpilation path for the test runner.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Anthropic Engineering",
+     "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+     "kind": "primary"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Firefox-158-JPEG-XL-und-bessere-PDFs-11486725.html",
+     "kind": "article"
+    },
+    {
+     "label": "oven-sh/bun #45146",
+     "url": "https://github.com/oven-sh/bun/pull/45146",
+     "kind": "primary"
+    },
+    {
+     "label": "microsoft/playwright #43320",
+     "url": "https://github.com/microsoft/playwright/pull/43320",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "BVB fly to Bodø/Glimt without Nico Schlotterbeck, who is rested for load management and should be back against Union. Ryerson and Chukwuemeka return to the 23-man squad.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig: masked Hannover 96 fans reportedly raided a hall in Braunschweig and stole choreo material prepared for the Oct 25 derby (BILD).",
+     "sourceIndexes": [
+      1
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "bvb.de",
+     "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/13/Schlotterbeck-fehlt-Ryerson-dabei-Mit-diesen-BVB-Profis-gehts-nach-Norwegen.html",
+     "kind": "primary"
+    },
+    {
+     "label": "BILD",
+     "url": "https://www.bild.de/sport/fussball/hannover-96-braunschweig-choreo-weg-erster-derby-aerger-der-96-fans-6ace4101a3d42c2e8cd52aac",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
