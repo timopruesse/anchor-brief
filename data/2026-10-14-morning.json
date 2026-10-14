@@ -1,0 +1,419 @@
+{
+ "id": "2026-10-14-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-14T08:25:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight / since evening (~12–18h)",
+ "headline": "An OpenAI engineer is charged with bugging an executive conference room; a cyberattack hit the Fehmarnbelt tunnel site; Bank of America takes a $1.2bn AML fine; and Starlink antennas near Sofia were set on fire.",
+ "stories": [
+  {
+   "id": "openai-bugging-arrest",
+   "title": "OpenAI engineer charged with planting a hidden recorder in an executive conference room",
+   "topics": [
+    "Tech",
+    "Security",
+    "AI"
+   ],
+   "weight": "lead",
+   "facts": [
+    "Abdulrahman Alfozan, 35, a Saudi national and OpenAI engineer since July 2025, was arrested 9 Oct and charged with intercepting oral communications; he appeared in SF federal court on Tuesday.",
+    "OpenAI says its countermeasures team found an encrypted USB recorder hidden in toilet paper behind a TV in an exec room on ~30 Sep (installed ~28 Sep); a second similar device was later found in his unattended bag.",
+    "Prosecutors say CCTV put him near the room he was not authorised to enter, and a chatbot account tied to his spouse asked how to build, hide, encrypt and remotely access that exact device (including its MAC address).",
+    "OpenAI says it used its own models to analyse the device, coordinated the firing with the FBI, and has no indication he took model weights, source code or customer data; max penalty is 5 years and a $250,000 fine."
+   ],
+   "whyItMatters": "A live insider-threat case at a frontier lab, framed by DOJ and the FBI as national-security counterintelligence — not a routine workplace-surveillance spat.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/e7bf/live/83811950-c790-11f1-a64c-550be9e3c66b.jpg",
+    "alt": "A CCTV image of a man looking behind a television with a graphic added of a red circle around his face",
+    "credit": "BBC News",
+    "creditUrl": "https://bbc.in/4ifCehP"
+   },
+   "sources": [
+    {
+     "label": "U.S. Department of Justice",
+     "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+     "kind": "primary",
+     "time": "2026-10-13T22:00:00+02:00"
+    },
+    {
+     "label": "SF Standard",
+     "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+     "kind": "article",
+     "time": "2026-10-13T22:17:00+02:00"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/",
+     "kind": "article",
+     "time": "2026-10-13T22:59:00+02:00"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Meetings-heimlich-aufgenommen-OpenAI-Angestellter-festgenommen-und-gefeuert-11487158.html",
+     "kind": "article",
+     "time": "2026-10-14T06:58:00+02:00"
+    },
+    {
+     "label": "BBC News on X",
+     "url": "https://x.com/BBCWorld/status/2110118581304164653",
+     "kind": "x",
+     "time": "2026-10-13T23:20:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "fehmarnbelt-cyberattack",
+   "title": "Cyberattack knocks the Fehmarnbelt tunnel construction site offline",
+   "topics": [
+    "Security",
+    "Germany",
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Denmark’s Femern A/S says contractor consortium Femern Link Contractors (FLC) reported a cyberattack dated 12 Oct that still disrupted the site the next day.",
+    "Access cards stopped working, staff were told not to use PCs or local Wi‑Fi, and several work ships briefly sat idle while processes went manual on Northern Europe’s biggest construction site.",
+    "Danish TV2 says attackers exploited a flaw that could have opened all of FLC’s IT systems; depth of access, data theft and any ransom demand are still unknown.",
+    "FLC includes German firms Wayss & Freytag and Max Bögl plus French, Danish, Belgian and Dutch partners; the ~18 km tunnel already has no opening date after the 2031 target was dropped."
+   ],
+   "whyItMatters": "A live OT/IT hit on a flagship DK–DE infrastructure project, with German contractors in the joint venture and no clear attribution yet.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Golem.de",
+     "url": "https://www.golem.de/news/sicherheit-cyberangriff-legt-baustelle-am-fehmarnbelt-tunnel-lahm-2610-214076.html",
+     "kind": "article",
+     "time": "2026-10-14T08:01:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "bofa-aml-fine",
+   "title": "Treasury hits Bank of America with more than $1.2bn for AML and sanctions failures",
+   "topics": [
+    "Finance",
+    "US"
+   ],
+   "weight": "normal",
+   "facts": [
+    "FinCEN assessed a $1.2bn penalty — Treasury’s third-largest — after BoA admitted willful BSA violations and late reporting of over $5bn in suspicious transactions.",
+    "The OCC layered a record $750m civil money penalty (credited inside the FinCEN total) for a deficient BSA/AML programme that left trillions of dollars poorly monitored.",
+    "OFAC settled 475 apparent sanctions violations across Iran, Russia and other programmes for $11.6m; BoA says Q3 will take a non-tax-deductible $1.2bn charge (~17¢/share)."
+   ],
+   "whyItMatters": "A rare public admission from a top-tier US bank that compliance was deprioritised for years, with a mandatory lookback still to come.",
+   "image": {
+    "url": "https://home.treasury.gov/system/files/291/treasury-preview-1900x950.jpg",
+    "alt": "U.S. Department of the Treasury",
+    "credit": "U.S. Treasury",
+    "creditUrl": "https://home.treasury.gov/news/press-releases/sb0657/"
+   },
+   "sources": [
+    {
+     "label": "U.S. Treasury",
+     "url": "https://home.treasury.gov/news/press-releases/sb0657/",
+     "kind": "primary",
+     "time": "2026-10-13T22:00:00+02:00"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cm3wvxy6n3z8o",
+     "kind": "article"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News on X",
+     "url": "https://x.com/BBCWorld/status/2110191034063831066",
+     "kind": "x",
+     "time": "2026-10-14T04:08:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "starlink-sofia-arson",
+   "title": "Masked men torch Starlink ground antennas near Sofia",
+   "topics": [
+    "Security",
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "Bulgarian outlets, citing Yes, Bulgaria co-chair Ivaylo Mirchev, say two masked men set fire to Starlink ground antennas near Sofia in the night of 9/10 Oct.",
+    "Reports differ on damage scale — Mirchev said 11 of 17 antennas; Maritsa later wrote nine — and officials have not confirmed cause or service impact.",
+    "Ground stations relay traffic between Starlink satellites and terrestrial networks used for civilian and military links, including Ukraine."
+   ],
+   "whyItMatters": "Physical sabotage of Starlink ground kit in an EU capital region, a week after Germany detained two people over a Starlink station fire in Poland.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Golem.de",
+     "url": "https://www.golem.de/news/bulgarien-brandanschlag-auf-starlink-antennen-bei-sofia-2610-214074.html",
+     "kind": "article",
+     "time": "2026-10-14T07:37:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "ifo-ai-training-data",
+   "title": "ifo: tighter AI training-data rules could wipe €155bn of Germany’s AI upside",
+   "topics": [
+    "AI",
+    "Germany",
+    "Europe"
+   ],
+   "weight": "normal",
+   "facts": [
+    "ifo and Implement Consulting estimate generative AI could add €440bn/year of German value by 2034 — about €330bn from broad use, €65bn from research, €45bn from domestic model development.",
+    "Restricting commercial access to training data further would cut that potential by ~€155bn (~⅓), via slower diffusion (€45bn), weaker models (€75bn), lost research (€25bn) and less EU development (€10bn).",
+    "They urge keeping the EU Copyright Directive’s commercial text-and-data-mining exception with proportionate transparency and opt-outs; the Commission has been reviewing the directive since May 2026."
+   ],
+   "whyItMatters": "A numbered German counterweight to the push for stricter TDM rules, timed while Berlin debates AI copyright reform.",
+   "image": null,
+   "sources": [
+    {
+     "label": "ifo Institute",
+     "url": "https://www.ifo.de/en/press-release/2026-10-13/stricter-ai-regulation-puts-eur-155-billion-additional-value-added-risk",
+     "kind": "primary",
+     "time": "2026-10-13T12:00:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "DeepMind + Singapore GovTech fine-tuned an on-device Gemma scam detector that stays on-phone with user consent — no cloud chat egress — and previewed it at SICW 2026.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Berlin update: Greens leader Franziska Brantner says the Left broke last week’s antisemitism deal, backing SPD/Greens’ pause of the sondierungen after the Linke Fraktion signed a different declaration.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "HBO is bringing Girls back for a five-episode limited run with the four leads.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Jensen Huang wrapped a Paris stop at the Élysée with Macron on NVIDIA’s France AI bets, open source and safety — next stop GTC Berlin.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Wildlife Photographer of the Year went to a photo of a mother elephant carrying her dead calf.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": null,
+   "sources": [
+    {
+     "label": "Google DeepMind",
+     "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+     "kind": "primary",
+     "time": "2026-10-14T04:00:00+02:00"
+    },
+    {
+     "label": "Süddeutsche Zeitung",
+     "url": "https://www.sueddeutsche.de/politik/regierungsbildung-in-berlin-brantner-linke-hat-sich-nicht-an-abmachung-gehalten-dpa.urn-newsml-dpa-com-20090101-261013-930-835534",
+     "kind": "article",
+     "time": "2026-10-14T05:58:00+02:00"
+    },
+    {
+     "label": "DIE ZEIT on X",
+     "url": "https://x.com/zeitonline/status/2110203280634601809",
+     "kind": "x",
+     "time": "2026-10-14T04:57:00+02:00"
+    },
+    {
+     "label": "CNN on X",
+     "url": "https://x.com/CNN/status/2110112600310649252",
+     "kind": "x",
+     "time": "2026-10-13T22:57:00+02:00"
+    },
+    {
+     "label": "NVIDIA on X",
+     "url": "https://x.com/nvidia/status/2110091922337415564",
+     "kind": "x",
+     "time": "2026-10-13T21:34:00+02:00"
+    },
+    {
+     "label": "PetaPixel",
+     "url": "https://petapixel.com/2026/10/13/powerful-photo-of-a-mother-elephant-carrying-dead-calf-wins-wildlife-photographer-of-the-year/",
+     "kind": "article",
+     "time": "2026-10-14T00:30:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "Thunderbird for iOS is in native development — Mozilla’s first look at a proper iPhone email app (401 HN points overnight).",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Cursor changelog: Origin App Marketplace is live.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Google is making it easier to build free Android apps with AI assistance (heise).",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Visual Studio says Gemini 4 Argon is in the Copilot Chat model picker after stronger coding results in early tests.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Jarred Sumner merged several overnight bun lint/fmt PRs (type-aware rules, bunfig from subdirs, svelte in [fmt]).",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": {
+    "url": "https://blog.thunderbird.net/files/2026/10/Cover2-scaled.jpg",
+    "alt": "featured post title image",
+    "credit": "Thunderbird blog",
+    "creditUrl": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/"
+   },
+   "sources": [
+    {
+     "label": "Thunderbird blog",
+     "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+     "kind": "primary"
+    },
+    {
+     "label": "Hacker News",
+     "url": "https://news.ycombinator.com/item?id=50072913",
+     "kind": "article"
+    },
+    {
+     "label": "Cursor changelog",
+     "url": "https://cursor.com/changelog/origin-app-marketplace",
+     "kind": "primary"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Google-erleichtert-das-kostenlose-Erstellen-eigener-Android-Apps-per-KI-11487130.html",
+     "kind": "article",
+     "time": "2026-10-14T05:07:00+02:00"
+    },
+    {
+     "label": "Visual Studio",
+     "url": "https://msft.it/6018as8Ra",
+     "kind": "article",
+     "via": {
+      "label": "Visual Studio on X",
+      "url": "https://x.com/VisualStudio/status/2110102849388507510",
+      "kind": "x"
+     },
+     "time": "2026-10-13T22:18:00+02:00"
+    },
+    {
+     "label": "oven-sh/bun#45212",
+     "url": "https://github.com/oven-sh/bun/pull/45212",
+     "kind": "primary",
+     "time": "2026-10-14T07:58:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "weight": "brief",
+   "facts": [
+    {
+     "text": "BVB visit Bodø/Glimt tonight in CL league-phase MD2 — kickoff 21:00 CEST at Aspmyra; Schlotterbeck stays home as a precaution, while Ryerson, Chukwuemeka and Mane travel.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Kovač called Bodø “really intense” and pointed to their long-running patterns under the same coach; last season’s home CL meeting finished 2–2.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Warriors: Steve Kerr updated on Kristaps Porziņģis returning to Chase Center after a mysterious absence; Yaxel Lendeborg also gave an ankle update after the Lakers game.",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "49ers: Deebo Samuel’s injury tightens the WR room ahead of the trade deadline; SF sits atop early power-ranking roundups after Week 5.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": null,
+   "sources": [
+    {
+     "label": "Bundesliga.com",
+     "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/2/fk-bodoe-glimt-vs-borussia-dortmund/liveticker",
+     "kind": "article"
+    },
+    {
+     "label": "BasketballNews.com",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQTEwUUlKZmd5bnFIalVyOGZnWk8zRktuYmotVHpyaWs0c2JEdktvZXlqNWd6ZzdNc3JsN0VreGp4d1MzMVRTUkZSWUVRb2NDcFBSODQ5c3ZraHBRYzRCeXRDZ2N3MUk3VGNnUDhWaXZsUmNjaFV1ZERIbnlFOTQtbnZLN0MwSXotc1pJeDE1RmZWOWNVWFNjSC0yTnNySHVZV1NtR2h4NDRselYzT2FmSElfb3U0cWtWTHh1VnZfVnM3OHhCQzFVRFlxTGFBY3pRMnh0RmloaHM4WUZ2eWdwVnpocGVKZHBXdG96dERsU1RVY0NPelhJUHZBZ1RoV3FSVkZkTnd6bWdsSzg",
+     "kind": "article"
+    },
+    {
+     "label": "Sports Illustrated",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYjlNZ3Z0Yk5QMDhZRkprcHRBenNza1hLRF9CNXlyak44NVA1aEF0UXVZLUc4cWRyQlBXYmo0RXZVOWpBYk83eHJobkRuOENxWi1BUmwxNHVodVV5VWVDOTVlelFwT25RM1R6TTc2ZWozcHBFWE01UVptMG04NEZZR25WeWltTkZkdHJBNEM2RVpEdVBqNGU4STJUbzdZMk0yZ0pGVVN2ZlZvRHBQNHR2UnVic0dyaVA5Mmc",
+     "kind": "article"
+    },
+    {
+     "label": "Athlon Sports (Deebo)",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbXVWeXB0VjlWX2NHZkZBWDBjWGtKc2tsUlZFZ2FrOVZqVFp4R3QyYjNmeGtURV9GQ3FHTHdib3lXMldtd0xmN1JmRkUzYURONS16OVE2OThDaVlPcUpfeVFIRWgyd0JLdVhCNU9MVXlpU1JFdWJUWGg4MGVQd3JZSzdRN20yUVBYcTdiR2czZU1OWjUtQl9BV21n",
+     "kind": "article"
+    },
+    {
+     "label": "Athlon Sports (rankings)",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT3pmZFM4aHFMaGZrZ1ZkMF9IS3lMYzA0UGp0d05LX2c1bnpTb2hQM1ItSDk1d0F1ZlBkcTJ0Sk5EblRQamJVcEVSSFhLN1hmWkFxbWc2RHRRUXZQNmlPYWMzQ0NlUVN6bW9TRU5Vb0VOMXpHbGFYRTA4aUJPVXptb1hyN3R6ODZrSFAwQ0Vmdw",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
