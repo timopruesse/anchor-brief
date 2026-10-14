@@ -1,0 +1,324 @@
+{
+  "id": "2026-10-14-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-14T13:05:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin)",
+  "headline": "SpaceX throttles Ukraine’s military Starlink mid-mission; Berlin’s cabinet clears a watered-down Zuckersteuer; Hamburg opens the first Nord Stream sabotage trial; and French fridge hacks widen to Copeland/Dixell.",
+  "stories": [
+    {
+      "id": "starlink-ukraine-speed-limit",
+      "title": "SpaceX limits Ukraine’s military Starlink above ~160 km/h — missions aborted overnight",
+      "topics": [
+        "Ukraine",
+        "Security",
+        "Tech"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Presidential adviser Serhiy Beskrestnov says SpaceX overnight capped StarShield (military Starlink) terminals in motion at 100 mph / 160 km/h, with no prior warning.",
+        "Ukraine’s 7th Rapid Response Corps reported link drops of 10–20 seconds already at 110–120 km/h, forcing some drone missions to be cancelled.",
+        "Static/ordinary Starlink terminals are said to keep working; the hit is to terminals moving with fast drones used for mid-range strikes.",
+        "The timing lands as Trump presses Kyiv to stop strikes on Russian oil infrastructure; Beskrestnov calls a coincidence “obviously” unlikely. SpaceX has not confirmed the change."
+      ],
+      "whyItMatters": "Starlink underpins Ukrainian battlefield comms and drone guidance. A silent speed gate is a soft kill-switch on the most mobile part of that stack, and it lands in the middle of a US–Ukraine political squeeze.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted",
+          "kind": "article",
+          "time": "2026-10-14T10:05:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Ohne-Vorwarnung-von-SpaceX-Ukraine-beklagt-ploetzliche-Starlink-Beschraenkungen-11487892.html",
+          "kind": "article",
+          "time": "2026-10-14T12:36:00+02:00"
+        },
+        {
+          "label": "Interfax-Ukraine",
+          "url": "https://en.interfax.com.ua/news/general/1219719.html",
+          "kind": "article",
+          "time": "2026-10-14T09:37:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "zuckersteuer-kabinett",
+      "title": "Cabinet clears a watered-down Zuckersteuer for sugary drinks from July 2027",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "weight": "normal",
+      "facts": [
+        "The federal cabinet today approved Klingbeil’s Formulierungshilfe for a sugar tax on sweetened drinks — after the Chancellery had blocked a steeper draft earlier this month.",
+        "Two tiers only (the third was cut): 26¢/L from 5 g sugar per 100 ml, 32¢/L from 8 g. Pure fruit juice is out; light products stay untaxed.",
+        "Independent producers up to 70,000 L/year get special rules; up to 1 million L/year would be fully exempt if the EU clears the state aid.",
+        "Full-year take for 2027 is now pegged at about €820m (was €925m); mid-year start means ~€690m in 2027 cash. Bundestag still has to pass it."
+      ],
+      "whyItMatters": "After weeks of coalition friction, Merz’s cabinet locked a thinner health levy that still needs the Bundestag — and an EU nod for the SME carve-out.",
+      "image": null,
+      "sources": [
+        {
+          "label": "ZDF heute",
+          "url": "https://www.zdfheute.de/politik/deutschland/zuckersteuer-einigung-bundesregierung-100.html",
+          "kind": "article",
+          "time": "2026-10-14T11:15:00+02:00"
+        },
+        {
+          "label": "The Local",
+          "url": "https://www.thelocal.de/20261014/germanys-sugar-tax-passed-by-cabinet-after-last-minute-agreement",
+          "kind": "article",
+          "time": "2026-10-14T11:54:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2110313534118842622",
+          "kind": "x",
+          "time": "2026-10-14T12:15:28+02:00"
+        }
+      ]
+    },
+    {
+      "id": "nord-stream-trial",
+      "title": "Nord Stream sabotage trial opens in Hamburg — first criminal case worldwide",
+      "topics": [
+        "Germany",
+        "Europe",
+        "Security"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Hamburg’s Hanseatic Higher Regional Court opened the first criminal trial over the Sept 2022 Nord Stream blasts this morning; the defendant said nothing in court.",
+        "Serhii K. (Serhii/Serhiy Kuznietsov), a former Ukrainian special-forces officer, is accused of leading a seven-person team that planted timed military explosives from the yacht Andromeda.",
+        "Charges include a war crime (attack on civilian objects), causing an explosion, destroying structures and disrupting public utilities. He was arrested in Italy in Aug 2025 and extradited in Nov 2025.",
+        "Federal prosecutors believe Ukrainian state actors ordered the sabotage; Kyiv denies it. Hearings are listed into Jan 2027, with the case expected to run well beyond that."
+      ],
+      "whyItMatters": "Germany is the first country to put someone in the dock for Europe’s biggest peacetime energy sabotage — while remaining Ukraine’s biggest European backer.",
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/95/16/29/1200x675_cmsv2_de6f438b-95ad-535d-93ef-a0265a2deda5-9951629.jpg",
+        "alt": "Former Ukrainian military officer to stand trial in Germany over Nord Stream sabotage",
+        "credit": "Euronews",
+        "creditUrl": "https://www.euronews.com/2026/10/14/former-ukrainian-military-officer-to-stand-trial-in-germany-over-nord-stream-sabotage"
+      },
+      "sources": [
+        {
+          "label": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/nord-stream-prozess-in-hamburg-beginnt-darum-gehts,nord-stream-prozess-auftakt-100.html",
+          "kind": "article",
+          "time": "2026-10-14T12:01:00+02:00"
+        },
+        {
+          "label": "Euronews",
+          "url": "https://www.euronews.com/2026/10/14/former-ukrainian-military-officer-to-stand-trial-in-germany-over-nord-stream-sabotage",
+          "kind": "article",
+          "time": "2026-10-14T11:37:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "fridge-copeland-update",
+      "title": "French supermarket fridge hacks widen beyond Danfoss to Copeland/Dixell",
+      "topics": [
+        "Security",
+        "Europe"
+      ],
+      "weight": "normal",
+      "facts": [
+        "After Monday’s Danfoss-linked wave, CERT-FR and French reporting now also name Copeland XWEB and Dixell XWEB remote refrigeration controllers among compromised systems.",
+        "An E.Leclerc store near Albi using Dixell gear lost control of its cold rooms early Tuesday; staff found cooling PCs unresponsive around 04:00.",
+        "A Copeland spokesperson said a flaw was found in a discontinued, end-of-life controller generation and that the company is working with affected customers.",
+        "SOCRadar’s 13 Oct scan still finds ~2,900 internet-exposed Danfoss units in France alone (~65% of ~4,500 worldwide). Claroty had already published deep attack-surface research on both Danfoss and Copeland XWEB in August."
+      ],
+      "whyItMatters": "This is a material update to this week’s cold-chain story: the blast radius is multi-vendor, and internet-facing fridge controllers are now a food-safety issue, not just an OT footnote.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/copeland-hacker-kapern-weitere-supermarkt-kuehlschraenke-2610-214094.html",
+          "kind": "article",
+          "time": "2026-10-14T12:44:00+02:00"
+        },
+        {
+          "label": "Claroty",
+          "url": "https://www.claroty.com/blog/france-supermarket-hacks-expose-risks-of-internet-facing-refrigeration-systems",
+          "kind": "article"
+        },
+        {
+          "label": "CNA / Reuters",
+          "url": "https://www.channelnewsasia.com/business/copeland-dixell-refrigeration-systems-also-hacked-french-cybersecurity-agency-says-6456741",
+          "kind": "article"
+        },
+        {
+          "label": "Cybernews",
+          "url": "https://cybernews.com/security/copeland-dixell-cyberattack-french-supermarket-refrigeration/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Anthropic opens a Singapore office (its fifth in APAC) and signs an MOU with Singapore’s digital ministry on AI safety, evaluation and public-sector adoption — Claude already used at GovTech, Grab and DBS.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Swiss marketplace Ricardo: ~890k customers’ names, postal addresses and phone numbers stolen after odd activity on 7 Oct; emails/passwords not taken. WhatsApp phishing already follows.",
+          "sourceIndexes": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "AnitaB.org cancels this year’s Grace Hopper Celebration in Anaheim: registrations and sponsorships fell short of covering costs. Fee guidance to registrants by 26 Oct.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/singapore-office-opening",
+          "kind": "primary",
+          "time": "2026-10-14T00:00:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/schweizer-onlineauktionshaus-ricardo-erst-betrugsfaelle-jetzt-890-000-daten-gestohlen-2610-214078.html",
+          "kind": "article",
+          "time": "2026-10-14T12:00:00+02:00"
+        },
+        {
+          "label": "SRF",
+          "url": "https://www.srf.ch/news/schweiz/online-marktplatz-gehackt-ricardo-meldet-datenleck-bei-890-000-konten",
+          "kind": "article"
+        },
+        {
+          "label": "AnitaB.org",
+          "url": "https://anitab.org/press-release",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Chrome 155 stable (155.0.8059.79/.80) ships 37 security fixes, seven of them Critical — including an ANGLE buffer overflow and UAFs in Browser, PDF, Network, Core, SVG and Media.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "CISA put Ivanti Connect Secure CVE-2026-104935 on KEV (13 Oct): unauth auth-bypass → remote command exec, used for credential theft. Patch now; Integrity Checker may miss in-memory activity.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Android Auto 18.0 has started rolling out, still gearing up for the larger redesign (9to5Google).",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Chrome Releases",
+          "url": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_01668083673.html",
+          "kind": "primary",
+          "time": "2026-10-13T00:00:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/chrome-155-google-stopft-sieben-kritische-loecher-2610-214093.html",
+          "kind": "article",
+          "time": "2026-10-14T12:25:00+02:00"
+        },
+        {
+          "label": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+          "kind": "primary",
+          "time": "2026-10-13T00:00:00+02:00"
+        },
+        {
+          "label": "9to5Google",
+          "url": "https://9to5google.com/2026/10/13/android-auto-18-0-update-starts-rolling-out/",
+          "kind": "article",
+          "via": {
+            "label": "9to5Google on X",
+            "url": "https://x.com/9to5Google/status/2110109614402322670",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Eintracht Braunschweig: masked intruders (police: likely Hannover 96 ultras) stormed a hall building the derby choreo, stole materials; nobody hurt. Derby 25 Oct; robbery probes opened.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Warriors lock Brandin Podziemski on a 5-year, $110m rookie-scale extension (starts next season ~$18.9m, rises to $25m, mutual option 2031-32).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "NDR",
+          "url": "https://www.ndr.de/sport/vermummte-ueberfallen-eintracht-braunschweig-fans,braunschweig-706.html",
+          "kind": "article",
+          "time": "2026-10-14T10:54:00+02:00"
+        },
+        {
+          "label": "t-online Braunschweig",
+          "url": "https://braunschweig.t-online.de/region/braunschweig/id_101480618/derby-choreo-weg-vermummte-beklauen-braunschweig-fans.html",
+          "kind": "article"
+        },
+        {
+          "label": "ESPN",
+          "url": "https://www.espn.com/nba/story/_/id/50148027/warriors-give-brandin-podziemski-5-year-110m-extension",
+          "kind": "article"
+        },
+        {
+          "label": "NBA.com",
+          "url": "https://www.nba.com/news/brandin-podziemski-warriors-extension-october-2026",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
