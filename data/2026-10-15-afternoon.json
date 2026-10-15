@@ -1,0 +1,359 @@
+{
+  "id": "2026-10-15-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-15T12:54:52+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since morning (~08:00 Berlin; ~5 hours)",
+  "headline": "Hamburg jails two Iran agents who scouted Schuster and Beck; OpenAI says an ex-employee took 100+ files to Apple; Starlink backs down on illegal German price hikes; and AMD’s Verano Epyc jumps to 192 cores.",
+  "stories": [
+    {
+      "id": "hamburg-iran-agents",
+      "title": "Hamburg court jails two Iran agents who scouted Josef Schuster and Volker Beck",
+      "topics": [
+        "Germany",
+        "Security",
+        "Europe"
+      ],
+      "facts": [
+        "Hanseatic Higher Regional Court: 8½ years (54) and 4½ years (43) for Iran intel work plus attempted murder/arson involvement — matching the federal prosecutor’s ask.",
+        "Judges found the Denmark-based pair had surveilled Zentralrat der Juden president Josef Schuster and DIG president Volker Beck; the older defendant also prepared a fire attack on a kosher grocery in Berlin.",
+        "Prosecutors say the older man took orders from Quds Force officers (IRGC foreign unit) and tried to recruit the younger man for an attack on Beck — or to find someone else to do it.",
+        "Defense had sought acquittals; Beck’s bid to join as a private accessory was earlier refused because no attack attempt had yet occurred."
+      ],
+      "whyItMatters": "A rare completed German trial tying IRGC tasking to concrete targeting of Jewish and pro-Israel figures on German soil — and it landed today, not as a tip.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Handelsblatt / dpa",
+          "url": "https://www.handelsblatt.com/politik/deutschland/prozess-gefaengnis-fuer-geheimdienstliche-taetigkeit-im-auftrag-irans/100262519.html",
+          "kind": "article",
+          "time": "2026-10-15T11:58:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/panorama/justiz/hamburg-gefaengnis-fuer-zwei-iranische-agenten-wegen-anschlagsplaene-auf-josef-schuster-und-volker-beck-a-2d68e0b5-6b64-494c-ab77-a5df55710a17",
+          "kind": "article",
+          "time": "2026-10-15T12:06:00+02:00"
+        },
+        {
+          "label": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/mutmassliche-spione-des-iran-in-hamburg-vor-gericht-urteile-erwartet,terrorprozess-102.html",
+          "kind": "article",
+          "time": "2026-10-15T12:25:00+02:00"
+        },
+        {
+          "label": "DER SPIEGEL (X)",
+          "url": "https://x.com/derspiegel/status/2110675723841331462",
+          "kind": "x",
+          "time": "2026-10-15T12:14:41+02:00"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "openai-apple-leak",
+      "title": "OpenAI alleges an ex-employee took 100+ confidential files to Apple",
+      "topics": [
+        "Tech",
+        "AI",
+        "Business"
+      ],
+      "facts": [
+        "In a San Jose federal filing, OpenAI says a staffer who left for Apple sent more than 100 files about an unreleased product to a personal account, then presented the plans to senior Apple leadership months ago.",
+        "OpenAI ties the claim to Apple now shipping its own AI hardware (citing HomeView) and says it may countersue; a scheduled hearing in the existing trade-secrets fight was delayed.",
+        "Apple says it has hire-side procedures against using prior employers’ secrets and has found no evidence supporting the allegation.",
+        "This is separate from this week’s DOJ case against an OpenAI engineer charged with planting a recording device in an exec conference room."
+      ],
+      "whyItMatters": "The OpenAI–Apple trade-secrets war just got a new mirror allegation — and Apple’s HomeView launch is being used as Exhibit A for alleged reuse.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Guardian / Reuters",
+          "url": "https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
+          "kind": "article",
+          "time": "2026-10-14T22:31:00+02:00"
+        },
+        {
+          "label": "PetaPixel",
+          "url": "https://petapixel.com/2026/10/15/openai-employee-allegedly-tried-to-steal-the-companys-intellectual-property/",
+          "kind": "article",
+          "time": "2026-10-15T08:00:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "starlink-vz-unterlassung",
+      "title": "Starlink signs a German cease-and-desist after illegal price hikes and forced upsells",
+      "topics": [
+        "Germany",
+        "Tech",
+        "Business"
+      ],
+      "facts": [
+        "After a Verbraucherzentrale Niedersachsen warning, Starlink Internet Services Ltd gave an Unterlassungserklärung — it will stop the challenged practices rather than litigate.",
+        "In May 2026 Starlink raised Privathaushalt 200 Mbit/s from €49 to €55/month by email only (no active consent) and cut the advertised max speed; customers also reported silent switches into Privathaushalt Max at €75.",
+        "Affected customers can reclaim overpayments, VZ says — but on short month-to-month deals Starlink can still cancel and re-offer only at the new rate.",
+        "VZ contrasts Starlink’s climb-down with Amazon’s failed fight to the BGH over unilateral subscription hikes."
+      ],
+      "whyItMatters": "A concrete German consumer win against SpaceX’s ISP arm — and a reminder that EU contract law still bites satellite broadband.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/satelliteninternet-starlink-beendet-rechtswidrige-preiserhoehung-und-aboaenderung-2610-214142.html",
+          "kind": "article",
+          "time": "2026-10-15T12:25:00+02:00"
+        },
+        {
+          "label": "Verbraucherzentrale Niedersachsen",
+          "url": "https://www.verbraucherzentrale-niedersachsen.de/pressemitteilungen/starlink-gibt-unterlassungserklaerung-ab-126409",
+          "kind": "primary",
+          "time": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Verbraucherzentrale-mahnt-Starlink-ab-11487946.html",
+          "kind": "article",
+          "time": "2026-10-14T13:33:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "amd-epyc-verano",
+      "title": "AMD’s Epyc 9006 LP “Verano” jumps to 192 Zen 6c cores for AI servers",
+      "topics": [
+        "Tech",
+        "Hardware"
+      ],
+      "facts": [
+        "At OCP Global Summit 2026, Lisa Su previewed Epyc 9006 LP (codename Verano) — AMD’s LPDDR5x-on-package answer to Nvidia’s Vera — now with up to 192 cores vs earlier 72-core talk.",
+        "Design packs up to six 32-core Zen 6c chiplets, two LPDDR5x controllers on SOCAMM2 modules, and 128 MB L3 per CCD (vs 48 MB on Zen 6).",
+        "Aimed at AI workloads; pairs with Instinct GPUs over 112 Gbit/s XGMI. Ship window: H1 2027, with other Venice-9006 SKUs (Venice-X, Venice-HF) also slated for 2027."
+      ],
+      "whyItMatters": "AMD is putting a dense, memory-close CPU next to Nvidia’s rack story — and quietly tripling the core count vs last rumor.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/epyc-9006-lp-amds-antwort-auf-nvidia-hat-jetzt-192-statt-72-kerne-2610-214143.html",
+          "kind": "article",
+          "time": "2026-10-15T12:45:00+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "Peshawar: Al-Khair school roof collapse kills at least ~27–34 (mostly pupils) and injures 50+; owner detained, early read is structural failure.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Istanbul: two dead after the heaviest rainfall in 84 years, the governor said.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Sachsen-Anhalt Landtag (AfD+BSW, 44/83) urged a Ukraine course change — ceasefire, halt non-humanitarian aid/weapons, ease Russia sanctions; not binding on Berlin/EU.",
+          "sourceIndexes": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "BMI/BMDS/BSI published Germany’s PQC migration guideline: high-risk systems by end-2030, broad cutover largely by 2035.",
+          "sourceIndexes": [
+            5,
+            6
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/55c7/live/443c8ce0-c86f-11f1-971b-634f423608e9.jpg",
+        "alt": "Rescue workers, police and security personnel gather inside a school building around a cordoned-off area beside a large mound of excavated soil. Educational murals and a Pakistani flag are visible on the pillars",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/cked326llddgo"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cked326llddgo",
+          "kind": "article",
+          "time": "2026-10-15T11:03:00+02:00"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
+          "kind": "article",
+          "time": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "label": "BBC World (X)",
+          "url": "https://bbc.in/4joe99z",
+          "kind": "article",
+          "via": {
+            "label": "BBC World (X)",
+            "url": "https://x.com/BBCWorld/status/2110674194031665207",
+            "kind": "x"
+          },
+          "time": "2026-10-15T12:08:36+02:00"
+        },
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landespolitik/ukraine-russland-sanktionen-update,afd-bsw-antrag-100.html",
+          "kind": "article",
+          "time": "2026-10-14T20:00:00+02:00"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/inland/afd-und-bsw-beschliessen-russland-antrag-im-sachsen-anhalt-sonderplenum-201317328.html",
+          "kind": "article",
+          "time": "2026-10-14T20:00:00+02:00"
+        },
+        {
+          "label": "Bundesregierung Publikationsportal",
+          "url": "https://www.publikationen-bundesregierung.de/pp-de/publikationssuche/post-quanten-kryptografie-2456584",
+          "kind": "primary",
+          "time": "2026-10-12T12:00:00+02:00"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Bund-veroeffentlicht-Leitlinie-zur-Umstellung-auf-Post-Quanten-Kryptografie-11489209.html",
+          "kind": "article",
+          "time": "2026-10-15T12:26:00+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes",
+        "Tech"
+      ],
+      "facts": [
+        {
+          "text": "OpenAI Core Experimentation: GPT-6 Astra drove 1,400+ maintenance PRs (~800k LOC deleted); GPT-6.1 Sol Ultra hit ~92% of Astra’s stale-flag findings at ~14% API cost in one audit.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Vercel Sandbox $1M challenge: 1,285 reports, $242k paid, one Linux kernel networking 0-day (host mem leak / crash / code exec paths); no customer-data breach shown; Trail of Bits white-box + intern DM leak also fixed.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Junos OS: critical CVSSv3.1 9.8 vulns patched — official fix out (via Following).",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://developers.openai.com/images/blog/maintaining-software-with-the-gpt-6-family/cover.webp",
+        "alt": "Maintaining software with the GPT-6 family | OpenAI Developers",
+        "credit": "OpenAI Developers",
+        "creditUrl": "https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family"
+      },
+      "sources": [
+        {
+          "label": "OpenAI Developers",
+          "url": "https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family",
+          "kind": "primary",
+          "time": "2026-10-14T18:00:00+02:00"
+        },
+        {
+          "label": "Vercel blog",
+          "url": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
+          "kind": "primary",
+          "time": "2026-10-14T18:00:00+02:00"
+        },
+        {
+          "label": "samilaiho (X)",
+          "url": "https://supportportal.juniper.net/s/article/2026-10-Security-Bulletin-Junos-OS-Multiple-vulnerabilities-resolved",
+          "kind": "article",
+          "via": {
+            "label": "samilaiho (X)",
+            "url": "https://x.com/samilaiho/status/2110645882169217165",
+            "kind": "x"
+          },
+          "time": "2026-10-15T10:16:06+02:00"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "BVB 0–1 at Bodø/Glimt (CL): Sjövold 52’; Kovac rotated five starters, said the side “didn’t exist” until the goal, took the blame; next Union Berlin Saturday.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "49ers’ Keion White (shot in ankle at a Feb Super Bowl party, Dahlia Club): SF DA charged Gregory Walker (assault w/ semi-auto) and Curtis Green (brandishing); four arrested under Operation D-Line.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://ca-times.brightspotcdn.com/dims4/default/55c57e6/2147483647/strip/true/crop/2696x1415+0+191/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff6%2Fc8%2Fcb182d2c448ca83e0c79f732f25c%2F49ers-white-shot-football-21034.jpg",
+        "alt": "San Francisco 49ers defensive end Keion White runs during a game.",
+        "credit": "LA Times",
+        "creditUrl": "https://www.latimes.com/sports/story/2026-10-14/2-men-charged-49ers-keion-white-super-bowl-shooting"
+      },
+      "sources": [
+        {
+          "label": "SportBild",
+          "url": "https://sportbild.bild.de/fussball/champions-league/pressestimmen-nach-bvb-blamage-in-bodoe-schockwellen-durch-deutschland-6ad0950f6700a83314268474",
+          "kind": "article",
+          "time": "2026-10-15T11:08:00+02:00"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/Kovac-zuernt-nach-Pleite-ueber-seinen-lustlosen-BVB-id31419448.html",
+          "kind": "article",
+          "time": "2026-10-15T06:53:00+02:00"
+        },
+        {
+          "label": "SF DA",
+          "url": "https://sfdistrictattorney.org/men-charged-in-connection-to-nightclub-shooting-in-the-mission-district/",
+          "kind": "primary",
+          "time": "2026-10-14T20:00:00+02:00"
+        },
+        {
+          "label": "LA Times",
+          "url": "https://www.latimes.com/sports/story/2026-10-14/2-men-charged-49ers-keion-white-super-bowl-shooting",
+          "kind": "article",
+          "time": "2026-10-14T23:11:00+02:00"
+        }
+      ],
+      "weight": "brief"
+    }
+  ]
+}
