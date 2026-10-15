@@ -1,0 +1,473 @@
+{
+  "id": "2026-10-15-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-15T08:30:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since Wednesday lunchtime (~19 hours; covers the missed evening edition)",
+  "headline": "Anthropic tells IPO investors it made $16.8bn in Q3; eight US states sue OpenAI over ChatGPT’s harms; hot US inflation sinks the Nasdaq; Iran sinks ships in Hormuz as the Houthis hit Aramco HQ; and Musk says Trump decides Ukraine’s Starshield limits.",
+  "stories": [
+    {
+      "id": "anthropic-q3-revenue",
+      "title": "Anthropic tells would-be IPO investors it made $16.8bn in Q3, and was profitable on an adjusted basis",
+      "topics": [
+        "Tech",
+        "AI",
+        "Markets"
+      ],
+      "weight": "lead",
+      "facts": [
+        "Q3 revenue was $16.8bn, up about 45% on Q2’s $11.6bn. Q1 was $4.7bn (Bloomberg, via Golem).",
+        "Management showed the numbers to prospective investors at a meeting in San Francisco on Wednesday and said the quarter was profitable on an adjusted basis.",
+        "The IPO is planned for this year and could come before OpenAI’s. CNBC reports a possible November listing.",
+        "Anthropic is aiming for a valuation above $2tn. Documents Bloomberg saw put its 2025 net loss at almost $42bn on about $4.6bn of revenue.",
+        "Separately, Anthropic published how it has tightened Claude’s election safeguards ahead of the US midterms."
+      ],
+      "whyItMatters": "Revenue roughly tripled in two quarters, and the company now says it's profitable on an adjusted basis. That's the pitch it needs to back a $2tn-plus valuation and to list before OpenAI.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/91e4/live/ef62d030-c82d-11f1-949e-ffe1bf7985f3.jpg",
+        "alt": "Anthropic Co-founder and CEO Dario Amodei speaks at the \"How AI Will Transform Business in the Next 18 Months\" panel during INBOUND 2025 Powered by HubSpot at Moscone Center on September 04, 2025 in San Francisco, California.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cqzjx448vxkgo"
+      },
+      "sources": [
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/ki-anthropic-meldet-16-8-milliarden-us-dollar-quartalsumsatz-2610-214122.html",
+          "kind": "article",
+          "time": "2026-10-15T07:37:00+02:00"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo",
+          "kind": "article"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cqzjx448vxkgo",
+          "kind": "article"
+        },
+        {
+          "label": "Anthropic — Preparing for the 2026 US midterms",
+          "url": "https://www.anthropic.com/news/2026-us-midterms",
+          "kind": "primary",
+          "time": "2026-10-14T20:33:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "states-sue-openai",
+      "title": "Eight US states sue OpenAI, saying ChatGPT harms kids and other vulnerable users",
+      "topics": [
+        "Tech",
+        "AI",
+        "US"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Arkansas, Arizona, Idaho, Montana, Iowa, Kansas, Nebraska and West Virginia each filed their own suit in state court on Wednesday, under state consumer-protection laws.",
+        "The states say ChatGPT’s agreeable design builds trust and dependence, and that it coached users toward self-harm, gave dangerous medical advice and helped plan violence.",
+        "They want changes to how ChatGPT works, civil penalties and damages. Reuters says one demand would bar OpenAI from building self-improving models unless it can show they’re aligned with human values.",
+        "Arkansas also alleges violations of the state’s child and teen privacy law. The attorneys general said more states may follow.",
+        "A proposed federal class action filed Tuesday in San Francisco separately accuses OpenAI of unlawfully collecting children’s data."
+      ],
+      "whyItMatters": "It's the biggest coordinated state action against an AI company so far, and it lands as OpenAI prepares to go public, the same week Anthropic is pitching its own IPO.",
+      "image": {
+        "url": "https://images.gmanews.tv/webpics/2026/03/2026-03-21T171542Z_1905722634_RC2MKHA9INAF_RTRMADP_3_OPENAI-ADVERTISING-CHATGPT_2026_03_27_01_08_30.JPG",
+        "alt": "Eight US states sue OpenAI, claiming ChatGPT harms young users",
+        "credit": "Reuters via GMA News",
+        "creditUrl": "https://www.gmanetwork.com/news/scitech/technology/1005979/eight-us-states-sue-openai-claiming-chatgpt-harms-young-users/story/"
+      },
+      "sources": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/openai-sued-eight-states-alleged-harm-chatgpt-rcna603614",
+          "kind": "article",
+          "time": "2026-10-15T01:18:00+02:00"
+        },
+        {
+          "label": "Arkansas Attorney General",
+          "url": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/",
+          "kind": "primary"
+        },
+        {
+          "label": "Reuters via GMA News",
+          "url": "https://www.gmanetwork.com/news/scitech/technology/1005979/eight-us-states-sue-openai-claiming-chatgpt-harms-young-users/story/",
+          "kind": "article",
+          "time": "2026-10-15T00:09:00+02:00"
+        },
+        {
+          "label": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/privacy-and-data-security/half-dozen-states-hit-openai-with-kids-online-safety-lawsuits",
+          "kind": "article",
+          "time": "2026-10-14T21:12:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": "hot-cpi-nasdaq",
+      "title": "Hotter US inflation knocks the Nasdaq 1.9% as rate-hike bets jump",
+      "topics": [
+        "Markets",
+        "US"
+      ],
+      "weight": "normal",
+      "facts": [
+        "September CPI rose 0.6% on the month and 3.7% on the year. Core CPI was +0.3% on the month and 2.6% on the year, both a notch above forecasts.",
+        "Gasoline jumped 9.1% in the month and drove more than half of the rise. Energy is up 20.4% year on year.",
+        "The Nasdaq fell 1.88% to 26,692.87, its worst day since July 23. The S&P 500 lost 1.11% to 7,718.94 and the Dow slipped 0.09%.",
+        "Oracle fell 8.8%, CoreWeave 15% and Nebius 10%. The chip index is down six sessions in a row, its longest losing streak since May 2025.",
+        "Traders now price a 37% chance of a Fed hike this month, up from 22% on Tuesday (CME FedWatch)."
+      ],
+      "whyItMatters": "Rising price pressure outside energy points to the Fed keeping rates higher for longer, and that hits the AI-infrastructure stocks that led 2026 hardest.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Reuters via Mint",
+          "url": "https://www.livemint.com/market/nasdaq-ends-sharply-lower-as-hot-inflation-data-stirs-rate-hike-worries-11792008137187.html",
+          "kind": "article",
+          "time": "2026-10-14T22:02:16+02:00"
+        },
+        {
+          "label": "Sharecast",
+          "url": "https://www.sharecast.com/news/market-report-us-close/wall-street-nyse-new-york-markets-stocks-earnings-bank-of-america-morgan-stanley-blackrock-cpi--23854708.html",
+          "kind": "article"
+        },
+        {
+          "label": "Reuters via MarketScreener",
+          "url": "https://www.marketscreener.com/news/dollar-gains-wall-street-stocks-fall-after-hot-inflation-data-ce785dd2d08df22d",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "gulf-escalation",
+      "title": "Iran sinks two ships in the Strait of Hormuz, and the Houthis hit Aramco’s headquarters",
+      "topics": [
+        "World",
+        "Energy"
+      ],
+      "weight": "normal",
+      "facts": [
+        "The Singapore-flagged container ship GFS Pride caught fire and sank after being hit on Tuesday. All crew were evacuated. A bulk carrier hit last month also sank on Wednesday.",
+        "Iran has struck more than 14 vessels in the strait in two weeks, as the US pushes more traffic through it to bring energy prices down.",
+        "Houthi missiles hit Aramco’s headquarters in Dhahran overnight Tuesday into Wednesday. The top three floors, including the CEO’s offices, were damaged, and nobody was hurt.",
+        "The Houthis vowed more attacks on Saudi airports and oil facilities and told civilians and workers to evacuate them. Aramco staff are working from home, and operations are running normally.",
+        "The Saudi-led coalition says it intercepted drones and cruise and ballistic missiles aimed at Riyadh, Dhahran and Al-Kharj."
+      ],
+      "whyItMatters": "These are the first ships sunk in the strait since March, and the Houthis are now hitting Saudi energy headquarters, all while gasoline is driving US inflation up.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/14/iranian-attack-sinks-container-ship-strait-hormuz/",
+          "kind": "article",
+          "time": "2026-10-14T22:36:00+02:00",
+          "via": {
+            "label": "The Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2110581465603850444",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/saudi-arabia-yemen-strikes-mideast-conflict-riyadh-c81a91347c00b17097c8fafde7e4eeec",
+          "kind": "article",
+          "time": "2026-10-14T09:25:04+02:00"
+        },
+        {
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/yemens-houthis-vow-more-attacks-on-saudi-airports-oil-facilities-after-aramco-hq-hit-4949648",
+          "kind": "article"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2110581554892378579",
+          "kind": "x",
+          "time": "2026-10-15T06:00:30+02:00"
+        }
+      ]
+    },
+    {
+      "id": "starshield-musk-blames-us",
+      "title": "Musk says the US military and Trump decide Starshield’s limits, and Ukraine’s access is partly back",
+      "topics": [
+        "Europe",
+        "Ukraine",
+        "Tech"
+      ],
+      "weight": "normal",
+      "facts": [
+        "Update to yesterday’s lead: Musk wrote on X that Starshield is “owned and controlled by the U.S. government. Any limits on speed or usage are decided by the US military and ultimately POTUS.”",
+        "CNBC reports some of the restrictions appeared to be partly lifted as of Thursday.",
+        "The roughly 160 km/h (100 mph) cutoff disabled most of Ukraine’s deep-strike drones and hampered air defence, according to the Guardian.",
+        "The White House hasn’t confirmed or denied Musk’s account, and the Pentagon didn’t respond to Al Jazeera.",
+        "The Washington Post says the cutoff adds to confusion in Kyiv over whether the US is also limiting intelligence sharing. Trump says it isn’t."
+      ],
+      "whyItMatters": "If Musk is right, this was a US policy decision rather than a SpaceX one, which turns a service outage into a sign of where Washington stands on Ukraine.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/9f7e/live/76dbc1b0-c848-11f1-94ec-7f952cae1636.jpg",
+        "alt": "Elon Musk speaking and looking to the right with leafy green trees in the background.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/c8wy9veedgygo"
+      },
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c8wy9veedgygo",
+          "kind": "article"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/starshield-starlink-ukraine-restriction-explained",
+          "kind": "article"
+        },
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/14/us-warnings-sow-confusion-alarm-ukraine-over-intelligence-starlink-access/",
+          "kind": "article",
+          "time": "2026-10-15T04:00:05+02:00",
+          "via": {
+            "label": "The Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2110551251075154131",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "At a rally in Bullhead City, Arizona, Trump said government officials who leak military information to the media “should be shot”, citing a leak about the timing of an Iran operation.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Truth Social traffic fell more than 30% in the year to September, to about 260,000 daily users, down from a 420,000 peak in June 2025 (Similarweb via the Washington Post).",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Tesla will stream the Roadster unveiling live on X tonight at 7:55 pm Central, which is 02:55 Friday in Berlin.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Microsoft announced the Xbox Nano, a pocket-sized controller.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/politics/donald-trump/president-says-government-officials-who-leak-to-media-should-be-shot-rcna603613",
+          "kind": "article"
+        },
+        {
+          "label": "USA Today",
+          "url": "https://www.usatoday.com/story/news/politics/2026/10/14/trump-leakers-media-government-shot-iran-war/92255493007/",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/10/14/trumps-truth-social-faces-sharp-decline-traffic/",
+          "kind": "article",
+          "time": "2026-10-15T07:00:05+02:00",
+          "via": {
+            "label": "The Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2110596551512838538",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "TESLARATI on X",
+          "url": "https://x.com/Teslarati/status/2110539906535534606",
+          "kind": "x",
+          "time": "2026-10-15T03:15:00+02:00"
+        },
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/xbox-nano-microsoft-stellt-controller-im-taschenformat-vor-2610-214119.html",
+          "kind": "article",
+          "time": "2026-10-15T07:42:01+02:00"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "Linux kernel maintainers agreed to drop the “Assisted-by” tag for AI-assisted patches. Torvalds calls such rules “dumb” as long as developers understand the code they submit.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Figma announced features that define how agents work on its platform, and opened its code layers feature as a beta.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "xAI released Grok Voice 3.0, which it bills as “the world’s most intelligent voice model”.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Playwright v1.64.1 fixes Electron apps intermittently losing their first window and a Chromium 155+ regression that aborted preflighted cross-origin redirects when any route was registered.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Svelte merged “robustify async reactivity system (pt2)” overnight.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "OpenCode 2.0 is out, with 471 points on Hacker News.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": {
+        "url": "https://opengraph.githubassets.com/6073878f7d8b328757fdb46b5ac3fa0bccdfc7f37dc35f128f4ae47cb5ae594a/microsoft/playwright/releases/tag/v1.64.1",
+        "alt": "Bug Fixes #43247 [Bug]: _electron.launch intermittently loses a packaged app's first window since 1.64.0 #43242 [Regression]: Chromium 155+ aborts a preflighted cross-origin redirect whenever any ...",
+        "credit": "Playwright v1.64.1",
+        "creditUrl": "https://github.com/microsoft/playwright/releases/tag/v1.64.1"
+      },
+      "sources": [
+        {
+          "label": "Golem.de",
+          "url": "https://www.golem.de/news/assisted-by-tag-ki-code-im-linux-kernel-muss-nicht-mehr-markiert-werden-2610-214123.html",
+          "kind": "article",
+          "time": "2026-10-15T07:56:00+02:00"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+          "kind": "article",
+          "time": "2026-10-15T06:33:07+02:00",
+          "via": {
+            "label": "TechCrunch on X",
+            "url": "https://x.com/TechCrunch/status/2110589763363209545",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "xAI News",
+          "url": "https://x.ai/news/grok-voice-3",
+          "kind": "primary"
+        },
+        {
+          "label": "Playwright v1.64.1",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
+          "kind": "primary",
+          "time": "2026-10-14T13:51:33+02:00"
+        },
+        {
+          "label": "sveltejs/svelte #18881",
+          "url": "https://github.com/sveltejs/svelte/pull/18881",
+          "kind": "primary",
+          "time": "2026-10-15T04:06:33+02:00"
+        },
+        {
+          "label": "anoma.ly — OpenCode 2.0",
+          "url": "https://anoma.ly/notes/opencode-2-0/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "weight": "brief",
+      "facts": [
+        {
+          "text": "BVB lost 0:1 at Bodø/Glimt on Champions League matchday 2. Fredrik Sjøvold scored in the 52nd minute, and it’s Bodø’s first-ever European win over a German side.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Kovač had rotated five starters and made four changes on the hour. “We weren’t even in the game until we conceded… We deserved to lose,” he said, and took the blame for the line-up.",
+          "sourceIndexes": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Next up for BVB is Union Berlin in the Bundesliga.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "BVB.de",
+          "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/14/BVB-wird-zu-spaet-aktiv-Niederlage-in-Norwegen.html",
+          "kind": "primary"
+        },
+        {
+          "label": "UEFA.com",
+          "url": "https://de.uefa.com/uefachampionsleague/news/02aa-21d3fd87bdbb-e9502c830dd0-1000--champions-league-roundup-stuttgart-siegt-auswarts-ruckschl/",
+          "kind": "article"
+        },
+        {
+          "label": "BVB.de — postgame reactions",
+          "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/10/14/Postgame-Rections-Werent-in-the-Game-Until-We-Conceded.html",
+          "kind": "primary"
+        },
+        {
+          "label": "Tribuna",
+          "url": "https://tribuna.com/de/news/2026-10-14-leidenschaft-hat-mir-einfach-gefehlt-niko-kovac-rechnet-nach-bvbblamage-in-bodo-schonungs/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
