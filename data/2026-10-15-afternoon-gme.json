@@ -1,0 +1,848 @@
+{
+  "id": "2026-10-15-afternoon-gme",
+  "parentId": "2026-10-15-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-15T12:54:52+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "Wed US close through lunch Berlin (premarket US); quote, IR/press, voices, Superstonk",
+  "headline": "GME still sits on Wednesday’s $27.15 close and $28.22 52-week high into the US open; no new IR or Form 4, Cohen and Kitty are quiet, and Cheng quote-tweeted a Boston Dynamics Atlas flip.",
+  "disclaimer": "News desk for a personal watchlist — not investment advice. Superstonk is community sentiment, not reporting.",
+  "stance": "bullish",
+  "stanceWhy": "Nothing new on the tape since Wednesday’s third straight session with a 52-week high. US cash has not opened yet to refine that read; voices are mostly quiet aside from Cheng’s robot aside.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 27.15,
+    "change": -0.07,
+    "changePct": -0.257,
+    "currency": "USD",
+    "dayHigh": 28.22,
+    "dayLow": 26.77,
+    "prevClose": 27.22,
+    "volume": 16349771,
+    "week52High": 28.22,
+    "week52Low": 17.79,
+    "asOf": "2026-10-14T20:00:02+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-04-15",
+      "c": 24.79
+    },
+    {
+      "t": "2026-04-16",
+      "c": 25.18
+    },
+    {
+      "t": "2026-04-17",
+      "c": 24.55
+    },
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
+    },
+    {
+      "t": "2026-09-04",
+      "c": 19.16
+    },
+    {
+      "t": "2026-09-08",
+      "c": 18.89
+    },
+    {
+      "t": "2026-09-09",
+      "c": 19.89
+    },
+    {
+      "t": "2026-09-10",
+      "c": 20.39
+    },
+    {
+      "t": "2026-09-11",
+      "c": 21.15
+    },
+    {
+      "t": "2026-09-14",
+      "c": 21.62
+    },
+    {
+      "t": "2026-09-15",
+      "c": 21.44
+    },
+    {
+      "t": "2026-09-16",
+      "c": 21.98
+    },
+    {
+      "t": "2026-09-17",
+      "c": 22.77
+    },
+    {
+      "t": "2026-09-18",
+      "c": 22.64
+    },
+    {
+      "t": "2026-09-21",
+      "c": 22.76
+    },
+    {
+      "t": "2026-09-22",
+      "c": 24.03
+    },
+    {
+      "t": "2026-09-23",
+      "c": 24.2
+    },
+    {
+      "t": "2026-09-24",
+      "c": 25.02
+    },
+    {
+      "t": "2026-09-25",
+      "c": 23.39
+    },
+    {
+      "t": "2026-09-28",
+      "c": 23.96
+    },
+    {
+      "t": "2026-09-29",
+      "c": 23.76
+    },
+    {
+      "t": "2026-09-30",
+      "c": 24.65
+    },
+    {
+      "t": "2026-10-01",
+      "c": 24.11
+    },
+    {
+      "t": "2026-10-02",
+      "c": 24.7
+    },
+    {
+      "t": "2026-10-05",
+      "c": 25.24
+    },
+    {
+      "t": "2026-10-06",
+      "c": 24.76
+    },
+    {
+      "t": "2026-10-07",
+      "c": 24.58
+    },
+    {
+      "t": "2026-10-08",
+      "c": 25.28
+    },
+    {
+      "t": "2026-10-09",
+      "c": 26.56
+    },
+    {
+      "t": "2026-10-12",
+      "c": 27.23
+    },
+    {
+      "t": "2026-10-13",
+      "c": 27.22
+    },
+    {
+      "t": "2026-10-14",
+      "c": 27.15
+    }
+  ],
+  "voices": [
+    {
+      "handle": "ryancohen",
+      "userId": "1146058067244486656",
+      "name": "Ryan Cohen",
+      "role": "CEO",
+      "lastPostAt": "2026-10-06T14:31:32Z",
+      "lastPostUrl": "https://x.com/ryancohen/status/2107478870601646546",
+      "lastPostText": "hiring mobile engineers to work directly with me.\non site in grapevine, tx. remote only if you outwork everyone.\nta@gamestop.com",
+      "quiet": true
+    },
+    {
+      "handle": "larryvc",
+      "userId": "26281090",
+      "name": "Larry Cheng",
+      "role": "Board",
+      "lastPostAt": "2026-10-15T10:44:14Z",
+      "lastPostUrl": "https://x.com/larryvc/status/2110683160203944434",
+      "lastPostText": "Oh great… (quote-tweet: Boston Dynamics Atlas cartwheel + backflip)",
+      "quiet": false
+    },
+    {
+      "handle": "TheRoaringKitty",
+      "userId": "2902349190",
+      "name": "Roaring Kitty",
+      "role": "Community",
+      "lastPostAt": null,
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "lastPostAt": "2026-10-06T14:31:32Z",
+    "lastPostUrl": "https://x.com/ryancohen/status/2107478870601646546",
+    "lastPostText": "hiring mobile engineers to work directly with me.\non site in grapevine, tx. remote only if you outwork everyone.\nta@gamestop.com",
+    "quiet": true
+  },
+  "community": {
+    "asOf": "2026-10-15T12:50:51.407623+02:00",
+    "windowHours": 24,
+    "totals": {
+      "posts": 10,
+      "withOutbound": 1
+    },
+    "byKind": {
+      "dd": 0,
+      "daily": 0,
+      "news": 1,
+      "junk": 9
+    },
+    "posts": [
+      {
+        "title": "Chumlee from pawn stars is Live opening Power Packs",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1x6907a/chumlee_from_pawn_stars_is_live_opening_power/",
+        "url": "https://www.tiktok.com/t/ZT9UMH4nNKU3U-c1Zul/",
+        "updated": "2026-10-15T01:35:22+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "Just waiting for the official announcement regarding warrant expiry",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1x622o4/just_waiting_for_the_official_announcement/",
+        "url": null,
+        "updated": "2026-10-14T20:24:20+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "Larry Cheng on X",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1x62j7h/larry_cheng_on_x/",
+        "url": null,
+        "updated": "2026-10-14T20:42:53+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "Negative Beta getting ready to unleash on the market",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1x63ab5/negative_beta_getting_ready_to_unleash_on_the/",
+        "url": null,
+        "updated": "2026-10-14T21:13:24+00:00",
+        "kind": "junk"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-10-02",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-03",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-04",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-05",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-06",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-07",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-08",
+        "posts": 1,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 0
+      },
+      {
+        "date": "2026-10-09",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-10",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-11",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-12",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-13",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-14",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-15",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "tape-hold-premarket",
+      "title": "Still parked on Wednesday’s $27.15 close and $28.22 52-week high into the US open",
+      "topics": [
+        "GME",
+        "Markets"
+      ],
+      "facts": [
+        "Last print: $27.15 (−0.26%) on 16.3M shares, day range $26.77–$28.22, 52-week high $28.22 / low $17.79 (Yahoo, as of Wed close).",
+        "No fresh Form 4 or investor.gamestop.com IR release in this window — morning’s desk already had the Oct 13 Cohen buy and the Wed high/fade.",
+        "US cash session opens ~15:30 Berlin; until then the afternoon desk is a hold, not a new tape story."
+      ],
+      "whyItMatters": "Third 52-week-high session still stands; lunch Berlin is just waiting on New York.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary",
+          "time": "2026-10-14T20:00:02+00:00"
+        },
+        {
+          "label": "GameStop IR",
+          "url": "https://investor.gamestop.com/overview/default.aspx",
+          "kind": "primary",
+          "time": "2026-10-15T12:54:52+02:00"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "voices-cheng-atlas",
+      "title": "Voices: Cheng reacts to Atlas; Cohen and Kitty stay quiet",
+      "topics": [
+        "GME",
+        "X"
+      ],
+      "facts": [
+        "Larry Cheng (@larryvc) at 12:44 Berlin: “Oh great…” quoting a Rainmaker1973 clip of Boston Dynamics Atlas cartwheeling into a backflip — not a GME filing comment.",
+        "Ryan Cohen still quiet since the Oct 6 Grapevine mobile-hiring post; Roaring Kitty still silent."
+      ],
+      "whyItMatters": "Board chatter today is robotics theater, not capital allocation.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Larry Cheng (X)",
+          "url": "https://x.com/larryvc/status/2110683160203944434",
+          "kind": "x",
+          "time": "2026-10-15T12:44:14+02:00"
+        },
+        {
+          "label": "Rainmaker1973 (quoted)",
+          "url": "https://x.com/Rainmaker1973/status/2110592754216550846",
+          "kind": "x",
+          "time": "2026-10-15T06:45:00+02:00"
+        },
+        {
+          "label": "Ryan Cohen (X)",
+          "url": "https://x.com/ryancohen/status/2107478870601646546",
+          "kind": "x",
+          "time": "2026-10-06T16:31:32+02:00"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "superstonk-afternoon",
+      "title": "Superstonk: warrant-expiry watch and Cheng mirrors; no DD",
+      "topics": [
+        "GME",
+        "Community"
+      ],
+      "facts": [
+        "24h window: 10 posts (0 DD, 1 news, 9 junk) — thin desk.",
+        "Recurring themes: waiting on official warrant-expiry wording; mirrors of Cheng’s X activity; a Chumlee Power Packs live clip.",
+        "No substantive DD in the window — treat as sentiment only."
+      ],
+      "whyItMatters": null,
+      "image": null,
+      "sources": [
+        {
+          "label": "Superstonk — warrant expiry",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1x622o4/just_waiting_for_the_official_announcement/",
+          "kind": "article",
+          "time": "2026-10-15T12:54:52+02:00"
+        },
+        {
+          "label": "Superstonk — Cheng",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1x62j7h/larry_cheng_on_x/",
+          "kind": "article",
+          "time": "2026-10-15T12:54:52+02:00"
+        },
+        {
+          "label": "Superstonk — Chumlee",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1x6907a/chumlee_from_pawn_stars_is_live_opening_power/",
+          "kind": "article",
+          "time": "2026-10-15T12:54:52+02:00"
+        }
+      ],
+      "weight": "brief"
+    }
+  ]
+}
