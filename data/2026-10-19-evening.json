@@ -1,0 +1,476 @@
+{
+ "id": "2026-10-19-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-19T19:32:21+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since afternoon (~12:45 Berlin; ~7 hours). X Following unavailable this run (API credits 0, browser backup did not return); GME voices via public X reads.",
+ "headline": "Russia blacks out 550,000 Ukrainian homes as Kyiv says the US gave no warning; China starts policing AI and solar tech exports; Lavrov courts Tehran on Hormuz; prosecutors tie the OpenAI bugging suspect to Saudi backers; and Anthropic's share fund draws a SpaceX-for-every-kid reply from Musk.",
+ "stories": [
+  {
+   "id": "ukraine-no-warning-blackout",
+   "title": "Russia knocks out power to 550,000 Ukrainian homes, and Kyiv says the US gave no early warning",
+   "topics": [
+    "Ukraine",
+    "Europe",
+    "World"
+   ],
+   "facts": [
+    "Overnight wave: 16 ballistic missiles at Kyiv and region plus 200+ drones; more than 10 energy facilities hit (Zelensky, Reuters).",
+    "At least 550,000 households lost power, heat or water; outages in 10 regions per grid operator Ukrenergo; at least four killed across Ukraine.",
+    "Air force: no warning before the first ~23:00 strike on Kyiv power plants, a warning only for the later 03:00 wave.",
+    "Zelensky says some US deliveries are delayed at Pentagon level while Russia gets sanctions relief; Rubio denies any pause in intelligence sharing."
+   ],
+   "whyItMatters": "Coming right after Washington suspended Russia sanctions, the missing warnings feed Kyiv's fear that intelligence is being used as leverage — with winter and Patriot shortages making grid attacks far more damaging.",
+   "image": null,
+   "sources": [
+    {
+     "label": "AP",
+     "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attack-b041f78e5d037a0f3377b7108eac1dc7",
+     "kind": "article",
+     "time": "2026-10-19T09:28:00+02:00"
+    },
+    {
+     "label": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/world-news/zelenskiy-says-ukraine-got-no-warning-as-russia-launches-major-attack-4956945",
+     "kind": "article"
+    },
+    {
+     "label": "DW",
+     "url": "https://www.dw.com/en/ukraine-got-no-warning-of-russian-ballistic-strikes-zelenskyy-says/a-79697476",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/19/no-us-warning-russian-strikes-kyiv-power-plants-zelenskyy-ukraine-trump",
+     "kind": "article"
+    },
+    {
+     "label": "Kyiv Independent",
+     "url": "https://kyivindependent.com/3-killed-53-injured-in-russian-attacks-across-ukraine-over-past-day-as-550-000-households-lose-power/",
+     "kind": "article"
+    }
+   ],
+   "weight": "lead"
+  },
+  {
+   "id": "china-tech-export-controls",
+   "title": "China moves to restrict exports of AI, solar-manufacturing and biotech know-how",
+   "topics": [
+    "China",
+    "AI",
+    "Tech"
+   ],
+   "facts": [
+    "Draft from the commerce ministry and others lists 40 technologies: 26 would need export licences, 14 would be banned outright (Reuters via heise).",
+    "23 of them are AI techniques, including AI agents and methods for large models; app/web access and already-public AI stay allowed.",
+    "Also covered: solar-cell production processes (equipment, not finished modules) and cell and gene therapy methods.",
+    "Comments are open until Nov 15, but a registration duty for transferring these technologies has applied since Friday."
+   ],
+   "whyItMatters": "This turns last week's draft into a live regime — Beijing is now using its lead in solar equipment and open models as export leverage, which matters for any European firm relying on Chinese tech transfer.",
+   "image": {
+    "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/8/2/6/0/4/shutterstock_1609031122-60666f7bcefeb554.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+    "alt": "Chinese flag over a circuit board",
+    "credit": "heise online / Shutterstock",
+    "creditUrl": "https://www.heise.de/news/China-will-Export-von-KI-und-Solartechnik-beschraenken-11487798.html"
+   },
+   "sources": [
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/China-will-Export-von-KI-und-Solartechnik-beschraenken-11487798.html",
+     "kind": "article",
+     "time": "2026-10-19T18:35:00+02:00"
+    }
+   ],
+   "weight": "normal"
+  },
+  {
+   "id": "lavrov-tehran-mediation",
+   "title": "Lavrov flies from the Gulf to Tehran, pitching Moscow as mediator to stop a return to full-scale war",
+   "topics": [
+    "Middle East",
+    "Energy",
+    "World"
+   ],
+   "facts": [
+    "First Lavrov visit to Iran since February 2025; met FM Araghchi, with President Pezeshkian later on Monday.",
+    "A day earlier in Bahrain, GCC states urged Moscow to press Tehran to halt attacks and reopen Hormuz shipping; GCC counts 7,000+ Iranian missiles and drones since the war began.",
+    "Lavrov tied restored navigation to protection for Iran against renewed attacks and said Russian staff will gradually return to the Bushehr nuclear plant.",
+    "Araghchi blamed Hormuz insecurity on US and Israeli aggression and said regional problems have \"no military solution\"."
+   ],
+   "whyItMatters": "With US–Iran talks stalled and Brent hovering near $110, Moscow is positioning itself as the broker on Hormuz — while it simultaneously gets sanctions relief from Washington on Ukraine.",
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad6210d1908-1792418061.jpg?resize=1920%2C1440",
+    "alt": "Sergey Lavrov meets Abbas Araghchi in Tehran",
+    "credit": "Al Jazeera / AFP",
+    "creditUrl": "https://www.aljazeera.com/news/2026/10/19/russias-lavrov-to-discuss-us-war-and-regional-security-during-tehran-visit"
+   },
+   "sources": [
+    {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/19/russias-lavrov-to-discuss-us-war-and-regional-security-during-tehran-visit",
+     "kind": "article"
+    },
+    {
+     "label": "Russian Foreign Ministry",
+     "url": "https://www.mid.ru/en/foreign_policy/news/2155476/",
+     "kind": "primary"
+    },
+    {
+     "label": "Arab News / AFP",
+     "url": "https://www.arabnews.com/middle-east/russian-fm-arrives-in-iran-as-moscow-looks-to-mediate-in-war-3007159",
+     "kind": "article"
+    },
+    {
+     "label": "RFE/RL",
+     "url": "https://www.rferl.org/a/lavrov-in-tehran-amid-questions-over-whether-moscow-is-helping-iran-in-war-with-us/33879493.html",
+     "kind": "article"
+    }
+   ],
+   "weight": "normal"
+  },
+  {
+   "id": "openai-bug-saudi-filing",
+   "title": "Prosecutors: ex-OpenAI engineer accused of bugging an exec room had \"considerable\" Saudi support",
+   "topics": [
+    "AI",
+    "Security",
+    "Tech"
+   ],
+   "facts": [
+    "Abdulrahman Alfozan allegedly hid an audio recorder behind a TV in an OpenAI conference room; OpenAI found it Sept 30, the FBI arrested him Oct 9.",
+    "Filing says he was in frequent WhatsApp contact with an unnamed Saudi royal who tried to recruit him for a Saudi AI initiative (\"Saudi needs you more then the US!\").",
+    "A Saudi military official allegedly paid his wife and son's one-way business-class flight out the day after his arrest.",
+    "Prosecutors say OpenAI executives met government officials in that room; they want him held. Defense says the Riyadh ticket was booked Sept 13 and offers GPS monitoring and a bond."
+   ],
+   "whyItMatters": "It's the clearest case yet of state-linked espionage risk inside a frontier lab — and lands while OpenAI is already fighting an ex-employee over files taken to Apple.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/ad18/live/95af9980-cbd2-11f1-aba9-2bb2608f11d9.png",
+    "alt": "BBC illustration for the OpenAI recording-device case",
+    "credit": "BBC / Reuters / DOJ",
+    "creditUrl": "https://www.bbc.com/news/articles/c6gel2dlyxvyo"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/c6gel2dlyxvyo",
+     "kind": "article",
+     "time": "2026-10-19T18:22:00+02:00"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+     "kind": "article"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013714/openai-staffer-accused-of-planting-bug-was-allegedly-in-frequent-communication-with-a-saudi-royal",
+     "kind": "article"
+    },
+    {
+     "label": "Defense filing (court document)",
+     "url": "https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/roCy_Hu8x_Zo/v0",
+     "kind": "primary"
+    }
+   ],
+   "weight": "normal"
+  },
+  {
+   "id": "anthropic-fund-musk-shares",
+   "title": "Anthropic commits 5% of its shares to a public-benefit fund; Musk answers with a SpaceX share for every US kid",
+   "topics": [
+    "AI",
+    "Tech",
+    "Markets"
+   ],
+   "facts": [
+    "Anthropic (Sun): 5% of shares to a new Public Benefit Fund LLC, subject to stockholder approval, plus 2% more for every 50% rise in value above a baseline.",
+    "Fund may make large donations or direct distributions, e.g. on AI labor-market impacts; no lobbying or political giving. Anthropic says ~20% of its shares are now pledged to the public good overall.",
+    "Musk replied \"give the shares directly to the public\", then pledged one of his SpaceX shares to \"every kid in America\" next year, \"the first of many\".",
+    "At Friday's $146.03 close and ~72–73m US children that is roughly $10.5bn; no details on eligibility or mechanics. SpaceX reports earnings Tuesday."
+   ],
+   "whyItMatters": "Equity-for-the-public is turning into a new front in the AI rivalry — and Musk's pledge could mint tens of millions of retail SpaceX holders right before its first big earnings print.",
+   "image": {
+    "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+    "alt": "Anthropic: Investing in the public benefit",
+    "credit": "Anthropic",
+    "creditUrl": "https://www.anthropic.com/news/public-benefit-fund"
+   },
+   "sources": [
+    {
+     "label": "Anthropic",
+     "url": "https://www.anthropic.com/news/public-benefit-fund",
+     "kind": "primary",
+     "time": "2026-10-18T18:49:35+02:00"
+    },
+    {
+     "label": "AP",
+     "url": "https://apnews.com/article/musk-spacex-anthropic-donation-ai-b3312da37a0e340be275295073055e00",
+     "kind": "article",
+     "time": "2026-10-19T14:58:00+02:00"
+    },
+    {
+     "label": "Forbes",
+     "url": "https://www.forbes.com/sites/siladityaray/2026/10/19/elon-musk-says-hell-give-every-child-in-america-one-spacex-share-next-year/",
+     "kind": "article",
+     "time": "2026-10-19T11:04:00+02:00"
+    },
+    {
+     "label": "Newsweek",
+     "url": "https://www.newsweek.com/elon-musk-pledges-spacex-share-for-every-child-in-america-what-theyre-worth-12586874",
+     "kind": "article"
+    }
+   ],
+   "weight": "normal"
+  },
+  {
+   "id": "dax-vw-dhl",
+   "title": "DAX closes 1.2% lower; VW reportedly orders pay freeze to 2030 while DHL lifts its outlook",
+   "topics": [
+    "Germany",
+    "Markets"
+   ],
+   "facts": [
+    "DAX ended about 1.2% (~300 pts) lower at ~25,320, with Rheinmetall the biggest loser and the France unrest weighing on European markets (Handelsblatt).",
+    "VW works council and IG Metall: management told HR worldwide to plan zero pay rises until 2030 for 660,000+ staff, effective since early October; VW won't comment on \"speculation\".",
+    "IG Metall warns of ≥10% real-wage loss; contract talks start late November, with the union demanding 5%.",
+    "DHL raised its 2026 group EBIT goal to over €7.0bn (from >€6.5bn) after Q3 EBIT rose ~16% to ~€1.71bn, yet the stock slipped on profit-taking."
+   ],
+   "whyItMatters": "VW's freeze, on top of 50,000 planned job cuts, sets up the hardest German auto wage round in years — just as the government courts investors at this week's Invest in Germany summit.",
+   "image": {
+    "url": "https://images.handelsblatt.com/bckzfpdOn42n/cover/1799/1012/0/1/0/0/0.5/0.5/graph-aktienkurs-aktienchart-dax-online-dax-bericht.jpg",
+    "alt": "DAX price board at the Frankfurt exchange",
+    "credit": "Handelsblatt / Getty Images",
+    "creditUrl": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-europas-boersen-unter-druck-rheinmetall-groesster-verlierer-im-dax/100263149.html"
+   },
+   "sources": [
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-europas-boersen-unter-druck-rheinmetall-groesster-verlierer-im-dax/100263149.html",
+     "kind": "article",
+     "time": "2026-10-19T18:01:00+02:00"
+    },
+    {
+     "label": "Reuters via Euronext",
+     "url": "https://live.euronext.com/en/financial-news/vw-plans-freeze-salaries-until-2030-works-council-says",
+     "kind": "article"
+    },
+    {
+     "label": "dpa-AFX via aktiencheck",
+     "url": "https://www.aktiencheck.de/news/Artikel-ROUNDUP_IG_Metall_VW_plant_Einfrieren_Gehaelter_bis_2030-20180405",
+     "kind": "article"
+    },
+    {
+     "label": "Investing.com (DHL)",
+     "url": "https://de.investing.com/news/stock-market-news/dhlaktie-fallt-trotz-hoherer-prognose-der-ausblick-war-erwartet-3709898",
+     "kind": "article",
+     "time": "2026-10-19T13:17:00+02:00"
+    }
+   ],
+   "weight": "normal"
+  },
+  {
+   "id": "worth-a-look",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Bulk Infrastructure plans a new subsea cable linking Europe directly to Canada, bypassing the US.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "BSI finds security holes in children's smartwatches.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Swiss online magazine Republik loses user data in a hack.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "ESA's Euclid space telescope discovers a new comet.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Study: AI-edited photos can lead people to form false memories.",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": null,
+   "sources": [
+    {
+     "label": "Golem.de",
+     "url": "https://www.golem.de/news/bulk-infrastructure-neues-seekabel-soll-europa-ohne-usa-direkt-mit-kanada-verbinden-2610-214272.html",
+     "kind": "article",
+     "time": "2026-10-19T19:23:01+02:00"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Kinder-Smartwatches-haben-laut-BSI-Sicherheitsluecken-11493223.html",
+     "kind": "article",
+     "time": "2026-10-19T17:52:00+02:00"
+    },
+    {
+     "label": "Golem.de",
+     "url": "https://www.golem.de/news/hackerangriff-schweizer-onlinemagazin-republik-verliert-nutzerdaten-2610-214269.html",
+     "kind": "article",
+     "time": "2026-10-19T18:24:02+02:00"
+    },
+    {
+     "label": "ESA",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+     "kind": "primary",
+     "time": "2026-10-19T14:00:00+02:00"
+    },
+    {
+     "label": "PetaPixel",
+     "url": "https://petapixel.com/2026/10/19/ai-edited-photos-can-lead-people-to-form-fake-memories/",
+     "kind": "article",
+     "time": "2026-10-19T14:41:31+02:00"
+    }
+   ],
+   "weight": "brief"
+  },
+  {
+   "id": "dev-notes",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Mistral releases Timestral, open zero-shot time-series forecasting models (5M–209M params, CPU inference, up to 32k-step history); weights on Hugging Face.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Linux 7.3 is out (LWN).",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Wine has been ported to OpenBSD.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Let's Encrypt adds two more remote perspectives for domain validation.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "create-vite 9.3.0 scaffolds with TypeScript v7 where possible.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "\"Ende\": a community fork of Deno gets going.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": null,
+   "sources": [
+    {
+     "label": "Mistral",
+     "url": "https://mistral.ai/news/timestral/",
+     "kind": "primary"
+    },
+    {
+     "label": "Hacker News",
+     "url": "https://news.ycombinator.com/item?id=50150434",
+     "kind": "article",
+     "time": "2026-10-19T11:59:32+02:00"
+    },
+    {
+     "label": "LWN",
+     "url": "https://lwn.net/Articles/1101143/",
+     "kind": "article"
+    },
+    {
+     "label": "Lobsters",
+     "url": "https://lobste.rs/s/gqepzd/wine_ported_openbsd",
+     "kind": "article"
+    },
+    {
+     "label": "Let's Encrypt community",
+     "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+     "kind": "primary"
+    },
+    {
+     "label": "GitHub: vitejs/vite",
+     "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.0",
+     "kind": "primary",
+     "time": "2026-10-19T10:05:45+02:00"
+    },
+    {
+     "label": "blog.webb.page",
+     "url": "https://blog.webb.page/WM-105",
+     "kind": "article"
+    }
+   ],
+   "weight": "brief"
+  },
+  {
+   "id": "sports",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "BVB flew to Baku for Tuesday's Champions League game at Sabah (18:45); Karetsas is out with a foot ligament injury.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Basketball Löwen are out of the BBL cup: 75:102 at home to Niners Chemnitz in the round of 16 (Sun).",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ],
+   "whyItMatters": null,
+   "image": null,
+   "sources": [
+    {
+     "label": "BVB",
+     "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/19/Das-ist-der-BVB-Kader-fuer-das-Spiel-gegen-Sabah.html",
+     "kind": "primary"
+    },
+    {
+     "label": "ruhr24",
+     "url": "https://www.ruhr24.de/bvb/bvb-sabah-fk-champions-league-live-ticker-kader-entscheidung-karetsas-aufstellung-borussia-dortmund-94547434.html",
+     "kind": "article"
+    },
+    {
+     "label": "Basketball Löwen",
+     "url": "https://www.basketball-loewen.de/endstation-achtelfinale-loewen-mit-deutlicher-niederlage-gegen-niners/",
+     "kind": "primary"
+    }
+   ],
+   "weight": "brief"
+  }
+ ]
+}
