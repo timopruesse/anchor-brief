@@ -1,0 +1,535 @@
+{
+ "id": "2026-10-20-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-10-20T13:10:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning brief (~08:00–13:00 Berlin)",
+ "headline": "Hackers dump 421,000 alleged AfD emails and the party confirms a breach; a Google Cloud zone in London knocks out UK banks; Amazon pledges €16bn for Germany; the EU Parliament's centre agrees to soften the combustion-engine ban; Zelensky meets Witkoff in Oslo.",
+ "stories": [
+  {
+   "id": "afd-email-leak",
+   "weight": "lead",
+   "title": "About 421,000 alleged AfD emails are online, and the party confirms a hack",
+   "topics": [
+    "Germany",
+    "Security"
+   ],
+   "facts": [
+    "Unknown actors published what they say are 421,179 AfD emails (281 GB) from 10 inboxes, including one in Alexander Gauland's name and an old national-HQ contact address.",
+    "The AfD confirms a September 2026 attack on a hosting provider; it says parts of a few mostly long-unused inboxes were copied and current federal accounts weren't affected.",
+    "Authenticity is still unverified; Bild says the material it saw includes ID photos, invoices, bank statements and membership lists from NRW district branches.",
+    "Bild reports mails attributed to Alice Weidel are in the dump, though her own account apparently wasn't hacked.",
+    "Lilith Wittmann on X: she doesn't yet know of a single newsroom that can fully search the material."
+   ],
+   "whyItMatters": "The dump includes members' personal data, so expect slow, contested verification; treat early claims about what the mails show with care.",
+   "image": null,
+   "sources": [
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/netzwelt/web/afd-bestaetigt-hackerangriff-auf-e-mail-konten-daten-im-internet-veroeffentlicht-a-d4b2543e-1dae-461a-a343-8c14b3b7d2ee",
+     "kind": "article",
+     "via": {
+      "label": "DER SPIEGEL on X",
+      "url": "https://x.com/derspiegel/status/2112440168007528535",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "BILD",
+     "url": "https://www.bild.de/politik/inland/afd-offenbar-421-179-mails-nach-hackerangriff-im-netz-6ad6642951e5094f7a57232d",
+     "kind": "article"
+    },
+    {
+     "label": "Süddeutsche Zeitung",
+     "url": "https://www.sueddeutsche.de/politik/afd-hackerangriff-datenleck-cybersicherheit-rechtsextremismus-li.3566216",
+     "kind": "article",
+     "time": "2026-10-20T07:11:01Z"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/afd-hackerangriff-102.html",
+     "kind": "article",
+     "time": "2026-10-20T08:42:06Z"
+    },
+    {
+     "label": "Lilith Wittmann on X",
+     "url": "https://x.com/LilithWittmann/status/2112490332575211597",
+     "kind": "x",
+     "time": "2026-10-20T10:25:18Z"
+    }
+   ]
+  },
+  {
+   "id": "google-cloud-london-outage",
+   "weight": "lead",
+   "title": "A Google Cloud zone in London goes down and takes UK banks and apps with it",
+   "topics": [
+    "Tech",
+    "Security"
+   ],
+   "facts": [
+    "Google's status page: elevated errors and intermittent network failures in europe-west2 since 08:08 Berlin time; dozens of products are listed as impacted.",
+    "The Register: zone europe-west2-b failed; Lloyds, HSBC, Royal Mail and Revolut were hit, with no recovery time and \"no workarounds for now\".",
+    "The BBC is running a live page as bank customers report problems.",
+    "ClickHouse Cloud says only zone B is affected and it is moving workloads out of it."
+   ],
+   "whyItMatters": "One availability zone shouldn't take out a bank; the outage shows how many UK services run without real multi-zone failover.",
+   "image": {
+    "url": "https://status.clickhouse.com/og-image.png",
+    "alt": "ClickHouse Cloud Status",
+    "credit": "ClickHouse Cloud status",
+    "creditUrl": "https://status.clickhouse.com/incidents/01M5C3ZZRPPJC395Z1PZMS4SAQ"
+   },
+   "sources": [
+    {
+     "label": "Google Cloud Service Health",
+     "url": "https://status.cloud.google.com/",
+     "kind": "primary"
+    },
+    {
+     "label": "The Register",
+     "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-clouds-london-zones-takes-a-nap-multiple-services-disrupted/5304084",
+     "kind": "article",
+     "time": "2026-10-20T10:34:00Z"
+    },
+    {
+     "label": "BBC News (live)",
+     "url": "https://www.bbc.co.uk/news/live/c58jd2kjp93xt",
+     "kind": "article",
+     "via": {
+      "label": "BBC Breaking News on X",
+      "url": "https://x.com/BBCBreaking/status/2112488409562284228",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "ClickHouse Cloud status",
+     "url": "https://status.clickhouse.com/incidents/01M5C3ZZRPPJC395Z1PZMS4SAQ",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "amazon-16bn-germany",
+   "weight": "normal",
+   "title": "Amazon pledges more than €16bn for Germany in 2027 at Merz's investment summit",
+   "topics": [
+    "Germany",
+    "Business"
+   ],
+   "facts": [
+    "Announced at the government's Invest in Germany Summit in Berlin; it covers data centers and AI, Amazon Leo satellite internet, logistics and Prime Video productions.",
+    "€4.8bn of it goes to expanding AWS's Frankfurt region; Hesse frames it as data centers across Rhine-Main.",
+    "Amazon is also opening a second robotics and AI research lab in Berlin.",
+    "Amazon says it has invested more than €100bn and created over 40,000 permanent jobs in Germany since 2010.",
+    "Handelsblatt: around 200 investors are at the summit at ESMT in Berlin-Mitte."
+   ],
+   "whyItMatters": "It's the first big number to come out of the summit after this morning's Nvidia pact, and it makes Leo a European rival to Starlink.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Amazon (press release)",
+     "url": "https://press.aboutamazon.com/de/2026/10/invest-in-germany-summit-amazon-announces-16-billion-euro-investment-in-germany-in-2027",
+     "kind": "primary",
+     "time": "2026-10-20T09:39:55Z"
+    },
+    {
+     "label": "Hessian state government",
+     "url": "https://hessen.de/presse/amazon-investiert-48-milliarden-euro-in-rechenzentren",
+     "kind": "primary"
+    },
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/politik/deutschland/investitionsgipfel-merz-buhlt-um-investoren-amazon-sagt-16-milliarden-euro-zu/100263324.html",
+     "kind": "article"
+    },
+    {
+     "label": "F.A.Z.",
+     "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/amazon-will-2027-16-milliarden-euro-in-deutschland-investieren-accg-201603852.html",
+     "kind": "article",
+     "via": {
+      "label": "F.A.Z. on X",
+      "url": "https://x.com/faznet/status/2112477256186576902",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "eu-combustion-compromise",
+   "weight": "normal",
+   "title": "The EU Parliament's centre agrees to soften the 2035 combustion-engine ban",
+   "topics": [
+    "Europe",
+    "Climate"
+   ],
+   "facts": [
+    "EPP, S&D and Renew negotiators agreed overnight: new cars must cut CO₂ 95% from 2021 levels by 2035, or only 87.5% if they use green steel.",
+    "That keeps new combustion and hybrid cars sellable after 2035 without fines for carmakers.",
+    "It's not final yet: the transport and industry committees vote Thursday, the environment committee in early November, and the plenary in December.",
+    "It follows last week's Merz–Macron deal (a 90% cut with no compensation required), which is seen as setting the line for the Council.",
+    "Transport & Environment calls the Franco-German deal a \"historic mistake\" for climate goals and for Europe's car industry."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/europa/eu-verbrenner-klima-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/wirtschaft/verbrenner-aus-eu-parlament-findet-kompromiss-bei-co-zielen-a-2996d4eb-fe0d-4434-b54d-ce32833e8243",
+     "kind": "article",
+     "via": {
+      "label": "DER SPIEGEL on X",
+      "url": "https://x.com/derspiegel/status/2112442710967890010",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "tagesschau (Merz–Macron deal)",
+     "url": "https://www.tagesschau.de/ausland/europa/frankreich-deutschland-verbrenner-aus-einigung-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "Transport & Environment",
+     "url": "https://www.transportenvironment.org/articles/franco-german-car-deal-a-historic-mistake-that-weakens-climate-ambition-and-europes-car-industry",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "ukraine-oslo-nuclear-summit",
+   "weight": "normal",
+   "title": "Zelensky meets Witkoff in Oslo as Trump floats a nuclear summit with Xi and Putin",
+   "topics": [
+    "World",
+    "Ukraine"
+   ],
+   "facts": [
+    "Zelensky met US envoy Steve Witkoff in Oslo, with Jared Kushner on video and Finland's Stubb and Norway's Støre present, ahead of Witkoff's planned talks with Putin in Moscow (Euronews).",
+    "Before that he spoke with Marco Rubio about ballistic-missile interceptors, early warning of Russian strikes and restoring Starlink/Starshield.",
+    "AP: a Russian missile and drone barrage killed 7 people in Ukraine.",
+    "Trump says he is open to a three-way meeting with Xi and Putin on denuclearization at the APEC summit in Shenzhen on Nov 18–19.",
+    "China calls joining trilateral disarmament talks \"neither fair, reasonable nor realistic\"; Ukraine's foreign minister says a Putin–Xi–Trump meeting would only encourage the war."
+   ],
+   "whyItMatters": "This is the follow-up to this morning's interceptor story: Kyiv is lobbying Washington directly while Moscow tries to set up a summit without it.",
+   "image": {
+    "url": "https://images.euronews.com/articles/stories/09/95/97/12/1200x675_cmsv2_8e76e0fa-6dd5-5e98-beda-c423d84622fe-9959712.jpg",
+    "alt": "Witkoff trifft Selenskyj in Oslo vor geplanten Putin-Gesprächen in Moskau",
+    "credit": "Euronews",
+    "creditUrl": "https://de.euronews.com/2026/10/20/witkoff-selenskyj-oslo-putin-moskau"
+   },
+   "sources": [
+    {
+     "label": "Euronews",
+     "url": "https://de.euronews.com/2026/10/20/witkoff-selenskyj-oslo-putin-moskau",
+     "kind": "article"
+    },
+    {
+     "label": "Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2112434684441325625",
+     "kind": "x",
+     "time": "2026-10-20T06:44:00Z"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996",
+     "kind": "article"
+    },
+    {
+     "label": "Reuters (via Investing.com)",
+     "url": "https://www.investing.com/news/world-news/trump-says-he-is-open-to-joining-trilateral-meeting-with-xi-putin-4958186",
+     "kind": "article"
+    },
+    {
+     "label": "CNA",
+     "url": "https://www.channelnewsasia.com/world/donald-trump-xi-jinping-vladimir-putin-meeting-apec-summit-6473396",
+     "kind": "article"
+    },
+    {
+     "label": "France 24 (AFP)",
+     "url": "https://www.france24.com/en/live-news/20261019-putin-xi-and-trump-could-meet-at-apec-summit-kremlin",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Frankfurt regional court: Google may not show aerial or 3D images of a private plot on Maps or Earth if the owner objects (2-03 O 388/25, not yet final).",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Waymo is coming to Madrid, its first region in Spain and second in the EU, with fully driverless ride-hailing planned for 2027.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "DAX around 25,075 at midday, almost 1% lower, weighed down by AI and tech stocks.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Microsoft announced new Sovereign Cloud capabilities in Paris for sensitive workloads in public and private cloud.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Australian police charge a man over what they call a \"targeted\" attack on MP Helen Haines, who remains in critical condition.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    },
+    {
+     "text": "Blackwall raises $100M at a $2.2B valuation for tools that filter bot and AI traffic on websites.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://www.lto.de/fileadmin/_processed_/a/7/csm_Google-Earth-LGFFM02_5942494754.jpg",
+    "alt": "Screenshots von Google Earth: Zu sehen 3D-Modelle von Wohnhäusern in Frankfurt am Main",
+    "credit": "LTO",
+    "creditUrl": "https://www.lto.de/recht/nachrichten/n/lg-frankfurt-203o38825-google-earth-eigentuemer-persoenlichkeitsrecht-unterlassung"
+   },
+   "sources": [
+    {
+     "label": "LG Frankfurt (press release)",
+     "url": "https://ordentliche-gerichtsbarkeit.hessen.de/presse/keine-veroeffentlichung-von-bildern-eines-privaten-grundstuecks",
+     "kind": "primary"
+    },
+    {
+     "label": "LTO",
+     "url": "https://www.lto.de/recht/nachrichten/n/lg-frankfurt-203o38825-google-earth-eigentuemer-persoenlichkeitsrecht-unterlassung",
+     "kind": "article"
+    },
+    {
+     "label": "Waymo",
+     "url": "https://waymo.com/waymo-in-spain",
+     "kind": "article",
+     "via": {
+      "label": "Waymo on X",
+      "url": "https://x.com/Waymo/status/2112487274361307522",
+      "kind": "x"
+     },
+     "time": "2026-10-20T10:13:00Z"
+    },
+    {
+     "label": "finanzen.net",
+     "url": "https://www.finanzen.net/nachricht/aktien/schwacher-handel-dax-zeigt-sich-am-mittag-schwaecher-15995065",
+     "kind": "article"
+    },
+    {
+     "label": "Satya Nadella",
+     "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+     "kind": "article",
+     "via": {
+      "label": "Satya Nadella on X",
+      "url": "https://x.com/satyanadella/status/2112474291916910752",
+      "kind": "x"
+     },
+     "time": "2026-10-20T09:21:33Z"
+    },
+    {
+     "label": "BBC Breaking News",
+     "url": "https://bbc.in/4kc8cwG",
+     "kind": "article",
+     "via": {
+      "label": "BBC Breaking News on X",
+      "url": "https://x.com/BBCBreaking/status/2112471703091601430",
+      "kind": "x"
+     },
+     "time": "2026-10-20T09:11:00Z"
+    },
+    {
+     "label": "F.A.Z.",
+     "url": "https://www.faz.net/aktuell/politik/ausland/mutmasslicher-angriff-australische-abgeordnete-hat-offenbar-nur-noch-ein-bein-accg-201603722.html?utm_term=Autofeed&campID=SCL-EAu2500002683&utm_medium=Social&utm_source=Twitter#Echobox=1792477659",
+     "kind": "article",
+     "via": {
+      "label": "F.A.Z. on X",
+      "url": "https://x.com/faznet/status/2112445203218853923",
+      "kind": "x"
+     },
+     "time": "2026-10-20T07:25:00Z"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://spr.ly/6012BHTkp6",
+     "kind": "article",
+     "via": {
+      "label": "TechCrunch on X",
+      "url": "https://x.com/TechCrunch/status/2112439951501521376",
+      "kind": "x"
+     },
+     "time": "2026-10-20T07:05:00Z"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "DeepSeek open-sources DeepInfer, the inference engine behind its production models; it had previously only contributed pieces to vLLM and others.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Laravel Herd 2.0: Herd Studio, artisan dev and Vite detection, a Laravel Cloud integration, an Insights MCP server, git worktree support and isolated databases.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "MiniMax M3.1 Flash is out; MiniMax says the weights follow on Oct 23.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Bun merges a fix so coverage, stack frames, call sites and source maps all agree on source positions.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Playwright MCP now reports invalid element targets and accepts locators in any language.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "create-vite 9.3.1 pins TypeScript 6 for now and uses Vite for TanStack templates.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/354da5f1186ca588e1d0a2c3a700c9448c6702e74190602c5cb4e7892eac5aec/deepseek-ai/DeepInfer",
+    "alt": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models - deepseek-ai/DeepInfer",
+    "credit": "GitHub: deepseek-ai/DeepInfer",
+    "creditUrl": "https://github.com/deepseek-ai/DeepInfer"
+   },
+   "sources": [
+    {
+     "label": "GitHub: deepseek-ai/DeepInfer",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "kind": "primary"
+    },
+    {
+     "label": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/deepseek-open-sources-deepinfer-inference-framework/",
+     "kind": "article"
+    },
+    {
+     "label": "Marcel Pociot on X",
+     "url": "https://x.com/marcelpociot/status/2112467852074611124",
+     "kind": "x",
+     "time": "2026-10-20T08:55:00Z"
+    },
+    {
+     "label": "MiniMax on X",
+     "url": "https://x.com/MiniMax_AI/status/2112150867868541221",
+     "kind": "x"
+    },
+    {
+     "label": "GitHub: oven-sh/bun #45677",
+     "url": "https://github.com/oven-sh/bun/pull/45677",
+     "kind": "primary",
+     "time": "2026-10-20T02:29:42Z"
+    },
+    {
+     "label": "GitHub: microsoft/playwright #43539",
+     "url": "https://github.com/microsoft/playwright/pull/43539",
+     "kind": "primary",
+     "time": "2026-10-20T02:59:45Z"
+    },
+    {
+     "label": "GitHub: create-vite@9.3.1",
+     "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.1",
+     "kind": "primary",
+     "time": "2026-10-20T03:01:54Z"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "BVB play away at Sabah in Baku tonight at 18:45, live on DAZN.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig: Hildesheim police are investigating hate posters targeting the club ahead of the Lower Saxony derby.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Forbes: Stephen Curry becomes basketball's first $200 million man as the Warriors get ready to open against the Lakers.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "BVB on X",
+     "url": "https://x.com/BVB/status/2112441411857781013",
+     "kind": "x",
+     "time": "2026-10-20T07:10:00Z"
+    },
+    {
+     "label": "Neue Presse (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdzR4Mnh1bFdBSWUxNDZ0YVNyeXlaclRYNUNLNU5pSTJYcEtqdGtRdEhHcHZMeTFEbVBCVlVBUzBoa2RSZ1djSjdSY01odFNuYXNRazZzbUR6LVhYdUFrNWVBWGV0LUw5YllQWmdSUG1Ub2xvWkh6M2RyV0JvZzhoV0NXN2trTFhETi05RGxvUS1RWUs0TDdWOGo0N3dXalRwS3FqczFyZmJRV25MTDVjbkxSLW43Ynpwdi03SXpmWUdXZURQdVhjVVpNUHBONC1wX2VFbFBRRzNuZ0FmamJvM25wR0g4aWJyZnNWbXBNZGRwOWhqWmUzd2Y5T1g1ajA?oc=5",
+     "kind": "article",
+     "time": "2026-10-20T10:29:11Z"
+    },
+    {
+     "label": "Forbes (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWWtWTzkwWUFyeGNqdTR2d1BOODY5b0xOUG9qOFBQdkJyWEpqRTRqd2duR1k0OFZtcWdNLURYa2ZIcUpXdndsSUd3cE9PaXJlWkM3TnlvOUp4blEzU2FrUkVnaHRrS2wwMi1wUkliTFVyenBSZktORkk1MU00d0l1eDBWZDZFVVZKVDJweWlGaS1GSGFwcENTQ0dtNk9VX2sxQ1ZXb2Y4U0p6U3hzb0R0dFNtWndoX2F1dWV0c3MtOWNYbGM?oc=5",
+     "kind": "article",
+     "time": "2026-10-20T10:30:00Z"
+    },
+    {
+     "label": "Heavy.com (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRGtOamw2ZEdsV2hiNHFOM2lkUEZ1eGhydzBZRXJYN0xGa1NmekVLM0VleEozVE5aa3RCaHlSckQ2SExSWXk4ZDVUTkRTeWE1OWlmTzJpc3MtNFdVTUdsT1lzYjVWMWQ1U05WVjgzVU5PTGVhSHpjT0VlLXMxOG1SZnZlNjdBS1k2S2pORy1kbzFvbjg?oc=5",
+     "kind": "article",
+     "time": "2026-10-20T10:43:25Z"
+    }
+   ]
+  }
+ ]
+}
