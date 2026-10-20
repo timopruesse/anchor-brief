@@ -1,0 +1,865 @@
+{
+  "id": "2026-10-20-morning-gme",
+  "parentId": "2026-10-20-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-20T08:20:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "Monday US close through Tuesday pre-market (~08:15 Berlin); quote, IR/press 48h, voices, Superstonk",
+  "headline": "GameStop IR sets the warrant endgame: the $32 warrants expire Oct 30 and stop trading that morning; GME closed at $26.44 (−1.4%), Cheng posts about risk, Cohen and Kitty are quiet.",
+  "disclaimer": "News desk for a personal watchlist — not investment advice. Superstonk is community sentiment, not reporting.",
+  "stance": "mixed",
+  "stanceWhy": "The official warrant timetable is clarity rather than a catalyst: with the stock about 17% below the $32 strike, the tape is soft but still within reach of its highs.",
+  "quote": {
+    "symbol": "GME",
+    "name": "GameStop Corporation",
+    "price": 26.44,
+    "change": -0.37,
+    "changePct": -1.38,
+    "currency": "USD",
+    "dayHigh": 27.155,
+    "dayLow": 26.15,
+    "prevClose": 26.81,
+    "volume": 6694748,
+    "week52High": 28.3,
+    "week52Low": 17.79,
+    "asOf": "2026-10-19T20:00:02+00:00",
+    "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/GME/"
+    }
+  },
+  "sparkline": [
+    {
+      "t": "2026-04-20",
+      "c": 24.92
+    },
+    {
+      "t": "2026-04-21",
+      "c": 24.46
+    },
+    {
+      "t": "2026-04-22",
+      "c": 25.66
+    },
+    {
+      "t": "2026-04-23",
+      "c": 25.01
+    },
+    {
+      "t": "2026-04-24",
+      "c": 24.95
+    },
+    {
+      "t": "2026-04-27",
+      "c": 25.41
+    },
+    {
+      "t": "2026-04-28",
+      "c": 25.09
+    },
+    {
+      "t": "2026-04-29",
+      "c": 24.52
+    },
+    {
+      "t": "2026-04-30",
+      "c": 24.95
+    },
+    {
+      "t": "2026-05-01",
+      "c": 26.53
+    },
+    {
+      "t": "2026-05-04",
+      "c": 23.84
+    },
+    {
+      "t": "2026-05-05",
+      "c": 24.23
+    },
+    {
+      "t": "2026-05-06",
+      "c": 25.17
+    },
+    {
+      "t": "2026-05-07",
+      "c": 23.97
+    },
+    {
+      "t": "2026-05-08",
+      "c": 24.28
+    },
+    {
+      "t": "2026-05-11",
+      "c": 23.17
+    },
+    {
+      "t": "2026-05-12",
+      "c": 22.37
+    },
+    {
+      "t": "2026-05-13",
+      "c": 22.08
+    },
+    {
+      "t": "2026-05-14",
+      "c": 21.61
+    },
+    {
+      "t": "2026-05-15",
+      "c": 21.59
+    },
+    {
+      "t": "2026-05-18",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-19",
+      "c": 22.1
+    },
+    {
+      "t": "2026-05-20",
+      "c": 22.55
+    },
+    {
+      "t": "2026-05-21",
+      "c": 22.49
+    },
+    {
+      "t": "2026-05-22",
+      "c": 21.96
+    },
+    {
+      "t": "2026-05-26",
+      "c": 21.91
+    },
+    {
+      "t": "2026-05-27",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-28",
+      "c": 21.68
+    },
+    {
+      "t": "2026-05-29",
+      "c": 21.18
+    },
+    {
+      "t": "2026-06-01",
+      "c": 21.36
+    },
+    {
+      "t": "2026-06-02",
+      "c": 20.92
+    },
+    {
+      "t": "2026-06-03",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-04",
+      "c": 22.27
+    },
+    {
+      "t": "2026-06-05",
+      "c": 21.8
+    },
+    {
+      "t": "2026-06-08",
+      "c": 22.26
+    },
+    {
+      "t": "2026-06-09",
+      "c": 22.28
+    },
+    {
+      "t": "2026-06-10",
+      "c": 22.42
+    },
+    {
+      "t": "2026-06-11",
+      "c": 22.18
+    },
+    {
+      "t": "2026-06-12",
+      "c": 21.77
+    },
+    {
+      "t": "2026-06-15",
+      "c": 21.74
+    },
+    {
+      "t": "2026-06-16",
+      "c": 21.46
+    },
+    {
+      "t": "2026-06-17",
+      "c": 21.51
+    },
+    {
+      "t": "2026-06-18",
+      "c": 21.52
+    },
+    {
+      "t": "2026-06-22",
+      "c": 21.14
+    },
+    {
+      "t": "2026-06-23",
+      "c": 21.08
+    },
+    {
+      "t": "2026-06-24",
+      "c": 21.44
+    },
+    {
+      "t": "2026-06-25",
+      "c": 21.01
+    },
+    {
+      "t": "2026-06-26",
+      "c": 21.76
+    },
+    {
+      "t": "2026-06-29",
+      "c": 22.03
+    },
+    {
+      "t": "2026-06-30",
+      "c": 22.08
+    },
+    {
+      "t": "2026-07-01",
+      "c": 22.64
+    },
+    {
+      "t": "2026-07-02",
+      "c": 22.82
+    },
+    {
+      "t": "2026-07-06",
+      "c": 22.76
+    },
+    {
+      "t": "2026-07-07",
+      "c": 22.2
+    },
+    {
+      "t": "2026-07-08",
+      "c": 21.7
+    },
+    {
+      "t": "2026-07-09",
+      "c": 21.95
+    },
+    {
+      "t": "2026-07-10",
+      "c": 21.68
+    },
+    {
+      "t": "2026-07-13",
+      "c": 22.03
+    },
+    {
+      "t": "2026-07-14",
+      "c": 22.43
+    },
+    {
+      "t": "2026-07-15",
+      "c": 22.26
+    },
+    {
+      "t": "2026-07-16",
+      "c": 21.92
+    },
+    {
+      "t": "2026-07-17",
+      "c": 21.89
+    },
+    {
+      "t": "2026-07-20",
+      "c": 21.76
+    },
+    {
+      "t": "2026-07-21",
+      "c": 21.79
+    },
+    {
+      "t": "2026-07-22",
+      "c": 21.6
+    },
+    {
+      "t": "2026-07-23",
+      "c": 21.35
+    },
+    {
+      "t": "2026-07-24",
+      "c": 21.17
+    },
+    {
+      "t": "2026-07-27",
+      "c": 21.52
+    },
+    {
+      "t": "2026-07-28",
+      "c": 22.16
+    },
+    {
+      "t": "2026-07-29",
+      "c": 21.84
+    },
+    {
+      "t": "2026-07-30",
+      "c": 21.88
+    },
+    {
+      "t": "2026-07-31",
+      "c": 21.72
+    },
+    {
+      "t": "2026-08-03",
+      "c": 19.06
+    },
+    {
+      "t": "2026-08-04",
+      "c": 19.21
+    },
+    {
+      "t": "2026-08-05",
+      "c": 19.01
+    },
+    {
+      "t": "2026-08-06",
+      "c": 19.23
+    },
+    {
+      "t": "2026-08-07",
+      "c": 19.16
+    },
+    {
+      "t": "2026-08-10",
+      "c": 18.79
+    },
+    {
+      "t": "2026-08-11",
+      "c": 18.82
+    },
+    {
+      "t": "2026-08-12",
+      "c": 18.54
+    },
+    {
+      "t": "2026-08-13",
+      "c": 18.57
+    },
+    {
+      "t": "2026-08-14",
+      "c": 18.66
+    },
+    {
+      "t": "2026-08-17",
+      "c": 18.4
+    },
+    {
+      "t": "2026-08-18",
+      "c": 17.95
+    },
+    {
+      "t": "2026-08-19",
+      "c": 18.03
+    },
+    {
+      "t": "2026-08-20",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-21",
+      "c": 18.21
+    },
+    {
+      "t": "2026-08-24",
+      "c": 18.04
+    },
+    {
+      "t": "2026-08-25",
+      "c": 18.09
+    },
+    {
+      "t": "2026-08-26",
+      "c": 17.97
+    },
+    {
+      "t": "2026-08-27",
+      "c": 18.25
+    },
+    {
+      "t": "2026-08-28",
+      "c": 17.87
+    },
+    {
+      "t": "2026-08-31",
+      "c": 18.38
+    },
+    {
+      "t": "2026-09-01",
+      "c": 18.81
+    },
+    {
+      "t": "2026-09-02",
+      "c": 18.97
+    },
+    {
+      "t": "2026-09-03",
+      "c": 19.23
+    },
+    {
+      "t": "2026-09-04",
+      "c": 19.16
+    },
+    {
+      "t": "2026-09-08",
+      "c": 18.89
+    },
+    {
+      "t": "2026-09-09",
+      "c": 19.89
+    },
+    {
+      "t": "2026-09-10",
+      "c": 20.39
+    },
+    {
+      "t": "2026-09-11",
+      "c": 21.15
+    },
+    {
+      "t": "2026-09-14",
+      "c": 21.62
+    },
+    {
+      "t": "2026-09-15",
+      "c": 21.44
+    },
+    {
+      "t": "2026-09-16",
+      "c": 21.98
+    },
+    {
+      "t": "2026-09-17",
+      "c": 22.77
+    },
+    {
+      "t": "2026-09-18",
+      "c": 22.64
+    },
+    {
+      "t": "2026-09-21",
+      "c": 22.76
+    },
+    {
+      "t": "2026-09-22",
+      "c": 24.03
+    },
+    {
+      "t": "2026-09-23",
+      "c": 24.2
+    },
+    {
+      "t": "2026-09-24",
+      "c": 25.02
+    },
+    {
+      "t": "2026-09-25",
+      "c": 23.39
+    },
+    {
+      "t": "2026-09-28",
+      "c": 23.96
+    },
+    {
+      "t": "2026-09-29",
+      "c": 23.76
+    },
+    {
+      "t": "2026-09-30",
+      "c": 24.65
+    },
+    {
+      "t": "2026-10-01",
+      "c": 24.11
+    },
+    {
+      "t": "2026-10-02",
+      "c": 24.7
+    },
+    {
+      "t": "2026-10-05",
+      "c": 25.24
+    },
+    {
+      "t": "2026-10-06",
+      "c": 24.76
+    },
+    {
+      "t": "2026-10-07",
+      "c": 24.58
+    },
+    {
+      "t": "2026-10-08",
+      "c": 25.28
+    },
+    {
+      "t": "2026-10-09",
+      "c": 26.56
+    },
+    {
+      "t": "2026-10-12",
+      "c": 27.23
+    },
+    {
+      "t": "2026-10-13",
+      "c": 27.22
+    },
+    {
+      "t": "2026-10-14",
+      "c": 27.15
+    },
+    {
+      "t": "2026-10-15",
+      "c": 28.02
+    },
+    {
+      "t": "2026-10-16",
+      "c": 26.81
+    },
+    {
+      "t": "2026-10-19",
+      "c": 26.44
+    }
+  ],
+  "voices": [
+    {
+      "handle": "ryancohen",
+      "userId": "1146058067244486656",
+      "name": "Ryan Cohen",
+      "role": "CEO",
+      "lastPostAt": "2026-10-18T19:31:09Z",
+      "lastPostUrl": "https://x.com/ryancohen/status/2111902926826566028",
+      "lastPostText": "[image only, no caption: a man standing in the doorway of a games and collectibles shop with its front window smashed]",
+      "quiet": false
+    },
+    {
+      "handle": "larryvc",
+      "userId": "26281090",
+      "name": "Larry Cheng",
+      "role": "Board",
+      "lastPostAt": "2026-10-20T03:01:18Z",
+      "lastPostUrl": "https://x.com/larryvc/status/2112378598644670947",
+      "lastPostText": "Thinking a lot about actual vs perceived risks today. It’s a topic worthy of a longer post which I’ll do later - but suffice it to say great investment seams can be where perceived risks are high, but actual risks are low.",
+      "quiet": false
+    },
+    {
+      "handle": "TheRoaringKitty",
+      "userId": "2902349190",
+      "name": "Roaring Kitty",
+      "role": "Community",
+      "lastPostAt": "2025-01-23T01:00:36Z",
+      "lastPostUrl": null,
+      "lastPostText": null,
+      "quiet": true
+    }
+  ],
+  "cohen": {
+    "handle": "ryancohen",
+    "userId": "1146058067244486656",
+    "name": "Ryan Cohen",
+    "role": "CEO",
+    "lastPostAt": "2026-10-18T19:31:09Z",
+    "lastPostUrl": "https://x.com/ryancohen/status/2111902926826566028",
+    "lastPostText": "[image only, no caption: a man standing in the doorway of a games and collectibles shop with its front window smashed]",
+    "quiet": false
+  },
+  "community": {
+    "asOf": "2026-10-20T07:57:37.346983+02:00",
+    "windowHours": 18,
+    "totals": {
+      "posts": 10,
+      "withOutbound": 2
+    },
+    "byKind": {
+      "dd": 0,
+      "daily": 0,
+      "news": 2,
+      "junk": 8
+    },
+    "posts": [
+      {
+        "title": "GameStop Reminds Holders of October 30, 2026 Warrant Expiration Date",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1xa7it9/gamestop_reminds_holders_of_october_30_2026/",
+        "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Reminds-Holders-of-October-30-2026-Warrant-Expiration-Date/default.aspx",
+        "updated": "2026-10-19T20:06:31+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "Reminder: GME Warrants are HEAVILY SHORTED",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1xaejut/reminder_gme_warrants_are_heavily_shorted/",
+        "url": "https://chartexchange.com/symbol/nyse-gme.ws/short-volume/?svht=vol&svct=pct_line",
+        "updated": "2026-10-20T01:02:28+00:00",
+        "kind": "news"
+      },
+      {
+        "title": "Just posted on the website",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1xa7lr6/just_posted_on_the_website/",
+        "url": null,
+        "updated": "2026-10-19T20:09:40+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "WOOOAAAAAHHH NELLY!",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1xa7w8t/woooaaaaahhh_nelly/",
+        "url": null,
+        "updated": "2026-10-19T20:20:39+00:00",
+        "kind": "junk"
+      },
+      {
+        "title": "Holding onto my warrants like",
+        "subreddit": "Superstonk",
+        "permalink": "https://www.reddit.com/r/Superstonk/comments/1xa82n3/holding_onto_my_warrants_like/",
+        "url": null,
+        "updated": "2026-10-19T20:27:21+00:00",
+        "kind": "junk"
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-10-04",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-05",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-06",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-07",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-08",
+        "posts": 1,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 0
+      },
+      {
+        "date": "2026-10-09",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-10",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-11",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-12",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-13",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 1,
+        "junk": 9
+      },
+      {
+        "date": "2026-10-14",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-15",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 0,
+        "junk": 10
+      },
+      {
+        "date": "2026-10-19",
+        "posts": 10,
+        "dd": 0,
+        "daily": 1,
+        "news": 1,
+        "junk": 8
+      },
+      {
+        "date": "2026-10-20",
+        "posts": 10,
+        "dd": 0,
+        "daily": 0,
+        "news": 2,
+        "junk": 8
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "ir-warrant-reminder",
+      "weight": "lead",
+      "title": "IR: GameStop reminds holders the $32 warrants expire on Oct 30",
+      "topics": [
+        "GME",
+        "IR"
+      ],
+      "facts": [
+        "Warrants expire at 5:00 p.m. New York time on Oct 30; each buys one GME share for $32.00 cash, and unexercised warrants expire worthless.",
+        "GME WS stops trading on the NYSE before the open on Oct 30; brokers may set earlier exercise deadlines.",
+        "Notice of Guaranteed Delivery allowed: notice plus $32 payment by Oct 30, warrants delivered by 5:00 p.m. on Nov 2.",
+        "The NYSE plans to file a Form 25 to delist and deregister the warrants; the GME common stock keeps trading.",
+        "At Monday's $26.44 close, the stock sits about 17% below the $32 strike."
+      ],
+      "whyItMatters": "This is the official timetable Superstonk had been waiting for. With the shares well below $32, exercising only makes sense if the price rallies before Oct 30.",
+      "image": null,
+      "sources": [
+        {
+          "label": "GameStop Investor Relations",
+          "url": "https://investor.gamestop.com/news-releases/news-details/2026/GameStop-Reminds-Holders-of-October-30-2026-Warrant-Expiration-Date/default.aspx",
+          "kind": "primary",
+          "time": "2026-10-19T20:11:33+00:00"
+        },
+        {
+          "label": "Yahoo Finance (Business Wire)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-reminds-holders-october-30-200500050.html",
+          "kind": "article",
+          "time": "2026-10-19T20:05:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "tape-monday-close",
+      "weight": "normal",
+      "title": "Monday close: $26.44, down 1.4%",
+      "topics": [
+        "GME",
+        "Markets"
+      ],
+      "facts": [
+        "Yahoo: close $26.44 (-0.37 / -1.38%), day range $26.15–$27.155, volume 6,694,748.",
+        "52-week range $17.79–$28.3; the stock is about 7% below that high.",
+        "Pre-market cues are weak: Reuters reports S&P futures flat and Asia down ahead of AI earnings."
+      ],
+      "whyItMatters": "A second soft day in a row, but the stock stays inside the range near its highs.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GME/",
+          "kind": "primary",
+          "time": "2026-10-19T20:00:02+00:00"
+        },
+        {
+          "label": "Yahoo Finance (Zacks)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-gme-stock-dips-while-204504158.html",
+          "kind": "article",
+          "time": "2026-10-19T20:45:04+00:00"
+        }
+      ]
+    },
+    {
+      "id": "voices-cheng-risk",
+      "weight": "normal",
+      "title": "Voices: Cheng muses on actual vs perceived risk; Cohen and Kitty quiet overnight",
+      "topics": [
+        "GME",
+        "X"
+      ],
+      "facts": [
+        "Larry Cheng (board): great investment seams can be where \"perceived risks are high, but actual risks are low\"; he promises a longer post later.",
+        "Ryan Cohen: no new posts since Sunday's smashed-shop photo.",
+        "Roaring Kitty: still silent."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Larry Cheng on X",
+          "url": "https://x.com/larryvc/status/2112378598644670947",
+          "kind": "x",
+          "time": "2026-10-20T03:01:18+00:00"
+        }
+      ]
+    },
+    {
+      "id": "superstonk-warrants",
+      "weight": "brief",
+      "title": "Superstonk: warrant posts dominate",
+      "topics": [
+        "GME",
+        "Community"
+      ],
+      "facts": [
+        "The top posts are the IR warrant reminder and a \"warrants are heavily shorted\" chart link; the rest is memes (2 news, 8 junk, no DD)."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "r/Superstonk: IR warrant reminder",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1xa7it9/gamestop_reminds_holders_of_october_30_2026/",
+          "kind": "article"
+        },
+        {
+          "label": "r/Superstonk: warrants short volume",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1xaejut/reminder_gme_warrants_are_heavily_shorted/",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
