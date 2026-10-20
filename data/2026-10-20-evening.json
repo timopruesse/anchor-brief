@@ -1,0 +1,456 @@
+{
+ "id": "2026-10-20-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-20T19:55:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon brief (~13:00–19:45 Berlin); X Following back to ~16:15 Berlin",
+ "headline": "Stolen keys for eight eMudhra certificate authorities force emergency browser blocks; Kyiv and Washington trade blame around the Oslo talks; ByteDance, Alibaba and Tencent order $35bn of Nvidia cards; a ministry typo brings Germany's tobacco tax forward by accident.",
+ "stories": [
+  {
+   "id": "emudhra-ca-key-compromise",
+   "weight": "lead",
+   "title": "Private keys for eight eMudhra certificate authorities leak, and browsers block them",
+   "topics": [
+    "Security",
+    "Tech"
+   ],
+   "facts": [
+    "The private keys of eight eMudhra intermediate CAs were compromised; they chain to roots trusted by Mozilla, Microsoft, Apple and Chrome.",
+    "Anyone holding one of the keys could issue valid-looking HTTPS certificates and impersonate any website to users whose traffic they can intercept.",
+    "The reporter proved it by signing a message with each key and reported it to the root programs on Oct 17.",
+    "Mozilla blocked the certificates via OneCRL within 3 hours; Chrome also blocked them Oct 17, Apple on Oct 19 and Microsoft on Oct 20.",
+    "Mozilla today ships Firefox 158.0.1, ESR 115.43.1 and 153.5.1, and NSS 3.131.1 removes the root that signed the intermediates.",
+    "Downstream trust stores were told on Oct 19; many have shipped updates or are still rolling them out."
+   ],
+   "whyItMatters": "Browsers are covered, but tools with their own CA bundles (containers, language runtimes, appliances) only get the fix once their trust store updates.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Mozilla Security Blog",
+     "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+     "kind": "primary",
+     "time": "2026-10-20T12:54:54Z"
+    },
+    {
+     "label": "Disclosure site",
+     "url": "https://emudhra.we-have-a-problem.com/",
+     "kind": "primary"
+    },
+    {
+     "label": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50166579",
+     "kind": "article",
+     "time": "2026-10-20T13:58:33Z"
+    }
+   ]
+  },
+  {
+   "id": "oslo-talks-blame",
+   "weight": "normal",
+   "title": "Zelensky meets Witkoff in Oslo while Rubio calls Kyiv's charges \"scandalous\"",
+   "topics": [
+    "Ukraine",
+    "World"
+   ],
+   "facts": [
+    "Rubio rejected as \"scandalous\" the claim that Ukrainians are dying because the US is holding back intelligence, saying nothing is being deliberately denied.",
+    "He did concede that Patriot interceptors may not have arrived yet; Kyiv also complains about missing missile warnings and Starshield speed limits.",
+    "Zelensky adviser Serhii Beskrestnov told the BBC that unreliable US warnings about ballistic launches are costing lives.",
+    "In Oslo Zelensky met Witkoff in person with Kushner on video, hosted by Norway's Støre and Finland's Stubb; Witkoff was not expected at the press conference.",
+    "The Kremlin hopes to meet Witkoff soon; AP says a new Russian aerial barrage killed 9 people in Ukraine."
+   ],
+   "whyItMatters": "Material update to the afternoon card: the US is no longer just silent on the missile holdup but publicly disputing Kyiv's account of it.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/f072/live/051b0900-cc94-11f1-a64c-550be9e3c66b.jpg",
+    "alt": "Steve Witkoff greets Volodymyr Zelensky before the Oslo talks",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/ck9qzn193lrlo"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/ck9qzn193lrlo",
+     "kind": "article"
+    },
+    {
+     "label": "NBC News",
+     "url": "https://www.nbcnews.com/world/ukraine/ukraine-us-support-rubio-scandalous-zelenskyy-meeting-trump-oslo-rcna604530",
+     "kind": "article",
+     "time": "2026-10-20T10:59:00Z"
+    },
+    {
+     "label": "AP",
+     "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996",
+     "kind": "article"
+    },
+    {
+     "label": "Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2112564722440524053",
+     "kind": "x",
+     "time": "2026-10-20T15:20:00Z"
+    }
+   ]
+  },
+  {
+   "id": "china-nvidia-rtx-pro-5500",
+   "weight": "normal",
+   "title": "ByteDance, Alibaba and Tencent order more than $35bn of Nvidia's export-compliant cards",
+   "topics": [
+    "Tech",
+    "AI",
+    "China"
+   ],
+   "facts": [
+    "Reuters: the three ordered more than 3 million RTX PRO 5500 workstation cards at about $11,400 each.",
+    "Nvidia has told partners it can't guarantee delivery; one source says buyers may get only 5–10% of what they asked for.",
+    "Another source says Nvidia can make at most 3 million of the cards worldwide in 2027, while total orders from China exceed 6 million.",
+    "Samples are due in December and commercial deliveries in Q1 2027; the buyers mainly want them for inference.",
+    "B300 sales to China are banned and H200 exports are reviewed case by case, so this card is among the strongest Nvidia parts China can still buy."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Reuters (via Euronext)",
+     "url": "https://live.euronext.com/en/financial-news/exclusive-bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders",
+     "kind": "article",
+     "time": "2026-10-20T17:50:00+02:00"
+    },
+    {
+     "label": "The Next Web",
+     "url": "https://thenextweb.com/news/nvidia-rtx-pro-5500-china-orders-bytedance-alibaba-tencent",
+     "kind": "article",
+     "time": "2026-10-20T13:32:50Z"
+    }
+   ]
+  },
+  {
+   "id": "afd-leak-first-findings",
+   "weight": "normal",
+   "title": "AfD mail leak: first findings, and a question about voter-register data",
+   "topics": [
+    "Germany",
+    "Security"
+   ],
+   "facts": [
+    "taz: the 281 GB dump runs from 2014 to this autumn and includes mails from Weidel, von Storch, Meuthen and Gauland.",
+    "The leak site summarized about 39,000 mails, apparently with AI, and flags 611 as \"critical\" (possible crimes) and 10,450 as \"high\" relevance.",
+    "Lilith Wittmann says after a first look she believes the data is genuine.",
+    "The supposed hackers told International Cyber Digest they could have destroyed the servers and turned down money to take the site offline (their claim, unverified).",
+    "Wittmann on X: the leak should reopen the debate on why parties can buy targeted registry data for 5 cents per record."
+   ],
+   "whyItMatters": "Follow-up to the afternoon lead: reporting has moved from whether the leak is real to what is in it.",
+   "image": {
+    "url": "https://taz.de/picture/8811565/1200/42311250.jpeg",
+    "alt": "AfD leader Alice Weidel",
+    "credit": "taz",
+    "creditUrl": "https://taz.de/Website-veroeffentlicht-tausende-Mails/!6222819/"
+   },
+   "sources": [
+    {
+     "label": "taz",
+     "url": "https://taz.de/Website-veroeffentlicht-tausende-Mails/!6222819/",
+     "kind": "article",
+     "time": "2026-10-20T18:21:00+02:00"
+    },
+    {
+     "label": "Lilith Wittmann on X",
+     "url": "https://x.com/LilithWittmann/status/2112588405330862562",
+     "kind": "x",
+     "time": "2026-10-20T16:55:00Z"
+    }
+   ]
+  },
+  {
+   "id": "tobacco-tax-typo",
+   "weight": "normal",
+   "title": "A typo in the law gazette would have made Germany's tobacco tax hike start tomorrow",
+   "topics": [
+    "Germany"
+   ],
+   "facts": [
+    "The amendment published in the Federal Law Gazette on Oct 20 says it takes effect \"the day after promulgation\", which is Oct 21.",
+    "That would apply rates meant for 2030 straight away; the industry says no matching tax stamps exist, so it would have had to stop deliveries.",
+    "The finance ministry admits a \"technical error\": the higher rates are meant to apply from Jan 1, 2027, and a correction is underway.",
+    "Factories may keep delivering, the ministry says; a pack of 20 is expected to rise by about €4 to €11.78 by 2030."
+   ],
+   "image": {
+    "url": "https://images.handelsblatt.com/sJNpv5ud8thA/cover/2048/1152/0/0/127/126/0.5/0.5/rauchen.jpg",
+    "alt": "A person smoking a cigarette",
+    "credit": "Handelsblatt",
+    "creditUrl": "https://www.handelsblatt.com/politik/deutschland/zigaretten-ministerium-macht-fehler-im-tabaksteuergesetz/100263700.html"
+   },
+   "sources": [
+    {
+     "label": "Handelsblatt / dpa",
+     "url": "https://www.handelsblatt.com/politik/deutschland/zigaretten-ministerium-macht-fehler-im-tabaksteuergesetz/100263700.html",
+     "kind": "article",
+     "time": "2026-10-20T16:20:56Z"
+    },
+    {
+     "label": "BGBl. I 2026 Nr. 309 (dejure.org)",
+     "url": "https://dejure.org/BGBl/2026/BGBl._I_Nr._309",
+     "kind": "primary"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2112589661440737691",
+     "kind": "x",
+     "time": "2026-10-20T14:59:00Z"
+    }
+   ]
+  },
+  {
+   "id": "markets-oil-dax-close",
+   "weight": "normal",
+   "title": "Oil hits a five-month high, then slips on a peace-plan report; the DAX ends flat",
+   "topics": [
+    "Markets",
+    "Germany"
+   ],
+   "facts": [
+    "Brent topped $111 in the morning after Iran repeated its claim to control the Strait of Hormuz, then fell to about $108.65.",
+    "The trigger was a report that Qatari and Pakistani mediators sent Iran and the US a new peace proposal that both received positively.",
+    "The DAX recovered from near 25,000 to close at 25,304 (−0.06%); the CAC 40 lost 0.4% on the French unrest.",
+    "German producer prices jumped 1.9% on the month and 6.7% on the year; the ZEW index fell 6.6 points to 28.1.",
+    "CNBC: the Dow was up about 400 points on solid earnings and lower crude; SAP reports on Wednesday."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "dpa-AFX (onvista)",
+     "url": "https://www.onvista.de/news/2026/10-20-roundup-aktien-frankfurt-schluss-dax-schuettelt-verluste-weitgehend-ab-0-10-26566260",
+     "kind": "article"
+    },
+    {
+     "label": "Sharecast",
+     "url": "https://www.sharecast.com/news/market-report-europe-close/stoxx-600-oil-prices-abb-schneider-electric-ovhcloud-iran-war--23892723.html",
+     "kind": "article"
+    },
+    {
+     "label": "n-tv Börsen-Tag",
+     "url": "https://www.n-tv.de/wirtschaft/der_boersen_tag/Der-Boersen-Tag-Dienstag-20-Oktober-2026-id31433440.html",
+     "kind": "article"
+    },
+    {
+     "label": "CNBC (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBY1V6N2VkbVphNU1oUUROTEx2aUtNQk9XeDl3SlRyUGlmWWFNX3B1NjU0SXB6Z08zeldvRW8tZVdWQ3lxRnNGelJSdURXdHdEQ0lRTllocmNfS1BkX2lDalYzS1AySDNUNk5Rc2tDbk1SdVZsbHRj0gF8QVVfeXFMUDhUeVpneWk2eWtPSVpkcE5EY3pZeV92cG9CZFpwaDVrT09sY2Y1VTVNc2VfcWNid29pZ2RzNTYwY3VWQkx2X2h3ZlUzQWRPXzlpWWotY0ZkM184THhJNkxhYTJHNVRvZ3hESG4wZGVna25sWEU0UDZBZnpqRw?oc=5",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "claude-scorpion-binders",
+   "weight": "normal",
+   "title": "Anthropic: Claude designed proteins that bind scorpion neurotoxins",
+   "topics": [
+    "AI",
+    "Science"
+   ],
+   "facts": [
+    "An internal research Claude model designed minibinders (small proteins that latch onto a target) against scorpion neurotoxins.",
+    "It worked from one prompt plus four follow-ups, written with Citrini Research to test whether motivated non-experts could tackle a real health problem.",
+    "Adaptyv Bio and Twist Bioscience lab-tested 211 designs; 17 met Anthropic's binding criteria.",
+    "Anthropic is releasing all 211 designs and their data; scorpions sting about 1.2 million people a year and antivenoms are often scarce."
+   ],
+   "image": {
+    "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/187c8077329b22f6bd02c5648ea58749af892e8c-1200x630.jpg",
+    "alt": "Anthropic research post header for the scorpion toxin binder study",
+    "credit": "Anthropic",
+    "creditUrl": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+   },
+   "sources": [
+    {
+     "label": "Anthropic",
+     "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+     "kind": "primary"
+    },
+    {
+     "label": "Anthropic on X",
+     "url": "https://x.com/AnthropicAI/status/2112579251555721573",
+     "kind": "x",
+     "time": "2026-10-20T16:18:38Z"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Google blames a \"power event\" at London data centres for the europe-west2 outage; service was back for most customers by about 15:00 UK time.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Revolut's iDEAL/Wero disruption in the Netherlands was marked resolved at 14:56 UTC after more than 7.5 hours.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "VW is recalling more than 70,000 electric cars worldwide to check potentially faulty batteries, shortly after its big screw recall.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Sudan: army drones hit mourners and a fuel market, killing more than 200 people, sources tell the BBC.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "UK police re-arrested two men on suspicion of assisting Iranian intelligence after an incident at RAF Fairford.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Romania's parliament elected nonpartisan diplomat Luca Niculescu prime minister after months without a working government.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "BBC News live",
+     "url": "https://www.bbc.com/news/live/c58jd2kjp93xt",
+     "kind": "article"
+    },
+    {
+     "label": "RTÉ",
+     "url": "https://www.rte.ie/news/business/2026/1020/1596063-some-revolut-services-down/",
+     "kind": "article"
+    },
+    {
+     "label": "Mollie status",
+     "url": "https://status.mollie.com/cmvgcrfuy03bm13pd12mco64c",
+     "kind": "primary"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/VW-ruft-weltweit-mehr-als-70-000-E-Autos-zurueck-11494798.html",
+     "kind": "article",
+     "time": "2026-10-20T18:43:00+02:00"
+    },
+    {
+     "label": "BBC World on X",
+     "url": "https://x.com/BBCWorld/status/2112550935809364078",
+     "kind": "x",
+     "time": "2026-10-20T14:26:00Z"
+    },
+    {
+     "label": "BBC Breaking on X",
+     "url": "https://x.com/BBCBreaking/status/2112591687235092649",
+     "kind": "x",
+     "time": "2026-10-20T17:08:02Z"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2112561379466981870",
+     "kind": "x",
+     "time": "2026-10-20T15:07:00Z"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "GitHub package firewall (public preview) checks npm package metadata and downloads for malware before they reach CI/CD hosts or coding agents.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript it says is up to 8x faster and uses 70% less memory.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Mistral Voxtral 3: new speech-to-text and text-to-speech models for 50+ languages plus a voice-agent SDK, via EU-hosted API or self-hosting.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Svelte merges a fix that skips redundant attribute writes during hydration.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Node.js's Matteo Collina says he failed Anthropic's Cyber Verification Program because Node.js has no Claude company account.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "swyx quotes DeepSeek's Zhihu post: one V4.1 Flash cluster serves 155 trillion tokens a day at $38 revenue per card-hour (off-peak prices).",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+     "kind": "primary",
+     "time": "2026-10-20T09:11:53-07:00"
+    },
+    {
+     "label": "GitHub Changelog on X",
+     "url": "https://x.com/GHchangelog/status/2112593467914285508",
+     "kind": "x",
+     "time": "2026-10-20T17:15:07Z"
+    },
+    {
+     "label": "Cloudflare blog",
+     "url": "https://blog.cloudflare.com/typescript-rust-port/",
+     "kind": "primary",
+     "time": "2026-10-20T13:00:00Z"
+    },
+    {
+     "label": "Mistral AI",
+     "url": "https://mistral.ai/news/voxtral-3/",
+     "kind": "primary",
+     "time": "2026-10-20T12:00:22Z"
+    },
+    {
+     "label": "sveltejs/svelte#18869",
+     "url": "https://github.com/sveltejs/svelte/pull/18869",
+     "kind": "primary"
+    },
+    {
+     "label": "Matteo Collina on X",
+     "url": "https://x.com/matteocollina/status/2112576252657676319",
+     "kind": "x",
+     "time": "2026-10-20T16:06:43Z"
+    },
+    {
+     "label": "swyx on X",
+     "url": "https://x.com/swyx/status/2112587398240710820",
+     "kind": "x",
+     "time": "2026-10-20T16:51:00Z"
+    }
+   ]
+  }
+ ]
+}
