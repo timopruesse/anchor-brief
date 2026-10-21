@@ -1,0 +1,436 @@
+{
+ "id": "2026-10-21-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-21T19:45:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon brief (~12:45)",
+ "headline": "PHP's fixes are out and the Foundation explains the leak; a backdoored LiteLLM release hit PyPI; Moscow says it's ready in principle to talk again; SpaceX's rally lifts the DAX to 25,645.",
+ "stories": [
+  {
+   "id": "php-fixes-out",
+   "weight": "lead",
+   "title": "PHP's fixes are out, hosts race to patch, and the PHP Foundation explains how the embargo broke",
+   "topics": [
+    "Security",
+    "Dev"
+   ],
+   "facts": [
+    "PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 shipped at 16:00 Berlin and fix CVE-2026-109618 and CVE-2026-109619; the Foundation says anyone running PHP must update now.",
+    "CVE-2026-109618: hitting memory_limit at the wrong moment corrupts memory; on Apache with mod_php an unauthenticated request got full code execution with default settings.",
+    "CVE-2026-109619: a fatal error can leave a worker pointing at the previous request's freed memory; code execution was shown against a real app on mod_php.",
+    "The real CVSS score is 9.2, not the leaked 10.0. The release moved up a day after the CVE IDs leaked on Tuesday, and Chainguard published fixed images 6 hours early.",
+    "Calif found it using OpenAI's GPT-5.6 Sol under Patch the Planet, with Wiz and OpenAI reporting independently; OpenAI put out a Codex skill that checks PHP versions.",
+    "Patching in the wild: Laravel Cloud rolled out region by region, Ubuntu backported the fix quickly, and Cloudflare's CEO says a new WAF rule is on free for all customers.",
+    "The Foundation admits the root cause was first spotted in 2024, and the fix stalled for months because of team consensus rules and too few engine experts."
+   ],
+   "whyItMatters": "If you run PHP anywhere, the patch is the only real fix: PoCs were already circulating before the release. The Foundation is asking companies that depend on PHP to fund more security engineers.",
+   "image": {
+    "url": "https://thephp.foundation/assets/share/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.png",
+    "alt": "PHP Foundation share card for the October 21 security release post",
+    "credit": "The PHP Foundation",
+    "creditUrl": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+   },
+   "sources": [
+    {
+     "label": "PHP Foundation",
+     "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+     "kind": "primary"
+    },
+    {
+     "label": "OpenAI: Patch the Planet",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+     "kind": "primary"
+    },
+    {
+     "label": "php-src 8.2.35 release",
+     "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+     "kind": "primary"
+    },
+    {
+     "label": "Wiz Research",
+     "url": "https://www.wiz.io/blog/php2shell-php-rce",
+     "kind": "article",
+     "time": "2026-10-21T09:59:59-04:00"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+     "kind": "article",
+     "time": "2026-10-21T12:09:22Z"
+    },
+    {
+     "label": "Laravel on X",
+     "url": "https://x.com/laravel/status/2112932164228858291",
+     "kind": "x",
+     "time": "2026-10-21T15:40:58Z"
+    },
+    {
+     "label": "Matthew Prince on X",
+     "url": "https://x.com/eastdakota/status/2112934616055308420",
+     "kind": "x",
+     "time": "2026-10-21T15:50:43Z"
+    },
+    {
+     "label": "OpenAI on X",
+     "url": "https://x.com/OpenAI/status/2112945805686604033",
+     "kind": "x",
+     "time": "2026-10-21T16:35:11Z"
+    }
+   ]
+  },
+  {
+   "id": "litellm-pypi-backdoor",
+   "weight": "normal",
+   "title": "LiteLLM 1.107.0 on PyPI shipped a credential stealer and a backdoor",
+   "topics": [
+    "Security",
+    "AI",
+    "Dev"
+   ],
+   "facts": [
+    "All seven wheels of litellm 1.107.0 install three extra files that run in every Python process on the host, even ones that never import litellm.",
+    "The stealer grabs SSH keys, cloud and CI secrets, browser passwords, AI-tool tokens (Claude Code, Cursor, Codex and more) and the provider keys in a LiteLLM proxy database.",
+    "A sitecustomize.py daemon checked an attacker GitHub file hourly for a server and ran whatever code it returned.",
+    "The release was on PyPI from about 13:40 to 15:40 Berlin and has been removed; 1.106.2 and the 1.107.0 release candidates are clean.",
+    "SafeDep thinks BerriAI's own private release pipeline built it from tampered source; no public commit contains the implant."
+   ],
+   "whyItMatters": "If anything installed 1.107.0, treat that machine's secrets as stolen: look for cook.pth or sitecustomize.py in site-packages and rotate keys.",
+   "image": {
+    "url": "https://safedep.io/images/litellm-pypi-compromise-credential-stealer-backdoor-banner.jpg",
+    "alt": "SafeDep banner for the LiteLLM PyPI compromise write-up",
+    "credit": "SafeDep",
+    "creditUrl": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+   },
+   "sources": [
+    {
+     "label": "SafeDep",
+     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "russia-talks-in-principle",
+   "weight": "normal",
+   "title": "Kremlin says it's ready \"in principle\" to restart talks with Kyiv and Washington, maybe around 10 November",
+   "topics": [
+    "Ukraine",
+    "World"
+   ],
+   "facts": [
+    "Putin aide Yuri Ushakov spoke after about three hours of talks between Putin and Witkoff in St Petersburg.",
+    "He floated a new round around 10 November, possibly in Abu Dhabi, focused on a post-war \"security system\" for Russia and Ukraine.",
+    "A US official told the BBC that Kyiv agreed in Oslo, and Moscow on Wednesday, to a technical-level US–Russia–Ukraine meeting.",
+    "Ushakov called the ideas from Oslo not very \"useful\" and repeated that Russian troops were advancing along the whole front."
+   ],
+   "whyItMatters": "It's the first agreement to resume talks since they were paused in February, but Moscow hasn't moved on substance.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/808c/live/f0408560-cd64-11f1-bc2e-018d645d8d21.jpg",
+    "alt": "Putin and Witkoff at their meeting in St Petersburg",
+    "credit": "BBC / Reuters",
+    "creditUrl": "https://www.bbc.com/news/articles/cq3djn5nxx12o"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/cq3djn5nxx12o",
+     "kind": "article",
+     "time": "2026-10-21T15:56:21Z"
+    },
+    {
+     "label": "TIME on X",
+     "url": "https://x.com/TIME/status/2112940904063627663",
+     "kind": "x",
+     "time": "2026-10-21T16:15:42Z"
+    }
+   ]
+  },
+  {
+   "id": "spacex-rally-markets",
+   "weight": "normal",
+   "title": "SpaceX jumps about 11% on merger talk, lifting European markets; Tesla reports tonight",
+   "topics": [
+    "Markets",
+    "Tech"
+   ],
+   "facts": [
+    "SpaceX rose 11% on Wednesday, Reuters says, adding about $210bn in market value if the gains hold; Tesla was up more than 3%.",
+    "Musk says the special committees haven't agreed terms yet, and the Tesla side needs 50% of all shares, not only the ones that vote.",
+    "RBC and JPMorgan analysts expect Tesla holders to want a 20–35% premium; others expect none.",
+    "The DAX closed up 1.35% at 25,645, led by SAP (+3.5%), with Rheinmetall down 3.2%; Brent was flat at $108.84.",
+    "Tesla's Q3 earnings call is tonight at 23:30 Berlin."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/teslaspacex-deal-wall-st-says-inevitable-but-musk-says-its-not-certain-4962374",
+     "kind": "article"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
+     "kind": "article"
+    },
+    {
+     "label": "finanzen.net (Dow Jones)",
+     "url": "https://www.finanzen.net/nachricht/aktien/maerkte-europa-geschaeftszahlen-von-spacex-lindern-ki-aengste-15999066",
+     "kind": "article"
+    },
+    {
+     "label": "Tesla Newswire on X",
+     "url": "https://x.com/TeslaNewswire/status/2112925604173463668",
+     "kind": "x",
+     "time": "2026-10-21T15:14:54Z"
+    }
+   ]
+  },
+  {
+   "id": "openai-google-cloud-anthropic-ipo",
+   "weight": "normal",
+   "title": "OpenAI's models come to Google Cloud, and Anthropic's public IPO filing could land Friday",
+   "topics": [
+    "AI",
+    "Tech"
+   ],
+   "facts": [
+    "OpenAI and Google Cloud are bringing OpenAI's frontier models and Codex workflows into Google Cloud's Model Garden, sold via Google Cloud Marketplace.",
+    "Google Cloud says that makes it the only hyperscaler offering all three leading closed model families.",
+    "Yahoo Finance, citing three people, says Anthropic could make its S-1 public as soon as Friday; IFR says Oct 26, with a roadshow from Nov 9.",
+    "Wall Street is talking about a raise of up to $100bn at about a $2trn valuation; Anthropic hasn't commented on timing.",
+    "Separately, physicist Christopher Stubbs, a former Harvard dean of science, joined Anthropic's Long-Term Benefit Trust."
+   ],
+   "image": {
+    "url": "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill",
+    "alt": "OpenAI announcement card: OpenAI models are coming to Google Cloud",
+    "credit": "OpenAI",
+    "creditUrl": "https://openai.com/index/openai-models-google-cloud/"
+   },
+   "sources": [
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/openai-models-google-cloud/",
+     "kind": "primary"
+    },
+    {
+     "label": "Google Cloud on X",
+     "url": "https://x.com/googlecloud/status/2112896659608785181",
+     "kind": "x",
+     "time": "2026-10-21T13:19:54Z"
+    },
+    {
+     "label": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html",
+     "kind": "article",
+     "time": "2026-10-21T09:53:00-04:00"
+    },
+    {
+     "label": "IFR",
+     "url": "https://www.ifre.com/equities/2499407/anthropic-pushes-ahead-with-mid-november-ipo",
+     "kind": "article"
+    },
+    {
+     "label": "Anthropic",
+     "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "elementarschaden-pflicht",
+   "weight": "normal",
+   "title": "Berlin wants natural-hazard cover in every new home insurance policy",
+   "topics": [
+    "Germany"
+   ],
+   "facts": [
+    "Justice Minister Hubig and Finance Minister Klingbeil (both SPD) put out key points for a law: new building policies would cover floods, heavy rain and earthquakes by default.",
+    "Owners would pay at most €20,000 themselves per claim; a cheaper minimum cover with up to €100,000 excess is also being looked at.",
+    "Existing policies would be extended, automatically after a year if owners don't respond to the insurer's offer.",
+    "The ministries want to check whether landlords can be banned from passing the cost on to tenants.",
+    "The insurers' association GDV says a mandate alone prevents no damage and wants binding prevention plus state reinsurance."
+   ],
+   "whyItMatters": "Spiegel says more than 40% of homes in Germany aren't insured against flooding today. A draft bill was announced for Q1 2027.",
+   "image": null,
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/versicherungen-naturkatastrophen-100.html",
+     "kind": "article",
+     "time": "2026-10-21T13:48:00+02:00"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/wirtschaft/service/deutschland-bundesregierung-plant-pflichtversicherung-fuer-elementarschaeden-a-1f2f5a79-ee6b-42e3-aced-f50114adde99",
+     "kind": "article",
+     "time": "2026-10-21T18:25:00+02:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "The US Supreme Court temporarily blocked the Trump administration from denying transgender federal prisoners certain medical treatments.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Toledo, Ohio: officials ordered nearly 1,000 residents to evacuate after a chemical tank explosion caused a hazardous leak.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Times/Siena poll: Trump's approval hit a new low two weeks before the midterms, driven by frustration over the economy.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Private equity firms reportedly explored buying Xbox, valuing Microsoft's gaming arm at $100–150bn.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Merz at the Berlin Global Dialogue: no escalation with China, but unfair trade practices won't go unanswered.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "A new alliance, \"Gen Z steht auf\", is calling for nationwide protests modelled on France's, while distancing itself from violence; Frankfurt is meant to be a hub.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "NYT on X",
+     "url": "https://x.com/nytimes/status/2112948618244030496",
+     "kind": "x",
+     "time": "2026-10-21T16:46:21Z"
+    },
+    {
+     "label": "NYT on X",
+     "url": "https://x.com/nytimes/status/2112932312052543495",
+     "kind": "x",
+     "time": "2026-10-21T15:41:34Z"
+    },
+    {
+     "label": "NYT on X",
+     "url": "https://x.com/nytimes/status/2112886220585947340",
+     "kind": "x",
+     "time": "2026-10-21T12:38:25Z"
+    },
+    {
+     "label": "Windows Central",
+     "url": "https://www.windowscentral.com/gaming/xbox/xbox-was-reportedly-valued-up-to-usd150b-as-private-equity-firms-explored-buying-microsofts-gaming-business",
+     "kind": "article"
+    },
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/friedrich-merz-kein-handelskrieg-mit-china-aber-klare-antwort-auf-unfaire-praktiken-201608072.html",
+     "kind": "article"
+    },
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/rhein-main/frankfurt/gen-z-steht-auf-drohen-in-deutschland-gewaltexzesse-wie-in-frankreich-201604926.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "DuckDB 2.0.0 LTS \"Cinnamon Teal\": Quack remote protocol, async I/O, a VARIANT type, agent mode, triggers and an extensible SQL parser.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Node.js shipped security releases for 26.x, 24.x and 22.x too, including a Brotli decoder out-of-bounds write that allows remote code execution.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "eMudhra fallout: Deno 2.9.8 distrusts the compromised CAs, Bun merged blocked-key checks plus NSS 3.131.1 roots, and the PSF says update certifi, pip and uv.",
+     "sourceIndexes": [
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "text": "GitHub CLI can now use expiring, auto-refreshing OAuth tokens (public preview, opt in with --expiring).",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Colin McDonnell's Motherload imports .md, .toml, .yaml, .csv and .env files into TypeScript with full types, built on TS 7.1 content mappers.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "DuckDB",
+     "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+     "kind": "primary"
+    },
+    {
+     "label": "Node.js",
+     "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+     "kind": "primary"
+    },
+    {
+     "label": "Deno v2.9.8",
+     "url": "https://github.com/denoland/deno/releases/tag/v2.9.8",
+     "kind": "primary"
+    },
+    {
+     "label": "bun #46300",
+     "url": "https://github.com/oven-sh/bun/pull/46300",
+     "kind": "primary",
+     "time": "2026-10-21T07:50:13Z"
+    },
+    {
+     "label": "Python Discourse",
+     "url": "https://discuss.python.org/t/information-for-python-users-regarding-emudhra-emsign-ca-certificate-security-incident/109576",
+     "kind": "primary"
+    },
+    {
+     "label": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens/",
+     "kind": "primary",
+     "time": "2026-10-21T09:43:23-07:00"
+    },
+    {
+     "label": "Colin McDonnell on X",
+     "url": "https://x.com/colinhacks/status/2112954197373259850",
+     "kind": "x",
+     "time": "2026-10-21T17:08:32Z"
+    }
+   ]
+  }
+ ]
+}
