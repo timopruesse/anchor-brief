@@ -1,0 +1,627 @@
+{
+ "id": "2026-10-21-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-21T08:30:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight since the evening brief (~19:30 Berlin Tue to 08:00 Wed); X Following feed back to ~22:40 Berlin",
+ "headline": "PHP rushes out fixes for two critical leaked flaws at 16:00; SpaceX turns its first profit and Musk backs a Tesla merger; Witkoff takes a new plan to Putin; the Bundeswehr raises its Russian sabotage threat level.",
+ "stories": [
+  {
+   "id": "php2shell-emergency-release",
+   "weight": "lead",
+   "title": "PHP ships emergency fixes for two critical \"php2shell\" flaws at 16:00 today, after the details leaked",
+   "topics": [
+    "Security",
+    "Dev"
+   ],
+   "facts": [
+    "PHP's security team will release fixes for two critical vulnerabilities today at 14:00 UTC (16:00 Berlin); both are rated CVSS v4.0 9.2.",
+    "The release was pulled forward after the embargoed bugs (CVE-2026-109618 and -109619) leaked on Monday; PHP says it may ship even earlier if exploitation appears.",
+    "watchTowr told BleepingComputer both are remote code execution bugs believed to affect PHP 5 through 8, and that it reproduced one of them.",
+    "PHP hasn't named affected or fixed versions yet; Huntress warns end-of-life branches may get no patch at all.",
+    "Overnight a write-up pointing at session.upload_progress circulated, and a researcher said a PoC was out; his stopgap for PHP before 8.2 is session.upload_progress.enabled = Off.",
+    "Laravel Cloud/Forge/Vapor, Bref and OBS are lining up patched builds; CERT-EU says isolate internet-facing PHP apps if you can't patch right away."
+   ],
+   "whyItMatters": "PHP runs a big share of the web, including WordPress, so expect a busy patch afternoon. Neither Huntress nor watchTowr had seen in-the-wild exploitation as of their posts.",
+   "image": {
+    "url": "https://www.bleepstatic.com/content/hl-images/2021/03/29/PHP-headpic.jpg",
+    "alt": "PHP",
+    "credit": "BleepingComputer",
+    "creditUrl": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
+   },
+   "sources": [
+    {
+     "label": "PHP.net announcement",
+     "url": "https://www.php.net/archive/2026.php",
+     "kind": "primary"
+    },
+    {
+     "label": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+     "kind": "article"
+    },
+    {
+     "label": "Huntress",
+     "url": "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
+     "kind": "article"
+    },
+    {
+     "label": "Ars Technica",
+     "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+     "kind": "article",
+     "time": "2026-10-21T02:12:18Z"
+    },
+    {
+     "label": "CERT-EU advisory",
+     "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+     "kind": "primary"
+    },
+    {
+     "label": "Kostas on X",
+     "url": "https://x.com/Kostastsale/status/2112774685792571463",
+     "kind": "x",
+     "time": "2026-10-21T05:15:13Z"
+    },
+    {
+     "label": "Taylor Otwell on X",
+     "url": "https://x.com/taylorotwell/status/2112666246659629104",
+     "kind": "x",
+     "time": "2026-10-20T22:04:00Z"
+    },
+    {
+     "label": "Laravel News",
+     "url": "https://laravel-news.com/php-critical-security-release",
+     "kind": "article",
+     "time": "2026-10-20T22:00:00-04:00"
+    }
+   ]
+  },
+  {
+   "id": "spacex-q3-tesla-merger",
+   "weight": "normal",
+   "title": "SpaceX posts its first profit as a public company, and Musk backs a merger with Tesla",
+   "topics": [
+    "Tech",
+    "Business"
+   ],
+   "facts": [
+    "SpaceX Q3 revenue rose 161% year on year to $14.6bn.",
+    "Its AI business (data centres plus Grok) posted a $431m operating profit, and AI revenue of about $7.6bn has overtaken Starlink.",
+    "The Washington Post says it was SpaceX's first profit since going public, reversing earlier losses.",
+    "SpaceX and Tesla boards have each formed special committees of independent directors to look at a merger; Musk called it \"a good idea\" but says he can't take part.",
+    "Musk on X: $1 trillion in SpaceX revenue in 2028 is \"no longer impossible.\""
+   ],
+   "whyItMatters": "A merger would fold Tesla into Musk's AI-and-space company; the committees, not Musk, decide whether it goes ahead.",
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801",
+    "alt": "A Tesla Cybertruck with SpaceX branding",
+    "credit": "TechCrunch",
+    "creditUrl": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+   },
+   "sources": [
+    {
+     "label": "Forbes",
+     "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/10/20/spacex-posts-431-million-ai-operating-profit-as-total-revenue-jumps-161/",
+     "kind": "article",
+     "time": "2026-10-20T16:38:45-04:00"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+     "kind": "article",
+     "time": "2026-10-20T22:57:57Z"
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://www.washingtonpost.com/technology/2026/10/20/elon-musks-spacex-posts-first-profit-since-going-public/",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://www.cnn.com/2026/10/20/business/spacex-tesla-merger-musk",
+     "kind": "article",
+     "time": "2026-10-20T21:59:17Z"
+    },
+    {
+     "label": "Elon Musk on X",
+     "url": "https://x.com/elonmusk/status/2112666467712073815",
+     "kind": "x",
+     "time": "2026-10-20T22:05:00Z"
+    }
+   ]
+  },
+  {
+   "id": "witkoff-putin-starlink",
+   "weight": "normal",
+   "title": "Witkoff takes a new peace proposal to Putin today, as WSJ says Musk ordered Ukraine's Starlink slowdown",
+   "topics": [
+    "World",
+    "Ukraine"
+   ],
+   "facts": [
+    "Witkoff meets Putin in St. Petersburg on Wednesday with an updated plan worked out in Oslo with Kyiv and Europeans; Kushner joins by video (Axios).",
+    "A US official says the plan covers security guarantees, a postwar economic plan and a path to three-way talks, which Moscow has so far rejected.",
+    "Zelensky says US early-warning intelligence for missile strikes was restored on Tuesday: \"Now it works.\"",
+    "WSJ: Musk himself ordered last week's slowdown of the military Starlink service Ukraine relies on, after earlier saying such limits were the Pentagon's or the president's call.",
+    "Ukraine says the limits hobbled drone strikes and interceptions; Hegseth says the US hasn't cut access, pointing to terms of service."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Axios",
+     "url": "https://www.axios.com/2026/10/20/putin-witkoff-russia-ukraine-war",
+     "kind": "article"
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/10/20/us-restores-intelligence-sharing-with-ukraine-zelensky-says/",
+     "kind": "article"
+    },
+    {
+     "label": "WSJ",
+     "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193",
+     "kind": "article",
+     "time": "2026-10-20T20:25:00Z"
+    },
+    {
+     "label": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/musk-ordered-starlink-slowdown-that-blindsided-ukraine-wsj-reports-4961200",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/21/ukraine-war-briefing-us-envoy-witkoff-to-meet-putin-after-constructive-talks-with-zelenskyy-in-norway",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "bundeswehr-sabotage-erheblich",
+   "weight": "normal",
+   "title": "Bundeswehr raises its Russian sabotage threat to \"erheblich\" after an explosive drone near Wunstorf",
+   "topics": [
+    "Germany",
+    "Security"
+   ],
+   "facts": [
+    "An internal Bundeswehr assessment seen by WDR and SZ rates the threat of Russian sabotage against the armed forces as \"erheblich\", the second-highest level, for the first time.",
+    "Trigger: a crashed drone found in mid-September near the Wunstorf air base, carrying a can of high explosive and built like the one used in the failed Leipzig/Halle attack in August.",
+    "BKA analysis says the Wunstorf drone probably lay there for two years and likely targeted Bundeswehr aircraft, not civilian freight.",
+    "The paper says Russia has crossed a \"red line\" by using drones as weapons and expects more actions \"in the near future\"; the threat is no longer limited to specific sites."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "tagesschau (WDR)",
+     "url": "https://www.tagesschau.de/investigativ/wdr/bundeswehr-russland-102.html",
+     "kind": "article",
+     "time": "2026-10-21T06:00:00+02:00"
+    },
+    {
+     "label": "Süddeutsche Zeitung",
+     "url": "https://www.sueddeutsche.de/politik/russland-krieg-angriff-bundeswehr-sabotage-gefahr-li.3566249",
+     "kind": "article",
+     "time": "2026-10-21T04:00:00Z"
+    },
+    {
+     "label": "Golem.de",
+     "url": "https://www.golem.de/news/rote-linie-ueberschritten-bundeswehr-stuft-russische-sabotagegefahr-als-erheblich-ein-2610-214328.html",
+     "kind": "article",
+     "time": "2026-10-21T05:36:02Z"
+    }
+   ]
+  },
+  {
+   "id": "pingcap-tidb-cloud-breach",
+   "weight": "normal",
+   "title": "PingCAP confirms a month-long breach of TiDB Cloud systems, and the attackers go public",
+   "topics": [
+    "Security",
+    "Dev"
+   ],
+   "facts": [
+    "Between Sep 9 and Oct 7 an attacker used stolen service-account credentials to access PingCAP internal systems, copy data and take source code.",
+    "PingCAP says it found no evidence that data stored in TiDB databases was affected, and all known compromised credentials were invalidated by Oct 14.",
+    "The remaining investigation is about customer-specific impact; PingCAP lists the categories of exported customer records on its trust page.",
+    "On Tuesday the attackers published their own account of the \"TiDB leaks\", which PlanetScale CEO Sam Lambert shared on X."
+   ],
+   "whyItMatters": "If you run TiDB Cloud, check PingCAP's notice and rotate API keys and credentials tied to it.",
+   "image": null,
+   "sources": [
+    {
+     "label": "PingCAP security update",
+     "url": "https://www.pingcap.com/trust-hub/security/security-update-october-2026/",
+     "kind": "primary",
+     "time": "2026-10-20T01:56:57Z"
+    },
+    {
+     "label": "Sam Lambert on X",
+     "url": "https://x.com/samlambert/status/2112652803957277128",
+     "kind": "x",
+     "time": "2026-10-20T21:10:00Z"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-compute-squeeze",
+   "weight": "normal",
+   "title": "Leaked S-1: Anthropic says cloud providers now treat it as a rival, ahead of a November IPO",
+   "topics": [
+    "AI",
+    "Business"
+   ],
+   "facts": [
+    "Anthropic is having trouble getting enough capacity from AWS, Google and Microsoft, according to an S-1 filing leaked to the WSJ (via TechCrunch).",
+    "It believes it could spend more than $750bn on cloud contracts and is also leasing its own data centres.",
+    "Leaked figures: $16.3bn revenue and an $80.7bn net loss in the first half; two customers make up about a fifth of sales.",
+    "Separately, Politico reports Anthropic is shopping a draft AI safety bill that could block a model release over \"foreseeable, imminent risk\" to more than 50 people, but only with a judge's sign-off."
+   ],
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+    "alt": "EVIAN-LES-BAINS, FRANCE - JUNE 17: CEO of Anthropic Dario Amodei attends a working lunch with G7 leaders, G7 outreach partners, and global tech CEOs on innovation and AI, during the G7 Summit on June 17, 2026 in Evian-les-Bains, France. Leaders from the Group of 7 (G7) countries convened in Evian, France, near the Swiss border, for their annual summit to discuss challenges to peace and security for Ukraine and Europe, the situation in the Middle East, and other geopolitical issues. (Photo by Anna Moneymaker/Getty Images)",
+    "credit": "TechCrunch (safety bill)",
+    "creditUrl": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+   },
+   "sources": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+     "kind": "article",
+     "time": "2026-10-20T21:25:22Z"
+    },
+    {
+     "label": "TechCrunch (safety bill)",
+     "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+     "kind": "article",
+     "time": "2026-10-20T23:01:23Z"
+    }
+   ]
+  },
+  {
+   "id": "un-emissions-gap-2026",
+   "weight": "normal",
+   "title": "UN Emissions Gap Report: current policies point to 2.8°C, and overshooting 1.5°C is now unavoidable",
+   "topics": [
+    "Climate"
+   ],
+   "facts": [
+    "UNEP's Emissions Gap Report 2026 projects about 2.8°C of warming this century under current policies, and 2.6°C even if all national pledges are met.",
+    "Both are worse than last year, partly because the US left the Paris Agreement and historical emissions were revised.",
+    "Best case: peak warming of 1.7–1.8°C around mid-century, back to 1.5°C by 2100.",
+    "That needs emissions cut 18% by 2030, 45% by 2035 and 69% by 2040, versus 2025 levels.",
+    "It lands weeks before COP31 in Antalya, Türkiye."
+   ],
+   "image": {
+    "url": "https://s3.eu-west-1.amazonaws.com/cdn.unenvironment.org/unepcorporaterevamp_prod/s3fs-public/styles/social_share/public/2026-10/EGR_2026_FINAL%20social.jpg.jpeg?h=999c485c&itok=TnjWMPis",
+    "alt": "Emissions Gap Report 2026",
+    "credit": "UNEP report",
+    "creditUrl": "https://www.unep.org/en/publications/report/emissions-gap-report-2026"
+   },
+   "sources": [
+    {
+     "label": "UN News",
+     "url": "https://news.un.org/en/story/2026/10/1168634",
+     "kind": "primary"
+    },
+    {
+     "label": "UNEP report",
+     "url": "https://www.unep.org/en/publications/report/emissions-gap-report-2026",
+     "kind": "primary"
+    },
+    {
+     "label": "RTÉ",
+     "url": "https://www.rte.ie/news/environment/2026/1021/1596194-un-climate-report/",
+     "kind": "article",
+     "time": "2026-10-21T05:01:00Z"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2112774816071651691",
+     "kind": "x",
+     "time": "2026-10-21T05:15:00Z"
+    }
+   ]
+  },
+  {
+   "id": "afd-hack-reconstructed",
+   "weight": "normal",
+   "title": "How the AfD was hacked: Lilith Wittmann traces it to a campaign WordPress site",
+   "topics": [
+    "Germany",
+    "Security"
+   ],
+   "facts": [
+    "Wittmann and hoodinformatik spoke to the hackers and to people close to the AfD's IT contractors; the party's systems were hacked twice, with about 300 GB taken.",
+    "Entry point: a poorly secured WordPress instance at wahlkampf.afd.de, where the attackers installed a plugin giving them a server command line.",
+    "From there they reached mail administration, changed officials' email passwords, and pulled data out via one-click file hosts and bulk IMAP requests."
+   ],
+   "image": {
+    "url": "https://www.lilithwittmann.de/images/blog/afd-hack-2026/hero.webp",
+    "alt": "Screenshot der Webseite hexane.cc mit der Überschrift „Interne Unterlagen, vollständig veröffentlicht.“ und einer Übersicht archivierter E-Mails und Dokumente.",
+    "credit": "Lilith Wittmann (blog)",
+    "creditUrl": "https://www.lilithwittmann.de/blog/afd-hack-2026/"
+   },
+   "sources": [
+    {
+     "label": "Lilith Wittmann (blog)",
+     "url": "https://www.lilithwittmann.de/blog/afd-hack-2026/",
+     "kind": "primary",
+     "via": {
+      "label": "Lilith Wittmann on X",
+      "url": "https://x.com/LilithWittmann/status/2112649754056224903",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Ebola: Nigeria confirms its first case, a woman in Abuja who had travelled through Uganda; Kenya is up to nine cases, all in one cluster.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "The FAA has cleared Boeing's long-delayed 737 Max 10 for service.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "JAXA launched its Martian Moons eXploration mission to bring a sample from Phobos back to Earth.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Gemini 4 Argon processed about 25 trillion tokens in its first 72 hours, says Google's Logan Kilpatrick.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Aleksander Madry is returning to OpenAI to work on safety and security; OpenAI is also buying Orchestra Bio for its life-sciences model Rosalind.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    },
+    {
+     "text": "The UK approved gas production from the Jackdaw field in the North Sea.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/1718/live/05ef3900-cc80-11f1-bed8-c51b95c602ec.jpg",
+    "alt": "A health worker, wearing full protective clothing and gloves, puts on a face mask",
+    "credit": "BBC (Kenya)",
+    "creditUrl": "https://www.bbc.com/news/articles/c693z948px0jo"
+   },
+   "sources": [
+    {
+     "label": "AP News (Nigeria)",
+     "url": "https://apnews.com/article/nigeria-ebola-first-case-africa-d39e454fbe1be1243e4e39fb46939f62",
+     "kind": "article"
+    },
+    {
+     "label": "BBC (Kenya)",
+     "url": "https://www.bbc.com/news/articles/c693z948px0jo",
+     "kind": "article",
+     "time": "2026-10-20T23:41:30Z"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/wirtschaft/unternehmen/2026-10/boeing-737-max-10-zulassung-faa",
+     "kind": "article"
+    },
+    {
+     "label": "Forbes",
+     "url": "https://www.forbes.com/sites/jamiecartereurope/2026/10/20/japan-just-launched-a-mission-to-bring-alien-sand-back-to-earth/",
+     "kind": "article",
+     "time": "2026-10-20T14:19:29-04:00"
+    },
+    {
+     "label": "Logan Kilpatrick on X",
+     "url": "https://x.com/OfficialLoganK/status/2112767157746688480",
+     "kind": "x",
+     "time": "2026-10-21T04:45:00Z"
+    },
+    {
+     "label": "Aleksander Madry on X",
+     "url": "https://x.com/aleks_madry/status/2112231448103239998",
+     "kind": "x",
+     "time": "2026-10-19T17:16:35Z"
+    },
+    {
+     "label": "TechCrunch (Orchestra)",
+     "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News live",
+     "url": "https://www.bbc.co.uk/news/live/cw8rzgvlmjznt",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Vercel open-sourced durable-harness: it keeps Pi, OpenCode, Claude Code or Codex sessions alive through crashes and timeouts, on Vercel, Postgres or a laptop.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "TypeScript 7.1 adds content mappers, plugins that compute types for non-TS files like .vue or .md, e.g. typed markdown frontmatter imports.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Google open-sourced TorchTPU, a native PyTorch back end for TPUs.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Vite merged a fix that checks server.fs rules after stripping the query string, and tagged v6.4.5 minutes later.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "Mastodon published a closer look at what changes in version 5.0.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Daniel Stenberg argues curl should handle minor vulnerabilities in the open.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/6f74d9289b6414971472d4f048bfd99552dd8599b1e5270a543bcf75dc195442/google-pytorch/torch_tpu",
+    "alt": "Contribute to google-pytorch/torch_tpu development by creating an account on GitHub.",
+    "credit": "GitHub: torch_tpu",
+    "creditUrl": "https://github.com/google-pytorch/torch_tpu"
+   },
+   "sources": [
+    {
+     "label": "Vercel blog",
+     "url": "https://vercel.com/blog/making-every-harness-durable",
+     "kind": "primary",
+     "via": {
+      "label": "Vercel on X",
+      "url": "https://x.com/vercel/status/2112653833382027729",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Colin McDonnell on X",
+     "url": "https://x.com/colinhacks/status/2112649295858118927",
+     "kind": "x",
+     "time": "2026-10-20T20:56:00Z"
+    },
+    {
+     "label": "GitHub: torch_tpu",
+     "url": "https://github.com/google-pytorch/torch_tpu",
+     "kind": "primary"
+    },
+    {
+     "label": "Vite PR #23855",
+     "url": "https://github.com/vitejs/vite/pull/23855",
+     "kind": "primary",
+     "time": "2026-10-21T05:28:32Z"
+    },
+    {
+     "label": "Vite v6.4.5",
+     "url": "https://github.com/vitejs/vite/releases/tag/v6.4.5",
+     "kind": "primary",
+     "time": "2026-10-21T05:31:06Z"
+    },
+    {
+     "label": "Mastodon blog",
+     "url": "https://blog.joinmastodon.org/2026/10/5.0-a-closer-look/",
+     "kind": "primary"
+    },
+    {
+     "label": "daniel.haxx.se",
+     "url": "https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "BVB won 2–1 at Sabah in Baku in the Champions League; Serhou Guirassy scored both goals.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Reports say Niko Kovac's new BVB contract to 2029 includes an exit clause if results go badly.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Warriors open the season against the Lakers tonight without Brandin Podziemski (back soreness).",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "In the Champions League, PSG beat Barcelona and Stuttgart drew with Atlético.",
+     "sourceIndexes": [
+      4,
+      5
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "BVB.de",
+     "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/20/BVB-nimmt-dank-Guirassy-die-Punkte-aus-Baku-mit.html",
+     "kind": "primary"
+    },
+    {
+     "label": "Bundesliga.com",
+     "url": "https://www.bundesliga.com/en/bundesliga/news/sabah-1-2-borussia-dortmund-match-report-champions-league-guirassy-39655",
+     "kind": "article"
+    },
+    {
+     "label": "SPOX",
+     "url": "https://www.spox.com/fussball/news/bvb-news-und-geruechte-falls-er-scheitert-besondere-klausel-im-neuen-vertrag-von-niko-kovac-bei-borussia-dortmund-enthuellt/blt8b95fba8846846f6",
+     "kind": "article"
+    },
+    {
+     "label": "NBA.com",
+     "url": "https://www.nba.com/news/brandin-podziemski-out-season-opener",
+     "kind": "article"
+    },
+    {
+     "label": "Champions League on X",
+     "url": "https://x.com/ChampionsLeague/status/2112650081434488845",
+     "kind": "x",
+     "time": "2026-10-20T21:00:00Z"
+    },
+    {
+     "label": "Champions League on X",
+     "url": "https://x.com/ChampionsLeague/status/2112651040680243575",
+     "kind": "x",
+     "time": "2026-10-20T21:03:00Z"
+    }
+   ]
+  }
+ ]
+}
