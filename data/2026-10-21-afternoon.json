@@ -1,0 +1,505 @@
+{
+ "id": "2026-10-21-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-10-21T13:10:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since this morning (~08:00)",
+ "headline": "Jensen Huang pitches containerised AI factories and an agent sandbox in Berlin; Russia frees American Stephen Hubbard as Witkoff meets Putin; the PHP fix is still due at 16:00; Emma closes after 50 years.",
+ "stories": [
+  {
+   "id": "nvidia-gtc-berlin-keynote",
+   "weight": "lead",
+   "title": "Jensen Huang in Berlin: containerised AI factories, a sandbox for AI agents, and a Greenpeace interruption",
+   "topics": [
+    "Tech",
+    "AI",
+    "Germany"
+   ],
+   "facts": [
+    "Huang gave the GTC Berlin keynote at the Tempodrom this morning; the conference runs Oct 20–22 with more than 100 sessions.",
+    "DSX POD: partner-built Vera Rubin AI factories delivered in pre-validated modular containers; NVIDIA says on-site deployment drops from six months to 14 days once power and cooling are ready.",
+    "NVIDIA claims its DSX designs cut cooling water use by up to 100% and need up to 30% less power for the same output; DCD says DSX POD sites are due worldwide from early 2027.",
+    "OpenShell Reference Architecture: an open-source runtime that sandboxes AI agents and enforces policy outside the agent, with Gateway, Supervisor, Sandbox and Policy Prover parts.",
+    "With BlueField-4 chips and NVIDIA Sentry, NVIDIA says agents that break policy can be quarantined within milliseconds.",
+    "Minutes in, Greenpeace activists interrupted, asking about Nvidia Jetson chips found in Russian drones; Huang: \"I'll talk to you later.\"",
+    "Also announced: Isaac robotics tools with a reference humanoid, telecom AI deals with Nokia and operators, and Hyperion for European carmakers' robotaxi fleets.",
+    "NVIDIA says it is committing nearly $10bn to Europe's tech ecosystem."
+   ],
+   "whyItMatters": "The Europe pitch is less about chips than about building AI data centres faster with less water and power, plus a safety layer for agents that NVIDIA wants to become the standard.",
+   "image": {
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/jhh-europe-and-nvidia-1920x1080-1.jpg",
+    "alt": "Jensen Huang on stage at GTC Berlin",
+    "credit": "NVIDIA",
+    "creditUrl": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/"
+   },
+   "sources": [
+    {
+     "label": "NVIDIA Blog (live updates)",
+     "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+     "kind": "primary",
+     "time": "2026-10-21T09:30:16Z"
+    },
+    {
+     "label": "NVIDIA Newsroom: DSX",
+     "url": "https://nvidianews.nvidia.com/news/european-ecosystem-builds-worlds-most-efficient-ai-factories-with-nvidia-dsx",
+     "kind": "primary"
+    },
+    {
+     "label": "NVIDIA Technical Blog: OpenShell",
+     "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
+     "kind": "primary",
+     "time": "2026-10-21T09:50:14Z"
+    },
+    {
+     "label": "DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/nvidia-launches-dsx-pod-claims-the-vera-rubin-reference-architecture-will-make-ai-data-centers-more-water-and-energy-efficient/",
+     "kind": "article"
+    },
+    {
+     "label": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/jensen-huang-nvidia-gtc-keynote-disrupted-by-greenpeace-protest-over-chips-in-russian-drones-what-are-you-doing-about-that-heckler-demands-before-being-thrown-out",
+     "kind": "article",
+     "time": "2026-10-21T09:57:06Z"
+    },
+    {
+     "label": "NVIDIA on X",
+     "url": "https://x.com/nvidia/status/2112847277282721888",
+     "kind": "x",
+     "time": "2026-10-21T10:03:40Z"
+    }
+   ]
+  },
+  {
+   "id": "hubbard-freed-witkoff-putin",
+   "weight": "normal",
+   "title": "Russia frees American Stephen Hubbard as Witkoff meets Putin in St. Petersburg",
+   "topics": [
+    "World",
+    "Ukraine"
+   ],
+   "facts": [
+    "Putin said during his talks with US envoy Steve Witkoff that Russia has released Stephen Hubbard, 74, a former teacher from Michigan (BBC, citing state media).",
+    "Hubbard was captured in Ukraine in 2022 and sentenced in 2024 to almost seven years in a penal colony, accused of serving in a defence unit in Izyum; the State Department called him wrongfully detained.",
+    "He was taken to Pulkovo airport and is due to fly back to the US with Witkoff (ZEIT).",
+    "Trump says he asked Putin for the release; the NYT notes it comes as Putin has scored wins with Trump.",
+    "Zelensky, after another meeting with Norway's Støre in Oslo this morning: \"A lot depends on whether the American side manages to hear something new from Russia today.\""
+   ],
+   "whyItMatters": "A goodwill gesture at the start of the talks on the plan worked out in Oslo; nothing has come out yet on the substance.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a22e/live/83914ac0-8497-11ef-bf4c-1f355eb87d3c.jpg",
+    "alt": "Stephen Hubbard in a Moscow courtroom in 2024",
+    "credit": "BBC / Reuters",
+    "creditUrl": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o",
+     "kind": "article",
+     "time": "2026-10-21T09:22:23Z"
+    },
+    {
+     "label": "CNN",
+     "url": "https://www.cnn.com/2026/10/21/europe/stephen-hubbard-prisoner-release-russia-trump-intl",
+     "kind": "article",
+     "time": "2026-10-21T09:08:41Z"
+    },
+    {
+     "label": "The New York Times",
+     "url": "https://www.nytimes.com/2026/10/21/us/politics/russia-american-prisoner-release-stephen-hubbard-trump.html",
+     "kind": "article",
+     "time": "2026-10-21T10:15:11Z"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/politik/ausland/2026-10/stephen-hubbard-wladimir-putin-freilassung-russland-usa-gxe",
+     "kind": "article",
+     "time": "2026-10-21T09:40:35Z"
+    },
+    {
+     "label": "Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2112846487142989919",
+     "kind": "x",
+     "time": "2026-10-21T10:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "php-patch-countdown",
+   "weight": "normal",
+   "title": "PHP fix still due at 16:00, and the UK's NCSC joins the \"take it offline if you can't patch\" advice",
+   "topics": [
+    "Security",
+    "Dev"
+   ],
+   "facts": [
+    "As of lunchtime php.net still shows only the advance notice; the fixes for both CVSS 9.2 flaws are due at 14:00 UTC (16:00 Berlin), possibly earlier.",
+    "The UK's NCSC published an alert: find every PHP system, watch internet-facing ones for malicious activity, and consider taking a system offline if you can't fix it right away.",
+    "It also says to watch for updates from vendors whose appliances and services bundle PHP.",
+    "Australia's ACSC issued similar guidance and says it isn't aware of active exploitation (RTÉ, via Reuters)."
+   ],
+   "whyItMatters": "If you run PHP anywhere, the release lands this afternoon; vendor-bundled PHP will lag behind php.net.",
+   "image": {
+    "url": "https://cdn.mos.cms.futurecdn.net/kNCDGE87fMuTymbxurAHYN-1920-80.jpg",
+    "alt": "A stock photo of a hacker with computers in dark room. The devices are displaying computer code on the screens.",
+    "credit": "PC Gamer",
+    "creditUrl": "https://www.pcgamer.com/software/security/we-expect-mass-attacks-to-start-within-15-minutes-of-the-release-web-admins-braced-for-emergency-php-updates-to-plug-leaked-high-severity-holes/"
+   },
+   "sources": [
+    {
+     "label": "NCSC alert",
+     "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+     "kind": "primary",
+     "time": "2026-10-21T09:53:32Z"
+    },
+    {
+     "label": "PHP.net news",
+     "url": "https://www.php.net/archive/2026.php",
+     "kind": "primary"
+    },
+    {
+     "label": "RTÉ",
+     "url": "https://www.rte.ie/news/world/2026/1021/1596231-eu-cybersecurity/",
+     "kind": "article"
+    },
+    {
+     "label": "PC Gamer",
+     "url": "https://www.pcgamer.com/software/security/we-expect-mass-attacks-to-start-within-15-minutes-of-the-release-web-admins-braced-for-emergency-php-updates-to-plug-leaked-high-severity-holes/",
+     "kind": "article",
+     "time": "2026-10-21T10:39:05Z"
+    }
+   ]
+  },
+  {
+   "id": "emma-closes",
+   "weight": "normal",
+   "title": "Alice Schwarzer shuts down \"Emma\" after 50 years",
+   "topics": [
+    "Germany",
+    "Media"
+   ],
+   "facts": [
+    "The feminist magazine will publish its last issue on 8 December, Schwarzer announced.",
+    "\"Wir meinen, es reicht,\" she said; according to ZDF, money was not the deciding reason.",
+    "Schwarzer, 83, founded Emma almost 50 years ago."
+   ],
+   "image": {
+    "url": "https://www.zdfheute.de/assets/alice-schwarzer-146~1280x720?cb=1792564572259",
+    "alt": "Alice Schwarzer",
+    "credit": "ZDFheute",
+    "creditUrl": "https://www.zdfheute.de/panorama/emma-frauen-zeitschrift-schluss-100.html"
+   },
+   "sources": [
+    {
+     "label": "ZDFheute",
+     "url": "https://www.zdfheute.de/panorama/emma-frauen-zeitschrift-schluss-100.html",
+     "kind": "article",
+     "time": "2026-10-21T08:09:20+02:00"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/kultur/emma-magazin-ende-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/alice-schwarzer-stellt-magazin-emma-ein-accg-201607250.html?utm_term=Autofeed&campID=SCL-EAu2500002683&utm_medium=Social&utm_source=Twitter#Echobox=1792563533",
+     "kind": "article",
+     "via": {
+      "label": "FAZ on X",
+      "url": "https://x.com/faznet/status/2112824081137418443",
+      "kind": "x"
+     },
+     "time": "2026-10-21T08:31:29Z"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/feuilleton/2026-10/alice-schwarzer-zeitschrift-emma-feminismus-journalismus",
+     "kind": "article",
+     "time": "2026-10-21T06:18:21Z"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "BGH on Schufa scores: Schufa must explain how a score is built only if a company's contract decision hinged on it, which a refusal soon after a score was sent lets courts presume. Four cases go back to Dresden.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Berlin: the SPD, Greens and Left want people who have lived in Germany for five years to vote even without a German passport; there is no concrete legal route yet.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "UK inflation rose to 3.5% in September, a bit above forecasts, driven by fuel and airfares; government debt passed £3tn ahead of next week's Budget.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Subaru will sell only electric cars in Europe by the end of 2027, citing EU emissions and driver-assistance rules.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Australian MP Helen Haines has lost both legs after an alleged deliberate car attack; the 43-year-old accused appeared in court on Wednesday.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "The EU Commission opened proceedings against Booking.com over fake listings and other risks.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "German regional transport associations are running out of money; first connections have been cut, with more possibly to follow.",
+     "sourceIndexes": [
+      8
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Bundesgerichtshof press release",
+     "url": "https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2026/2026198.html",
+     "kind": "primary"
+    },
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/finanzen/steuern-recht/recht/schufa-auskunft-ueber-alten-score-bgh-hebt-urteile-auf/100263852.html",
+     "kind": "article",
+     "time": "2026-10-21T11:03:00+02:00"
+    },
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/politik/inland/berlin-auch-auslaender-sollen-waehlen-duerfen-accg-201605464.html",
+     "kind": "article"
+    },
+    {
+     "label": "Berliner Zeitung",
+     "url": "https://www.berliner-zeitung.de/article/linke-spd-und-gruene-wollen-wahlrecht-in-berlin-unabhaengig-von-staatsbuergerschaft-geht-das-10506932",
+     "kind": "article",
+     "time": "2026-10-18T14:31:51Z"
+    },
+    {
+     "label": "BBC (UK inflation)",
+     "url": "https://www.bbc.co.uk/news/live/ck1l3dvvqm85t",
+     "kind": "article",
+     "time": "2026-10-21T05:26:04Z"
+    },
+    {
+     "label": "Engadget",
+     "url": "https://www.engadget.com/2292610/subaru-is-dropping-gas-cars-for-evs-in-europe-by-the-end-of-2027/",
+     "kind": "article",
+     "time": "2026-10-21T09:14:00Z"
+    },
+    {
+     "label": "BBC (Helen Haines)",
+     "url": "https://www.bbc.com/news/articles/ckwyqdqxw6d0o",
+     "kind": "article",
+     "time": "2026-10-21T07:56:30Z"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/wirtschaft/2026-10/booking-com-eu-kommission-reiseportal-verbraucherschutz-betrug-gxe",
+     "kind": "article",
+     "via": {
+      "label": "ZEIT ONLINE on X",
+      "url": "https://x.com/zeitonline/status/2112855656885600408",
+      "kind": "x"
+     },
+     "time": "2026-10-21T10:36:58Z"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/mobilitaet/2026-10/regionalverkehr-zuege-verbindungen-nahverkehr-finanzierung-europaeischer-gerichtshof",
+     "kind": "article",
+     "via": {
+      "label": "ZEIT ONLINE on X",
+      "url": "https://x.com/zeitonline/status/2112849966003613826",
+      "kind": "x"
+     },
+     "time": "2026-10-21T10:14:21Z"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Cursor: cloud agents can now build and share interactive canvases; the Environments API is in beta, environments take up to 300 repos and large ones load 5x faster.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Anthropic's Claude Code team on reviewing code at agent volume: once coverage was high, they optimised for the least human review time that doesn't raise reverts or incidents.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Vercel AI Gateway October index: open-weight models take 71.5% of tokens but only 23% of spend.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Bun merged a --hardened=on build option: stack protector, _FORTIFY_SOURCE, stack-clash protection and zeroed locals across the board.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Vite v8.3.5 fixes chunk import maps (missing maps, preload dependencies in hashing).",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Josh W. Comeau picks his top 10 CSS features for Interop 2027, which Mozilla is ranking by votes.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Firefox asks developers to hold back tests for security fixes until the fixes ship, for at least a week.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Jake Archibald: in browsers, JPEG and AVIF support HDR gain maps and JPEG XL doesn't.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/c98bb11ba6770be936a1a6f45683252b0c8a8347fa57b04c12f874055570c5b0/vitejs/vite/releases/tag/v8.3.5",
+    "alt": "Bug Fixes build: handle missing chunk import maps (#23777) (8d7623d) build: include preload dependencies to chunk import map hashing (#23793) (4d16e7c) bundled-dev: apply server.origin to asset UR...",
+    "credit": "Vite v8.3.5",
+    "creditUrl": "https://github.com/vitejs/vite/releases/tag/v8.3.5"
+   },
+   "sources": [
+    {
+     "label": "Cursor changelog",
+     "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+     "kind": "primary",
+     "time": "2026-10-16T00:00:00Z"
+    },
+    {
+     "label": "claude.dev",
+     "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+     "kind": "primary",
+     "time": "2026-10-15T12:00:00Z"
+    },
+    {
+     "label": "Vercel blog",
+     "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+     "kind": "primary",
+     "time": "2026-10-15T07:00:00Z"
+    },
+    {
+     "label": "oven-sh/bun #46317",
+     "url": "https://github.com/oven-sh/bun/pull/46317",
+     "kind": "primary",
+     "time": "2026-10-21T10:38:13Z"
+    },
+    {
+     "label": "Vite v8.3.5",
+     "url": "https://github.com/vitejs/vite/releases/tag/v8.3.5",
+     "kind": "primary",
+     "time": "2026-10-21T06:35:46Z"
+    },
+    {
+     "label": "Josh W. Comeau",
+     "url": "https://www.joshwcomeau.com/css/interop-2027/",
+     "kind": "article"
+    },
+    {
+     "label": "firefox-dev",
+     "url": "https://groups.google.com/a/mozilla.org/g/firefox-dev/c/4I1HSPtVyrI/m/giGra4ZzAQAJ",
+     "kind": "primary"
+    },
+    {
+     "label": "Jake Archibald on X",
+     "url": "https://x.com/jaffathecake/status/2112839441546903762",
+     "kind": "x",
+     "time": "2026-10-21T09:32:32Z"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Eintracht Braunschweig centre-back Isidoros Koutsidis is out for several weeks with a muscle injury in his left thigh, so he misses Sunday's derby.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "The Niedersachsen derby against Hannover 96 kicks off Sunday at 12:30 at the Eintracht-Stadion; police in Hildesheim took down 40 hate posters ahead of it.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "news38",
+     "url": "https://www.news38.de/sport/eintracht-braunschweig/article300715494/eintracht-braunschweig-verletzung-derby-koutsidis-clone.html",
+     "kind": "article",
+     "time": "2026-10-21T09:08:11Z"
+    },
+    {
+     "label": "Eintracht Braunschweig on X",
+     "url": "https://x.com/EintrachtBSNews/status/2112821371499930047",
+     "kind": "x",
+     "time": "2026-10-21T08:20:43Z"
+    },
+    {
+     "label": "bundesliga.com",
+     "url": "https://www.bundesliga.com/de/2bundesliga/spieltag/2026-2027/9/eintracht-braunschweig-vs-hannover-96/liveticker",
+     "kind": "primary"
+    },
+    {
+     "label": "Hildesheimer Allgemeine",
+     "url": "https://www.hildesheimer-allgemeine.de/meldung/vor-derby-zwischen-braunschweig-und-hannover-96-polizei-haengt-40-plakate-in-hildesheim-ab.html",
+     "kind": "article",
+     "time": "2026-10-20T08:37:24Z"
+    }
+   ]
+  }
+ ]
+}
