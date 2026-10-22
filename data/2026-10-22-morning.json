@@ -1,0 +1,556 @@
+{
+  "id": "2026-10-22-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-22T08:30:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight since the evening brief (~19:30); X Following back to about 20:00",
+  "headline": "PHP2Shell was hit four days before the fix and now sees millions of attempts; GitLab and Railway add to the security night; Anthropic launches Claude Duet; US pulls staff from Saudi Arabia.",
+  "stories": [
+    {
+      "id": "php2shell-exploited-early",
+      "weight": "lead",
+      "title": "PHP2Shell was being exploited four days before the fix, and attacks are now in the millions",
+      "topics": [
+        "Security",
+        "Dev"
+      ],
+      "facts": [
+        "AWS says its MadPot honeypots logged a PHP2Shell exploit attempt on 17 October, four days before the embargo lifted, from an IP tied to a commercial anonymization network.",
+        "More attempts from several different anonymized sources hit AWS sensors between 04:00 and 10:00 Berlin on Wednesday, hours before the 16:00 release; AWS now calls it \"broadly exploited in the wild\".",
+        "AWS's advice: investigate from at least 17 October, not the disclosure date, and measure patch times for internet-facing systems in hours.",
+        "Cloudflare's Matthew Prince: thousands of attempts in the 10 hours before the announcement, tens of thousands in the 45 minutes after, and millions now.",
+        "Japan's Finance and Health ministries took parts of their websites offline to patch; the government says no damage has been reported.",
+        "Taylor Otwell says the Laravel team patched its products through the night and expects other languages to go through the same thing as agents get better at finding bugs."
+      ],
+      "whyItMatters": "Anyone who patched on Wednesday evening should still check logs from the 17th onwards: the embargo didn't stop everyone, and a patch is no proof nobody got in first.",
+      "image": null,
+      "sources": [
+        {
+          "label": "AWS Security Blog",
+          "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+          "kind": "primary"
+        },
+        {
+          "label": "WIRED",
+          "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+          "kind": "article",
+          "time": "2026-10-21T22:24:00-04:00"
+        },
+        {
+          "label": "Matthew Prince on X",
+          "url": "https://x.com/eastdakota/status/2113079352682570051",
+          "kind": "x",
+          "time": "2026-10-22T01:25:00Z"
+        },
+        {
+          "label": "The Mainichi",
+          "url": "https://mainichi.jp/english/articles/20261022/p2g/00m/0na/035000c",
+          "kind": "article"
+        },
+        {
+          "label": "Taylor Otwell on X",
+          "url": "https://x.com/taylorotwell/status/2113026873529930061",
+          "kind": "x",
+          "time": "2026-10-21T21:57:00Z"
+        }
+      ]
+    },
+    {
+      "id": "gitlab-railway",
+      "weight": "normal",
+      "title": "Same night: a CVSS 10 GitLab hole spanning 12 years, and Railway says customer secrets may have leaked",
+      "topics": [
+        "Security",
+        "Dev"
+      ],
+      "facts": [
+        "GitLab shipped critical patches 19.5.1, 19.4.3, 19.3.6, 19.2.9, 19.1.9, 19.0.10 and 18.11.13 and says every self-managed install should upgrade immediately; GitLab.com is already patched.",
+        "The flaw, CVE-2026-110264, is rated CVSS 10.0 and lets an attacker run code without logging in; affected versions go back to GitLab 7.0.",
+        "Railway detected unusual activity on systems that store customer environment variables; an attacker may have read encrypted variables and, for some, the decrypted values.",
+        "Railway believes it's part of a wave of attacks on platform companies aimed at stealing AI inference keys, has asked upstream providers to revoke keys, and tells all users to rotate their variables now.",
+        "Vercel says firewall rules for the separate Node.js Brotli RCE were live before the official patch; Bun says v1.4.4 carries its fix."
+      ],
+      "whyItMatters": "If you self-host GitLab or keep secrets in Railway, this is a today job: upgrade, then rotate API keys and database credentials.",
+      "image": {
+        "url": "https://images.ctfassets.net/hjgychtc108g/7yN2NWNMKATvOEAJJV6KiT/89b70b9945d807e6e3b483b4c3f31078/image__51_.png",
+        "alt": "Node.js security advisory: Brotli decoder RCE (CVE-2026-111497)",
+        "credit": "Vercel",
+        "creditUrl": "https://vercel.com/kb/bulletin/node-js-security-advisory"
+      },
+      "sources": [
+        {
+          "label": "GitLab",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+          "kind": "primary"
+        },
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+          "kind": "article"
+        },
+        {
+          "label": "Railway Blog",
+          "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+          "kind": "primary"
+        },
+        {
+          "label": "Vercel",
+          "url": "https://vercel.com/kb/bulletin/node-js-security-advisory",
+          "kind": "article",
+          "via": {
+            "label": "Vercel on X",
+            "url": "https://x.com/vercel_dev/status/2113048861526852004",
+            "kind": "x"
+          },
+          "time": "2026-10-21T23:24:00Z"
+        },
+        {
+          "label": "Bun on X",
+          "url": "https://x.com/bunjavascript/status/2113053969971138946",
+          "kind": "x",
+          "time": "2026-10-21T23:44:00Z"
+        }
+      ]
+    },
+    {
+      "id": "claude-duet",
+      "weight": "normal",
+      "title": "Anthropic launches Claude Duet, a proactive agent that works while you're away",
+      "topics": [
+        "AI",
+        "Tech"
+      ],
+      "facts": [
+        "Claude Duet is a research preview, by waitlist, for US Pro and Max subscribers; Team and Enterprise come later.",
+        "It's a separate app on iOS and Android plus claude.ai, and carries over your memory, skills and connected apps from Claude.",
+        "It runs on Claude Opus 5.5 in a virtual machine with its own browser, so it keeps working when your laptop or phone is off.",
+        "It checks your connected accounts every few hours, sends a morning brief, and asks before sending messages, paying, signing or deleting anything.",
+        "No extra charge in the preview, but its background checks count against your plan's usage limits; trading securities and moving money are off-limits.",
+        "The press frames it as Anthropic's answer to Meta's Muse and OpenAI's Dots."
+      ],
+      "image": {
+        "url": "https://claude.com/resources/articles/claude-duet/opengraph-image/og",
+        "alt": "Introducing Claude Duet",
+        "credit": "Claude",
+        "creditUrl": "https://claude.com/resources/articles/claude-duet"
+      },
+      "sources": [
+        {
+          "label": "Claude",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "kind": "primary"
+        },
+        {
+          "label": "Claude Help Center",
+          "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet",
+          "kind": "primary"
+        },
+        {
+          "label": "Claude on X",
+          "url": "https://x.com/claudeai/status/2112984664256241837",
+          "kind": "x",
+          "time": "2026-10-21T19:09:00Z"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html",
+          "kind": "article",
+          "time": "2026-10-21T21:42:54Z"
+        }
+      ]
+    },
+    {
+      "id": "saudi-houthi-iran",
+      "weight": "normal",
+      "title": "US pulls staff from Saudi Arabia after a deadly airport strike; NYT says new Iran strikes are planned for after the midterms",
+      "topics": [
+        "World"
+      ],
+      "facts": [
+        "The State Department ordered non-emergency staff and their families to leave Saudi Arabia, citing escalating attacks by the Iran-backed Houthis; it says the order covers Saudi Arabia only.",
+        "An attack on King Fahd International Airport in Dammam killed one person and injured eight; earlier, a drone attack near Aramco's Shaybah oilfield killed two.",
+        "Reuters cites US officials saying family members will also be withdrawn from other missions in the region.",
+        "The New York Times reports US and Israeli militaries have drawn up plans for a \"short but intensive\" round of strikes on Iran after the 3 November midterms.",
+        "CNBC says Brent crude topped $110 a barrel on the escalation."
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/6998/live/cec97250-cdb1-11f1-bc2e-018d645d8d21.jpg",
+        "alt": "Smoke and flames rise from King Khalid Airport, after Yemen's Iran-backed Houthis said they attacked the airport, in Riyadh, Saudi Arabia, October 8, 2026, in this screengrab obtained from a social media video",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/c6x2vpk93770o"
+      },
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html",
+          "kind": "article",
+          "time": "2026-10-22T04:26:00Z"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/c6x2vpk93770o",
+          "kind": "article",
+          "time": "2026-10-22T01:07:34Z"
+        },
+        {
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/commodities-news/exclusiveus-preparing-to-issue-ordered-departure-of-some-personnel-from-gulf-embassies--us-officials-4963834",
+          "kind": "article"
+        },
+        {
+          "label": "NYT",
+          "url": "https://nyti.ms/48dUCBL",
+          "kind": "article",
+          "via": {
+            "label": "NYT on X",
+            "url": "https://x.com/nytimes/status/2113053998013882683",
+            "kind": "x"
+          },
+          "time": "2026-10-21T23:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "tesla-q3",
+      "weight": "normal",
+      "title": "Tesla beats on EPS and cash flow, but profit falls 43% as AI and Optimus spending climbs",
+      "topics": [
+        "Tech",
+        "Markets"
+      ],
+      "facts": [
+        "Q3 revenue $28.05bn, flat on the year; non-GAAP EPS $0.48 beat estimates, GAAP net income fell 43% to $787m.",
+        "Operating income fell 56% to $718m (2.6% margin) as R&D jumped 69% to $2.76bn.",
+        "Free cash flow was $1.53bn, and full-year capex guidance was cut to $20bn from $25bn.",
+        "Optimus production started at Fremont; Musk says reaching 20,000 robots a week will take at least a year.",
+        "Tesla's new Robotaxi safety report claims 3.3 million autonomous miles with zero injuries or airbag deployments.",
+        "Shares rose about 2% after hours, then reversed to trade 2–3% lower."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Tesla Q3 update (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+          "kind": "primary"
+        },
+        {
+          "label": "Electrek",
+          "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+          "kind": "article"
+        },
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/tesla-q3-preview-delivery-outlook-cash-flow-and-a-dash-of-merger-speculation-on-tap-160637755.html",
+          "kind": "article"
+        },
+        {
+          "label": "Ashok Elluswamy",
+          "url": "https://www.tesla.com/robotaxi/safety",
+          "kind": "article",
+          "via": {
+            "label": "Ashok Elluswamy on X",
+            "url": "https://x.com/aelluswamy/status/2112981960880783781",
+            "kind": "x"
+          },
+          "time": "2026-10-21T18:58:00Z"
+        }
+      ]
+    },
+    {
+      "id": "meta-q3-25bn",
+      "weight": "normal",
+      "title": "Meta: a $25bn New Mexico penalty, a new non-voting share class, and capex up to $145bn",
+      "topics": [
+        "Tech",
+        "Markets"
+      ],
+      "facts": [
+        "A New Mexico judge ordered Meta to pay $25bn in the Cambridge Analytica-linked privacy case; the state had been awarded $219.5bn before the cut.",
+        "The jury had found more than 43 million violations of the state's unfair practices act, each carrying up to $5,000.",
+        "Q3 costs include a $9.89bn charge for the teen-harm settlement with 52 attorneys general.",
+        "Meta narrowed 2026 capex to $135–145bn and guides Q4 revenue to $73–76bn.",
+        "WSJ: Meta will split its stock by creating a new share class to fund AI spending."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+          "kind": "article"
+        },
+        {
+          "label": "Meta IR",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+          "kind": "primary"
+        },
+        {
+          "label": "WSJ",
+          "url": "https://www.wsj.com/articles/metaplatforms-meta-3q-earnings-report-2026-stock-f28d64c2",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-talks-strikes",
+      "weight": "normal",
+      "title": "Hours after both sides back three-way talks, Kyiv and Moscow trade heavy strikes",
+      "topics": [
+        "Europe",
+        "World"
+      ],
+      "facts": [
+        "Zelensky says Ukraine backs a US proposal for three-way talks at negotiator level as soon as possible; the Kremlin says Putin agreed in principle to resume after 10 November.",
+        "Missiles hit Kyiv early Thursday, wounding at least 15 and damaging subway infrastructure on the Southern Bridge.",
+        "Moscow's mayor says 630 drones were sent towards the region overnight, 163 of them at the capital.",
+        "A strike killed a woman in the Kharkiv region, and a drone hit energy infrastructure near Kremenchuk."
+      ],
+      "image": {
+        "url": "https://static.dw.com/image/79727535_6.jpg",
+        "alt": "Emergency responders are extinguishing a fire in a residential building that was destroyed during a Russian missile attack on Kyiv, Ukraine",
+        "credit": "DW",
+        "creditUrl": "https://www.dw.com/en/ukraine-russia-strikes-peace-talks/a-79727542"
+      },
+      "sources": [
+        {
+          "label": "DW",
+          "url": "https://www.dw.com/en/ukraine-russia-strikes-peace-talks/a-79727542",
+          "kind": "article"
+        },
+        {
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/world-news/russia-ukraine-exchange-strikes-as-us-envoy-leaves-after-talks-4964598",
+          "kind": "article"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cq3djn5nxx12o",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "qiagen-eqt",
+      "weight": "normal",
+      "title": "EQT bids €46.50 a share for Qiagen, about €9.6bn",
+      "topics": [
+        "Germany",
+        "Markets"
+      ],
+      "facts": [
+        "EQT Private Equity is offering €46.50 per Qiagen share in cash, about €9.6bn for the equity and roughly €10.8bn including debt.",
+        "Qiagen's boards recommend the voluntary offer; ADIA and CPP Investments are co-investors.",
+        "Conditions include a 50% plus one share minimum acceptance and regulatory approvals; closing is expected in mid-2027.",
+        "Qiagen also released preliminary Q3 numbers and suspended its 2026 outlook."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "EQT",
+          "url": "https://eqtgroup.com/news/qiagen-and-eqt-private-equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer-2026-10-21",
+          "kind": "primary"
+        },
+        {
+          "label": "Qiagen ad hoc (EQS)",
+          "url": "https://www.eqs-news.com/news/ad-hoc/qiagen-n-v-abschluss-einer-vereinbarung-ueber-einen-unternehmenszusammenschluss-mit-eqt-private-equity-vorlaeufige-ergebnisse-fuer-das-3-quartal-2026-und-aussetzung-des-ausblicks-fuer-2026/5227b334-4681-4e6a-897f-52e7e61994ad_de",
+          "kind": "primary"
+        },
+        {
+          "label": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/unternehmen/industrie/uebernahme-finanzinvestor-eqt-bietet-96-milliarden-euro-fuer-diagnostik-spezialisten-qiagen/100263809.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "weight": "brief",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "Pope Leo XIV needs no further treatment after last week's surgery to remove a cancerous growth from his lung, his doctors say.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Chrome will now ask for your approval before connecting to any plain HTTP site.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "GitHub says it has moved 99.99999% of its Git repositories to Azure, with a new write path for the last, busiest repos.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Sarah Guo: CVEs went from about 4,000 a month to about 15,000 since April.",
+          "sourceIndexes": [
+            3
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/a09d/live/89f335e0-cd88-11f1-b1e7-39558e114359.jpg",
+        "alt": "Pope Leo speaks into a microphone and raises his hand",
+        "credit": "BBC",
+        "creditUrl": "https://bbc.in/4zMc7Fh"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://bbc.in/4zMc7Fh",
+          "kind": "article",
+          "via": {
+            "label": "BBC on X",
+            "url": "https://x.com/BBCWorld/status/2113035325035380738",
+            "kind": "x"
+          },
+          "time": "2026-10-21T22:30:00Z"
+        },
+        {
+          "label": "Google Chrome on X",
+          "url": "https://x.com/googlechrome/status/2113013387903037518",
+          "kind": "x",
+          "time": "2026-10-21T21:03:00Z"
+        },
+        {
+          "label": "GitHub on X",
+          "url": "https://x.com/github/status/2112979782652813783",
+          "kind": "x",
+          "time": "2026-10-21T18:50:00Z"
+        },
+        {
+          "label": "Sarah Guo on X",
+          "url": "https://x.com/saranormous/status/2113122755235463277",
+          "kind": "x",
+          "time": "2026-10-22T04:18:00Z"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "weight": "brief",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Claude API version 2026-10-21 is out, the first official version since 2023; Anthropic plans more frequent versions, and 2023-06-01 isn't deprecated.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "VS Code 1.143 makes the Copilot SDK-based harness the default for new sessions and adds model comparisons.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Bun merged fixes for 7 regressions since 1.4.3 in bun install, bunx, bun patch and bun pm pack.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "musl libc: CVE-2026-107891, integer overflows in regcomp that can lead to out-of-bounds writes.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Google published a Rust style guide.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/49feb1bffe4ef6f09d09ec4d40e211339008aeded3fc0cdc8e01d020897093c7/oven-sh/bun/pull/46455",
+        "alt": "What does this PR do? Brings 7 open pull requests together on current main. Each fixes something that main does and Bun 1.4.3 does not. Nothing is rewritten: each is the squashed diff of that pull ...",
+        "credit": "bun #46455",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/46455"
+      },
+      "sources": [
+        {
+          "label": "ClaudeDevs on X",
+          "url": "https://x.com/ClaudeDevs/status/2113013247209021918",
+          "kind": "x",
+          "time": "2026-10-21T21:03:00Z"
+        },
+        {
+          "label": "VS Code 1.143",
+          "url": "https://code.visualstudio.com/updates/v1_143",
+          "kind": "primary"
+        },
+        {
+          "label": "bun #46455",
+          "url": "https://github.com/oven-sh/bun/pull/46455",
+          "kind": "primary"
+        },
+        {
+          "label": "oss-security",
+          "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
+          "kind": "primary"
+        },
+        {
+          "label": "Google Rust Style Guide",
+          "url": "https://google.github.io/styleguide/rustguide.html",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "weight": "brief",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "Warriors lose their season opener 127–105 at the Lakers; Curry scored 23 in 21 minutes, Dončić had 28 and Walker Kessler went 12-for-12.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig host Hannover 96 in the Lower Saxony derby on Sunday 25 October; Hannover will be without striker Lars Gindorf.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Walter_Schmidt_im_Eintracht_Braunschweig_Stadion_%282009%29.jpg/1920px-Walter_Schmidt_im_Eintracht_Braunschweig_Stadion_%282009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Hannover fehlt ausgerechnet jetzt der Knipser — Photo: limosa.agrimedia via Wikimedia Commons (CC BY 2.0)",
+        "credit": "Flagside",
+        "creditUrl": "https://flagside.football/de/news/hannover-96-offensivkrise-derby-braunschweig"
+      },
+      "sources": [
+        {
+          "label": "NBA.com",
+          "url": "https://www.nba.com/warriors/news/gameday-recap-20261021",
+          "kind": "primary"
+        },
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/lakers-warriors-score-walker-kessler-luka-doncic-1219ba05be604a8f1027afdeb8a8fbaa",
+          "kind": "article"
+        },
+        {
+          "label": "Flagside",
+          "url": "https://flagside.football/de/news/hannover-96-offensivkrise-derby-braunschweig",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
