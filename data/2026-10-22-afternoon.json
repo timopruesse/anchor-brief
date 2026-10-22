@@ -1,0 +1,345 @@
+{
+  "id": "2026-10-22-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-22T13:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning (~08:00)",
+  "headline": "Barclays cuts 5,000 jobs with AI as a driver, EA shuts BioWare and cancels the next Mass Effect, Capcom leaks 11.8 million account records, and the ICC wins the Sakharov Prize.",
+  "stories": [
+    {
+      "id": "barclays-5000-jobs-ai",
+      "title": "Barclays is cutting 5,000 jobs, about 5% of staff, and credits AI",
+      "topics": [
+        "Business",
+        "AI"
+      ],
+      "facts": [
+        "About 1,000 of the roles are already gone; the other 4,000 go before the end of the year.",
+        "Roughly 60% of the cuts hit support functions, including developers; most fall in the UK.",
+        "CFO Anna Cross tied the cuts to a plan to save more than £1.1bn in 2027.",
+        "CEO C.S. Venkatakrishnan called AI \"the icing on the cake\", not the cake: the gains come from years of infrastructure work.",
+        "Q3 profit was £2.3bn, up on the year but below forecasts as fixed-income trading underperformed."
+      ],
+      "whyItMatters": "One of the clearest cases yet of a big bank putting a number on AI-linked job cuts, and it explicitly includes developer roles.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4d20/live/5fb48ff0-622b-11f0-8e4a-613b923287ab.jpg",
+        "alt": "Barclays logo on a branch",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo",
+          "kind": "article",
+          "time": "2026-10-22T08:00:55Z",
+          "via": {
+            "label": "BBC Breaking on X",
+            "url": "https://x.com/BBCBreaking/status/2113182111616110873",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Sky News",
+          "url": "https://news.sky.com/story/barclays-cutting-5-000-jobs-in-ai-led-efficiency-drive-13602151",
+          "kind": "article"
+        },
+        {
+          "label": "The Guardian (live)",
+          "url": "https://www.theguardian.com/business/live/2026/oct/22/barclays-profits-jump-looming-bank-tax-french-bond-yields-hit-fresh-24-year-high-latest-live-updates",
+          "kind": "article"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
+          "kind": "article",
+          "time": "2026-10-22T07:41:09Z"
+        }
+      ],
+      "weight": "lead"
+    },
+    {
+      "id": "ea-closes-bioware",
+      "title": "EA shuts down BioWare and cancels the next Mass Effect",
+      "topics": [
+        "Gaming",
+        "Business"
+      ],
+      "facts": [
+        "EA is closing BioWare and its Edmonton office; a small team there was in early development on the next Mass Effect, which is cancelled.",
+        "About 400 jobs go, roughly 3% of EA's staff, also at Ripple Effect, Maxis and Skate studio Full Circle.",
+        "It's EA's first big move since going private in its $55bn sale to a group led by Saudi Arabia's sovereign wealth fund.",
+        "EA also paused a mobile multiplayer Sims game, has Respawn and DICE teaming up on Star Wars: Battlefront 3, and says Fight Night is coming back."
+      ],
+      "whyItMatters": "BioWare made Baldur's Gate, KOTOR, Mass Effect and Dragon Age; its closure signals the new owners are betting on fewer, bigger franchises.",
+      "image": null,
+      "sources": [
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/bioware-ea-electronic-arts-shutdown-mass-effect-6b6e5c930fe56dd2cd18985d89f6ef24",
+          "kind": "article",
+          "via": {
+            "label": "Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2113178583946465320",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Variety",
+          "url": "https://variety.com/2026/digital/news/ea-layoffs-bioware-shutting-down-respawn-dice-star-wars-battlefront-3-1236918715/",
+          "kind": "article"
+        },
+        {
+          "label": "GameSpot",
+          "url": "https://www.gamespot.com/articles/ea-kills-bioware-cancels-new-mass-effect-pauses-new-sims-game-and-all-the-other-big-ea-news-that-just-happened/",
+          "kind": "article"
+        },
+        {
+          "label": "San Francisco Chronicle",
+          "url": "https://www.sfchronicle.com/tech/article/ea-layoffs-saudi-jared-kushner-takeover-22488146.php",
+          "kind": "article"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "capcom-id-breach",
+      "title": "Capcom says 11.77 million CAPCOM ID records were accessed",
+      "topics": [
+        "Security",
+        "Gaming"
+      ],
+      "facts": [
+        "11,774,247 records with email addresses, account creation and last-login times, login counts and last-login IP were exposed.",
+        "For 43 accounts, birth date, gender, country and nickname leaked too; 196 accounts had their passwords changed by the attacker and have been reset.",
+        "Capcom says original passwords and credit-card data weren't affected; it spotted the access on 19 October and reported it to police on 21 October.",
+        "It warns of phishing mails pretending to be Capcom."
+      ],
+      "whyItMatters": "If you have a CAPCOM ID (for example for Street Fighter 6), expect convincing phishing to your registered address.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Capcom",
+          "url": "https://www.capcom.co.jp/ir/english/news/html/e261022.html",
+          "kind": "primary"
+        },
+        {
+          "label": "VGC",
+          "url": "https://www.videogameschronicle.com/news/capcom-says-a-data-breach-affected-more-than-11-million-capcom-id-accounts-credit-card-details-unaffected/",
+          "kind": "article"
+        },
+        {
+          "label": "Notebookcheck",
+          "url": "https://www.notebookcheck.net/Capcom-confirms-major-data-breach-affecting-more-than-11-7-million-Capcom-ID-accounts-worldwide.1431069.0.html",
+          "kind": "article",
+          "time": "2026-10-22T11:55:00+02:00"
+        },
+        {
+          "label": "IGN on X",
+          "url": "https://x.com/IGN/status/2113216548601057763",
+          "kind": "x",
+          "time": "2026-10-22T08:31:00Z"
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "sakharov-icc",
+      "title": "The EU Parliament gives the Sakharov Prize to the sanctioned International Criminal Court",
+      "topics": [
+        "Europe",
+        "World"
+      ],
+      "facts": [
+        "Parliament President Roberta Metsola announced the award in Strasbourg; it honours the court and its officials.",
+        "It comes weeks after the US imposed new ICC sanctions and moved to freeze the court's US assets.",
+        "Other finalists were Tanzanian opposition leader Tundu Lissu and Taraneh and Romina Rahimi for those persecuted by Iran's regime.",
+        "The €50,000 prize will be presented on 16 December."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/deutschland/internationaler-strafgerichtshof-erhaelt-sacharow-preis-a-bcedd1bb-4000-4f13-be52-99c22c0538e7",
+          "kind": "article",
+          "time": "2026-10-22T12:33:00+02:00"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/sacharow-preis-fuer-den-internationalen-strafgerichtshof-accg-201611600.html",
+          "kind": "article",
+          "time": "2026-10-22T12:28:00+02:00"
+        },
+        {
+          "label": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/ausland/sacharow-preis-internationaler-strafgerichtshof-100.html",
+          "kind": "article",
+          "via": {
+            "label": "ZDFheute on X",
+            "url": "https://x.com/ZDFheute/status/2113214540552777823",
+            "kind": "x"
+          }
+        }
+      ],
+      "weight": "normal"
+    },
+    {
+      "id": "worth-a-look",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "Meta faces an Australian class action in the Federal Court on behalf of children allegedly harmed by Facebook and Instagram; Meta says it will defend itself vigorously.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Saxony-Anhalt: ex-CDU group leader Guido Heuer says he won't leave the chamber when AfD's Ulrich Siegmund stands for premier in December, breaking with his group's walkout plan.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Fortnite is back on Apple's App Store in Australia after a federal court ordered Apple to open iOS to competition.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Chiricahua in Arizona, a sacred Apache site, is now the 64th US national park.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Eintracht Braunschweig: Hildesheim police took down about 40 \"Eintracht verrecke\" posters ahead of Sunday's derby against Hannover but found nothing criminal in them.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/meta-pledges-to-defend-ourselves-vigorously-against-australian-child-harm-lawsuit/0ok1lhsgt",
+          "kind": "article"
+        },
+        {
+          "label": "MDR",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/landtag-wahl-afd-ministerpraesident,heuer-cdu-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2293801/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1792657528",
+          "kind": "article",
+          "via": {
+            "label": "Engadget on X",
+            "url": "https://x.com/engadget/status/2113185843250659560",
+            "kind": "x"
+          },
+          "time": "2026-10-22T06:29:00Z"
+        },
+        {
+          "label": "Washington Post on X",
+          "url": "https://x.com/washingtonpost/status/2113201206575206635",
+          "kind": "x",
+          "time": "2026-10-22T07:30:00Z"
+        },
+        {
+          "label": "news38",
+          "url": "https://www.news38.de/sport/eintracht-braunschweig/article300715598/eintracht-braunschweig-hannover-derby-hassplakate-hildesheim-polizei.html",
+          "kind": "article"
+        }
+      ],
+      "weight": "brief"
+    },
+    {
+      "id": "dev-notes",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Bun v1.4.4 is out: 271 issues fixed, a Prettier-compatible `bun fmt`, `bun check` 1.4x to 7.8x faster, and security fixes including Brotli and TLS certs.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Bun also merged a change so node:http and node:http2 refuse the malformed requests Node refuses.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "OpenAI has an official Go CLI for its REST API (`openai/openai-cli`), covering Responses, image and speech generation, and Admin API key management.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Status pages flagged elevated ChatGPT and Responses API errors at OpenAI and connector errors at Anthropic this morning.",
+          "sourceIndexes": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Perplexity Computer can now run fully on a Mac with Qwen 3.6, no cloud needed (heise).",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Bun blog",
+          "url": "https://bun.com/blog/bun-v1.4.4",
+          "kind": "primary",
+          "via": {
+            "label": "Bun on X",
+            "url": "https://x.com/bunjavascript/status/2113213103660032209",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "oven-sh/bun #46456",
+          "url": "https://github.com/oven-sh/bun/pull/46456",
+          "kind": "primary",
+          "time": "2026-10-22T08:31:13Z"
+        },
+        {
+          "label": "openai/openai-cli",
+          "url": "https://github.com/openai/openai-cli",
+          "kind": "primary"
+        },
+        {
+          "label": "OpenAI Status",
+          "url": "https://status.openai.com/incidents/01M5GPE9C4E19HE461P8JAMYXD",
+          "kind": "primary",
+          "time": "2026-10-22T08:50:43Z"
+        },
+        {
+          "label": "Anthropic Status",
+          "url": "https://status.claude.com/incidents/wj6r4t6mxq1r",
+          "kind": "primary",
+          "time": "2026-10-22T08:07:03Z"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Perplexity-Computer-Lokale-Nutzung-mit-Qwen-3-6-auf-dem-Mac-11496128.html",
+          "kind": "article",
+          "time": "2026-10-22T10:17:00Z"
+        }
+      ],
+      "weight": "brief"
+    }
+  ]
+}
