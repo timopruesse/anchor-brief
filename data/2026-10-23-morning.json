@@ -1,0 +1,570 @@
+{
+ "id": "2026-10-23-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-23T08:40:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight since the evening brief (~19:50); X Following back to about 20:20",
+ "headline": "The AI spending bill hits tech with the Nasdaq's worst day since June; Moderna sinks despite strong melanoma vaccine data; Trump says Musk restored Ukraine's Starlink, Kyiv says not fully.",
+ "stories": [
+  {
+   "id": "tech-selloff",
+   "weight": "lead",
+   "title": "AI spending bill hits tech: Nasdaq has its worst day since June",
+   "topics": [
+    "Markets",
+    "AI",
+    "Tech"
+   ],
+   "facts": [
+    "Nasdaq fell 2.6% to 26,008.86 and the S&P 500 1.21% to 7,663.43; the Dow ended flat at 52,867.98.",
+    "Chip stocks took the hardest hit: the Philadelphia semiconductor index dropped 6.7%, Lam Research about 12% and Nvidia about 4%.",
+    "Meta fell about 7% after its first quarterly cash outflow in over a decade, $135–145bn of planned capex and a plan for non-voting Class C shares.",
+    "SpaceX slid about 9% and Nebius about 7%; CoreWeave bond yields climbed to around 15%.",
+    "Investors fled to safety: the 10-year Treasury yield dropped below 5% in its sharpest one-day fall in over three years, while oil hit its highest since May on the Iran war.",
+    "Forbes counts $130bn lost by the world's six richest people in a day, about $74bn of it Elon Musk's."
+   ],
+   "whyItMatters": "It's the clearest sign yet that markets are starting to charge AI builders for the cost of the buildout rather than reward it.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187",
+     "kind": "article"
+    },
+    {
+     "label": "Reuters via Investing.com (futures)",
+     "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180",
+     "kind": "article"
+    },
+    {
+     "label": "WSJ live coverage",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-22-2026",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2",
+     "kind": "article"
+    },
+    {
+     "label": "Forbes via Yahoo Finance",
+     "url": "https://uk.finance.yahoo.com/news/world-6-richest-lose-130-195130648.html",
+     "kind": "article"
+    },
+    {
+     "label": "Forbes",
+     "url": "https://go.forbes.com/H2Xo7b",
+     "kind": "article",
+     "via": {
+      "label": "Forbes on X",
+      "url": "https://x.com/Forbes/status/2113358505713225751",
+      "kind": "x"
+     },
+     "time": "2026-10-22T19:55:00Z"
+    }
+   ]
+  },
+  {
+   "id": "moderna-merck-melanoma",
+   "weight": "normal",
+   "title": "Moderna and Merck's cancer vaccine cuts melanoma recurrence by 42%, yet Moderna sinks",
+   "topics": [
+    "Health",
+    "Science",
+    "Markets"
+   ],
+   "facts": [
+    "Phase 3 INTerpath-001: intismeran plus Keytruda cut the risk of recurrence or death by 42% versus Keytruda alone (HR 0.58) in resected stage IIB–IV melanoma.",
+    "Distant metastasis or death fell 38%; about 82% were alive without recurrence at two years, versus 70% on Keytruda alone.",
+    "After the six-month vaccine regimen the benefit grew to a 58% reduction; overall survival data aren't mature yet.",
+    "Partial data leaked before release; Moderna fell as much as 25% and closed about 17–18% lower, Merck about 1.8%. Analysts blame sky-high expectations after the stock nearly quadrupled since August.",
+    "Full results go to the ESMO Presidential Symposium this weekend and The New England Journal of Medicine."
+   ],
+   "image": {
+    "url": "https://image.cnbcfm.com/api/v1/image/108447865-1792693574300-gettyimages-2298258077-TSCHNEIDER_73727_Moderna_P8989578.jpeg?v=1792693614&w=1920&h=1080",
+    "alt": "Moderna",
+    "credit": "CNBC",
+    "creditUrl": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html"
+   },
+   "sources": [
+    {
+     "label": "Merck",
+     "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/",
+     "kind": "primary",
+     "time": "2026-10-22T18:59:00Z"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+     "kind": "article",
+     "time": "2026-10-22T18:28:40Z"
+    },
+    {
+     "label": "BioPharma Dive",
+     "url": "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/",
+     "kind": "article"
+    },
+    {
+     "label": "Reuters via Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/merckmoderna-cancer-vaccine-cuts-melanoma-death-or-recurrence-risk-by-42-shares-fall-4967507",
+     "kind": "article"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://wapo.st/3TX2KU2",
+     "kind": "article",
+     "via": {
+      "label": "Washington Post on X",
+      "url": "https://x.com/washingtonpost/status/2113454113929269634",
+      "kind": "x"
+     },
+     "time": "2026-10-23T02:15:00Z"
+    }
+   ]
+  },
+  {
+   "id": "starlink-ukraine",
+   "weight": "normal",
+   "title": "Trump says Musk \"put it back\" on Ukraine's Starlink; Kyiv says not fully",
+   "topics": [
+    "Ukraine",
+    "World",
+    "Tech"
+   ],
+   "facts": [
+    "The WSJ reports Trump called Musk on Wednesday to ask him to lift the throttling of Ukraine's Starlink and Starshield service.",
+    "Trump wouldn't confirm the call but said: \"Bottom line, he put it back.\"",
+    "Zelensky said the military system's speed \"has not been restored to 400 [km/h] yet\"; a Ukrainian official said only some units saw improvement, and a European official told AP nothing had changed.",
+    "The administration and Rubio had denied asking for the restrictions, which came as Trump pressed Kyiv to stop hitting Russian refineries.",
+    "Finnish tech firms plan to help Ukraine build its own sovereign satellite system."
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/4438/live/13dc7b20-ce53-11f1-a7e5-1bf3b637cfc1.jpg",
+    "alt": "Trump says Musk has restored access to Ukraine's Starlink network",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/cq74pjpmx0e8o"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/cq74pjpmx0e8o",
+     "kind": "article"
+    },
+    {
+     "label": "WSJ",
+     "url": "https://www.wsj.com/world/trump-called-musk-and-asked-him-to-lift-ukraine-starlink-restrictions-5aeebc6e",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/starlink-starshield-ukraine-russia-trump-vance-musk-1a9279f37cfd4d2a65c8ce4cc3af6f41",
+     "kind": "article"
+    },
+    {
+     "label": "RFE/RL",
+     "url": "https://www.rferl.org/a/ukraine-russia-war-starlink-starshield-congress/33881387.html",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/23/ukraine-war-briefing-uncertainty-over-kyivs-starlink-access-after-trump-claims-musk-restored-service",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-proofs-auto-mode",
+   "weight": "normal",
+   "title": "Anthropic: Claude proves security properties at scale, auto mode goes default, GA on Google Cloud",
+   "topics": [
+    "AI",
+    "Dev"
+   ],
+   "facts": [
+    "With Theorem, Claude formally proved security properties in the compiled RISC-V code of 123 open-source libraries, which Anthropic calls the first large-scale effort of its kind.",
+    "Along the way it found bugs that had survived years and trillions of test runs.",
+    "From next week, Claude web, desktop and mobile run in auto mode by default on Pro, Max and Team: an automated check blocks risky actions instead of step-by-step approvals.",
+    "You can switch back to manual approval anytime.",
+    "Claude models on Google Cloud (Anthropic-managed) are now generally available, with Google Cloud IAM, billing and commitment retirement."
+   ],
+   "image": {
+    "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
+    "alt": "LLMs are making formal software verification feasible at a much larger scale",
+    "credit": "Anthropic",
+    "creditUrl": "https://www.anthropic.com/research/formal-verification"
+   },
+   "sources": [
+    {
+     "label": "Anthropic research",
+     "url": "https://www.anthropic.com/research/formal-verification",
+     "kind": "primary",
+     "via": {
+      "label": "Anthropic on X",
+      "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Claude blog",
+     "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+     "kind": "primary"
+    },
+    {
+     "label": "Claude on X (auto mode)",
+     "url": "https://x.com/claudeai/status/2113360845409583307",
+     "kind": "x",
+     "time": "2026-10-22T20:04:00Z"
+    },
+    {
+     "label": "Claude on X (Google Cloud)",
+     "url": "https://x.com/claudeai/status/2113380122468454765",
+     "kind": "x",
+     "time": "2026-10-22T21:21:00Z"
+    },
+    {
+     "label": "ClaudeDevs on X",
+     "url": "https://x.com/ClaudeDevs/status/2113381868364271743",
+     "kind": "x",
+     "time": "2026-10-22T21:28:00Z"
+    }
+   ]
+  },
+  {
+   "id": "security-night",
+   "weight": "normal",
+   "title": "Quest Diagnostics breach, an iPhone spyware delivery network, and Vercel's push against static keys",
+   "topics": [
+    "Security"
+   ],
+   "facts": [
+    "Quest Diagnostics told the SEC it found unauthorized access to its Quanum Lab Services Manager on Oct 21 and believes some patient records were accessed; scope is still unclear.",
+    "Quest paused that system and several other clinician tools as a precaution; it says operations weren't materially disrupted.",
+    "Researchers told Forbes hundreds of websites with tens of millions of monthly visits are unknowingly serving as a delivery network for iPhone spyware.",
+    "Vercel surveyed 1,000+ SaaS vendors and found only 8.4% support secure machine auth; it's expanding OIDC, publishing an OIDC UI registry and setting auth requirements for Marketplace providers."
+   ],
+   "image": {
+    "url": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/4uDkSSA0pg2MjjoecBZkEn/13267551d5cc5dde67b857df686ab474/eliminating_long-lived_static_credentials_og_card.jpg",
+    "alt": "Death to long-lived static credentials",
+    "credit": "Vercel",
+    "creditUrl": "https://vercel.com/blog/death-to-long-lived-static-credentials"
+   },
+   "sources": [
+    {
+     "label": "Quest 8-K via StreetInsider",
+     "url": "https://www.streetinsider.com/SEC+Filings/Form+8-K+QUEST+DIAGNOSTICS+INC+For%3A+Oct+21/27218632.html",
+     "kind": "primary"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/quest-cyber-breach-82dbe1fa6ba06cf6514bc16f73e64fe1",
+     "kind": "article"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/business/2026/10/22/major-medical-lab-operator-believes-cyber-breach-exposed-patient-records/",
+     "kind": "article"
+    },
+    {
+     "label": "Forbes",
+     "url": "https://www.forbes.com/sites/thomasbrewster/2026/10/22/apple-iphone-hacks-via-infected-websites/",
+     "kind": "article"
+    },
+    {
+     "label": "Vercel",
+     "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
+     "kind": "primary",
+     "via": {
+      "label": "Vercel on X",
+      "url": "https://x.com/vercel/status/2113397272943976560",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tibet-quake-champi-ebola",
+   "weight": "normal",
+   "title": "Deadly Tibet quake, Taiwan shuts down for Typhoon Champi, Ebola trail leads to Entebbe",
+   "topics": [
+    "World"
+   ],
+   "facts": [
+    "A magnitude 7.0 quake hit Baqên County in Tibet's Nagqu region overnight: at least 16 dead, 65 injured, 339 homes collapsed and over 12,400 people relocated.",
+    "Taiwan cancelled all 262 domestic flights for Typhoon Champi; nationwide cancellations reached 977 flights, 596 of them at Taoyuan by 9am.",
+    "Africa CDC is checking whether the first Ebola patients in Nigeria and Kenya crossed paths at Uganda's Entebbe airport on 3 October; no link is established.",
+    "Kenya has nine confirmed infections and one death; Nigeria has its first case in over a decade."
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/d9bb/live/35523df0-ce6f-11f1-a64c-550be9e3c66b.jpg",
+    "alt": "Powerful earthquake in Tibet's Nagqu area leaves 16 dead",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/ck5ynd1z6e83o"
+   },
+   "sources": [
+    {
+     "label": "BBC (Tibet)",
+     "url": "https://www.bbc.com/news/articles/ck5ynd1z6e83o",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4jDjWZ1",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2113500574108762328",
+      "kind": "x"
+     },
+     "time": "2026-10-23T03:19:00Z"
+    },
+    {
+     "label": "CNA (Champi)",
+     "url": "https://www.channelnewsasia.com/east-asia/typhoon-champi-approaches-taiwan-flights-cancelled-6484571",
+     "kind": "article"
+    },
+    {
+     "label": "Central News Agency Taiwan",
+     "url": "https://www.cna.com.tw/news/ahel/202610230051.aspx",
+     "kind": "article"
+    },
+    {
+     "label": "BBC (Ebola)",
+     "url": "https://www.bbc.com/news/articles/cmwy4wlzqz3zo",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "quad9-france",
+   "weight": "normal",
+   "title": "Quad9 will pull its free DNS out of France rather than block sports-piracy domains",
+   "topics": [
+    "Tech",
+    "Europe"
+   ],
+   "facts": [
+    "A French court ruled for beIN, ordering Quad9 to block DNS resolution of domains beIN says pirate its sports broadcasts.",
+    "The court cut the penalty from €580,000 to €1,000 a day, but Quad9 says it won't lie about DNS answers as a matter of principle.",
+    "The Swiss nonprofit will stop serving users in France from Tuesday, 24 November."
+   ],
+   "image": {
+    "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/8/7/6/6/3/friday-72c6e67e52e791d6.webp?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+    "alt": "heise Friday news roundup",
+    "credit": "heise online",
+    "creditUrl": "https://www.heise.de/news/Freitag-Quad9-Rueckzug-nach-Zensur-Urteil-Stellenstreichungen-bei-Qualcomm-11497654.html"
+   },
+   "sources": [
+    {
+     "label": "Quad9",
+     "url": "https://quad9.net/news/blog/au-revoir-france/",
+     "kind": "primary"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Freitag-Quad9-Rueckzug-nach-Zensur-Urteil-Stellenstreichungen-bei-Qualcomm-11497654.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "OpenAI is reportedly raising up to $30bn at a $1.25tn pre-money valuation, led by Coatue and UAE investors; CNBC says Anthropic eyes $1.5–2tn for its IPO.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "A Meta filing shows directors refused to let Zuckerberg keep absolute control if he sold stock; the compromise is non-voting Class C shares.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Amazon dropped its planned Loudoun County data centers after resident opposition and will donate 25 acres for an arts center.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Warhound, from Ben Lamm and Palmer Luckey, raised $200m at a $1.2bn valuation to genetically engineer working dogs for the military.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Raye won the Mercury Prize for This Music May Contain Hope.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Tom Skerritt, known for M*A*S*H, Alien and Steel Magnolias, has died at 93.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "YouTube is moving Subscriptions out of the mobile bottom bar as it launches custom feeds.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/10/Warhound.png?resize=1200,675",
+    "alt": "Warhound",
+    "credit": "TechCrunch",
+    "creditUrl": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/"
+   },
+   "sources": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+     "kind": "article",
+     "time": "2026-10-22T22:08:24Z"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/technology/2026/10/22/meta-filing-reveals-dispute-between-ceo-mark-zuckerberg-its-board/",
+     "kind": "article"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/dc-md-va/2026/10/22/amazon-wont-build-data-centers-loudoun-county-deal-with-local-leaders/",
+     "kind": "article"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
+     "kind": "article",
+     "time": "2026-10-22T23:15:00Z"
+    },
+    {
+     "label": "BBC Breaking",
+     "url": "https://bbc.in/4yzpmYU",
+     "kind": "article",
+     "via": {
+      "label": "BBC Breaking on X",
+      "url": "https://x.com/BBCBreaking/status/2113384660893917630",
+      "kind": "x"
+     },
+     "time": "2026-10-22T21:39:00Z"
+    },
+    {
+     "label": "New York Times",
+     "url": "https://www.nytimes.com/2026/10/22/arts/television/tom-skerritt-dead.html",
+     "kind": "article"
+    },
+    {
+     "label": "9to5Google",
+     "url": "https://9to5google.com/2026/10/22/youtube-subscriptions-android-ios/",
+     "kind": "article",
+     "time": "2026-10-22T22:05:06Z"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Arc is sunsetting on 22 December 2026; new accounts are closed and The Browser Company points members to Dia, with a data export in the latest Arc.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "A proof of concept for Node's Brotli bug (CVE-2026-111497) only reached code execution on a weakened build; no exploitation in the wild is reported.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Colin McDonnell teased Reylo, a relational loader that will hit 1.0 alongside TypeScript 7.1 stable.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Chrome's HTML-in-Canvas API lets you render live, accessible HTML inside 3D scenes.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Playwright PR stops Chromium making startup requests to Google.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Bun PR adds a --use-openssl-ca flag.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://arc.net/farewell/og.png",
+    "alt": "A farewell to Arc",
+    "credit": "Arc",
+    "creditUrl": "https://arc.net/"
+   },
+   "sources": [
+    {
+     "label": "Arc",
+     "url": "https://arc.net/",
+     "kind": "primary",
+     "via": {
+      "label": "Cassidy Williams on X",
+      "url": "https://x.com/cassidoo/status/2113370371781197893",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+     "kind": "article"
+    },
+    {
+     "label": "Colin McDonnell on X",
+     "url": "https://x.com/colinhacks/status/2113371067574272495",
+     "kind": "x",
+     "time": "2026-10-22T20:45:00Z"
+    },
+    {
+     "label": "Chrome for Developers",
+     "url": "https://goo.gle/4dV0Km1",
+     "kind": "article",
+     "via": {
+      "label": "Chrome for Developers on X",
+      "url": "https://x.com/ChromiumDev/status/2113373699860836666",
+      "kind": "x"
+     },
+     "time": "2026-10-22T20:55:00Z"
+    },
+    {
+     "label": "playwright #43571",
+     "url": "https://github.com/microsoft/playwright/pull/43571",
+     "kind": "primary"
+    },
+    {
+     "label": "bun #46542",
+     "url": "https://github.com/oven-sh/bun/pull/46542",
+     "kind": "primary"
+    }
+   ]
+  }
+ ]
+}
