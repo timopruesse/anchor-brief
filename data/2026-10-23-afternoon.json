@@ -1,0 +1,554 @@
+{
+  "id": "2026-10-23-afternoon",
+  "edition": "afternoon",
+  "generatedAt": "2026-10-23T13:15:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since this morning (~08:00); X Following back to about 08:00",
+  "headline": "A Hebron checkpoint attack prompts West Bank lockdown plans four days before Israel votes; PHP2Shell still leaves 34 million systems open; leaked emails put Weidel under pressure.",
+  "stories": [
+    {
+      "id": "west-bank-lockdown",
+      "weight": "lead",
+      "title": "Hebron checkpoint attack: five Israelis wounded, Netanyahu orders West Bank lockdown prep days before the election",
+      "topics": [
+        "World",
+        "Israel"
+      ],
+      "facts": [
+        "Two suspected Palestinian gunmen opened fire at a checkpoint at the entrance to Hebron on Friday morning; five Israelis were wounded, two critically, and both attackers were killed.",
+        "Israel's military says the pair intended a larger attack on Route 35; CNN reports the army will impose a full siege on Hebron.",
+        "Netanyahu ordered preparations for a full lockdown of the West Bank from Friday.",
+        "It comes four days before Israel's election and amid settler violence during the olive harvest."
+      ],
+      "whyItMatters": "A West Bank-wide closure right before the vote would hit Palestinian movement and the economy hard and could escalate violence on both sides.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/a095/live/c39c9a30-cec7-11f1-b9e0-e5f0da03dc7f.jpg",
+        "alt": "Scene of the Hebron checkpoint attack",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/cq4g1p974wxko"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cq4g1p974wxko",
+          "kind": "article",
+          "time": "2026-10-23T09:25:00Z"
+        },
+        {
+          "label": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/ausland/israel-netanjahu-abriegelung-westjordanland-100.html",
+          "kind": "article",
+          "time": "2026-10-23T10:30:00+02:00"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/3UMLEsd",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2113552846599729331",
+            "kind": "x"
+          },
+          "time": "2026-10-23T08:47:21Z"
+        }
+      ]
+    },
+    {
+      "id": "php2shell-linux-leak",
+      "weight": "normal",
+      "title": "PHP2Shell: 34 million systems still unpatched, Berlin rates it critical; plus leaked unpatched Linux kernel bugs",
+      "topics": [
+        "Security"
+      ],
+      "facts": [
+        "Golem reports over 34 million systems are still vulnerable to PHP2Shell, about 82% unpatched.",
+        "Germany's Federal Digital Ministry rates the incident as critical; state secretary Markus Richter says it's checking whether data leaked.",
+        "Laravel's team reminds anyone who updated PHP to update the laravel/mcp package too.",
+        "Separately, Trend Micro's ZDI accidentally copied several unpatched Linux kernel bug reports to public mailing lists; the worst are two ksmbd remote code execution flaws rated CVSS 9.0.",
+        "Only machines running the in-kernel SMB server (ksmbd) are exposed to those two; fixes sit in maintainer trees, with no CVE or fixed release yet."
+      ],
+      "whyItMatters": "If you run PHP sites, patching is still the main job; the kernel bugs matter mainly for NAS-style boxes that serve SMB via ksmbd.",
+      "image": {
+        "url": "https://opengraph.githubassets.com/b6f129275fe4050b3ad85d849a7e28a040d80dc581ddafd7d670aa9313cb7027/laravel/mcp/security/advisories/GHSA-m25c-38v7-94p8",
+        "alt": "### Summary The `laravel/mcp` MCP client's OAuth integration could send OAuth requests, including client credentials, to an untrusted server. ### Details The MCP client's OAuth integratio...",
+        "credit": "Dries Vints",
+        "creditUrl": "https://github.com/laravel/mcp/security/advisories/GHSA-m25c-38v7-94p8"
+      },
+      "sources": [
+        {
+          "label": "Golem",
+          "url": "https://www.golem.de/news/82-prozent-ungepatcht-ueber-34-millionen-systeme-noch-anfaellig-fuer-php2shell-2610-214437.html",
+          "kind": "article",
+          "time": "2026-10-23T10:15:00Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/nOTAOCH",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113540111690318070",
+            "kind": "x"
+          },
+          "time": "2026-10-23T07:56:44Z"
+        },
+        {
+          "label": "Dries Vints",
+          "url": "https://github.com/laravel/mcp/security/advisories/GHSA-m25c-38v7-94p8",
+          "kind": "article",
+          "via": {
+            "label": "Dries Vints on X (RT)",
+            "url": "https://x.com/driesvints/status/2113542545032749289",
+            "kind": "x"
+          },
+          "time": "2026-10-23T08:06:25Z"
+        },
+        {
+          "label": "Phoronix",
+          "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+          "kind": "article"
+        },
+        {
+          "label": "pwn.watch",
+          "url": "https://pwn.watch/i/linux-kernel-zdi-reports-leaked-to-lkml",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "afd-leak-weidel",
+      "weight": "normal",
+      "title": "AfD leak: emails contradict Weidel on the 2017 Swiss donations; 23,000 first-time voters' addresses inside",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "facts": [
+        "NDR/WDR and ZDF report a July 2017 email from Weidel's account saying donations had been 'announced' to her.",
+        "Four days later 18 transfers from Switzerland, about €132,000, started arriving with the reference 'Wahlkampfspende Alice Weidel Social Media'; in 2018 she said she only learned of them weeks later.",
+        "Weidel's spokesman says she doesn't revise any of her statements.",
+        "ZEIT says the leak also holds names and addresses of more than 23,000 first-time voters, including minors.",
+        "Saxony-Anhalt's Tobias Rausch says he's ready to give up his role as AfD general secretary."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau (NDR/WDR)",
+          "url": "https://www.tagesschau.de/investigativ/ndr-wdr/afd-leak-weidel-100.html",
+          "kind": "article",
+          "time": "2026-10-23T10:03:00+02:00"
+        },
+        {
+          "label": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/weidel-afd-spenden-affaere-leaks-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2113552118225453297",
+          "kind": "x",
+          "time": "2026-10-23T08:44:27Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/tOnLaKS",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113574096231440794",
+            "kind": "x"
+          },
+          "time": "2026-10-23T10:11:47Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/VHbkw5Q",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113574090606821790",
+            "kind": "x"
+          },
+          "time": "2026-10-23T10:11:46Z"
+        }
+      ]
+    },
+    {
+      "id": "europe-heat-deaths",
+      "weight": "normal",
+      "title": "Study: this summer's heat killed about 50,000 people in Europe's cities, two-thirds due to climate change",
+      "topics": [
+        "Climate",
+        "Science"
+      ],
+      "facts": [
+        "Imperial College researchers estimate 50,391 heat-related excess deaths in 854 European cities from June to August 2026.",
+        "About two-thirds of those deaths are attributed to human-caused warming.",
+        "The cities cover about 40% of Europe's population and May's heatwaves aren't counted, so the total is likely an underestimate.",
+        "The 854 cities averaged about 2.4°C above the 1991–2020 summer norm."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Imperial College London (report)",
+          "url": "https://spiral.imperial.ac.uk/entities/publication/09e3197e-f841-4869-be02-66dfcd7fb8ea",
+          "kind": "primary"
+        },
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/killer-heat-climate-change-europe-deaths-d57dac06335203107caba8ae6ef67185",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://wapo.st/4iBgm0s",
+          "kind": "article",
+          "via": {
+            "label": "The Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2113556071444824171",
+            "kind": "x"
+          },
+          "time": "2026-10-23T09:00:10Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-cell-sites",
+      "weight": "normal",
+      "title": "SpaceX wants 80,000 US cell sites for Starlink Mobile; carriers slide, tower stocks jump",
+      "topics": [
+        "Business",
+        "Telecom"
+      ],
+      "facts": [
+        "Bloomberg reports SpaceX aims to secure at least 80,000 US cell sites and is in talks with Crown Castle, among others.",
+        "That's about half of the 158,500 purpose-built US towers; TD Cowen puts a nationwide terrestrial network at more than $80bn.",
+        "AT&T, Verizon and T-Mobile fell 3–5% after hours and premarket, while Crown Castle (+7%) and American Tower (+6%) rose.",
+        "Crown Castle's CEO would only say they're 'talking to all parties'; Bloomberg says deals could be worth billions."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Bloomberg via Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/articles/spacex-talks-access-80-000-213142634.html",
+          "kind": "article"
+        },
+        {
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/spacex-seeks-access-to-80000-us-cell-sites-for-wireless-network-bloomberg-news-reports-4967805",
+          "kind": "article"
+        },
+        {
+          "label": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/spacex-cellsite-ambitions-lift-tower-stocks-and-weigh-on-carriers-4968593",
+          "kind": "article"
+        },
+        {
+          "label": "Forbes",
+          "url": "https://go.forbes.com/V3Mam7",
+          "kind": "article",
+          "via": {
+            "label": "Forbes on X",
+            "url": "https://x.com/forbes/status/2113563610056135128",
+            "kind": "x"
+          },
+          "time": "2026-10-23T09:30:07Z"
+        }
+      ]
+    },
+    {
+      "id": "us-energy-dpa",
+      "weight": "normal",
+      "title": "Trump invokes the Defense Production Act for oil refining as a Russian diesel tanker heads to the US",
+      "topics": [
+        "World",
+        "Energy"
+      ],
+      "facts": [
+        "A Trump memo issued Thursday under the 1950 Defense Production Act deems petroleum production and refining essential to national defense.",
+        "ZEIT cites ship-tracking data showing the diesel delivery Trump agreed with Putin apparently going ahead, with a Russian ship on course for the US."
+      ],
+      "image": {
+        "url": "https://static.time.com/v3/assets/bltea6093859af6183b/blte584c636698a5197/6adb3027290ea833fd6995f8/gas_prices.jpg?branch=production&width=1024&quality=75&auto=webp&crop=16:9",
+        "alt": "gas prices.jpg",
+        "credit": "TIME",
+        "creditUrl": "https://time.com/article/2026/10/23/defense-production-act-memorandum-oil-gas-diesel-energy-us-iran/"
+      },
+      "sources": [
+        {
+          "label": "TIME",
+          "url": "https://time.com/article/2026/10/23/defense-production-act-memorandum-oil-gas-diesel-energy-us-iran/",
+          "kind": "article",
+          "time": "2026-10-23T10:15:00Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/53My5Uw",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113574082885120339",
+            "kind": "x"
+          },
+          "time": "2026-10-23T10:11:44Z"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "weight": "brief",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "Greece will ban social media for under-15s from 1 January 2027.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "VW's union and works council demand the company withdraw its terminations; IG Metall threatens resistance 'bigger than anything' ahead of Friday's talks.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Austria is expelling four Russian diplomats.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Three in four Germans reject abolishing the 'Rente mit 63', and the coalition's plan has no majority.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Elon Musk put another $77M into a super PAC, Forbes reports.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Monet's 'Iris' set a record for a French auction.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Pope Leo XIV cancels a trip to Assisi after lung surgery.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Hugging Face says it has sold more than 4,000 MicroDuck robots.",
+          "sourceIndexes": [
+            7
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/t5RMCFI",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113574086278263159",
+            "kind": "x"
+          },
+          "time": "2026-10-23T10:11:45Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/mSjaPWc",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113559947824828676",
+            "kind": "x"
+          },
+          "time": "2026-10-23T09:15:34Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/9MKJyos",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113565613897416905",
+            "kind": "x"
+          },
+          "time": "2026-10-23T09:38:05Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/ScrhAks",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113523112184561968",
+            "kind": "x"
+          },
+          "time": "2026-10-23T06:49:11Z"
+        },
+        {
+          "label": "Forbes",
+          "url": "https://go.forbes.com/N7LnFi",
+          "kind": "article",
+          "via": {
+            "label": "Forbes on X",
+            "url": "https://x.com/forbes/status/2113517053436944814",
+            "kind": "x"
+          },
+          "time": "2026-10-23T06:25:07Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/d8l2PsT",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113559938320490919",
+            "kind": "x"
+          },
+          "time": "2026-10-23T09:15:31Z"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2113580786909868189",
+          "kind": "x",
+          "time": "2026-10-23T10:38:22Z"
+        },
+        {
+          "label": "Thom Wolf on X",
+          "url": "https://x.com/Thom_Wolf/status/2113578676189044827",
+          "kind": "x",
+          "time": "2026-10-23T10:29:59Z"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "weight": "brief",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Anthropic is donating Agent Skills (name, logo, GitHub org and agentskills.io) to the Agentic AI Foundation under the Linux Foundation; the format is supported by more than 70 platforms including ChatGPT, Cursor, Copilot and VS Code.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Vite now respects build.sourcemap set per environment.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Bun now builds with Bun 1.4.4 and Node.js 26.12.1, and upgraded its WebKit.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Fyra Labs debunks 'faster than Rust' claims for the Tov language, calling its benchmarks malicious.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "alt": "Donating Agent Skills to the Agentic AI Foundation",
+        "credit": "Anthropic",
+        "creditUrl": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+      },
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "kind": "primary"
+        },
+        {
+          "label": "vitejs/vite#23879",
+          "url": "https://github.com/vitejs/vite/pull/23879",
+          "kind": "primary"
+        },
+        {
+          "label": "oven-sh/bun#46533",
+          "url": "https://github.com/oven-sh/bun/pull/46533",
+          "kind": "primary"
+        },
+        {
+          "label": "oven-sh/bun#46279",
+          "url": "https://github.com/oven-sh/bun/pull/46279",
+          "kind": "primary"
+        },
+        {
+          "label": "Fyra Labs",
+          "url": "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov/",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "weight": "brief",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "Eintracht Braunschweig: security concerns ahead of the Hannover 96 derby; Neue Presse reports the home game will be played without fans.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "49ers: CBS Sports has them on upset alert against the Falcons.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Warriors: after a blowout loss to the Lakers, an NBA champion voiced concern that Stephen Curry looked 'depressed'.",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Neue Presse",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOY3lvUFd5bVpTbl9XbzlVZ3J6MHZhY1pRTzRxa1pCaUdpMmJkQ2dNcTRfS0FLWmdpR2dodl9wODdka1dQZ0thdWtSTl9oSGhfb0dDUGEwaElmMHl5ZlZqU2hvajBOTDZRR19GT0hKZ1FodmIyTWpUWUFUdEFtV0UyRXhxTXNuTDc2NkVPa2hnY0xvOTl3UWNtMk51QlpuZHJCUXVISy1xNE5ENEt3VFd6RERNanRPTHM1b3Y0SV9hN0xRQ2sydUxFcm81UUlPaFQwaktaLU94YVpHQ0IxSFJiZ1ZFdHlVVjNt?oc=5",
+          "kind": "article",
+          "time": "2026-10-23T10:02:34+00:00"
+        },
+        {
+          "label": "AOL / CBS Sports",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yMDdELXFGLTN6cGpPUnl3cGY4SFhyNWhBVUt3SXo0TTNYSS1FMElEdXRLeENWVExQSDhLcnRZU2ltWjNqa3Y5amYtZGNKWWVzQWtaTHpSTmhwUWR0WV9KSkdwVkp0ZTlVdGhvYllvTjRuT2gzYm90QW5IQQ?oc=5",
+          "kind": "article",
+          "time": "2026-10-23T10:30:52+00:00"
+        },
+        {
+          "label": "BasketballNews.com",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPd3I1Y0duMEtOUUI5VkdtSnlYVVNXWnBRaUxRT1dRcXdkbFI4Q0VPeFlHTHVFdVpjRFVYUXpRZklOYndhdy1CS1dPMTJfbXJ4VmdkT1N2VnpEN0RMMmE1aFdMbFdHT1RfeW0zckMyY0VrU0ZRdEpVS0t0TGp0YjBrd0pNcnVfUE5zdHRpZFFfR1BzRmVRd2VQYXBYNzZZUWQ1MHJOWVRXZWcyczJvbVV4WDRMa0xlYnZNUjdpcmtfUHMyUjlHaGlBanBaR09BV2hmWkpULTBfOHVSYkxETENhdTE3bGRvckU0YTFCdHNjVEF2Qk1IOVdMWGRrcllVUHdBNFRB?oc=5",
+          "kind": "article",
+          "time": "2026-10-23T10:19:59+00:00"
+        }
+      ]
+    }
+  ]
+}
