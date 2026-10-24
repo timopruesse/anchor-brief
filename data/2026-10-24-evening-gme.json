@@ -1,0 +1,835 @@
+{
+ "id": "2026-10-24-evening-gme",
+ "parentId": "2026-10-24-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-24T19:45:00+02:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:55 Saturday)",
+ "headline": "Quiet Saturday: GME still at Friday's $24.82, no IR news, all three voices silent since this morning",
+ "disclaimer": "News desk for a personal watchlist — not investment advice. Superstonk is community sentiment, not reporting.",
+ "stance": "bearish",
+ "stanceWhy": "Markets are closed; the last print is Friday's $24.82 close near the day's low with no company news, and the 30 October expiry of the $32 warrants is the only scheduled event.",
+ "quote": {
+  "symbol": "GME",
+  "name": "GameStop Corporation",
+  "price": 24.82,
+  "change": -0.57,
+  "changePct": -2.245,
+  "currency": "USD",
+  "dayHigh": 25.61,
+  "dayLow": 24.685,
+  "prevClose": 25.39,
+  "volume": 8323275,
+  "week52High": 28.3,
+  "week52Low": 17.79,
+  "asOf": "2026-10-23T20:00:03+00:00",
+  "source": {
+   "label": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/quote/GME/"
+  }
+ },
+ "sparkline": [
+  {
+   "t": "2026-04-24",
+   "c": 24.95
+  },
+  {
+   "t": "2026-04-27",
+   "c": 25.41
+  },
+  {
+   "t": "2026-04-28",
+   "c": 25.09
+  },
+  {
+   "t": "2026-04-29",
+   "c": 24.52
+  },
+  {
+   "t": "2026-04-30",
+   "c": 24.95
+  },
+  {
+   "t": "2026-05-01",
+   "c": 26.53
+  },
+  {
+   "t": "2026-05-04",
+   "c": 23.84
+  },
+  {
+   "t": "2026-05-05",
+   "c": 24.23
+  },
+  {
+   "t": "2026-05-06",
+   "c": 25.17
+  },
+  {
+   "t": "2026-05-07",
+   "c": 23.97
+  },
+  {
+   "t": "2026-05-08",
+   "c": 24.28
+  },
+  {
+   "t": "2026-05-11",
+   "c": 23.17
+  },
+  {
+   "t": "2026-05-12",
+   "c": 22.37
+  },
+  {
+   "t": "2026-05-13",
+   "c": 22.08
+  },
+  {
+   "t": "2026-05-14",
+   "c": 21.61
+  },
+  {
+   "t": "2026-05-15",
+   "c": 21.59
+  },
+  {
+   "t": "2026-05-18",
+   "c": 21.91
+  },
+  {
+   "t": "2026-05-19",
+   "c": 22.1
+  },
+  {
+   "t": "2026-05-20",
+   "c": 22.55
+  },
+  {
+   "t": "2026-05-21",
+   "c": 22.49
+  },
+  {
+   "t": "2026-05-22",
+   "c": 21.96
+  },
+  {
+   "t": "2026-05-26",
+   "c": 21.91
+  },
+  {
+   "t": "2026-05-27",
+   "c": 21.68
+  },
+  {
+   "t": "2026-05-28",
+   "c": 21.68
+  },
+  {
+   "t": "2026-05-29",
+   "c": 21.18
+  },
+  {
+   "t": "2026-06-01",
+   "c": 21.36
+  },
+  {
+   "t": "2026-06-02",
+   "c": 20.92
+  },
+  {
+   "t": "2026-06-03",
+   "c": 22.18
+  },
+  {
+   "t": "2026-06-04",
+   "c": 22.27
+  },
+  {
+   "t": "2026-06-05",
+   "c": 21.8
+  },
+  {
+   "t": "2026-06-08",
+   "c": 22.26
+  },
+  {
+   "t": "2026-06-09",
+   "c": 22.28
+  },
+  {
+   "t": "2026-06-10",
+   "c": 22.42
+  },
+  {
+   "t": "2026-06-11",
+   "c": 22.18
+  },
+  {
+   "t": "2026-06-12",
+   "c": 21.77
+  },
+  {
+   "t": "2026-06-15",
+   "c": 21.74
+  },
+  {
+   "t": "2026-06-16",
+   "c": 21.46
+  },
+  {
+   "t": "2026-06-17",
+   "c": 21.51
+  },
+  {
+   "t": "2026-06-18",
+   "c": 21.52
+  },
+  {
+   "t": "2026-06-22",
+   "c": 21.14
+  },
+  {
+   "t": "2026-06-23",
+   "c": 21.08
+  },
+  {
+   "t": "2026-06-24",
+   "c": 21.44
+  },
+  {
+   "t": "2026-06-25",
+   "c": 21.01
+  },
+  {
+   "t": "2026-06-26",
+   "c": 21.76
+  },
+  {
+   "t": "2026-06-29",
+   "c": 22.03
+  },
+  {
+   "t": "2026-06-30",
+   "c": 22.08
+  },
+  {
+   "t": "2026-07-01",
+   "c": 22.64
+  },
+  {
+   "t": "2026-07-02",
+   "c": 22.82
+  },
+  {
+   "t": "2026-07-06",
+   "c": 22.76
+  },
+  {
+   "t": "2026-07-07",
+   "c": 22.2
+  },
+  {
+   "t": "2026-07-08",
+   "c": 21.7
+  },
+  {
+   "t": "2026-07-09",
+   "c": 21.95
+  },
+  {
+   "t": "2026-07-10",
+   "c": 21.68
+  },
+  {
+   "t": "2026-07-13",
+   "c": 22.03
+  },
+  {
+   "t": "2026-07-14",
+   "c": 22.43
+  },
+  {
+   "t": "2026-07-15",
+   "c": 22.26
+  },
+  {
+   "t": "2026-07-16",
+   "c": 21.92
+  },
+  {
+   "t": "2026-07-17",
+   "c": 21.89
+  },
+  {
+   "t": "2026-07-20",
+   "c": 21.76
+  },
+  {
+   "t": "2026-07-21",
+   "c": 21.79
+  },
+  {
+   "t": "2026-07-22",
+   "c": 21.6
+  },
+  {
+   "t": "2026-07-23",
+   "c": 21.35
+  },
+  {
+   "t": "2026-07-24",
+   "c": 21.17
+  },
+  {
+   "t": "2026-07-27",
+   "c": 21.52
+  },
+  {
+   "t": "2026-07-28",
+   "c": 22.16
+  },
+  {
+   "t": "2026-07-29",
+   "c": 21.84
+  },
+  {
+   "t": "2026-07-30",
+   "c": 21.88
+  },
+  {
+   "t": "2026-07-31",
+   "c": 21.72
+  },
+  {
+   "t": "2026-08-03",
+   "c": 19.06
+  },
+  {
+   "t": "2026-08-04",
+   "c": 19.21
+  },
+  {
+   "t": "2026-08-05",
+   "c": 19.01
+  },
+  {
+   "t": "2026-08-06",
+   "c": 19.23
+  },
+  {
+   "t": "2026-08-07",
+   "c": 19.16
+  },
+  {
+   "t": "2026-08-10",
+   "c": 18.79
+  },
+  {
+   "t": "2026-08-11",
+   "c": 18.82
+  },
+  {
+   "t": "2026-08-12",
+   "c": 18.54
+  },
+  {
+   "t": "2026-08-13",
+   "c": 18.57
+  },
+  {
+   "t": "2026-08-14",
+   "c": 18.66
+  },
+  {
+   "t": "2026-08-17",
+   "c": 18.4
+  },
+  {
+   "t": "2026-08-18",
+   "c": 17.95
+  },
+  {
+   "t": "2026-08-19",
+   "c": 18.03
+  },
+  {
+   "t": "2026-08-20",
+   "c": 18.04
+  },
+  {
+   "t": "2026-08-21",
+   "c": 18.21
+  },
+  {
+   "t": "2026-08-24",
+   "c": 18.04
+  },
+  {
+   "t": "2026-08-25",
+   "c": 18.09
+  },
+  {
+   "t": "2026-08-26",
+   "c": 17.97
+  },
+  {
+   "t": "2026-08-27",
+   "c": 18.25
+  },
+  {
+   "t": "2026-08-28",
+   "c": 17.87
+  },
+  {
+   "t": "2026-08-31",
+   "c": 18.38
+  },
+  {
+   "t": "2026-09-01",
+   "c": 18.81
+  },
+  {
+   "t": "2026-09-02",
+   "c": 18.97
+  },
+  {
+   "t": "2026-09-03",
+   "c": 19.23
+  },
+  {
+   "t": "2026-09-04",
+   "c": 19.16
+  },
+  {
+   "t": "2026-09-08",
+   "c": 18.89
+  },
+  {
+   "t": "2026-09-09",
+   "c": 19.89
+  },
+  {
+   "t": "2026-09-10",
+   "c": 20.39
+  },
+  {
+   "t": "2026-09-11",
+   "c": 21.15
+  },
+  {
+   "t": "2026-09-14",
+   "c": 21.62
+  },
+  {
+   "t": "2026-09-15",
+   "c": 21.44
+  },
+  {
+   "t": "2026-09-16",
+   "c": 21.98
+  },
+  {
+   "t": "2026-09-17",
+   "c": 22.77
+  },
+  {
+   "t": "2026-09-18",
+   "c": 22.64
+  },
+  {
+   "t": "2026-09-21",
+   "c": 22.76
+  },
+  {
+   "t": "2026-09-22",
+   "c": 24.03
+  },
+  {
+   "t": "2026-09-23",
+   "c": 24.2
+  },
+  {
+   "t": "2026-09-24",
+   "c": 25.02
+  },
+  {
+   "t": "2026-09-25",
+   "c": 23.39
+  },
+  {
+   "t": "2026-09-28",
+   "c": 23.96
+  },
+  {
+   "t": "2026-09-29",
+   "c": 23.76
+  },
+  {
+   "t": "2026-09-30",
+   "c": 24.65
+  },
+  {
+   "t": "2026-10-01",
+   "c": 24.11
+  },
+  {
+   "t": "2026-10-02",
+   "c": 24.7
+  },
+  {
+   "t": "2026-10-05",
+   "c": 25.24
+  },
+  {
+   "t": "2026-10-06",
+   "c": 24.76
+  },
+  {
+   "t": "2026-10-07",
+   "c": 24.58
+  },
+  {
+   "t": "2026-10-08",
+   "c": 25.28
+  },
+  {
+   "t": "2026-10-09",
+   "c": 26.56
+  },
+  {
+   "t": "2026-10-12",
+   "c": 27.23
+  },
+  {
+   "t": "2026-10-13",
+   "c": 27.22
+  },
+  {
+   "t": "2026-10-14",
+   "c": 27.15
+  },
+  {
+   "t": "2026-10-15",
+   "c": 28.02
+  },
+  {
+   "t": "2026-10-16",
+   "c": 26.81
+  },
+  {
+   "t": "2026-10-19",
+   "c": 26.44
+  },
+  {
+   "t": "2026-10-20",
+   "c": 26.47
+  },
+  {
+   "t": "2026-10-21",
+   "c": 26.29
+  },
+  {
+   "t": "2026-10-22",
+   "c": 25.39
+  },
+  {
+   "t": "2026-10-23",
+   "c": 24.82
+  }
+ ],
+ "voices": [
+  {
+   "handle": "ryancohen",
+   "userId": "1146058067244486656",
+   "name": "Ryan Cohen",
+   "role": "CEO",
+   "lastPostAt": "2026-10-23T19:05:05Z",
+   "lastPostUrl": "https://x.com/ryancohen/status/2113708304627335353",
+   "lastPostText": "Hiring builders obsessed with SI.\n\nta@gamestop.com",
+   "quiet": false
+  },
+  {
+   "handle": "larryvc",
+   "userId": "26281090",
+   "name": "Larry Cheng",
+   "role": "Board",
+   "lastPostAt": "2026-10-23T16:59:00Z",
+   "lastPostUrl": "https://x.com/larryvc/status/2113676667004874989",
+   "lastPostText": "This is a sad and avoidable outcome driven by the underwriting philosophy of VCs.",
+   "quiet": true
+  },
+  {
+   "handle": "TheRoaringKitty",
+   "userId": "2902349190",
+   "name": "Roaring Kitty",
+   "role": "Community",
+   "lastPostAt": "2025-01-23T01:00:36Z",
+   "lastPostUrl": "https://x.com/TheRoaringKitty/status/1882231930021949446",
+   "lastPostText": null,
+   "quiet": true
+  }
+ ],
+ "cohen": {
+  "handle": "ryancohen",
+  "userId": "1146058067244486656",
+  "name": "Ryan Cohen",
+  "role": "CEO",
+  "lastPostAt": "2026-10-23T19:05:05Z",
+  "lastPostUrl": "https://x.com/ryancohen/status/2113708304627335353",
+  "lastPostText": "Hiring builders obsessed with SI.\n\nta@gamestop.com",
+  "quiet": false
+ },
+ "community": {
+  "asOf": "2026-10-24T19:17:25.647203+02:00",
+  "windowHours": 24,
+  "totals": {
+   "posts": 10,
+   "withOutbound": 3
+  },
+  "byKind": {
+   "dd": 0,
+   "daily": 1,
+   "news": 2,
+   "junk": 7
+  },
+  "posts": [
+   {
+    "title": "$GME Daily Directory | New? Start Here! | Discussion, DRS Guide, DD Library, Monthly Forum, and FAQs",
+    "subreddit": "Superstonk",
+    "permalink": "https://www.reddit.com/r/Superstonk/comments/1xe2tta/gme_daily_directory_new_start_here_discussion_drs/",
+    "url": "https://fliphtml5.com/bookcase/kosyg",
+    "updated": "2026-10-24T08:00:49+00:00",
+    "kind": "daily"
+   },
+   {
+    "title": "Max Pain, Volume and OI Data, every day until MOASS AND/or western society collapses — 10/23/2026",
+    "subreddit": "Superstonk",
+    "permalink": "https://www.reddit.com/r/Superstonk/comments/1xdvlom/max_pain_volume_and_oi_data_every_day_until_moass/",
+    "url": "https://marketchameleon.com/Overview/GME/IV/",
+    "updated": "2026-10-24T01:16:19+00:00",
+    "kind": "news"
+   },
+   {
+    "title": "I was doing some morning research and came across DFV's statement again. The Testimony of Keith Patrick Gill.",
+    "subreddit": "Superstonk",
+    "permalink": "https://www.reddit.com/r/Superstonk/comments/1xebtw6/i_was_doing_some_morning_research_and_came_across/",
+    "url": "https://s.wsj.net/public/resources/documents/gillremarks.pdf",
+    "updated": "2026-10-24T15:39:43+00:00",
+    "kind": "news"
+   },
+   {
+    "title": "Stock > warrants 10/23/26",
+    "subreddit": "Superstonk",
+    "permalink": "https://www.reddit.com/r/Superstonk/comments/1xdux1l/stock_warrants_102326/",
+    "url": null,
+    "updated": "2026-10-24T00:41:06+00:00",
+    "kind": "junk"
+   },
+   {
+    "title": "I don't know why Borat has become a main character in /r/Superstonk/ ...",
+    "subreddit": "Superstonk",
+    "permalink": "https://www.reddit.com/r/Superstonk/comments/1xdyf9j/i_dont_know_why_borat_has_become_a_main_character/",
+    "url": null,
+    "updated": "2026-10-24T03:45:18+00:00",
+    "kind": "junk"
+   },
+   {
+    "title": "I gotta feeling, esp with Vlad's interview regarding tokens!",
+    "subreddit": "Superstonk",
+    "permalink": "https://www.reddit.com/r/Superstonk/comments/1xdyowi/i_gotta_feeling_esp_with_vlads_interview/",
+    "url": null,
+    "updated": "2026-10-24T03:59:54+00:00",
+    "kind": "junk"
+   }
+  ],
+  "history": [
+   {
+    "date": "2026-10-08",
+    "posts": 1,
+    "dd": 0,
+    "daily": 0,
+    "news": 1,
+    "junk": 0
+   },
+   {
+    "date": "2026-10-09",
+    "posts": 10,
+    "dd": 0,
+    "daily": 0,
+    "news": 0,
+    "junk": 10
+   },
+   {
+    "date": "2026-10-10",
+    "posts": 10,
+    "dd": 0,
+    "daily": 0,
+    "news": 2,
+    "junk": 8
+   },
+   {
+    "date": "2026-10-11",
+    "posts": 10,
+    "dd": 0,
+    "daily": 0,
+    "news": 1,
+    "junk": 9
+   },
+   {
+    "date": "2026-10-12",
+    "posts": 10,
+    "dd": 0,
+    "daily": 0,
+    "news": 0,
+    "junk": 10
+   },
+   {
+    "date": "2026-10-13",
+    "posts": 10,
+    "dd": 0,
+    "daily": 0,
+    "news": 1,
+    "junk": 9
+   },
+   {
+    "date": "2026-10-14",
+    "posts": 10,
+    "dd": 0,
+    "daily": 0,
+    "news": 2,
+    "junk": 8
+   },
+   {
+    "date": "2026-10-15",
+    "posts": 10,
+    "dd": 0,
+    "daily": 0,
+    "news": 0,
+    "junk": 10
+   },
+   {
+    "date": "2026-10-19",
+    "posts": 10,
+    "dd": 0,
+    "daily": 1,
+    "news": 1,
+    "junk": 8
+   },
+   {
+    "date": "2026-10-20",
+    "posts": 7,
+    "dd": 0,
+    "daily": 0,
+    "news": 0,
+    "junk": 7
+   },
+   {
+    "date": "2026-10-21",
+    "posts": 10,
+    "dd": 0,
+    "daily": 0,
+    "news": 0,
+    "junk": 10
+   },
+   {
+    "date": "2026-10-22",
+    "posts": 8,
+    "dd": 0,
+    "daily": 0,
+    "news": 1,
+    "junk": 7
+   },
+   {
+    "date": "2026-10-23",
+    "posts": 7,
+    "dd": 0,
+    "daily": 0,
+    "news": 0,
+    "junk": 7
+   },
+   {
+    "date": "2026-10-24",
+    "posts": 10,
+    "dd": 0,
+    "daily": 1,
+    "news": 2,
+    "junk": 7
+   }
+  ]
+ },
+ "stories": [
+  {
+   "id": "weekend-quiet",
+   "weight": "lead",
+   "title": "Weekend pause: no new GME news since the morning",
+   "topics": [
+    "GME",
+    "IR"
+   ],
+   "facts": [
+    "Markets are closed for the weekend, so the quote is still Friday's $24.82 close (−2.2%).",
+    "No new release on investor.gamestop.com today; the $32 warrants expiring 30 October remain the only scheduled event.",
+    "Superstonk's last 24 hours are mostly low-signal chatter; the only news-type posts are an options max-pain data post and a repost of the DFV testimony PDF."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/quote/GME/",
+     "kind": "primary"
+    },
+    {
+     "label": "GameStop IR",
+     "url": "https://investor.gamestop.com/overview/default.aspx",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "voices",
+   "weight": "brief",
+   "title": "Voices",
+   "topics": [
+    "GME",
+    "X"
+   ],
+   "facts": [
+    {
+     "text": "Ryan Cohen hasn't posted since Friday evening's \"Hiring builders obsessed with SI,\" already covered this morning.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Larry Cheng is also quiet since Friday, and Roaring Kitty remains silent since January 2025.",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Ryan Cohen on X",
+     "url": "https://x.com/ryancohen/status/2113708304627335353",
+     "kind": "x",
+     "time": "2026-10-23T19:05:05Z"
+    },
+    {
+     "label": "Larry Cheng on X",
+     "url": "https://x.com/larryvc/status/2113676667004874989",
+     "kind": "x",
+     "time": "2026-10-23T16:59:00Z"
+    },
+    {
+     "label": "Roaring Kitty on X",
+     "url": "https://x.com/TheRoaringKitty/status/1882231930021949446",
+     "kind": "x",
+     "time": "2025-01-23T01:00:36Z"
+    }
+   ]
+  }
+ ]
+}
