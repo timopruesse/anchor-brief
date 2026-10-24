@@ -1,0 +1,600 @@
+{
+  "id": "2026-10-24-evening",
+  "edition": "evening",
+  "generatedAt": "2026-10-24T19:45:00+02:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since the morning edition (~08:55 Saturday)",
+  "headline": "France's second protest Saturday stays mostly calm in Paris under 70,000 police, Ukraine's Starlink is back to full speed, and Kim Jong-un crosses into China",
+  "stories": [
+    {
+      "id": "france-protest-day",
+      "weight": "lead",
+      "title": "France's second protest Saturday: 70,000 police, tear gas in Lyon, Paris mostly calm",
+      "topics": [
+        "Europe",
+        "France"
+      ],
+      "facts": [
+        "More than 70,000 police were deployed across Paris, Marseille and other cities, with drones and helicopters overhead.",
+        "Many demonstrations were banned or restricted; in Lyon police used tear gas.",
+        "Protests in Paris stayed largely peaceful, while other cities saw violent clashes, ZEIT reports.",
+        "The yellow vests are already announcing further protests.",
+        "Limoges' burnt-out city hall from last week's riots has become the symbol of the unrest; two men are in custody over the fire.",
+        "Hundreds of people have already been jailed after fast-track hearings, the BBC reports."
+      ],
+      "whyItMatters": "The movement began over underfunded schools in the Paris suburbs and has widened into broader anger about social and economic injustice, and FAZ notes that nowhere is the debt situation as acute as in France.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/8f26/live/2a059180-cf74-11f1-aaa0-39a3560003e9.jpg",
+        "alt": "Three male workers, two on ladders, boarding up a shop front on the Champs-Elysees in Paris.",
+        "credit": "BBC News",
+        "creditUrl": "https://bbc.in/4iBSee5"
+      },
+      "sources": [
+        {
+          "label": "Washington Post",
+          "url": "https://wapo.st/47CUdsC",
+          "kind": "article",
+          "via": {
+            "label": "Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2114016586281439589",
+            "kind": "x",
+            "time": "2026-10-24T15:30:00Z"
+          }
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/9f2yk1z",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113947560775663622",
+            "kind": "x"
+          },
+          "time": "2026-10-24T10:55:00Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/kvwecpz",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2114038160644575715",
+            "kind": "x"
+          },
+          "time": "2026-10-24T16:55:00Z"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://bbc.in/4iBSee5",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2113902435597000709",
+            "kind": "x",
+            "time": "2026-10-24T07:56:00Z"
+          }
+        },
+        {
+          "label": "BBC News",
+          "url": "https://bbc.in/47xEUBr",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2113904586872205379",
+            "kind": "x",
+            "time": "2026-10-24T08:05:00Z"
+          }
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/RqXTuKs",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113970172209856582",
+            "kind": "x"
+          },
+          "time": "2026-10-24T12:25:00Z"
+        },
+        {
+          "label": "Washington Post",
+          "url": "https://wapo.st/4euQbpP",
+          "kind": "article",
+          "via": {
+            "label": "Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2113918453253804310",
+            "kind": "x",
+            "time": "2026-10-24T09:00:00Z"
+          }
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/frankreich-steht-am-kipppunkt-nicht-nur-wegen-der-proteste-accg-201615089.html?utm_term=Autofeed&campID=SCL-EAu2500002683&utm_medium=Social&utm_source=Twitter#Echobox=1792859802",
+          "kind": "article",
+          "via": {
+            "label": "FAZ on X",
+            "url": "https://x.com/faznet/status/2114037742623465626",
+            "kind": "x"
+          },
+          "time": "2026-10-24T16:54:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-starlink-restored",
+      "weight": "normal",
+      "title": "Ukraine says Starlink is back to full speed",
+      "topics": [
+        "Ukraine",
+        "Tech"
+      ],
+      "facts": [
+        "Kyiv says its Starlink connection is \"now stable\" after a week of limits that hit military and drone operations.",
+        "Defence Minister Yevhenii Khmara says speeds above 400 km/h are possible again; under the limits drones lost connection above 161 km/h.",
+        "Ukraine says access to both Starlink and Starshield has resumed; the outage had hampered its strike campaign on occupied territory, the Washington Post reports.",
+        "Trump had denied ordering the limits, then said Musk \"put it back\"; on Friday Kyiv still called service throttled."
+      ],
+      "whyItMatters": "Ukraine's front-line drones and logistics lean on Starlink, so this closes the gap Kyiv flagged in yesterday's evening edition.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/6049/live/9c0d0c10-cf9a-11f1-b441-2b33b063138f.jpg",
+        "alt": "A close up of a Ukranian soldier surrounded by computer screens",
+        "credit": "BBC News",
+        "creditUrl": "https://bbc.in/3W5Zrui"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://bbc.in/3W5Zrui",
+          "kind": "article"
+        },
+        {
+          "label": "Zelensky on X",
+          "url": "https://x.com/ZelenskyyUa/status/2113990281322221932",
+          "kind": "x"
+        },
+        {
+          "label": "Washington Post",
+          "url": "https://wapo.st/4kf64V2",
+          "kind": "article",
+          "via": {
+            "label": "Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2114031680432292142",
+            "kind": "x",
+            "time": "2026-10-24T16:30:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kim-china-bridge",
+      "weight": "normal",
+      "title": "Kim Jong-un crosses the new Yalu bridge into China",
+      "topics": [
+        "Asia"
+      ],
+      "facts": [
+        "Kim visited China for the first time in over a year, the NYT reports.",
+        "He travelled to the border city of Dandong over a recently opened bridge.",
+        "The visit falls on the anniversary of China's entry into the Korean War.",
+        "The NYT calls it a possible sign of deepening ties."
+      ],
+      "whyItMatters": "A leader visit over a newly opened border crossing points to closer links between Pyongyang and Beijing.",
+      "image": null,
+      "sources": [
+        {
+          "label": "New York Times",
+          "url": "https://nyti.ms/4spbSxo",
+          "kind": "article",
+          "via": {
+            "label": "New York Times on X",
+            "url": "https://x.com/nytimes/status/2113984129926603161",
+            "kind": "x"
+          },
+          "time": "2026-10-24T13:21:00Z"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/sAhB95N",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113913628420141118",
+            "kind": "x"
+          },
+          "time": "2026-10-24T08:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": "us-diplomats-iran-plots",
+      "weight": "normal",
+      "title": "US quietly moves diplomats out of Middle East posts over Iranian plots",
+      "topics": [
+        "Middle East",
+        "USA"
+      ],
+      "facts": [
+        "The US is moving some diplomats and their families from posts in several Middle Eastern countries, CNN reports.",
+        "Intelligence chief Jay Clayton warned in a memo to Secretary of State Rubio that Iran is trying harder to target US personnel.",
+        "It follows this week's ordered departure of non-emergency embassy staff from Saudi Arabia after escalating Houthi attacks."
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/e7aa/live/f0f44f00-cf67-11f1-8bee-01389bd440f4.jpg",
+        "alt": "Jay Clayton gestures with his right hand",
+        "credit": "BBC News",
+        "creditUrl": "https://bbc.in/4dUATul"
+      },
+      "sources": [
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/47ya9fH",
+          "kind": "article",
+          "time": "2026-10-23T20:50:23Z"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://bbc.in/4dUATul",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2113902081329287489",
+            "kind": "x",
+            "time": "2026-10-24T07:55:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "serbia-election",
+      "weight": "normal",
+      "title": "Student movement takes Vučić to the wire in Serbia's election",
+      "topics": [
+        "Europe"
+      ],
+      "facts": [
+        "The Student List grew out of anti-corruption protests after the Novi Sad canopy collapse killed 16 people.",
+        "Faculty assemblies picked 250 candidates, headed by Novi Sad professor Ilija Srdanović.",
+        "Reliable polls are scarce, but analysts expect an extremely tight vote, the BBC reports.",
+        "ZEIT writes the election could revolutionize Serbia's political system, or push it further toward autocracy."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://bbc.in/4BnmxwF",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2113920969068736569",
+            "kind": "x",
+            "time": "2026-10-24T09:10:00Z"
+          }
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/I5mJsC2",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113933387668877551",
+            "kind": "x"
+          },
+          "time": "2026-10-24T09:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ai-run-intrusions",
+      "weight": "normal",
+      "title": "Ransomware affiliates ran intrusions through AI agents; 70,000 firewall credentials exposed",
+      "topics": [
+        "Security"
+      ],
+      "facts": [
+        "SOCRadar found INC and The Gentlemen affiliates using an AI kill-chain framework, \"Phantom\", against an estimated 62 organizations.",
+        "A human approves each step; the intrusions run through OpenCode with commercial models hosted on OpenRouter.",
+        "Separately, Group-IB and NyxLab report a campaign by an actor called k0t against FortiGate and GlobalProtect devices that exposed more than 70,000 credentials, with links to Qilin and The Gentlemen.",
+        "LiveOverflow hacked his own still-vulnerable WordPress blog with PHP2Shell and found no PHP2Shell probes from anyone else in his logs."
+      ],
+      "whyItMatters": "Edge devices remain the front door, and the AI tooling now does the legwork once a human picks the target.",
+      "image": null,
+      "sources": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+          "kind": "article"
+        },
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+          "kind": "article"
+        },
+        {
+          "label": "LiveOverflow",
+          "url": "https://raisistance.com",
+          "kind": "article",
+          "via": {
+            "label": "LiveOverflow on X",
+            "url": "https://x.com/LiveOverflow/status/2114001168401883464",
+            "kind": "x"
+          },
+          "time": "2026-10-24T14:28:00Z"
+        }
+      ]
+    },
+    {
+      "id": "tech-policy",
+      "weight": "normal",
+      "title": "Greece bans social media under 15; Meta pauses its scraping terms",
+      "topics": [
+        "Tech",
+        "Europe"
+      ],
+      "facts": [
+        "Greece's parliament passed a social media ban for under-15s, taking effect 1 January 2027, with anonymous age checks.",
+        "Greece is among the first EU countries with such a ban and chose not to wait for EU rules.",
+        "Meta delayed controversial new business terms that were due 30 October, amid scraping concerns.",
+        "The UK set up an AI Biosecurity Lab with about $134 million, backed by OpenAI, Anthropic and Google, Engadget reports."
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Griechenland-verbietet-soziale-Medien-fuer-unter-15-Jaehrige-11499195.html",
+          "kind": "article",
+          "time": "2026-10-24T16:46:00+02:00"
+        },
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
+          "kind": "article",
+          "time": "2026-10-24T10:18:15Z"
+        },
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2296211/the-uk-is-investing-134-million-into-an-ai-biosecurity-lab/",
+          "kind": "article",
+          "time": "2026-10-24T16:11:53Z"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "weight": "brief",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Astral shipped an experimental uv and ty integration, including a unified `uv check` command.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Jarred Sumner says a Claude Code build compiled with Bun AOT sat at 267 MB of RAM with 67 active subagents.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Svelte for native desktop apps has appeared, built on Svelte's experimental custom renderer API.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "A Git 2.56 benchmark finds `last-modified` fast on one directory but slower than the loop it replaces on scattered files.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "TypeScript merged a fix to stop resolving mapped type members to find their signatures; Playwright added a SwiftShader WebGL fallback for Electron.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Astral",
+          "url": "https://astral.sh/blog/uv-ty-integration",
+          "kind": "primary"
+        },
+        {
+          "label": "Jarred Sumner on X",
+          "url": "https://x.com/jarredsumner/status/2113933905300742383",
+          "kind": "x",
+          "time": "2026-10-24T10:01:00Z"
+        },
+        {
+          "label": "Simon H (dummdidumm_) on X",
+          "url": "https://x.com/dummdidumm_/status/2113924395378831736",
+          "kind": "x",
+          "time": "2026-10-24T09:23:00Z"
+        },
+        {
+          "label": "DEV Community on X",
+          "url": "https://x.com/ThePracticalDev/status/2114018078317015109",
+          "kind": "x",
+          "time": "2026-10-24T15:36:00Z"
+        },
+        {
+          "label": "microsoft/TypeScript #64873",
+          "url": "https://github.com/microsoft/TypeScript/pull/64873",
+          "kind": "primary",
+          "time": "2026-10-24T16:37:24Z"
+        },
+        {
+          "label": "microsoft/playwright #43615",
+          "url": "https://github.com/microsoft/playwright/pull/43615",
+          "kind": "primary",
+          "time": "2026-10-24T17:04:32Z"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "weight": "brief",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "Asked to pick candidates, Grok's model chose Republicans and OpenAI's chose Democrats; in a Convovo study the two disagreed in over 90% of nearly 500 races.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Block released Dessa, a full-duplex voice model that it says runs locally on a MacBook M4 Max.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "A 65-year-old woman, a close relative of the first victim, is Kenya's second Ebola death; seven others are in treatment, all in one cluster.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Bayern coach Vincent Kompany is in stable condition, says Max Eberl, but the club expects him to be out for weeks.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "California voters may impose the world's first tax on billionaires, the BBC reports.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Clocks go back tonight: summer time ends at 3:00, which becomes 2:00.",
+          "sourceIndexes": [
+            5
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/8d0b/live/15946bd0-cf39-11f1-a003-d5e5a8cb108b.jpg",
+        "alt": "A female medical worker checks the temperature of a male traveller with a scanner at the Malaba crossing-point between Kenya and Uganda on 8 October",
+        "credit": "BBC News",
+        "creditUrl": "https://bbc.in/4BGJ5c3"
+      },
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+          "kind": "article",
+          "time": "2026-10-24T15:00:00Z"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+          "kind": "article",
+          "time": "2026-10-24T16:00:00Z"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://bbc.in/4BGJ5c3",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2113933546037399556",
+            "kind": "x",
+            "time": "2026-10-24T10:00:00Z"
+          }
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/8qCavhg",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2113924891275649341",
+            "kind": "x"
+          },
+          "time": "2026-10-24T09:25:00Z"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://bbc.in/4BnwN7X",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2113900259696935031",
+            "kind": "x",
+            "time": "2026-10-24T07:47:00Z"
+          }
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/rhein-main/region-und-hessen/zeitumstellung-warum-der-sommer-laenger-hell-sein-sollte-201249854.html?utm_term=Autofeed&campID=SCL-EAu2500002683&utm_medium=Social&utm_source=Twitter#Echobox=1792835584",
+          "kind": "article",
+          "via": {
+            "label": "FAZ on X",
+            "url": "https://x.com/faznet/status/2113933395365351792",
+            "kind": "x"
+          },
+          "time": "2026-10-24T09:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "weight": "brief",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "BVB and Eintracht Frankfurt were goalless at half-time at the Westfalenstadion; the result lands after this edition.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Frankfurt's keeper denied Serhou Guirassy with a standout save in the first half, WELT reports.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Steve Kerr accused the Grizzlies of flopping and said referees \"bought into it\".",
+          "sourceIndexes": [
+            2
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "Borussia Dortmund on X",
+          "url": "https://x.com/BVB/status/2114043307018117145",
+          "kind": "x",
+          "time": "2026-10-24T17:16:00Z"
+        },
+        {
+          "label": "WELT (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcTE0WlhHc3RkMTZ0QjBvZkc0d05oeUFJM2Y0MUc3aFVSQUxyN2N6TU1EWUQyTmdWQS03eEx0c0ZKYUR1dXVIY0N5UlRBN3JoYUxjTnI2aHU2ZWVQUFFMQXB4dzVDU0twT29OLVY4VXFHNG9CVGt5Y0FWaFBBNWVrUnk1dXRQMGdzM0MtZTd3NXd3ZW1CSkc5d1VMOXBERjZ4eEdYbEpmbGZ2WG43NmxOM2czR2NoTkNPQmNRZkxTakcwYWt6LWFxTFFmWHNyYVowZjVrbGVNZlhEb3o0cElvY1FBSHNGdXhCSFE?oc=5",
+          "kind": "article",
+          "time": "2026-10-24T16:44:52Z"
+        },
+        {
+          "label": "Bleacher Report (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSlcwY0tVdlQ0WTNweS1yMWN1QzhTX2g1RVdBM0YtRTlydmc0MUhwdFdiWi04SWV3MFQxZW56SFdyTmZ4WDBodHJwVlFIMHNNYXI0WmFEUENoVUFaOW1iMV9sQmFTZmZCampnUmhWYzltdDZzRDBIQ2lZdWc0MFdIekFoR2otUzNRd1FvNXkwcmd1NnlJdXkzb2ZRM1lNSmN5ODllTzFaelNpY1ZUbUdPb2VmN25iWm91VUlEdXFVVXdUeWJv?oc=5",
+          "kind": "article",
+          "time": "2026-10-24T16:52:30Z"
+        }
+      ]
+    }
+  ]
+}
