@@ -1,0 +1,582 @@
+{
+ "id": "2026-10-25-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-25T08:40:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight, since the evening edition (~19:35 Saturday)",
+ "headline": "Musk admits he throttled Ukraine's Starlink, France counts almost 1,000 arrests as protests spread across Europe, and Brazil votes in a dead-heat runoff",
+ "stories": [
+  {
+   "id": "musk-starlink-admission",
+   "weight": "lead",
+   "title": "Musk says SpaceX throttled Ukraine's Starlink over \"offensive drone strikes\"",
+   "topics": [
+    "Ukraine",
+    "Tech"
+   ],
+   "facts": [
+    "Hours after Kyiv said service was back to full speed, Musk posted that Ukraine's military \"used it for offensive drone strikes to kill people. That loophole was closed last week.\"",
+    "He also said Starshield, the military version, \"is controlled by the US government\".",
+    "Since 14 October, drones flying faster than about 100 mph lost their link; Ukraine's defence ministry now records stable connections above 400 km/h.",
+    "Musk added that without Starlink \"the Ukrainian front line would collapse immediately\", calling it \"NOT a threat\".",
+    "A Ukrainian presidential adviser said Ukraine is \"physically unable\" to use Starlink for long- and medium-range attack drones."
+   ],
+   "whyItMatters": "Musk is now openly defending the slowdown, which shows one company can switch off a core part of Ukraine's front-line drone network.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/7151/live/1593e210-cfa6-11f1-aadb-297fd0a130b9.jpg",
+    "alt": "A man, with at least three blankets around him and a drink in his hand, sits on a chair on the side of a street. Next to him is a small picnic table with a starlink terminal on it.",
+    "credit": "BBC News (explainer)",
+    "creditUrl": "https://bbc.in/4kfCKxC"
+   },
+   "sources": [
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+     "kind": "article",
+     "time": "2026-10-24T20:38:00Z"
+    },
+    {
+     "label": "The Hill",
+     "url": "https://thehill.com/policy/international/6170415-musk-starlink-ukraine-slowdown/",
+     "kind": "article",
+     "time": "2026-10-25T00:44:00Z"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/russia-ukraine-war-starlink-drones-a3a0139dfc23365550306dd66fe43daa",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News (explainer)",
+     "url": "https://bbc.in/4kfCKxC",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "europe-protests",
+   "weight": "normal",
+   "title": "France: almost 1,000 arrests after another protest Saturday, and unrest spreads across Europe",
+   "topics": [
+    "Europe",
+    "France"
+   ],
+   "facts": [
+    "Interior minister Laurent Nuñez put arrests at almost 1,000 and expects the number to rise. Last weekend's total was about 2,700.",
+    "The ministry counted 410,000 marchers nationwide and the CGT union about 800,000. In Paris the counts were 110,000 and 250,000.",
+    "Daytime marches were largely peaceful. Late clashes brought tear gas and water cannon in Paris, burning barricades in Marseille, and a shop broken into in Bordeaux.",
+    "Barcelona saw more than 100 arrests. Milan deployed 500 soldiers alongside 5,000 police, police in Rome used tear gas, and Tirana, Brussels and Lisbon also had protests.",
+    "Around 13,000 people rallied peacefully against the RN congress in Orléans."
+   ],
+   "whyItMatters": "There was far less looting than last weekend, but the cost-of-living anger is now spreading across Europe instead of fading.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+    "alt": "People clash with police officers as objects burn at a barricade during a demonstration against the high cost of living in Bordeaux, France.",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/c95ynd587ynzo"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/c95ynd587ynzo",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian (live)",
+     "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
+     "kind": "article"
+    },
+    {
+     "label": "DW",
+     "url": "https://www.dw.com/en/france-protests-police-paris/live-79748223",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/europe-protests-rome-milan-b41b5adf5a749440abb88693059eeced",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "brazil-runoff",
+   "weight": "normal",
+   "title": "Brazil votes today: Flávio Bolsonaro edges Lula 51–49 in final polls",
+   "topics": [
+    "World",
+    "Elections"
+   ],
+   "facts": [
+    "Datafolha, Quaest and PoderData all show Flávio Bolsonaro at 51% of valid votes to Lula's 49%. That's within the margin of error.",
+    "In the first round, Flávio took 47.03% and Lula 45.16%.",
+    "Lula, 80, is seeking an unprecedented fourth term. His rival is a son of former president Jair Bolsonaro."
+   ],
+   "whyItMatters": "Brazil is Latin America's largest democracy, and the result lands tonight Berlin time.",
+   "image": {
+    "url": "https://www.reuters.com/graphics/BRAZIL-ELECTION/RESULTS/znpngxgarvl/cdn/images/share.jpg",
+    "alt": "A stylised map of Brazil shaded in a red-to-blue gradient, beside the words \"Brazil election results\".",
+    "credit": "Reuters (live results)",
+    "creditUrl": "https://www.reuters.com/graphics/BRAZIL-ELECTION/RESULTS/znpngxgarvl/runoff/"
+   },
+   "sources": [
+    {
+     "label": "O Globo",
+     "url": "https://oglobo.globo.com/blogs/pulso/noticia/2026/10/25/quem-esta-na-frente-as-ultimas-pesquisas-para-o-segundo-turno-entre-flavio-bolsonaro-e-lula.ghtml",
+     "kind": "article"
+    },
+    {
+     "label": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/ultimas-pesquisas-segundo-turno-eleicao/",
+     "kind": "article"
+    },
+    {
+     "label": "TSE (first-round result)",
+     "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+     "kind": "primary"
+    },
+    {
+     "label": "Reuters (live results)",
+     "url": "https://www.reuters.com/graphics/BRAZIL-ELECTION/RESULTS/znpngxgarvl/runoff/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "us-midterms-weekend",
+   "weight": "normal",
+   "title": "Ten days out: Obama hits the trail, and Trump unveils Audi's first US plant at a rally",
+   "topics": [
+    "US",
+    "Elections",
+    "Germany"
+   ],
+   "facts": [
+    "In Ohio and Detroit, Obama said: \"We have never seen a president excel in straight-up grifting on your dime like this.\"",
+    "At a Perry, Georgia rally, Trump announced the carmaker's first US factory.",
+    "Audi says it will invest about $4 billion and create about 4,500 jobs. The plant is designed for up to 200,000 SUVs a year, with construction from 2027 and production in the early 2030s."
+   ],
+   "whyItMatters": "It's a German carmaker's answer to US tariffs, announced as a campaign moment.",
+   "image": {
+    "url": "https://uploads.audi.com/system/production/media/134046/images/28dca249bbadd8f17d826284165ab539c8c2fd56/A264856_blog.jpg?1792837695",
+    "alt": "Audi in the United States - Audi aims to further strengthen its position in the U.S. market. The new Audi Q9 is specifically tailored to the needs of American customers.",
+    "credit": "Audi (press release)",
+    "creditUrl": "https://www.audi.com/en/press-releases/audi-to-establish-first-us-production-site-in-georgia-investing-4-billion-and-creating-4500-jobs-18420"
+   },
+   "sources": [
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2026/10/24/cleveland-rally-obama-blasts-trump-administration/",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/michigan-ohio-senate-elsayed-obama-rogers-midterms-bbaa09ad9105c5076e0f67d88cb85291",
+     "kind": "article"
+    },
+    {
+     "label": "Audi (press release)",
+     "url": "https://www.audi.com/en/press-releases/audi-to-establish-first-us-production-site-in-georgia-investing-4-billion-and-creating-4500-jobs-18420",
+     "kind": "primary"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/audi-georgia-trump-manufacturing-auto-plant-c1d49f2437c1d9cf349af399b8abe3a3",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "mideast-westbank-houthis",
+   "weight": "normal",
+   "title": "Israel will seal the West Bank on election day; Houthis claim strikes on Saudi oil sites",
+   "topics": [
+    "Middle East"
+   ],
+   "facts": [
+    "Israel says it will close all West Bank land crossings on 27 October, election day, and bar Palestinian workers from settlements.",
+    "This follows a Hebron-area operation of arrests and demolitions after a checkpoint attack killed two soldiers.",
+    "Protesters again rallied in Tel Aviv against Netanyahu over his role in 7 October.",
+    "Yemen's Houthis claimed attacks on Saudi oil sites, airports and military targets. Missiles hit coastguard facilities in Aden, and Saudi Arabia reported debris near Mecca and Medina."
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg",
+    "alt": "An Israeli army vehicle passes near the closed entrance of Hebron, in the Israeli-occupied West Bank",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/c6y93ylpl5p2o"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/c6y93ylpl5p2o",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/israel-west-bank-military-operation-election-5995f6958ff503686ad68a8d547daf4d",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://trib.al/XwiVQn9",
+     "kind": "article",
+     "via": {
+      "label": "ZEIT ONLINE on X",
+      "url": "https://x.com/zeitonline/status/2114151397369225600",
+      "kind": "x"
+     },
+     "time": "2026-10-25T00:25:00Z"
+    },
+    {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "cpp26-ballot-fails",
+   "weight": "normal",
+   "title": "C++26 fails its ISO ballot",
+   "topics": [
+    "Dev"
+   ],
+   "facts": [
+    "Robert Seacord reports that 9 of 22 national bodies voted no on the C++26 draft international standard. The limit is 25%.",
+    "Individual experts voted 12 of 20 yes, which is 60% against the 66.66% needed.",
+    "ISO's project record moved the draft to stage 40.60 on 24 October.",
+    "Contracts were the main sticking point. The committee's March vote to finalise C++26 was 114–12–3, and Herb Sutter said the no votes were mostly about contracts.",
+    "Neither WG21 nor ISO has said what happens next."
+   ],
+   "whyItMatters": "The language's next standard is now in limbo, and contracts are likely to be the fight over any revised draft.",
+   "image": {
+    "url": "https://theterminal.space/software/cpp26-iso-ballot-disapproved-9-of-22-no/opengraph-image",
+    "alt": "C++26 Fails Its ISO Ballot, With 9 of 22 National Bodies Voting No",
+    "credit": "The Terminal",
+    "creditUrl": "https://theterminal.space/software/cpp26-iso-ballot-disapproved-9-of-22-no"
+   },
+   "sources": [
+    {
+     "label": "The Terminal",
+     "url": "https://theterminal.space/software/cpp26-iso-ballot-disapproved-9-of-22-no",
+     "kind": "article",
+     "time": "2026-10-24T12:00:00Z"
+    },
+    {
+     "label": "Lobsters thread",
+     "url": "https://lobste.rs/s/rlrfew/balloting_has_completed_for_c_26",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Cloudflare and VoidZero's tsrs, a Rust port of the TypeScript compiler built with the TS team, claims up to 8x speed and about 70% less memory than TS 7.0. You can try it with `npx tsrs`.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "LiveOverflow had an agent exploit PHP2Shell on Cloud Run, through Google's front-end proxy. The reverse proxy didn't stop it.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Anthropic's status page reported elevated errors for Claude Sonnet 5.5 and other models early this morning.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Roku is moving its developer repositories from GitHub to GitLab.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Jarred Sumner floated passing a TypeScript type to `JSON.parse` so Bun validates the input at runtime.",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Cloudflare blog",
+     "url": "https://blog.cloudflare.com/typescript-rust-port/",
+     "kind": "primary",
+     "time": "2026-10-20T00:00:00Z"
+    },
+    {
+     "label": "LiveOverflow on X",
+     "url": "https://x.com/LiveOverflow/status/2114160386899583396",
+     "kind": "x",
+     "time": "2026-10-25T01:01:30Z"
+    },
+    {
+     "label": "Anthropic Status",
+     "url": "https://status.claude.com/incidents/334jvgbrc4ff",
+     "kind": "primary",
+     "time": "2026-10-25T06:35:59Z"
+    },
+    {
+     "label": "Roku blog",
+     "url": "https://blog.roku.com/developer/gitlab-move",
+     "kind": "primary"
+    },
+    {
+     "label": "Jarred Sumner on X",
+     "url": "https://x.com/jarredsumner/status/2114102702468923773",
+     "kind": "x",
+     "time": "2026-10-24T21:12:00Z"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Musk says X will let you long-press the like button to send someone $1 through X Money.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Storm surge on the North Sea: the DWD's severe-weather warning was lifted early today, but minor surges up to 1.75 m above mean high tide are expected in Emden and Wilhelmshaven tonight.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "A shooting near a college stadium in Tallahassee, Florida, wounded 11 people.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The Archdiocese of New York agreed to an $800 million settlement with about 1,300 people who say clergy abused them.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Gaming: a Valve developer let slip Half-Life 3's rumoured codename, GTA 6 has its first TV ad, and BioWare's internal Mass Effect 5 trailer leaked.",
+     "sourceIndexes": [
+      4,
+      5,
+      6
+     ]
+    },
+    {
+     "text": "Ryanair has dropped 12 destinations from BER as of today.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Elon Musk on X",
+     "url": "https://x.com/elonmusk/status/2114184998651822094",
+     "kind": "x",
+     "time": "2026-10-25T02:39:17Z"
+    },
+    {
+     "label": "NDR",
+     "url": "https://www.ndr.de/nachrichten/info/herbststurm-im-norden-unwetterwarnung-wieder-aufgehoben,wetter-7178.html",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/4srFOJh",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2114231509724831964",
+      "kind": "x",
+      "time": "2026-10-25T05:44:00Z"
+     }
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/4iDPNHZ",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2114174608433656086",
+      "kind": "x",
+      "time": "2026-10-25T01:58:00Z"
+     }
+    },
+    {
+     "label": "IGN",
+     "url": "https://bit.ly/4zepi1N",
+     "kind": "article",
+     "via": {
+      "label": "IGN on X",
+      "url": "https://x.com/IGN/status/2114235764321968528",
+      "kind": "x",
+      "time": "2026-10-25T06:01:00Z"
+     }
+    },
+    {
+     "label": "IGN",
+     "url": "https://bit.ly/4jDZCGW",
+     "kind": "article",
+     "via": {
+      "label": "IGN on X",
+      "url": "https://x.com/IGN/status/2114235534335746095",
+      "kind": "x",
+      "time": "2026-10-25T06:00:00Z"
+     }
+    },
+    {
+     "label": "IGN",
+     "url": "https://bit.ly/4z6t7pB",
+     "kind": "article",
+     "via": {
+      "label": "IGN on X",
+      "url": "https://x.com/IGN/status/2114250617396842946",
+      "kind": "x",
+      "time": "2026-10-25T07:00:00Z"
+     }
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://trib.al/e9sbVPH",
+     "kind": "article",
+     "via": {
+      "label": "ZEIT ONLINE on X",
+      "url": "https://x.com/zeitonline/status/2114137242197213370",
+      "kind": "x",
+      "time": "2026-10-24T23:29:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "id": "from-substack",
+   "weight": "brief",
+   "title": "From Substack",
+   "topics": [
+    "From Substack"
+   ],
+   "facts": [
+    {
+     "text": "The AI Corner breaks down how a five-person team runs its whole operation on Claude Code, across eight systems.",
+     "sourceIndexes": [
+      0
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "The AI Corner",
+     "url": "https://www.the-ai-corner.com/p/claude-code-team-setup-8-systems",
+     "kind": "article",
+     "time": "2026-10-24T22:42:41Z"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "BVB beat Eintracht Frankfurt 1–0. Maximilian Beier scored in the 80th minute, set up by Jobe Bellingham. Kovač says he's \"not worried\" about Bremen and Bayern next.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig play the Lower Saxony derby at Hannover 96 today.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The Warriors lost 131–122 in Phoenix to Devin Booker's 43 points and are 0–3. They play in Denver next.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "The 49ers play at the Falcons today. The NFL fined Fred Warner twice, $65,673 in total, for a hit on Chig Okonkwo.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "sportschau",
+     "url": "https://www.sportschau.de/fussball/bundesliga/beier-befreit-bvb-gegen-frankfurt-vom-pech,spielbericht-borussia-dortmund-eintracht-frankfurt-112.html",
+     "kind": "article"
+    },
+    {
+     "label": "Kovač interview (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWNfS25nbi1aUWpCQ25VSUQ3WXBic0tXeUF2cFJuSGRQWEpNNGJCZ0psTlBhemlSN3RwVm5tMXZJdmNkNjlrVUk2SlJ2THRmT2p6dVpfZjhWaGUxSHpXQm5kU0owWXhXT3l2WXZrUUphcmhiaFZvRERnNURac2tncFF4eE9LUS1UdE0yYlV1WTJfRzhyTXpqdzVBRWllekpSTnlRTW5yMy0wSUlaUmMzQjJ2UE5QQQ?oc=5",
+     "kind": "article",
+     "time": "2026-10-25T06:25:11Z"
+    },
+    {
+     "label": "NDR (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRU13MlNBYmJtM1pjcF9qWkhaTjVaZXdKOFZBcHBKRVhnOFNjdU9rbjNObzh2RXluVXpuRlBOaU9iTmw5RUtmZk4xYmdaUnk2bXNHdFRmdUdybUxVVTktNjNrWVlqd01hT24xXzFyQ2xnWUl2V0RCVUpEdHQ4VHllUzJZSkVaTFFEcnVVbmVnNS1Ga2U1N1BzN1JkZkE?oc=5",
+     "kind": "article",
+     "time": "2026-10-25T03:17:00Z"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/warriors-suns-score-e0069101ac503661b1e5673794f967cd",
+     "kind": "article"
+    },
+    {
+     "label": "FOX Sports (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0Qwa3I0aEI4UDJyZDlwdEpDUWI1TVV2dFNYZWJZLXdLME9fTjFfWTZsTERWMFVjd3BSTXRuN1p1cU9qNi1hVG5UZkh4Q1h3ODJUWEZSdWxyMFR6SUxGQWJkcE8ycmdKYnA4MUM4NW95NFZ1VnV3Y0ZZNG5kd3F2OVg1UHltdUFVUkFwbVFmaDBaT3hIQzhjWGEwVklyUG5T?oc=5",
+     "kind": "article",
+     "time": "2026-10-25T06:02:44Z"
+    },
+    {
+     "label": "Fubo (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdUYwTVc5cE9BazNyR1hfQm04UHY4R3A1Qm9iODNOdWpvN1lfeVIwbWh5WnQ0UmJPY28ybDRlcUxuVlZPNEd1MDIwY2wwMG5fU21FX1h0YjBiZ0FHZHpGaGFFSWJnUTZEX1ZaZXM4MXNaT0RKQzdabUJ4U25DRW5SbjdHT1BCR0pSRFQzSEZjUmx1Q3VuMzlNYk5XUjFHb3lUekVULU1VM28xUC1ONmVFay1FVDNJSVhndnhNX2JYZkhjN1lWNHJmNG9wMkphZDRrZTZQeUln?oc=5",
+     "kind": "article",
+     "time": "2026-10-25T05:06:00Z"
+    },
+    {
+     "label": "RG.org (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ0MxOVNpY1BEM0FiYTlwNFRXdnJHNTBDWDFlT09VaFB5cWNfVGVCaEtWbk1YeHJaUUd4dmJ5eG1nWVQtejBvOUdxc2FuWWl0TFp1cVl5RUstTEpvanVQWjJ4M2pzeGZRRU9TVVFlWkFFZjZHdEFRckFvVUZteUx5NVNjQ195SlQ1?oc=5",
+     "kind": "article",
+     "time": "2026-10-25T06:44:36Z"
+    }
+   ]
+  }
+ ]
+}
