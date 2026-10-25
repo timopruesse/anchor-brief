@@ -1,0 +1,468 @@
+{
+ "id": "2026-10-25-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-25T19:40:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:10 Sunday)",
+ "headline": "Machado is back in Venezuela, Serbia votes in record numbers, and Storm Boelo turns deadly",
+ "stories": [
+  {
+   "id": "machado-returns-venezuela",
+   "weight": "lead",
+   "title": "María Corina Machado is back in Venezuela after ten months in exile",
+   "topics": [
+    "World",
+    "Venezuela"
+   ],
+   "facts": [
+    "Machado posted \"I'm here. With you\" on X on Sunday, her first time in Venezuela since December.",
+    "She left the country to collect her Nobel Peace Prize and spent about ten months abroad after several failed attempts to return.",
+    "She attended mass at the Divina Pastora shrine in Barquisimeto, Lara state; Edmundo González confirmed the return.",
+    "She plans to meet victims of June's twin earthquakes (at least 6,500 dead) and families of political prisoners.",
+    "The return strains ties with the Trump administration, which removed Maduro in January, and is unlikely to please interim president Delcy Rodríguez."
+   ],
+   "whyItMatters": "Venezuela's best-known opposition figure is now inside the country while the post-Maduro interim government is still settling who holds power.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/116f/live/8cce05e0-d096-11f1-b441-2b33b063138f.jpg",
+    "alt": "A woman in white crosses her arms on her chest with her hands pointed towards her shoulders and her eyes closed",
+    "credit": "BBC World",
+    "creditUrl": "https://bbc.in/4zVx3ty"
+   },
+   "sources": [
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
+     "kind": "article"
+    },
+    {
+     "label": "AP",
+     "url": "https://apnews.com/article/venezuela-maria-corina-machado-return-democracy-maduro-e6eff0c2ff962fd9b0f87270b24ef567",
+     "kind": "article"
+    },
+    {
+     "label": "CNN Español",
+     "url": "https://cnnespanol.cnn.com/2026/10/25/venezuela/maria-corina-machado-vuelve-venezuela-orix",
+     "kind": "article"
+    },
+    {
+     "label": "New York Times on X",
+     "url": "https://x.com/nytimes/status/2114396337454072147",
+     "kind": "x",
+     "via": {
+      "label": "New York Times on X",
+      "url": "https://x.com/nytimes/status/2114396337454072147",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4zVx3ty",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2114392660345565367",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Der Spiegel on X",
+     "url": "https://x.com/derspiegel/status/2114408198979690526",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "serbia-election-turnout",
+   "weight": "normal",
+   "title": "Serbia votes with record turnout and reports of pressure on voters",
+   "topics": [
+    "Europe",
+    "Serbia"
+   ],
+   "facts": [
+    "Turnout hit 46% by 14:00 per the BBC, about a million more voters than in December 2023.",
+    "Monitor CRTA put turnout at 56.4% by 16:00, 14 points above 2023.",
+    "CRTA saw pressure on voters at about a third of polling stations and ballot photographing at up to 40%.",
+    "Police filed a report in Veternik over suspected vote-buying and carousel voting.",
+    "The race pits the Student List against Vučić's SNS, in power since 2012; a final Ipsos poll paid for by Vučić's list had SNS at 47.4% and the students at 40%."
+   ],
+   "whyItMatters": "It's the first national test of the protest movement born after the 2024 Novi Sad canopy collapse that killed 16 people.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/fffb/live/26f0ac80-d089-11f1-92f6-357f3b0f345f.jpg",
+    "alt": "A woman put her hand vote into a ballot box",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/c6jdmj1ej715o"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/c6jdmj1ej715o",
+     "kind": "article"
+    },
+    {
+     "label": "CRTA",
+     "url": "https://crta.rs/en/1215-high-turnout-photographing-ballots-the-most-common-irregularity/",
+     "kind": "primary"
+    },
+    {
+     "label": "The Guardian (live)",
+     "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+     "kind": "article"
+    },
+    {
+     "label": "bne IntelliNews",
+     "url": "https://www.intellinews.com/serbia-election-monitors-report-widespread-irregularities-478584/",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4jYu3rJ",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2114373976667340996",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "starlink-hegseth-testimony",
+   "weight": "normal",
+   "title": "Schiff wants Hegseth to testify on the Ukraine Starlink slowdown",
+   "topics": [
+    "US politics",
+    "Ukraine",
+    "SpaceX"
+   ],
+   "facts": [
+    "On Meet the Press, Sen. Adam Schiff said Hegseth should testify if Democrats retake the Senate.",
+    "\"Somebody is lying here,\" Schiff said about the conflicting accounts after Musk's admission this morning.",
+    "Ukraine said Saturday that Starlink and Starshield were back at high speeds.",
+    "Sen. Blumenthal already opened a Permanent Subcommittee on Investigations inquiry with an Oct 22 letter to Hegseth."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "NBC News",
+     "url": "https://www.nbcnews.com/politics/congress/adam-schiff-pete-hegseth-testify-starlink-slowdown-ukraine-war-rcna605508",
+     "kind": "article"
+    },
+    {
+     "label": "The Hill",
+     "url": "https://thehill.com/policy/technology/6170785-schiff-calls-hegseth-testimony/",
+     "kind": "article"
+    },
+    {
+     "label": "Blumenthal letter (Senate)",
+     "url": "https://www.hsgac.senate.gov/wp-content/uploads/2026-10-22-Letter-from-Ranking-Member-Blumenthal-to-Hegseth.pdf",
+     "kind": "primary"
+    },
+    {
+     "label": "Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2114405387642302938",
+     "kind": "x",
+     "via": {
+      "label": "Washington Post on X",
+      "url": "https://x.com/washingtonpost/status/2114405387642302938",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "storm-boelo",
+   "weight": "normal",
+   "title": "Storm Boelo kills a man in Scotland and cuts power to 53,000 homes",
+   "topics": [
+    "Weather",
+    "Europe"
+   ],
+   "facts": [
+    "A 60-year-old man died when a tree fell at Mid Kelton near Castle Douglas, Dumfries and Galloway, around 10:30.",
+    "About 53,000 Scottish homes lost power; SSEN is restoring supply.",
+    "Gusts reached 82mph on Tiree and 80mph on Islay; an amber warning runs until 21:00.",
+    "The Netherlands named it its first official storm of 2026."
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3323/live/f31148a0-d085-11f1-a4ba-351760cfea6a.jpg",
+    "alt": "A man walking near the coast. He is wearing dark clothes and a coat with a hood up, and is being drenched by a wave which has come up and over the black railings.",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.co.uk/news/articles/cxdd8gr1vje0o"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cxdd8gr1vje0o",
+     "kind": "article"
+    },
+    {
+     "label": "The Independent",
+     "url": "https://www.independent.co.uk/news/uk/home-news/met-office-scotland-network-rail-dumfries-traffic-scotland-b3073041.html",
+     "kind": "article"
+    },
+    {
+     "label": "SSEN",
+     "url": "https://www.ssen.co.uk/news-views/2026/storm-boelo-update/",
+     "kind": "primary"
+    },
+    {
+     "label": "BBC Breaking",
+     "url": "https://bbc.in/4z0kqN3",
+     "kind": "article",
+     "via": {
+      "label": "BBC Breaking on X",
+      "url": "https://x.com/BBCBreaking/status/2114397282023948478",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "apple-touch-macbook-pro",
+   "weight": "normal",
+   "title": "Apple's touch-screen OLED MacBook Pro is expected Wednesday",
+   "topics": [
+    "Tech",
+    "Apple"
+   ],
+   "facts": [
+    "Bloomberg reports Apple will unveil a touch-screen OLED MacBook Pro at its Oct 28 event.",
+    "It's expected in 14- and 16-inch sizes with M5 Pro and M5 Max chips.",
+    "A Dynamic Island replaces the notch, per the reports."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Bloomberg (Power On)",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-25/apple-to-unveil-touch-screen-macbook-pro-executive-promotions-in-box-checker",
+     "kind": "article"
+    },
+    {
+     "label": "MacRumors",
+     "url": "https://www.macrumors.com/2026/10/25/macbook-pro-with-touchscreen-on-wednesday/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Mistral and DeepL chiefs warn Europe is capitulating on AI as EU leaders shift focus to applications over models.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "China is making risk assessments mandatory for AI-driven job losses.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Gabon restored social media after an eight-month ban.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Audi's CEO defended the US plant Trump announced on the campaign trail.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Brazil's runoff is underway; polls close around 21:00 Berlin time, no results yet.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Gerhard Schröder is heading to China after his Moscow trip.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/e014/live/283eea50-d07c-11f1-a701-fddedf244c16.jpg",
+    "alt": "Icons of social media apps, including Facebook, Instagram, YouTube and WhatsApp, is displayed on a mobile phone screen. File photo",
+    "credit": "BBC World",
+    "creditUrl": "https://bbc.in/3VSCbQx"
+   },
+   "sources": [
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/KI-Streit-in-Europa-EU-Tech-Chefs-wehren-sich-gegen-Kapitulation-11499445.html",
+     "kind": "article"
+    },
+    {
+     "label": "Golem",
+     "url": "https://www.golem.de/news/risikopruefungen-werden-pflicht-china-will-ki-jobverluste-abfedern-2610-214487.html",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/3VSCbQx",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2114367159543439520",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Audi-Chef-verteidigt-Werks-Plaene-in-den-USA-11499465.html",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4jG2nrq",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2114396633483923871",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/politik/ausland/gerhard-schroeder-in-china-ehrengast-beim-forum-zur-weltordnung-accg-201618762.html?utm_term=Autofeed&campID=SCL-EAu2500002683&utm_medium=Social&utm_source=Twitter#Echobox=1792945544",
+     "kind": "article",
+     "via": {
+      "label": "FAZ on X",
+      "url": "https://x.com/faznet/status/2114396642405204187",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "A dermatologist found a fine-tuned 2015 Inception v3 CNN got 62% of 200 biopsy-proven lesions right versus 42% for two frontier LLMs.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "POSIX `wordexp(3)` does command substitution by default, and `WRDE_NOCMD` is only partial protection on musl and macOS.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Vim Classic 8.3.0 launched as a long-term-support fork of Vim 8.x maintained without generative AI tools.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Vercel explained how Vercel Agent reaches production safely.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "OpenAI and Poland's NASK announced an AI safety and security research partnership.",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "lynchlab.net",
+     "url": "https://lynchlab.net/llm-skin-cancer",
+     "kind": "article"
+    },
+    {
+     "label": "yossarian.net",
+     "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
+     "kind": "article"
+    },
+    {
+     "label": "Vim Classic",
+     "url": "https://vim-classic.org/",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel blog",
+     "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+     "kind": "primary"
+    },
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Eintracht Braunschweig won the Niedersachsen derby 2:0 against Hannover.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Basketball Löwen Braunschweig lost 73:88 at Phoenix Hagen, Hagen's first BBL home win since 2016.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The 49ers led the Falcons 14–9 at halftime; the game was still running at press time.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Eintracht Braunschweig News on X",
+     "url": "https://x.com/EintrachtBSNews/status/2114379600029798721",
+     "kind": "x"
+    },
+    {
+     "label": "Kicker",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRXd3S2plQXlENmlwZUVrbTNxc3UxYTQ2S3ZmWnlkT3RBX0ZqUzBYbGtjaGtYOG1xaHoxY2x0RE4zcGNRRkZNOEo2c0o0bGdkQk5DdWZxak9ZZldiLXVJNkJvTmdRMzBFOGlweE13RHNBM1dEOUg2aDMyVUVUY3ZkX09NVUVrd244S2xzZnZGdw?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Basketball-World",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPXzM1WUlkbm9TaXAzcEJRdmQwM19ROFF0WUQwZUZEbHlaQkhSNmVmdkZORUdRNEdvRkplclVBdWdENUdqZUpfakJGa3g0LXl0SEhYdjNJWG9MZHUzc2hpOXFVNzhUNTNWZzJWc2EzeWwwWkZWZ3Z4WjJtaFdwZ3R4YkJOZ0hPOURLbjZadzVwTHRhVjg?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Niners Wire (USA Today)",
+     "url": "https://ninerswire.usatoday.com/story/sports/nfl/niners/2026/10/25/49ers-falcons-week-7-live-updates-final-score-highlights--live/92427846007/",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
