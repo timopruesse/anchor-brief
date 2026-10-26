@@ -1,0 +1,578 @@
+{
+ "id": "2026-10-26-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-26T08:25:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight, since the evening edition (~19:45 Sunday)",
+ "headline": "Serbia's students topple Vučić, Lula comes back to win, and Israel votes tomorrow",
+ "stories": [
+  {
+   "id": "serbia-students-win",
+   "weight": "lead",
+   "title": "Vučić concedes: Serbia's student movement wins the election",
+   "topics": [
+    "Europe",
+    "Elections"
+   ],
+   "facts": [
+    "Aleksandar Vučić admitted defeat on Sunday night: \"It is now clear that we have lost and the Students' List has won.\"",
+    "The CeSID/Ipsos projection on a 96% sample gives the Student List 52.9% and 140 of 250 seats, against 38.8% and 103 seats for Vučić's United Serbia.",
+    "The electoral commission's partial count (8,028 polling stations) has the Student List at 52.4% and United Serbia at 39.39%, with about 4.16 million votes cast.",
+    "Apart from minority parties (7 seats), no other list cleared the 3% threshold, including Dačić's party at 2.2%.",
+    "The movement grew out of two years of protests against Vučić's government, and Belgrade celebrated through the night."
+   ],
+   "whyItMatters": "Yesterday this looked tight. Now one of Europe's most entrenched strongmen is out, and an outright student majority would reshape Serbia's path towards the EU and its ties with Russia.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/ec54/live/9d3eb1f0-d0d1-11f1-a058-dfc7f6e2951c.jpg",
+    "alt": "Members of the Student List celebrate victory in Serbia's parliamentary election",
+    "credit": "BBC World",
+    "creditUrl": "https://bbc.in/4z8XXxU"
+   },
+   "sources": [
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/serbia-election-students-vucic-fdf5def8a20aebc8ae139fd719478775",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election",
+     "kind": "article"
+    },
+    {
+     "label": "Vijesti (CeSID/Ipsos projection)",
+     "url": "https://en.vijesti.me/world-a/balkan/833229/konacna-projekcija-glasova-na-parlamentarnim-izborima-u-srbiji-studentska-lista-529-odsto-vucic-388",
+     "kind": "article"
+    },
+    {
+     "label": "Novosti (RIK partial results)",
+     "url": "https://www.novosti.rs/c/vesti/politika/1664162/obradjeno-preko-8-000-birackih-mesta-rik-oglasio-najnovijim-rezultatima",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4z8XXxU",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2114515564869615836",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "brazil-lula-wins",
+   "weight": "normal",
+   "title": "Lula wins a fourth term in a comeback; Flávio Bolsonaro wants the vote annulled",
+   "topics": [
+    "World",
+    "Elections"
+   ],
+   "facts": [
+    "With all votes counted, the electoral court has Lula at 51.79% and Flávio Bolsonaro at 48.21%, a gap of about 4.4 million votes.",
+    "It's the first time since 1988 that a candidate who lost the first round went on to win. Lula trailed 45.16% to 47.03% on 4 October.",
+    "Bolsonaro refuses to concede and says he'll seek annulment over the court's two-hour extension of voting.",
+    "Both campaigns had asked for that extension: Lula's side over a shortage of buses, Bolsonaro's side over rain.",
+    "Experts told BBC Brasil an annulment is remote, and the Supreme Court president has confirmed the result. Final polls had shown Bolsonaro ahead 51–49."
+   ],
+   "whyItMatters": "Latin America's biggest democracy stays with the left, but a loser contesting the count sets up weeks of tension, and Lula faces a hostile Congress.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/08ab/live/79df0560-d0f5-11f1-b441-2b33b063138f.jpg",
+    "alt": "Brazilian President Luiz Inacio Lula da Silva delivers a speech after winning the election.",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/cmvg7p001qj9o"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cmvg7p001qj9o",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian (full results)",
+     "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News Brasil",
+     "url": "https://www.bbc.com/portuguese/articles/cqe8rekpg9lxo",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News (live)",
+     "url": "https://www.bbc.com/news/live/cmgelnrd4r3jt",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "israel-votes-tuesday",
+   "weight": "normal",
+   "title": "Israel votes on Tuesday, and final polls point to deadlock",
+   "topics": [
+    "Middle East",
+    "Elections"
+   ],
+   "facts": [
+    "Most final polls put Gadi Eisenkot's Yashar first with 22–23 seats, ahead of Netanyahu's Likud at 19–21 and Bennett's list at 14–15.",
+    "Most of those polls show neither Netanyahu's bloc nor Eisenkot's reaching the 61 seats needed for a majority.",
+    "Channel 14 is the outlier, projecting 30 seats for Likud and a 62-seat right-wing majority.",
+    "TIME profiles Eisenkot, who lost his son in Gaza and is running to lead Israel beyond the trauma of 7 October."
+   ],
+   "whyItMatters": "After a West Bank lockdown and an attack at a Hebron checkpoint last week, coalition talks are likely to decide whether Netanyahu stays in power.",
+   "image": {
+    "url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/740534",
+    "alt": "(L-R): Yashar head Gadi Eisenkot; Prime Minister Benjamin Netanyahu",
+    "credit": "The Jerusalem Post",
+    "creditUrl": "https://www.jpost.com/israel-election-2026/article-912743"
+   },
+   "sources": [
+    {
+     "label": "The Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-912743",
+     "kind": "article"
+    },
+    {
+     "label": "i24NEWS",
+     "url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority",
+     "kind": "article"
+    },
+    {
+     "label": "Channel 14",
+     "url": "https://www.c14news.com/article/1514699",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4iFH73T",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2114480430300676585",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "TIME",
+     "url": "https://time-magazine.visitlink.me/AHHv0D",
+     "kind": "article",
+     "via": {
+      "label": "TIME on X",
+      "url": "https://x.com/TIME/status/2114451610160316737",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ukraine-oleshky-talks",
+   "weight": "normal",
+   "title": "Oleshky ceasefire starts Tuesday, and Zelensky confirms three-way talks in November",
+   "topics": [
+    "Ukraine"
+   ],
+   "facts": [
+    "Ukraine and Russia agreed that a local ceasefire around occupied Oleshky starts on 27 October at 3:00 Kyiv time, two days earlier than first announced.",
+    "Ukraine's ombudsman Lubinets agreed it with his Russian counterpart Lantratova, and the deal is credited to Melania Trump's mediation.",
+    "Zelensky said the ceasefire must last several days. Per Kremlin aide Ushakov, Putin agreed \"in principle\" to talks after 10 November.",
+    "He confirmed technical talks between Ukraine, the US and Russia in November. He wants to discuss energy, grain and prisoners, but says territory is for leaders only.",
+    "He also opposes lifting sanctions on Russia before a leaders' meeting."
+   ],
+   "whyItMatters": "It's the first concrete ceasefire on the ground in months, and it tests whether the November talks can produce anything.",
+   "image": {
+    "url": "https://images.euronews.com/articles/stories/09/96/67/61/1200x675_cmsv2_a88c05c8-73b6-5811-8934-fc9b8d886685-9966761.jpg",
+    "alt": "Ukraine's Zelenskyy confirms trilateral talks with Russia and US to take place in November",
+    "credit": "Euronews",
+    "creditUrl": "https://www.euronews.com/2026/10/25/ukraines-zelenskyy-confirms-trilateral-talks-with-russia-and-us-to-take-place-in-november"
+   },
+   "sources": [
+    {
+     "label": "Kyiv Post",
+     "url": "https://www.kyivpost.com/post/88088",
+     "kind": "article"
+    },
+    {
+     "label": "Kyiv Independent",
+     "url": "https://kyivindependent.com/zelensky-details-expectations-for-upcoming-trilateral-peace-talks-with-russia-us/",
+     "kind": "article"
+    },
+    {
+     "label": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/ukraines-zelenskyy-confirms-trilateral-talks-with-russia-and-us-to-take-place-in-november",
+     "kind": "article"
+    },
+    {
+     "label": "Volodymyr Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2114434468412842061",
+     "kind": "x"
+    },
+    {
+     "label": "Volodymyr Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2114432267045032263",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "agents-md-downloads",
+   "weight": "normal",
+   "title": "A planted AGENTS.md in ~/Downloads tried to make a coding agent install malware",
+   "topics": [
+    "Security",
+    "AI",
+    "Dev"
+   ],
+   "facts": [
+    "Forever Security found a malicious AGENTS.md, disguised as engineering notes, in a customer's Downloads folder, which was also the agent's working directory.",
+    "It told the agent to add a server to its own config and install the npm package `function-color`, which belongs to a known malware campaign.",
+    "In their tests, Codex followed it in over 90% of attempts. A CLAUDE.md variant got Claude Code to set `ANTHROPIC_BASE_URL` and leak its OAuth token about half the time.",
+    "A web page can silently drop such a file into Downloads. About half of their customers run agents there, and Claude Code alone opened over 1,300 sessions in that folder.",
+    "Their advice: don't start agents in ~/Downloads, and check for planted instruction files and config changes."
+   ],
+   "whyItMatters": "Plain text in a folder the web can write to is now enough to take over an agent session, so where you launch an agent matters.",
+   "image": {
+    "url": "https://www.bleepstatic.com/content/hl-images/2026/10/23/robot.jpg",
+    "alt": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+    "credit": "BleepingComputer",
+    "creditUrl": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+   },
+   "sources": [
+    {
+     "label": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+     "kind": "article"
+    },
+    {
+     "label": "Forever Security",
+     "url": "https://forever.security/blog/hijacking-ai-agents-via-downloads-folder/",
+     "kind": "primary"
+    },
+    {
+     "label": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "north-sea-storm-surge",
+   "weight": "normal",
+   "title": "Storm surge floods Hamburg's Fischmarkt, and a cruise ship rams container ships in Bremerhaven",
+   "topics": [
+    "Germany",
+    "Weather"
+   ],
+   "facts": [
+    "Hamburg's St. Pauli gauge peaked around 3:20–3:30 at about 4.31 m above sea level, roughly 2.17 m above normal high water.",
+    "The Fischmarkt and parts of HafenCity flooded, and firefighters rescued a woman from the roof of her car.",
+    "In Bremerhaven, \"Mein Schiff 3\" hit container ships while leaving port in stormy gusts despite tug assistance. Nobody was hurt.",
+    "The cruise ship's lifeboats were damaged and one container ship has a roughly 10 m gash, with no water ingress reported."
+   ],
+   "whyItMatters": "This follows Storm Boelo, and the North Sea coast is still in the firing line.",
+   "image": null,
+   "sources": [
+    {
+     "label": "tag24",
+     "url": "https://www.tag24.de/hamburg/feuerwehreinsatz-hamburg/sturmflut-ueberschwemmt-fischmarkt-feuerwehr-rettet-frau-von-autodach-3542864",
+     "kind": "article"
+    },
+    {
+     "label": "BSH water levels (St. Pauli)",
+     "url": "https://wasserstand.bsh.de/hamburg_st-pauli",
+     "kind": "primary"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/inland/seeunfall-bremerhaven-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "Merkur",
+     "url": "https://www.merkur.de/deutschland/bremerhaven-kreuzfahrtschiff-mein-schiff-3-kollidiert-im-sturm-mit-schiff-sturm-zr-94557790.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "f1-antonelli-austin",
+   "weight": "normal",
+   "title": "Antonelli wins in Austin and can seal the title in Mexico on Sunday",
+   "topics": [
+    "Sports",
+    "F1"
+   ],
+   "facts": [
+    "Kimi Antonelli (Mercedes) won the US Grand Prix by 13.078 s on a one-stop strategy, his ninth win of the season.",
+    "Leclerc was second and Verstappen third, ahead of Hamilton and Norris.",
+    "Antonelli now leads Russell by 123 points and Hamilton by 124. Verstappen, Leclerc and Norris are officially out of contention.",
+    "In Mexico City (30 October–1 November), ninth place is enough, or any result if neither Russell nor Hamilton wins. At 20, he'd be F1's youngest champion."
+   ],
+   "whyItMatters": "Antonelli is now almost certain to win the title next weekend.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/481a/live/1ef4b2c0-d0bf-11f1-b059-63397a00826b.jpg",
+    "alt": "Mercedes' Kimi Antonelli looks up and clenches his fist in celebration after winning the US Grand Prix",
+    "credit": "BBC Sport",
+    "creditUrl": "https://www.bbc.com/sport/formula1/articles/cm20w8154wn0o"
+   },
+   "sources": [
+    {
+     "label": "Formula 1",
+     "url": "https://www.formula1.com/en/latest/article/antonelli-surges-to-dominant-victory-in-united-states-grand-prix-ahead-of-leclerc-and-verstappen.6kmBQv9FNTW7LzkDj8S34j",
+     "kind": "primary"
+    },
+    {
+     "label": "BBC Sport",
+     "url": "https://www.bbc.com/sport/formula1/articles/cm20w8154wn0o",
+     "kind": "article"
+    },
+    {
+     "label": "F1",
+     "url": "https://f1.com/USA26_Race_Report",
+     "kind": "article",
+     "via": {
+      "label": "F1 on X",
+      "url": "https://x.com/F1/status/2114492954156863943",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "At a Michigan rally, Trump said Norway \"sucks\" after the Nobel Peace Prize went to Navi Pillay, and that he no longer wants immigrants from there.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Musk says SpaceX closed a $40 billion off-balance-sheet debt deal to buy Nvidia GPUs, with chips due in the first half of 2027.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Elvis Presley's rights holders sued Anthropic, claiming Claude was trained on 274 of his songs and seeking $41.1 million in statutory damages.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Ilse Aigner (CSU) is gaining support to succeed Steinmeier as Germany's first female president. Saxony's Kretschmer and Bremen's Bovenschulte back her, but Merz's CDU hasn't decided yet.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "SpaceX ran a full-duration 33-engine static fire of the Super Heavy booster for Starship Flight 15.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Alaska Senate candidate Mary Peltola is asking for an emergency ruling to dismiss the Justice Department's lawsuit over her election.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://assets.newsweek.com/wp-content/uploads/2026/10/GettyImages-2301983249.jpg?w=1200&crop=1",
+    "alt": "Trump Says ‘Norway Sucks’ After Nobel Peace Prize Snub - Newsweek featured image",
+    "credit": "Newsweek",
+    "creditUrl": "https://www.newsweek.com/trump-norway-sucks-nobel-peace-prize-12616935"
+   },
+   "sources": [
+    {
+     "label": "Politico Europe",
+     "url": "https://www.politico.eu/article/donald-trump-norway-shithouse-country-sucks-nobel-peace-prize/",
+     "kind": "article"
+    },
+    {
+     "label": "Newsweek",
+     "url": "https://www.newsweek.com/trump-norway-sucks-nobel-peace-prize-12616935",
+     "kind": "article"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/politik/deutschland/nachfolge-des-bundespraesidenten-ilse-aigner-erhaelt-unterstuetzung-aus-sachsen-und-bremen-a-dd7a21ad-84f6-4503-b0c5-5d6dde16a9da",
+     "kind": "article"
+    },
+    {
+     "label": "SpaceX on X",
+     "url": "https://x.com/SpaceX/status/2114444137067844004",
+     "kind": "x"
+    },
+    {
+     "label": "Forbes on X",
+     "url": "https://x.com/Forbes/status/2114601700224901313",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "r/opensource now bans AI-assisted projects.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "GitHub says its new secret-scanning classifier raised alert acceptance by 11.5% and cut median scan time by 86%.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Playwright merged fixes for reflected ARIA label references and for disabling TCP port randomization on Windows.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Vite now watches files referenced with a query or hash in `new URL(..., import.meta.url)`.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "OpenAI's storage write-up, part II, covers multi-tenancy, global caching and Cosmos DB for 12× faster reads in ChatGPT.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Oracle published a security alert for CVE-2026-114820, rated critical with a CVSS score of 9.1. A fix is available.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/b7245906df6212a8595d7891a744ee6611f20f0790f3990be0a32576317a4e08/microsoft/playwright/pull/43577",
+    "alt": "read ariaLabelledByElements when its setter clears aria-labelledby while preserving ID reference resolution fixes #43549",
+    "credit": "microsoft/playwright #43577",
+    "creditUrl": "https://github.com/microsoft/playwright/pull/43577"
+   },
+   "sources": [
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/KI-und-Open-Source-Subreddit-r-opensource-sperrt-KI-gestuetzte-Projekte-aus-11499587.html",
+     "kind": "article"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+     "kind": "article",
+     "via": {
+      "label": "GitHub on X",
+      "url": "https://x.com/github/status/2114479620091171249",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "microsoft/playwright #43577",
+     "url": "https://github.com/microsoft/playwright/pull/43577",
+     "kind": "primary"
+    },
+    {
+     "label": "microsoft/playwright #43605",
+     "url": "https://github.com/microsoft/playwright/pull/43605",
+     "kind": "primary"
+    },
+    {
+     "label": "vitejs/vite #23780",
+     "url": "https://github.com/vitejs/vite/pull/23780",
+     "kind": "primary"
+    },
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+     "kind": "primary"
+    },
+    {
+     "label": "Sami Laiho",
+     "url": "https://www.oracle.com/security-alerts/alert-cve-2026-114820.html",
+     "kind": "article",
+     "via": {
+      "label": "Sami Laiho on X",
+      "url": "https://x.com/samilaiho/status/2114596231913824432",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "The 49ers lost 29–20 in Atlanta. It's their first defeat of the season, and they're now 6–1.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "BVB host Werder Bremen in the second round of the DFB-Pokal on Tuesday at 20:45, live on ZDF and Sky.",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/49ers-falcons-score-c42ef4deda1211a71b2380d331554927",
+     "kind": "article"
+    },
+    {
+     "label": "49ers.com",
+     "url": "https://www.49ers.com/news/49ers-move-to-6-1-following-week-7-matchup-vs-falcons-takeaways-from-sfvsatl",
+     "kind": "primary"
+    },
+    {
+     "label": "BVB",
+     "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/9/10/DFB-Pokalspiel-gegen-Werder-Bremen-zeitgenau-angesetzt.html",
+     "kind": "primary"
+    }
+   ]
+  }
+ ]
+}
