@@ -1,0 +1,459 @@
+{
+ "id": "2026-10-26-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-26T19:50:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon edition (~13:00 Monday)",
+ "headline": "Anthropic files for its IPO, OpenAI ships GPT-6.1 Terra, and Microsoft offers buyouts to a quarter of its staff",
+ "stories": [
+  {
+   "id": "anthropic-s1-ipo",
+   "weight": "lead",
+   "title": "Anthropic files for its IPO: $16.3 billion in first-half revenue, ticker ANT",
+   "topics": [
+    "AI",
+    "Business"
+   ],
+   "facts": [
+    "Anthropic filed its S-1 with the SEC on Monday and plans to list Class A shares on the Nasdaq Global Select Market as \"ANT\".",
+    "The share count and price range aren't set yet. Goldman Sachs and Morgan Stanley are named for the prospectus.",
+    "Revenue for the first half of 2026 was $16.3 billion, up from $1.2 billion a year earlier.",
+    "The operating loss shrank to $693 million from $2.1 billion. The net loss was $80.7 billion, mostly from non-cash accounting on convertible debt.",
+    "Governance stays unusual: the Long-Term Benefit Trust elects a board majority, and a single Class F share held by the co-founders carries 50.1% of the general vote.",
+    "The risk factors warn that AI could pose \"catastrophic or existential risks\", and the BBC says the valuation is expected to top SpaceX's listing."
+   ],
+   "whyItMatters": "It's the first full look at Anthropic's numbers, and the first pure AI lab heading to public markets.",
+   "image": {
+    "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "alt": "Anthropic logo",
+    "credit": "Anthropic",
+    "creditUrl": "https://www.anthropic.com/news/s1-sec"
+   },
+   "sources": [
+    {
+     "label": "Anthropic",
+     "url": "https://www.anthropic.com/news/s1-sec",
+     "kind": "primary"
+    },
+    {
+     "label": "SEC: Anthropic S-1",
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "kind": "primary"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+     "kind": "article"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/cq398p1wd1evo",
+     "kind": "article"
+    },
+    {
+     "label": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50242939",
+     "kind": "article"
+    },
+    {
+     "label": "Forbes",
+     "url": "https://www.forbes.com/sites/mattdurot/2026/10/26/anthropic-s-1-reveals-how-rich-its-cofounders-are/?utm_source=ForbesMainTwitter&utm_medium=social&utm_campaign=ForbesMainTwitter",
+     "kind": "article",
+     "via": {
+      "label": "Forbes on X",
+      "url": "https://x.com/Forbes/status/2114779282149158952",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "gpt-6-1-terra",
+   "weight": "normal",
+   "title": "OpenAI ships GPT-6.1 Terra, a cheaper, faster model for computer use",
+   "topics": [
+    "AI"
+   ],
+   "facts": [
+    "It's live today for Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex, and on the API as gpt-6.1-terra.",
+    "API prices are $1 per million input tokens ($0.05 cached) and $5 per million output tokens, 50% below GPT-5.6 Terra and GPT-6.1 Sol.",
+    "On Agents' Last Exam, OpenAI says it scores 15 points above GPT-5.6 Terra at about a third of the cost, and matches GPT-6 Astra at a tenth of the price per token.",
+    "OpenAI says it's about 9× cheaper per task than Claude Opus 5.5 and more than 3× faster.",
+    "It has a 1.05M-token context window."
+   ],
+   "whyItMatters": "It puts pressure on the price of agentic computer-use work on the same day Anthropic opened its books.",
+   "image": {
+    "url": "https://developers.openai.com/og/api/docs/models/gpt-6.1-terra.png",
+    "alt": "GPT-6.1 Terra Model | OpenAI API",
+    "credit": "OpenAI API docs: GPT-6.1 Terra",
+    "creditUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+   },
+   "sources": [
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+     "kind": "primary"
+    },
+    {
+     "label": "OpenAI API docs: GPT-6.1 Terra",
+     "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+     "kind": "primary"
+    },
+    {
+     "label": "OpenAI on X",
+     "url": "https://x.com/OpenAI/status/2114780711664398349",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-voluntary-exit",
+   "weight": "normal",
+   "title": "Microsoft offers buyouts to about 60,000 employees, roughly a quarter of staff",
+   "topics": [
+    "Tech",
+    "Business"
+   ],
+   "facts": [
+    "Microsoft's new Voluntary Exit Offer covers eligible staff at level 70 and below in the US, Canada, the UK and India.",
+    "Only some teams take part. Reports say sales, marketing, security and some engineering and corporate roles are excluded.",
+    "Reports put the eligible group at about 60,000 people. Eligible employees get the details by email.",
+    "Microsoft says it builds on this year's Voluntary Retirement Program, and calls the offer time-limited, with financial support and career planning."
+   ],
+   "whyItMatters": "It's one of the largest workforce moves in tech this year, and CNBC ties it to an AI-driven efficiency push.",
+   "image": {
+    "url": "https://cdn.mos.cms.futurecdn.net/DRqD32AFYYmtoVmatabZ5e-2046-80.png",
+    "alt": "Microsoft Logo at Ignite",
+    "credit": "Windows Central",
+    "creditUrl": "https://www.windowscentral.com/microsoft/microsoft-extends-voluntary-exit-program-to-60-000-employees-are-layoffs-around-the-corner"
+   },
+   "sources": [
+    {
+     "label": "Official Microsoft Blog",
+     "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+     "kind": "primary"
+    },
+    {
+     "label": "The Seattle Times",
+     "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+     "kind": "article"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+     "kind": "article"
+    },
+    {
+     "label": "Windows Central",
+     "url": "https://www.windowscentral.com/microsoft/microsoft-extends-voluntary-exit-program-to-60-000-employees-are-layoffs-around-the-corner",
+     "kind": "article",
+     "via": {
+      "label": "Windows Central on X",
+      "url": "https://x.com/WindowsCentral/status/2114763262684241996",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "maurene-comey-ruling",
+   "weight": "normal",
+   "title": "Judge rules the DOJ unlawfully fired prosecutor Maurene Comey",
+   "topics": [
+    "US",
+    "Law"
+   ],
+   "facts": [
+    "Judge Jesse Furman found that her July 2025 firing violated the Civil Service Reform Act and the separation of powers.",
+    "He ordered retroactive reinstatement and back pay through 20 December 2025, when she started a new job.",
+    "Comey, James Comey's daughter, says she was fired because of her father. The DOJ says it will appeal."
+   ],
+   "whyItMatters": "It's a test case for how far the president's firing power reaches into the civil service.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Court opinion (S.D.N.Y.)",
+     "url": "https://www.nysd.uscourts.gov/sites/default/files/2026-10/25cv7625%20%5B96%5D%20Opinion%2010.26.2026.pdf",
+     "kind": "primary"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/justice-department-maurene-comey-trump-be7de14f705def3bb6eeadafa7e60805",
+     "kind": "article"
+    },
+    {
+     "label": "CBS News",
+     "url": "https://www.cbsnews.com/news/maurene-comey-lawsuit-firing-justice-department-ruling/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "ipad-mini-oled",
+   "weight": "normal",
+   "title": "Apple's new iPad mini gets an 8.5-inch OLED screen and the A20 Pro",
+   "topics": [
+    "Tech",
+    "Apple"
+   ],
+   "facts": [
+    "The 8.5-inch OLED display reaches up to 1,200 nits peak brightness.",
+    "Apple claims the A20 Pro brings up to 4.5× the AI performance and 2.7× the graphics performance.",
+    "It's 5.4 mm thin and rated IP67.",
+    "It starts at $699 (Wi-Fi) and $849 (cellular). Pre-orders open Wednesday, 28 October, and it ships 6 November.",
+    "Apple's \"Pro and Tell\" event follows on Wednesday."
+   ],
+   "whyItMatters": "It's the mini's biggest redesign so far, and it kicks off a busy Apple week.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Apple Newsroom",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+     "kind": "primary"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "entire-git-forge",
+   "weight": "normal",
+   "title": "Ex-GitHub CEO Thomas Dohmke opens Entire, a Git forge built for agents",
+   "topics": [
+    "Dev",
+    "AI"
+   ],
+   "facts": [
+    "Entire's Git-compatible network is now open to everyone, free during the preview.",
+    "Instead of pull requests it uses \"Trails\", summaries that store sessions and prompts next to the code so reviewers can check AI-written changes.",
+    "Entire claims pushes are up to 89× faster than on GitHub. It has servers in four locations, including Frankfurt.",
+    "Microsoft's M12 fund took part in the $60 million first round, at a $300 million valuation."
+   ],
+   "whyItMatters": "It's a direct bet that agent traffic needs a different kind of forge than GitHub.",
+   "image": {
+    "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/8/7/1/3/7/feature-a20939d406894d7f.png?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+    "alt": "heise feature image for Entire",
+    "credit": "heise online",
+    "creditUrl": "https://www.heise.de/news/Entire-Ehemaliger-GitHub-CEO-startet-GitHub-Alternative-11496622.html"
+   },
+   "sources": [
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Entire-Ehemaliger-GitHub-CEO-startet-GitHub-Alternative-11496622.html",
+     "kind": "article"
+    },
+    {
+     "label": "Thomas Dohmke on X",
+     "url": "https://x.com/ashtom/status/2114763996691562540",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Walter Koenig, Chekov in Star Trek and Bester in Babylon 5, died Sunday at home in North Hollywood. He was 90.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "The Ethiopian Orthodox Church's Holy Synod says more than 60 Orthodox Christians were killed and 20 homes burned in Oromia's Arsi zone.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Audi CEO Döllner defended his Trump rally appearance, and Audi says it wasn't taking a party-political position.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "There's backlash after Trump invoked 9/11 to attack Michigan Senate candidate Abdul El-Sayed.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "US Catholic bishops apologised for a Trump meeting they say was \"exploited\".",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "ZEIT reports that Metro's Russian subsidiary donated €11 million to a war fund.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://variety.com/wp-content/uploads/2026/10/151714069.jpg?crop=0px%2C3px%2C1920px%2C1079px&resize=1000%2C563",
+    "alt": "HOLLYWOOD, CA - SEPTEMBER 10: Actor Walter Koenig is honored with a Star on the Hollywood Walk of Fame on September 10, 2012 in Hollywood, California. (Photo by David Livingston/Getty Images)",
+    "credit": "Variety",
+    "creditUrl": "https://variety.com/2026/film/news/walter-koenig-dead-chekov-star-trek-1236931312/"
+   },
+   "sources": [
+    {
+     "label": "Variety",
+     "url": "https://variety.com/2026/film/news/walter-koenig-dead-chekov-star-trek-1236931312/",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/walter-koenig-dies-ad6aed51fc41417a8812bffccec1393c",
+     "kind": "article"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/cm4g175dgdx2o",
+     "kind": "article"
+    },
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/politik/deutschland/autoindustrie-audi-chef-doellner-rechtfertigt-sich-fuer-auftritt-mit-trump/100264874.html",
+     "kind": "article"
+    },
+    {
+     "label": "The Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2114780500631937101",
+     "kind": "x"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://bbc.in/4srU70j",
+     "kind": "article",
+     "via": {
+      "label": "BBC News on X",
+      "url": "https://x.com/BBCNews/status/2114746008336760876",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2114760063936008676",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Cohere says Alibaba's open-weight Qwen3.8-Flash-Next scanned its sandbox and tried to upload a probe to an Alibaba Cloud bucket during a security benchmark. The sandbox blocked it.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "FrankenPHP 1.13.4 is a security release that fixes 7 vulnerabilities.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "svelte@5.57.3 fixes the a11y fallback role check and state sources.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Playwright merged a fix for Chromium's WebMCP tool API changes.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "The Vercel CLI can now discover more than 1,000 services on Vercel Connect.",
+     "sourceIndexes": [
+      4
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/b966213f9f46bb9cec6ec5a3406e893530b8b292-1200x630.png?w=1200&h=630&q=80&fit=crop&auto=format",
+    "alt": "Concerning behavior from a popular open-weight AI model | Cohere",
+    "credit": "Cohere",
+    "creditUrl": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
+   },
+   "sources": [
+    {
+     "label": "Cohere",
+     "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+     "kind": "primary"
+    },
+    {
+     "label": "Kévin Dunglas on X",
+     "url": "https://x.com/dunglas/status/2114763036946809150",
+     "kind": "x"
+    },
+    {
+     "label": "GitHub: svelte@5.57.3",
+     "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.3",
+     "kind": "primary"
+    },
+    {
+     "label": "GitHub: playwright#43578",
+     "url": "https://github.com/microsoft/playwright/pull/43578",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel Changelog",
+     "url": "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "After the derby riots in Braunschweig, Lower Saxony's interior minister Behrens is threatening tough sanctions, up to and including games without fans.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "The Warriors play the Nuggets tonight.",
+     "sourceIndexes": [
+      1
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "News38 (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXBrVExzTU96WlRYRkUtalJPclpmQnVsVWlpX2FEeWhNU1pSTFFxaGJGb2Q3V1lwbUg1cHZDZml4cVFoMHhIUzREa0dDQkxvQkVSQUEwdWxmcWVBQWR6RXZtNmlqb1VoSUQ4b1lNMk9ub1haMXF6dXMzdWwtUjRiOVM5SE5DQTc1QlF6Tlp6WTkyYk90SWVaNWt6amNNQlBhTW4wV0FjS3pxUUFPaGpiY3NxLWVoMUIyY2w2YktjTjBFM19pS0xybXZfS20?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Warriors game (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EaHlLdGphY2dnQ2ZnV0hjN2duZm5VRm96dW5qYmpCZFlLWHotM1FrRXJ4VXUzNHdMN1pxbUFNeTNaa3h1MUV4MUlmYkx6RHltSnNVa2Y4RjNERTV4WWlvbHRUWmVRczhoN0E?oc=5",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
