@@ -1,0 +1,480 @@
+{
+ "id": "2026-10-26-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-10-26T13:10:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:30 Monday)",
+ "headline": "US forces ready to hit Iran within 96 hours of an order, Audi's Trump rally row, and the ifo index climbs again",
+ "stories": [
+  {
+   "id": "us-iran-96-hours",
+   "weight": "lead",
+   "title": "US forces could strike Iran within 96 hours of an order, while Israel says it won't move before its vote",
+   "topics": [
+    "Middle East",
+    "US"
+   ],
+   "facts": [
+    "Two US officials told CNN that forces in the region are ready to launch new, potentially major operations against Iran \"within 96 hours\" of an order from Trump.",
+    "Possible targets go beyond limited strikes and could include energy infrastructure, military sites and nuclear facilities.",
+    "Trump hasn't made a final decision. Officials see action as most likely after the 3 November midterms.",
+    "A 23 October memo from DNI Jay Clayton to Rubio says Iran has stepped up plotting against US personnel, and Iran and the Houthis are expected to retaliate. The White House declined to comment.",
+    "Israel's defence minister Katz said Israel had no intention of attacking Iran before Tuesday's election, called reports of a Netanyahu–army chief rift \"baseless\", and warned any Iranian attack would be met forcefully."
+   ],
+   "whyItMatters": "It turns last week's talk of resumed operations into a concrete readiness window, right as Israel votes and the US heads into its midterms.",
+   "image": null,
+   "sources": [
+    {
+     "label": "CNN",
+     "url": "https://www.cnn.com/2026/10/26/politics/us-iran-strike-plans-trump",
+     "kind": "article"
+    },
+    {
+     "label": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/syzzmfnhmg",
+     "kind": "article"
+    },
+    {
+     "label": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog_entry/katz-reports-of-clash-between-pm-and-idf-chief-baseless-there-was-no-intention-to-attack-iran-before-election/",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/4dViptJ",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2114628353600676136",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2114641285076103355",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "audi-doellner-trump",
+   "weight": "normal",
+   "title": "VW's works council chief calls the Audi boss's Trump rally appearance shameful",
+   "topics": [
+    "Germany",
+    "Business"
+   ],
+   "facts": [
+    "Audi CEO Gernot Döllner appeared at Trump's Georgia rally, where Audi's first US plant in Perry was announced.",
+    "The plan is $4 billion, 200,000 SUVs a year and 4,500 jobs, with construction from 2027 and production in the early 2030s.",
+    "Daniela Cavallo said anyone who heard the speech and saw Döllner take part should \"sink into the ground with shame\". She called it \"active campaign support\".",
+    "She says Audi's own guidelines, which Döllner signed a few months ago, ban appearances with candidates in the three months before an election. IG Metall chief Christiane Benner called it \"politically unacceptable\".",
+    "SPD transport expert Isabel Cademartori called it campaign help for an autocrat."
+   ],
+   "whyItMatters": "A US plant may please Washington, but it opens a fight inside VW and with German politics a week before the midterms.",
+   "image": {
+    "url": "https://bilder.deutschlandfunk.de/b7/83/77/98/b7837798-d1f0-4936-a67d-9e3775620a3e/audi-suvs-in-usa-100-1920x1080.jpg",
+    "alt": "US-Präsident Donald Trump begrüßt Gernot Döllner, Vorstandsvorsitzender der Audi AG, bei einer Wahlkampfveranstaltung im Guardian Centers of Georgia. Döllner lächelt.",
+    "credit": "Deutschlandfunk",
+    "creditUrl": "https://www.deutschlandfunk.de/wahlkampfhilfe-fuer-autokraten-vorwuerfe-gegen-vw-nach-audi-chef-auftritt-bei-trump-100.html"
+   },
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/audi-us-werk-doellner-trump-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/wirtschaft/vw-betriebsratschefin-cavallo-nennt-auftritt-von-audi-chef-bei-trump-beschaemend-a-561cd07b-5304-4a93-9eec-d00532127bb6",
+     "kind": "article"
+    },
+    {
+     "label": "WirtschaftsWoche",
+     "url": "https://www.wiwo.de/unternehmen/auto/audi-chef-bei-trump-cavallo-kritisiert-doellner-und-us-werkplaene/100264766.html",
+     "kind": "article"
+    },
+    {
+     "label": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/wahlkampfhilfe-fuer-autokraten-vorwuerfe-gegen-vw-nach-audi-chef-auftritt-bei-trump-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2114612969510212073",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "ifo-october",
+   "weight": "normal",
+   "title": "ifo index rises for the sixth month in a row, to its highest since spring 2023",
+   "topics": [
+    "Germany",
+    "Economy"
+   ],
+   "facts": [
+    "The ifo business climate rose to 90.2 points in October from 89.9 in September. Analysts had expected no change.",
+    "The gain came from expectations. Companies rated their current situation slightly worse.",
+    "Manufacturing improved sharply: both its current situation and expectations turned positive for the first time in more than three years, and new orders rose.",
+    "Services dipped, trade was flat, and construction improved.",
+    "It is the highest reading since spring 2023, after 88.8 in August and 89.9 in September."
+   ],
+   "whyItMatters": "German industry is signalling a turn for the first time in years, not just a smaller slump.",
+   "image": null,
+   "sources": [
+    {
+     "label": "ifo Institut",
+     "url": "https://www.ifo.de/pressemitteilung/2026-10-26/ifo-geschaeftsklimaindex-gestiegen-oktober-2026",
+     "kind": "primary"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/konjunktur/ifo-index-oktober-102.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2114649776109039936",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "nhs-consultants-strike",
+   "weight": "normal",
+   "title": "Senior doctors in England will strike for two days from 25 November",
+   "topics": [
+    "UK",
+    "Health"
+   ],
+   "facts": [
+    "The BMA says consultants will walk out from 6:59am on 25 November for two days, in England.",
+    "The dispute is about pay, working conditions and workload.",
+    "76% of consultants who voted backed strikes, on a turnout just over 50%."
+   ],
+   "whyItMatters": "Consultant strikes hit planned care hardest, and this one lands right before the NHS winter peak.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9675/live/c9798c10-d124-11f1-9a61-7b8d75492b97.png",
+    "alt": "Doctors at a computer",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/society/2026/oct/26/nhs-consultants-two-day-doctors-strike-england-november-bma",
+     "kind": "article"
+    },
+    {
+     "label": "BBC Breaking News",
+     "url": "https://bbc.in/4zR4flR",
+     "kind": "article",
+     "via": {
+      "label": "BBC Breaking News on X",
+      "url": "https://x.com/BBCBreaking/status/2114664380184797687",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "eric-bauza",
+   "weight": "normal",
+   "title": "Eric Bauza, the voice of Bugs Bunny and Daffy Duck, has died at 46",
+   "topics": [
+    "Culture"
+   ],
+   "facts": [
+    "The Emmy-winning voice actor died suddenly at home on Sunday, 25 October.",
+    "He voiced the modern Bugs Bunny, Daffy Duck and Porky Pig, among other characters.",
+    "Official health records list hypertensive cardiovascular disease."
+   ],
+   "whyItMatters": "He was the modern voice of characters several generations grew up with.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/2ba1/live/0257f500-d100-11f1-9d25-c3fafb2ab4de.jpg",
+    "alt": "A man in a dark suit with a close-cropped goatee smiles at a premiere",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/cwzd6q630vjeo"
+   },
+   "sources": [
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/culture/2026/oct/26/eric-bauza-award-winning-looney-tunes-voice-actor-dies-aged-46",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cwzd6q630vjeo",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/4srf7EC",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2114656892626616493",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Uganda now quarantines citizens returning from DR Congo for 21 days at their own cost, after Ebola cases in Kenya and Nigeria involved travellers who had passed through Uganda.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "France's interior minister wants to keep curfews and protest bans. Weekend protests led to many arrests, over 100 of them for carrying weapons, and new actions are planned for Saturday.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Jordan arrested three men suspected of the deadly church attack after a shootout.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "The cabinet launched the \"Gebäudetyp E\" draft law: building below recognised engineering norms no longer counts as a defect if safety and usability hold.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Latvia approved Tesla's supervised FSD, the 10th EU country to recognise the Dutch approval. Tesla says rollout begins soon.",
+     "sourceIndexes": [
+      6,
+      7
+     ]
+    },
+    {
+     "text": "Flash floods and mudslides hit Phuket's Patong after up to 142.8 mm of rain. Nobody was hurt, and more heavy rain is forecast until 28 October.",
+     "sourceIndexes": [
+      8,
+      9
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/1265/live/b5d85d90-d10a-11f1-ac54-9f7716f7b702.jpg",
+    "alt": "Uganda's Health Minister Chris Baryomunsi, in black suit and white shirt, gestures as he speaks. There is a black microphone in front of him and a banner with words Uganda Media Centre and a Ugandan coat of arms behind him.",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/crx2dyd24188o"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/crx2dyd24188o",
+     "kind": "article"
+    },
+    {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/25/uganda-orders-21-day-ebola-quarantine-for-citizens-returning-from-dr-congo",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2114661109978353982",
+     "kind": "x"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2114675276412018895",
+     "kind": "x"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/3UhDCqX",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2114674155433988365",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/inland/gebaeudetyp-e-104.html",
+     "kind": "article"
+    },
+    {
+     "label": "Tesla Europe on X",
+     "url": "https://x.com/teslaeurope/status/2114667445223149619",
+     "kind": "x"
+    },
+    {
+     "label": "Electric Vehicles",
+     "url": "https://eletric-vehicles.com/tesla/tesla-fsd-approved-in-latvia-the-10th-eu-country-to-back-dutch-ruling/",
+     "kind": "article"
+    },
+    {
+     "label": "Khaosod English",
+     "url": "https://www.khaosodenglish.com/featured/2026/10/26/flash-floods-send-rocks-and-mud-through-phukets-patong/",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/thailand-phuket-flooding-mudslide-d3eb82e5f9dfeb6356804414e9e3be85",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Nanbeige, the lab of Chinese job app BOSS Zhipin, released Nanbeige4.3-33B under Apache 2.0, with 512K context and native tool use. Its own benchmarks put it ahead of Qwen 27B on most agentic tests.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Apple's note on the compromised eMudhra intermediate CAs: Safari and Mail have blocked them since 19 October, but macOS command-line tools that use /etc/ssl/cert.pem may still accept them until a macOS update.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Tracebit tested nine \"Context Bomb\" traps against seven models across 773 AWS runs, to see how much deceptive files slow down and confuse attacking agents.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Evan Czaplicki (Elm) digs into why sending email costs money when it is technically little more than an HTTPS-style request.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Anthropic is inviting life-science labs to 8–12-week projects with its researchers, with models run at no cost and outputs published openly.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Playwright merged a Chromium fix to continue requests that arrive while interception is disabled.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://agentic.tracebit.com/factory/img/hero-v2.png",
+    "alt": "A robot attacker follows a red path into a corridor of mirrors.",
+    "credit": "Tracebit Research",
+    "creditUrl": "https://agentic.tracebit.com/factory/"
+   },
+   "sources": [
+    {
+     "label": "Hugging Face (Nanbeige4.3-33B)",
+     "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+     "kind": "primary"
+    },
+    {
+     "label": "Thomas Wolf on X",
+     "url": "https://x.com/Thom_Wolf/status/2114638463601451484",
+     "kind": "x"
+    },
+    {
+     "label": "Apple Support",
+     "url": "https://support.apple.com/en-us/149555",
+     "kind": "primary"
+    },
+    {
+     "label": "MacRumors",
+     "url": "https://www.macrumors.com/2026/10/25/apple-blocks-compromised-emudhra-certificates/",
+     "kind": "article"
+    },
+    {
+     "label": "Tracebit Research",
+     "url": "https://agentic.tracebit.com/factory/",
+     "kind": "primary"
+    },
+    {
+     "label": "evancz.dev",
+     "url": "https://evancz.dev/why-is-it-so-expensive-to-send-an-email",
+     "kind": "article"
+    },
+    {
+     "label": "Anthropic",
+     "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+     "kind": "primary"
+    },
+    {
+     "label": "microsoft/playwright #43627",
+     "url": "https://github.com/microsoft/playwright/pull/43627",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Hannover 96 condemned its fans for firing fireworks towards other stands after the second goal in Sunday's 0:2 derby loss in Braunschweig, and says it will help identify them.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Braunschweig's fire brigade had to put out fires and condemned attacks on its crews.",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Hannover 96",
+     "url": "https://www.hannover96.de/newscenter/news/details/37613-hannover-96-verurteilt-vorkommnisse-beim-derby-in-braunschweig.html",
+     "kind": "primary"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2114640806518956355",
+     "kind": "x"
+    },
+    {
+     "label": "t-online Braunschweig",
+     "url": "https://braunschweig.t-online.de/region/braunschweig/id_101497390/eskalation-beim-niedersachsenderby-polizei-und-feuerwehr-reagieren.html",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
