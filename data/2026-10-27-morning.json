@@ -1,0 +1,673 @@
+{
+  "id": "2026-10-27-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-27T08:45:00+01:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight, since the evening edition (~19:55 Monday)",
+  "headline": "OpenAI's models claim to disprove a famous complexity conjecture, Israel votes, and Comey faces a third case",
+  "stories": [
+    {
+      "id": "openai-three-discoveries",
+      "weight": "lead",
+      "title": "OpenAI says its models disproved the Exponential Time Hypothesis and proved two other major open problems",
+      "topics": [
+        "AI",
+        "Science"
+      ],
+      "facts": [
+        "OpenAI announced three results produced by its internal models, in harmonic analysis, complexity theory and quantum field theory, each with an external group of experts to check and explain it.",
+        "Computer science: the models refuted the Exponential Time Hypothesis (ETH), a widely assumed conjecture in complexity theory. The disproof was found on 16 October and formalized in Lean the next day.",
+        "Russell Impagliazzo and Ramamohan Paturi of UC San Diego, who originally proposed the ETH, will lead the group checking it with MIT's Ryan Williams. The proof and the Lean code are public.",
+        "Math: a proof of Sogge's local smoothing conjecture in every dimension, which would also settle the Kakeya and Stein restriction conjectures in all dimensions. It was also formalized in Lean and released.",
+        "Physics: a rigorous existence proof for interacting four-dimensional quantum field theories, including QCD. A sub-result covers pure Yang–Mills existence, part of a Clay Millennium Prize problem. A group led by David Gross is holding back the artifacts for now.",
+        "OpenAI says it seeks no academic credit, uses no NDAs in these collaborations, and commits to funding a conference on the ETH result. Greg Brockman added that P \"still probably\" doesn't equal NP."
+      ],
+      "whyItMatters": "If the expert checks hold, an AI system will have overturned a standard assumption of complexity theory, and the Lean proofs let anyone verify the logic. Bret Taylor said he was shocked by the ETH result.",
+      "image": {
+        "url": "https://opengraph.githubassets.com/f113a1812a515a8de6b7ef2e0178190e7e285fe9d97c3e569a42f1514177c9c1/openai/math",
+        "alt": "Contribute to openai/math development by creating an account on GitHub.",
+        "credit": "The Exponential Time Hypothesis Is False (preprint)",
+        "creditUrl": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+      },
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+          "kind": "primary",
+          "via": {
+            "label": "Greg Brockman on X",
+            "url": "https://x.com/gdb/status/2114837059462627533",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "The Exponential Time Hypothesis Is False (preprint)",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50251661",
+          "kind": "article"
+        },
+        {
+          "label": "Bret Taylor on X",
+          "url": "https://x.com/btaylor/status/2114860863324848131",
+          "kind": "x"
+        },
+        {
+          "label": "Greg Brockman on X",
+          "url": "https://x.com/gdb/status/2114860693585563907",
+          "kind": "x"
+        }
+      ]
+    },
+    {
+      "id": "israel-election-day",
+      "weight": "normal",
+      "title": "Israel is voting now, with exit polls due at 21:00 Berlin time",
+      "topics": [
+        "Middle East",
+        "Elections"
+      ],
+      "facts": [
+        "Polls opened on Tuesday for about 7.3 million eligible voters at roughly 12,000 polling stations, with Netanyahu facing Gadi Eisenkot's Yashar.",
+        "Final polls suggest neither bloc reaches the 61 seats needed for a majority in the 120-seat Knesset.",
+        "Voting closes at 22:00 local time (21:00 Berlin), when the exit polls come out.",
+        "The NYT reports, citing officials, that Netanyahu pushed for an attack on Iran ahead of the election.",
+        "Diplomats from Saudi Arabia, Pakistan and Turkey met Iranian leaders in Tehran to push for an end to the war, amid fears that US and Israeli strikes will restart."
+      ],
+      "whyItMatters": "Tonight's exit polls are the first sign of whether Netanyahu holds on. The Iran reports show how closely the war and the vote are tied.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/9543/live/7b21c3e0-d1cc-11f1-837e-832a94a7445c.png",
+        "alt": "Two men wearing suits look ahead. It is Gadi Eisenkot and Benjamin Netanyahu in a composite image.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/c3j47l4kdez4o"
+      },
+      "sources": [
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-3b5a0fd078208155337ee9a0b9fbfde2",
+          "kind": "article"
+        },
+        {
+          "label": "The Guardian (live)",
+          "url": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c3j47l4kdez4o",
+          "kind": "article"
+        },
+        {
+          "label": "The New York Times",
+          "url": "https://nyti.ms/4kfHDqv",
+          "kind": "article",
+          "via": {
+            "label": "The New York Times on X",
+            "url": "https://x.com/nytimes/status/2114847064953663694",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://wapo.st/4suR6wu",
+          "kind": "article",
+          "via": {
+            "label": "The Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2114862157779112353",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "The New York Times (live)",
+          "url": "https://www.nytimes.com/live/2026/10/27/world/israel-elections",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "comey-third-case",
+      "weight": "normal",
+      "title": "The Justice Department charges James Comey a third time, this time over a 2016 leak",
+      "topics": [
+        "US",
+        "Justice"
+      ],
+      "facts": [
+        "Prosecutors charged the former FBI director with transmitting national defense information and with conspiracy to do so. The filing was unsealed on Monday at Comey's request.",
+        "The charges relate to a New York Times story from 5 October 2016 about Yahoo and email surveillance.",
+        "The case is a criminal information filed under seal on 5 October, not a grand-jury indictment.",
+        "His lawyers moved on 9 October to dismiss it. They argue that the 10-year statute of limitations requires an indictment, and they note that two earlier US attorneys declined to prosecute.",
+        "Comey's response began: \"Well, they're back again…\" His first case was dismissed, and the \"8647\" seashell threat case in North Carolina is still pending."
+      ],
+      "whyItMatters": "It came out the same day as the ruling on Maurene Comey's firing. The fight over whether a case without an indictment can beat the deadline is now with the judge.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/21c9/live/16bb9ba0-d187-11f1-8d7e-c9ff4ede405b.jpg",
+        "alt": "James Comey speaks onstage during Former FBI Director James Comey In Conversation With MSNBC's Nicolle Wallace at 92NY on May 30, 2023 in New York City.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/ckly0xqjnlwvo"
+      },
+      "sources": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/politics/justice-department/former-fbi-james-comey-charged-third-time-trump-national-security-rcna342963",
+          "kind": "article"
+        },
+        {
+          "label": "CBS News",
+          "url": "https://www.cbsnews.com/news/doj-takes-steps-to-charge-james-comey/",
+          "kind": "article"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/james-comey-indictment-national-defense-doj-trump.html",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/10/26/justice-dept-charges-james-comey-ex-fbi-director-third-time/",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ckly0xqjnlwvo",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4ByiRs4",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2114841515004424242",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kyiv-university-strike",
+      "weight": "normal",
+      "title": "Russian ballistic missiles hit a Kyiv university campus as the Oleshky truce begins",
+      "topics": [
+        "Ukraine"
+      ],
+      "facts": [
+        "Russian ballistic missiles hit Kyiv overnight, killing one person and injuring 15, the Kyiv Independent reports. Nine medical staff were hospitalized.",
+        "The campus and dormitories of the State University of Trade and Economics, near Kyoto Park and Lisova metro station, were hit.",
+        "The Southern Bridge, medical facilities and metro infrastructure were also hit, and paramedics were caught under fire.",
+        "Zelensky urged partners to speed up air defense deliveries.",
+        "The US-brokered local ceasefire around Oleshky took effect in the early hours of 27 October, shortly after the strikes."
+      ],
+      "whyItMatters": "The local truce began on the same night Russia hit a university in the capital, a test of what the November talks can deliver.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/af90/live/ca109650-d1b0-11f1-93f3-e3ba7480d857.jpg",
+        "alt": "Activists hold placards with slogans during a rally in support of residents of Oleshky, Kherson region, calling on the international community to draw attention to the humanitarian situation in the Russian-occupied city.",
+        "credit": "BBC News (World)",
+        "creditUrl": "https://bbc.in/3UfDeth"
+      },
+      "sources": [
+        {
+          "label": "Kyiv Independent",
+          "url": "https://kyivindependent.com/paramedics-caught-under-fire-as-russian-ballistic-missiles-slam-kyiv/",
+          "kind": "article"
+        },
+        {
+          "label": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/88241",
+          "kind": "article"
+        },
+        {
+          "label": "RFE/RL",
+          "url": "https://www.rferl.org/a/ukraine-russia-strike-kyiv-dormitory-us-zelenskyy/33884968.html",
+          "kind": "article"
+        },
+        {
+          "label": "Volodymyr Zelensky on X",
+          "url": "https://x.com/ZelenskyyUa/status/2114827667145187712",
+          "kind": "x"
+        },
+        {
+          "label": "BBC News (World)",
+          "url": "https://bbc.in/3UfDeth",
+          "kind": "article",
+          "via": {
+            "label": "BBC News (World) on X",
+            "url": "https://x.com/BBCWorld/status/2114915295332553164",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brazil-bolsonaro-backs-down",
+      "weight": "normal",
+      "title": "Flávio Bolsonaro drops his annulment push after Trump stays out",
+      "topics": [
+        "World",
+        "Elections"
+      ],
+      "facts": [
+        "Bolsonaro backed off his call to annul Sunday's runoff minutes after Trump said the vote \"looked like another rigged election\" but that he \"did not take sides\".",
+        "His Liberal Party, led by Valdemar Costa Neto, formally recognised Lula's win.",
+        "He was ordered to surrender his passports in a corruption probe into the financing of the biopic \"Dark Horse\", and says he is taking up the leadership of the opposition.",
+        "Lula, who won with 51.79%, turns 81 today."
+      ],
+      "whyItMatters": "Yesterday's annulment threat is over, so Lula's fourth term looks settled.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6adfbfd58a75-1793048533.jpg?resize=1920%2C1440",
+        "alt": "Bolsonaro’s party accepts Brazil election after Trump calls vote ‘rigged’",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/10/27/bolsonaros-party-accepts-result-after-trump-suggests-vote-was"
+      },
+      "sources": [
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/10/26/brazilian-challenger-effectively-concedes-defeat-day-after-election/",
+          "kind": "article"
+        },
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/27/bolsonaros-party-accepts-result-after-trump-suggests-vote-was",
+          "kind": "article"
+        },
+        {
+          "label": "The Straits Times",
+          "url": "https://www.straitstimes.com/world/bolsonaro-backs-off-election-challenge-as-his-party-concedes",
+          "kind": "article"
+        },
+        {
+          "label": "SBS News (AFP)",
+          "url": "https://www.sbs.com.au/news/article/bolsonaro-agrees-to-surrender-passports-after-acknowledging-loss-in-brazils-presidential-race/ypalv10c6",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "ballon-dor-kane",
+      "weight": "normal",
+      "title": "Harry Kane wins the Ballon d'Or, and Alexia Putellas takes her third",
+      "topics": [
+        "Sports",
+        "Football"
+      ],
+      "facts": [
+        "The Bayern striker is the first Englishman to win since Michael Owen in 2001, and the fifth overall. Mbappé came second and Lamine Yamal third.",
+        "Kane scored 61 goals in 51 Bayern games, a club record, and 73 including England. He is 33.",
+        "Alexia Putellas, now at London City Lionesses, won the women's award for a record-equalling third time, ahead of Ewa Pajor and Khadija Shaw.",
+        "Lamine Yamal was also named the men's young talent of the year at the London Palladium ceremony."
+      ],
+      "whyItMatters": "A Bundesliga striker is on top of world football, and it ends England's 25-year wait.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b391/live/343ff340-d193-11f1-8c41-0bbbeafdc6d4.jpg",
+        "alt": "Harry Kane kisses the Ballon d'Or",
+        "credit": "BBC Sport",
+        "creditUrl": "https://www.bbc.com/sport/football/articles/cqlye4jpzzxyo"
+      },
+      "sources": [
+        {
+          "label": "BBC Sport",
+          "url": "https://www.bbc.com/sport/football/articles/cqlye4jpzzxyo",
+          "kind": "article"
+        },
+        {
+          "label": "BBC Sport (Putellas)",
+          "url": "https://www.bbc.com/sport/football/articles/cqp9gky38lj3o",
+          "kind": "article"
+        },
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/ballon-dor-kane-yamal-mbappe-messi-putellas-cf1d945b777b23c77c03f29d914b49ea",
+          "kind": "article"
+        },
+        {
+          "label": "BBC Breaking News",
+          "url": "https://bbc.in/48j8ESI",
+          "kind": "article",
+          "via": {
+            "label": "BBC Breaking News on X",
+            "url": "https://x.com/BBCBreaking/status/2114853045276144070",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/10/26/englands-harry-kane-wins-ballon-dor-alexia-putellas-takes-womens-award",
+          "kind": "article"
+        },
+        {
+          "label": "Champions League on X",
+          "url": "https://x.com/ChampionsLeague/status/2114825126017712594",
+          "kind": "x"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "weight": "brief",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "The 9th Circuit dismissed a DOJ appeal seeking to set aside about 20,000 California mail ballots for lack of jurisdiction, so they can be counted for now. District court arguments are today.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "US trade chief Greer warns that the EIB's €3bn loan to Airbus threatens the US–EU trade truce on aircraft financing.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "In Neustadt am Rübenberge near Hannover, a car was driven into a group of people, injuring at least four. Police at a nearby check fired at it, and the suspects fled on foot.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Cyclone Arnab is intensifying in the Bay of Bengal and could hit eastern India as soon as late Tuesday.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Syria says Jordanian airstrikes killed five people, including women and children, after a deadly church attack last week.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "A judge has blocked, for now, further changes by the Trump administration at East Potomac Park in Washington.",
+          "sourceIndexes": [
+            8
+          ]
+        },
+        {
+          "text": "Intel agreed to buy the quantum algorithm company Classiq.",
+          "sourceIndexes": [
+            9
+          ]
+        },
+        {
+          "text": "heise reports that China's AI stock index is 40% below its peak.",
+          "sourceIndexes": [
+            10
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://ustr.gov/sites/default/files/2026-10/Meta%20Tag_15.png",
+        "alt": "Ambassador Greer Issues Statement on the Status of the U.S.-EU Détente Following Record-Breaking Loan from the European Investment Bank to Airbus",
+        "credit": "USTR",
+        "creditUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/ambassador-greer-issues-statement-status-us-eu-detente-following-record-breaking-loan-european"
+      },
+      "sources": [
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/california-noncitizen-voting-justice-department-lawsuit-ed14390afb8af8fde1c2d0f6a90a0761",
+          "kind": "article"
+        },
+        {
+          "label": "9th Circuit order",
+          "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
+          "kind": "primary"
+        },
+        {
+          "label": "USTR",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/ambassador-greer-issues-statement-status-us-eu-detente-following-record-breaking-loan-european",
+          "kind": "primary"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2114968851104637072",
+          "kind": "x"
+        },
+        {
+          "label": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/auto-faehrt-in-menschengruppe-mindestens-vier-verletzte,neustadt-158.html",
+          "kind": "article"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/bei-hannover-auto-faehrt-in-menschengruppe-polizei-schiesst-auf-wagen-accg-201624093.html",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://wapo.st/3UosDfA",
+          "kind": "article",
+          "via": {
+            "label": "The Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2114945211625300473",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://wapo.st/4yOexCv",
+          "kind": "article",
+          "via": {
+            "label": "The Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2114930144531943730",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "The New York Times",
+          "url": "https://nyti.ms/4im2bva",
+          "kind": "article",
+          "via": {
+            "label": "The New York Times on X",
+            "url": "https://x.com/nytimes/status/2114896143339425850",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Intel",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-classiq-accelerate-scalable-quantum-computing.html",
+          "kind": "article",
+          "via": {
+            "label": "Intel on X",
+            "url": "https://x.com/intel/status/2114817464135753957",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Erste-KI-Blase-geplatzt-Chinas-KI-Leitindex-40-Prozent-unter-dem-Hoechststand-11501107.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "weight": "brief",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Python shipped expedited security releases (3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18) that block the compromised eMudhra intermediate CA keys in `ssl`. Go explains how it shipped Go 1.27.3 and 1.26.10 for the same incident.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Bun AOT adds `--trim`, which strips unused parts of Bun from compiled binaries. A Bun.serve app on macOS shrinks from 89 MB to 25 MB.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Bun says type-checking got 69 seconds faster on a project that switched from TypeScript 7 to `bun check`, and a pull request swaps libarchive for a safe-Rust tar reader and writer.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "create-vite 9.3.2 uses TypeScript 7 where possible.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "GitHub Copilot's assisted permissions are now generally available in the CLI, the app and VS Code. A model auto-approves clearly safe requests.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "DeepSeek V4.1 Flash is now in Cursor, at $0.60 to $0.98 per task on CursorBench.",
+          "sourceIndexes": [
+            8
+          ]
+        },
+        {
+          "text": "CSS-Tricks is independent again. Longtime editor Geoff Graham took ownership from DigitalOcean and is bringing back the newsletter and guest posts.",
+          "sourceIndexes": [
+            9
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/34d8b3f1a91b16f4706c568ed051f08cb03df0b511e34ed0452cb86061c1b931/oven-sh/bun/pull/46638",
+        "alt": "What does this PR do? Removes the dependency on libarchive. The two things Bun used it for, tar and the gzip container, are now written in safe Rust. src/tar (bun_tar, new, #[forbid(unsafe_code)])...",
+        "credit": "oven-sh/bun #46638",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/46638"
+      },
+      "sources": [
+        {
+          "label": "Python Insider",
+          "url": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
+          "kind": "primary"
+        },
+        {
+          "label": "The Go Blog",
+          "url": "https://go.dev/blog/emudhra-incident",
+          "kind": "primary"
+        },
+        {
+          "label": "Jarred Sumner on X",
+          "url": "https://x.com/jarredsumner/status/2114835395271901667",
+          "kind": "x"
+        },
+        {
+          "label": "Jarred Sumner on X",
+          "url": "https://x.com/jarredsumner/status/2114930223024361680",
+          "kind": "x"
+        },
+        {
+          "label": "Bun on X",
+          "url": "https://x.com/bunjavascript/status/2114921791517069527",
+          "kind": "x"
+        },
+        {
+          "label": "oven-sh/bun #46638",
+          "url": "https://github.com/oven-sh/bun/pull/46638",
+          "kind": "primary"
+        },
+        {
+          "label": "vitejs/vite create-vite@9.3.2",
+          "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.2",
+          "kind": "primary"
+        },
+        {
+          "label": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+          "kind": "article",
+          "via": {
+            "label": "GitHub Changelog on X",
+            "url": "https://x.com/GHchangelog/status/2114918798637629618",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Cursor on X",
+          "url": "https://x.com/cursor_ai/status/2114839997568405608",
+          "kind": "x"
+        },
+        {
+          "label": "CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "weight": "brief",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "The Warriors routed the Nuggets in Denver for their first win of the season, with Yaxel Lendeborg scoring a career-high 31 points and 12 rebounds.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "49ers star Christian McCaffrey has a hamstring or thigh injury, and it's not clear how San Francisco will manage it.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "BVB host Werder Bremen in the DFB-Pokal tonight.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "After Eintracht Braunschweig's derby win over Hannover, rioters injured fans and police officers.",
+          "sourceIndexes": [
+            4
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "ESPN",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXdwMjZnamVFRmZYYUw3U0czNTR6SlJzR09QT0VwRVZRS0ZicnlqM1YyYTYzUkl6aVVXanNiRzZXQ0QzUFlON2JWQnFHcnNNTEN6a1J2QTJzRmpSOTJhWFVzX2lsX0hvcGptOUg1YURRaEZ1MDZwZk91OWpra2Z2WktubVBqV3pHcmhRdEVhTGw1NUVmREF6eFZpYW1weXhoRTlMRVNQOUxTUDR3YTltdGRBbkZKS0Vk?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "USA Today",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQTNwTEhBRUhkMG1FRlNleEo1ZkxzZlU0Um5PVW5veFFIREhwNFFCTEpyZUIwSko3b21qUl9TTmE3OUxrWTRSalFFMVEyVGdNdkQ1WEN6T0RIM2pQMjNZakpBbHMzeDZjejRSbGVMamFWUnRWVi1TblMtb29kejhpMDNpbnRTYU03bE90YVIyTURZY0lPUHQ3dXRlZXhRejlFVHIwUU1heWdMdmlGZUYtTkt2X3gtd045NjhnMUNYRnFNQmtWSnJuczFYM2V5NUxueGRiM3dOcFBWQU0?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "AmFoo.de",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05c08tbEtLamNrMUhicEU4eGhNRWpCWE9TdXdtSXloUEFZRkppZ1Q2cGhfdFZsSk5OeDBmdzcyRWZyVGEwQTYxOFJiMTJDU0tTa0M5R1ZVLXZfRFJ4eWpCanUtMWhhTjNLZ2c?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "SPOX",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNR3R2SUFlZDd0anh1MFdiQVFzamFuV3VQTU5zaWpFZXRpQ3Z1N1d6NWJpQ3Z1RFVRY2pGY2F6Smp3NHBZeHNMWWwxcmYxVDRFdVpvaDRfTTZrRG5kazk0LTd1TTZIVUY2YXdoOWJ4NEwzdzYzWVNWT2Q3bVRXV3Y5Sm5BeVRucE9lc2pZTXZIckU2c3ZDY3VQWi1SYTVBbzQ1YWk0cG9YeFZKUTRuTWNWUFhFaHUySmRlbDBqRF9XdEQ5YjJlT3JuaXM5cVZGVHVhNjFaRjh6ekx4QVloek0tNkhyRWZWV0xDZmdVOFdmakhIYW5xQzZva2ZMRjFFdlRNa0stZmk5Q1lhNFlzakRFYk90enVaZ2lIZVdELWNhdGlNc0NVc3Y5aDlwcWFkaXNZRkZ3NjJUU2pRT3JjZVRiYzNoN3c0a3VraElVVDJuLTJXQQ?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "RND",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcWZvdWxSQ0JwcVpyMW5NRzZDVUpmZC1GUG1ZS2pHVHExZWN6VnZGc1lTWURMdkJCeE5WdG9VMnBCekhVT0pPUzdOUUVCdThsUzFnRmVqSGhRY3hYLWlISGlRYkVfQ1pGSUVWeEo3S0lJaDMxZEFfOXhtQWxkZ0ZuQ1M3WlRWdGNEOU5aazY4MUdNbzk2a2s2SWZPdkxnOVpDc3NZS21ZdDI1TU9zN0wwT2E0bWhQdTFjM3JIVG83ektqblJXTUU4ZTJ5czRJNWNwTlRhdV95S3djMWFXUTY5a0lJM0JlUEhwek94V0NqUkc5Zw?oc=5",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
