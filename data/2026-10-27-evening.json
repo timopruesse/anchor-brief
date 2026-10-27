@@ -1,0 +1,480 @@
+{
+ "id": "2026-10-27-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-27T20:10:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon edition (~13:35)",
+ "headline": "DeepMind's Genie 4, Apple's M6 iMac and MacBook Pro, and a methane rollback before the midterms",
+ "stories": [
+  {
+   "id": "genie-4-world-model",
+   "weight": "lead",
+   "title": "Google DeepMind unveils Genie 4, a real-time world model with native audio",
+   "topics": [
+    "AI",
+    "Google"
+   ],
+   "facts": [
+    "DeepMind announced Genie 4 today as its new world model, with more realism and better real-time interactive simulation than before.",
+    "It's natively multimodal: music, ambient noise and dialogue are generated together with the world, and all the sound in the demos comes from the model itself.",
+    "You move with keyboard controls and steer the scene with text prompts mid-simulation, for example changing the weather, moving the camera or adding a person. Gemini adapts each prompt to the scene and keeps the world coherent between inputs.",
+    "Gemini Omni anchors how things look and behave, and other Gemini models handle the reasoning that keeps the simulation consistent.",
+    "It starts as a research preview for trusted testers, then goes to Google AI Ultra subscribers in Project Genie and early partners of the Gemini API and AI Studio. Logan Kilpatrick says it's coming to the API for the first time.",
+    "DeepMind pitches it as a step toward AGI and a way to build training environments for robots and agents."
+   ],
+   "whyItMatters": "World models that respond, sound and react in real time are the base layer for training agents and robots, and an API release would put that in developers' hands for the first time.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Google DeepMind blog",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+     "kind": "primary"
+    },
+    {
+     "label": "Google DeepMind on X",
+     "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+     "kind": "x"
+    },
+    {
+     "label": "Sundar Pichai on X",
+     "url": "https://x.com/sundarpichai/status/2115115252690145519",
+     "kind": "x"
+    },
+    {
+     "label": "Logan Kilpatrick on X",
+     "url": "https://x.com/OfficialLoganK/status/2115129174826647863",
+     "kind": "x"
+    },
+    {
+     "label": "TechCrunch on X",
+     "url": "https://x.com/TechCrunch/status/2115120103456989608",
+     "kind": "x"
+    },
+    {
+     "label": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50261319",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "apple-m6-imac-macbook-pro",
+   "weight": "normal",
+   "title": "Apple puts M6 into the iMac and the 14-inch MacBook Pro",
+   "topics": [
+    "Apple",
+    "Tech"
+   ],
+   "facts": [
+    "Apple announced both today. Pre-orders open on 28 October in 35 countries and regions, and they ship from 6 November.",
+    "The iMac starts at $1,499 with a 10-core CPU and GPU, or $1,699 with 12 cores. It keeps the 24-inch 4.5K design in seven colours and adds Wi-Fi 7, Bluetooth 6 and optional 2.5 Gigabit Ethernet.",
+    "Apple claims up to 5x faster on-device AI than M4 for the iMac, and up to 18x the performance of the most popular Intel iMac.",
+    "The 14-inch MacBook Pro starts at $1,999 with a 12-core CPU and GPU. Apple claims up to 30% faster graphics and 25% faster AI workloads than M5, and up to 24 hours of battery life.",
+    "Tom's Hardware notes the designs are unchanged and the launch comes a day before Apple's \"Pro and Tell\" event in Los Angeles."
+   ],
+   "whyItMatters": "It's Apple's first iMac update in two years, and both machines are pitched mainly as on-device AI computers.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Apple Newsroom (iMac)",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+     "kind": "primary"
+    },
+    {
+     "label": "Apple Newsroom (MacBook Pro)",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+     "kind": "primary"
+    },
+    {
+     "label": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/laptops/macbooks/apple-adds-m6-to-14-inch-macbook-pro-and-imac-starts-at-usd1-999",
+     "kind": "article"
+    },
+    {
+     "label": "MacRumors",
+     "url": "https://www.macrumors.com/2026/10/27/m6-imac-pre-orders-release-date/",
+     "kind": "article"
+    },
+    {
+     "label": "TechCrunch on X",
+     "url": "https://x.com/TechCrunch/status/2115088402408202546",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "methane-rollback",
+   "weight": "normal",
+   "title": "Trump moves to loosen methane rules for oil and gas, a week before the midterms",
+   "topics": [
+    "US",
+    "Climate",
+    "Energy"
+   ],
+   "facts": [
+    "Trump is set to announce an EPA proposal at a rally in Lubbock, Texas, tonight, where he's campaigning for Senate candidate Ken Paxton.",
+    "It mainly eases rules for low-producing \"marginal\" wells. The Hill says these produce about 7% of US oil and gas but about half of its methane emissions.",
+    "It would also end the Super Emitter Program, under which outside groups report big leaks, and relax rules meant to phase out routine flaring.",
+    "The administration expects $45 billion in savings for the industry and an extra 210 million barrels of oil from 2027 to 2050, which The Hill puts at about 10 days of US consumption.",
+    "Reuters says fuel prices have become a liability for Republicans amid the war with Iran."
+   ],
+   "whyItMatters": "Methane is a major warming gas, and this undoes much of the 2024 rule just as gas prices are a campaign issue.",
+   "image": null,
+   "sources": [
+    {
+     "label": "The Hill",
+     "url": "https://thehill.com/policy/energy-environment/6175227-trump-methane-regs-oil-gas-wells-energy-costs/",
+     "kind": "article"
+    },
+    {
+     "label": "Reuters via Yahoo News",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-roll-back-methane-rules-163232743.html",
+     "kind": "article"
+    },
+    {
+     "label": "EPA (7 October preview)",
+     "url": "https://www.epa.gov/newsreleases/administrator-zeldin-announces-epa-days-away-unveiling-next-oil-gas-proposal",
+     "kind": "primary"
+    },
+    {
+     "label": "The New York Times on X",
+     "url": "https://x.com/nytimes/status/2115136773013512364",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "flavio-passports-cancelled",
+   "weight": "normal",
+   "title": "Flávio Bolsonaro's passports are cancelled after he misses the deadline to hand them in",
+   "topics": [
+    "Brazil"
+   ],
+   "facts": [
+    "On Monday the Supreme Court gave him 24 hours to hand his passports to police as part of a money-laundering investigation, which he denies.",
+    "The deadline passed, so the passports were cancelled. Police are checking border crossings, but Argentina told the BBC it has no record of him entering.",
+    "On Tuesday the court also ordered police to look into alleged foreign funding of his campaign.",
+    "He still hasn't conceded his 4.4-million-vote loss to Lula and calls the two-hour extension of voting a \"dirty trick\"."
+   ],
+   "whyItMatters": "This morning he had dropped his annulment push. Now he faces two investigations and is barred from leaving Brazil.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/8c0d/live/6e225510-d226-11f1-b8e4-17c9744a7f8e.jpg",
+    "alt": "Flávio Bolsonaro (BBC News)",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/ckly0xpxp243o"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/ckly0xpxp243o",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World on X",
+     "url": "https://x.com/BBCWorld/status/2115129354531307776",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "cdc-superbugs-report",
+   "weight": "normal",
+   "title": "CDC names 19 superbugs that cause about 9.7 million US infections a year",
+   "topics": [
+    "Health",
+    "US"
+   ],
+   "facts": [
+    "It's the first full assessment in seven years. The 19 drug-resistant germs cause an estimated 9.7 million infections and 50,800 deaths a year, based on 2023 data.",
+    "Four are urgent threats: Candida auris, carbapenem-resistant Acinetobacter, CRE and drug-resistant gonorrhoea.",
+    "There are 13 serious threats, including C. diff (about 11,300 deaths) and ESC-resistant Enterobacterales (about 13,900 deaths), plus two concerning ones.",
+    "Six more pathogens, such as azole-resistant Aspergillus, are on a watch list."
+   ],
+   "whyItMatters": "It's the baseline the US will use for antibiotic resistance for years, and many of the old threats are still there.",
+   "image": null,
+   "sources": [
+    {
+     "label": "CDC AR Threats Report",
+     "url": "https://arpsp.cdc.gov/artr/antimicrobial-resistance-threats",
+     "kind": "primary"
+    },
+    {
+     "label": "CDC burden estimates (PDF)",
+     "url": "https://arpsp.cdc.gov/resources/artr/ARTR_Hero_Stat_Flyer_508.pdf",
+     "kind": "primary"
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://www.washingtonpost.com/health/2026/10/27/these-superbugs-pose-biggest-threat-americans-cdc-says/",
+     "kind": "article"
+    },
+    {
+     "label": "The Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2115129321568288818",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "By 14:00, Israel's turnout reached 44.9%, a record for that time of day. The Post says that's the highest turnout since 1973, and exit polls are due at 21:00 Berlin.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "The Supreme Court let Texas's deal with the Justice Department on deportation proceedings stand, with no noted dissents. Three cities wanted judges' \"administrative closure\" discretion restored.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The FBI searched a Beverly Hills mansion owned by a Swalwell donor as part of its probe into the former congressman.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "An Egyptian court ordered the independent outlet Mada Masr closed, and editor Lina Attalah is being held until she pays a fine of 3 million Egyptian pounds.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "The EU, UK, US, Canada, Switzerland and Norway jointly warn of famine in Sudan. 19.5 million people face acute food insecurity, and only 40% of this year's aid plan is funded.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "ESA's Hera has seen Didymos and Dimorphos as two separate asteroids for the first time. Detailed images of Dimorphos come on 25 November.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "NASA's Swift observatory, which has watched gamma-ray bursts since 2004, is on its final descent after a failed orbit boost.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "Mbappé apologised for his Mao remarks after two Chinese partners ended their deals with him.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "heise reports that France considered internet shutdowns during the protests.",
+     "sourceIndexes": [
+      9
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2115088259021676817",
+     "kind": "x"
+    },
+    {
+     "label": "The Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2115130180381421733",
+     "kind": "x"
+    },
+    {
+     "label": "The New York Times",
+     "url": "https://www.nytimes.com/2026/10/27/us/politics/supreme-court-texas-immigration.html",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://edition.cnn.com/2026/10/27/politics/fbi-searches-beverly-hills-mansion-tied-to-former-rep-eric-swalwell",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cw8rz14k1jvxo",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cj5ynkk6v3pzo",
+     "kind": "article"
+    },
+    {
+     "label": "ESA",
+     "url": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one",
+     "kind": "primary"
+    },
+    {
+     "label": "NASA Kennedy on X",
+     "url": "https://x.com/NASAKennedy/status/2115069166793396656",
+     "kind": "x"
+    },
+    {
+     "label": "The New York Times on X",
+     "url": "https://x.com/nytimes/status/2115075564679696465",
+     "kind": "x"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Frankreich-erwog-Internet-Sperren-waehrend-Protesten-11502333.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Apps that target Android 18 can no longer write to contacts directly with WRITE_CONTACTS, which Mishaal Rahman calls a significant change.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Charm's Prism is an 8B model that routes coding tasks to cheaper or stronger models in real time. Charm reports up to 45% lower inference cost.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Entire (Thomas Dohmke's forge) published a deep dive on EntireDB, its new Git backend.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "MAI-Image-2.6 and 2.6-Flash are generally available in Microsoft Foundry, and the 2.7 Preview is #3 on the arena image-editing leaderboard.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "Playwright merged a fix for handler deadlocks after locator action timeouts.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Astral wrote up a fast, secure tar parser for the Rust ecosystem.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "IEEE Spectrum looks at how Wikipedia editors clean up AI-generated content.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Mishaal Rahman on X",
+     "url": "https://x.com/MishaalRahman/status/2115135649875669489",
+     "kind": "x"
+    },
+    {
+     "label": "Charm on X",
+     "url": "https://x.com/charmcli/status/2115087348023136267",
+     "kind": "x"
+    },
+    {
+     "label": "Thomas Dohmke on X",
+     "url": "https://x.com/ashtom/status/2115126913756717487",
+     "kind": "x"
+    },
+    {
+     "label": "Microsoft AI on X",
+     "url": "https://x.com/MicrosoftAI/status/2115106982730342888",
+     "kind": "x"
+    },
+    {
+     "label": "Microsoft AI on X",
+     "url": "https://x.com/MicrosoftAI/status/2115102961957499069",
+     "kind": "x"
+    },
+    {
+     "label": "microsoft/playwright #43612",
+     "url": "https://github.com/microsoft/playwright/pull/43612",
+     "kind": "primary"
+    },
+    {
+     "label": "Astral blog",
+     "url": "https://astral.sh/blog/tar-codec",
+     "kind": "article"
+    },
+    {
+     "label": "IEEE Spectrum",
+     "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Eintracht Braunschweig's Samuele Di Benedetto injured the medial ligament in his left knee in the derby and is out for several weeks. He doesn't need surgery, and it's open whether he plays again this year.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "He got hurt minutes after coming on and still set up Yann Sturm's 2:0.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "49ers GM John Lynch called the loss to the Falcons \"disappointing\" as San Francisco goes into its bye week.",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Eintracht Braunschweig",
+     "url": "https://www.eintracht.com/news/artikel/samuele-di-benedetto-faellt-mehrere-wochen-aus",
+     "kind": "primary"
+    },
+    {
+     "label": "Eintracht Braunschweig on X",
+     "url": "https://x.com/EintrachtBSNews/status/2115099370160783675",
+     "kind": "x"
+    },
+    {
+     "label": "Heavy.com via Google News",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORVItMC0yVmZwaTktQ3ZxeTFIbXlsSnBNWVBuVVk2QlpVNUpFZEFkdEhsRFVUMGlXRXJHV050blBsNkVtNk1pS282NUJicENYdWprbm50TFBaVENtSHpXVEdXYXhkQ3BLWXJMcVhsLUx0eDdpRjRMZHdQRl9fNVNteFVNUVZZZndfTFU2S2FvZ2dmaHpZVUtyTlNhRmJkVk9tVmVGOHF0eGwyQVlqV01sWDNjb1ZkU1BB?oc=5",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
