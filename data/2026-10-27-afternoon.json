@@ -1,0 +1,519 @@
+{
+ "id": "2026-10-27-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-10-27T13:20:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~09:00)",
+ "headline": "Nordic leaders call Putin, the UK ties the Fairford case to Iran, and Frontex is set to grow",
+ "stories": [
+  {
+   "id": "nordic-leaders-call-putin",
+   "weight": "lead",
+   "title": "Finland's Stubb and Norway's Støre phoned Putin, then briefed Zelensky",
+   "topics": [
+    "Ukraine",
+    "Europe"
+   ],
+   "facts": [
+    "Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre called Putin from Helsinki on Tuesday, a follow-up to the 20 October Oslo meeting, in consultation with Ukraine.",
+    "They said they spoke for their own countries, not for Europe, and pressed for de-escalation and a return to negotiations.",
+    "Stubb called the talk \"frank and substantive\" and said \"ending the war requires direct discussions\".",
+    "The Kremlin says the three welcomed the agreement to restart US–Russia–Ukraine talks in Abu Dhabi in the first half of November, and Putin insisted on \"full and unconditional\" consideration of Russia's interests.",
+    "Putin also told them about the US-brokered humanitarian truce around Oleshky.",
+    "Zelensky says the two leaders told Putin that real de-escalation steps are needed on energy and infrastructure, and that \"Russia must stop dragging out the war\"."
+   ],
+   "whyItMatters": "It's the most direct European leader contact with Putin in a while, and it sets the tone for the Abu Dhabi round in November.",
+   "image": {
+    "url": "https://images.euronews.com/articles/stories/09/96/88/51/1200x675_cmsv2_39af9211-2771-5acc-a112-5c349753a41c-9968851.jpg",
+    "alt": "Finnish and Norwegian leaders call Putin, urge restart of peace talks",
+    "credit": "Euronews",
+    "creditUrl": "https://www.euronews.com/2026/10/27/finnish-and-norwegian-leaders-call-putin-urge-restart-of-peace-talks"
+   },
+   "sources": [
+    {
+     "label": "Office of the President of Finland",
+     "url": "https://www.presidentti.fi/en/president-stubb-and-prime-minister-store-held-a-phone-call-with-president-putin/",
+     "kind": "primary"
+    },
+    {
+     "label": "Norwegian government",
+     "url": "https://www.regjeringen.no/en/whats-new/president-stubb-and-prime-minster-store-held-a-call-with-president-putin/id3183597/",
+     "kind": "primary"
+    },
+    {
+     "label": "Kremlin readout (Russian)",
+     "url": "http://kremlin.ru/events/president/news/81097",
+     "kind": "primary"
+    },
+    {
+     "label": "Euronews",
+     "url": "https://www.euronews.com/2026/10/27/finnish-and-norwegian-leaders-call-putin-urge-restart-of-peace-talks",
+     "kind": "article"
+    },
+    {
+     "label": "Volodymyr Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2115032118187237617",
+     "kind": "x"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2115031550249381936",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "raf-fairford-charges",
+   "weight": "normal",
+   "title": "Two men charged in the UK over the RAF Fairford incident, one with helping Iranian intelligence",
+   "topics": [
+    "UK",
+    "Security",
+    "Iran"
+   ],
+   "facts": [
+    "Mohmed Ahmad Abdulkarim, 24, is charged with assisting a foreign intelligence service between 31 August and 28 September. Police say the country is Iran.",
+    "Nouman Essghir, 24, is charged with approaching a prohibited place for a purpose prejudicial to the UK on 22 August.",
+    "Both are British nationals from Westminster and are due before Westminster Magistrates' Court today. These are the first charges in the case.",
+    "On 27 September three suspicious vans were found near the US-operated base. Police found no explosives but seized petrol.",
+    "A 25-year-old UK–Iranian dual national was released without charge, and five other men stay on police bail.",
+    "Counter-terror chief Laurence Taylor says police have seen \"a range of incidents in recent months\" they believe were directed by the Iranian state."
+   ],
+   "whyItMatters": "It's the first time UK prosecutors have tied the Fairford scare to Iran, in a week when US–Iran tensions are already high.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4072/live/4e196450-d1ec-11f1-a701-fddedf244c16.png",
+    "alt": "Armed police officers stand guard on a road outside the perimeter of the RAF Fairford airbase, after police declared a major incident at the base after several men were arrested near RAF Fairford",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.co.uk/news/articles/cqly3v5vz4kko"
+   },
+   "sources": [
+    {
+     "label": "Counter Terrorism Policing",
+     "url": "https://www.counterterrorism.police.uk/news/new-arrest-made-in-the-raf-fairford-investigation/",
+     "kind": "primary"
+    },
+    {
+     "label": "Crown Prosecution Service",
+     "url": "https://www.cps.gov.uk/national-news/news/cps-announces-two-men-charged-national-security-act-offences-following-raf",
+     "kind": "primary"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/cqly3v5vz4kko",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
+     "kind": "article"
+    },
+    {
+     "label": "The New York Times on X",
+     "url": "https://x.com/nytimes/status/2115027510127681638",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "frontex-overhaul",
+   "weight": "normal",
+   "title": "Brussels wants Frontex to become an EU return agency with 30,000 officers",
+   "topics": [
+    "EU",
+    "Migration"
+   ],
+   "facts": [
+    "The European Commission proposed a new Frontex mandate on Tuesday, presented by Commissioners Henna Virkkunen and Magnus Brunner.",
+    "Frontex would coordinate deportations and could carry out returns beyond EU territory, including transfers between non-EU countries and from return centres.",
+    "The standing corps would grow step by step to 30,000 officers (about 7,800 in early 2026), plus a reaction force that can deploy at short notice.",
+    "The plan responds to the summer Ceuta crisis and adds early-warning monitoring, including of social media.",
+    "NGOs point to Frontex's rights record and want stronger independent oversight. Parliament and member states still have to agree."
+   ],
+   "whyItMatters": "It would be the biggest expansion of the EU border agency so far, and it moves deportations further into EU hands.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Reuters via Devdiscourse",
+     "url": "https://www.devdiscourse.com/article/international/3998025-eu-commission-proposes-expanding-powers-of-border-police-force",
+     "kind": "article"
+    },
+    {
+     "label": "POLITICO Europe",
+     "url": "https://www.politico.eu/article/frontex-set-for-new-powers-to-deport-beyond-eu-borders-in-latest-overhaul/",
+     "kind": "article"
+    },
+    {
+     "label": "European Commission",
+     "url": "https://link.europa.eu/kyDnMR",
+     "kind": "article",
+     "via": {
+      "label": "European Commission on X",
+      "url": "https://x.com/EU_Commission/status/2115047855559729199",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "zschaepe-minimum-term",
+   "weight": "normal",
+   "title": "NSU terrorist Beate Zschäpe must stay in prison until at least 2035",
+   "topics": [
+    "Germany",
+    "Justice"
+   ],
+   "facts": [
+    "The Munich Higher Regional Court (OLG) set her minimum term at 24 years and refused parole for now. The ruling is dated 23 October and was announced today.",
+    "Federal prosecutors had asked for 25 years and her defence for 20.",
+    "The court credited her with admitting she knew of nine of the ten NSU murders and with expressing shame, and found no sign of continuing far-right views.",
+    "Zschäpe has been in custody since November 2011 and is now 51. She could leave at 60 at the earliest.",
+    "The decision isn't final yet. Both sides can appeal to the Federal Court of Justice (BGH)."
+   ],
+   "whyItMatters": "It answers the open question of how long the life sentence for the NSU murders actually lasts.",
+   "image": {
+    "url": "https://www.lto.de/fileadmin/_processed_/f/5/csm_263017777_6321391082.jpg",
+    "alt": "Beate Zschäpe",
+    "credit": "LTO",
+    "creditUrl": "https://www.lto.de/recht/nachrichten/n/6st425-olg-muenchen-zschaepe-nsu-mindestverbuessungsdauer-24-jahre"
+   },
+   "sources": [
+    {
+     "label": "LTO",
+     "url": "https://www.lto.de/recht/nachrichten/n/6st425-olg-muenchen-zschaepe-nsu-mindestverbuessungsdauer-24-jahre",
+     "kind": "article"
+    },
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/politik/inland/gericht-beate-zschaepe-muss-mindestens-bis-2035-im-gefaengnis-bleiben-accg-201624869.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2115017544226492652",
+     "kind": "x"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2115019641005441091",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "cpython-jit-removed",
+   "weight": "normal",
+   "title": "CPython's experimental JIT is being removed after its PEP was withdrawn",
+   "topics": [
+    "Dev",
+    "Python"
+   ],
+   "facts": [
+    "PEP 836 (\"JIT Go Brrr\"), which laid out a path to a supported JIT, was withdrawn on 19 October by Savannah Ostrowski, Ken Jin and Brandt Bucher.",
+    "The authors cited the Steering Council's high bar and their own limited bandwidth. The reference implementation will stay available outside CPython.",
+    "Brett Cannon says the JIT work stops in the CPython repository and the code will come out of main early in the 3.16 cycle.",
+    "In 3.15 the JIT gave about a 4–12% geometric-mean speedup over the interpreter. The PEP's target was at least 20% with free threading by 3.17 beta.",
+    "The JIT has been in main since 3.13 and shipped disabled by default (PYTHON_JIT=1)."
+   ],
+   "whyItMatters": "It ends the main in-tree effort to make CPython faster with a JIT, so speedups now depend on outside projects like CinderX.",
+   "image": null,
+   "sources": [
+    {
+     "label": "LWN.net",
+     "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+     "kind": "article"
+    },
+    {
+     "label": "PEP 836",
+     "url": "https://peps.python.org/pep-0836/",
+     "kind": "primary"
+    },
+    {
+     "label": "discuss.python.org withdrawal post",
+     "url": "https://discuss.python.org/t/pep-836-jit-go-brrr-the-path-to-a-supported-jit-compiler-for-cpython/108010/57",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "The University of Copenhagen says attackers stole data on about 525,000 people from a test system, including national ID numbers. Access PINs for about 20,000 badges have been reset.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "The WMO says greenhouse gases hit new records in 2025: CO2 at 426.8 ppm, up 2.8 ppm, which is slower than 2024's 3.5 ppm rise.",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Jay-Z will headline the Super Bowl halftime show.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "US labor's share of income fell to 52.8%, the lowest the BLS has ever recorded.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Seoul police referred 80 Tesla owners over illegally unlocked FSD.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Chinese sponsors dropped Kylian Mbappé after he said on a show that he often laughs at a meme showing him as a Chinese dictator.",
+     "sourceIndexes": [
+      6,
+      7
+     ]
+    },
+    {
+     "text": "The Netherlands reversed course on Eurovision 2027.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "CDC deputy director Jennifer Shuford is leaving the agency.",
+     "sourceIndexes": [
+      9
+     ]
+    },
+    {
+     "text": "A WWII bomb is being defused, so the Berlin–Hamburg rail line is cut for now.",
+     "sourceIndexes": [
+      10
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://wmo.int/sites/default/files/2026-10/GreenhouseGas_Canva_0.jpg",
+    "alt": "A city skyline shrouded in thick smog with industrial chimneys emitting large plumes of smoke over a busy road.",
+    "credit": "WMO",
+    "creditUrl": "https://wmo.int/news/media-centre/greenhouse-gas-levels-once-again-reach-record-high"
+   },
+   "sources": [
+    {
+     "label": "Golem.de",
+     "url": "https://www.golem.de/news/cyberangriff-auf-universitaet-daten-von-525-000-personen-aus-testsystem-gestohlen-2610-214548.html",
+     "kind": "article"
+    },
+    {
+     "label": "WMO",
+     "url": "https://wmo.int/news/media-centre/greenhouse-gas-levels-once-again-reach-record-high",
+     "kind": "primary"
+    },
+    {
+     "label": "UN News",
+     "url": "https://news.un.org/en/story/2026/10/1168677",
+     "kind": "article"
+    },
+    {
+     "label": "The Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2115047112765219306",
+     "kind": "x"
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/3WbUL67",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2115036037151916132",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Teslarati on X",
+     "url": "https://x.com/Teslarati/status/2115038027039002836",
+     "kind": "x"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2115011890740932665",
+     "kind": "x"
+    },
+    {
+     "label": "Forbes on X",
+     "url": "https://x.com/Forbes/status/2115009385143447829",
+     "kind": "x"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/48hxa6N",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2115042143119044650",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "The Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2115038720239780194",
+     "kind": "x"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2115031704066781247",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "After three security advisories last week (Brotli, TLS certificates, QUIC), Bun plans to replace most of its C/C++ dependencies with safe Rust. The first PRs swap out libarchive and HdrHistogram.",
+     "sourceIndexes": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Vite now rejects .wasm imports from outside server.fs, which closes a dev-server file access gap.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Cursor's Agent SDK (from 20 October) is the framework behind Bugbot and Security Reviewer: you define agents in code and deploy them with one command.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "neodyme shows how SwitchBot smart locks can be opened without the key.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "open3dlab says Roblox downloaded 145 GB of models from its sites without asking.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/34d8b3f1a91b16f4706c568ed051f08cb03df0b511e34ed0452cb86061c1b931/oven-sh/bun/pull/46638",
+    "alt": "What does this PR do? Removes the dependency on libarchive. The two things Bun used it for, tar and the gzip container, are now written in safe Rust. src/tar (bun_tar, new, #[forbid(unsafe_code)])...",
+    "credit": "Bun",
+    "creditUrl": "https://github.com/oven-sh/bun/pull/46638"
+   },
+   "sources": [
+    {
+     "label": "oven-sh/bun #46638",
+     "url": "https://github.com/oven-sh/bun/pull/46638",
+     "kind": "primary",
+     "via": {
+      "label": "Bun on X",
+      "url": "https://x.com/bunjavascript/status/2115015660292182353",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "oven-sh/bun #46650",
+     "url": "https://github.com/oven-sh/bun/pull/46650",
+     "kind": "primary"
+    },
+    {
+     "label": "oven-sh/bun #47037",
+     "url": "https://github.com/oven-sh/bun/pull/47037",
+     "kind": "primary"
+    },
+    {
+     "label": "vitejs/vite #23914",
+     "url": "https://github.com/vitejs/vite/pull/23914",
+     "kind": "primary"
+    },
+    {
+     "label": "Cursor blog",
+     "url": "https://cursor.com/blog/agent-sdk",
+     "kind": "primary"
+    },
+    {
+     "label": "neodyme",
+     "url": "https://neodyme.io/en/blog/switchbot",
+     "kind": "article"
+    },
+    {
+     "label": "open3dlab",
+     "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Eintracht Braunschweig keeper and captain Hoffmann has been cleared after the head knock against Hannover and is due back in training this week. Friday's game in Bielefeld is still open for him.",
+     "sourceIndexes": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "BVB face Werder Bremen in the DFB-Pokal second round tonight at 20:45, on Sky and ZDF.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Kicker",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWGVVQnRhM05FWWRBQ2dFR2s2ODh6VzltcmhCbTdoanh3SnFOTURRVEZGMVljRTA3cC1CTWdUcUJyNHNuMktZLXhOc1dtOXctQ2FBZ0N5SlBwcVNycksyRVNXb0FwS3RFbG51S2ZURDM1Qnp6RFpaRWU4OTNIb3VUa2gzLVVvMm9wSHJSdU9vbw?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "SPORT1",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdVM2NGdneEZCTTlkZk03X3FOUTZ2MThDaWRfaXVjXzZ5WUtYSUNjQmN5djV2VFIzYkVaN1FMUFlJbTl1UDZDYUp4aUNna3ZoYlM4M2FKdHNjSUNtalo1cW91dm5RdzVvcHVYMF9UXzYtU0pOSUd4WFdsS3FTbEU5TXI5NExwajNfZ2tTSGpRdmhMNEtCQS1LNDRZZ1dJeFF0azlwaHFKOWdpS1drNXppZ2RaMFRvdWU3?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Eintracht Braunschweig",
+     "url": "https://go.eintracht.com/RTH-Update",
+     "kind": "article",
+     "via": {
+      "label": "Eintracht Braunschweig on X",
+      "url": "https://x.com/EintrachtBSNews/status/2115025135967035592",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Borussia Dortmund on X",
+     "url": "https://x.com/BVB/status/2114992747010535598",
+     "kind": "x"
+    }
+   ]
+  }
+ ]
+}
