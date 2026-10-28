@@ -1,0 +1,411 @@
+{
+ "id": "2026-10-28-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-10-28T13:20:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:15)",
+ "headline": "A deadly high-speed train crash in Spain, an attack at Israel's Belgrade embassy, and Merz in Tokyo",
+ "stories": [
+  {
+   "id": "spain-train-collision",
+   "weight": "lead",
+   "title": "Two high-speed trains collide south of Madrid, killing at least 30",
+   "topics": [
+    "Europe",
+    "Spain"
+   ],
+   "facts": [
+    "A Renfe AVE train with 397 passengers ran into the back of a stationary Iryo train with 146 passengers and a baby near Urda in Toledo province at 08:54 local time.",
+    "At least 30 people are dead and about 80 injured, and officials say the toll will very likely rise.",
+    "At least two carriages fell down an embankment, and the high-speed line between Madrid and Andalusia is closed.",
+    "RTVE reports the section was running on backup signalling (BSL) because of a fault in the main LZB train-protection system, with ASFA as the fallback.",
+    "The cause isn't confirmed yet. Spanish media are reporting both a possible signalling failure and possible human error.",
+    "It comes less than a year after the Adamuz crash in Córdoba province in January, which killed 46 people."
+   ],
+   "whyItMatters": "Spain runs Europe's largest high-speed network, and this is its second deadly crash in a year, so questions about the backup signalling will follow fast.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/cc1d/live/c4d7e6f0-d2c5-11f1-a701-fddedf244c16.jpg",
+    "alt": "Delegate for Castilla-La Mancha, José Pablo Sabrido (3rd from left), are briefed on the accident by those working at the scene, on 28 October 2026, in Urda, Toledo, Castilla-La Mancha (Spain).",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo"
+   },
+   "sources": [
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/train-accident-spain-4f65471a0e36f448d7ee9efe0768cd77",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+     "kind": "article"
+    },
+    {
+     "label": "RTVE (Spanish)",
+     "url": "https://www.rtve.es/noticias/20261028/impacto-con-tren-detenido-posible-fallo-humano-se-sabe-del-accidente-ferroviario-toledo/17286832.shtml",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian live",
+     "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+     "kind": "article"
+    },
+    {
+     "label": "DW live",
+     "url": "https://www.dw.com/en/death-toll-in-spain-train-crash-rises-to-at-least-30-with-rescue-and-recovery-operations-ongoing/live-79785087",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "belgrade-embassy-attack",
+   "weight": "normal",
+   "title": "Knife attacker shot dead outside Israel's embassy in Belgrade, and Serbia goes to red alert",
+   "topics": [
+    "Europe",
+    "Security"
+   ],
+   "facts": [
+    "Just after midnight, a minor armed with two knives attacked a gendarmerie officer guarding the Israeli embassy, shouting \"Allahu Akbar\". The officer shot him dead.",
+    "The officer was cut on the left cheek. Prosecutors ruled the shooting self-defence.",
+    "Interior Minister Ivica Dačić says security services had been watching the attacker as a known Islamic State supporter, and he raised the terror threat level to red, the highest.",
+    "Israel's foreign ministry says no embassy staff were hurt, and the embassy was closed at the time.",
+    "It's the second attack on the embassy in under three years, after a crossbow attack on a guard in June 2024."
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/f8aa/live/94f66d00-d2b4-11f1-8cf0-c5d120932f9f.jpg",
+    "alt": "A member of Serbia's Gendarmerie stands guard at the entrance to the Israeli embassy in Belgrade on October 28, 2026.",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/ck5ynj4eeyj2o"
+   },
+   "sources": [
+    {
+     "label": "Government of Serbia",
+     "url": "https://www.srbija.gov.rs/vest/en/290679/terrorist-attack-in-front-of-israeli-embassy-in-belgrade.php",
+     "kind": "primary"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/ck5ynj4eeyj2o",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/serbia-knife-attack-belgrade-5b6d28dc67b691d73b4ee6e4eae760e1",
+     "kind": "article"
+    },
+    {
+     "label": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog_entry/foreign-ministry-no-embassy-staff-injured-in-attempted-terror-attack-on-belgrade-embassy-incident-under-investigation/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "merz-tokyo",
+   "weight": "normal",
+   "title": "Merz and Takaichi agree on economic security, and Merz floats a fighter jet with Japan",
+   "topics": [
+    "Germany",
+    "Asia"
+   ],
+   "facts": [
+    "On his first visit to Japan as chancellor, Merz and Prime Minister Sanae Takaichi signed joint declarations on economic security and advanced technology.",
+    "They plan joint supply-chain monitoring and cooperation on rare earths, chips, batteries, EVs, industrial AI, robotics, pharma and wind, plus a memorandum on critical raw materials.",
+    "They're setting up a high-level dialogue on AI and want to work more closely on cyber defence.",
+    "Merz says Germany wants to explore building a combat aircraft with Japan and has commissioned a feasibility study.",
+    "He also proposed a \"global political alliance for rules-based trade\", including the WTO. The declarations implicitly criticise economic coercion by both China and the US.",
+    "Back home, the debate over who succeeds President Steinmeier has caught up with him. Ilse Aigner and Ines Claus are being discussed, and Merz is trying to slow it down."
+   ],
+   "image": {
+    "url": "https://images.euronews.com/articles/stories/09/97/01/40/1200x675_cmsv2_6e14f849-4be9-53a8-879c-ea3a977781dd-9970140.jpg",
+    "alt": "Merz in Tokio: Was könnte Deutschland von Japan lernen?",
+    "credit": "Euronews (German)",
+    "creditUrl": "https://de.euronews.com/2026/10/28/merz-tokio-deutschland-japan"
+   },
+   "sources": [
+    {
+     "label": "The Japan Times",
+     "url": "https://www.japantimes.co.jp/business/2026/10/28/takaichi-merz-meeting/",
+     "kind": "article"
+    },
+    {
+     "label": "Euronews (German)",
+     "url": "https://de.euronews.com/2026/10/28/merz-tokio-deutschland-japan",
+     "kind": "article"
+    },
+    {
+     "label": "Tagesspiegel",
+     "url": "https://www.tagesspiegel.de/politik/dann-gehort-uns-gemeinsam-das-restaurant-merz-schlagt-neue-allianz-fur-welthandel-vor--und-will-kampfjet-mit-japan-bauen-16209848.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/politik/deutschland/2026-10/nachfolge-bundespraesident-ilse-aigner-ines-claus-cdu-csu-friedrich-merz",
+     "kind": "article",
+     "via": {
+      "label": "ZEIT ONLINE on X",
+      "url": "https://x.com/zeitonline/status/2115350893138735113",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "uefi-edk2-flaw",
+   "weight": "normal",
+   "title": "A 16-year-old bug in the UEFI reference code can let attackers run code before the OS boots",
+   "topics": [
+    "Security"
+   ],
+   "facts": [
+    "CVE-2026-97631, rated 9.5 out of 10, is a buffer overflow in the PXE network-boot driver of TianoCore EDK II, the reference code most PC and server firmware builds on.",
+    "During a network boot, an oversized ICMP error message can overwrite memory and run code in ring 0, before Secure Boot and the TPM's protections take effect.",
+    "It was found by Alex Matrosov of Anthropic and Dan Holmes of Google, with disclosure planned for January. A public AMI pull request with the fix blew the embargo.",
+    "Exploiting it requires network access during the PXE boot window and has to be tailored to each firmware build. Machines that boot only from disk aren't affected.",
+    "Until vendors ship firmware updates, the advice is to turn off network boot where possible."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Ars Technica",
+     "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Israel's count continues. With 84.5% of ballot boxes counted, Netanyahu's bloc is at 54 seats, Eisenkot's bloc at 49 and the Arab-led parties at 17. Around 600,000 double-envelope ballots may not be counted until Friday.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Zelensky is in The Hague, where he's meeting Prime Minister Rob Jetten and the King. The talks are about air defence against Shahed drones, and Jetten promises help with F-16 maintenance, spare parts and ammunition.",
+     "sourceIndexes": [
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "text": "Microsoft has given Arkane Lyon, the Dishonored studio, until 13 December to find a buyer or partner. It is still working on Marvel's Blade.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Author Juli Zeh is stepping down early from the Brandenburg constitutional court, saying her writing makes the job hard to do. Her term would have run until 2029.",
+     "sourceIndexes": [
+      6,
+      7
+     ]
+    },
+    {
+     "text": "In Magdeburg, AfD politician Tobias Rausch may have been elected Saxony-Anhalt's Landtag president with CDU votes. CDU members are being asked to deny it in writing.",
+     "sourceIndexes": [
+      8
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://static.ukrinform.com/photos/2026_03/thumb_files/630_360_1772976423-251.jpg",
+    "alt": "PM Jetten: Netherlands to help Ukraine with F-16 maintenance, spare parts and ammunition",
+    "credit": "Ukrinform",
+    "creditUrl": "https://www.ukrinform.net/rubric-polytics/4171398-pm-jetten-netherlands-to-help-ukraine-with-f16-maintenance-spare-parts-and-ammunition.html"
+   },
+   "sources": [
+    {
+     "label": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-28-2026/",
+     "kind": "article"
+    },
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-arab-coalition-results-d4680e90210c9a8611853fda9d0deb61",
+     "kind": "article"
+    },
+    {
+     "label": "Kyiv Independent",
+     "url": "https://kyivindependent.com/zelensky-lands-in-netherlands-to-discuss-air-defense-economic-partnership/",
+     "kind": "article"
+    },
+    {
+     "label": "Rijksoverheid (Dutch)",
+     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/28/koning-en-minister-president-ontvangen-president-zelensky-van-oekraine",
+     "kind": "primary"
+    },
+    {
+     "label": "Ukrinform",
+     "url": "https://www.ukrinform.net/rubric-polytics/4171398-pm-jetten-netherlands-to-help-ukraine-with-f16-maintenance-spare-parts-and-ammunition.html",
+     "kind": "article"
+    },
+    {
+     "label": "Polygon",
+     "url": "https://www.polygon.com/arkane-lyon-shutdown-delayed-dishonored-blade/",
+     "kind": "article"
+    },
+    {
+     "label": "rbb24",
+     "url": "https://www.rbb24.de/politik/beitrag/2026/10/verfassungsrichterin-juli-zeh-entlassung-.html",
+     "kind": "article"
+    },
+    {
+     "label": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/schriftstellerin-juli-zeh-hoert-als-verfassungsrichterin-auf-104.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/politik/deutschland/2026-10/cdu-afd-sachsen-anhalt-landtag-tobias-rausch-hans-thomas-tillschneider-gxe",
+     "kind": "article",
+     "via": {
+      "label": "ZEIT ONLINE on X",
+      "url": "https://x.com/zeitonline/status/2115373515121598853",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "The git, curl and python3 that ship with macOS still trust the compromised eMudhra certificates 11 days after Apple was told, and macOS 27.2 undid the manual workaround.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "PortSwigger's Gareth Heyes bypassed six of eight popular SVG sanitizers, using XSLT data URLs, a Firefox Link header and Safari importing GIFs as SVG. Only DOMPurify and darylldoyle/svg-sanitizer held up.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Playwright MCP no longer marks test tools that run code or write files as read-only.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Evan You says work is underway to make OXC's parser three times faster.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "pnpm says that a month into its zero-open-issues policy, fewer new issues are being filed each week.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Daniel Lemire writes about billion-query-per-second lookup tables in C++.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/ca6acea4a79a6b1467ade767949b3397bda10a912a2aeef87e1c9104ef330da0/microsoft/playwright/pull/43692",
+    "alt": "Summary test_run, test_debug, generator_setup_page, planner_setup_page, generator_write_test and planner_save_plan run code or write files, so they no longer report readOnlyHint: true. Fixes #43699",
+    "credit": "microsoft/playwright #43692",
+    "creditUrl": "https://github.com/microsoft/playwright/pull/43692"
+   },
+   "sources": [
+    {
+     "label": "eMudhra: Apple",
+     "url": "https://emudhra.we-have-a-problem.com/apple.html",
+     "kind": "article"
+    },
+    {
+     "label": "PortSwigger Research",
+     "url": "https://portswigger.net/research/scalable-vector-grief",
+     "kind": "article"
+    },
+    {
+     "label": "microsoft/playwright #43692",
+     "url": "https://github.com/microsoft/playwright/pull/43692",
+     "kind": "primary"
+    },
+    {
+     "label": "Evan You on X",
+     "url": "https://x.com/evanyou/status/2115395476879241483",
+     "kind": "x"
+    },
+    {
+     "label": "pnpm on X",
+     "url": "https://x.com/pnpmjs/status/2115395095448924377",
+     "kind": "x"
+    },
+    {
+     "label": "Daniel Lemire",
+     "url": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Kovac told Sabitzer to shoot the 26.2-metre stoppage-time free kick that beat Werder 3:2, though Schlotterbeck wanted a cross. His verdict: \"Wer trifft, hat recht.\" BVB play at Bayern on Saturday.",
+     "sourceIndexes": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Kristaps Porziņģis is still away from the Warriors. ESPN looks at their options with his expiring $20m contract, and a buyout would need his cooperation.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "BVB",
+     "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/28/Kovac-gibt-Aufforderung-zum-Traumtor-Total-crazy.html",
+     "kind": "primary"
+    },
+    {
+     "label": "FAZ (dpa)",
+     "url": "https://www.faz.net/agenturmeldungen/dpa/bvb-jubel-nach-freistoss-diskussion-wer-trifft-hat-recht-201627410.html",
+     "kind": "article"
+    },
+    {
+     "label": "Sky Sport Austria",
+     "url": "https://www.skysportaustria.at/zu-unrecht-kritik-abbekommen-bvb-lob-fuer-matchwinner-sabitzer/",
+     "kind": "article"
+    },
+    {
+     "label": "ESPN",
+     "url": "https://www.espn.com.sg/nba/story/_/id/50299136/golden-state-warriors-kristaps-porzingis-options-trade",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
