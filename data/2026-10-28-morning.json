@@ -1,0 +1,619 @@
+{
+  "id": "2026-10-28-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-28T08:40:00+01:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight, since the evening edition (~20:15)",
+  "headline": "Israel's vote has no clear winner, Flávio Bolsonaro lands in the US, and a grand jury clears Cassidy Hutchinson",
+  "stories": [
+    {
+      "id": "israel-election-no-winner",
+      "weight": "lead",
+      "title": "Israel's election has no clear winner, and Arab parties could hold the balance",
+      "topics": [
+        "Israel",
+        "Elections"
+      ],
+      "facts": [
+        "With 57.3% of ballot boxes counted at 07:58 Israel time, the Central Elections Committee's partial results give Netanyahu's bloc 55 seats, the anti-Netanyahu bloc 49 and the Arab parties 16. A majority needs 61 of 120.",
+        "The results will still shift: soldiers' and other double-envelope votes are counted later, and the BBC says the early count leaned towards right-wing areas.",
+        "The Reservists (2.6%) and People of Israel (1.7%) are below the 3.25% threshold for now.",
+        "Turnout was above 77%, and Arab citizens appear to have voted in unprecedented numbers. Their parties have matched or beaten their previous record seat count.",
+        "Gadi Eisenkot still says he'll replace Netanyahu, arguing that most citizens have withdrawn their trust in him. But most Jewish opposition parties promised during the campaign not to work with Arab-majority lists."
+      ],
+      "whyItMatters": "Neither camp can form a government on its own numbers, so the coalition talks, and whether anyone works with the Arab parties, will decide who governs.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/7c2b/live/e44a9b80-d299-11f1-b255-6fc3b99d1334.jpg",
+        "alt": "Israel election coverage (BBC News)",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cjy561y4pl56o"
+      },
+      "sources": [
+        {
+          "label": "The Times of Israel (live, 57.3% counted)",
+          "url": "https://www.timesofisrael.com/liveblog_entry/pro-netanyahu-bloc-at-55-seats-with-57-3-of-ballots-counted/",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cjy561y4pl56o",
+          "kind": "article"
+        },
+        {
+          "label": "BBC World",
+          "url": "https://bbc.in/4sr78XU",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2115336503551263114",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/ausland/knesset-wahl-in-israel-likud-partei-von-benjamin-netanyahu-bei-wahl-vorn-hat-aber-keine-regierungsmehrheit-a-df2c37b8-e8c1-4c16-9257-3f4c70c48ce0",
+          "kind": "article",
+          "via": {
+            "label": "DER SPIEGEL on X",
+            "url": "https://x.com/derspiegel/status/2115198787727864254",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/gddbGjZ",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2115308404709232820",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "flavio-bolsonaro-in-us",
+      "weight": "normal",
+      "title": "Flávio Bolsonaro reaches the US despite a court order, as Brazil probes a Vance-linked donor network",
+      "topics": [
+        "Brazil",
+        "US"
+      ],
+      "facts": [
+        "He left Brazil even though authorities had cancelled his Brazilian and diplomatic passports. He hasn't conceded the election and loses his parliamentary immunity.",
+        "The State Department said the US will issue visas to him and his family and allow them in. Trump said he \"approves\" and called the family \"fine people\".",
+        "The Independent reports he landed in Miami with his wife and two daughters and was met by his brother Eduardo. His exact route is still unclear.",
+        "Justice Flávio Dino ordered federal police to look into possible illegal foreign funding of his campaign, including contacts with the Rockbridge Network, a US donor group co-founded by JD Vance.",
+        "Dino stressed the order doesn't establish that illegal funding happened. Police will also look at paid election ads by foreign accounts, Polymarket-linked advertising and Meta."
+      ],
+      "whyItMatters": "A defeated candidate who hasn't conceded is now abroad under US protection while two Brazilian investigations reach toward the Trump administration.",
+      "image": {
+        "url": "https://static.time.com/v3/assets/bltea6093859af6183b/blt8a2a2cccb90b7de7/6ae0701122fa530094673aa3/flavio_bolsonaro.jpg?branch=production&width=1024&quality=75&auto=webp&crop=16:9",
+        "alt": "flavio bolsonaro.jpg",
+        "credit": "TIME",
+        "creditUrl": "https://time.com/article/2026/10/27/brazil-flavio-bolsonaro-money-laundering-supreme-court-lula/?utm_source=twitter&utm_medium=social&utm_campaign=editorial&utm_content=281026"
+      },
+      "sources": [
+        {
+          "label": "BBC News (live)",
+          "url": "https://www.bbc.com/news/live/cq4g1wy8k328t",
+          "kind": "article"
+        },
+        {
+          "label": "AP News",
+          "url": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a",
+          "kind": "article"
+        },
+        {
+          "label": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/bolsonaro-flavio-brazil-trump-us-visa-elections-b3074553.html",
+          "kind": "article"
+        },
+        {
+          "label": "The Seattle Times (AP/Bloomberg)",
+          "url": "https://www.seattletimes.com/nation-world/nation-politics/brazil-probes-foreign-financing-including-group-linked-to-vance/",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/27/brazilian-judge-orders-investigation-into-jd-vance-donor-network/",
+          "kind": "article"
+        },
+        {
+          "label": "BBC Breaking News",
+          "url": "https://bbc.in/4infSd4",
+          "kind": "article",
+          "via": {
+            "label": "BBC Breaking News on X",
+            "url": "https://x.com/BBCBreaking/status/2115251192221585538",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "TIME",
+          "url": "https://time.com/article/2026/10/27/brazil-flavio-bolsonaro-money-laundering-supreme-court-lula/?utm_source=twitter&utm_medium=social&utm_campaign=editorial&utm_content=281026",
+          "kind": "article",
+          "via": {
+            "label": "TIME on X",
+            "url": "https://x.com/TIME/status/2115315181467398308",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hutchinson-not-indicted",
+      "weight": "normal",
+      "title": "A grand jury refuses to indict Cassidy Hutchinson over her Jan. 6 testimony",
+      "topics": [
+        "US",
+        "Justice"
+      ],
+      "facts": [
+        "Prosecutors sought an indictment over her testimony about Trump's role in the Jan. 6 Capitol riot, and the grand jury returned a \"non-concurrence\", CNN reports.",
+        "Grand juries rarely reject charges, but they've done so several times under this administration, including one charge against James Comey and indictments of Letitia James and six lawmakers."
+      ],
+      "whyItMatters": "It's another case where ordinary citizens on a grand jury have stopped a prosecution of one of Trump's critics.",
+      "image": {
+        "url": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-2028787474.jpg?c=16x9&q=w_800,c_fill",
+        "alt": "Cassidy Hutchinson (CNN)",
+        "credit": "CNN",
+        "creditUrl": "https://edition.cnn.com/2026/10/27/politics/cassidy-hutchinson-fail-indictment"
+      },
+      "sources": [
+        {
+          "label": "CNN",
+          "url": "https://edition.cnn.com/2026/10/27/politics/cassidy-hutchinson-fail-indictment",
+          "kind": "article"
+        },
+        {
+          "label": "The New York Times",
+          "url": "https://www.nytimes.com/2026/10/27/us/politics/cassidy-hutchinson-indicted-trump-testimony.html",
+          "kind": "article"
+        },
+        {
+          "label": "The New York Times",
+          "url": "https://nyti.ms/4Bq2UEl",
+          "kind": "article",
+          "via": {
+            "label": "The New York Times on X",
+            "url": "https://x.com/nytimes/status/2115209483584467283",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anthropic-gsa-drug-development",
+      "weight": "normal",
+      "title": "Anthropic gives every level of US government 40% off Claude, and reports on its drug-development work",
+      "topics": [
+        "AI",
+        "Anthropic"
+      ],
+      "facts": [
+        "The expanded GSA deal cuts 40% off Claude Enterprise, Claude for Government and the API. It covers direct purchases now and cloud providers in the coming months, and it extends to state, local, tribal and territorial governments.",
+        "Anthropic estimates the savings at $1 billion. There's no minimum spend.",
+        "About 500 US government organizations use Claude. Weekly Claude for Government users are up about eightfold since February.",
+        "Separately, Anthropic says it has worked with six drug developers, including Bristol Myers Squibb and Generate Biomedicines, and started its own discovery programs for rare childhood muscular dystrophies, where Claude does much of the scientific and operational work.",
+        "TechCrunch notes that each VC backer holds under 5%, while Amazon's convertible notes make it likely the IPO's biggest financial winner."
+      ],
+      "whyItMatters": "Weeks before its IPO, Anthropic is locking in government volume and pointing to science work beyond chat and coding.",
+      "image": {
+        "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+        "alt": "Anthropic and GSA partnership",
+        "credit": "Anthropic",
+        "creditUrl": "https://www.anthropic.com/news/expanding-partnership-gsa"
+      },
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "kind": "primary",
+          "via": {
+            "label": "Anthropic on X",
+            "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Anthropic research",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "kind": "primary"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50265609",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "tailscale-ssh-flaws",
+      "weight": "normal",
+      "title": "Tailscale confirms serious privilege-escalation flaws in Tailscale SSH",
+      "topics": [
+        "Security",
+        "Dev"
+      ],
+      "facts": [
+        "Tailscale says most of the issues let someone already allowed to connect over Tailscale SSH act beyond their configured local user's permissions, potentially up to elevated privileges.",
+        "It calls them serious and says it's working with outside security specialists on fixes."
+      ],
+      "whyItMatters": "If you use Tailscale SSH, the update says what customers can do now while fixes roll out.",
+      "image": null,
+      "sources": [
+        {
+          "label": "Tailscale",
+          "url": "https://tailscale.com/ssh-investigation-update",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50264857",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "weight": "brief",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "League Two's Fleetwood Town knocked Premier League champions Arsenal out of the League Cup, 5-3 on penalties after a 1-1 draw. Arsenal's 16-year-old Max Dowman was sent off late on.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "UK Chancellor says gas standing charges will be scrapped for millions of households, ahead of the Budget.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Trump wrote on Truth Social that he'll ban the term \"artificial intelligence\" in relevant documents, in favour of \"super intelligence\".",
+          "sourceIndexes": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Trump also declined on Tuesday to accept the midterm results unconditionally.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Warhorse Studios, the maker of Kingdom Come: Deliverance, says a \"serious\" cyberattack gave intruders access to company systems and data.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication before she died in February.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "A Nanotyrannus skeleton sold at Sotheby's in New York for $47.3 million after a 12-minute bidding war.",
+          "sourceIndexes": [
+            8
+          ]
+        },
+        {
+          "text": "Passengers on the cruise ship Villa Vie Odyssey are stranded in Cambodia because fuel costs per cabin rose from $1,800 to as much as $8,000 a month.",
+          "sourceIndexes": [
+            9
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://assets.arsenal.com/prod/images/gm_preview/8ab49b673cf1-fleetwood-england-martin-odegaard-of-arsenal-and-ronan-coughlan-of-fleetwood-tow.webp",
+        "alt": "Report: Fleetwood Town 1-1 Arsenal (5-3 pens)",
+        "credit": "Arsenal.com",
+        "creditUrl": "https://www.arsenal.com/news/report-fleetwood-town-1-1-arsenal-5-3-pens-a7R4h3d1i2ZW"
+      },
+      "sources": [
+        {
+          "label": "Arsenal.com",
+          "url": "https://www.arsenal.com/news/report-fleetwood-town-1-1-arsenal-5-3-pens-a7R4h3d1i2ZW",
+          "kind": "article"
+        },
+        {
+          "label": "BBC Breaking News",
+          "url": "https://bbc.in/47P3n5g",
+          "kind": "article",
+          "via": {
+            "label": "BBC Breaking News on X",
+            "url": "https://x.com/BBCBreaking/status/2115205606877380733",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "BBC Breaking News",
+          "url": "https://bbc.in/3W9SWqo",
+          "kind": "article",
+          "via": {
+            "label": "BBC Breaking News on X",
+            "url": "https://x.com/BBCBreaking/status/2115337718636962010",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Forbes",
+          "url": "https://www.forbes.com/sites/fionariley/2026/10/27/trump-vows-to-ban-term-artificial-intelligence/?utm_source=ForbesMainTwitter&utm_medium=social&utm_campaign=ForbesMainTwitter",
+          "kind": "article",
+          "via": {
+            "label": "Forbes on X",
+            "url": "https://x.com/Forbes/status/2115201961452802286",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Forbes",
+          "url": "https://www.forbes.com/sites/fionariley/2026/10/27/trump-vows-to-ban-term-artificial-intelligence/",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/elections/2026/10/27/trump-declines-unconditionally-accept-midterm-results/",
+          "kind": "article"
+        },
+        {
+          "label": "IGN",
+          "url": "https://www.ign.com/articles/kingdom-come-deliverance-developer-serious-cybersecurity-incident",
+          "kind": "article"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://edition.cnn.com/2026/10/27/science/nanotyrannus-jodi-sale",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cwj342k62exyo",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "weight": "brief",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Ghostty 1.4 is out after 7 months, 172 contributors and 2,889 commits. It brings big performance and memory gains, the first complete Kitty graphics support outside Kitty, and security fixes, including one for paste protection.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Bun merged ahead-of-time compilation of TypeScript to machine code with `bun build --compile --aot`.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Vercel now deploys a plain root Dockerfile or Containerfile on its Container runtime (beta) when no other framework is detected.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Expo released `@expo/agent-cli`, an experimental CLI that gives coding agents exit codes, JSON and the next command to run, so they stop guessing when an app needs a dev build.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Dax Raad says OpenCode 2.0 reached 1 million daily active users in two weeks.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "TypeScript merged two performance PRs, insertion-ordered symbol tables and faster union subset checks.",
+          "sourceIndexes": [
+            7,
+            8
+          ]
+        },
+        {
+          "text": "Playwright's trace viewer now only opens http and https links from attachments.",
+          "sourceIndexes": [
+            9
+          ]
+        },
+        {
+          "text": "Colin McDonnell's Motherload gives typed autocompletion on `process.env` by importing a `.env` file, with no schema.",
+          "sourceIndexes": [
+            10
+          ]
+        },
+        {
+          "text": "The classification of finite simple groups has been formalized in Lean.",
+          "sourceIndexes": [
+            11
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/71b88bf6e4b23cbe252ee6c19fbc328a29bd32ee3d7df2130a399244bf056d50/oven-sh/bun/pull/45631",
+        "alt": "bun build --compile --aot ./app.ts ./app This adds --aot to bun build --compile. It compiles TypeScript and JavaScript to machine code at build time. The executable starts as machine code and has n...",
+        "credit": "oven-sh/bun #45631",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/45631"
+      },
+      "sources": [
+        {
+          "label": "Ghostty 1.4.0 release notes",
+          "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50261998",
+          "kind": "article"
+        },
+        {
+          "label": "oven-sh/bun #45631",
+          "url": "https://github.com/oven-sh/bun/pull/45631",
+          "kind": "primary"
+        },
+        {
+          "label": "Jarred Sumner on X",
+          "url": "https://x.com/jarredsumner/status/2115199562252251182",
+          "kind": "x"
+        },
+        {
+          "label": "Vercel changelog",
+          "url": "https://vercel.com/changelog/deploy-a-container-from-a-plain-dockerfile",
+          "kind": "primary"
+        },
+        {
+          "label": "Expo blog",
+          "url": "https://expo.dev/blog/introducing-expo-agent-cli",
+          "kind": "primary"
+        },
+        {
+          "label": "Dax on X",
+          "url": "https://x.com/thdxr/status/2115235637339054109",
+          "kind": "x"
+        },
+        {
+          "label": "microsoft/TypeScript #64979",
+          "url": "https://github.com/microsoft/TypeScript/pull/64979",
+          "kind": "primary"
+        },
+        {
+          "label": "microsoft/TypeScript #64964",
+          "url": "https://github.com/microsoft/TypeScript/pull/64964",
+          "kind": "primary"
+        },
+        {
+          "label": "microsoft/playwright #43689",
+          "url": "https://github.com/microsoft/playwright/pull/43689",
+          "kind": "primary"
+        },
+        {
+          "label": "Colin McDonnell on X",
+          "url": "https://x.com/colinhacks/status/2115330975794135310",
+          "kind": "x"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50261647",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "weight": "brief",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "facts": [
+        {
+          "text": "The AI Corner looks at how top teams review AI-written code.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "shit you should care about explains a new way to report sexual harm in New Zealand, with free lawyers.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/ai-code-review-claude-code-team",
+          "kind": "article"
+        },
+        {
+          "label": "shit you should care about",
+          "url": "https://shityoushouldcareabout.substack.com/p/theres-a-new-way-to-report-sexual",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "weight": "brief",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "BVB beat Werder 3:2 in the DFB-Pokal and reached the round of 16. Guirassy and Chukwuemeka made it 2:0, Füllkrug equalised with a penalty and a solo goal, and Sabitzer won it with a 26-metre free kick in the 93rd minute.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "The 49ers got DeForest Buckner back from the Colts for a 2027 fourth-round pick. The 32-year-old, drafted 7th overall by San Francisco in 2016, has four sacks in seven games this season.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/emjihpvmatxgjkuciaen",
+        "alt": "buckner tn",
+        "credit": "NFL.com",
+        "creditUrl": "https://www.nfl.com/news/colts-to-trade-deforest-buckner-to-49ers-for-fourth-round-pick"
+      },
+      "sources": [
+        {
+          "label": "BVB",
+          "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/10/27/Pokal-Spektakel-in-Dortmund-Sabitzer-schiesst-den-BVB-ins-Achtelfinale.html",
+          "kind": "primary"
+        },
+        {
+          "label": "Borussia Dortmund on X",
+          "url": "https://x.com/BVB/status/2115198172947529728",
+          "kind": "x"
+        },
+        {
+          "label": "Colts.com",
+          "url": "https://www.colts.com/news/colts-acquire-2027-fourth-round-pick-in-exchange-for-dt-deforest-buckner-in-trade-with-san-francisco-49ers",
+          "kind": "primary"
+        },
+        {
+          "label": "NFL.com",
+          "url": "https://www.nfl.com/news/colts-to-trade-deforest-buckner-to-49ers-for-fourth-round-pick",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
