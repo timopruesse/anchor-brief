@@ -1,0 +1,498 @@
+{
+ "id": "2026-10-28-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-28T20:00:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon edition (~13:10)",
+ "headline": "Google's Gemini 4 Carbon, the Spain crash toll at 68, and Apple's first touchscreen Mac",
+ "stories": [
+  {
+   "id": "gemini-4-carbon",
+   "weight": "lead",
+   "title": "Google launches Gemini 4 Carbon, a security-focused model that tops the Artificial Analysis index",
+   "topics": [
+    "AI",
+    "Google",
+    "Security"
+   ],
+   "facts": [
+    "Google announced Gemini 4 Carbon today, two weeks after Gemini 4 Argon. It's built to run for days on long-horizon engineering work.",
+    "It's #1 on the Artificial Analysis Intelligence Index v5.0 with a score of 59, and climbed 89 Elo to #4 (1768) on WebDev Arena.",
+    "Security scores: 88.2% on SEC-bench Pro, 54.8% on ExploitGym and 71.0% on CWE-bench. Google says it more than doubles Argon's success rate at writing secure code.",
+    "Google's Chrome team says it was more than 10x better at producing patches than another lab's frontier model. Wiz is also quoted as an early tester.",
+    "Rollout is staged: a subset of cyber defenders gets it this week, then trusted partners through the Fairwind Program, and later developers, businesses and consumers. Google is taking part in the US government's voluntary pre-release testing.",
+    "API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% cheaper."
+   ],
+   "whyItMatters": "It's the first frontier model whose launch is gated by its cyber capabilities, with defenders getting it before everyone else.",
+   "image": {
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+    "alt": "Gemini 4 Carbon announcement graphic",
+    "credit": "Google",
+    "creditUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+   },
+   "sources": [
+    {
+     "label": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "kind": "primary"
+    },
+    {
+     "label": "Sundar Pichai on X",
+     "url": "https://x.com/sundarpichai/status/2115489219804352921",
+     "kind": "x"
+    },
+    {
+     "label": "Google AI on X",
+     "url": "https://x.com/GoogleAI/status/2115489593818816591",
+     "kind": "x"
+    },
+    {
+     "label": "Logan Kilpatrick on X",
+     "url": "https://x.com/OfficialLoganK/status/2115489284404940898",
+     "kind": "x"
+    },
+    {
+     "label": "Josh Woodward on X",
+     "url": "https://x.com/joshwoodward/status/2115495943948902517",
+     "kind": "x"
+    },
+    {
+     "label": "Google on X",
+     "url": "https://x.com/Google/status/2115489522603466766",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "spain-train-crash-update",
+   "weight": "normal",
+   "title": "Spain train crash: death toll rises to 68, minister blames an 'inexplicable' control-centre order",
+   "topics": [
+    "Spain",
+    "Europe"
+   ],
+   "facts": [
+    "At least 68 people died near Urda (Toledo): 24 on the high-speed train and 44 on the stationary one. More than 100 were injured, and the toll is expected to rise. The afternoon brief had at least 30.",
+    "A Renfe AVE with 393 passengers ran into the back of a stationary Iryo train carrying 151.",
+    "The transport minister says a computer failure stopped trains on the line, and then the control centre made an \"inexplicable\" decision to send the Renfe train on at about 200 km/h. On sight, it should have gone about 40 km/h.",
+    "It's Spain's worst rail disaster since 2013 and its third this year, after Adamuz in January killed more than 40.",
+    "Spain declared three days of national mourning. Sánchez said \"the whole of Spain is grieving\", most parties suspended their election campaigns, and the Madrid–Andalusia line is shut."
+   ],
+   "whyItMatters": "If the minister's account holds, this was a human signalling decision rather than a track or train fault, which puts Spain's rail control system under scrutiny days before an election.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/91bd/live/46aa4690-d2f9-11f1-b441-2b33b063138f.jpg",
+    "alt": "Rescue workers at the site of the train collision near Urda, Spain",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.co.uk/news/live/cv1j309d4g98t"
+   },
+   "sources": [
+    {
+     "label": "BBC News live",
+     "url": "https://www.bbc.co.uk/news/live/cv1j309d4g98t",
+     "kind": "article"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/europa/spanien-zugunglueck-124.html",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/4iJA1eF",
+     "kind": "article"
+    },
+    {
+     "label": "BBC Breaking News on X",
+     "url": "https://x.com/BBCBreaking/status/2115463733895889319",
+     "kind": "x"
+    },
+    {
+     "label": "CNN on X",
+     "url": "https://x.com/CNN/status/2115471295613678071",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-proled",
+   "weight": "normal",
+   "title": "Apple's first touchscreen Mac: a MacBook Pro with a tandem-OLED 'PROLED XDR' display",
+   "topics": [
+    "Apple",
+    "Tech"
+   ],
+   "facts": [
+    "Apple unveiled it at today's event. It's the first Mac with a touchscreen, using a tandem OLED panel with the touch sensor built in.",
+    "The display reaches 2,000 nits, a 10,000,000:1 contrast ratio and 120 Hz, and covers P3 and Adobe RGB.",
+    "The Dynamic Island comes to the Mac, for Spotlight, Live Activities and Siri.",
+    "It runs M5 Pro or M5 Max with up to 128 GB of memory, 16 TB of storage and 24 hours of battery life.",
+    "US prices start at $2,899 for the 14-inch and $3,399 for the 16-inch. In Germany a maxed-out model reaches €16,099 (Golem). Pre-orders are open now, and it ships 6 November alongside the existing mini-LED and M6 models.",
+    "MacRumors adds that the Mac Studio with M5 Ultra is now available, up to 512 GB of memory for $22,299."
+   ],
+   "whyItMatters": "Apple has resisted a touch Mac for years, and this one costs about $900 more than yesterday's M6 MacBook Pro.",
+   "image": {
+    "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/9/0/6/9/4/Image__4_-795959d523a6e409.jpeg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+    "alt": "The new MacBook Pro with an OLED touchscreen",
+    "credit": "heise online",
+    "creditUrl": "https://www.heise.de/news/Touch-me-Apple-MacBook-Pro-erstmals-mit-OLED-Touchscreen-11503623.html"
+   },
+   "sources": [
+    {
+     "label": "Apple Newsroom",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+     "kind": "primary"
+    },
+    {
+     "label": "MacRumors",
+     "url": "https://www.macrumors.com/2026/10/28/apple-new-macbook-pro/",
+     "kind": "article"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html",
+     "kind": "article"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Touch-me-Apple-MacBook-Pro-erstmals-mit-OLED-Touchscreen-11503623.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "copilot-fusion",
+   "weight": "normal",
+   "title": "GitHub Universe: Copilot Fusion routes each task to the right model, at about half the cost",
+   "topics": [
+    "Dev",
+    "GitHub",
+    "AI"
+   ],
+   "facts": [
+    "Copilot Fusion is generally available. It picks and orchestrates models per task, with Standard, High and Max effort levels and Single, Cascade and Critique workflows.",
+    "GitHub says Fusion Max scored 60 on the Artificial Analysis Coding Agent Index, within 2 points of Claude Code with Opus 5.5 Max, at about half the cost, about half the tokens and about 40% less time.",
+    "It bills per underlying model, 30% off for a limited time, and replaces Auto in VS Code, the Copilot app, the CLI and JetBrains.",
+    "Jay Parikh's Universe keynote post also brings Projects to the Copilot app, for coordinating hundreds of agents on one piece of work."
+   ],
+   "whyItMatters": "Model routing is turning into the product, and GitHub is betting developers will stop choosing a model per task.",
+   "image": null,
+   "sources": [
+    {
+     "label": "GitHub changelog",
+     "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+     "kind": "primary"
+    },
+    {
+     "label": "GitHub blog (Universe 2026)",
+     "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+     "kind": "primary"
+    },
+    {
+     "label": "Satya Nadella on X",
+     "url": "https://x.com/satyanadella/status/2115490856685990244",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "fed-holds",
+   "weight": "normal",
+   "title": "Fed holds at 3.75–4.00%, with two dissents in favour of a hike",
+   "topics": [
+    "US",
+    "Economy"
+   ],
+   "facts": [
+    "The vote was 10–2. Lisa Cook and Beth Hammack dissented, both wanting a 25 bp hike. It's Cook's first dissent, with a hearing on Trump's renewed bid to remove her due in early November.",
+    "The statement says \"inflation remains elevated\" and that activity is expanding at a \"strong\" pace.",
+    "Markets now price about 86% odds of a hike in December (CME). The PCE inflation figure, expected at 3.6%, comes tomorrow."
+   ],
+   "whyItMatters": "The debate inside the Fed is now about hiking, not cutting.",
+   "image": null,
+   "sources": [
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html",
+     "kind": "article"
+    },
+    {
+     "label": "Axios",
+     "url": "https://www.axios.com/2026/10/28/fed-warsh-interest-rates-cook",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Tommy Robinson was found guilty on two counts of harassing Daily Mail journalists Andrew Young and Jacob Dirnhuber, by a 10–2 jury. He faces up to 10 years, is on bail, and will be sentenced on 16 December.",
+     "sourceIndexes": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Flávio Bolsonaro has landed in Miami from Ecuador, defying a Brazilian court order to hand in his passports, and Trump says he'd give him visas.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "Family minister Prien dropped the plan to cut Elterngeld to 12 months. It stays at up to 14, and the minimum and maximum amounts are to rise.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "A Tehran revolutionary court sentenced filmmaker Jafar Panahi in absentia to 5 years and 1 month, seized his assets and imposed a 2-year travel ban.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Zelensky thanked the UK for an extra £10bn in financial support and the Netherlands for a €500m package, and warned about a shortage of Patriot interceptors.",
+     "sourceIndexes": [
+      7,
+      8,
+      9
+     ]
+    },
+    {
+     "text": "Labour leader Dolores Huerta died at 96. Judge Alvin Hellerstein, who was overseeing the prosecution of Nicolás Maduro in Manhattan, died at 92.",
+     "sourceIndexes": [
+      10,
+      11
+     ]
+    },
+    {
+     "text": "WIRED reports that ICE is running one of the largest surveillance operations against the left in US history.",
+     "sourceIndexes": [
+      12
+     ]
+    },
+    {
+     "text": "SpaceX fired all six engines on Ship 42 ahead of Starship Flight 15.",
+     "sourceIndexes": [
+      13
+     ]
+    },
+    {
+     "text": "Sergio Pérez is staying at Cadillac through 2029.",
+     "sourceIndexes": [
+      14
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cq2d6z36pp53o",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/uk-news/2026/oct/28/tommy-robinson-found-guilty-of-harassing-journalists",
+     "kind": "article"
+    },
+    {
+     "label": "BBC Breaking News on X",
+     "url": "https://x.com/BBCBreaking/status/2115455697835999684",
+     "kind": "x"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/amerika/brasilien-flavio-bolsonaro-ecuador-usa-102.html",
+     "kind": "article"
+    },
+    {
+     "label": "The Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2115440898557272350",
+     "kind": "x"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/elterngeld-bezugsdauer-prien-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/asien/panahi-iran-haftstrafe-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "Volodymyr Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2115435963765641425",
+     "kind": "x"
+    },
+    {
+     "label": "Volodymyr Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2115482763017240807",
+     "kind": "x"
+    },
+    {
+     "label": "Volodymyr Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2115500117558014161",
+     "kind": "x"
+    },
+    {
+     "label": "The New York Times on X",
+     "url": "https://x.com/nytimes/status/2115474124885635306",
+     "kind": "x"
+    },
+    {
+     "label": "The New York Times on X",
+     "url": "https://x.com/nytimes/status/2115481385133543715",
+     "kind": "x"
+    },
+    {
+     "label": "WIRED",
+     "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+     "kind": "article"
+    },
+    {
+     "label": "SpaceX on X",
+     "url": "https://x.com/SpaceX/status/2115476295169814978",
+     "kind": "x"
+    },
+    {
+     "label": "Formula 1 on X",
+     "url": "https://x.com/F1/status/2115459790059319388",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Orange Tsai wrote up his Pwn2Own Berlin Microsoft Edge full chain, built only from logic bugs with no memory corruption and no AI. It won $175,000.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Simon Willison argues October 2026 is the inflection point for vibe-coding games, mainly thanks to Claude Opus 5.5.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "In Utah's Claude Code pilot, 34 developers across 10 agencies took part. 80% were set up within 30 minutes and 71% saved 20+ hours in four weeks.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Felix Rieseberg wrote up why his team at Anthropic dropped coding interviews: newer engineers are overtaking more tenured ones. Addy Osmani flagged it.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Claude for Legal now has an artifacts gallery.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Vercel's open-source coding agent fx is now a built-in provider in T3 Code. fx v0.0.15 uses 70% less memory and runs image turns up to 3.3x faster.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    },
+    {
+     "text": "claude.ai switched from oxfmt to bun fmt, and Bun says formatting in CI is 1.7x faster.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "Bun merged a fix that keeps Bun.Archive.extract() and directory routes inside their directory. Playwright's server now follows symlinks when checking served folders.",
+     "sourceIndexes": [
+      8,
+      9
+     ]
+    },
+    {
+     "text": "OpenAI published an essay on how AI might enter the org chart, \"The future of the firm\".",
+     "sourceIndexes": [
+      10
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Orange Tsai's blog",
+     "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
+     "kind": "article"
+    },
+    {
+     "label": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+     "kind": "article"
+    },
+    {
+     "label": "Boris Cherny on X",
+     "url": "https://x.com/bcherny/status/2115491259381072269",
+     "kind": "x"
+    },
+    {
+     "label": "Addy Osmani on X",
+     "url": "https://x.com/addyosmani/status/2115480412151762979",
+     "kind": "x"
+    },
+    {
+     "label": "Claude on X",
+     "url": "https://x.com/claudeai/status/2115467192276025500",
+     "kind": "x"
+    },
+    {
+     "label": "Vercel changelog",
+     "url": "https://vercel.com/changelog/fx-is-now-available-in-t3-code",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel Developers on X",
+     "url": "https://x.com/vercel_dev/status/2115457791561539678",
+     "kind": "x"
+    },
+    {
+     "label": "Bun on X",
+     "url": "https://x.com/bunjavascript/status/2115492324088385845",
+     "kind": "x"
+    },
+    {
+     "label": "oven-sh/bun #47106",
+     "url": "https://github.com/oven-sh/bun/pull/47106",
+     "kind": "primary"
+    },
+    {
+     "label": "microsoft/playwright #43690",
+     "url": "https://github.com/microsoft/playwright/pull/43690",
+     "kind": "primary"
+    },
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/the-future-of-the-firm",
+     "kind": "primary"
+    }
+   ]
+  }
+ ]
+}
