@@ -1,0 +1,621 @@
+{
+ "id": "2026-10-29-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-29T20:00:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon edition (~13:10)",
+ "headline": "DoorDash buys Instacart for $17bn, Mistral opens a trillion-parameter model, and Alphabet slides 12%",
+ "stories": [
+  {
+   "id": "doordash-instacart",
+   "weight": "lead",
+   "title": "DoorDash agrees to buy Instacart for about $17 billion",
+   "topics": [
+    "Business",
+    "Tech"
+   ],
+   "facts": [
+    "DoorDash will pay $65 per Instacart share, a 26% premium to Instacart's close on Oct 22. Both boards have approved the deal.",
+    "It puts the biggest US restaurant-delivery app and the biggest online grocery service under one roof.",
+    "Instacart went public in 2023 and has struggled to keep its pandemic-era momentum against Uber, Amazon and Walmart, CNN notes.",
+    "The pitch: grocers and retailers of every size get DoorDash's delivery network plus Instacart's grocery and fulfilment tech.",
+    "CEO Tony Xu: grocery is \"one of the hardest things to get right online\", from picking a ripe avocado to getting ice cream home before it melts."
+   ],
+   "whyItMatters": "Delivery consolidates further just as Amazon, Walmart and Uber push harder into same-day groceries.",
+   "image": {
+    "url": "https://images.ctfassets.net/trvmqu12jq2l/5qfYy7VGputct2yoKgzgj6/35e4e5767aaf32b6f868c2a89de7c89d/DoorDash_to_Acquire_Instacart_-_newsroom.png",
+    "alt": "DoorDash to acquire Instacart announcement graphic",
+    "credit": "DoorDash",
+    "creditUrl": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart"
+   },
+   "sources": [
+    {
+     "label": "DoorDash newsroom",
+     "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+     "kind": "primary"
+    },
+    {
+     "label": "CNN",
+     "url": "https://edition.cnn.com/2026/10/29/business/doordash-instacart-acquisition",
+     "kind": "article"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/",
+     "kind": "article"
+    },
+    {
+     "label": "Forbes",
+     "url": "https://www.forbes.com/sites/zacharyfolk/2026/10/29/doordash-will-acquire-instacart-in-17-billion-deal/",
+     "kind": "article"
+    },
+    {
+     "label": "New York Times on X",
+     "url": "https://x.com/nytimes/status/2115773331886452820",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "mistral-large-4-open",
+   "weight": "normal",
+   "title": "Mistral releases the weights of Mistral Large 4, a 1-trillion-parameter model",
+   "topics": [
+    "AI",
+    "Open models",
+    "Security"
+   ],
+   "facts": [
+    "Mistral Large 4 (nicknamed \"Le Chonk\") is a 1T-parameter multimodal model, and its weights are now open.",
+    "Mistral calls it the best open-weight model for coding and says it leads open-weight benchmarks in defensive security.",
+    "It comes with three reasoning modes.",
+    "It was trained in Europe, in Mistral's own data centres, per Hugging Face's launch-day interview with the team.",
+    "TechCrunch frames it as the open-weight pitch for cyber defence: organisations keep control of their data and systems instead of relying on a closed provider."
+   ],
+   "whyItMatters": "A frontier-scale open model aimed at security lands a day after Google gated Gemini 4 Carbon's rollout by its cyber abilities.",
+   "image": {
+    "url": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+    "alt": "Mistral Large 4 announcement cover",
+    "credit": "Mistral",
+    "creditUrl": "https://mistral.ai/news/mistral-large-4-oss/"
+   },
+   "sources": [
+    {
+     "label": "Mistral",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/",
+     "kind": "primary"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+     "kind": "article"
+    },
+    {
+     "label": "Hugging Face on X",
+     "url": "https://x.com/huggingface/status/2115828507712327979",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "alphabet-slide",
+   "weight": "normal",
+   "title": "Update: Alphabet falls more than 12% as Search drops below half of revenue",
+   "topics": [
+    "Markets",
+    "Google"
+   ],
+   "facts": [
+    "This morning's −8% became a plunge of more than 12% in regular trading; Der Spiegel says it's heading for a record loss.",
+    "Forbes says Larry Page and Sergey Brin lost a combined $60 billion on paper.",
+    "Search brought in $63.4B of Alphabet's $128B quarterly revenue, or 49.7%. It's the first quarter below half since Search was reported separately; it had ranged from 52.8% to 62.0%.",
+    "Google Cloud was $30.7B, or 24.1% of revenue."
+   ],
+   "whyItMatters": "Investors are punishing slower Search growth even as Cloud surges, a sign of how much AI is seen as a threat to the core business.",
+   "image": {
+    "url": "https://www.kadoa.com/companies/og/insights/google-search-below-half.png",
+    "alt": "Chart: Google Search share of Alphabet revenue",
+    "credit": "Kadoa",
+    "creditUrl": "https://www.kadoa.com/companies/insights/google-search-below-half"
+   },
+   "sources": [
+    {
+     "label": "Kadoa",
+     "url": "https://www.kadoa.com/companies/insights/google-search-below-half",
+     "kind": "article"
+    },
+    {
+     "label": "Forbes on X",
+     "url": "https://x.com/Forbes/status/2115858737139446195",
+     "kind": "x"
+    },
+    {
+     "label": "Forbes",
+     "url": "https://www.forbes.com/sites/maryroeloffs/2026/10/29/googles-larry-page-sergey-brin-lose-combined-60-billion-as-alphabet-stock-drops/",
+     "kind": "article"
+    },
+    {
+     "label": "Der Spiegel on X",
+     "url": "https://x.com/derspiegel/status/2115861329118740687",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "nvidia-spy-chips",
+   "weight": "normal",
+   "title": "NYT: a Chinese businesswoman close to Jensen Huang was passing intelligence to Beijing",
+   "topics": [
+    "China",
+    "Chips",
+    "Security"
+   ],
+   "facts": [
+    "US officials found that a businesswoman with a close relationship to Nvidia's CEO was passing intelligence to Beijing, the New York Times reports.",
+    "TechCrunch names her as Alice Huang (Huang Le), an executive at Singapore AI cloud firm Megaspeed, which was accused of illegally selling Nvidia chips to China. US agencies watched her for about a year.",
+    "Nvidia denies wrongdoing; a spokesperson said meeting customers is part of a CEO's job.",
+    "Malaysian customs seized 30 AI servers worth about $12.1m at Kuala Lumpur airport on Oct 15, declared as ordinary electronics; it's the fifth case tied to the same suspected smuggling ring.",
+    "Separately, about $100m of AI data-centre freight has been stolen in transit since June, PC Gamer reports."
+   ],
+   "whyItMatters": "It adds a counter-intelligence angle to the fight over Nvidia's China sales and chip export controls.",
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2022/09/nvidia-ceo-jensen-huang-with-geforce-rtx-4090.jpg?resize=1200,800",
+    "alt": "Nvidia CEO Jensen Huang on stage",
+    "credit": "TechCrunch",
+    "creditUrl": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/"
+   },
+   "sources": [
+    {
+     "label": "New York Times",
+     "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+     "kind": "article"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+     "kind": "article"
+    },
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Malaysia-Zoll-beschlagnahmt-KI-Chips-im-Wert-von-rund-12-Millionen-US-Dollar-11505399.html",
+     "kind": "article"
+    },
+    {
+     "label": "PC Gamer",
+     "url": "https://www.pcgamer.com/software/ai/its-so-much-easier-to-steal-this-than-to-rob-a-bank-usd100-000-000-worth-of-ai-data-center-freight-reportedly-stolen-since-june/",
+     "kind": "article"
+    },
+    {
+     "label": "New York Times on X",
+     "url": "https://x.com/nytimes/status/2115805793891098841",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "us-gdp-inflation",
+   "weight": "normal",
+   "title": "US economy grows 3.4% in Q3, but inflation hits a four-month high",
+   "topics": [
+    "Economy",
+    "US"
+   ],
+   "facts": [
+    "GDP grew at a 3.4% annual rate from July to September, the fastest pace in over a year, driven by consumer spending and the AI investment boom.",
+    "The PCE price index rose 0.5% in September, lifting annual inflation to 3.6% from 3.4%. Core PCE rose to 3.1%.",
+    "Rising gas prices from the war-driven energy shock did much of the lifting.",
+    "Spending slowed: up 0.5% in September after 0.9%, and flat after inflation. The savings rate fell to 3.8%, the lowest in nearly four years.",
+    "It's the last big snapshot of the economy before the midterms; the White House says growth \"crushes\" expectations."
+   ],
+   "whyItMatters": "Strong growth with inflation well above 2% makes rate cuts harder, a day after the Fed held with two dissents for a hike.",
+   "image": {
+    "url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2289071084.jpg?c=16x9&q=w_800,c_fill",
+    "alt": "Shoppers in a US store",
+    "credit": "CNN",
+    "creditUrl": "https://edition.cnn.com/2026/10/29/economy/us-economy-pce-inflation-gdp"
+   },
+   "sources": [
+    {
+     "label": "CNN",
+     "url": "https://edition.cnn.com/2026/10/29/economy/us-economy-pce-inflation-gdp",
+     "kind": "article"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/business/2026/10/29/economy-grew-this-summer/",
+     "kind": "article"
+    },
+    {
+     "label": "Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2115858743908855836",
+     "kind": "x"
+    },
+    {
+     "label": "White House on X",
+     "url": "https://x.com/WhiteHouse/status/2115802140719644996",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "New York Times",
+     "url": "https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World on X",
+     "url": "https://x.com/BBCWorld/status/2115821122964922856",
+     "kind": "x"
+    },
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Schwarz-Gruppe-investiert-Milliarden-in-KI-Start-up-Cohere-11505395.html",
+     "kind": "article"
+    },
+    {
+     "label": "Zeit Online",
+     "url": "https://www.zeit.de/politik/deutschland/2026-10/afd-niedersachsen-verfassungsschutz-ovg-beobachtung-rechtsextremismus",
+     "kind": "article"
+    },
+    {
+     "label": "FAZ on X",
+     "url": "https://x.com/faznet/status/2115864982680211624",
+     "kind": "x"
+    },
+    {
+     "label": "Zeit Online",
+     "url": "https://www.zeit.de/politik/ausland/2026-10/litauen-starlink-sabotage-brandanschlag-vilnius-gxe",
+     "kind": "article"
+    },
+    {
+     "label": "Der Spiegel on X",
+     "url": "https://x.com/derspiegel/status/2115851240164995240",
+     "kind": "x"
+    },
+    {
+     "label": "New York Times",
+     "url": "https://www.nytimes.com/2026/10/29/us/choudri-resign-california-high-speed-rail.html",
+     "kind": "article"
+    },
+    {
+     "label": "Zeit Online",
+     "url": "https://www.zeit.de/sport/2026-10/alexander-zverev-tennis-weltrangliste-erster-profisportler",
+     "kind": "article"
+    },
+    {
+     "label": "Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2115787384277061937",
+     "kind": "x"
+    },
+    {
+     "label": "IGN",
+     "url": "https://www.ign.com/articles/fromsoftwares-nintendo-switch-2-exclusive-the-duskbloods-officially-delayed-into-2027",
+     "kind": "article"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Trump and his aides helped Flávio Bolsonaro, who faces several criminal investigations, enter the US, officials told the NYT. He now calls himself the \"leader of Brazil\" after losing the election.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Cohere is raising up to C$7bn (about €4.7bn) at a roughly C$35.7bn valuation, led by Lidl owner Schwarz Group, with Canada's government and Nvidia also in.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Lower Saxony's domestic intelligence keeps the state AfD at its highest surveillance level; a court rejected the party's appeal for the second time.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Munich prosecutors arrested two Belarusians suspected of sabotaging a rail line, possibly on a foreign state's orders. Separately, suspects in Starlink arson attacks in Lithuania are in custody in Germany.",
+     "sourceIndexes": [
+      4,
+      5
+     ]
+    },
+    {
+     "text": "Berlin's new parliament elected Linke politician Hendrikje Klein as its president, with votes beyond the red-green-red camp.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "The head of California's High-Speed Rail Authority resigned after a state report found nearly $600,000 was misused on consultants' travel.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "Alexander Zverev will become world No. 1 in tennis.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "Zelensky says the Dnipro train strike death toll has risen to 14.",
+     "sourceIndexes": [
+      9
+     ]
+    },
+    {
+     "text": "FromSoftware delayed The Duskbloods, its Switch 2 exclusive, to 2027.",
+     "sourceIndexes": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Anthropic on X",
+     "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+     "kind": "x"
+    },
+    {
+     "label": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+     "kind": "primary"
+    },
+    {
+     "label": "OpenAI: Model Spec",
+     "url": "https://openai.com/index/updated-model-spec",
+     "kind": "primary"
+    },
+    {
+     "label": "OpenAI: detecting misalignment",
+     "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+     "kind": "primary"
+    },
+    {
+     "label": "Google Gemma on X",
+     "url": "https://x.com/googlegemma/status/2115849803636871174",
+     "kind": "x"
+    },
+    {
+     "label": "Antigravity on X",
+     "url": "https://x.com/antigravity/status/2115852199502684342",
+     "kind": "x"
+    },
+    {
+     "label": "GitLab blog",
+     "url": "https://about.gitlab.com/blog/gitlab-orbit-ga/",
+     "kind": "primary"
+    },
+    {
+     "label": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+     "kind": "article"
+    },
+    {
+     "label": "SvelteKit #17548",
+     "url": "https://github.com/sveltejs/kit/pull/17548",
+     "kind": "article"
+    },
+    {
+     "label": "Svelte #19120",
+     "url": "https://github.com/sveltejs/svelte/pull/19120",
+     "kind": "article"
+    },
+    {
+     "label": "Bun #47382",
+     "url": "https://github.com/oven-sh/bun/pull/47382",
+     "kind": "article"
+    },
+    {
+     "label": "Bun #47338",
+     "url": "https://github.com/oven-sh/bun/pull/47338",
+     "kind": "article"
+    },
+    {
+     "label": "Nim 2.4.0",
+     "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html",
+     "kind": "primary"
+    },
+    {
+     "label": "NetBSD on Mastodon",
+     "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+     "kind": "article"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Anthropic trained Claude to flag potential misuse right after it answers, a technique it calls self-assessment, in use since June.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Gemini can now generate, preview and edit documents, PDFs, slides and spreadsheets in a new full-screen editor.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "OpenAI published an updated Model Spec and a post on how it detects misalignment in frontier models.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "EmbeddingGemma 2 is a 740M-parameter embedding model for text, images, video, audio and code that runs fully on-device, including in the browser via WebGPU.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Antigravity launched a plugins marketplace.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "GitLab Orbit is generally available; GitLab says agents using it needed up to 45x fewer retries and 4.5x fewer tokens.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "A Linux kernel TCP use-after-free rated CVSS 9.8 hits Ubuntu, RHEL and other distros, which lack fixes so far; Anthropic says it got root on MPTCP servers with it.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "SvelteKit now reuses the original fetch across dev-server reloads, and Svelte resets the view when a fork callback throws.",
+     "sourceIndexes": [
+      8,
+      9
+     ]
+    },
+    {
+     "text": "Bun merged two more PRs removing 246 unsafe blocks from the test runner, CLI, syscall wrappers and shell.",
+     "sourceIndexes": [
+      10,
+      11
+     ]
+    },
+    {
+     "text": "Nim 2.4.0 is out, and NetBSD added atto, a new Emacs-like text editor.",
+     "sourceIndexes": [
+      12,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "from-substack",
+   "weight": "brief",
+   "title": "From Substack",
+   "topics": [
+    "From Substack"
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "The AI Corner",
+     "url": "https://www.the-ai-corner.com/p/state-of-ai-report-2026-findings",
+     "kind": "article"
+    },
+    {
+     "label": "On Substack",
+     "url": "https://on.substack.com/p/introducing-lists-on-substack",
+     "kind": "primary"
+    }
+   ],
+   "facts": [
+    {
+     "text": "The AI Corner digs through the State of AI 2026 report: AI is 13x cheaper, so where's the payoff?",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Substack introduced lists.",
+     "sourceIndexes": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Yahoo Sports",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZdG9vUWN0WHdkMHhKVnlTRVFGS3FmS3FaNVpuNV9sUzBkQW1OOGJXeTR1NV9IOEJPQnktSndyTmZ3SEZRVFZEQ2RySHBoVjdDTkYza1h4WVpNcjM4LTB2Z19CU2RrSDlEU2Z1X1MtbVpLc3dOOWpHWUkwNHE?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Kicker",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcTVVeXdDVXRUaEFtQUM5RG5jLUI4THB3ekJFV2h1OF9VdHpXaG5PWUhhQnljOWo3LVNKQ1o4TUJUd09kLUFOYlhPZXFtRnltS012dlBmX0p6TTlnMXdtRloyMzBWMU5zNDZ4Ty1UOEttRnJQSThXNUxmUUcyN3BoeGdLbE5ERGRoYW0xdFVpVDBlRGJZQVNqd0d0WXpzaDBYeHc?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Eintracht Braunschweig on X",
+     "url": "https://x.com/EintrachtBSNews/status/2115775996880453887",
+     "kind": "x"
+    },
+    {
+     "label": "Basketball Löwen",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ0JrcDRuenMxU3dmNmNCUHVYMWNPNmhXc01PN01ZalZ4VE9wdFBMaVNkd28yYmt4UTVINjZFb1o2cVhpTlRXeUJ6YllxUlhyLV9qZ2toQ2JjWk51UkVhR1VQb3dTMnoweXMtS1A2c01hLXNwU1JwbmlCYUQtZkF4V0lsZw?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Sky Sport",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGhqMkdaU2g5VERzNHpqcTlOWWVGVFRzcWVCQkNPMWFWRTVrT1ViaEJQeVhyWFBxamFJZGV2NEhqMm1Ib0NaNzJEYUlxaldGMjZoQ005Mk9DVTJoTTZGSGN5MWZ1TGdfLU9JM3o4UldLRmNFcnBKd1BUMEVGbThkeWc4UXV4dDdQY1RjV05SMnZzYXl2TXpRM2lBOExCUllybVNUeUdR?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Disney+ on X",
+     "url": "https://x.com/DisneyPlus/status/2115822459127730653",
+     "kind": "x"
+    }
+   ],
+   "facts": [
+    {
+     "text": "The 49ers traded for DeForest Buckner, bringing him back ahead of their bye week.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig coach Kornetka confirmed Hoffmann is available for Friday's game at Arminia Bielefeld, and the Nov 29 home game against Wolfsburg is already sold out.",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "The Basketball Löwen host defence-strong Würzburg next.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "BVB: Sky looks at how Dortmund plans with Sabitzer after his cup wonder goal.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "\"Portrait of an Artist: Stephen Curry\" streams on Disney+ from Nov 10.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ]
+  }
+ ]
+}
