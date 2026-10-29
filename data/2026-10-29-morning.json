@@ -1,0 +1,589 @@
+{
+  "id": "2026-10-29-morning",
+  "edition": "morning",
+  "generatedAt": "2026-10-29T08:40:00+01:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight, since the evening edition (~20:05)",
+  "headline": "Alphabet slides on slower Search growth as Microsoft's cloud surges, a DHS staff leak spreads, and the Pentagon's top planner is out",
+  "stories": [
+    {
+      "id": "big-tech-earnings",
+      "weight": "lead",
+      "title": "Alphabet slides 8% on slower Search growth while Microsoft's cloud accelerates",
+      "topics": [
+        "Tech",
+        "Earnings",
+        "AI"
+      ],
+      "facts": [
+        "Alphabet's Q3 revenue rose 25% to $127.6bn, slightly below analyst expectations. Net income fell to $26.17bn from $34.9bn a year ago.",
+        "Search ad revenue grew about 12% to $63.35bn, down from 17% growth in Q2 and 19% in Q1. Analysts expected about $65bn, and the shares fell around 8–9% after hours.",
+        "Google Cloud more than doubled, up 103% to $30.7bn, and Pichai says Alphabet is now on a half-trillion-dollar annual revenue run rate. Capex rose to about $51bn in the quarter.",
+        "Google is taking ads in AI Mode to international markets for the first time, though its business chief admits they still monetize worse than classic search.",
+        "Microsoft's fiscal Q1 brought $92.3bn in revenue, $63.9bn in Microsoft Cloud revenue (growth accelerating to 30%, per Nadella) and 48% Azure growth.",
+        "A filing shows $10bn of that quarter came from commercial arrangements with OpenAI, nearly 11% of the total, and Microsoft's OpenAI stake slipped to about 24%."
+      ],
+      "whyItMatters": "Investors are rewarding AI cloud demand but punishing any sign that AI answers are eroding Google's core search ad machine.",
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2153474575.jpg?resize=1200,800",
+        "alt": "Microsoft logo (TechCrunch)",
+        "credit": "Jason Redmond/AFP via Getty Images, TechCrunch",
+        "creditUrl": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+      },
+      "sources": [
+        {
+          "label": "Microsoft FY27 Q1 results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+          "kind": "primary"
+        },
+        {
+          "label": "9to5Google (Alphabet Q3)",
+          "url": "https://9to5google.com/2026/10/28/alphabet-q3-2026-earnings/",
+          "kind": "article"
+        },
+        {
+          "label": "TechCrunch (AI Search ads)",
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+          "kind": "article"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Langsameres-Wachstum-im-Google-Kerngeschaeft-alarmiert-Boerse-11503941.html",
+          "kind": "article"
+        },
+        {
+          "label": "TechCrunch (Microsoft and OpenAI)",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+          "kind": "article"
+        },
+        {
+          "label": "Sundar Pichai on X",
+          "url": "https://x.com/sundarpichai/status/2115535455156642066",
+          "kind": "x"
+        },
+        {
+          "label": "Satya Nadella on X",
+          "url": "https://x.com/satyanadella/status/2115577764300693644",
+          "kind": "x"
+        },
+        {
+          "label": "Microsoft",
+          "url": "https://msft.it/6005a0nib",
+          "kind": "article",
+          "via": {
+            "label": "Microsoft on X",
+            "url": "https://x.com/Microsoft/status/2115535611801248094",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Forbes",
+          "url": "https://go.forbes.com/0BVRar",
+          "kind": "article",
+          "via": {
+            "label": "Forbes on X",
+            "url": "https://x.com/Forbes/status/2115546679877198209",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dhs-icepick-leak",
+      "weight": "normal",
+      "title": "A leak exposes 41,000 DHS staff, and Bluesky blocks the links",
+      "topics": [
+        "US",
+        "Security",
+        "Privacy"
+      ],
+      "facts": [
+        "Distributed Denial of Secrets published an archive, dubbed \"Icepick\", on more than 41,000 DHS employees and contractors, including ICE and CBP staff.",
+        "It lists names, email addresses, phone numbers and membership of internal groups, in some cases tied to surveillance and undercover operations, WIRED reports.",
+        "A group calling itself the Department of Peace handed the files over. Activists say they took them in a cyberattack, per ZEIT.",
+        "Bluesky labels links to the archive \"malicious\" because it shares contact details without authorization. On X, Grok pointed users to a searchable version."
+      ],
+      "whyItMatters": "It maps who does what inside DHS during an immigration crackdown, and platforms are already splitting on whether to let it spread.",
+      "image": {
+        "url": "https://media.wired.com/photos/6ae2b697af20331957eab942/191:100/w_1280,c_limit/2195830714",
+        "alt": "WIRED illustration for the DHS leak story",
+        "credit": "Thomas Trutschel/Getty Images, WIRED",
+        "creditUrl": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/"
+      },
+      "sources": [
+        {
+          "label": "WIRED",
+          "url": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
+          "kind": "article"
+        },
+        {
+          "label": "WIRED",
+          "url": "https://buff.ly/Winz3Cp",
+          "kind": "article",
+          "via": {
+            "label": "WIRED on X",
+            "url": "https://x.com/WIRED/status/2115649442539843772",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://spr.ly/6011BHlSsV",
+          "kind": "article",
+          "via": {
+            "label": "TechCrunch on X",
+            "url": "https://x.com/TechCrunch/status/2115534840254640484",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/QJGQPjj",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2115670551528091928",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pentagon-planner-iran",
+      "weight": "normal",
+      "title": "Hegseth ousts the Pentagon's chief planner as Trump weighs new Iran strikes",
+      "topics": [
+        "US",
+        "Iran",
+        "Military"
+      ],
+      "facts": [
+        "Lt. Gen. Brett Sylvia, the Joint Chiefs' director for strategy, plans and policy (J5), is abruptly leaving. No reason was given, CNN reports.",
+        "US officials told CNN that forces in the Middle East could launch major new operations against Iran within 96 hours of an order. Trump has said no attack would come before Tuesday's midterms.",
+        "Separately, a document seen by the Washington Post puts the war's cost at more than $47bn through mid-October, up more than $3bn in recent weeks."
+      ],
+      "whyItMatters": "The officer who shapes war plans is out just as the military is told to be ready for a bigger round of strikes.",
+      "image": {
+        "url": "https://media.cnn.com/api/v1/images/stellar/prod/ap26302086135824.jpg?c=16x9&q=w_800,c_fill",
+        "alt": "Lt. Gen. Brett Sylvia (US Army via AP)",
+        "credit": "Sgt. Timothy Jackson/U.S. Army/AP, CNN",
+        "creditUrl": "https://edition.cnn.com/2026/10/29/politics/pentagon-top-planner-sylvia-ousted-hegseth-hnk-ml"
+      },
+      "sources": [
+        {
+          "label": "CNN",
+          "url": "https://edition.cnn.com/2026/10/29/politics/pentagon-top-planner-sylvia-ousted-hegseth-hnk-ml",
+          "kind": "article"
+        },
+        {
+          "label": "The Washington Post (war costs)",
+          "url": "https://www.washingtonpost.com/politics/2026/10/28/iran-war-costs-rise-47-billion-us-military-estimates/",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4BCU2v6",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2115683675635425371",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "The Washington Post",
+          "url": "https://wapo.st/4idRYlG",
+          "kind": "article",
+          "via": {
+            "label": "The Washington Post on X",
+            "url": "https://x.com/washingtonpost/status/2115586943975113088",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "okeefe-charged-ballots",
+      "weight": "normal",
+      "title": "James O'Keefe is charged in Minnesota, and a judge rejects the push on 20,000 California ballots",
+      "topics": [
+        "US",
+        "Elections",
+        "Justice"
+      ],
+      "facts": [
+        "Minnesota prosecutors charged O'Keefe, 42, and Cam Higby, 26, with felony identity theft and unlawful voting.",
+        "They allegedly used disguises and hidden cameras while giving poll workers four registered voters' names at Minneapolis polls in August. The complaints don't allege either man cast a ballot.",
+        "Separately, a federal judge denied the Trump administration's bid to force California to set aside 20,000 mail ballots it claims could be from noncitizens."
+      ],
+      "whyItMatters": "Five days before the midterms, courts are pushing back on both a sting meant to show fraud and a federal attempt to sideline ballots.",
+      "image": {
+        "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NXO4IQSIEWCJAA7E43QZM4VFZM_size-normalized.jpg&w=1440",
+        "alt": "James O'Keefe (Getty Images via The Washington Post)",
+        "credit": "Brandon Bell/Getty Images, The Washington Post",
+        "creditUrl": "https://www.washingtonpost.com/politics/2026/10/28/james-okeefe-charged-over-hidden-camera-operation-minnesota-polls/"
+      },
+      "sources": [
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/10/28/james-okeefe-charged-over-hidden-camera-operation-minnesota-polls/",
+          "kind": "article"
+        },
+        {
+          "label": "CNN (California ballots)",
+          "url": "https://edition.cnn.com/2026/10/28/politics/judge-denies-trump-bid-california-ballots",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/3WSGwmY",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2115666193587519544",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4A023Zp",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2115618256652493226",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "weight": "brief",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "The Milwaukee Brewers won their first World Series, beating the Tampa Bay Rays in five games after a 103-win season on a low payroll.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Cuauhtémoc Cárdenas, whose runs for Mexico's presidency helped break the ruling party's grip on power, has died at 92.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "North Korea fired about ten ballistic missiles towards the Sea of Japan, according to South Korea and Japan.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Volkswagen posted a multi-billion loss for the third quarter.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Weil, Gotshal & Manges plans to wind down, a stunning collapse for a top US law firm.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "A fire at the Savannah River nuclear-materials site in South Carolina was put out with no contamination reported outside the facility.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "El Salvador is sending 2,000 troops to Haiti to rescue four missing soldiers.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "RFK Jr is expanding access to unapproved peptides.",
+          "sourceIndexes": [
+            8
+          ]
+        },
+        {
+          "text": "Neuralink says one ALS participant reached 75 words per minute at a 5.8% word error rate in their first week of speech restoration.",
+          "sourceIndexes": [
+            9
+          ]
+        },
+        {
+          "text": "Phantom Blade Zero peaked at 431,541 concurrent players on Steam.",
+          "sourceIndexes": [
+            10
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/846b/live/2e1cb430-d355-11f1-a772-cb496d11fa15.jpg",
+        "alt": "Gang Suppression Force (GSF) vehicles are seen in a traffic jam in downtown Port-au-Prince, Haiti, on October 24, 2026. Approximately 450 Salvadoran soldiers have arrived in the Haitian capital to reinforce the GSF and take part in search operations for four missing Salvadoran nationals.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/ck0e075n79j5o"
+      },
+      "sources": [
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/sports/2026/10/28/milwaukee-brewers-capture-first-world-series-title-franchise-history/",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4iqtmVq",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2115645571507638419",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "The New York Times",
+          "url": "https://www.nytimes.com/2026/10/28/world/americas/cuauhtemoc-cardenas-dead.html",
+          "kind": "article"
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/GFkOtM5",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2115693213646262416",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "ZEIT ONLINE",
+          "url": "https://trib.al/07IEljE",
+          "kind": "article",
+          "via": {
+            "label": "ZEIT ONLINE on X",
+            "url": "https://x.com/zeitonline/status/2115696033019670546",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "The New York Times",
+          "url": "https://www.nytimes.com/2026/10/28/business/weil-gotshal-law-firm.html",
+          "kind": "article"
+        },
+        {
+          "label": "CNN",
+          "url": "https://edition.cnn.com/2026/10/28/us/savannah-river-national-lab-fire-nuclear-south-carolina",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ck0e075n79j5o",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cmq8nwd748v3o",
+          "kind": "article"
+        },
+        {
+          "label": "Neuralink on X",
+          "url": "https://x.com/neuralink/status/2115534593147187397",
+          "kind": "x"
+        },
+        {
+          "label": "SteamDB",
+          "url": "https://steamdb.info/app/4115450/charts/?peak=431541&utm_source=Twitter",
+          "kind": "article",
+          "via": {
+            "label": "SteamDB on X",
+            "url": "https://x.com/SteamDB/status/2115683315864756682",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "weight": "brief",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Vercel introduced Vercel CI, and AI Gateway gains virtual models.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Node.js 26.13.0 is out as an LTS release.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Google previewed a Connected Apps platform for building and managing app integrations in one place.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Android Studio now works with more than 40 coding agents, and A2UI for Jetpack Compose is out in alpha.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "tRPC v11.22 adds typesafe procedure errors.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Bun merged a PR removing 166 unsafe blocks.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "Anthropic's AI for Science program expands to foundations and research institutions.",
+          "sourceIndexes": [
+            8
+          ]
+        },
+        {
+          "text": "Mainmatter runs an Agentic Engineering workshop with Paolo Ricciuti on Nov 18 before Svelte Summit (onsite €250, remote €100, before fees and VAT).",
+          "sourceIndexes": [
+            9
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://nodejs.org/en/next-data/og/release/Node.js%20%E2%80%94%20Node.js%2026.13.0%20(LTS)",
+        "alt": "The Node.js Hexagon Logo",
+        "credit": "Node.js blog",
+        "creditUrl": "https://nodejs.org/en/blog/release/v26.13.0"
+      },
+      "sources": [
+        {
+          "label": "Vercel blog",
+          "url": "https://vercel.com/blog/introducing-vercel-ci",
+          "kind": "primary"
+        },
+        {
+          "label": "Vercel blog",
+          "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+          "kind": "primary"
+        },
+        {
+          "label": "Node.js blog",
+          "url": "https://nodejs.org/en/blog/release/v26.13.0",
+          "kind": "primary"
+        },
+        {
+          "label": "Google blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+          "kind": "primary"
+        },
+        {
+          "label": "Android Developers on X",
+          "url": "https://x.com/AndroidDev/status/2115534067017904554",
+          "kind": "x"
+        },
+        {
+          "label": "Android Developers",
+          "url": "https://developer.android.com/develop/ui/compose/agentic",
+          "kind": "primary"
+        },
+        {
+          "label": "tRPC on X",
+          "url": "https://x.com/trpcio/status/2115588986274222399",
+          "kind": "x"
+        },
+        {
+          "label": "oven-sh/bun #47291",
+          "url": "https://github.com/oven-sh/bun/pull/47291",
+          "kind": "primary"
+        },
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+          "kind": "primary"
+        },
+        {
+          "label": "Svelte Society",
+          "url": "https://www.tickettailor.com/events/sveltesummit/2311565",
+          "kind": "article",
+          "via": {
+            "label": "Svelte Society on X",
+            "url": "https://x.com/SvelteSociety/status/2115666466133385724",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "weight": "brief",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "Steph Curry scored 44 against the Timberwolves as the Warriors won a second straight game after an 0-3 start.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "The 49ers will be without running back Elijah Mitchell for the next eight weeks.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "BVB visits Bayern for the Klassiker on Bundesliga matchday 8, and Eintracht Braunschweig plays at Arminia Bielefeld on Friday (Oct 30).",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "ESPN (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOEFXb2dYLTNtUmQybzdsSmNJdjVwSmRUcHhiZjQxT3Y4THNKX1NuVWxIZjcwRThtaml6dUp0Vnh4MkVfQ1lrTGFyajV0TFVOdkhDRllmU2ZNVVR6VHlxdVo0c2F6LTNxM2xJQ2RWVkJXNjR0LVZ4Wm9EM1YyLUNONTI1NnVEN3JmXzRDa1pENU9fQ0w1RDZIUnRzWllTXzlxVk9lSQ?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "footballr.at (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVmhyQVhHQXhBbWtub0taT2dtUTVKRnFyc1d0UUFkaXltRUk0aWxKdWpkN3hRRnFqaVdyNDhSMkJVSC1HRzRybnhIeUpFeV9nNmRtRWhkdS1hcVQ5M0V5SW5TT2tXdTlCRU04am5IczFPY3h5TWlrZlp3aTVxUWZTTTF2a1M0ZmxZZERj?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "kicker: Bayern v BVB (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSTlGdlpNVkQ4dy1OOGpseDJVYUs3OWdCcnhiZTRuSWxXTmNMSTVHbS1vQXZwMkhkdlVvWDRfQS0yd1ZBR3Q0aWpMTkZvd0UzQkZiMnNfOXZDYm5rbWE0cGlROG9renB0d3VNRTg4TFhsNnpOamZhZ2otdzFqdlhJV2t1OGx4UQ?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "kicker: Bielefeld v Braunschweig (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSE9jNDF0dXV5ZjFQWnVVS1N5WGRaT3NuN1NOTVJTclFKcjhmLURFTXRnMUpkRnU5dlhUb1EzQU9JRzVJUk1nMGRnTzBOdnV1VnZwTmwwYXpDRWxIQXZ4TWZQV05GX2pYOFpFOWFJXzNCSlBEZTY5ZnBWMC1uYUVSMnh2Ujg2MUpjaEdNcVdSWQ?oc=5",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
