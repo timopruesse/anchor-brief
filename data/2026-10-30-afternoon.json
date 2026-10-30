@@ -1,0 +1,548 @@
+{
+ "id": "2026-10-30-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-10-30T13:10:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:30)",
+ "headline": "Cursor confirms the Claude Code backdoor hit up to 5,000 users, Novaya Gazeta shuts down, and Germany grows while Audi slumps",
+ "stories": [
+  {
+   "id": "claude-code-cursor-marketplace",
+   "weight": "lead",
+   "title": "Cursor confirms the backdoored Claude Code extension came through its marketplace and reached up to 5,000 users",
+   "topics": [
+    "Security",
+    "Dev tools",
+    "AI"
+   ],
+   "facts": [
+    "Cursor says a maliciously modified Anthropic.claude-code 2.1.313 was live in its VS Code extension marketplace on Thursday from about 10:27 to 21:35 Berlin time, reaching at most 5,000 users; it will contact them directly.",
+    "Cursor stresses the build was not developed by Anthropic. Reuters says Anthropic did not immediately respond to a request for comment.",
+    "The payload plants an attacker SSH key (svc-telemetry), tries to open a reverse SSH tunnel, adds persistence and beacons host details, including environment variable names (not their values).",
+    "Cursor says enabling SSH needs admin rights, so that step failed on most machines, and Phorion found a macOS bug that skips it; uninstalling the extension alone still isn't enough.",
+    "Cursor pulled the version, shut down the whole marketplace, rotated keys and rebuilt it; the attacker's server is now offline, and Cursor says no other extensions were affected.",
+    "Phorion says 2.1.313 was also pulled from npm and the VS Code registry. Cursor's advice: check ~/.ssh/authorized_keys for svc-telemetry, run its cleanup scripts and rotate credentials."
+   ],
+   "whyItMatters": "This morning it looked like an Open VSX oddity; it's now a confirmed supply-chain hit on a major AI editor's own marketplace, and anyone who updated Claude Code in Cursor on Thursday should run the check.",
+   "image": {
+    "url": "https://www.rescana.com/post/img/claude-code-extension-2-1-313-cursor-marketplace-trojanized-ssh-backdoor-cover-v1.png",
+    "alt": "Trojanized Claude Code Extension 2.1.313 in Cursor Marketplace — High · supply chain; no CVE.",
+    "credit": "Rescana",
+    "creditUrl": "https://www.rescana.com/post/claude-code-extension-2-1-313-cursor-marketplace-trojanized-ssh-backdoor"
+   },
+   "sources": [
+    {
+     "label": "Cursor security notice",
+     "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+     "kind": "primary"
+    },
+    {
+     "label": "Cursor on X",
+     "url": "https://x.com/cursor_ai/status/2116074289053175808",
+     "kind": "x"
+    },
+    {
+     "label": "Phorion analysis",
+     "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "kind": "article"
+    },
+    {
+     "label": "Reuters (via CNA)",
+     "url": "https://www.channelnewsasia.com/business/cursor-says-up-5000-users-affected-tampered-claude-code-extension-6506376",
+     "kind": "article"
+    },
+    {
+     "label": "Rescana",
+     "url": "https://www.rescana.com/post/claude-code-extension-2-1-313-cursor-marketplace-trojanized-ssh-backdoor",
+     "kind": "article"
+    },
+    {
+     "label": "Kevin Beaumont on Mastodon",
+     "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+     "kind": "article"
+    },
+    {
+     "label": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50302334",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "novaya-gazeta",
+   "weight": "normal",
+   "title": "Novaya Gazeta, Russia's best-known independent paper, will shut down on Nov 9",
+   "topics": [
+    "Russia",
+    "Press freedom"
+   ],
+   "facts": [
+    "The paper announced it will close for good on Nov 9.",
+    "Editor-in-chief Sergei Sokolov said in a video that the Russian special services forced the closure.",
+    "The paper received an eviction order at the same time as its reader-donation system was disabled.",
+    "In September the whole newsroom was listed as \"foreign agents\"; Sokolov's home was searched, and journalist Oleg Roldugin had been detained earlier.",
+    "Six of its journalists, including Anna Politkovskaya, have been murdered since it was founded in 1993, and its former editor won the Nobel Peace Prize."
+   ],
+   "whyItMatters": "It closes the last major independent newsroom that had kept working inside Russia through the war.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/13b1/live/6aa032d0-d44d-11f1-bfc7-afe23fc6cf5b.jpg",
+    "alt": "A grey building with Novaya Gazeta's logo in Russian. The door is open with a silhouette of a person walking out on October 30, 2026",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/cmewepdr109do"
+   },
+   "sources": [
+    {
+     "label": "Novaya Gazeta statement (Russian)",
+     "url": "https://novayagazeta.ru/articles/2026/10/30/nas-ubili",
+     "kind": "primary"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/30/novaya-gazeta-russia-independent-newspaper-to-close",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cmewepdr109do",
+     "kind": "article"
+    },
+    {
+     "label": "RSF",
+     "url": "https://rsf.org/en/russia-independent-newspaper-novaya-gazeta-announces-closure-due-relentless-kremlin-repression",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2116087760503422980",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "germany-economy-audi",
+   "weight": "normal",
+   "title": "Germany's economy grew 0.2% in Q3, but Audi's profit collapsed 87%",
+   "topics": [
+    "Germany",
+    "Economy"
+   ],
+   "facts": [
+    "Destatis says GDP rose 0.2% on the quarter (1.3% on the year), after +0.4% and +0.3% in the first two quarters; most economists had expected stagnation.",
+    "Consumer spending edged up while investment fell and exports slowed noticeably; economists credit the debt-financed fiscal package for the plus.",
+    "Unemployment fell seasonally to 2.95 million in October, with just 654,000 vacancies reported.",
+    "Audi earned only €95m after tax in Q3, down 87% from €718m, citing China's slump in combustion cars, Chinese export pressure, energy costs and US tariffs.",
+    "Audi cut its 2026 outlook again to €55–59bn revenue and a 3–5% margin, and its supervisory board holds a special meeting this afternoon after CEO Döllner appeared at a Trump rally.",
+    "Reuters reports the US offered Audi a 10% tariff tied to a plant in Georgia; Audi had asked for 7.5%."
+   ],
+   "whyItMatters": "The headline recovery rests on state spending, while the car industry, Germany's export backbone, is still sliding.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Destatis",
+     "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html",
+     "kind": "primary"
+    },
+    {
+     "label": "tagesschau (GDP)",
+     "url": "https://www.tagesschau.de/wirtschaft/konjunktur/entwicklung-bip-deutschland-sommer-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL (labour market) on X",
+     "url": "https://x.com/derspiegel/status/2116110352333279376",
+     "kind": "x"
+    },
+    {
+     "label": "tagesschau (Audi)",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/automobil-audi-gewinneinbruch-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL (Audi)",
+     "url": "https://www.spiegel.de/wirtschaft/audi-quartalsgewinn-bricht-ein-a-edfe8bb4-0644-46b3-b428-044141fe70d3",
+     "kind": "article"
+    },
+    {
+     "label": "manager magazin",
+     "url": "https://www.manager-magazin.de/unternehmen/mobilitaet/audi-autobauer-rutscht-fast-in-die-roten-zahlen-ziele-gesenkt-a-65d70a7a-ddb1-4772-8e70-28e34c0eac79",
+     "kind": "article"
+    },
+    {
+     "label": "Handelsblatt (GDP)",
+     "url": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-deutsche-wirtschaft-waechst-staerker-als-erwartet/100266091.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "hanning-bnd-us",
+   "weight": "normal",
+   "title": "After ex-BND chief Hanning's arrest, US agencies warned they're reviewing intelligence sharing",
+   "topics": [
+    "Germany",
+    "Security"
+   ],
+   "facts": [
+    "WDR, NDR and SZ report that days after August Hanning's arrest, US intelligence warned the BND it would review cooperation, though urgent terror warnings would still flow.",
+    "Hanning, 80, a former BND chief, was arrested about three weeks ago; he's suspected of obtaining about 2,000 documents via Manfred D. between 2010 and 2022.",
+    "He is suspected of attempted treason; his lawyer denies it.",
+    "Berlin calls cooperation \"normal\", but BND staff report less US information and of lower quality."
+   ],
+   "whyItMatters": "German security agencies depend heavily on US intelligence, and losing part of that flow couldn't easily be replaced.",
+   "image": {
+    "url": "https://bilder.deutschlandfunk.de/64/a2/92/33/64a29233-783a-487f-8036-5f852968ad04/august-hanning-bnd-100-1920x1080.jpg",
+    "alt": "Porträtfoto von August Hanning",
+    "credit": "Deutschlandfunk",
+    "creditUrl": "https://www.deutschlandfunk.de/medien-us-dienste-pruefen-zusammenarbeit-mit-bnd-100.html"
+   },
+   "sources": [
+    {
+     "label": "tagesschau (NDR/WDR investigation)",
+     "url": "https://www.tagesschau.de/investigativ/ndr-wdr/geheimdienste-usa-hanning-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/medien-us-dienste-pruefen-zusammenarbeit-mit-bnd-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "FOCUS online",
+     "url": "https://www.focus.de/politik/deutschland/nach-warnung-klagen-bnd-leute-ueber-weniger-infos-aus-den-usa_b8ac6e6e-ac4f-43ce-9d0a-5cdf96525925.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "ukraine-refinery-strike",
+   "weight": "normal",
+   "title": "Drones hit a Russian refinery hours after reports Kyiv had paused such strikes for Trump",
+   "topics": [
+    "Ukraine",
+    "Russia"
+   ],
+   "facts": [
+    "A drone attack set off a fire at the Novokuibyshevsk refinery in Samara, which makes jet fuel and, per Rosneft, can process about 8.8 million tonnes a year; the governor reported no casualties.",
+    "Russia's defence ministry claims 1,043 Ukrainian drones were shot down over 19 regions overnight.",
+    "The WSJ had reported Thursday that Kyiv agreed to an informal pause on refinery strikes until after the US midterms on Nov 3.",
+    "Ukraine hasn't claimed it, but drone maker Fire Point posted that the refinery \"welcomes guests from Ukraine\".",
+    "Russia's own overnight attack on Ukraine killed one person in Kyiv and cut power to 350,000 people in Dnipro."
+   ],
+   "whyItMatters": "It suggests Kyiv won't hold back on Russia's energy sector even under direct US pressure days before the midterms.",
+   "image": {
+    "url": "https://images.euronews.com/articles/stories/09/97/30/07/1200x675_cmsv2_ab731899-45f8-5c4b-a1e7-58ea7149511f-9973007.jpg",
+    "alt": "Drone attack and fire reported at Russia's Novokuibyshevsk oil refinery",
+    "credit": "Euronews",
+    "creditUrl": "https://www.euronews.com/2026/10/30/drone-attack-and-fire-reported-at-russias-novokuibyshevsk-oil-refinery"
+   },
+   "sources": [
+    {
+     "label": "POLITICO Europe",
+     "url": "https://www.politico.eu/article/russian-oil-refinery-suffers-major-drone-attack-samara/",
+     "kind": "article"
+    },
+    {
+     "label": "Euromaidan Press",
+     "url": "https://euromaidanpress.com/2026/10/30/fire-point-says-its-drones-hit-a-russian-refinerys-diesel-unit-hours-after-wsj-reported-ukraine-had-paused-such-strikes-under-trumps-pressure/",
+     "kind": "article"
+    },
+    {
+     "label": "Euronews",
+     "url": "https://www.euronews.com/2026/10/30/drone-attack-and-fire-reported-at-russias-novokuibyshevsk-oil-refinery",
+     "kind": "article"
+    },
+    {
+     "label": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-oil-refinery-reportedly-attacked-amid-renewed-ukrainian-strikes-on-energy-infrastructure/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Alexander Zverev becomes world No. 1 on Monday, Nov 2, the first German man there since Boris Becker in 1991.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "CNN says Elon Musk has put nearly half a billion dollars into the 2026 elections, making him the largest disclosed donor in modern US politics.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Pope Leo XIV has requested a mail-in ballot for the US midterms, Forbes reports.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The CAS sports court lets Russia back into an ice hockey World Championship for the first time since the invasion; the German federation strongly criticised it.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Tens of thousands marched across Italy against Meloni's government over inflation, low wages and arms spending, with unions calling strikes.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "A human rights lawyer couple in Pakistan was sentenced to 10 years in prison.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "US senators opened an inquiry into Meta's smart glasses over filming people without consent.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Instagram is offering YouTube creators up to $500,000 to join its new long-form video platform.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "Waymo and Toyota will start testing autonomous bZ4X cars in Japan next year.",
+     "sourceIndexes": [
+      8
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://www.atptour.com/-/media/images/news/2026/10/29/19/42/zverev-vienna-2026-thursday-no-1.jpg",
+    "alt": "Alexander Zverev in Vienna",
+    "credit": "ATP Tour",
+    "creditUrl": "https://www.atptour.com/en/news/zverev-to-reach-world-no-1-2-november-2026"
+   },
+   "sources": [
+    {
+     "label": "ATP Tour",
+     "url": "https://www.atptour.com/en/news/zverev-to-reach-world-no-1-2-november-2026",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/3V0Yu6h",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2116107904252019091",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Forbes on X",
+     "url": "https://x.com/Forbes/status/2116078937310658623",
+     "kind": "x"
+    },
+    {
+     "label": "DER SPIEGEL (ice hockey) on X",
+     "url": "https://x.com/derspiegel/status/2116129206765822410",
+     "kind": "x"
+    },
+    {
+     "label": "DER SPIEGEL (Italy) on X",
+     "url": "https://x.com/derspiegel/status/2116125578437054580",
+     "kind": "x"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4irzyMS",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2116076927056290175",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "PetaPixel (Meta glasses)",
+     "url": "https://petapixel.com/2026/10/30/senators-launch-investigation-into-metas-smart-glasses-over-nonconsensual-filming/",
+     "kind": "article"
+    },
+    {
+     "label": "PetaPixel (Instagram)",
+     "url": "https://petapixel.com/2026/10/30/instagram-offers-youtube-creators-up-to-500000-to-join-new-long-form-video-platform/",
+     "kind": "article"
+    },
+    {
+     "label": "Engadget on X",
+     "url": "https://x.com/engadget/status/2116120917960970529",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Bun merged a PR removing 146 unsafe blocks from its dev server and the Bun.* APIs.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Svelte merged two batch fixes from Rich Harris: later batches now rebase when a committed batch already covers their writes, and effects that already saw a write aren't re-run.",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Vite now uses the top-level input for SSR builds when build.ssr is true, and removes preload link listeners once they settle.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "A write-up explains how curl was accidentally Turing-complete for nine months.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    },
+    {
+     "text": "PEP 851 proposes adding list.discard() to Python.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "heise looks at Stack Overflow's slide: few new questions and outdated answers.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "Golem checked 2,803 new Steam releases for AI-generated games.",
+     "sourceIndexes": [
+      9
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/34822ed04fdc0cc064f9a7522b8f2701370f0a9a5ed8d0ec61ab2207ee4fab1c/sveltejs/svelte/pull/19126",
+    "alt": "small regression on batch-views from main — if effect 1 running in batch A causes effect 2 to be scheduled in batch B, but effect 2 was already scheduled in batch A anyway, we need to mark it MAYBE...",
+    "credit": "sveltejs/svelte #19126",
+    "creditUrl": "https://github.com/sveltejs/svelte/pull/19126"
+   },
+   "sources": [
+    {
+     "label": "oven-sh/bun #47393",
+     "url": "https://github.com/oven-sh/bun/pull/47393",
+     "kind": "primary"
+    },
+    {
+     "label": "sveltejs/svelte #19125",
+     "url": "https://github.com/sveltejs/svelte/pull/19125",
+     "kind": "primary"
+    },
+    {
+     "label": "sveltejs/svelte #19126",
+     "url": "https://github.com/sveltejs/svelte/pull/19126",
+     "kind": "primary"
+    },
+    {
+     "label": "vitejs/vite #23898",
+     "url": "https://github.com/vitejs/vite/pull/23898",
+     "kind": "primary"
+    },
+    {
+     "label": "vitejs/vite #23922",
+     "url": "https://github.com/vitejs/vite/pull/23922",
+     "kind": "primary"
+    },
+    {
+     "label": "seriot.ch",
+     "url": "https://seriot.ch/computation/curl.html",
+     "kind": "article"
+    },
+    {
+     "label": "Lobsters discussion",
+     "url": "https://lobste.rs/s/f4aqog/how_curl_was_accidentally_turing",
+     "kind": "article"
+    },
+    {
+     "label": "PEP 851",
+     "url": "https://peps.python.org/pep-0851/",
+     "kind": "primary"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Kaum-Fragen-veraltete-Antworten-Stack-Overflow-in-der-Krise-11505968.html",
+     "kind": "article"
+    },
+    {
+     "label": "Golem",
+     "url": "https://www.golem.de/news/ki-spiele-auf-steam-wie-viel-ai-slop-steckt-in-2-803-neuerscheinungen-2610-214633.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Eintracht Braunschweig plays at Arminia Bielefeld tonight at 18:30 in the SchücoArena, referee Jarno Wienefeld, live on Sky.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Ahead of Bayern vs Dortmund, Max Eberl says he has \"huge respect\" for BVB.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Bayern have decided whether Musiala makes the squad against Dortmund.",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Eintracht Braunschweig News on X",
+     "url": "https://x.com/EintrachtBSNews/status/2116128081048207513",
+     "kind": "x"
+    },
+    {
+     "label": "WEB.DE (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNUhScHZmcnFqSmlqbDl6cXpQZzNqTlJVd3Z5b3J5TXQ5VEZfOEc3c2gyYnExYWhjOEFuQW04bmIzd1J0b3VBUlRYLWtxRFJyR1g0VG5zR3plLTRyd0VYbGk4Z0lBclZFc2FuX2FETEtyWjFLWWtLaUtEQnEtcXpkRmFidENIMDd1eW9oS3ZpVldqV2xYUFV3d1J4elpXSm1aN1dQUldMNA?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "FCBinside (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVk5BdTQxaEpSYmRuOE5BMWJIaF8xV0gtb0RHYXN3bHhUUXJMUFFScEtLelFNOWJyRVo4ZGlPMWtUTm5xSml0ck53U09nNF9kR2IwNTBSeEE1Wk8yWFJ6Y2pxUWZZN0dicWFfbGFnRmxkRmllNmdaOUo5VHZfV2laa0dNalhrRFF2VEl3RUwzQUh0blhVcGlR?oc=5",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
