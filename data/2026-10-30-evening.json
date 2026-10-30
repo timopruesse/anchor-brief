@@ -1,0 +1,546 @@
+{
+ "id": "2026-10-30-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-30T19:28:01+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the afternoon edition (~13:20)",
+ "headline": "Intel's worst day since 1974 drags tech lower, Claude drops the 5-hour cap on its $200 plan, and Google runs Gemma in orbit",
+ "stories": [
+  {
+   "id": "intel-tech-selloff",
+   "weight": "lead",
+   "title": "Intel heads for its worst day since 1974 and drags tech down, as the AI spending bill spooks investors",
+   "topics": [
+    "Markets",
+    "Tech",
+    "AI"
+   ],
+   "facts": [
+    "Intel shares fell as much as 30% on Friday after its results, on pace for the worst day since 1974 (this morning's after-hours drop was 21%).",
+    "CNBC says the slide wipes about $12bn off the US government's Intel stake; Reuters says it set off a global chip rout.",
+    "The Nasdaq sank more than 3.5% and opened at its lowest level in more than two months; Amazon and Reddit also fell, the BBC reports.",
+    "Alphabet slipped about 1% more in early trading after losing more than $500bn on Thursday, when AI search summaries were blamed for weaker search ad revenue.",
+    "The BBC adds that Meta, Alphabet, Oracle, Amazon and Microsoft are committing $800.6bn to AI spending in 2026, with Alphabet's investment spending rising to as much as $205bn."
+   ],
+   "whyItMatters": "After a week of big-tech earnings, the market is now punishing heavy AI spending and any sign that AI eats into existing businesses, not just weak results.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
+    "alt": "BBC News graphic for the tech share selloff",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+     "kind": "article"
+    },
+    {
+     "label": "Reuters (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV2NqOERFZ1pGS25NV2RwTVlCSUVMbXdBQ0QxRzlmWTdWd3EzT2N6YUo4QVNHanQwUC1aRHdqcmtOeWdDUGpQcTg1X1pFWDdydHhyQWUzNnVUQk9Tc3h1Z29WbWxHa1VFZmdod3Z6bG1LNzkwQ3h2a3ZHdlA5cEF4X3d6LVdCUEVEc0RkVTNYcG5IQmlZcy10cmhDSmxDcndVeGFtUURSOXc?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "CNBC (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUNkbFdtOFpFalJSNEk4SnFjbVI0c3ZzbjFvVU50WGpoZURxeURhajJET1RmQzVrcW8tbzJKMGpYRjhKTndfeVI4YnhaSV9NXzFHYlc0OEwtZVhOYTFNa3B4Wks3OGRxcmVBenA5MnI0LVdCQW5hYnBEMU5FVEN4ZVBUbUtiaGNGUmFrZERIcUYzZ9IBlwFBVV95cUxNYTZPZTVqb0NZbTNWc1VacjRLODhlUmpUekNhaUtlbkx2SkJXQ2VNbFdMSlNENUR5UXVtR0VTeUU1LUVSS09JY0NOVWhFWHE1RWVFeGpiLWF6b1VWWmp6QUdHZXJwX1NodjI1WFlSRTRmYWF2NEwyZlJxdWRVVlhjUFZLQWwweW5SOEdHcWVNTzhJRm5UY3ZR?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Yahoo Finance (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVzZhNDBiSG10QXlBZHhLRlc0OWNfamlJM2hsUnNxamNqT0pVQ3oyMnhWSEhZUmlxYndJUGo4bzRQb200djJHcmt3ZWd0ZnpxVnRRUEo2Y2VxN0lFM0NuN1BfVVAyWFBWS0RSdDFhcmlmRm01UXBQZG1UVmtFU0N1Y0djcEZpYjIwX0NueDc2UTdFMlc1eWJGSnNYVmpySWNZVUd5NWlQLXJHVmthS2x4aTVYYjdzRUxyQVdEMnhNOW4?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "FAZ on X",
+     "url": "https://x.com/i/status/2116234165087539312",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "claude-max-ultra",
+   "weight": "normal",
+   "title": "Anthropic renames Claude's top plans to Max and Ultra and drops the 5-hour limit for Ultra",
+   "topics": [
+    "AI",
+    "Dev tools"
+   ],
+   "facts": [
+    "Max 5x becomes Max and Max 20x becomes Ultra; prices stay at $100 and $200 a month and subscribers don't need to do anything.",
+    "The 5-hour usage limit goes away for verified Ultra accounts, starting today for most existing subscribers.",
+    "Newer accounts keep a temporary limit until they're verified, which Anthropic calls a fraud and abuse measure; they get an email when it lifts.",
+    "Weekly limits are unchanged. Claude Code lead Boris Cherny confirmed the change on X."
+   ],
+   "whyItMatters": "For heavy Claude Code users, the 5-hour window was the cap they hit most; now the weekly limit is the only ceiling on the $200 plan.",
+   "image": {
+    "url": "https://pbs.twimg.com/media/HV5MwwNWAAA5hUI.jpg",
+    "alt": "Claude announcement image for the Max and Ultra plans",
+    "credit": "Claude on X",
+    "creditUrl": "https://x.com/claudeai/status/2116220869479428500"
+   },
+   "sources": [
+    {
+     "label": "Claude on X",
+     "url": "https://x.com/claudeai/status/2116220869479428500",
+     "kind": "primary"
+    },
+    {
+     "label": "Claude pricing",
+     "url": "https://claude.com/pricing",
+     "kind": "primary"
+    },
+    {
+     "label": "Boris Cherny on X",
+     "url": "https://x.com/bcherny/status/2116222842413142111",
+     "kind": "x"
+    },
+    {
+     "label": "r/ClaudeAI thread",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xjlvlc/anthropic_renames_max5_and_max20_and_removes_5h/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "suncatcher-tpu-orbit",
+   "weight": "normal",
+   "title": "Google's Project Suncatcher satellite ran Gemma 4 in orbit and sent back a haiku",
+   "topics": [
+    "AI",
+    "Space",
+    "Google"
+   ],
+   "facts": [
+    "Google calls it the first AI response from a data-centre-class TPU in orbit: during a ground-station pass it uplinked a prompt, and the answer came down over Svalbard.",
+    "The model was the open Gemma 4; the poem read \"Blue marble below / Data streams in silent grace / Starlight feeds my core.\"",
+    "The prototype launched on Oct 1, and commissioning took about three weeks, TechCrunch reports.",
+    "It carries four TPUs but generates only up to 1 kW, so a TPU can run for about 20 minutes at a time.",
+    "Next come thermal-stress and radiation tests, then a pair of interconnected satellites."
+   ],
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?resize=1200,800",
+    "alt": "Project Suncatcher prototype satellite hardware",
+    "credit": "TechCrunch",
+    "creditUrl": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+   },
+   "sources": [
+    {
+     "label": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+     "kind": "primary"
+    },
+    {
+     "label": "Sundar Pichai on X",
+     "url": "https://x.com/sundarpichai/status/2116214866444943853",
+     "kind": "x"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "midterms-final-weekend",
+   "weight": "normal",
+   "title": "Four days before the US midterms, Cook moves 12 more House races toward Democrats",
+   "topics": [
+    "US politics",
+    "Elections"
+   ],
+   "facts": [
+    "Cook Political Report shifted a dozen more House races toward Democrats and says they could win up to 240 seats on Tuesday, which the Washington Post calls their biggest majority since 2009.",
+    "Trump reversed course and will hold the weekend rallies in Iowa and Kansas he had cancelled, with Senate control at stake (NBC, AP, Reuters).",
+    "Pope Leo XIV sent in his mail-in ballot, making him the first pope to vote in a US election, CNN reports."
+   ],
+   "image": {
+    "url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2301855108.jpg?c=16x9&q=w_800,c_fill",
+    "alt": "Pope Leo XIV",
+    "credit": "CNN / Getty Images",
+    "creditUrl": "https://cnn.it/3WiB7W7"
+   },
+   "sources": [
+    {
+     "label": "Cook Political Report (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdmRJNkZ5TzBZSTNxWGlscHdsS0taY2dkaUtGeE5uSV9UNlhnaUlWbjBqcTJyWkNZSzJfRkoyYmVsZk1DSXBhY184a2owUzR3RHFRbHBZNTZkUEx2RGk5MzlpdGRsNk1TeWdnUUFfV3BLQ1NhaHFPSHV3djFkS2Z1c1JkSG9wRlYzVzNxU0hyeVo0UQ?oc=5",
+     "kind": "primary"
+    },
+    {
+     "label": "Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2116179586211807446",
+     "kind": "x"
+    },
+    {
+     "label": "NBC News (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPekM1SEphS1p0N2xOY0JlTXc1R3JReXQ0dXJRTXdVTnhKYkxaemJLdWhiTzRELUlIV1puYkhvU2wwUHB2RUVUTWtNaTUzUi1TT3REZzc0VUs2RW5zYVlDdFRKNXZkd05URTRWdkpmeXNFaVRnbFRhQTNEMTZfYTZWNnllRF9TaFZoZ09USkt5WWRGZlBmQ3JydkdnMjhhSnlWSlFnU0pVNUxwdGNjZkJCdHBxSjRVb0g4STBIWjd5WUYxUUNKb2R3?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "AP News (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdl9DbU9vMnRKcW9KazR5ODFUbWlYVkVjcFUtNTFhNUxaMGZyZnM3SjNRZUFDZUN3OGd4TTQ1YkluZjEzcldSRHhVTU1PNmItVmFIMG0ycFNDQVNVcjdDMFczai1WR2Nmd2VrS2V4ZWlILVVJc0E0eHhBdnhpSnp5UC03VEM3Z0REQkFicmlTbmxjc0lBLTRObDFB?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/3WiB7W7",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "breaches-northflank-charite-ao3",
+   "weight": "normal",
+   "title": "Breach day: Northflank tells users to rotate every secret, hackers steal Charité data, and AO3 stays dark",
+   "topics": [
+    "Security",
+    "Dev tools"
+   ],
+   "facts": [
+    "Northflank says all users should assume their environment variables were decrypted and rotate them now; Wiz flagged the threat at 11:43 UTC and patches followed through the afternoon.",
+    "Northflank says several users confirmed their AI API keys were used; it enabled secret rotation for Postgres and MongoDB addons and advises turning off public exposure on addons.",
+    "Berlin's Charité says attackers took data on patients and staff from a web server; the cause is unclear and those affected will be told (ZEIT, rbb).",
+    "Fan-fiction archive AO3 has been offline since Oct 29 after a security incident, may need up to four weeks to come back, and urges password changes, though it doesn't believe its user database was taken.",
+    "Separately, GitHub had its second outage of the day, with Webhooks, Actions and Pages degraded."
+   ],
+   "whyItMatters": "If you deploy anything on Northflank, rotate keys tonight; the confirmed misuse of AI keys means this isn't theoretical.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Northflank status",
+     "url": "https://status.northflank.com",
+     "kind": "primary"
+    },
+    {
+     "label": "ZEIT (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ2duaThMcTJtVzl2N2FPdjBPUEJScVBnck41b2pNR3gySHFQM1V1NkZEX1dXNldkd0U3YmhwM25NZHhqZUI2UWdhcXVCeGN0VE9pWWI5dDZSNEp0cFZHc2ZqSTVSTEE4NUYzZ2tINWsxX3AxVXFYSDNhRDlMVUNVQlkybS03RGJYOWNKeEROMW5wbEJYaU0zSU9UTC1VTVhSZTJSekZZdHM2UzQ?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "rbb24 (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU2VpYV9TbDFwVFR2eE9wQW50d0JsQ2dHdUwxREhSWE5IQU51cmV5d2MxY1Ewa05nY2ZWOVU0eUdhYmlITk9VNHNKcWNOVnZHTXRNaFNZeVhuNnFXcUNKU1RSbkh2b0p3QkxZclgzbmlQanlCUEdkUDVLSmtGU2V4dDVXVDdQZTQwSkxXMkpOX1dGTVRVYUx2QzVtdHlvdnlZeU44MlhFbjU3Z2lVdGE3S19xd0QybDh5WFE?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "OTW: AO3 downtime update",
+     "url": "https://www.transformativeworks.org/update-on-ao3-downtime-october-30-2026/",
+     "kind": "primary"
+    },
+    {
+     "label": "WIRED",
+     "url": "https://www.wired.com/story/people-are-creating-survival-guides-to-cope-with-the-ao3-apocalypse/",
+     "kind": "article"
+    },
+    {
+     "label": "Android Authority",
+     "url": "https://www.androidauthority.com/github-outage-oct-30-2026-3730267/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Bloomberg via IGN: EA chose Star Wars Battlefront 3 over Mass Effect 5 under the $18bn debt from its $55bn Saudi-led buyout; about 400 EA jobs (3%) go, BioWare's Austin studio stays open.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "German inflation fell to 2.8% in October, helped by the fuel discount (Tankrabatt).",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "\"Gen Z regelt\" youth protests are planned on Saturday in Mainz, Hamburg, Baden-Württemberg and other cities; organisers and police say they want them peaceful.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Russia is evacuating Oleshky in occupied Kherson region, MDR and ZEIT report.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "At the G20 foreign ministers' meeting in Atlanta, Wadephul refused a family photo with Lavrov, and there won't be one.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "A Houston ICE officer was indicted on a felony after allegedly hitting a man with his vehicle.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "The NYT says the US is sending dozens of Afghans detained in Louisiana back to Afghanistan despite the risk of persecution.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "Proton's CEO cancelled the AI-led staff \"re-interviews\" after a 404 Media investigation.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "NASA asked industry for ideas on commercially servicing the Hubble Space Telescope.",
+     "sourceIndexes": [
+      9
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "IGN",
+     "url": "https://www.ign.com/articles/mass-effect-5-and-bioware-reportedly-died-so-star-wars-battlefront-3-could-live",
+     "kind": "article"
+    },
+    {
+     "label": "STERN (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQck9FY0l0cXZ0WDdtdmNtbmhwUjBkSUlVVW44MVF2SG9KdjBmbk1EVUp2VVJZSXF6M2g1azF5a01MaUFJRkFZTzE1VmxkS3F4amRFdm5JNnFBR0QxODVrMXI0M0JTZWVvYU9vbzRDNW1KekhiVVQ1Nk8zX3N3QTNXdWlldGh5VU9JbDlWcGNWX2p5TlpvWV9FTXlYaHdsREhfVHhZ?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "tagesschau (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSThtbVowVm4tckF1X1dHdFV5UnRPNHdzUzJRcU1XVXltWFRjLWpRelg4Y2s4YjBLUU5jcFVNbDhGN3lPVXhKbFRSdzRpbVhnY1JpcFllNFF3TXVFdElCTWJ3aEFfZlJsc3NuRVlqdml6X1p1YnJrZVktMk14em42VmJ5ZGdoR2hMemZMU2UyNnhPb3lQU0k3VUFRZGZVRzZweHZQaUNqRWJfbnlxR0ZaWlZBQzJqUQ?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "NDR (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMnE3VFplWVdjeXA1MjE3MHd3b0lNeDN0M2lKM1Fxam5oUUVtejlGOUpONnVZODFnWWNrdzlXb1Myb0xVNnR0aXNqMXZaZExQSVpweWxyMml3MGFFY2dsVUFGT0RaekZYeERjR0Z0Z1ZWbjVtbktkMlQ0bzh4a1YyZldDUEZpUWw3YmRMZzg0NXFJQ0N5MUgzTi1IQjZvT1JCTzl2SWhJYjE?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "MDR (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTjU2czRRTUNSREljOWkzaUt0ZGp5a3hmdGtZUzNXSmZBQTRvTlFXSU9qVTVXa1E2ZUYzSzFnSkJmSkVvSldBSlh4MGVzY1E0WldrRENtdWV3VDlOZDdTWGJudnA0UXVtZ2VQTXRlUXVnYmR5SHhYcUU4aXVjTk1MQmtXRkFvRURZWGhCMF9YWW5SSmF6WllJOUd2b0gzdWMxTEw3NFBsNkpveHVfTExyZWdjTUxZX2RZS2ZmWDFjZHI5YWZVMVJTMFln?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Spiegel (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa0ZRUUQwTVhHRGZSQ0dQT2M0YjN4bXlHWDJSYTVqUzBGMmp2ZzVxZ19wR210Yld5VDZTN1UwQjB6bGhDNUpPNUdRQWxRTmV2MGprZHFOanFkdzNGRFdMd1MwcXdUVEV3UHppaFFqYnd2dDlkcXZDYXp0Skx2QkN2cUk4U2d4d1ZlVW1zNEktQlFnVmZKcjl3VEJHYVpmVXpObUotMVVQOHRZLVRHVkFfTzhGdUJ6UGhQaExfdEJKNXBQcmV6UWVpdTdVZkhKRjY4dVk1RENJLVo?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Texas Tribune (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWmktcE5ORVhKNDR1Vi1RLXRHeWI5MS1pWDVkMWtHV2lBU252eUxCcHI1TGFOaEY1TUdhVy1CNXhSdlpSUXdrWkFLU1pjRmI3MGdhaXNKSzRLeDNfOTVjMW5kNG9YY2VoTXljQjIyWmQ2Uk5RMnhzcURKOTd4cVZrcUZZMnFZM1habWRxMQ?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "NYT (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRGFlN1JFOV9lWXBLMFFESFFncDE1RXc5dk5SNXFEaTJoZzZaMmFwdTU3Q0gxX09sYzYwVHFlQjgybDA0R1ZaT3I0SEZOZlFLRmZ5X1IwX1pqa3lzdmM3WXJpM1hadV95MUM1Skl2Y0tGVklCNTBzVmhJdkRPNWVTLXNFVDJESlJTWTNjNjJ6VlVHUFdsdmc?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "404 Media",
+     "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+     "kind": "article"
+    },
+    {
+     "label": "NASA",
+     "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "GitHub Agentic Workflows is generally available: workflows written in Markdown compile to Actions YAML, run read-only by default in a sandbox behind a firewall, and work on Free, Team and Enterprise (the Copilot CLI engine needs a Copilot licence).",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "OpenAI launched Private Intelligence for businesses.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Google's Antigravity agent is coming to Android Studio.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Vercel folded its Data Cache into Runtime Cache with no code changes for Next.js fetch or unstable_cache, and Pro and Enterprise get more storage.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Vercel also released Geist Serif, a high-contrast display serif for the Geist family.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Vercel's fx v0.0.16 cuts uncached input tokens by 41% and npm downloads of libfx by about 60%.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Guillermo Rauch teased \"Next Native\" as coming.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "Three.js r187 is out.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "Playwright merged a change that serves every WebSocket-enabled server under a random path.",
+     "sourceIndexes": [
+      9
+     ]
+    },
+    {
+     "text": "Worth reading: how curl was accidentally Turing-complete for nine months.",
+     "sourceIndexes": [
+      10
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "GitHub changelog",
+     "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+     "kind": "primary"
+    },
+    {
+     "label": "GitHub Next on X",
+     "url": "https://x.com/GitHubNext/status/2116220286928585103",
+     "kind": "x"
+    },
+    {
+     "label": "OpenAI on X",
+     "url": "https://x.com/OpenAI/status/2116186509384815084",
+     "kind": "primary"
+    },
+    {
+     "label": "Antigravity on X",
+     "url": "https://x.com/antigravity/status/2116232874328281451",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel blog: runtime caching",
+     "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel blog: Geist Serif",
+     "url": "https://vercel.com/blog/introducing-geist-serif",
+     "kind": "primary"
+    },
+    {
+     "label": "fx changelog",
+     "url": "https://fx.sh/changelog#v0.0.16",
+     "kind": "primary"
+    },
+    {
+     "label": "Guillermo Rauch on X",
+     "url": "https://x.com/rauchg/status/2116213830439280809",
+     "kind": "x"
+    },
+    {
+     "label": "Three.js changelog",
+     "url": "https://threejs.org/changelog/?r187",
+     "kind": "primary"
+    },
+    {
+     "label": "Playwright PR #43694",
+     "url": "https://github.com/microsoft/playwright/pull/43694",
+     "kind": "primary"
+    },
+    {
+     "label": "seriot.ch",
+     "url": "https://seriot.ch/computation/curl.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Eintracht Braunschweig were 0:2 down at half-time at Arminia Bielefeld.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Bayern host Dortmund on Saturday; Bayern are again without Neuer and Kimmich's return is open, Absolut Fussball reports.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "The Warriors play the Lakers tonight, and both teams could be missing a starter, Sports Illustrated says.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Basketball Löwen Braunschweig's next home game is against defensively strong Würzburg.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Eintracht Braunschweig on X",
+     "url": "https://x.com/EintrachtBSNews/status/2116233746190061688",
+     "kind": "x"
+    },
+    {
+     "label": "Absolut Fussball (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbmlwbWhKd1IwOFBaQk9ob2NfcnVBZ1NuZWVRV2E3MU9UMHpWZWpxaXhadDZxMS02bHdyWjNsYUM3UTV4SzVueXcxcXVpZm13Sl85RXI0d05NQXlCb1F1VkFCUTZXbVZmd1Q3OGw0eWc0Vll4bGxWZ2FMNk1ONWNUSXFjaWltckxOeGdmQUF5eHNsS0FjRHpSb0JNU2tRaGQ4bW1SdWlJWHg1SS1wd3VnVGR2bThLNmlLZkl2dFo3V056WDBvQlhXbE1neVVMWk1yTjNEQUpzcm94Zw?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Sports Illustrated (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWG9HZl96NXFEWFVCUmdKVmdXbFd6VkozQVZ2OUN4dW11M09iVE1FUWRvcnhMbjJaSXpFenoxY0p3Q0RqbzU5eTdKT3hQVnZYRGlLc0FJdmRWU0NBaWVDV0d1RVJBQVlzQ0dDd2N1YU5KcEhIamNMNmNhT2NlZWhoNlJmUEZ3eFh5d1ZIdTFVZ2d5dXNlNWI3NEVQZnlBWE4zUGRLdnJ6SUlhbE43QzY0RHpwb21oc1dI?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "BS-Live! (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcUxjMmJxNWs1NWZzdUNaMUtsM3ZlQ2JrWHNkLWpwM25UQXM2dlFrcmhfYk1WS250MEM0R2lRYnEzOUpMRy1PUElLb1ZKa0FWYVA4UUlWT0t0Q3VCbXk3RVZKTWFhR1JqVW9pTk5teEUyS3BPTVBPZUpSLUhxVjdYeDlveVM?oc=5",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
