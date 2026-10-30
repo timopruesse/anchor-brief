@@ -1,0 +1,631 @@
+{
+ "id": "2026-10-30-morning",
+ "edition": "morning",
+ "generatedAt": "2026-10-30T08:25:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight, since the evening edition (~20:20)",
+ "headline": "Binance loses $6.3bn in the biggest crypto heist ever, Patrick Stewart dies at 86, and Intel sinks while AWS speeds up",
+ "stories": [
+  {
+   "id": "binance-hack",
+   "weight": "lead",
+   "title": "Binance hit by a $6.3bn theft, the biggest crypto heist on record",
+   "topics": [
+    "Crypto",
+    "Security"
+   ],
+   "facts": [
+    "Binance, the world's largest crypto exchange, said late Thursday that $6.3 billion in user funds were affected by an attacker.",
+    "TRM Labs says about $6.36bn left Binance wallets on ten blockchains, most of it in about 20 minutes from 20:05 UTC, roughly four times the $1.5bn Bybit hack of 2025.",
+    "TRM attributes the attack with high confidence to TraderTraitor, North Korea's elite hacking unit, and says the pattern points to a compromise of Binance's hot-wallet signing infrastructure.",
+    "heise, citing the WSJ, reports the attack came through a compromised laptop of a DevOps engineer.",
+    "Tether froze more than 1.567bn USDT, and Binance says about $3bn has been frozen so far; TRM says the attacker still holds about $2.4bn beyond any issuer's reach.",
+    "Binance suspended withdrawals on several networks; co-founder Yi He said the company will cover all hacking losses."
+   ],
+   "whyItMatters": "It dwarfs every previous crypto theft and puts the largest exchange's security, and North Korea's hacking revenue, back at the centre of crypto regulation.",
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2023/12/GettyImages-1258513563.jpg?resize=1200,800",
+    "alt": "Binance logo",
+    "credit": "TechCrunch",
+    "creditUrl": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/"
+   },
+   "sources": [
+    {
+     "label": "The Washington Post",
+     "url": "https://www.washingtonpost.com/technology/2026/10/29/suspected-binance-hack-sets-off-scramble-lock-down-billions-crypto/",
+     "kind": "article"
+    },
+    {
+     "label": "TRM Labs",
+     "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+     "kind": "primary"
+    },
+    {
+     "label": "Reuters (via MarketScreener)",
+     "url": "https://www.marketscreener.com/news/blockchain-analysis-firm-trm-says-north-korea-behind-binance-crypto-theft-ce785fdad08ef723",
+     "kind": "article"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+     "kind": "article"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/6-3-Milliarden-US-Dollar-Neuer-groesster-Krypto-Coup-aller-Zeiten-trifft-Binance-11505601.html",
+     "kind": "article"
+    },
+    {
+     "label": "Paolo Ardoino (Tether) on X",
+     "url": "https://x.com/paoloardoino/status/2115918000373346709",
+     "kind": "x"
+    },
+    {
+     "label": "Reuters factbox (via Investing.com)",
+     "url": "https://www.investing.com/news/stock-market-news/factboxwhere-binances-63-billion-breach-ranks-in-cryptos-biggest-hacks-and-heists-4985786",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://cnn.it/4sy7r3r",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2116055007908831279",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2116043802917875966",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "patrick-stewart",
+   "weight": "normal",
+   "title": "Patrick Stewart has died at 86",
+   "topics": [
+    "Culture"
+   ],
+   "facts": [
+    "Stewart died at his home in Los Angeles on Wednesday with his wife Sunny, after a \"brief and poignant journey\" with Alzheimer's and dementia, his official account said Thursday.",
+    "He spent more than six decades on stage and screen, from the Royal Shakespeare Company (joined 1966) to Star Trek's Captain Picard and X-Men's Professor X.",
+    "His final on-screen appearance is due in \"Avengers: Doomsday\" in December.",
+    "Ian McKellen said Stewart \"wore his heart on his sleeve, which made him a man to rely on, to admire and in my case, love\"; Hugh Jackman also paid tribute."
+   ],
+   "whyItMatters": "One of the defining faces of science fiction and classical theatre; the Hacker News thread alone drew thousands of upvotes.",
+   "image": {
+    "url": "https://static.time.com/v3/assets/bltea6093859af6183b/blt1753f648ce22e9e0/6ae3c3bd12e9c00c9a9f0486/GettyImages-2014590617.jpg?branch=production&width=1024&quality=75&auto=webp&crop=16:9",
+    "alt": "Patrick Stewart in February 2024",
+    "credit": "TIME / Getty Images",
+    "creditUrl": "https://time.com/article/2026/10/29/patrick-stewart-death-tributes/"
+   },
+   "sources": [
+    {
+     "label": "TIME",
+     "url": "https://time.com/article/2026/10/29/patrick-stewart-death-tributes/",
+     "kind": "article"
+    },
+    {
+     "label": "The New York Times",
+     "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+     "kind": "article"
+    },
+    {
+     "label": "IGN",
+     "url": "https://bit.ly/47NpZ6i",
+     "kind": "article",
+     "via": {
+      "label": "IGN on X",
+      "url": "https://x.com/IGN/status/2115975871882268980",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Hugh Jackman on X",
+     "url": "https://x.com/RealHughJackman/status/2115918801581863266",
+     "kind": "x"
+    },
+    {
+     "label": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50294702",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "earnings-amazon-intel",
+   "weight": "normal",
+   "title": "Earnings: AWS speeds up while Amazon burns cash on AI, and Intel sinks about 21% after hours",
+   "topics": [
+    "Business",
+    "Tech"
+   ],
+   "facts": [
+    "Amazon's Q3 revenue rose 12% to $201.9bn with a record $28.1bn operating income; AWS grew 39.3% to $46.0bn, its fastest in nearly five years.",
+    "Trailing free cash flow swung to a $42.4bn outflow on AI spending; Amazon keeps its ~$220bn 2026 capex plan and expects meaningfully more in 2027.",
+    "Andy Jassy expects AWS growth above 40% in both 2027 and 2028.",
+    "Intel beat on Q3 ($16.5bn revenue, up 21%) but guided Q4 to $15–16bn against about $17.1bn expected, and the stock fell about 21% after hours.",
+    "Intel's CFO sees the PC slowdown, driven by memory prices, lasting at least through the first half of 2027; the deadly explosion at its Israel plant will cost about $600m in revenue over two quarters, per Reuters."
+   ],
+   "whyItMatters": "After Alphabet and Microsoft, the AI capex bill keeps growing, and the memory crunch is now visibly hitting PCs.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Amazon IR",
+     "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+     "kind": "primary"
+    },
+    {
+     "label": "CNBC: Amazon",
+     "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+     "kind": "article"
+    },
+    {
+     "label": "Intel IR",
+     "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+     "kind": "primary"
+    },
+    {
+     "label": "CNBC: Intel",
+     "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+     "kind": "article"
+    },
+    {
+     "label": "CNA (Reuters)",
+     "url": "https://www.channelnewsasia.com/business/intel-shares-drop-21-israel-factory-blast-pc-weakness-6504881",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "claude-code-extension-backdoor",
+   "weight": "normal",
+   "title": "Researchers flag a trojanized Claude Code VS Code extension that plants an SSH backdoor",
+   "topics": [
+    "Security",
+    "Dev"
+   ],
+   "facts": [
+    "OpenSourceMalware says version 2.1.313 of anthropic.claude-code on the Open VSX registry carried a 66-line loader prepended to the normal extension code.",
+    "Simply loading the extension adds an attacker SSH key (labelled svc-telemetry), tries to enable SSH, opens a reverse tunnel to 134.209.82.225 and sets persistence on macOS, Linux and Windows.",
+    "The researchers confirmed only the Open VSX artifact and say how it was published, and whether official releases are affected, is still unknown.",
+    "Their advice if it was loaded: isolate the machine, block the IP on ports 22 and 8099, rotate credentials from a clean system and consider rebuilding."
+   ],
+   "whyItMatters": "Coding-agent extensions run with your shell and keys, so a poisoned update is a direct path into developer machines.",
+   "image": {
+    "url": "https://a.storyblok.com/f/293151920578295/2306x1506/ea709566d0/claude-code-hacked-better.png",
+    "alt": "OpenSourceMalware report graphic",
+    "credit": "OpenSourceMalware",
+    "creditUrl": "https://opensourcemalware.com/blog/trojanized-claude-code-extension-plants-persistent-ssh-backdoor"
+   },
+   "sources": [
+    {
+     "label": "OpenSourceMalware",
+     "url": "https://opensourcemalware.com/blog/trojanized-claude-code-extension-plants-persistent-ssh-backdoor",
+     "kind": "article",
+     "via": {
+      "label": "Sami Laiho on X",
+      "url": "https://x.com/samilaiho/status/2116057342601248947",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "reddit-login",
+   "weight": "normal",
+   "title": "Reddit will require a login for most browsing",
+   "topics": [
+    "Tech",
+    "Internet"
+   ],
+   "facts": [
+    "CEO Steve Huffman announced the change; it will be tested outside the US first.",
+    "Reddit cites personalization, ads, regulation and scraping as reasons.",
+    "The front page and links from shared posts or search stay viewable without logging in, and there's a revised incognito mode.",
+    "RSS feeds end on Nov 13 and the public API by March 2027, per heise."
+   ],
+   "whyItMatters": "One of the web's biggest open archives is closing up, which hits readers, researchers and anyone relying on RSS or the API.",
+   "image": {
+    "url": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/9/1/6/9/4/shutterstock_2253120441_ausschnitt-1df584968a989ea9.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+    "alt": "Reddit logo",
+    "credit": "heise online",
+    "creditUrl": "https://www.heise.de/news/Reddit-verlangt-kuenftig-den-Login-11505605.html"
+   },
+   "sources": [
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Reddit-verlangt-kuenftig-den-Login-11505605.html",
+     "kind": "article"
+    },
+    {
+     "label": "Android Authority",
+     "url": "https://www.androidauthority.com/reddit-logged-out-browsing-restrictions-3729803/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Two helicopters collided near McMinnville airport in Oregon, killing three, including a flight instructor and a student pilot from the UK; the NTSB is investigating.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "An Australian appeals court rejected Erin Patterson's appeal and found her sentence too light; she will now serve life without a non-parole period.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Israel's final count leaves neither Netanyahu's bloc nor his rivals able to form a government right away, and Netanyahu is alleging a stolen election.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Serbia's winning Student List demands a quick handover and the dismissal of police and security chiefs; the RTS director stepped down.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "The UK Post Office suspended sending goods to the EU because partner systems aren't ready for new EU customs rules.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "An Italian army helicopter crashed in Bosnia, killing four members of the EU's Eufor Althea mission.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Venezuela's opposition leader Machado endorsed a US plan for elections.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "IG Metall is calling metal and electrical workers out on warning strikes over employers' demands for real-wage cuts.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "Merz is pitching a free-trade alliance in South Korea, and G20 foreign ministers meet in Atlanta.",
+     "sourceIndexes": [
+      9,
+      10
+     ]
+    },
+    {
+     "text": "NASA-funded scientists detailed Teghaza 001, one of the oldest Mars meteorites ever found.",
+     "sourceIndexes": [
+      11
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/dec3/live/30285610-d42e-11f1-b441-2b33b063138f.jpg",
+    "alt": "Representatives of the electoral list \"Student List - Students Win\" hold a media conference in Pioneers' Park in Belgrade, Serbia, October 29",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/cmx2dwzp0z0vo"
+   },
+   "sources": [
+    {
+     "label": "CNN",
+     "url": "https://www.cnn.com/2026/10/29/us/oregon-helicopters-crash",
+     "kind": "article"
+    },
+    {
+     "label": "CNN",
+     "url": "https://www.cnn.com/2026/10/29/australia/australia-mushroom-patterson-appeal-ruling-intl-hnk",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2115987233022808299",
+     "kind": "x"
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/10/29/netanyahu-alleges-stolen-election-he-seeks-political-survival-amid-uncertainty/",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cmx2dwzp0z0vo",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cvze4xkknyj4o",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2115933468668346507",
+     "kind": "x"
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/10/29/back-venezuela-opposition-leader-endorses-us-plan-elections/",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2116055131066093787",
+     "kind": "x"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2116054602592465210",
+     "kind": "x"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2116051437633589628",
+     "kind": "x"
+    },
+    {
+     "label": "NASA",
+     "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Node.js 26 LTS is now the default on Vercel (HTTP/2 fetch, Temporal API, V8 14.6), and SvelteKit's adapter-vercel merged Node 26 support.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "TypeScript merged WASI (wasip1) support covering the CLI, API and browser builds.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The Claude API's maximum request size went from 32 MB to 128 MB.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "The Gemini app can now generate and edit documents, PDFs, slides and spreadsheets directly.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Android's AppFunctions API, which exposes app capabilities to agents over MCP, is in beta.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Vercel Flags SDK cold starts are about 7x faster at p75, and Strix's pen-testing tool now runs on AI Gateway.",
+     "sourceIndexes": [
+      6,
+      7
+     ]
+    },
+    {
+     "text": "The PSF warns that a \"PyConf2026\" event in San Francisco appears to be fake.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "Martin Fowler on \"LLM Voice\".",
+     "sourceIndexes": [
+      9
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/9628b8389c0ffcaf9a7f422aafd5bfa8699d0af4106fbbddec19ea6fb184a791/sveltejs/kit/pull/17570",
+    "alt": "Summary Let @sveltejs/adapter-vercel build on Node.js 26 and accept runtime: 'nodejs26.x'. Context Node.js 26 became LTS on 2026-10-28, and Vercel makes it generally available from 2026-10-...",
+    "credit": "sveltejs/kit #17570",
+    "creditUrl": "https://github.com/sveltejs/kit/pull/17570"
+   },
+   "sources": [
+    {
+     "label": "Vercel changelog",
+     "url": "https://vercel.com/changelog/node-js-26-lts-is-now-generally-available-on-vercel",
+     "kind": "primary"
+    },
+    {
+     "label": "sveltejs/kit #17570",
+     "url": "https://github.com/sveltejs/kit/pull/17570",
+     "kind": "primary"
+    },
+    {
+     "label": "microsoft/TypeScript #64174",
+     "url": "https://github.com/microsoft/TypeScript/pull/64174",
+     "kind": "primary"
+    },
+    {
+     "label": "ClaudeDevs on X",
+     "url": "https://x.com/ClaudeDevs/status/2115923971279614171",
+     "kind": "x"
+    },
+    {
+     "label": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+     "kind": "primary"
+    },
+    {
+     "label": "Android Developers",
+     "url": "https://goo.gle/4yUbOHz",
+     "kind": "article",
+     "via": {
+      "label": "Android Developers on X",
+      "url": "https://x.com/AndroidDev/status/2115937049630916872",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Vercel changelog",
+     "url": "https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel changelog",
+     "url": "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway",
+     "kind": "primary"
+    },
+    {
+     "label": "Python Software Foundation on X",
+     "url": "https://x.com/ThePSF/status/2115982169113755950",
+     "kind": "x"
+    },
+    {
+     "label": "martinfowler.com",
+     "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "from-substack",
+   "weight": "brief",
+   "title": "From Substack",
+   "topics": [
+    "From Substack"
+   ],
+   "facts": [
+    {
+     "text": "The AI Corner on the State of AI 2026: AI is 13x cheaper, so where's the payoff?",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Substack introduced lists.",
+     "sourceIndexes": [
+      1
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "The AI Corner",
+     "url": "https://www.the-ai-corner.com/p/state-of-ai-report-2026-findings",
+     "kind": "article"
+    },
+    {
+     "label": "On Substack",
+     "url": "https://on.substack.com/p/introducing-lists-on-substack",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Eintracht Braunschweig plays at Arminia Bielefeld today; Bielefeld is expected to play more attacking again. Hannover is cracking down on the fans behind the derby riots.",
+     "sourceIndexes": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Warriors rookie Yaxel Lendeborg is off to a historic start, and the Warriors face the Lakers on Oct 30.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "BVB: Sport Bild on whether Nmecha could be signed, and sport.de says Guirassy has to wait for a new contract.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    },
+    {
+     "text": "A former 49ers star says \"rest in peace\" to Brandon Aiyuk's NFL career.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "SPOX (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORkU3V1VndE9aVGI5X19tbUlBR2N1NUdTWjBtS3pyQzJoZGpoS3oxU1JGeTF2dmRhWGw4TmhaWW9xRnFoZTdLcVNsOVRxcXFrOG53TG9FNU9IVW5xUVFUY24zZzJIS1RJTlBxUFlVWE5NeE5ZUTk3RkJtUlR5ZlNxWWhQZF8zOVBPTjlXMDAtWHFfR2xoUmJGM1MzN0hsSWJKU3JHTUlfQlpwcHNtb2pCS2N4QW5jRzZOVVprSElPYzJ5eG9pLUFIbk1pZXZRaW1pZTE4RGM3OUV5ajh6SFV3ZUlRTEtaMnlGUHdtSDExa2NaQQ?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Westfalen-Blatt (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGxFTkIxbHRMWkhOS1c1UjVOUTh0ZUpxUjFITmx3dWYzeDJNN1VjMFJkWVBVU2k3NFN2eTNBNDV6MlloTVZtdUttX2JtOGdNUHFNMjkwNkkwS2lCdW1oTzJENGs1cXB4Y0NHUnJpSGRESWE5TGwwdkJYR1FVZ2ZpcEdWX090dm1LdXpSVG5DNTFoTWU4N2pkME1ocmlsZw?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "News38 (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUVV6cW5RQWxXNkhNYzFYVGYxNXdWdDZUc3FUYTU2bzlCMWFaZlBEY1NPYkdYZUE0OGpqN1ZiMWF0LWlZTEVTNGphR25yZWx3Ym9Pa3JERzlWelB0dFlUWGdadjMwalROdVR2b05ick5xWEJZc3A3amw4V2phbThSVnd2Ni0tYkJ0YU1mLUM0Wl9HUHNjMTFjOU85Q0lNR2txS0RBemNKMG50bHRuN2JzSnBMdlk1NGhWelFrWkpoYXNxR3MtcmU3SEJGUmVoZ2YxMVRXMnNLLXp5Z19FU2NRYw?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "USA Today (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZzFVMjJueE1BS0J5Y2p6RDVqeEFvQmVyRzFxRnZmUzZUZy1XRW1UU1ZmcER0WUxoR2VHajlZRERFY25ibUxJdU1LbWx5cjdGejdWbjFSbWphZGl4ZHJsSFdWSDNydF91QjBWZ1dqTzQ3VFY5TEM0THZuNWJKemxZM292WDg3LWwzV2ZQU3FEUmVkX2xiSkI4VFVuUTc3bmtoYlBPcVNtZklnZEM2YVR5d1loRlhVOC1uZFJUcWVTMEJNNXBoSTJwYUlzTEI5Rlh0UUpV?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Yahoo Sports (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdm96NURETjVKRHJlbm10MFVxRjlKOF91bGhaZVowdHp6NmpGY2ZQUHVxcXNYV3lIaU1CT1ZxSHNleHB3Z0hURnYyWm13U05KM0diUVQtY1JhalktMFRKY21Na0NncU53dUs2bGFIOV9Mc3NpTW5PVlpxVktuRXRIZFlOV1lYYnhCUkFv?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Sport Bild (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYUxDdzZPYVFXUUtTNHE4QjdUV1NnUExmMWFiRjNwT2xIUV90cmh3QmZaajgwUE55NGlILVdMcWtZcTVoMEtTdzF2ZlhHRWxiNmg5ZTFGZ3ZWbWUtUktzdDNkNElrVk1CYWVzYVZnXzJlM2xnMU1jMnJpdHFldm5hX2tndkYzYk90WkVPQW1hdDRNdm9MeGdBaVFsZk9kVjNGalExT3gzRDdLOFZKYWMtLWdJNnNTLTA3c1lvR2xnRHBlNFpROXZOSm8yUQ?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "sport.de (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbVpKd3gtNnZlcWFmVlphMWZmQlhvcUhBWG5VNUxORnJKemRSVWNVS2VsQkJEbW5QcWxxd3JTRS1MMWgwaHgyRmJkMUtTOXRXOFhXczRTdlJfRUdlMVpFVXJQOVQ1U2dJQ0xyZjNkUnpQNFQ3MGh1d1RQYlJ1WFUxaGg3cWxxZVNQUTFTX3luSEdSZUNnOEE?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "49ers Webzone (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNTZMZUJ2MlgwVEk4aWhWeWRYY1BrV3pQYkc5MFlZMlVadG41Q0VYWFFmS3lrTlpDTXFTYlJmeDJydE8yd0wyOVluN1JCampCNVFGUUFXZWVYR0NiVUk0YXJKVXRnUVR5a2dKd0o2UVp5Q05SdFRHNXVtYjJTOWJNekFESmI?oc=5",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
