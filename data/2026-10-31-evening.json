@@ -1,0 +1,526 @@
+{
+ "id": "2026-10-31-evening",
+ "edition": "evening",
+ "generatedAt": "2026-10-31T19:50:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:15)",
+ "headline": "Youth protests sweep German cities with clashes in Köln and Hamburg, Oleshky evacuees reach Ukraine, and Ebola deaths in DR Congo pass 5,000.",
+ "stories": [
+  {
+   "id": "gen-z-protests-germany",
+   "weight": "lead",
+   "title": "Tens of thousands join \"Gen Z regelt\" youth protests across Germany, with water cannon in Köln and burning barricades in Hamburg",
+   "topics": [
+    "Germany",
+    "Protests"
+   ],
+   "facts": [
+    "Demonstrations were called in more than 30 cities; by late afternoon the initiative counted more than 68,000 people from its first twelve cities, while police figures in individual cities were lower.",
+    "Turnout fell well short of sign-ups: nearly 180,000 had pledged to come, and early police counts were 2,700 in Berlin, 1,800 in Munich and about 1,000 in Frankfurt.",
+    "In Köln police called off the march over masked participants and pyrotechnics, then used water cannon when people refused to leave after the rally.",
+    "In Hamburg (peak about 6,700) black-clad, partly masked people set construction barriers on fire; police used pepper spray and a water cannon put out the fire.",
+    "Stuttgart police estimated 3,000–4,000 people and ended the demo around 16:45, after which officers were pelted; overall the day stayed mostly peaceful.",
+    "The demands: more money for schools, addiction help and psychotherapy, plus action on living costs, climate and militarisation."
+   ],
+   "whyItMatters": "It was the first nationwide test for the new youth movement: smaller than its sign-ups, mostly peaceful, but with clashes in Köln and Hamburg that will shape how politicians respond. France, meanwhile, saw a third weekend of protests.",
+   "image": {
+    "url": "https://bilder.deutschlandfunk.de/27/4b/0a/95/274b0a95-673c-452d-ac58-b9e9a762c40e/koeln-ausschreitungen-100-1920x1080.jpg",
+    "alt": "Clashes between protesters and police at the Gen Z regelt demonstration in Köln on 31 October 2026",
+    "credit": "Deutschlandfunk",
+    "creditUrl": "https://www.deutschlandfunk.de/zehntausende-menschen-nehmen-an-jugendprotesten-teil-ausschreitungen-in-koeln-100.html"
+   },
+   "sources": [
+    {
+     "label": "ad-hoc-news (dpa)",
+     "url": "https://www.ad-hoc-news.de/politik/jugendproteste-mehr-als-68-000-demonstrieren-in-deutschland/70439498",
+     "kind": "article"
+    },
+    {
+     "label": "Tagesspiegel liveblog",
+     "url": "https://www.tagesspiegel.de/gesellschaft/liveblog/deutschlandweiter-protest-hat-begonnen--bisher-weniger-teilnehmer-als-erwartet-16223578.html",
+     "kind": "article"
+    },
+    {
+     "label": "tagesschau (WDR)",
+     "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/wdr-nach-gen-z-protesten-in-nrw-polizei-greift-bei-demo-in-koeln-ein-100.html",
+     "kind": "article",
+     "time": "2026-10-31T19:00:00+01:00"
+    },
+    {
+     "label": "tagesschau (SWR)",
+     "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-gen-z-proteste-in-bw--demos-in-mehreren-staedten--das-fordern-die-jungen-menschen-100.html",
+     "kind": "article",
+     "time": "2026-10-31T18:55:00+01:00"
+    },
+    {
+     "label": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/zehntausende-menschen-nehmen-an-jugendprotesten-teil-ausschreitungen-in-koeln-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "FAZ liveblog",
+     "url": "https://www.faz.net/aktuell/politik/inland/liveticker-gen-z-proteste-polizei-setzt-wasserwerfer-in-koeln-ein-brennende-baken-in-hamburg-faz-201635936.html",
+     "kind": "article",
+     "via": {
+      "label": "FAZ on X",
+      "url": "https://x.com/faznet/status/2116573149282054267",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "oleshky-evacuation",
+   "weight": "normal",
+   "title": "Starved Oleshky residents reach Ukraine via Crimea, Russia and Belarus under a truce Melania Trump helped broker",
+   "topics": [
+    "Ukraine",
+    "War"
+   ],
+   "facts": [
+    "Evacuees from Russian-occupied Oleshky went by bus through Crimea to Anapa, flew to Gomel in Belarus on four planes, then crossed into Ukraine's Chernihiv region by bus.",
+    "The local ceasefire, brokered with help from Melania Trump and with Pope Leo XIV involved, has held since Tuesday.",
+    "Reuters calls it the first truce of its kind and the longest humanitarian pause of the war, which is nearing its fifth year.",
+    "About 1,700 people were still in the town of a pre-war 24,000 (AP puts it near 2,000); food deliveries had stopped in May.",
+    "Ukraine's human rights ombudsman Dmytro Lubinets escorted the evacuees, and Zelensky thanked the US."
+   ],
+   "whyItMatters": "It's a rare working deal between Kyiv and Moscow, and a test case for whether small, mediated truces can save civilians while the wider war goes on.",
+   "image": {
+    "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/Russia-Ukraine-War-26300535833221-AP-faf160.jpg",
+    "alt": "People board a bus during the local ceasefire to evacuate residents of Oleshky",
+    "credit": "AP via NBC News",
+    "creditUrl": "https://www.nbcnews.com/world/ukraine/ukraine-war-oleshky-civilians-evacuate-belarus-historic-ceasefire-rcna606675"
+   },
+   "sources": [
+    {
+     "label": "NBC News / Reuters",
+     "url": "https://www.nbcnews.com/world/ukraine/ukraine-war-oleshky-civilians-evacuate-belarus-historic-ceasefire-rcna606675",
+     "kind": "article",
+     "time": "2026-10-31T11:28:00+01:00"
+    },
+    {
+     "label": "CNN",
+     "url": "https://edition.cnn.com/2026/10/31/europe/oleshky-ceasefire-russia-ukraine-arrivals-intl",
+     "kind": "article"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/cqx2818elrnzo",
+     "kind": "article"
+    },
+    {
+     "label": "AP",
+     "url": "https://apnews.com/article/russia-ukraine-war-oleshky-evacuation-5cbc7d2a5b8ac34b15c914338fd5a9f3",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "ebola-drc-5000",
+   "weight": "normal",
+   "title": "Ebola has now killed more than 5,000 people in DR Congo, the country's deadliest outbreak",
+   "topics": [
+    "Health",
+    "Africa"
+   ],
+   "facts": [
+    "Government data shows more than 10,300 confirmed cases since the outbreak began in May.",
+    "Eight of the country's 26 provinces are affected, and the case fatality rate stands at 48.6%.",
+    "It became DR Congo's deadliest outbreak on record in August.",
+    "There's no vaccine for this strain yet, though clinical trials are under way."
+   ],
+   "whyItMatters": "This morning's figure was more than 1,000 people in treatment; the death toll shows how far the outbreak has spread without a vaccine.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/5071/live/dc9ee270-d531-11f1-866a-b522399149a0.jpg",
+    "alt": "Image from the BBC's report on the Ebola outbreak in DR Congo",
+    "credit": "EPA/Shutterstock via BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/cj5ynryyep2yo"
+   },
+   "sources": [
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/cj5ynryyep2yo",
+     "kind": "article",
+     "time": "2026-10-31T15:48:00+01:00"
+    }
+   ]
+  },
+  {
+   "id": "trump-arch-lawsuit",
+   "weight": "normal",
+   "title": "DC and Virginia sue to stop Trump's 250-foot triumphal arch days before work could start",
+   "topics": [
+    "US politics"
+   ],
+   "facts": [
+    "Attorneys general Brian Schwalb (DC) and Jay Jones (Virginia) filed a 46-page complaint in federal court on Saturday against the National Park Service and Interior Department.",
+    "They argue the arch at Memorial Circle lacks congressional approval and nearly doubles DC's 130-foot height limit, and cite environmental and historic-preservation law.",
+    "The suit says construction would cut Memorial Bridge to two westbound lanes for two to three years, and the arch and 320-foot cranes would sit near Reagan National's approach.",
+    "The National Capital Planning Commission votes on final plans on Nov. 5, and officials told the court building could start that same day; the states want a restraining order first."
+   ],
+   "whyItMatters": "It's the most direct legal challenge yet to Trump's plans to remake Washington, with a hard deadline next Thursday.",
+   "image": {
+    "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261030-donald-trump-ew-248p-2391d6.jpg",
+    "alt": "President Donald Trump, pictured in NBC News' report on the arch lawsuit",
+    "credit": "NBC News",
+    "creditUrl": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705"
+   },
+   "sources": [
+    {
+     "label": "NBC News",
+     "url": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705",
+     "kind": "article",
+     "time": "2026-10-31T18:03:00+01:00"
+    },
+    {
+     "label": "FOX 5 DC",
+     "url": "https://www.fox5dc.com/news/dc-sues-block-proposed-monumental-arch-memorial-circle-citing-skipped-reviews",
+     "kind": "article"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/dc-md-va/2026/10/31/dc-virginia-sue-block-trumps-proposed-triumphal-arch/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "altman-ram-openai-round",
+   "weight": "normal",
+   "title": "Altman calls RAM in home PCs \"quite terrible\" as OpenAI reportedly cuts its funding target to $20bn",
+   "topics": [
+    "AI",
+    "OpenAI"
+   ],
+   "facts": [
+    "On the Cheeky Pint podcast, Altman said it's \"quite terrible\" for the world's limited DRAM to sit in people's computers \"being used 5% of the time\" instead of in the cloud.",
+    "He was talking about local inference; Engadget notes OpenAI has tied up roughly 40% of the world's RAM output through its deals.",
+    "Gergely Orosz pushed back, saying people like him buy RAM to run local models and much else.",
+    "Separately, the FT reports OpenAI lowered its round from $30bn to $20bn, led by UAE investors; the WSJ says $11bn is secured so far after a \"tepid\" response."
+   ],
+   "whyItMatters": "Memory prices are rising for every laptop and phone, and the company buying the most is also finding investors less eager than expected.",
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0%2C12.629941573716%2C100%2C74.740116852568&w=1200",
+    "alt": "OpenAI CEO Sam Altman",
+    "credit": "Justin Sullivan / Getty Images via The Verge",
+    "creditUrl": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+   },
+   "sources": [
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+     "kind": "article",
+     "time": "2026-10-30T21:48:00+01:00"
+    },
+    {
+     "label": "Engadget",
+     "url": "https://www.engadget.com/2303266/sam-altman-says-its-terrible-dram-computer/",
+     "kind": "article",
+     "via": {
+      "label": "Engadget on X",
+      "url": "https://x.com/engadget/status/2116559276831293812",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Gergely Orosz on X",
+     "url": "https://x.com/GergelyOrosz/status/2116545880644014504",
+     "kind": "x"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+     "kind": "article",
+     "time": "2026-10-31T17:12:00+01:00"
+    }
+   ]
+  },
+  {
+   "id": "defi-dns-hijack-volta",
+   "weight": "normal",
+   "title": "Hackers hijack 12 DeFi sites registered with Name.com, and a new infostealer uses LLMs to rank its victims",
+   "topics": [
+    "Security"
+   ],
+   "facts": [
+    "Late Friday attackers changed DNS for at least 12 DeFi front ends, including Flap, Kintsu, Pickle Finance and Origami, and served the Step Drainer wallet-draining kit, Blockaid says.",
+    "All 12 domains are registered with Name.com; 10 were put on hold Saturday morning, and The Block traced about $138,000 on EVM chains (Solana and Aptos losses not counted).",
+    "CircleID says attention has turned to Vercel Domains and Name.com, but the entry point and any common root cause are unconfirmed.",
+    "Cisco Talos found VOLTA, a self-deleting infostealer that grabs credentials, sessions and crypto wallets, then uses LLMs to profile victims and rank their most valuable assets."
+   ],
+   "whyItMatters": "Neither attack needed a bug in the victims' own code: one went through the domain layer, the other uses AI to decide whom to hit first.",
+   "image": {
+    "url": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/10/VOLTA.jpg",
+    "alt": "Cisco Talos header graphic for its VOLTA infostealer research",
+    "credit": "Cisco Talos",
+    "creditUrl": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+   },
+   "sources": [
+    {
+     "label": "The Block",
+     "url": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
+     "kind": "article"
+    },
+    {
+     "label": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/hackers-hijack-defi-websites-name-com/",
+     "kind": "article",
+     "time": "2026-10-31T16:30:00+01:00"
+    },
+    {
+     "label": "CircleID",
+     "url": "https://circleid.com/posts/dns-hijacking-campaign-targets-12-cryptocurrency-sites-as-registrar-level-compromise-investigated",
+     "kind": "article"
+    },
+    {
+     "label": "Cisco Talos",
+     "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+     "kind": "primary",
+     "time": "2026-10-31T13:00:00+01:00"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Poland: President Nawrocki went into the Constitutional Tribunal himself overnight and accuses the Tusk government of a forcible takeover; he has called politicians of all parties to parliament.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Zelensky landed in Istanbul for talks with Erdoğan on protecting Ukrainians.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Russia blocked an extension of the UN's Minurso mission in Western Sahara in the Security Council.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "netzpolitik.org: Trump has found a first EU partner for data sharing and prosecution in his hunt for antifa groups.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Science: Serbia just elected \"the world's brainiest parliament\".",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/politik/ausland/machtkampf-in-polen-accg-201638508.html",
+     "kind": "article"
+    },
+    {
+     "label": "Der Spiegel on X",
+     "url": "https://x.com/derspiegel/status/2116537311643197713",
+     "kind": "x"
+    },
+    {
+     "label": "Zelensky on X",
+     "url": "https://x.com/ZelenskyyUa/status/2116504189480095824",
+     "kind": "x"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://trib.al/8yumSob",
+     "kind": "article"
+    },
+    {
+     "label": "netzpolitik.org",
+     "url": "https://netzpolitik.org/2026/datentausch-und-strafverfolgung-trump-findet-ersten-eu-partner-zur-jagd-auf-antifa-gruppen/",
+     "kind": "article"
+    },
+    {
+     "label": "Science",
+     "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Chris Wellons released Prospero, a C++/Dear ImGui coding harness for local LLMs that he says uses about two orders of magnitude fewer resources than web-stack harnesses.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Jepsen tested ParticleDB, a database for AI workloads, found 96 issues behind its \"Full ACID\" claim, and says all but ten looked fixed by 1.1.18.11.rc-22.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "react-resizable-panels added a <Workspace /> component for VS Code-style layouts: drag tabs between groups, drop on an edge to split.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Text wrap in Neovim 0.13 is conceal-aware for extmark-driven conceal such as treesitter.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Daniel Lemire on beating the compiler at signed 32-bit division (via r/programming).",
+     "sourceIndexes": [
+      4,
+      5
+     ]
+    },
+    {
+     "text": "Bun merged a batch of node:crypto and WebCrypto Node-compatibility fixes.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "OpenAI will honour a shared robots.txt signal so sites can state their AI training preferences to participating providers.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "thdxr (OpenCode) says their team's token bill is double its payroll, so 25 people work like 75, and they wouldn't call the cost of software \"going to zero\".",
+     "sourceIndexes": [
+      8
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "null program",
+     "url": "https://nullprogram.com/blog/2026/10/31/",
+     "kind": "article"
+    },
+    {
+     "label": "Jepsen",
+     "url": "https://jepsen.io/analyses/particledb-1.1.4",
+     "kind": "article"
+    },
+    {
+     "label": "Brian Vaughn on X",
+     "url": "https://x.com/brian_d_vaughn/status/2116572291492372577",
+     "kind": "x"
+    },
+    {
+     "label": "Neovim on X",
+     "url": "https://x.com/Neovim/status/2116494275122798744",
+     "kind": "x"
+    },
+    {
+     "label": "Daniel Lemire's blog",
+     "url": "https://lemire.me/blog/2026/10/31/beating-the-compiler-at-signed-32-bit-division/",
+     "kind": "article"
+    },
+    {
+     "label": "r/programming",
+     "url": "https://www.reddit.com/r/programming/comments/1xka27q/beating_the_compiler_at_signed_32bit_division/",
+     "kind": "article"
+    },
+    {
+     "label": "GitHub",
+     "url": "https://github.com/oven-sh/bun/pull/47559",
+     "kind": "article"
+    },
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+     "kind": "primary"
+    },
+    {
+     "label": "thdxr on X",
+     "url": "https://x.com/thdxr/status/2116527005801873662",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Der Klassiker: Bayern v Dortmund kicked off at 18:30 with Kimmich back as Bayern captain; the result comes after this edition.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Basketball Löwen Braunschweig host Würzburg tonight in BBL matchday 7 (live ticker).",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Warriors' Yaxel Lendeborg spoke frankly after what he called the worst game of his life.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Sports Illustrated predicts the 49ers' remaining results after their bye week.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "n-tv (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNek1SX1EtM3FWREZYcEhpenU0bFFMemlndHdWLWpSbTFrOW1nSENVcEZTTEVNSXNSZmdybHVTRmdvNTdnc2lHR0d5UEJ2T2ZlUHNuMk1VS05pdGo5UnVuT21hRm11YlNkbVRhaVZZUXBabXRtLUFSeUpPdTNjWk1ZSXRjQ2szS09iTkZYN25VSGVzWDFKa1lPWGpiaWdZVFdyNWtBYVlVRTI?oc=5",
+     "kind": "article",
+     "time": "2026-10-31T18:11:08Z"
+    },
+    {
+     "label": "sport.de (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPajBadURJUF9BNm1CcXBQbTBCUWh1WDM3dHBfUE9lWE1IZFNrZHVPaHJwdHRHTTFvNkhlTUVSUVFXNGkyQ3RZSVloT1pkQkxsOExmMEV5cjFRS2RuNFlTa3h0SlpKOWdNbUV2MGd3c1lBMUVfT3Ztck1XMFRBbDh5SHJkX0RpdG91QmNMSlJoZkF4ME9aWWtiTk9nYU9KVjlLSUtCYzdHa1Q1dV9ETm5zOTktZkpUNU1jSFRzTHNPdGlIVWVRSERsb3c4eDl4Zw?oc=5",
+     "kind": "article",
+     "time": "2026-10-31T17:30:00Z"
+    },
+    {
+     "label": "Heavy.com (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV184amJfeUhKYmlFR0E3S3NVeTc5dXRpQnVZY01SaVp1WkpOd3hKTDI4OE5BdnQzMzdMaFJHZUFTck1ZRWVnNHBmcW1VTGw0YjRGZ0thT0N6V1RUSWRsdmVpN0UteFZQZkFkX1p3ajRQbjVrMHhxSTFKek9Ednc5MGQ2RnhyYVNvaUNWZDhNaVBfejZkWUQtaEVQZw?oc=5",
+     "kind": "article",
+     "time": "2026-10-31T18:03:25Z"
+    },
+    {
+     "label": "Sports Illustrated (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSEVEMXpSWjlBZ29HT0RMc2VHRGpySGl2UjhCaW41NHlTSk14bjBSeXFMclVGV3hWa0xld1R2WFMxaW0yR0Z6VVlwS2dtUWhkNjJ4UDhWOXlUYmlnVE1LV24weklXa2dvak90aXdqNUw0ekhSaVVZRkVzek9DUGlBVm90UQ?oc=5",
+     "kind": "article",
+     "time": "2026-10-31T18:00:01Z"
+    }
+   ]
+  }
+ ]
+}
