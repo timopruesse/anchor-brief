@@ -1,0 +1,520 @@
+{
+  "id": "2026-11-01-morning",
+  "edition": "morning",
+  "generatedAt": "2026-11-01T08:35:00+01:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "overnight, since the evening edition (~19:30)",
+  "headline": "Gen Z protests end in riots in Frankfurt and Berlin, a critical Linux TCP bug is still unpatched on Ubuntu and RHEL, and Reeves says the UK belongs in the EU",
+  "stories": [
+    {
+      "id": "gen-z-protest-riots",
+      "weight": "lead",
+      "title": "Gen Z protest day ends in riots: shops looted in Frankfurt, 56 arrests in Berlin",
+      "topics": [
+        "Germany",
+        "Protests"
+      ],
+      "facts": [
+        "After largely peaceful \"Gen Z regelt\" marches on Saturday, rioters looted shops on Frankfurt's Zeil late in the evening, smashed a gun shop's window and threw molotov cocktails at police.",
+        "Frankfurt police detained more than 30 people, sent in the SEK special unit and used water cannon and tear gas; around 1:00 they held a group of about 100 people to check identities.",
+        "In Berlin, 3,500 people marched through the centre in the evening; 27 officers were lightly injured and 56 people were arrested.",
+        "Köln saw barricades of e-scooters on the Domplatte and water cannon, Hamburg water cannon near the Hauptbahnhof, and Stuttgart about 50 offences with five officers lightly hurt.",
+        "Hesse's interior minister Roman Poseck says about 100 identified left-wing extremists infiltrated the Frankfurt march; state premier Boris Rhein says the attackers put themselves \"outside our society\".",
+        "France had its third protest weekend in a row, with more than 320,000 people out and over 500 arrests after clashes."
+      ],
+      "whyItMatters": "Yesterday's story was the turnout; this morning it's the violence, which will shape how politicians answer the movement's demands on schools, living costs and military service.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/d1d6/live/e39b2030-d58f-11f1-b151-73ae9f7607e8.jpg",
+        "alt": "People try to break a window of a store selling weapons, during a nationwide protest by campaign group Gen Z regelt (Gen Z takes charge) against underfunding of schools, cuts to education, social services, culture and healthcare, rising living costs, and military conscription, in Frankfurt, Germany.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/cqj34gnd3n30o"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cqj34gnd3n30o",
+          "kind": "article"
+        },
+        {
+          "label": "FAZ live blog",
+          "url": "https://www.faz.net/aktuell/politik/inland/liveticker-gen-z-proteste-frankfurter-gewaltnacht-ueberschattet-demo-tag-faz-201635936.html",
+          "kind": "article"
+        },
+        {
+          "label": "FOCUS online",
+          "url": "https://www.focus.de/panorama/welt/bilanz-der-protestnacht-polizisten-verletzt-sek-im-einsatz_0dd357e4-ee16-40fb-b873-2d98748f3d86.html",
+          "kind": "article"
+        },
+        {
+          "label": "tagesschau (SWR)",
+          "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-gen-z-proteste-in-bw--demos-in-mehreren-staedten--das-fordern-die-jungen-menschen-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "ZEIT ONLINE on X",
+          "url": "https://x.com/zeitonline/status/2116724105961435545",
+          "kind": "x"
+        },
+        {
+          "label": "DER SPIEGEL on X",
+          "url": "https://x.com/derspiegel/status/2116757932910288957",
+          "kind": "x"
+        }
+      ]
+    },
+    {
+      "id": "linux-tcp-uaf",
+      "weight": "normal",
+      "title": "A critical remote bug in Linux's TCP handshake still has no fix on Ubuntu or RHEL",
+      "topics": [
+        "Security",
+        "Linux"
+      ],
+      "facts": [
+        "CVE-2026-98432 is a use-after-free in the IPv4 TCP handshake that an unauthenticated remote peer can reach, before any application sees the connection; the kernel scores it CVSS 9.8.",
+        "Upstream fixed it on Oct 11 and 15 (5.10.272 up to 7.2.10, and 7.3); the bug goes back to Linux 4.4.",
+        "Red Hat raised it to Critical on Oct 30 but has no fixed RHEL 8, 9 or 10 kernel yet, and Ubuntu lists every release as vulnerable; Debian, SUSE, Oracle UEK and Amazon Linux are fixed.",
+        "Anthropic, whose researcher reported it, says Claude wrote a working root exploit for servers with a multipath TCP listener, which Go programs open by default since Go 1.24.",
+        "Until a kernel ships, the interim fix is an nftables rule dropping TCP packets that carry IPv4 options, or turning MPTCP off; 36 GitHub repos already reference the CVE."
+      ],
+      "whyItMatters": "It sits in code every Linux server runs, and public race triggers are appearing while two of the biggest distributions still have no patch.",
+      "image": {
+        "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
+        "alt": "Linux's October 2026 TCP Use-After-Free: CVE-2026-98432 — Atlas",
+        "credit": "Atlas Security",
+        "creditUrl": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf"
+      },
+      "sources": [
+        {
+          "label": "Atlas Security",
+          "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+          "kind": "article"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50319143",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "claude-code-game-rule",
+      "weight": "normal",
+      "title": "Claude Code now refuses to recreate existing games, and some developers say real work gets caught",
+      "topics": [
+        "AI",
+        "Anthropic",
+        "Games"
+      ],
+      "facts": [
+        "Since about Oct 27, a server-delivered Claude Code instruction says: build original and genre games, but \"do not build a recreation of a specific existing game, even if it is renamed\".",
+        "Anthropic's Addy Osmani confirmed two sentences were added to the Opus 5.5 prompt because using Claude to infringe IP breaks its usage policy, and said it will keep tuning the balance.",
+        "A board-wargame module developer filed a GitHub issue saying paid client work that ran for months is now refused, and asks for a verification path for professionals.",
+        "Tom's Hardware collects further complaints about reverse-engineering tasks being blocked, though a link to the game rule isn't proven.",
+        "Separately, researcher Jiahao Shao says Anthropic flagged him for \"training a competitor\" and now blocks anything touching RFT, SFT or training larger models; the post hit 307 points on Hacker News."
+      ],
+      "whyItMatters": "Studios are scared of AI clones of their demos, but the rule shows how hard it is to block piracy without blocking legitimate builders.",
+      "image": {
+        "url": "https://opengraph.githubassets.com/fbfed7c4191b8d9711a3c38f8da36d2af6b5fe4fc95d3cc307baec9b0262fb44/anthropics/claude-code/issues/106167",
+        "alt": "Preflight Checklist I have searched existing issues and this hasn't been reported yet This is a single bug report (please file separate reports for different bugs) I am using the latest version of ...",
+        "credit": "GitHub issue #106167",
+        "creditUrl": "https://github.com/anthropics/claude-code/issues/106167"
+      },
+      "sources": [
+        {
+          "label": "Game Developer",
+          "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+          "kind": "article"
+        },
+        {
+          "label": "Wccftech",
+          "url": "https://wccftech.com/claude-code-game-restrictions-target-clones-but-developers-say-legitimate-projects-are-being-blocked/",
+          "kind": "article"
+        },
+        {
+          "label": "GitHub issue #106167",
+          "url": "https://github.com/anthropics/claude-code/issues/106167",
+          "kind": "primary"
+        },
+        {
+          "label": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+          "kind": "article"
+        },
+        {
+          "label": "Jiahao Shao on X",
+          "url": "https://x.com/jiahaoshao1/status/2116475922190922088",
+          "kind": "x"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50319358",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "reeves-eu",
+      "weight": "normal",
+      "title": "Rachel Reeves says Britain's future lies inside the EU",
+      "topics": [
+        "UK",
+        "EU"
+      ],
+      "facts": [
+        "In her first big intervention since leaving the Treasury, the former chancellor wrote in the Sunday Times that Brexit made the UK \"poorer, weaker and less secure\".",
+        "\"I do believe Britain's future lies in the European Union,\" she wrote, adding that rejoiners must show tangible benefits.",
+        "She wants the coming UK-EU summit to confirm a youth mobility scheme and progress towards joining the EU's SAFE defence fund.",
+        "Labour's 2024 manifesto ruled out the single market, customs union and free movement; Prime Minister Andy Burnham says any change would need a mandate at an election due by 2029.",
+        "The Conservatives and Reform UK's Nigel Farage reject reopening the Brexit debate."
+      ],
+      "whyItMatters": "A former chancellor saying \"rejoin\" out loud moves the Labour debate on Europe ahead of next month's Brussels summit.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/bf5e/live/f417cd40-d595-11f1-a701-fddedf244c16.jpg",
+        "alt": "Rachel Reeves makes a speech at the annual Financial and Professional Services Dinner at Mansion House in London.",
+        "credit": "BBC News",
+        "creditUrl": "https://www.bbc.com/news/articles/c62l4yz0eexpo"
+      },
+      "sources": [
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c62l4yz0eexpo",
+          "kind": "article"
+        },
+        {
+          "label": "BBC World",
+          "url": "https://bbc.in/4jS3XXi",
+          "kind": "article",
+          "via": {
+            "label": "BBC World on X",
+            "url": "https://x.com/BBCWorld/status/2116727078527652133",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "weight": "brief",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "The FBI officially blames North Korea's TraderTraitor for the $6.3bn Binance theft and expects the funds to be laundered further; Binance says it has already replaced 90% of the stolen assets.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "A public exploit for Android's \"SMS of Death\" (CVE-2026-58882) crashes the phone service with an invisible text, dropping even emergency calls; Android 12 and 13 stay unpatched.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "A judge threw out Trump's $10bn suit against the Wall Street Journal over the Epstein birthday letter \"with prejudice\", so it can't be refiled.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "IG Metall's warning strikes started at midnight in Andernach and München; the union chief says the employers' offer caused \"incomprehension and anger\".",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Lewis Hamilton took his first pole for Ferrari in Mexico, 0.009s ahead of George Russell, with Leclerc third; the race is tonight.",
+          "sourceIndexes": [
+            6,
+            7
+          ]
+        },
+        {
+          "text": "An EA office in Madrid was sprayed with \"Save Mass Effect\" days after EA shut down BioWare, IGN reports.",
+          "sourceIndexes": [
+            8
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-10-30T080136Z_484047327_RC2JDOAHBGKT_RTRMADP_3_FINTECH-CRYPTO-BINANCE-HACK-1793491721.jpg?resize=1920%2C1440",
+        "alt": "FBI blames North Korea for record $6.3bn crypto heist from Binance",
+        "credit": "Al Jazeera",
+        "creditUrl": "https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist"
+      },
+      "sources": [
+        {
+          "label": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist",
+          "kind": "article"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+          "kind": "article"
+        },
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+          "kind": "article"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/en/news/SMS-of-Death-Security-flaw-crashes-Android-phones-11506625.html",
+          "kind": "article"
+        },
+        {
+          "label": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cwr5yj2lj9myo",
+          "kind": "article"
+        },
+        {
+          "label": "ZEIT ONLINE on X",
+          "url": "https://x.com/zeitonline/status/2116695847014416556",
+          "kind": "x"
+        },
+        {
+          "label": "Formula 1",
+          "url": "https://f1.com/MEX26-Quali-Report",
+          "kind": "article"
+        },
+        {
+          "label": "Formula 1 on X",
+          "url": "https://x.com/F1/status/2116653928829919455",
+          "kind": "x"
+        },
+        {
+          "label": "IGN",
+          "url": "https://bit.ly/4yXVJRk",
+          "kind": "article",
+          "via": {
+            "label": "IGN on X",
+            "url": "https://x.com/IGN/status/2116779780670365821",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "weight": "brief",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Karpathy built HackerTube, a YouTube front end for 6,454 videos recommended in about 40,000 Hacker News comments since 2007; he says it took about two hours with Opus 5.5 on medium effort.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Jarred Sumner says Bun's ahead-of-time mode cuts memory by 40% and CPU by 14% in an Express plus node:sqlite REST API, with no JIT warmup; Bun also merged bun test --aot for large suites.",
+          "sourceIndexes": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Epic Games published an Unreal Engine skills plugin for Claude Code.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Vercel CI is in public beta, switched on with one line in turbo.json; Vercel says it is 2 to 6 times faster than its previous CI in its own repos.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "KDE introduced Kwi, a new terminal emulator.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "matklad argues public functions shouldn't call other public functions.",
+          "sourceIndexes": [
+            7
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/5bfa9bd665e015da41d759570f2439bb262723e7948c96e6d646a744a0d8760b/oven-sh/bun/pull/47316",
+        "alt": "What does this PR do? Follow-up to #47129 for bun build --compile --aot and bun test --aot. Goes with oven-sh/WebKit#942, which is merged. WEBKIT_VERSION is WebKit's main at 4d45755fed4a, so ov...",
+        "credit": "oven-sh/bun #47316",
+        "creditUrl": "https://github.com/oven-sh/bun/pull/47316"
+      },
+      "sources": [
+        {
+          "label": "karpathy",
+          "url": "https://karpathy.bearblog.dev/hacker-tube/",
+          "kind": "primary"
+        },
+        {
+          "label": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50319510",
+          "kind": "article"
+        },
+        {
+          "label": "Jarred Sumner on X",
+          "url": "https://x.com/jarredsumner/status/2116679973448945762",
+          "kind": "x"
+        },
+        {
+          "label": "oven-sh/bun #47316",
+          "url": "https://github.com/oven-sh/bun/pull/47316",
+          "kind": "primary"
+        },
+        {
+          "label": "GitHub: EpicGames",
+          "url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin",
+          "kind": "primary",
+          "via": {
+            "label": "Meng To on X",
+            "url": "https://x.com/MengTo/status/2116694299043840075",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "Vercel Community",
+          "url": "https://community.vercel.com/t/introducing-vercel-ci/51548",
+          "kind": "primary"
+        },
+        {
+          "label": "KDE Blogs",
+          "url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+          "kind": "primary"
+        },
+        {
+          "label": "matklad",
+          "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "from-substack",
+      "weight": "brief",
+      "title": "From Substack",
+      "topics": [
+        "From Substack"
+      ],
+      "facts": [
+        {
+          "text": "The AI Corner on building your own AI legal team with Claude skills.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "The AI Corner",
+          "url": "https://www.the-ai-corner.com/p/build-ai-legal-team-claude-skills-founders-2026",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "weight": "brief",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "Bayern 2:2 BVB: Guirassy equalised in the 60th minute and sub Fábio Silva in the 89th; Kane hit the bar with a penalty. Both teams have 18 points, Bayern top on goal difference.",
+          "sourceIndexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Kimmich, back as Bayern captain after his father's sudden death, said returning was hard because on the pitch is when he thinks of him most.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Basketball Löwen Braunschweig lost 72:96 at home to Würzburg.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "The Golden State Valkyries, the Warriors' WNBA sister team, beat the Atlanta Dream 68–63 in Game 7 for their first title, the fastest an expansion team has won the WNBA.",
+          "sourceIndexes": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "The Warriors play the Clippers on Nov 1, and two 49ers players were fined for incidents in the loss to the Falcons.",
+          "sourceIndexes": [
+            6,
+            7
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "bundesliga.com",
+          "url": "https://www.bundesliga.com/de/bundesliga/news/fc-bayern-muenchen-borussia-dortmund-spieltag-8-spielbericht-highlights-39814",
+          "kind": "article"
+        },
+        {
+          "label": "ZDFheute",
+          "url": "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-fc-bayern-muenchen-borussia-dortmund-klassiker-der-spannung-naehrt-100.html",
+          "kind": "article"
+        },
+        {
+          "label": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/Kimmich-gibt-emotionales-Interview-nach-Tod-seines-Vaters-id31480753.html",
+          "kind": "article"
+        },
+        {
+          "label": "tixio (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVVFlUGliMF9neW1LSDN3V1lMMzl6WHFHTUZ5aE5sd0JXS1E0TF90Q3BmdlVPZ0hYRVdDOVEtQU5Ob21oR2VOUDBYUTZZRWJ4YkZJRGROUjhrTjdyN016MTUyU2oyNUQ4RWdrcU8yZFhXN0s2bU5YenZDbm5YRFhON29BaHdxX1hlRDA1TzU3Qk0ybmVaQV82dlU5VXBXeHQtaDVBMnkwX2tncEk?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "The New York Times on X",
+          "url": "https://x.com/nytimes/status/2116736972156805577",
+          "kind": "x"
+        },
+        {
+          "label": "CNN",
+          "url": "https://cnn.it/4sAL1yw",
+          "kind": "article",
+          "via": {
+            "label": "CNN on X",
+            "url": "https://x.com/CNN/status/2116721595314049447",
+            "kind": "x"
+          }
+        },
+        {
+          "label": "San Diego Sports 760 (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYzFxUmMteU5hVklfSUdKMU93eTBZMnZUR3NlYUU0cDllTFIyZTNGanBocWJQVUV2LW5UemNFdWlTQnNwVVpyTllsU3pfM2Rmclh0RElQcFQyS2hLRE50cTFHMEhSWkZ1TjZaNkpHYmRPMWZCUU9qS3V5X3o3ZXVUUG5Fb3VoVjI3VkhqN3A2TnhLZVU?oc=5",
+          "kind": "article"
+        },
+        {
+          "label": "Yahoo Sports (via Google News)",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPR0lXUVZ4Xy1fNmRuYkFUa3ZjeVlhZzdpdEk4RGpqTm5kdy1abWdDaFBUZGkwNU1fWU5rRVc0UjNtWUcydTJkNEMtLTQ5b3R5bTViaEl5V19mc0VCbXVKTVZNaENMdF9qVHpUamtpanlmQkdUZTZwa21aaDVBWmVqVFJjMA?oc=5",
+          "kind": "article"
+        }
+      ]
+    }
+  ]
+}
