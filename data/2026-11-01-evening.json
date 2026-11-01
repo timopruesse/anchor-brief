@@ -1,0 +1,393 @@
+{
+ "id": "2026-11-01-evening",
+ "edition": "evening",
+ "generatedAt": "2026-11-01T19:50:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:40)",
+ "headline": "A Michigan Democrat endorses the Republican two days before the midterms, Zelensky claims record Russian losses, and a police chief unplugs Flock's cameras",
+ "stories": [
+  {
+   "id": "midterms-final-sunday",
+   "weight": "lead",
+   "title": "Two days before the midterms, a Michigan Democrat endorses the Republican and a judge blocks the DOJ in Alaska",
+   "topics": [
+    "US politics",
+    "Midterms"
+   ],
+   "facts": [
+    "Rep. Haley Stevens, who lost the Democratic Senate primary to Abdul El-Sayed, endorsed Republican Mike Rogers in Michigan's Senate race on Sunday, appearing with him at a Detroit church.",
+    "She says El-Sayed's campaign told her to stay away; CNN reports her chief of staff and communications director quit, and Schumer says Senate Democrats stand behind El-Sayed.",
+    "In Alaska, federal judge Sharon Gleason threw out the Justice Department's suit to segregate ballots and delay certification of the Senate race, saying it lacked standing, would break ballot secrecy and came too late.",
+    "The suit was about a second candidate named Dan Sullivan on the ballot; Republican Sen. Dan Sullivan told CNN he will accept the result even if he loses.",
+    "An NBC News poll (Oct 28–30) has registered voters preferring a Democratic Congress 52% to 45%, with Trump's approval at 40%; Trump says he may become \"Mr. Veto\" if Democrats win.",
+    "CNN reports US intelligence is tracking Russia, China and Iran influence efforts, but program cuts make it harder to warn election officials; some FBI field offices told agents to stay away from polling sites."
+   ],
+   "whyItMatters": "Michigan is one of the closest Senate races, and the Alaska ruling removes one route the administration was using to hold up certification. The vote is on Tuesday, Nov 3.",
+   "image": {
+    "url": "https://media.cnn.com/api/v1/images/stellar/prod/ap26305615391128.jpg?c=16x9&q=w_800,c_fill",
+    "alt": "Haley Stevens and Mike Rogers at a church in Detroit",
+    "credit": "AP via CNN"
+   },
+   "sources": [
+    {
+     "label": "CNN live updates",
+     "url": "https://edition.cnn.com/2026/11/01/politics/live-news/midterm-election-congress",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2116952030749057531",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "The Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2116950161205104997",
+     "kind": "x"
+    },
+    {
+     "label": "CNN (Alaska ruling)",
+     "url": "https://edition.cnn.com/2026/11/01/politics/alaska-senate-judge-ruling",
+     "kind": "article",
+     "via": {
+      "label": "CNN on X",
+      "url": "https://x.com/CNN/status/2116957697639690383",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "The Washington Post on X (Sullivan)",
+     "url": "https://x.com/washingtonpost/status/2116957197095612599",
+     "kind": "x"
+    },
+    {
+     "label": "Forbes on X",
+     "url": "https://x.com/Forbes/status/2116957220646572398",
+     "kind": "x"
+    },
+    {
+     "label": "CNN on X (foreign influence)",
+     "url": "https://x.com/CNN/status/2116893089897837021",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "ukraine-october-losses",
+   "weight": "normal",
+   "title": "Zelensky claims record Russian losses in October as both sides hit each other's infrastructure",
+   "topics": [
+    "Ukraine",
+    "War"
+   ],
+   "facts": [
+    "Zelensky says Russia lost 54,400 troops killed or badly wounded in October, the most of any month of the full-scale war, and that Ukraine retook more ground than Russia seized.",
+    "He says Ukrainian long-range strikes hit the Kamensky Combine in the Rostov region, a defence plant he says is involved in missile production, plus a Pantsir-S2 and an S-400 command vehicle.",
+    "Overnight, Russian attacks hit substations, transformers and power lines in the Dnipro, Vinnytsia, Zhytomyr and Khmelnytskyi regions, according to Zelensky.",
+    "These figures come from the Ukrainian president and haven't been independently confirmed."
+   ],
+   "whyItMatters": "Energy strikes going into winter and Ukraine's strikes on Russian arms plants are setting the tone for the next months of the war.",
+   "image": null,
+   "sources": [
+    {
+     "label": "Zelensky on X (October losses)",
+     "url": "https://x.com/ZelenskyyUa/status/2116903354290847830",
+     "kind": "x"
+    },
+    {
+     "label": "Zelensky on X (Rostov strike)",
+     "url": "https://x.com/ZelenskyyUa/status/2116840406507737529",
+     "kind": "x"
+    },
+    {
+     "label": "Zelensky on X (energy attacks)",
+     "url": "https://x.com/ZelenskyyUa/status/2116828055234613703",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "flock-unplugged",
+   "weight": "normal",
+   "title": "A Minnesota police chief unplugged Flock's cameras after the company ignored the city's cancellation",
+   "topics": [
+    "Privacy",
+    "Surveillance"
+   ],
+   "facts": [
+    "Plymouth's city council voted unanimously on Sept 22 to end its Flock licence-plate camera contract; police suspended their accounts the next morning and sent a formal cancellation.",
+    "After more than a week without a reply from Flock's corporate or legal teams, Police Chief Eric Fadden had staff pull the cameras' power cords, he told The Drive.",
+    "Nearby Dayton paused its Flock program too, and says Flock replaced its cameras anyway after being told not to.",
+    "Tom's Hardware says there are over 300,000 Flock cameras in the US, which use AI to identify cars by stickers, colour and model, not just plates.",
+    "Brave's Brendan Eich shared the story: \"Citizens fought back and won.\""
+   ],
+   "whyItMatters": "It's a concrete example of a city trying to leave a private surveillance network, and of how hard that can be.",
+   "image": {
+    "url": "https://cdn.mos.cms.futurecdn.net/jsH4CTh6HEfAjGURKfaJNH-1920-80.jpg",
+    "alt": "A Flock license plate camera on a pole",
+    "credit": "Getty Images via Tom's Hardware"
+   },
+   "sources": [
+    {
+     "label": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
+     "kind": "article",
+     "time": "2026-11-01T14:55:26+01:00"
+    },
+    {
+     "label": "Brendan Eich on X",
+     "url": "https://x.com/BrendanEich/status/2116950877550600343",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Sen. Chris Murphy (D-Connecticut), 53, had a stroke on Saturday after feeling numbness in his arm; his office expects a full recovery.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "WIRED reports that ICE's Homeland Security Investigations is running a far-reaching surveillance operation against left-wing activists.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The German Red Cross says blood reserves are so low in some states that clinics face restrictions, with some supplies only covering emergencies.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "IG Metall's warning strikes reach Hesse on Monday as pay talks stall.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "In Poland's fight over the Constitutional Tribunal, four former tribunal presidents criticised President Nawrocki and backed Prime Minister Tusk.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Google's AI test satellite sent its first output from orbit, poems written by Gemma 4; per the NYT, its AI chips can only run 15 minutes at a time before cooling down.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Notch says he's done with ChatGPT after Sam Altman called private DRAM ownership \"terrible\"; his post has over 9,000 likes.",
+     "sourceIndexes": [
+      7,
+      8
+     ]
+    },
+    {
+     "text": "F-Stop, Valve's lost Portal prequel prototype from a 2007 game jam, has appeared online after nearly 20 years.",
+     "sourceIndexes": [
+      9
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "The Washington Post on X",
+     "url": "https://x.com/washingtonpost/status/2116953444204372095",
+     "kind": "x"
+    },
+    {
+     "label": "CNN on X",
+     "url": "https://x.com/CNN/status/2116954753766719602",
+     "kind": "x"
+    },
+    {
+     "label": "WIRED",
+     "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+     "kind": "article",
+     "via": {
+      "label": "WIRED on X",
+      "url": "https://x.com/WIRED/status/2116957701439705542",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2116956091133120568",
+     "kind": "x"
+    },
+    {
+     "label": "FAZ on X",
+     "url": "https://x.com/faznet/status/2116945788018258073",
+     "kind": "x"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2116840073706541375",
+     "kind": "x"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Googles-KI-Satellit-sendet-erste-Daten-aus-dem-All-11507302.html",
+     "kind": "article"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Sam-Altman-Privat-genutztes-DRAM-ist-schrecklich-11507338.html",
+     "kind": "article"
+    },
+    {
+     "label": "Notch on X",
+     "url": "https://x.com/notch/status/2116915259911065700",
+     "kind": "x"
+    },
+    {
+     "label": "PC Gamer",
+     "url": "https://www.pcgamer.com/games/fps/valves-long-lost-prototype-portal-prequel-appears-online-after-nearly-20-years/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "SvelteKit merged a fix for prerendered pages returning 404 on Vercel when paths.base is set.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Bun dropped libspng: Bun.Image now reads and writes PNG with a new codec in safe Rust that forbids unsafe code.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Bun also merged two more batches of node:crypto and webcrypto compatibility fixes.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Daniel Lemire shows how to beat the compiler at signed 32-bit division, which still costs about 9 to 13 cycles on current CPUs.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Hacker Books collects the books Hacker News readers mention most from 2007 to 2026, a companion to Karpathy's HackerTube.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Docker published a guide to sandboxing coding agents like Claude Code, limiting what they can reach and keeping credentials private.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "sveltejs/kit #17525",
+     "url": "https://github.com/sveltejs/kit/pull/17525",
+     "kind": "primary"
+    },
+    {
+     "label": "oven-sh/bun #47070",
+     "url": "https://github.com/oven-sh/bun/pull/47070",
+     "kind": "primary"
+    },
+    {
+     "label": "oven-sh/bun #47591",
+     "url": "https://github.com/oven-sh/bun/pull/47591",
+     "kind": "primary"
+    },
+    {
+     "label": "Daniel Lemire",
+     "url": "https://lemire.me/blog/2026/10/31/beating-the-compiler-at-signed-32-bit-division/",
+     "kind": "article"
+    },
+    {
+     "label": "Hacker Books",
+     "url": "https://hackerbooks.org",
+     "kind": "article"
+    },
+    {
+     "label": "Docker on X",
+     "url": "https://x.com/Docker/status/2116938398216720385",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "BVB goalkeeper Gregor Kobel apologised to Bayern's Saibari after Saturday's 2:2; the DFB-Pokal round-of-16 draw is tonight.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Jauan Jennings turned down a trade back to the 49ers and stays with the Vikings, FOX Sports reports.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The Warriors face the Clippers tonight without Stephen Curry and Draymond Green.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "t-online (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXQwc2lPelQwWFBmOGlkZ05oRTAyekhLQlFVVkxQSGhBa1lUNmtEeVNxVU9UMGJLTGVOV2drWUlndW9KaEU4Mi1LWEE0TndnVFZKZ091X20tQkE0aWFqVVZsRzRyVXNiZlNhUmRmeGhRMnVUam9tOVhWY3l5Tm1JbkNucWx1b0NONmVEZ1JBbHJLTkwyT0xIZzhFWUdIMlJyTU03ME94SnV4Wm5hWnhfeHF5OU9KQVJJcE9jc1dsTW4yc29LSXVfNTdDYlVhM2c?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Sky Sport (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX2t2V25Tb1BGOEM1eVdtLV81ZUlac3FRWFowN2tPOXZlUlRzS0MzMnl2ckpxWUJJQ24tXzNCSGI1ZUl4Q2JfcTRraGFYaTFrcl9RXzd5WUNMbkNWQjZfdmNNWUFTX19zWEc4UGNrcm5CWVZaQ3NfZGtNZXljNG82XzNVOFVYMG1ZbU1BYXNHSWdDbnpSV0V0RUlBb2YyVHRRX0ZNd085MVI3dF8wZ19BcDFfQ2RTclVHMnFyblFaZw?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "FOX Sports (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeFNxeXJ2dklzd1JjUDExQ29pNDM2MUVNbkh1eWpVRkd5SEhRbXV4YU5GSWtadE1WRWxNS0FRNnRTaGlWNy13eXlwcW9rOVpXMGcyN05lZzE4dlFyU2xHSE1uZy1yVUVDYzI1dEJjNW9DZ0EwZHZwekFZWTk3ZU9KVnkwQnpfLUN2X005UkNtY9IBjwFBVV95cUxNY2lzcWt5R0szZ1hrblA4YXJCNlVTaTZ5UURCRzljNV8zbm90QmZGalRldkFzZVNwU3VqQXc4SURKMVkwREtONm9iU2t0eUpMWHJmbE1ZcHVNckY2Q2t5b0VzdkxNUTk5a0FWYWNpU0lsc0RSUDdMYjBXbzBJSER2a1hsSnhzQkRPSENMQThvaw?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "Sports Illustrated (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRWNHdHQ5RlJ2dklSaEQyMDF5NTNHT2EtTVppNWg0SHkxemd4eEM2S1pFUzUyLUF0UGtwUjBROTlSN05NUWI0UEF0UWlRMVg3MXl1WEJqVGZlT2ZENE13WlplUEdWeDkybVF6Y29NV2xRM2hTMjFPa1oyV184UVpfUjltNGUwSEFnSUxjMnNwQWg1M2dJVjU3T2tsS1FJVUlJNkt6WXB6ekRaeTkyV2lvcnBBRFY0RFFOM3lQcnk3OA?oc=5",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
