@@ -1,0 +1,457 @@
+{
+ "id": "2026-11-02-morning",
+ "edition": "morning",
+ "generatedAt": "2026-11-02T08:25:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "Overnight, since Sunday evening",
+ "headline": "Hacked alert apps in Ukraine and Russia, final midterm polls, and F1's youngest champion",
+ "stories": [
+  {
+   "id": "alert-apps-hacked",
+   "weight": "lead",
+   "title": "Hackers hijack emergency alert apps in Ukraine and then Russia, sending fake radiation and nuclear warnings",
+   "topics": [
+    "Ukraine",
+    "Russia",
+    "Security"
+   ],
+   "facts": [
+    "Shortly before 23:00 Kyiv time on Sunday, Ukraine's Air Alert app sent nationwide red-level air raid warnings.",
+    "Some users, including in Kyiv, also got fake warnings of radiation, chemical attacks and street fighting.",
+    "The app's Telegram channel said it had \"probably been subjected to hostile interference\" and that there was no radiation threat.",
+    "A few hours later Russian authorities said their own alert app had been hacked.",
+    "A Ukrainian espionage group claimed it had sent fake warnings of nuclear strikes to users inside Russia.",
+    "Ukrainian officials blamed a failure in the app and urged people to rely on other sources of information."
+   ],
+   "whyItMatters": "The apps people trust during real attacks were turned into panic tools on both sides of the war in one night.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/3608/live/1d2513e0-d646-11f1-b441-2b33b063138f.jpg",
+    "alt": "People in Winter clothes sit on camping chairs inside a Kyiv metro station",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/c51kdy1ew7zvo"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/c51kdy1ew7zvo",
+     "kind": "article"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Apps-fuer-Notfall-Warnungen-in-Ukraine-und-Russland-geknackt-11507440.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/politik/ausland/2026-11/hackerangriffe-warn-apps-ukraine-russland-air-alert-cyberangriff",
+     "kind": "article"
+    },
+    {
+     "label": "@BBCWorld",
+     "url": "https://bbc.in/4yYJBPQ",
+     "kind": "article",
+     "via": {
+      "label": "@BBCWorld",
+      "url": "https://x.com/BBCWorld/status/2117071015922512137",
+      "kind": "x"
+     },
+     "time": "2026-11-02T02:47:00+01:00"
+    }
+   ]
+  },
+  {
+   "id": "midterms-final-polls",
+   "weight": "normal",
+   "title": "Final NYT/Siena polls put Democrats ahead in most Senate battlegrounds, as the Stevens fallout grows",
+   "topics": [
+    "US politics",
+    "Midterms"
+   ],
+   "facts": [
+    "The final New York Times/Siena polls before Tuesday's midterms show Democrats ahead in almost all of the seven states that decide the Senate.",
+    "The same poll series has Democrats leading or tied in seven battleground governor's races.",
+    "Schumer called Rep. Haley Stevens' endorsement of Republican Mike Rogers in Michigan \"a despicable betrayal\".",
+    "Trump invited Stevens to join the Republicans, and ZEIT reports she has to leave the Democratic Party.",
+    "Stevens told CNN her staff are free to share their own views about the endorsement."
+   ],
+   "whyItMatters": "Polls close on Tuesday evening US time, which is the early hours of Wednesday in Berlin.",
+   "image": {
+    "url": "https://static.time.com/v3/assets/bltea6093859af6183b/blt50b39f8d5f8fe7b7/6ae81a1a12e9c0b3d69f1130/stevens-rogers.jpg?branch=production&width=1024&quality=75&auto=webp&crop=16:9%2Coffset-x100.00%2Coffset-y0.00",
+    "alt": "stevens-rogers.jpg",
+    "credit": "@TIME",
+    "creditUrl": "https://time.com/article/2026/11/02/haley-stevens-abdul-el-sayed-mike-rogers-endorsement-trump-republicans-democrats/?utm_source=twitter&utm_medium=social&utm_campaign=editorial&utm_content=021126"
+   },
+   "sources": [
+    {
+     "label": "@nytimes",
+     "url": "https://nyti.ms/4sDQ6Gg",
+     "kind": "article",
+     "via": {
+      "label": "@nytimes",
+      "url": "https://x.com/nytimes/status/2117068753171058749",
+      "kind": "x"
+     },
+     "time": "2026-11-02T02:38:00+01:00"
+    },
+    {
+     "label": "The New York Times (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUl9OTjJwYlFfSkk4ZFpDd194Zkx0RGo2UVZNUGg1QVpMRjZCQVRna2dURFktdlNVSmYzVWJvdFphQTZaR1Q3cV9NOWlYaEllZ2Y3LTNsSjh0NmVxZkg2bVFJNnJDZkJDajAxYkgxWS1jRjBXSlhFOTdiaEJWOFFkc0xnVQ?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "@washingtonpost",
+     "url": "https://wapo.st/4ztmC0A",
+     "kind": "article",
+     "via": {
+      "label": "@washingtonpost",
+      "url": "https://x.com/washingtonpost/status/2117070440556327246",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "@TIME",
+     "url": "https://time.com/article/2026/11/02/haley-stevens-abdul-el-sayed-mike-rogers-endorsement-trump-republicans-democrats/?utm_source=twitter&utm_medium=social&utm_campaign=editorial&utm_content=021126",
+     "kind": "article",
+     "via": {
+      "label": "@TIME",
+      "url": "https://x.com/TIME/status/2117127298562535426",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "@zeitonline",
+     "url": "https://trib.al/7qC4EBg",
+     "kind": "article",
+     "via": {
+      "label": "@zeitonline",
+      "url": "https://x.com/zeitonline/status/2117145568493400169",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "@CNN",
+     "url": "https://cnn.it/48xBtec",
+     "kind": "article",
+     "via": {
+      "label": "@CNN",
+      "url": "https://x.com/CNN/status/2117119032860000515",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "antonelli-champion",
+   "weight": "normal",
+   "title": "Kimi Antonelli becomes Formula 1's youngest ever world champion",
+   "topics": [
+    "Sports",
+    "F1"
+   ],
+   "facts": [
+    "The Mercedes driver clinched the title by finishing third at the Mexico City Grand Prix, behind Max Verstappen and Lewis Hamilton.",
+    "He is 20 years and 68 days old, and won it with four races still to go.",
+    "He finished school (Abitur) only last year, Der Spiegel notes.",
+    "The red-flagged race also saw tension between Ferrari team-mates Hamilton and Charles Leclerc nearly boil over."
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1694/live/d0cd8590-d64a-11f1-b441-2b33b063138f.jpg",
+    "alt": "Kimi Antonelli",
+    "credit": "BBC Sport",
+    "creditUrl": "https://www.bbc.com/sport/formula1/articles/cv62y1e6wly6o"
+   },
+   "sources": [
+    {
+     "label": "BBC Sport",
+     "url": "https://www.bbc.com/sport/formula1/articles/cv62y1e6wly6o",
+     "kind": "article"
+    },
+    {
+     "label": "@CNN",
+     "url": "https://cnn.it/4A0rtGa",
+     "kind": "article",
+     "via": {
+      "label": "@CNN",
+      "url": "https://x.com/CNN/status/2117093419977678915",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "@derspiegel",
+     "url": "https://x.com/derspiegel/status/2117124747876286608",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "bsi-iphone-spyware",
+   "weight": "normal",
+   "title": "Germany's BSI warns politicians about possible spyware on their iPhones",
+   "topics": [
+    "Germany",
+    "Security"
+   ],
+   "facts": [
+    "The federal cyber security agency BSI alerted politicians to possible spying software on their iPhones, Der Spiegel reports.",
+    "Digital minister Wildberger confirmed the warning but left open who could be behind the attacks.",
+    "heise leads its Monday news roundup with the attacks on politicians' iPhones."
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "@derspiegel",
+     "url": "https://x.com/derspiegel/status/2117128379245973917",
+     "kind": "x",
+     "time": "2026-11-02T06:35:00+01:00"
+    },
+    {
+     "label": "heise online",
+     "url": "https://www.heise.de/news/Montag-Spyware-Warnung-fuer-Bundespolitiker-Meta-mit-eigenem-humanoiden-Roboter-11507424.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "A business jet crashed into a West Palm Beach, Florida, neighbourhood on Sunday, killing all nine people on board; it was headed to the Bahamas.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Binance users withdrew $3.6bn after the record hack, and the FBI attributes the theft to North Korean hackers.",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "IG Metall's warning strikes in the metal and electrical industry have started; employers' group Gesamtmetall calls the union irresponsible.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "In Bulgaria, Iliana Iotova, seen as Russia-friendly, won the presidential runoff with about 58% in projections.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Linke, Grüne and SPD begin coalition talks in Berlin today.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "The Washington Post reports a wave of AI-enabled hacking, with recent breaches at major banks likely the work of a 26-year-old amateur.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/3a7f/live/ad865b20-d64f-11f1-a701-fddedf244c16.jpg",
+    "alt": "Smartphone with displayed Binance logo and representation of cryptocurrencies are placed on a keyboard in this illustration.",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/cwj34gdmnly4o"
+   },
+   "sources": [
+    {
+     "label": "The Washington Post",
+     "url": "https://www.washingtonpost.com/nation/2026/11/01/business-jet-crashes-florida-killing-all-nine-board/",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cwj34gdmnly4o",
+     "kind": "article"
+    },
+    {
+     "label": "Handelsblatt (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOVZ2RjFXS2dvTVdtdDRUckl6RW5XSTdYSWxBZjRuM0Q3RnB3UDViWl9uU2RHNjQ4bXVsN0pwTThVRGdiQ2RmdWdkZXdDY2xlYkRzMG40NXE2MVRyTjY5TEhseHd1YWp4MGFYTjJieG1WYjN3Y1dONWFEZWVFeGZYcnNsUE4zLWQwNGNoNWl4ckprQVEyNnFRLUFWSVU0ektRMVNUUFNpX0VYZUloTjFQcVRlTG1lMXZGWVkxbWdFYnluMWFBeXVIQmw4TUlIRy1HMFVqY0pURGZFdUE?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/arbeit/2026-11/metallindustrie-tarifstreit-ig-metall-warnstreik-gesamtmetall-oliver-zander-gxe",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/politik/ausland/2026-11/praesidentschaftswahl-bulgarien-ilijana-jotowa-andrej-gjurow-russland",
+     "kind": "article"
+    },
+    {
+     "label": "@derspiegel",
+     "url": "https://x.com/derspiegel/status/2117120309249896537",
+     "kind": "x"
+    },
+    {
+     "label": "@washingtonpost",
+     "url": "https://wapo.st/4edmXvE",
+     "kind": "article",
+     "via": {
+      "label": "@washingtonpost",
+      "url": "https://x.com/washingtonpost/status/2117134637180883108",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Following the Linux TCP use-after-free (CVE-2026-98432), Vercel posted a bulletin saying it has finished applying the kernel security updates.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Bun's next version improves Vitest compatibility in bun test: DOM environments, automocking, vi.mock hoisting and async fake timers.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "SvelteKit merged clickable remote function logs and a fix that sets navigation.from to null on start without SSR.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Tailwind CSS merged a fix so an !important inside a declaration value is no longer treated as the important flag.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Terry Tao's essay \"Mathematics has changed. Let's act like it\" is drawing a big discussion on Hacker News.",
+     "sourceIndexes": [
+      5,
+      6
+     ]
+    },
+    {
+     "text": "A Lenovo \"encrypted\" fingerprint USB drive turns out to be an unencrypted SD card in a case.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://vercel.com/api/docs-og?title=Linux%20kernel%20security%20advisory%3A%20CVE-2026-98432&format=kb&sig=d631502fdf8b2c8d301baa16ee3d1d354ed9cf18e4da8ea75b3d41ab5e787c6f",
+    "alt": "Linux kernel security advisory: CVE-2026-98432",
+    "credit": "Vercel KB bulletin",
+    "creditUrl": "https://vercel.com/kb/bulletin/linux-kernel-security-advisory-cve-2026-98432"
+   },
+   "sources": [
+    {
+     "label": "Vercel KB bulletin",
+     "url": "https://vercel.com/kb/bulletin/linux-kernel-security-advisory-cve-2026-98432",
+     "kind": "primary",
+     "via": {
+      "label": "@cramforce",
+      "url": "https://x.com/cramforce/status/2117096678507602087",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "@bunjavascript",
+     "url": "https://x.com/bunjavascript/status/2117147104158306545",
+     "kind": "x"
+    },
+    {
+     "label": "sveltejs/kit #17547",
+     "url": "https://github.com/sveltejs/kit/pull/17547",
+     "kind": "primary"
+    },
+    {
+     "label": "sveltejs/kit #17587",
+     "url": "https://github.com/sveltejs/kit/pull/17587",
+     "kind": "primary"
+    },
+    {
+     "label": "tailwindcss #20627",
+     "url": "https://github.com/tailwindlabs/tailwindcss/pull/20627",
+     "kind": "primary"
+    },
+    {
+     "label": "Terry Tao",
+     "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+     "kind": "article"
+    },
+    {
+     "label": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50328251",
+     "kind": "article"
+    },
+    {
+     "label": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50326099",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "DFB-Pokal round of 16: BVB play away at Eintracht Frankfurt, and Bayern host Hertha.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Warriors rookie Yaxel Lendeborg scored 37 points, the most by a Warriors rookie since Stephen Curry, ESPN reports.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Transfer rumours around BVB defender Nico Schlotterbeck keep going, sport.de reports.",
+     "sourceIndexes": [
+      2
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "sportschau.de (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLUx5M1ktQU9UY3Q4a2ttQzhyR3N0LW9HTXJFSzd3YzRjYVZybDUzTUFoeGo5LWpGLUNjZEF5R2prYXl5UnlKck16RVVTNUZZenBTWUZGaV9yOF9QRFVsYmVIY0psNFBVQWpuR2YtMWJmelRGREZHY204R3lmczhhWlluOE43eVU5Q2pMR3NyS3ZUcEpsTEp4ZFlXOENidmVkYnZrODQxOHJyMHBNV19XdVByTFVVSlVF?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "ESPN (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYzEwb0FyREdtSU00WGwxeXpGZENFN21nYUVWR0dkSUZQTXptR2hBSm9OZEZxY1RXVnpmazUtZ2x0dEEtdE9ka05RaWo2TWlKVjE2bnV1OUNaUHJuV016TDZsUE12WlJhRFpITXpDVm9jMUNBSXNwOFBQdl9pRkhueFVlZlI2VWdJTjhxcjhSemluaEtZd1g0bzJkUnUwc3ZyelozcEt5QWw1QlBsem1jZ2pn?oc=5",
+     "kind": "article"
+    },
+    {
+     "label": "sport.de (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcDlTakRXNm1yZDRvcDZnODh6WnhzdDNjd24za1ZyUFlTdkZzU2xuMkRVYUxjVXBLcTE1RTNydDZRMzlIN05mTVFoWGpPMklyQXFSLWhnRHFJZkJVTHpJRzZRelVpU2hhcUF3cm93Qm42UXZqcG5vaDQtR2xPcmJhVlk2RWoxZzBNNkw0alZaMERoMGlGb1FwTENHWk9Kek0wdGp1UzlCbzdsZw?oc=5",
+     "kind": "article"
+    }
+   ]
+  }
+ ]
+}
