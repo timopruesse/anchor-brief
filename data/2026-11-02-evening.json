@@ -1,0 +1,589 @@
+{
+  "id": "2026-11-02-evening",
+  "edition": "evening",
+  "generatedAt": "2026-11-02T19:50:00+01:00",
+  "timezone": "Europe/Berlin",
+  "coverage": "since the afternoon edition (~13:05)",
+  "headline": "Anthropic's IPO filing shows $17bn a quarter and $895bn in compute bills, plus an aid-point massacre in Zaporizhzhia and Merz's pick for a female president",
+  "stories": [
+    {
+      "id": "anthropic-s1-q3",
+      "weight": "lead",
+      "title": "Anthropic's amended IPO filing: $17bn Q3 revenue, a $23bn net loss and $895bn in compute commitments",
+      "topics": [
+        "AI",
+        "Markets"
+      ],
+      "facts": [
+        "Anthropic filed an amended S-1 with the SEC on Monday, adding the third-quarter numbers its first filing left out.",
+        "Q3 revenue was about $16.96bn, up roughly 1,127% year on year; nine-month revenue reached $33.24bn versus $2.5bn a year earlier.",
+        "Q3 net loss was $23.29bn (down from $66.3bn in Q2), mostly from fair-value changes on convertible notes and derivatives; the operating loss was $567m after $974m operating income in Q2.",
+        "The company blames the operating loss mainly on $5.0bn of compute bought under pricier short-term commitments.",
+        "Total committed spend on compute and infrastructure is about $895.4bn; heise says nearly $450bn of that falls due before the end of 2030.",
+        "Growth is slowing quarter on quarter: about 47% in Q3 after 144% in Q2, per CNBC. Shares are planned for Nasdaq under the ticker ANT, and Reuters expects marketing to investors to start the week of Nov 9."
+      ],
+      "whyItMatters": "This is the clearest look yet at what frontier AI costs to run, weeks before what could be the biggest IPO on record.",
+      "image": null,
+      "sources": [
+        {
+          "label": "SEC filing (S-1/A)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+          "kind": "primary",
+          "time": "2026-11-02T14:00:00Z"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+          "kind": "article",
+          "time": "2026-11-02T14:32:00Z"
+        },
+        {
+          "label": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-of-blockbuster-ipo-4992139",
+          "kind": "article",
+          "time": "2026-11-02T14:50:00Z"
+        },
+        {
+          "label": "Business Insider",
+          "url": "https://www.businessinsider.com/anthropic-q3-revenue-amended-s-1-compute-commitments-2026-11",
+          "kind": "article",
+          "time": "2026-11-02T16:21:52Z"
+        },
+        {
+          "label": "heise online",
+          "url": "https://www.heise.de/news/Boersenprospekt-104-Milliarden-Verlust-bei-Anthropic-11508595.html",
+          "kind": "article",
+          "time": "2026-11-02T18:11:00Z"
+        },
+        {
+          "label": "@Forbes",
+          "url": "https://www.forbes.com/sites/zacharyfolk/2026/11/02/anthropic-hit-17-billion-in-third-quarter-revenue-ahead-of-ipo-but-ai-spending-commitments-hit-900-billion/",
+          "kind": "article",
+          "via": {
+            "label": "@Forbes on X",
+            "url": "https://x.com/Forbes/status/2117279343076430137",
+            "kind": "x"
+          },
+          "time": "2026-11-02T15:34:00Z"
+        }
+      ]
+    },
+    {
+      "id": "komyshuvakha-strike",
+      "weight": "normal",
+      "title": "Russian bombs kill 18 at an aid point in Komyshuvakha as the Kherson truce ends",
+      "topics": [
+        "Ukraine",
+        "War"
+      ],
+      "facts": [
+        "At least nine 3,000 kg guided bombs hit the village in Zaporizhzhia region on Monday, regional head Mykhailo Semikin said.",
+        "18 people were killed, including a police officer and two rescuers; five were injured and 27 are missing.",
+        "Zelensky says a school used for weekly aid handouts was hit first, then the shelter where people took cover.",
+        "It came as the limited ceasefire that allowed the Oleshky evacuation expired and fighting resumed in Kherson region."
+      ],
+      "whyItMatters": "It ends the brief hope from the Oleshky truce that local pauses could lead to more.",
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/b790/live/9b668c80-d6e5-11f1-95da-41a8f6701eda.png",
+        "alt": "Rubble and destroyed buildings and a car after a Russian aerial attack on the village of Komyshuvakha, southern Zaporizhzhia region, Ukraine. Screenshot: 2 November 2026",
+        "credit": "BBC",
+        "creditUrl": "https://www.bbc.com/news/articles/cjy56dndlyz0o"
+      },
+      "sources": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cjy56dndlyz0o",
+          "kind": "article",
+          "time": "2026-11-02T17:00:00Z"
+        },
+        {
+          "label": "AP via iNFOnews",
+          "url": "https://infonews.ca/news/7969644/russian-bomb-attacks-on-aid-center-and-shelter-kill-18-ukrainian-president-says/",
+          "kind": "article",
+          "time": "2026-11-02T19:00:00Z"
+        },
+        {
+          "label": "@ZelenskyyUa on X",
+          "url": "https://x.com/ZelenskyyUa/status/2117301501098086698",
+          "kind": "x",
+          "time": "2026-11-02T17:03:00Z"
+        },
+        {
+          "label": "@BBCWorld",
+          "url": "https://bbc.in/4kuSaOI",
+          "kind": "article",
+          "via": {
+            "label": "@BBCWorld on X",
+            "url": "https://x.com/BBCWorld/status/2117310453793632334",
+            "kind": "x"
+          },
+          "time": "2026-11-02T17:38:00Z"
+        }
+      ]
+    },
+    {
+      "id": "merz-bundespraesidentin",
+      "weight": "normal",
+      "title": "Merz wants a woman to succeed Steinmeier",
+      "topics": [
+        "Germany",
+        "Politics"
+      ],
+      "facts": [
+        "At a closed CDU meeting in Berlin, Merz said he will propose \"a candidate of the political centre\" and is set on it being a woman, according to participants cited by dpa, Reuters and FAZ.",
+        "The CSU wants Bavarian state parliament president Ilse Aigner and has backing from parts of the SPD and Greens; Merz insists the CDU has the right to nominate.",
+        "Names floated from the CDU include Julia Klöckner, Karin Prien, Annegret Kramp-Karrenbauer and Ines Claus.",
+        "A first decision could come at next Monday's CDU leadership meeting; the Federal Convention votes on Jan 30."
+      ],
+      "whyItMatters": "It rules out the men in the running and could give Germany its first female head of state.",
+      "image": null,
+      "sources": [
+        {
+          "label": "tagesschau",
+          "url": "https://www.tagesschau.de/inland/merz-nachfolge-steinmeier-100.html",
+          "kind": "article",
+          "time": "2026-11-02T18:07:00Z"
+        },
+        {
+          "label": "DER SPIEGEL",
+          "url": "https://www.spiegel.de/politik/deutschland/friedrich-merz-legt-sich-fest-das-naechste-staatsoberhaupt-soll-eine-frau-sein-a-95f4944b-b4b6-42d5-9dee-4af59ff8bdb2",
+          "kind": "article",
+          "time": "2026-11-02T17:36:00Z"
+        },
+        {
+          "label": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-steinmeier-nachfolge-merz-will-auf-jeden-fall-eine-frau-faz-110093143.html",
+          "kind": "article",
+          "time": "2026-11-02T17:30:00Z"
+        },
+        {
+          "label": "@ZDFheute",
+          "url": "https://kurz.zdf.de/kUpX/",
+          "kind": "article",
+          "via": {
+            "label": "@ZDFheute on X",
+            "url": "https://x.com/ZDFheute/status/2117309821275803864",
+            "kind": "x"
+          },
+          "time": "2026-11-02T17:36:00Z"
+        }
+      ]
+    },
+    {
+      "id": "midterms-eve-courts",
+      "weight": "normal",
+      "title": "Midterms eve: DOJ goes to the Supreme Court over 20,000 California ballots, and a judge tosses the ex-FBI case as \"weaponization\"",
+      "topics": [
+        "US",
+        "Midterms"
+      ],
+      "facts": [
+        "The Justice Department asked the Supreme Court to make California set aside mail ballots from about 20,000 people it calls likely noncitizens, after a district judge and a split 9th Circuit panel refused.",
+        "California calls the list unreliable; a UCLA analysis found 42% of the names aren't on the current voter roll and that the list includes naturalized citizens. The court has no deadline to act.",
+        "Magistrate Judge Zia Faruqui dismissed the complaint against ex-FBI officials Nikki Floris and Bradley Benavides, finding no probable cause and calling the case \"weaponization\" timed before the vote.",
+        "In Michigan, Democrat Abdul El-Sayed's campaign says it raised $2.4m on Sunday after his former primary rival endorsed the Republican."
+      ],
+      "whyItMatters": "Courts keep pushing back on federal moves around the vote, and the fights could carry on after Tuesday.",
+      "image": {
+        "url": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2018-06-14T212253Z_1751329372_RC1664E29240_RTRMADP_3_USA-CONGRESS-FBI-1024x643.jpg",
+        "alt": "The Federal Bureau Investigation seal is seen at FBI headquarters before a news conference by the FBI Director on the Just...",
+        "credit": "PBS / AP",
+        "creditUrl": "https://www.pbs.org/newshour/politics/judge-dismisses-charges-against-ex-fbi-agents-accused-of-lying-about-hunter-biden-citing-weaponization"
+      },
+      "sources": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html",
+          "kind": "article",
+          "time": "2026-11-02T16:34:00Z"
+        },
+        {
+          "label": "NPR",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump",
+          "kind": "article",
+          "time": "2026-11-02T17:00:00Z"
+        },
+        {
+          "label": "PBS / AP",
+          "url": "https://www.pbs.org/newshour/politics/judge-dismisses-charges-against-ex-fbi-agents-accused-of-lying-about-hunter-biden-citing-weaponization",
+          "kind": "article",
+          "time": "2026-11-02T16:38:00Z"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/politics/justice-department/judge-dismisses-case-ex-fbi-agents-lying-congress-hunter-biden-rcna607048",
+          "kind": "article",
+          "time": "2026-11-02T16:30:00Z"
+        },
+        {
+          "label": "@washingtonpost",
+          "url": "https://www.washingtonpost.com/politics/2026/11/02/el-sayed-campaign-reports-24-million-fundraising-day-stevens-endorses-gop-rival/",
+          "kind": "article",
+          "via": {
+            "label": "@washingtonpost on X",
+            "url": "https://x.com/washingtonpost/status/2117312046870000024",
+            "kind": "x"
+          },
+          "time": "2026-11-02T17:45:04Z"
+        },
+        {
+          "label": "@nytimes",
+          "url": "https://nyti.ms/4A7hpLy",
+          "kind": "article",
+          "via": {
+            "label": "@nytimes on X",
+            "url": "https://x.com/nytimes/status/2117310866081161455",
+            "kind": "x"
+          },
+          "time": "2026-11-02T17:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-lifeval",
+      "weight": "normal",
+      "title": "OpenAI launches LifeVal, a benchmark for everyday tasks like booking, shopping and paperwork",
+      "topics": [
+        "AI"
+      ],
+      "facts": [
+        "LifeVal measures how well models get practical things done, such as enrolling a child in kindergarten, ordering groceries or booking a car inspection.",
+        "Tasks were picked using US and international time-use studies plus a new survey of 3,995 people about where they want help.",
+        "OpenAI says GPT-6 Astra scores 100% on several tasks and that it has used the eval for a year to push browser use, computer use and connectors."
+      ],
+      "whyItMatters": "It shows where OpenAI is steering ChatGPT: from chatting toward an assistant that acts for you.",
+      "image": null,
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/lifeval",
+          "kind": "primary",
+          "time": "2026-11-02T17:00:00Z",
+          "via": {
+            "label": "@OpenAI on X",
+            "url": "https://x.com/OpenAI/status/2117307611338997846",
+            "kind": "x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "worth-a-look",
+      "weight": "brief",
+      "title": "Worth a look",
+      "topics": [
+        "Worth a look"
+      ],
+      "facts": [
+        {
+          "text": "The UK home secretary scrapped the plan to make migrant care workers already in the UK wait 15 years for permanent settlement.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "A person in Yakima County, Washington, who caught bird flu from infected dairy cows has died.",
+          "sourceIndexes": [
+            1
+          ]
+        },
+        {
+          "text": "Dutch police offer a record €2m reward in the hunt for a drug lord.",
+          "sourceIndexes": [
+            2
+          ]
+        },
+        {
+          "text": "Zeit looks at Russian AI-made propaganda before the midterms, such as a fake Sarah Jessica Parker attacking Democrats.",
+          "sourceIndexes": [
+            3
+          ]
+        },
+        {
+          "text": "Trump says he might pardon Elon Musk if Democrats win.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "Space infrastructure startup Northwood Space raised $375m (Series C, a16z and DFJ Growth) at a $2bn valuation.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "Nearly half of the games released on Steam in October disclosed AI-generated content, up from 1.7% in January 2024 (analysis of 63,600 games).",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Former Xbox COO Helen Chiang denies the \"policy violations\" reportedly behind her firing.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "Business Insider reports that Anthropic's internal AI use, priced at retail, now exceeds what it pays its employees.",
+          "sourceIndexes": [
+            8
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://ichef.bbci.co.uk/news/1024/branded_news/055d/live/20e151f0-d6dd-11f1-b2be-0146bf989691.jpg",
+        "alt": "Two side-by-side images of Jos Leijdekkers. In one he is looking straight ahead at the camera. The other shows his side profile.",
+        "credit": "@BBCWorld",
+        "creditUrl": "https://bbc.in/48weal2"
+      },
+      "sources": [
+        {
+          "label": "@BBCBreaking",
+          "url": "https://bbc.in/4BE1KVz",
+          "kind": "article",
+          "via": {
+            "label": "@BBCBreaking on X",
+            "url": "https://x.com/BBCBreaking/status/2117284895902806274",
+            "kind": "x"
+          },
+          "time": "2026-11-02T15:57:11Z"
+        },
+        {
+          "label": "@CNN",
+          "url": "https://www.cnn.com/2026/11/02/health/bird-flu-death-2026?Date=20261102&Profile=CNN&utm_content=1793629646&utm_medium=social&utm_source=twitter",
+          "kind": "article",
+          "via": {
+            "label": "@CNN on X",
+            "url": "https://x.com/CNN/status/2117262314239939016",
+            "kind": "x"
+          },
+          "time": "2026-11-02T14:27:27Z"
+        },
+        {
+          "label": "@BBCWorld",
+          "url": "https://bbc.in/48weal2",
+          "kind": "article",
+          "via": {
+            "label": "@BBCWorld on X",
+            "url": "https://x.com/BBCWorld/status/2117309329791398321",
+            "kind": "x"
+          },
+          "time": "2026-11-02T17:34:16Z"
+        },
+        {
+          "label": "@zeitonline",
+          "url": "https://www.zeit.de/digital/internet/2026-10/ki-propaganda-slopaganda-us-midterms-russland",
+          "kind": "article",
+          "via": {
+            "label": "@zeitonline on X",
+            "url": "https://x.com/zeitonline/status/2117312475242672293",
+            "kind": "x"
+          },
+          "time": "2026-11-02T17:46:46Z"
+        },
+        {
+          "label": "@Forbes",
+          "url": "https://www.forbes.com/sites/saradorn/2026/11/02/trump-says-he-might-pardon-musk-if-democrats-win/",
+          "kind": "article",
+          "via": {
+            "label": "@Forbes on X",
+            "url": "https://x.com/Forbes/status/2117271791324295249",
+            "kind": "x"
+          },
+          "time": "2026-11-02T15:05:06Z"
+        },
+        {
+          "label": "@TechCrunch",
+          "url": "https://spr.ly/6017BHQYdF",
+          "kind": "article",
+          "via": {
+            "label": "@TechCrunch on X",
+            "url": "https://x.com/TechCrunch/status/2117261715960148433",
+            "kind": "x"
+          },
+          "time": "2026-11-02T14:25:04Z"
+        },
+        {
+          "label": "@AndroidAuth on X",
+          "url": "https://x.com/AndroidAuth/status/2117310081352290593",
+          "kind": "x",
+          "time": "2026-11-02T17:37:15Z"
+        },
+        {
+          "label": "@WindowsCentral",
+          "url": "https://www.windowscentral.com/gaming/xbox/former-xbox-coo-helen-chiang-denies-violating-microsoft-policies-in-parting-linkedin-post",
+          "kind": "article",
+          "via": {
+            "label": "@WindowsCentral on X",
+            "url": "https://x.com/WindowsCentral/status/2117321226385342656",
+            "kind": "x"
+          },
+          "time": "2026-11-02T18:21:32Z"
+        },
+        {
+          "label": "Business Insider",
+          "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+          "kind": "article"
+        }
+      ]
+    },
+    {
+      "id": "dev-notes",
+      "weight": "brief",
+      "title": "Dev notes",
+      "topics": [
+        "Dev notes"
+      ],
+      "facts": [
+        {
+          "text": "Vercel MCP now shows deployments as an interactive card, so you can monitor them inside ChatGPT.",
+          "sourceIndexes": [
+            0
+          ]
+        },
+        {
+          "text": "Vercel Sandbox with Drives starts up to 2.4x faster; Vercel Flags can now be evaluated from another project without sharing SDK keys, and Flags Explorer was redesigned for sharing overrides.",
+          "sourceIndexes": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Google announced a Quick Share SDK for Android and iOS for the first half of 2027, so apps can embed peer-to-peer sharing and Tap to Share.",
+          "sourceIndexes": [
+            4
+          ]
+        },
+        {
+          "text": "From today, Firebase AI Logic requires App Check enforcement, so set up attestation providers or the generative features stop working.",
+          "sourceIndexes": [
+            5
+          ]
+        },
+        {
+          "text": "OpenRouter says it now handles 100 trillion tokens a week; going from 10T to 100T took 28 weeks.",
+          "sourceIndexes": [
+            6
+          ]
+        },
+        {
+          "text": "Dax (thdxr) warns that GitHub org and repo secrets can be stolen by anyone with write access who gets hacked; put secrets in environments with protection rules.",
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "text": "Merged: SvelteKit's adapter-vercel now accepts every Node.js version from 26 up, and TypeScript fixed an exponential base-type search in hasBaseType.",
+          "sourceIndexes": [
+            8,
+            9
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://opengraph.githubassets.com/6ecbfa7f384742021b4e39b7854b559769b550e5dd07f302dd491a4295bd5c39/sveltejs/kit/pull/17584",
+        "alt": "Summary Let @sveltejs/adapter-vercel accept every Node.js major from 26 onwards, not only even ones, so Node.js 27 builds resolve to nodejs27.x instead of throwing. Context #17570 made the adapter ...",
+        "credit": "sveltejs/kit #17584",
+        "creditUrl": "https://github.com/sveltejs/kit/pull/17584"
+      },
+      "sources": [
+        {
+          "label": "Vercel changelog",
+          "url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+          "kind": "primary",
+          "time": "2026-11-02T17:05:00Z"
+        },
+        {
+          "label": "Vercel changelog",
+          "url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+          "kind": "primary",
+          "time": "2026-11-02T16:39:00Z"
+        },
+        {
+          "label": "Vercel changelog",
+          "url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+          "kind": "primary",
+          "time": "2026-11-02T16:00:00Z"
+        },
+        {
+          "label": "Vercel changelog",
+          "url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+          "kind": "primary",
+          "time": "2026-11-02T16:58:00Z"
+        },
+        {
+          "label": "@MishaalRahman on X",
+          "url": "https://x.com/MishaalRahman/status/2117320917718331609",
+          "kind": "x",
+          "time": "2026-11-02T18:20:19Z"
+        },
+        {
+          "label": "@Firebase",
+          "url": "https://goo.gle/4sr8wKt",
+          "kind": "article",
+          "via": {
+            "label": "@Firebase on X",
+            "url": "https://x.com/Firebase/status/2117310980392730800",
+            "kind": "x"
+          },
+          "time": "2026-11-02T17:40:50Z"
+        },
+        {
+          "label": "@OpenRouter on X",
+          "url": "https://x.com/OpenRouter/status/2117310358100869267",
+          "kind": "x",
+          "time": "2026-11-02T17:38:21Z"
+        },
+        {
+          "label": "@thdxr on X",
+          "url": "https://x.com/thdxr/status/2117299716987789772",
+          "kind": "x",
+          "time": "2026-11-02T16:56:04Z"
+        },
+        {
+          "label": "sveltejs/kit #17584",
+          "url": "https://github.com/sveltejs/kit/pull/17584",
+          "kind": "primary",
+          "time": "2026-11-02T16:32:04Z"
+        },
+        {
+          "label": "microsoft/TypeScript #64737",
+          "url": "https://github.com/microsoft/TypeScript/pull/64737",
+          "kind": "primary",
+          "time": "2026-11-02T12:34:35Z"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "weight": "brief",
+      "title": "Sports",
+      "topics": [
+        "Sports"
+      ],
+      "facts": [
+        {
+          "text": "Eintracht Braunschweig will hold a winter training camp in Belek, Turkey, from Jan 4 to 11, its first winter camp in four years.",
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "image": null,
+      "sources": [
+        {
+          "label": "@EintrachtBSNews",
+          "url": "https://go.eintracht.com/Winter-TL-Belek",
+          "kind": "article",
+          "via": {
+            "label": "@EintrachtBSNews on X",
+            "url": "https://x.com/EintrachtBSNews/status/2117308053817098305",
+            "kind": "x"
+          },
+          "time": "2026-11-02T17:29:12Z"
+        }
+      ]
+    }
+  ]
+}
