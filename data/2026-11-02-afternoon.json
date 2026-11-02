@@ -1,0 +1,403 @@
+{
+ "id": "2026-11-02-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-11-02T13:15:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:20)",
+ "headline": "Supermarket freezers hacked again across Europe, Berlin's AI-nation plan, and a fuel price cap with a high trigger",
+ "stories": [
+  {
+   "id": "supermarket-fridge-hack",
+   "weight": "lead",
+   "title": "Hackers turn up supermarket freezers in Belgium, Sweden and Luxembourg, weeks after the French attack",
+   "topics": [
+    "Security",
+    "Europe"
+   ],
+   "facts": [
+    "Overnight into Monday, fridge and freezer settings were changed remotely in dozens of stores: about 40 Delhaize and 15 Carrefour shops in Belgium, around five Spar stores, plus Delhaize in Luxembourg.",
+    "In Sweden several ICA stores and six or seven Coop stores were hit; one ICA store in Sjöbo says its freezers were set to 50 °C. The BBC also reports 13 SuperValu shops affected in Ireland.",
+    "Butcher chain De Laet & Van Haver says alarms went off at 3 a.m. after outside changes switched its evaporators into defrost mode.",
+    "Euronews cites Belgian reports of about €100,000 of food thrown away. Delhaize calls it an \"IT incident\", and ICA says the stores hit run outside its central network.",
+    "It mirrors the mid-October attack on hundreds of French Intermarché and Coopérative U stores, which hit Danfoss refrigeration; a link isn't confirmed and nobody has claimed it.",
+    "Belgium's Centre for Cybersecurity says it is following the incident closely."
+   ],
+   "whyItMatters": "A second cross-border wave in three weeks suggests someone has a repeatable way into internet-connected store refrigeration, and food retail is now a proven target.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/0873/live/ecc62190-d6ad-11f1-ac90-f7afd947062e.jpg",
+    "alt": "An employee cleans freezers that are out of power at an ICA suparmarket on Odengatan in Stockholm, on November 2, 2026 after a number of ICA and Coop stores have suffered problems with their refrigerators and freezers overnight.",
+    "credit": "BBC News",
+    "creditUrl": "https://www.bbc.com/news/articles/cq1kd1nee80eo"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
+     "kind": "article"
+    },
+    {
+     "label": "POLITICO Europe",
+     "url": "https://www.politico.eu/article/new-supermarket-hack-in-belgium-sweden-luxembourg/",
+     "kind": "article"
+    },
+    {
+     "label": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+     "kind": "article"
+    },
+    {
+     "label": "RTBF (French)",
+     "url": "https://www.rtbf.be/article/les-frigos-de-plusieurs-dizaines-de-supermarches-touches-par-un-incident-informatique-11809193",
+     "kind": "article"
+    },
+    {
+     "label": "Euronews",
+     "url": "https://www.euronews.com/2026/11/02/cyberattack-hits-belgian-supermarket-fridges-and-freezers",
+     "kind": "article"
+    },
+    {
+     "label": "BBC World",
+     "url": "https://bbc.in/4zilPiF",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2117216490105561262",
+      "kind": "x"
+     },
+     "time": "2026-11-02T11:25:00Z"
+    }
+   ]
+  },
+  {
+   "id": "ki-nation-2030",
+   "weight": "normal",
+   "title": "Digital summit: Berlin wants Germany to be an \"AI nation\" by 2030",
+   "topics": [
+    "Germany",
+    "AI"
+   ],
+   "facts": [
+    "Digital minister Karsten Wildberger opened the two-day Digital-Gipfel in Berlin: \"We are still too slow.\"",
+    "The AI task force's final report sets 2030 targets: AI in at least 80% of large firms and 55% of SMEs, three times as many AI startups, over 10% of economic output AI-based, and AI in core work at 90% of federal agencies.",
+    "It lists 18 measures, including closer work with France and Canada, and says the window to catch up closes within the next 12 to 18 months.",
+    "Germany's planned AI safety institute is to cooperate with Canada.",
+    "The full report is due out around 16:00 Berlin today, and Chancellor Merz speaks at the summit this afternoon."
+   ],
+   "whyItMatters": "These are the first concrete numbers Berlin can be held to on AI, and economists say Germany is still poorly prepared.",
+   "image": null,
+   "sources": [
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/wirtschaft/digitalgipfel-deutschland-bleiben-noch-anderthalb-jahre-sagt-die-ki-taskforce-accg-201643385.html",
+     "kind": "article"
+    },
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/politik/deutschland/digitalgipfel-digitalminister-wildberger-will-mehr-tempo-bei-ki/100265528.html",
+     "kind": "article"
+    },
+    {
+     "label": "Digital-Gipfel (BMDS)",
+     "url": "https://bmds.bund.de/aktuelles/digital-gipfel",
+     "kind": "primary"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2117185155961946360",
+     "kind": "x",
+     "time": "2026-11-02T09:20:00Z"
+    }
+   ]
+  },
+  {
+   "id": "spritpreisdeckel-draft",
+   "weight": "normal",
+   "title": "Reiche's fuel price cap draft only kicks in after three weeks of outsized price jumps",
+   "topics": [
+    "Germany",
+    "Energy"
+   ],
+   "facts": [
+    "The economy ministry's draft law would take effect on Jan 1, 2027, but the legal basis lasts only three months.",
+    "A cap isn't automatic: the government may set one only if German petrol or diesel prices rise more than 5 percentage points above the EU average in each of three straight weeks (pre-tax, per the EU's Weekly Oil Bulletin).",
+    "No price in cents is set yet; that comes later by ordinance. States may set their own regional caps, up or down, and the cap can be suspended if supply is at risk.",
+    "Breaches could cost up to €5m in fines.",
+    "The draft has only just entered early coordination inside the government."
+   ],
+   "whyItMatters": "The coalition promised the cap as a replacement for the fuel tax rebate, but as drafted it only triggers in an extreme price gap.",
+   "image": null,
+   "sources": [
+    {
+     "label": "FOCUS online",
+     "url": "https://www.focus.de/finanzen/spritpreisdeckel-soll-erst-bei-extremen-preisspruengen-gelten_701de63e-501f-4a06-8c5c-a567ddea7858.html",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL",
+     "url": "https://www.spiegel.de/wirtschaft/katherina-reiche-cdu-formuliert-erste-plaene-fuer-spritpreisdeckel-a-f41e4366-d70a-485a-959b-f5d16256e46a",
+     "kind": "article"
+    },
+    {
+     "label": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/politik/deutschland/energie-geheimer-gesetzentwurf-zeigt-wie-der-spritpreisdeckel-aussehen-soll/100266485.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2117190807656505563",
+     "kind": "x",
+     "time": "2026-11-02T09:43:00Z"
+    }
+   ]
+  },
+  {
+   "id": "rsf-predators-trump",
+   "weight": "normal",
+   "title": "Reporters Without Borders puts Trump on its press freedom predators list for the first time",
+   "topics": [
+    "Press freedom",
+    "US"
+   ],
+   "facts": [
+    "RSF's 2026 list names 33 \"predators\"; new entries include Donald Trump and Egypt's Abdel Fattah al-Sisi.",
+    "RSF says Trump uses the power of his office against media whose coverage he dislikes; the US ranks 64th of 180 in its index.",
+    "Also listed: FCC chair Brendan Carr, Alphabet and Meta (for draining ad revenue), Elon Musk, Vladimir Putin and China's Communist Party.",
+    "RSF Germany's Christian Mihr calls a US president next to Xi and Putin \"a turning point\", while noting Orbán and Vučić lost power.",
+    "The list marks today's International Day to End Impunity for Crimes against Journalists."
+   ],
+   "whyItMatters": "It's a symbolic but sharp signal from the main press-freedom watchdog, landing on the eve of the US midterms.",
+   "image": {
+    "url": "https://media.reporter-ohne-grenzen.de/production/6636/conversions/01M66NZQYT0TQZPQ759XW1Z11A-frontend.jpg",
+    "alt": "Mehrere Feinde Menschen, die lt. RSF Feinde der Pressefreiheit sind, nebeneinander im Spielkartenformat aufgelistet. Die Portraitfotos der Menschen sind in schwarz-weiß gehalten, die Spielkarten in rot-schwarz.",
+    "credit": "Reporter ohne Grenzen (German)",
+    "creditUrl": "https://www.reporter-ohne-grenzen.de/artikel/pressemitteilungen/4324/die-feinde-der-pressefreiheit-2026"
+   },
+   "sources": [
+    {
+     "label": "RSF: 2026 Press Freedom Predators",
+     "url": "https://rsf.org/en/2026-press-freedom-predators-list",
+     "kind": "primary"
+    },
+    {
+     "label": "Reporter ohne Grenzen (German)",
+     "url": "https://www.reporter-ohne-grenzen.de/artikel/pressemitteilungen/4324/die-feinde-der-pressefreiheit-2026",
+     "kind": "primary"
+    },
+    {
+     "label": "ZDFheute",
+     "url": "https://www.zdfheute.de/politik/ausland/reporter-ohne-grenzen-trump-pressefreiheit-usa-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "ZEIT ONLINE on X",
+     "url": "https://x.com/zeitonline/status/2117210581316907222",
+     "kind": "x",
+     "time": "2026-11-02T11:01:00Z"
+    }
+   ]
+  },
+  {
+   "id": "nudify-app-network",
+   "weight": "normal",
+   "title": "WIRED finds 400 harmless-looking AI apps hiding a sexual deepfake generator",
+   "topics": [
+    "AI",
+    "Security",
+    "Platforms"
+   ],
+   "facts": [
+    "The network of over 400 apps and domains poses as pet-portrait, language or workout tools, then loads a hidden explicit-deepfake interface for some users, for example after clicking a Meta ad.",
+    "Researchers tie it to Chinese-language developers and a Hong Kong entity, KeLing Technology Limited, which didn't respond.",
+    "In September 27 of the apps were live on Google Play with over 350,000 downloads; one, DiffAI, passed 100,000.",
+    "Apple pulled 19 apps after WIRED asked and calls it a bait-and-switch after review; Google had removed most before being contacted.",
+    "Meta says it acted against 11,600 ad accounts and blocked 209 apps from advertising; similar ads kept appearing as WIRED finished the story."
+   ],
+   "whyItMatters": "App store review and ad moderation are being beaten by server-side switching, and the victims are people whose photos get uploaded.",
+   "image": {
+    "url": "https://media.wired.com/photos/6adfc11328ba980ed3d0219a/191:100/w_1280,c_limit/Security_ChinaAppsBehindDeepFakes_v1.jpg",
+    "alt": "WIRED photo illustration for its investigation into hidden deepfake apps",
+    "credit": "WIRED",
+    "creditUrl": "https://buff.ly/BN0GHu7"
+   },
+   "sources": [
+    {
+     "label": "WIRED",
+     "url": "https://buff.ly/BN0GHu7",
+     "kind": "article",
+     "via": {
+      "label": "WIRED on X",
+      "url": "https://x.com/WIRED/status/2117195642711732713",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "At the Manama Dialogue, Gulf diplomats fear a new US-Israeli strike on Iran soon after the US elections; a US carrier group is heading there and Iran threatens to cut the Gulf's internet cables.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Uganda has started pulling its troops out of the AU mission in Somalia after nearly 20 years; the phased exit is due to finish in August 2027.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Elon Musk says Grok Bot's running costs were \"unsustainably high\" relative to revenue, as users run into weekly limits.",
+     "sourceIndexes": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "Detroit techno pioneer Juan Atkins (Cybotron, Model 500) has died in Mexico City.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Tesla's Cybercab starts a European tour on Nov 5.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/3c17/live/01b6a350-d68f-11f1-b7fe-13bd08d80ad6.jpg",
+    "alt": "A group of soldiers in military uniform stand in front of a military truck on a bushy field with sandy patches",
+    "credit": "BBC News",
+    "creditUrl": "https://bbc.in/4efB6IO"
+   },
+   "sources": [
+    {
+     "label": "FAZ",
+     "url": "https://www.faz.net/aktuell/politik/ausland/eskalation-im-irankrieg-die-aengste-der-golfstaaten-accg-201640526.html",
+     "kind": "article"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://bbc.in/4efB6IO",
+     "kind": "article"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1024272/elon-musk-appears-to-have-throttled-grok-bot-for-being-unsustainably-expensive",
+     "kind": "article"
+    },
+    {
+     "label": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/artificial-intelligence/musk-says-cost-of-running-grok-bot-unsustainably-high-relative-to-revenue/4108264",
+     "kind": "article"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2117192396228415493",
+     "kind": "x",
+     "time": "2026-11-02T09:49:00Z"
+    },
+    {
+     "label": "Tesla Europe on X",
+     "url": "https://x.com/teslaeurope/status/2117171084466257939",
+     "kind": "x",
+     "time": "2026-11-02T08:24:00Z"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Beyond OpenAI, Google, Microsoft and Anthropic now back the shared robots.txt AI-training opt-out (User-Agent: __usage_ai-training); Microsoft honours it from Feb 1, 2027 and Google in early 2027.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Bun's next version adds import.meta.glob.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Svelte fixed reactive context leaking past nested awaits in production builds.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "SvelteKit's enhanced-img now computes a missing image dimension at runtime, and inline assets are read by UTF-8 byte length.",
+     "sourceIndexes": [
+      4,
+      5
+     ]
+    },
+    {
+     "text": "Tailwind CSS now parses a custom property at the end of input without a trailing semicolon.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/43e41328c81741c8a605525e679f24fe3d308e019a0fb96dcdbc0f889d8114cd/sveltejs/svelte/pull/19134",
+    "alt": "#18694 is meant to pickle every await that runs after a pickled one, including at the end, so the context doesn't leak past them. Previously, the analyzer decides this before visiting the await...",
+    "credit": "sveltejs/svelte #19134",
+    "creditUrl": "https://github.com/sveltejs/svelte/pull/19134"
+   },
+   "sources": [
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+     "kind": "article"
+    },
+    {
+     "label": "IETF draft",
+     "url": "https://datatracker.ietf.org/doc/html/draft-kelley-aipref-training-preference-signal-00",
+     "kind": "primary"
+    },
+    {
+     "label": "Bun on X",
+     "url": "https://x.com/bunjavascript/status/2117177230388551833",
+     "kind": "x",
+     "time": "2026-11-02T08:49:00Z"
+    },
+    {
+     "label": "sveltejs/svelte #19134",
+     "url": "https://github.com/sveltejs/svelte/pull/19134",
+     "kind": "primary"
+    },
+    {
+     "label": "sveltejs/kit #17499",
+     "url": "https://github.com/sveltejs/kit/pull/17499",
+     "kind": "primary"
+    },
+    {
+     "label": "sveltejs/kit #17590",
+     "url": "https://github.com/sveltejs/kit/pull/17590",
+     "kind": "primary"
+    },
+    {
+     "label": "tailwindcss #20653",
+     "url": "https://github.com/tailwindlabs/tailwindcss/pull/20653",
+     "kind": "primary"
+    }
+   ]
+  }
+ ]
+}
