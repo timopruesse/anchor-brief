@@ -1,0 +1,480 @@
+{
+ "id": "2026-11-03-afternoon",
+ "edition": "afternoon",
+ "generatedAt": "2026-11-03T13:10:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "since the morning edition (~08:30)",
+ "headline": "Zelensky in Berlin after a deadly strike, supermarket fridge hacks hit Germany, and the EU clears JD.com's MediaMarktSaturn deal",
+ "stories": [
+  {
+   "id": "zelensky-berlin",
+   "weight": "lead",
+   "title": "Zelensky makes a surprise visit to Berlin after a deadly strike on an aid point and a massive overnight attack on Ukraine's grid",
+   "topics": [
+    "Ukraine",
+    "Germany"
+   ],
+   "facts": [
+    "Merz announced the visit only this morning at a Berlin IHK breakfast, saying Zelensky would be with him \"over lunch\"; it had been kept secret for security reasons.",
+    "Zelensky says he'll meet the Chancellor, the Federal President and the Bundestag president, and speak at the Berlin Security Conference; his priorities are diplomatic coordination, air defence and the energy sector.",
+    "Kyiv wants more Patriot interceptors and help keeping the grid running through winter, a week before the US-led three-way talks in Abu Dhabi.",
+    "Overnight Russia hit power plants and substations in Odesa, Cherkasy, Zhytomyr, Vinnytsia, Kharkiv, Dnipro, Chernivtsi, Chernihiv and other regions, according to Zelensky.",
+    "The death toll from Russia's strike on an aid distribution at a school in Komyshuvakha (Zaporizhzhia region) has risen to at least 26 per Zelensky, up from 18 last night; 27 people are still missing.",
+    "About 3,400 extra police are on duty in Berlin, with parts of the government district and City West closed and disruptions on the U5 and the Ringbahn."
+   ],
+   "whyItMatters": "Germany is Ukraine's biggest European backer, and this visit sets up air-defence and energy help right before the next round of peace talks.",
+   "image": {
+    "url": "https://static.dw.com/image/79840819_6.jpg",
+    "alt": "German Chancellor Friedrich Merz, right, welcomes Ukrainian President Volodymyr Zelenskyy in Berlin",
+    "credit": "DW",
+    "creditUrl": "https://www.dw.com/en/zelenskyy-arrives-in-berlin-for-talks-with-merz-on-air-defense-and-energy-support-ahead-of-us-led-negotiations-with-russia/a-79836026"
+   },
+   "sources": [
+    {
+     "label": "DW",
+     "url": "https://www.dw.com/en/zelenskyy-arrives-in-berlin-for-talks-with-merz-on-air-defense-and-energy-support-ahead-of-us-led-negotiations-with-russia/a-79836026",
+     "kind": "article",
+     "time": "2026-11-03T08:23:12Z"
+    },
+    {
+     "label": "@ZelenskyyUa",
+     "url": "https://x.com/ZelenskyyUa/status/2117569868119642185",
+     "kind": "x",
+     "time": "2026-11-03T10:49:33Z"
+    },
+    {
+     "label": "@ZelenskyyUa",
+     "url": "https://x.com/ZelenskyyUa/status/2117532744729100646",
+     "kind": "x",
+     "time": "2026-11-03T08:22:02Z"
+    },
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/ausland/ukraine-saporischschja-tote-100.html",
+     "kind": "article",
+     "time": "2026-11-03T09:00:00Z"
+    },
+    {
+     "label": "Tagesspiegel",
+     "url": "https://www.tagesspiegel.de/berlin/am-dienstag-kommen-staatsgaste-und-ein-spezialgast-sicherheitskonferenz-bringt-fur-berlins-verkehr-viele-einschrankungen-16233702.html",
+     "kind": "article",
+     "time": "2026-11-03T11:35:00Z"
+    },
+    {
+     "label": "Deutschlandfunk",
+     "url": "https://www.deutschlandfunk.de/hochkaraetig-besetzte-sicherheitskonferenz-beginnt-rede-selenskyjs-angekuendigt-102.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "supermarket-cooling-hacks-germany",
+   "weight": "normal",
+   "title": "The supermarket fridge hacks have reached Germany: four stores in NRW and Bavaria",
+   "topics": [
+    "Security",
+    "Germany"
+   ],
+   "facts": [
+    "Two CAP markets (Wuppertal and Wetter-Volmarstein), a Rewe in Raesfeld and an Edeka in Reisbach had their cooling switched to heating overnight, and large amounts of food were thrown away.",
+    "In Reisbach the units were heated to 50 °C overnight into Monday, according to heise.",
+    "Police in Niederbayern are investigating but haven't confirmed a cyberattack yet, and it's unclear who is behind it.",
+    "It follows the wave of manipulated fridges and freezers in Belgium, Luxembourg, Sweden and Ireland from yesterday; Zeit reports the EU Commission is concerned."
+   ],
+   "whyItMatters": "What looked like a Benelux and Nordic problem is now hitting German chains, so connected refrigeration controls are clearly a live target.",
+   "image": null,
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/inland/cyberangriffe-supermarkt-hacker-100.html",
+     "kind": "article",
+     "time": "2026-11-03T11:28:00Z"
+    },
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Cyberangriffe-auf-Kuehlschraenke-Erste-deutsche-Faelle-in-Bayern-und-NRW-11508922.html",
+     "kind": "article",
+     "time": "2026-11-03T10:44:00+01:00"
+    },
+    {
+     "label": "Zeit Online",
+     "url": "https://www.zeit.de/digital/2026-11/cyberangriffe-kuehlsysteme-supermaerkte-frankreich-eu-kommission",
+     "kind": "article",
+     "via": {
+      "label": "@zeitonline",
+      "url": "https://x.com/zeitonline/status/2117527387244003813",
+      "kind": "x"
+     },
+     "time": "2026-11-03T08:00:45Z"
+    }
+   ]
+  },
+  {
+   "id": "jd-ceconomy-eu",
+   "weight": "normal",
+   "title": "EU clears JD.com's takeover of MediaMarktSaturn owner Ceconomy, with 10 years of conditions",
+   "topics": [
+    "Business",
+    "EU",
+    "China"
+   ],
+   "facts": [
+    "The Commission approved the deal under the Foreign Subsidies Regulation after finding JD.com got preferential financing, tax breaks and grants from China.",
+    "JD.com must deal with Ceconomy on market terms, including any financing, to prevent cross-subsidies.",
+    "It must also offer its warehousing, logistics and tech services to rival retailers on the same terms it gives Ceconomy.",
+    "The commitments run for 10 years and an independent trustee will monitor them; China had threatened countermeasures over the probe in August.",
+    "Ceconomy says this was the last outstanding approval and the deal will close in the coming days; the offer values Ceconomy at about €2.2bn."
+   ],
+   "whyItMatters": "Europe's biggest electronics retailer is about to be Chinese-owned, and this is a showcase use of the EU's new foreign-subsidy rules.",
+   "image": {
+    "url": "https://www.ceconomy-mms.com/api/media/file/CECONOMY%20Headquarter_1%20(1)-1200x630.jpg",
+    "alt": "CECONOMY HQ",
+    "credit": "Ceconomy",
+    "creditUrl": "https://www.ceconomy-mms.com/de/article/neues-kapitel-ceconomy-und-jdcom-erhalten-abschliessende-behordliche-genehmigung"
+   },
+   "sources": [
+    {
+     "label": "Ceconomy",
+     "url": "https://www.ceconomy-mms.com/de/article/neues-kapitel-ceconomy-und-jdcom-erhalten-abschliessende-behordliche-genehmigung",
+     "kind": "primary"
+    },
+    {
+     "label": "FAZ (dpa)",
+     "url": "https://www.faz.net/agenturmeldungen/dpa/eu-genehmigt-uebernahme-von-mediamarktsaturn-unter-auflagen-201647131.html",
+     "kind": "article",
+     "time": "2026-11-03T11:46:00+01:00"
+    },
+    {
+     "label": "Spiegel",
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/mediamarkt-saturn-eu-kommission-genehmigt-uebernahme-durch-chinesischen-techriesen-jd-com-a-72d1e702-9517-4dd9-a124-16d050f8e556",
+     "kind": "article",
+     "time": "2026-11-03T11:51:00+01:00"
+    },
+    {
+     "label": "CNA (Reuters)",
+     "url": "https://www.channelnewsasia.com/business/jdcom-wins-eu-approval-acquisition-ceconomy-6516611",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "reserve-gas-plants-auction",
+   "weight": "normal",
+   "title": "First reserve power plant auction goes entirely to gas, mostly RWE and LEAG",
+   "topics": [
+    "Energy",
+    "Germany"
+   ],
+   "facts": [
+    "The Bundesnetzagentur awarded 11 contracts totalling about 5,160 MW in its first auction for backup capacity against short-term power shortages.",
+    "Ten went to RWE and LEAG (including its subsidiary Gaskraftwerk Leipheim), and one to Stadtwerke Karlsruhe.",
+    "Every award went to gas plants, which are meant to secure supply from November 2031.",
+    "Spiegel notes LEAG plans to convert old lignite plants to gas, with electricity customers paying for it."
+   ],
+   "whyItMatters": "This sets who builds Germany's backup power for the 2030s, and power customers will end up footing the bill.",
+   "image": null,
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/energie/bundesnetzagentur-gaskraftwerke-100.html",
+     "kind": "article",
+     "time": "2026-11-03T10:28:00Z"
+    },
+    {
+     "label": "Zeit Online",
+     "url": "https://www.zeit.de/politik/deutschland/2026-11/reservekraftwerke-ausschreibung-erdgas-batteriespeicher-foerderung-gxe",
+     "kind": "article",
+     "via": {
+      "label": "@zeitonline",
+      "url": "https://x.com/zeitonline/status/2117564298088100345",
+      "kind": "x"
+     },
+     "time": "2026-11-03T10:27:25Z"
+    },
+    {
+     "label": "@derspiegel",
+     "url": "https://x.com/derspiegel/status/2117534627992875258",
+     "kind": "x",
+     "time": "2026-11-03T08:29:31Z"
+    }
+   ]
+  },
+  {
+   "id": "schaeffler-cuts",
+   "weight": "normal",
+   "title": "Schaeffler cuts 3,460 jobs and closes German sites",
+   "topics": [
+    "Business",
+    "Germany"
+   ],
+   "facts": [
+    "The auto and industrial supplier is cutting 3,460 jobs worldwide, 2,660 of them in Germany.",
+    "Four German sites will close; heise counts 16 sites affected and five closures overall.",
+    "Schaeffler expects to save €300m a year from 2030, with one-off costs of about €480m."
+   ],
+   "whyItMatters": "It's another big cut in Germany's struggling auto supply chain.",
+   "image": null,
+   "sources": [
+    {
+     "label": "tagesschau",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/schaeffler-154.html",
+     "kind": "article"
+    },
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Schaeffler-streicht-3460-Stellen-und-schliesst-vier-deutsche-Standorte-11508878.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Apple confirms its mercenary-spyware warnings, which also reached German politicians, went out on October 29 to users in 99 countries.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Bomb threats hit flights from UK airports; two planes were checked in Warsaw (Modlin) and one in Murcia.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "MI5 won't face contempt charges despite admitting it gave false evidence to three courts in the Agent X case; police may still look at officers for misconduct.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Tenerife striker Jesús de Miguel, 30, has died after a collision with FC Andorra's goalkeeper.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "NASA's 3,200-pound Swift observatory, launched in 2004, re-enters this week; much of it won't survive and the risk is low.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "The White House refuses to release documents on how it vets threats from new AI models, citing national security in a lawsuit.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Correctiv reports a second data leak at NIUS, exposing data of about 42,000 newsletter subscribers.",
+     "sourceIndexes": [
+      7
+     ]
+    },
+    {
+     "text": "Researchers found hemoglobin-related biomolecules in a dinosaur leg bone for the first time.",
+     "sourceIndexes": [
+      8
+     ]
+    },
+    {
+     "text": "The CDU will decide next week on its candidate for Bundespräsidentin, and Merz says a draft law banning expropriation of housing companies is ready.",
+     "sourceIndexes": [
+      9,
+      10
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/b459/live/61564d20-d774-11f1-a956-ff083523ef77.jpg",
+    "alt": "The arrivals gate at Warsaw Modlin Airport",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/c6x2wd4v04eeo"
+   },
+   "sources": [
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Auch-deutsche-Bundespolitik-Apple-bestaetigt-Spyware-Warnung-11508629.html",
+     "kind": "article",
+     "time": "2026-11-03T11:59:00+01:00"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/c6x2wd4v04eeo",
+     "kind": "article",
+     "time": "2026-11-03T11:22:00Z"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq5yn64wn2y7o",
+     "kind": "article",
+     "time": "2026-11-03T10:21:00Z"
+    },
+    {
+     "label": "BBC Sport",
+     "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo",
+     "kind": "article"
+    },
+    {
+     "label": "sportschau",
+     "url": "https://www.sportschau.de/fussball/mehr-internationale-ligen/teneriffa-stuermer-jesus-de-miguel-stirbt-nach-foul,teneriffa-jesus-de-miguel-100.html",
+     "kind": "article"
+    },
+    {
+     "label": "WIRED",
+     "url": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact/",
+     "kind": "article",
+     "time": "2026-11-03T05:45:00-05:00"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/technology/2026/11/02/white-house-refuses-disclose-how-it-vets-ai-security-threats/",
+     "kind": "article",
+     "via": {
+      "label": "@washingtonpost",
+      "url": "https://x.com/washingtonpost/status/2117572546233000082",
+      "kind": "x"
+     },
+     "time": "2026-11-03T11:00:12Z"
+    },
+    {
+     "label": "Correctiv",
+     "url": "https://correctiv.org/aktuelles/datenschutz/2026/11/03/erneutes-datenleck-bei-nius-daten-tausender-abonnenten-ungeschuetzt/",
+     "kind": "article",
+     "time": "2026-11-03T06:37:57Z"
+    },
+    {
+     "label": "@derspiegel",
+     "url": "https://x.com/derspiegel/status/2117559971340849184",
+     "kind": "x",
+     "time": "2026-11-03T10:10:14Z"
+    },
+    {
+     "label": "Zeit Online",
+     "url": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesident-nachfolge-cdu-union-franziska-hoppermann-gxe",
+     "kind": "article",
+     "via": {
+      "label": "@zeitonline",
+      "url": "https://x.com/zeitonline/status/2117575492911915472",
+      "kind": "x"
+     },
+     "time": "2026-11-03T11:11:54Z"
+    },
+    {
+     "label": "Zeit Online",
+     "url": "https://www.zeit.de/politik/2026-11/enteignungsverbot-wohnungsgesellschaften-friedrich-merz-cdu-berlin-gxe",
+     "kind": "article",
+     "via": {
+      "label": "@zeitonline",
+      "url": "https://x.com/zeitonline/status/2117550014473854986",
+      "kind": "x"
+     },
+     "time": "2026-11-03T09:30:40Z"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Siemens Simatic IoT2050 devices are being pulled into a botnet via CVE-2026-58115 (CVSS 10), which was patched in August.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Affinity is coming to Linux; Canva says it's in active development but gives no date.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Apple Intelligence launches in China with iOS 27.3; the developer beta comes Wednesday and the release in December.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The 16GB Raspberry Pi 5 now costs $385 after another $80 hike, up from $120 at launch in January 2025.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "PostHog writes up why it's moving off DuckDB.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Mozilla's Firefox security and privacy newsletter for Q3 is out.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "Google is rolling out a fix for Pixel Watch battery drain.",
+     "sourceIndexes": [
+      6
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Internet-of-Things-Siemens-Simatic-IoT2050-angegriffen-11509246.html",
+     "kind": "article",
+     "time": "2026-11-03T12:09:00+01:00"
+    },
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Affinity-kommt-fuer-Linux-11509360.html",
+     "kind": "article",
+     "time": "2026-11-03T12:02:00+01:00"
+    },
+    {
+     "label": "heise",
+     "url": "https://www.heise.de/news/Apple-Intelligence-kommt-nach-China-mit-iOS-27-3-11508160.html",
+     "kind": "article",
+     "time": "2026-11-03T12:28:00+01:00"
+    },
+    {
+     "label": "@androidcentral",
+     "url": "https://x.com/androidcentral/status/2117524395023573340",
+     "kind": "x",
+     "time": "2026-11-03T07:48:52Z"
+    },
+    {
+     "label": "PostHog",
+     "url": "https://posthog.com/blog/moving-off-duckdb",
+     "kind": "primary"
+    },
+    {
+     "label": "Attack & Defense",
+     "url": "https://attackanddefense.dev/2026/11/02/firefox-security-and-privacy-newsletter-q3.html",
+     "kind": "primary",
+     "time": "2026-11-02T23:00:00Z"
+    },
+    {
+     "label": "Android Authority",
+     "url": "https://www.androidauthority.com/google-pixel-watch-battery-drain-fix-rolling-out-3730991/",
+     "kind": "article",
+     "time": "2026-11-03T08:02:24Z"
+    }
+   ]
+  }
+ ]
+}
