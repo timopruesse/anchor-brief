@@ -1,0 +1,739 @@
+{
+ "id": "2026-11-03-morning",
+ "edition": "morning",
+ "generatedAt": "2026-11-03T08:15:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight, since the evening edition (~19:30)",
+ "headline": "US strikes Iran's Qeshm Island as America votes, the Supreme Court keeps 20,000 California ballots, and new Ukraine talks",
+ "stories": [
+  {
+   "id": "us-strikes-qeshm",
+   "weight": "lead",
+   "title": "US strikes Iran's Qeshm Island in the Strait of Hormuz on the eve of the midterms",
+   "topics": [
+    "Iran",
+    "USA",
+    "Middle East"
+   ],
+   "facts": [
+    "US officials told CBS the strikes on Qeshm Island were \"limited\" and a response to the Revolutionary Guards firing on a US aircraft; Reuters calls them \"defensive\" strikes.",
+    "Iran's state agency IRNA reported several explosions on the island.",
+    "Trump told Axios there's \"no rush\" (\"We crippled them financially\"), and told Fox the US \"might need to go after Pickaxe\", a nuclear-linked site, which he said could be done in \"one hour\".",
+    "Asked whether big strikes would resume after the midterms, Trump said \"no\". Foreign minister Araghchi says \"very intensive\" talks are under way through mediators.",
+    "In Beijing, Xi Jinping and Wang Yi hosted high-level talks with Oman, Iran and Saudi Arabia on Monday.",
+    "The war began when the US and Israel attacked Iran in February."
+   ],
+   "whyItMatters": "It's the first US strike in months, hours before Americans vote, and it lands while ceasefire talks are still running through mediators and China.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/935d/live/479e54b0-d745-11f1-b441-2b33b063138f.jpg",
+    "alt": "US strikes Iran's Qeshm Island in the Strait of Hormuz on the eve of the midterms",
+    "credit": "BBC News",
+    "creditUrl": "https://bbc.in/4A6BFgr"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://bbc.in/4A6BFgr",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2117462337774829571",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "Reuters (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUW9iaUN1YmNnZlZ0a05YVklpS2I1dFp2UHR0VzNRaXRubGN6ZWczLWNqdlhaTENzcUtZYjQ4OG5Ca19nVmZjZTVEYlNGTTU4QXpZYVVXOXhnMTIzYXJBeWY5ZXdTREpkN1ZCNmNzd0d4eThoOTZmVUtFSEQ1NHg0b2VQU08xaHh5R01MUWhNN0NlY0l3d1gwVDRNM0RUTnZPMjR5TENVRVpETWIxenJ3?oc=5",
+     "kind": "article",
+     "time": "2026-11-03T01:05:00Z"
+    },
+    {
+     "label": "Forbes on X",
+     "url": "https://x.com/Forbes/status/2117493252412571687",
+     "kind": "x",
+     "time": "2026-11-03T05:45:00Z"
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://wapo.st/4A9VVOg",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post on X",
+      "url": "https://x.com/washingtonpost/status/2117470578193899911",
+      "kind": "x"
+     },
+     "time": "2026-11-03T04:15:00Z"
+    }
+   ]
+  },
+  {
+   "id": "midterms-election-day",
+   "weight": "normal",
+   "title": "Election Day in the US: Supreme Court turns down Trump's bid to set aside 20,000 California ballots",
+   "topics": [
+    "USA",
+    "Midterms"
+   ],
+   "facts": [
+    "Hours before polls open, the Supreme Court rejected the administration's request to make California set aside more than 20,000 mail-in ballots it claims may have come from noncitizens.",
+    "The Washington Post calls it the latest setback in the Justice Department's aggressive legal campaign over how states run elections.",
+    "Cook Political Report now rates Democrat Abdul El-Sayed as favored in Michigan's Senate race, which makes a Democratic Senate majority more likely than a Republican one.",
+    "Kansas, which hasn't elected a Democratic senator since 1932, is rated a toss-up between Roger Marshall and Adam Hamilton.",
+    "Gas prices are set to be the highest for any US Election Day, and the BBC says the campaign is the most expensive ever.",
+    "The federal cybersecurity agency CISA says it won't brief reporters on election threats this year, as it did in the past.",
+    "Trump closed his campaign with a speech at the Lincoln Memorial Reflecting Pool."
+   ],
+   "whyItMatters": "Control of Congress for Trump's last two years is decided today, and the court fight over who gets counted is already shaping it.",
+   "image": {
+    "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CBLXCELJOIOSN2CVZFHWR76P5I.JPG&w=1440",
+    "alt": "Election Day in the US: Supreme Court turns down Trump's bid to set aside 20,000 California ballots",
+    "credit": "The Washington Post",
+    "creditUrl": "https://wapo.st/4AdIDjX"
+   },
+   "sources": [
+    {
+     "label": "The Washington Post",
+     "url": "https://wapo.st/4AdIDjX",
+     "kind": "article",
+     "time": "2026-11-03T01:26:00Z"
+    },
+    {
+     "label": "The New York Times",
+     "url": "https://nyti.ms/3Wk5o72",
+     "kind": "article",
+     "via": {
+      "label": "The New York Times on X",
+      "url": "https://x.com/nytimes/status/2117399452499464583",
+      "kind": "x"
+     },
+     "time": "2026-11-02T23:32:00Z"
+    },
+    {
+     "label": "The Washington Post (Michigan)",
+     "url": "https://wapo.st/4BXZDMP",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post (Michigan) on X",
+      "url": "https://x.com/washingtonpost/status/2117401376326033712",
+      "kind": "x"
+     },
+     "time": "2026-11-02T23:40:00Z"
+    },
+    {
+     "label": "The Washington Post (Kansas)",
+     "url": "https://wapo.st/4yzMdU8",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post (Kansas) on X",
+      "url": "https://x.com/washingtonpost/status/2117406498422690234",
+      "kind": "x"
+     },
+     "time": "2026-11-03T00:00:00Z"
+    },
+    {
+     "label": "The Washington Post (gas prices)",
+     "url": "https://wapo.st/4iy6m7e",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post (gas prices) on X",
+      "url": "https://x.com/washingtonpost/status/2117379991998489016",
+      "kind": "x"
+     },
+     "time": "2026-11-02T22:15:00Z"
+    },
+    {
+     "label": "BBC World (spending)",
+     "url": "https://bbc.in/4iy9Q9O",
+     "kind": "article",
+     "via": {
+      "label": "BBC World (spending) on X",
+      "url": "https://x.com/BBCWorld/status/2117360382381625635",
+      "kind": "x"
+     },
+     "time": "2026-11-02T20:57:00Z"
+    },
+    {
+     "label": "The Washington Post (CISA)",
+     "url": "https://wapo.st/4sBb6NI",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post (CISA) on X",
+      "url": "https://x.com/washingtonpost/status/2117417732052308274",
+      "kind": "x"
+     },
+     "time": "2026-11-03T00:45:00Z"
+    },
+    {
+     "label": "BBC World (Reflecting Pool)",
+     "url": "https://bbc.in/4zyN8FF",
+     "kind": "article",
+     "via": {
+      "label": "BBC World (Reflecting Pool) on X",
+      "url": "https://x.com/BBCWorld/status/2117403292154101774",
+      "kind": "x"
+     },
+     "time": "2026-11-02T23:47:00Z"
+    }
+   ]
+  },
+  {
+   "id": "ukraine-abu-dhabi-koalicja",
+   "weight": "normal",
+   "title": "Ukraine: new US-mediated talks in Abu Dhabi, and Europe rehearses a post-war force",
+   "topics": [
+    "Ukraine",
+    "Europe"
+   ],
+   "facts": [
+    "US envoy Steve Witkoff says the US will mediate talks with Kyiv and Moscow in Abu Dhabi next week, reported for Nov 10–11.",
+    "Britain and France will lead Exercise Koalicja in Poland from Nov 9 to 22: nearly 3,000 personnel from 12 European nations rehearse deploying a reassurance force to Ukraine after a peace deal.",
+    "Troops come from the UK, France, Belgium, Estonia, Germany, Lithuania, the Netherlands, Poland, Spain, Sweden and Turkey; Turkey leads the maritime part, aimed at clearing Black Sea mines.",
+    "Officials say the force wouldn't do peacekeeping or ceasefire monitoring, or serve under NATO command; the US isn't contributing. Defence Secretary Wes Streeting: \"This is not a hypothetical plan, it's a real force.\"",
+    "Russia opposes foreign troops in Ukraine, and the BBC notes it has shown no sign of wanting to end the war."
+   ],
+   "whyItMatters": "Diplomacy and Europe's security guarantee are moving at the same time, which is the first time the post-war force gets tested on the ground.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/4086/live/4322ff00-d6f3-11f1-93e1-3b657b665bcf.jpg",
+    "alt": "Ukraine: new US-mediated talks in Abu Dhabi, and Europe rehearses a post-war force",
+    "credit": "BBC News",
+    "creditUrl": "https://bbc.in/48t5z2z"
+   },
+   "sources": [
+    {
+     "label": "BBC News",
+     "url": "https://bbc.in/48t5z2z",
+     "kind": "article",
+     "via": {
+      "label": "BBC World on X",
+      "url": "https://x.com/BBCWorld/status/2117408547705143790",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "The Guardian (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPXzVEeFJxc0VZdlI2WG5FRWVweTBJOHlVVU9WNjdLc3NMb1pnd2ZjdmFzOW1TS2NGZUh0WHQtQkw3WDh6SU9COHJfRUZrOVRCMzNuV2FqRTZBakVjWWZEN1llYm9nc1loNUZabktaa1ZmS1BMVFdxODNlWFgwRl9xa0F5U1VGVml1V2l6ckR5anV5TGlFUHFKVE5VTVVrQThwTndRVEZkMzdRMUg3cHpBVjNEQzZqX1RuVmwwaW1Xc0FmaExhNXJoU3Z2QS1TUGRVcTgzS3RBSVFPTW8?oc=5",
+     "kind": "article",
+     "time": "2026-11-03T02:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "ny-measles-death",
+   "weight": "normal",
+   "title": "A child in New York dies of measles, the state's first measles death in 30 years",
+   "topics": [
+    "Health",
+    "USA"
+   ],
+   "facts": [
+    "The child lived in Lewis County; officials announced the death on Monday.",
+    "New York had 178 cases as of Oct 24, and Gov. Hochul declared a statewide disaster emergency last month.",
+    "The US has had more than 4,800 cases this year, the most since 1991; Pennsylvania accounts for over a quarter and has reported five deaths.",
+    "The Pan American Health Organization's measles commission meets next week, where the US is widely expected to lose its elimination status, held since 2000.",
+    "Hochul blamed Washington for \"deliberately\" eroding progress; HHS says the CDC has sent epidemiologists at the state's request."
+   ],
+   "whyItMatters": "Measles deaths are back in states that hadn't seen one in decades, and the US is about to lose its elimination status.",
+   "image": {
+    "url": "https://media.cnn.com/api/v1/images/stellar/prod/c-2026-09-18t151017z-556781221-rc20ddaz56pe-rtrmadp-3-health-usa-measles.jpg?c=16x9&q=w_800,c_fill",
+    "alt": "A child in New York dies of measles, the state's first measles death in 30 years",
+    "credit": "CNN",
+    "creditUrl": "https://www.cnn.com/2026/11/02/health/new-york-measles-death"
+   },
+   "sources": [
+    {
+     "label": "CNN",
+     "url": "https://www.cnn.com/2026/11/02/health/new-york-measles-death",
+     "kind": "article",
+     "time": "2026-11-02T23:58:00Z"
+    },
+    {
+     "label": "The New York Times",
+     "url": "https://nyti.ms/3WKjJtw",
+     "kind": "article",
+     "via": {
+      "label": "The New York Times on X",
+      "url": "https://x.com/nytimes/status/2117429086217715891",
+      "kind": "x"
+     }
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://wapo.st/4BGWMaA",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post on X",
+      "url": "https://x.com/washingtonpost/status/2117474361498075574",
+      "kind": "x"
+     },
+     "time": "2026-11-03T04:30:00Z"
+    }
+   ]
+  },
+  {
+   "id": "xcpe-tv-box-botnet",
+   "weight": "normal",
+   "title": "Google and partners take down a 1.3M-device botnet built into Android TV boxes by their maker",
+   "topics": [
+    "Security",
+    "Google"
+   ],
+   "facts": [
+    "Google's Threat Intelligence Group says Chinese TV box maker Videostrong shipped malware that enrolled more than 1.3 million set-top boxes in a botnet called XCPE.",
+    "Infected boxes resold users' internet connections to residential proxy services and ran ad fraud; Videostrong also sold access to criminal affiliates who loaded their own malware.",
+    "Google cut ties with Videostrong and took legal action against its domains and servers; Android Central notes some of the boxes were Google-certified.",
+    "Experts say the takedown likely also severs access to more than 10 million other compromised devices, including Android-based healthcare devices and other IoT gear.",
+    "Proxy providers named in the report include EarnFM, Traffmonetizer, GaGaNode and others. Synthient found the same malware on MECOOL boxes sold by Skyworth."
+   ],
+   "whyItMatters": "Cheap streaming boxes are a major source of the proxy traffic behind account takeovers and AI scraping, and here the manufacturer itself built the backdoor.",
+   "image": {
+    "url": "https://krebsonsecurity.com/b-doppel/17.png",
+    "alt": "Google and partners take down a 1.3M-device botnet built into Android TV boxes by their maker",
+    "credit": "Krebs on Security",
+    "creditUrl": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
+   },
+   "sources": [
+    {
+     "label": "Krebs on Security",
+     "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+     "kind": "article",
+     "time": "2026-11-02T20:24:00Z"
+    },
+    {
+     "label": "Android Central on X",
+     "url": "https://x.com/androidcentral/status/2117357821524402241",
+     "kind": "x",
+     "time": "2026-11-02T20:46:00Z"
+    }
+   ]
+  },
+  {
+   "id": "weight-space-programming",
+   "weight": "normal",
+   "title": "MIT researchers: GPT-6 Astra can read and edit neural network weights directly",
+   "topics": [
+    "AI",
+    "Research"
+   ],
+   "facts": [
+    "In a new MIT CSAIL post (authors incl. Omar Khattab), OpenAI's GPT-6 Astra names which game a small network was trained on from its raw weights alone.",
+    "Without writing training loops, it wrote MinAtar game networks from scratch that beat PPO trained for 100M steps; in Breakout it scored 517 against 25 for PPO at 500M steps.",
+    "Asked to make Qwen3.5-0.8B better at math without gradients, it found the cause of the reasoning loops Qwen's model card warns about and edited 0.016% of the weights (131,072 of 0.8 billion): MATH-500 rose from 7.9% to 48.1% and IFEval from 21% to 62%.",
+    "Limits: it couldn't improve Gemma 3 270M, which rarely loops; the authors conclude editing can remove an obstacle but can't add an ability the model lacks.",
+    "All logs are public, and the post was a top Hacker News story overnight, shared by @swyx and @garrytan."
+   ],
+   "whyItMatters": "If frontier models can audit and patch weights directly, interpretability and fine-tuning could become something you just ask for.",
+   "image": {
+    "url": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
+    "alt": "MIT researchers: GPT-6 Astra can read and edit neural network weights directly",
+    "credit": "Takehi et al.",
+    "creditUrl": "https://rikiyat.github.io/blog/weight-space-programming/"
+   },
+   "sources": [
+    {
+     "label": "Takehi et al. (MIT CSAIL)",
+     "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+     "kind": "primary"
+    },
+    {
+     "label": "Hacker News",
+     "url": "https://news.ycombinator.com/item?id=50341174",
+     "kind": "article"
+    },
+    {
+     "label": "swyx on X",
+     "url": "https://x.com/swyx/status/2117492548780589510",
+     "kind": "x",
+     "time": "2026-11-03T05:42:00Z"
+    },
+    {
+     "label": "Garry Tan on X",
+     "url": "https://x.com/garrytan/status/2117384926052135106",
+     "kind": "x"
+    }
+   ]
+  },
+  {
+   "id": "openai-pando-git",
+   "weight": "normal",
+   "title": "OpenAI built Pando, a new Git backend, because Codex swamped its monorepo",
+   "topics": [
+    "OpenAI",
+    "Dev"
+   ],
+   "facts": [
+    "Pando now serves all of OpenAI's monorepo work while staying compatible with the normal Git client and protocol.",
+    "It cut median push latency by about 5x and delivers nearly a petabyte of Git data a day, peaking at 57 TB in one hour.",
+    "Branches update independently (causal consistency), and stored packfiles are reused across fetches instead of being built per client.",
+    "It was written in Rust and built with Codex in 10 weeks, and has run in production since April.",
+    "OpenAI contributed packfile-uri improvements back to Git, and Greg Brockman says it's considering offering Pando to others."
+   ],
+   "whyItMatters": "Agent-driven development is now hitting source-control limits, and OpenAI may turn its fix into a product.",
+   "image": {
+    "url": "https://images.ctfassets.net/kftzwdyauwt9/CMZECnCACxZO52Dqy7SnB/d7451310a4c165a396517dc7387b9b71/scaling-git-at-openai-seo-card.png?w=1600&h=900&fit=fill",
+    "alt": "OpenAI built Pando, a new Git backend, because Codex swamped its monorepo",
+    "credit": "OpenAI",
+    "creditUrl": "https://openai.com/index/scaling-git-at-openai"
+   },
+   "sources": [
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/scaling-git-at-openai",
+     "kind": "primary",
+     "time": "2026-11-02T15:30:00Z"
+    },
+    {
+     "label": "Greg Brockman on X",
+     "url": "https://x.com/gdb/status/2117435285021810921",
+     "kind": "x",
+     "time": "2026-11-03T01:54:00Z"
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "facts": [
+    {
+     "text": "Apple had a record quarter, with revenue up 12% to $114.5bn and the iPhone at $57.6bn, but inventory jumped from $5.7bn to $14.5bn and Apple warns memory chip costs will keep rising.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Apple still can't say when iPhone Duo supply will catch up, with shipping delays stretching into next year.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "North Korea's Kim Yo Jong calls US claims that Pyongyang ran the $6.3bn Binance hack \"absurd\"; Binance says it has covered about 95% of the stolen assets.",
+     "sourceIndexes": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "The Washington Post reports that a possible SpaceX deal to run a mobile network has rattled the big US carriers.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "CDU foreign policy figure Norbert Röttgen contradicts interior minister Dobrindt's blame on \"chaotic elements from a migrant milieu\" for the Gen Z protest riots; a Spiegel poll finds most people back the protesters' demands.",
+     "sourceIndexes": [
+      6,
+      7
+     ]
+    },
+    {
+     "text": "Needles, nails and magnets turned up in Halloween sweets in Germany and Austria; at least three children have been hurt, including a nine-year-old.",
+     "sourceIndexes": [
+      8,
+      9
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/7a90/live/75145840-d727-11f1-b237-93d5595d4291.jpg",
+    "alt": "This picture taken on February 2, 2026 and released by North Korea's official Korean Central News Agency (KCNA) via KNS on February 3, 2026 shows North Korean leader Kim Jong Un delivering a speech at the inauguration of the Samgwang Stockbreeding Farm in North Pyongan Province, North Korea.",
+    "credit": "BBC News",
+    "creditUrl": "https://bbc.in/4BHpus3"
+   },
+   "sources": [
+    {
+     "label": "Golem",
+     "url": "https://www.golem.de/news/quartalsbericht-apple-mit-rekordquartal-aber-unausgewogenem-wachstum-2611-214774.html",
+     "kind": "article",
+     "time": "2026-11-03T06:32:00Z"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://spr.ly/6011BHvc5x",
+     "kind": "article",
+     "via": {
+      "label": "TechCrunch on X",
+      "url": "https://x.com/TechCrunch/status/2117393587126051095",
+      "kind": "x"
+     },
+     "time": "2026-11-02T23:09:00Z"
+    },
+    {
+     "label": "TechCrunch (iPhone Duo)",
+     "url": "https://spr.ly/6016BHvley",
+     "kind": "article",
+     "via": {
+      "label": "TechCrunch (iPhone Duo) on X",
+      "url": "https://x.com/TechCrunch/status/2117398620441829826",
+      "kind": "x"
+     },
+     "time": "2026-11-02T23:29:00Z"
+    },
+    {
+     "label": "BBC News",
+     "url": "https://bbc.in/4BHpus3",
+     "kind": "article"
+    },
+    {
+     "label": "The Washington Post",
+     "url": "https://wapo.st/4eINOzQ",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post on X",
+      "url": "https://x.com/washingtonpost/status/2117410188848230467",
+      "kind": "x"
+     },
+     "time": "2026-11-03T00:15:00Z"
+    },
+    {
+     "label": "The Washington Post (SpaceX)",
+     "url": "https://wapo.st/4zqVKOG",
+     "kind": "article",
+     "via": {
+      "label": "The Washington Post (SpaceX) on X",
+      "url": "https://x.com/washingtonpost/status/2117391341898322401",
+      "kind": "x"
+     },
+     "time": "2026-11-02T23:00:00Z"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://trib.al/wSBXSDx",
+     "kind": "article",
+     "via": {
+      "label": "ZEIT ONLINE on X",
+      "url": "https://x.com/zeitonline/status/2117428445391036822",
+      "kind": "x"
+     },
+     "time": "2026-11-03T01:27:00Z"
+    },
+    {
+     "label": "DER SPIEGEL on X",
+     "url": "https://x.com/derspiegel/status/2117504613675077914",
+     "kind": "x",
+     "time": "2026-11-03T05:30:00Z"
+    },
+    {
+     "label": "tagesschau (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UZmpnaHpHanhRV3YxZi1pLU1jaE1iSUIxcV9ta3hKTHU4Qk1yeFp1dU94ZGZNUEc0X3g1ZklXLUhZaUhHWXNSZm1SN0tTMW8yZlRRSV9YNVdVQlVNeXpj?oc=5",
+     "kind": "article",
+     "time": "2026-11-02T10:43:48Z"
+    },
+    {
+     "label": "Tagesspiegel (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQNTI0YWV3ZGFxU2xvdk01eUdiQ0Q1MnJYVUtnOV8tSWk4czY3em9xMEVMNm9aYVhXQXF3NVdBMHY3QmRHQVBfaTAwMjJkb1UtUW1xOEMxT0VOaXhMWERlQkhhY3lwZng0NzBWaGFPZkctcXV0dnNFNGtlUFdydXFIcjVKQW81YmRQajdwcXcwSVVJOW5rRzlDVGkzeV9RUlFsbi03c3I4VkZVSi1ZekdQQnkyd09TRG80UXRwLW9FRV81N1lKSXlNUF9IaS1NOXhPVnpnUjJWMHpQTzRRNXdDMjhmLVA4NW1mLWNDZW5Jb1RoelA2dDZyRTZXODhMY1g4MDRENGtoUTc4eGx6MXg0?oc=5",
+     "kind": "article",
+     "time": "2026-11-02T18:55:00Z"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "facts": [
+    {
+     "text": "Vercel projects can now be configured with a vercel.toml file, and Vercel MCP supports Client ID Metadata Documents.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Tailwind CSS v4.3.4 adds @tailwindcss/turbopack, a Turbopack loader for using Tailwind with Next.js.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "The Expo Maps library is now stable.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Cloudflare is shipping the Temporal date/time API.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Inertia props can now be marked live and refresh in real time from a broadcast event, without polling.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "OpenAI is raising its security bug bounty rewards and adding bonuses for report quality, loyalty and priority campaigns.",
+     "sourceIndexes": [
+      6
+     ]
+    },
+    {
+     "text": "Ubuntu LTS kernels still aren't patched for the critical Linux TCP flaw CVE-2026-98432, almost three weeks on, per a top Hacker News post.",
+     "sourceIndexes": [
+      7
+     ]
+    }
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/f028489a28d0dd4686437660cd182562dbd11515659d930c41e7d7cdbdc16145/tailwindlabs/tailwindcss/releases/tag/v4.3.4",
+    "alt": "Added Add @tailwindcss/turbopack, a Turbopack loader for using Tailwind CSS with Next.js (#20367) Fixed Ensure watch mode detects changes to symlinked @source files whose real paths aren't other...",
+    "credit": "tailwindcss v4.3.4",
+    "creditUrl": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.3.4"
+   },
+   "sources": [
+    {
+     "label": "Vercel Changelog",
+     "url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+     "kind": "primary"
+    },
+    {
+     "label": "Vercel Changelog (MCP)",
+     "url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+     "kind": "primary"
+    },
+    {
+     "label": "tailwindcss v4.3.4",
+     "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.3.4",
+     "kind": "primary",
+     "time": "2026-11-02T21:16:50Z"
+    },
+    {
+     "label": "Expo",
+     "url": "https://docs.expo.dev/versions/latest/sdk/maps/",
+     "kind": "article",
+     "via": {
+      "label": "Expo on X",
+      "url": "https://x.com/expo/status/2117407396897419314",
+      "kind": "x"
+     },
+     "time": "2026-11-03T00:03:00Z"
+    },
+    {
+     "label": "Mengdi Chen on X",
+     "url": "https://x.com/wongmjane/status/2117419302005665856",
+     "kind": "x",
+     "time": "2026-11-03T00:51:00Z"
+    },
+    {
+     "label": "Taylor Otwell on X",
+     "url": "https://x.com/taylorotwell/status/2117359885935317396",
+     "kind": "x",
+     "time": "2026-11-02T20:55:00Z"
+    },
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+     "kind": "primary",
+     "time": "2026-11-02T18:00:00Z"
+    },
+    {
+     "label": "freenode",
+     "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "from-substack",
+   "weight": "brief",
+   "title": "From Substack",
+   "topics": [
+    "From Substack"
+   ],
+   "facts": [
+    {
+     "text": "An unpaywalled explainer on what's at stake in today's midterm elections.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "A profile of a local reporter who took the government to court twice.",
+     "sourceIndexes": [
+      1
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Shit You Should Care About",
+     "url": "https://shityoushouldcareabout.substack.com/p/unpaywalled-the-midterm-elections",
+     "kind": "article",
+     "time": "2026-11-02T17:22:20Z"
+    },
+    {
+     "label": "Substack",
+     "url": "https://post.substack.com/p/the-local-reporter-who-took-the-government",
+     "kind": "article",
+     "time": "2026-11-02T18:32:35Z"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "weight": "brief",
+   "title": "Sports",
+   "topics": [
+    "Sports"
+   ],
+   "facts": [
+    {
+     "text": "Warriors held off the Suns 116-113 behind 34 points from Stephen Curry, in a testy game with three technicals; that's five wins in a row.",
+     "sourceIndexes": [
+      0,
+      1
+     ]
+    },
+    {
+     "text": "The 49ers got help in the NFC West race from the Bears.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "Eintracht Braunschweig will hold its winter training camp in Turkey.",
+     "sourceIndexes": [
+      3
+     ]
+    }
+   ],
+   "image": null,
+   "sources": [
+    {
+     "label": "Stamford Advocate (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeThQRWwwTVc1YTZFLXdBYkNwOHFRLS16ckJSMHhxLWUtZ1JDc0o5U0pEeXBVS3FVcHR5OVpzQUtXcXBsWV9OTVltREttY19HX2FrX3R0bmJnTlk2cXRuWDJDTENxcmZYa2lvSXU5V2FzWWphaERPRkdwRVJnd2VqV0lTSVpKazQtRk1EOTY4M1RFcXVHd1NCRTR2bFNnbVFHTlJMSTFJMGFGa3REbmR1UA?oc=5",
+     "kind": "article",
+     "time": "2026-11-03T06:40:32Z"
+    },
+    {
+     "label": "KNBR (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNanRIeTlVWVp4SzhLSU4xc3lKZkhhVGhxNUJQWDZWVGpWWkNRTDBIUGNOY0NFMFNPZ1hvWEpVUFFCeGdMYVdjYjFqSzVmbDB0OWFfQzFtUzFMaHFEc1ZqQ0F4ZXF0Q3FoQUJvRm5ndXhBNDNKZkkybmNWS3FWSVQxS24tRW12aWUwbHQ2NWw0WEpleXZKR3daWFIybUp3dGNwOWc?oc=5",
+     "kind": "article",
+     "time": "2026-11-03T06:41:43Z"
+    },
+    {
+     "label": "49ers Webzone (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Cc1c1eW5TUUJnX0doc2tPVUd0dkZhb09TNzhfZm5OZm95c2JZLVlicEVZQzY0VzNzb0FLWXdYSW5jc2RvRFI1bHMxT3Nybjg4QVZ6YVozNmxGNndzcDhhV3I3MldoTEVOb05HMFIyUncxLTRyemMtUkY1bnE?oc=5",
+     "kind": "article",
+     "time": "2026-11-03T04:38:37Z"
+    },
+    {
+     "label": "STERN.de (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcENlUnNBeGdma3RlcUk3UDUxVTVLVTE0TFZBbjQ1ejNMcEJPbGFjcFJkS3FjZHl0NXZCNWhETEt4MmxjLVVOMnRxZWhQSjBuQ3JwU01BV0oyZGdaRk94QjFMdFg3cXYzM3V0U0tsbmVqd2EzZjM1TFZlaTgtUWFmRjVxOEw0NXFhSFAyWWhHRldENF90MkpoalcydzdoUlNzYlpDbjBfZHpDZklFS3FVRFZkZWEtV09tNlExa0RKSF9uTFE2a0RWSFg1VEdrR0hHWWFxR194Q2V0UTYyNjJnQmtsdw?oc=5",
+     "kind": "article",
+     "time": "2026-11-02T18:25:47Z"
+    }
+   ]
+  }
+ ]
+}
