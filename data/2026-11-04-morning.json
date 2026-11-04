@@ -1,0 +1,479 @@
+{
+ "id": "2026-11-04-morning",
+ "edition": "morning",
+ "generatedAt": "2026-11-04T08:30:00+01:00",
+ "timezone": "Europe/Berlin",
+ "coverage": "overnight, since the evening edition (~19:30)",
+ "headline": "Democrats sweep Congress in a historic rebuke of Trump, Texas elects a Democratic governor, and Melania Trump hosts Ukraine and Russia",
+ "stories": [
+  {
+   "id": "midterms-democrats-take-congress",
+   "weight": "lead",
+   "title": "Democrats win the House and the Senate, taking full control of Congress from Trump's Republicans",
+   "topics": [
+    "US",
+    "Midterms"
+   ],
+   "facts": [
+    "AP called it overnight: Democrats won the House on top of the Senate, with voters frustrated over prices, the Iran war and corruption.",
+    "Democrats reached 218 House seats when Johnny Garcia won Texas's 35th District, a seat redrawn to favour Republicans, and they flipped districts Trump carried by up to 18 points.",
+    "In the Senate, Democrats took seats in Kansas, Iowa, Texas, Ohio, Maine, North Carolina and South Carolina, per AP; Kansas hadn't elected a Democratic senator in 94 years.",
+    "Troy Jackson unseated Susan Collins in Maine, James Talarico beat Ken Paxton for Texas's Senate seat, Sherrod Brown beat Jon Husted in Ohio and Roy Cooper flipped North Carolina.",
+    "The Washington Post calls it a historic rebuke not seen since 1974, and CBS exit polls put Trump's approval at 38%.",
+    "Hakeem Jeffries is expected to become Speaker, and Rep. Robert Garcia's message to the president was \"LAWYER UP\"."
+   ],
+   "whyItMatters": "For Trump's last two years, every bill, budget and investigation now runs through a Democratic Congress.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/2e3c/live/a1b3d4e0-d7ac-11f1-9092-abeae3cab3b1.jpg",
+    "alt": "James Talarico speaks at a rally",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/c6n8dnn09jg7o"
+   },
+   "sources": [
+    {
+     "label": "AP News",
+     "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+     "kind": "article"
+    },
+    {
+     "label": "AP News, The Latest",
+     "url": "https://apnews.com/article/midterm-elections-house-senate-congress-trump-ef6199e25927a9ac9f4c18eae0e497cd",
+     "kind": "article"
+    },
+    {
+     "label": "Washington Examiner",
+     "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4784797/control-of-congress-house-majority-2026-elections/",
+     "kind": "article"
+    },
+    {
+     "label": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/04/us/elections/maine-senate-collins-jackson.html",
+     "kind": "article"
+    },
+    {
+     "label": "@nytimes",
+     "url": "https://nyti.ms/4Aap0sP",
+     "kind": "article",
+     "via": {
+      "label": "@nytimes",
+      "url": "https://x.com/nytimes/status/2117869432013771091",
+      "kind": "x"
+     },
+     "time": "2026-11-04T06:39:55Z"
+    },
+    {
+     "label": "@washingtonpost",
+     "url": "https://x.com/washingtonpost/status/2117868877031829909",
+     "kind": "x",
+     "time": "2026-11-04T06:37:43Z"
+    },
+    {
+     "label": "@CNN",
+     "url": "https://cnn.it/3UwCj7G",
+     "kind": "article",
+     "via": {
+      "label": "@CNN",
+      "url": "https://x.com/CNN/status/2117847083247907080",
+      "kind": "x"
+     },
+     "time": "2026-11-04T05:11:06Z"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/c6n8dnn09jg7o",
+     "kind": "article"
+    },
+    {
+     "label": "CBS News live",
+     "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "midterms-governors-ballots",
+   "weight": "normal",
+   "title": "Texas gets its first Democratic governor in 35 years, and Missouri voters reject an abortion ban",
+   "topics": [
+    "US",
+    "Midterms"
+   ],
+   "facts": [
+    "Democrat Hinojosa beat Greg Abbott in Texas, making her the state's first Democratic governor in 35 years and its first Hispanic governor.",
+    "In Ohio, Amy Acton is projected to beat Vivek Ramaswamy for governor.",
+    "Keisha Lance Bottoms beat Rick Jackson to become Georgia's next governor.",
+    "A Missouri ballot measure to ban abortion failed."
+   ],
+   "whyItMatters": "The wave reached state capitols in places Democrats hadn't won in decades, not just Congress.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/303b/live/48304c80-d7ea-11f1-88b3-6189f48dff16.jpg",
+    "alt": "Amy Acton at a campaign event",
+    "credit": "BBC",
+    "creditUrl": "https://www.bbc.com/news/articles/cmx2dlz8574jo"
+   },
+   "sources": [
+    {
+     "label": "@washingtonpost",
+     "url": "https://x.com/washingtonpost/status/2117863165018955785",
+     "kind": "x",
+     "time": "2026-11-04T06:15:01Z"
+    },
+    {
+     "label": "BBC",
+     "url": "https://www.bbc.com/news/articles/cmx2dlz8574jo",
+     "kind": "article"
+    },
+    {
+     "label": "@Forbes",
+     "url": "https://x.com/Forbes/status/2117807827141943519",
+     "kind": "x",
+     "time": "2026-11-04T02:35:07Z"
+    },
+    {
+     "label": "@washingtonpost",
+     "url": "https://x.com/washingtonpost/status/2117851085079490780",
+     "kind": "x",
+     "time": "2026-11-04T05:27:01Z"
+    }
+   ]
+  },
+  {
+   "id": "trump-reacts-iran",
+   "weight": "normal",
+   "title": "Trump says he'll accept the results and admits the Iran war was \"a piece of\" the defeat",
+   "topics": [
+    "US",
+    "Midterms",
+    "Iran"
+   ],
+   "facts": [
+    "Trump told the New York Times he is \"absolutely willing\" to accept the results and expects to \"work something out\" with Democrats.",
+    "To the Wall Street Journal he said \"Iran was a piece of it\", blamed oil and gas prices more than the war itself, and said he'd do it again.",
+    "He told Fox News Democrats will send him \"insane\" bills that he'll veto until they come to the table.",
+    "On Truth Social he wrote that if he'd been on the ballot, Republicans would have won in a landslide."
+   ],
+   "whyItMatters": "With Congress gone, the Iran war and gas prices become the main fight for the rest of his term.",
+   "image": {
+    "url": "https://www.tovima.com/wp-content/uploads/2026/11/04/im-23237258_1280.jpg",
+    "alt": "Trump Acknowledges Iran War Is Partly to Blame for Republican Losses",
+    "credit": "Wall Street Journal (via To Vima)",
+    "creditUrl": "https://www.tovima.com/wsj/trump-acknowledges-iran-war-is-partly-to-blame-for-republican-losses/"
+   },
+   "sources": [
+    {
+     "label": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/03/us/politics/trump-midterm-election-results.html",
+     "kind": "article"
+    },
+    {
+     "label": "Wall Street Journal (via To Vima)",
+     "url": "https://www.tovima.com/wsj/trump-acknowledges-iran-war-is-partly-to-blame-for-republican-losses/",
+     "kind": "article"
+    },
+    {
+     "label": "Reuters (via Investing.com)",
+     "url": "https://www.investing.com/news/politics-news/trump-acknowledges-iran-played-role-in-republican-midterm-losses-4997350",
+     "kind": "article"
+    },
+    {
+     "label": "Yahoo News",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-says-absolutely-willing-accept-053322960.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "melania-ukraine-russia",
+   "weight": "normal",
+   "title": "Melania Trump will host Ukrainian and Russian representatives at the White House on Thursday",
+   "topics": [
+    "Ukraine",
+    "Russia",
+    "US"
+   ],
+   "facts": [
+    "The first lady will speak about a local ceasefire in Russian-held Oleshky in the Kherson region on Thursday at 11:00 ET, which is 17:00 Berlin time.",
+    "The truce ran from October 27 to November 1 and allowed evacuations from the town.",
+    "RFE/RL's sources say Ukraine sends David Arakhamia and ombudsman Dmytro Lubinets, and Russia sends Kirill Dmitriev and rights commissioner Yana Lantratova.",
+    "Lantratova has been under US sanctions since 2022.",
+    "A new round of US-mediated peace talks is set for next week."
+   ],
+   "whyItMatters": "It's the first time both sides will sit in the same room at the White House, even if the topic is one town.",
+   "image": null,
+   "sources": [
+    {
+     "label": "The White House",
+     "url": "https://www.whitehouse.gov/briefings-statements/2026/11/first-lady-melania-trump-to-convene-russian-and-ukrainian-representatives-at-the-white-house/",
+     "kind": "primary"
+    },
+    {
+     "label": "RFE/RL",
+     "url": "https://www.rferl.org/a/ukraine-russia-oleshky-melania-trump-talks/33889941.html",
+     "kind": "article"
+    },
+    {
+     "label": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukrainian-russian-representatives-to-meet-with-melania-trump-at-white-house-for-remarks-on-oleshky-mission/",
+     "kind": "article"
+    },
+    {
+     "label": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2026/11/03/melania-trump-host-ukrainian-russian-officials-white-house/",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "better-auth-security-release",
+   "weight": "normal",
+   "title": "Better Auth patches 12 security holes, one critical, so update to 1.7.16 now",
+   "topics": [
+    "Security",
+    "Dev"
+   ],
+   "facts": [
+    "Better Auth 1.7.16 and 1.8.0-beta.5 fix 12 advisories.",
+    "The critical one (CVSS 9.1) is in @better-auth/expo. If you register the expo() plugin, rotate your app secret after upgrading.",
+    "A high-severity Electron plugin flaw could expose the server secret and skip two-factor, so rotate the auth secret and every social provider client secret.",
+    "Another high-severity bug let phone numbers be claimed before verification; medium ones hit MySQL serial-ID adapters and revoked sessions.",
+    "Vercel's WAF rules apply automatically, but it says they don't replace upgrading every better-auth and @better-auth/* package."
+   ],
+   "whyItMatters": "Better Auth is a common auth library in TypeScript apps, and several fixes need secret rotation, not just a version bump.",
+   "image": {
+    "url": "https://vercel.com/api/docs-og?title=Better%20Auth%20November%202026%20security%20release&format=kb&sig=bc741ed06565b20a2edff183790a5a9ee6f802861e959a1bb5fa99fed833692c",
+    "alt": "Better Auth November 2026 security release",
+    "credit": "Vercel security bulletin",
+    "creditUrl": "https://vercel.com/kb/bulletin/better-auth-november-2026-security-release"
+   },
+   "sources": [
+    {
+     "label": "Vercel security bulletin",
+     "url": "https://vercel.com/kb/bulletin/better-auth-november-2026-security-release",
+     "kind": "primary",
+     "via": {
+      "label": "@vercel_dev",
+      "url": "https://x.com/vercel_dev/status/2117818737609031707",
+      "kind": "x"
+     }
+    }
+   ]
+  },
+  {
+   "id": "worth-a-look",
+   "weight": "brief",
+   "title": "Worth a look",
+   "topics": [
+    "Worth a look"
+   ],
+   "image": {
+    "url": "https://nicholas.carlini.com/writing/2026/chess/ppro-screen.png",
+    "alt": "The Pentium Pro's VGA screen running the chess engine",
+    "credit": "nicholas.carlini.com",
+    "creditUrl": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html"
+   },
+   "facts": [
+    {
+     "text": "Claude Code product lead Cat Wu has left Anthropic ahead of its planned IPO; she gave no reason.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Sam Altman: OpenAI is against people being relegated to doing what \"AI systems think makes sense to reward in humans\", and people shouldn't cede control of the future to superintelligence.",
+     "sourceIndexes": [
+      1
+     ]
+    },
+    {
+     "text": "Starlink reached 13.6 million consumer subscribers in Q3, up 1.6 million, and SpaceX's connectivity revenue rose 69% to $5.2 billion.",
+     "sourceIndexes": [
+      2
+     ]
+    },
+    {
+     "text": "A Brazilian court barred Meta from training its AI on Brazilian media content.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "Apple reportedly wants to build a $1,000 robot, which Golem calls FaceTime on wheels.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "Nicholas Carlini on running a modern chess engine on an old Pentium.",
+     "sourceIndexes": [
+      5
+     ]
+    }
+   ],
+   "whyItMatters": "Smaller things from overnight worth a click.",
+   "sources": [
+    {
+     "label": "Business Insider",
+     "url": "https://www.businessinsider.com/claude-code-leader-cat-wu-exits-anthropic-before-big-ipo-2026-11",
+     "kind": "article"
+    },
+    {
+     "label": "@sama",
+     "url": "https://x.com/sama/status/2117794005165748448",
+     "kind": "x",
+     "time": "2026-11-04T01:40:12Z"
+    },
+    {
+     "label": "@Teslarati",
+     "url": "https://x.com/Teslarati/status/2117817107521867940",
+     "kind": "x",
+     "time": "2026-11-04T03:12:00Z"
+    },
+    {
+     "label": "ZEIT ONLINE",
+     "url": "https://www.zeit.de/digital/2026-11/meta-brasilien-ki-training-medien-nutzungsbedingungen-gxe",
+     "kind": "article"
+    },
+    {
+     "label": "Golem.de",
+     "url": "https://www.golem.de/news/facetime-auf-raedern-apple-will-wohl-1-000-dollar-roboter-bauen-2611-214822.html",
+     "kind": "article"
+    },
+    {
+     "label": "nicholas.carlini.com",
+     "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+     "kind": "article"
+    }
+   ]
+  },
+  {
+   "id": "dev-notes",
+   "weight": "brief",
+   "title": "Dev notes",
+   "topics": [
+    "Dev notes"
+   ],
+   "image": {
+    "url": "https://opengraph.githubassets.com/598f5bcd2572734f75c4b3d1c44f051da6c0abcbe2967c06bab0eab96bd29d85/oven-sh/bun/pull/47893",
+    "alt": "What does this PR do? 42 separate changes, one commit each: 14 in the event loop, the I/O crate and spawn, 14 in the rest of bun_jsc, and 14 in node:fs, fs.watch and their neighbours. They follow #...",
+    "credit": "oven-sh/bun #47893",
+    "creditUrl": "https://github.com/oven-sh/bun/pull/47893"
+   },
+   "facts": [
+    {
+     "text": "Claude Code 2.1.317 loosens the Opus 5.5 rule that refused game projects: naming a game to describe mechanics now gets you an original game, and asking for a straight copy gets an offer to build something similar.",
+     "sourceIndexes": [
+      0
+     ]
+    },
+    {
+     "text": "Vercel Security Review is in public beta, and Vercel CI no longer needs a linked Vercel project.",
+     "sourceIndexes": [
+      1,
+      2
+     ]
+    },
+    {
+     "text": "vercel doctor finds and fixes Vercel CLI setup issues without logging in or linking, with --json output for agents.",
+     "sourceIndexes": [
+      3
+     ]
+    },
+    {
+     "text": "agent-browser now warns when your Chrome is outdated or behind on CVE fixes.",
+     "sourceIndexes": [
+      4
+     ]
+    },
+    {
+     "text": "The Oxc team made Rolldown's bundling benchmarks another 3–6% faster, mostly from oxc-parser.",
+     "sourceIndexes": [
+      5
+     ]
+    },
+    {
+     "text": "TypeScript merged a new --disableDynamicImportExtensionRewriting flag, and Bun removed another 315 unsafe blocks across two PRs.",
+     "sourceIndexes": [
+      6,
+      7,
+      8
+     ]
+    },
+    {
+     "text": "Safari 27.3 adds Adaptive Dark Mode, and kitty 0.50.0 and NetBSD 11.1 are out.",
+     "sourceIndexes": [
+      9,
+      10,
+      11
+     ]
+    }
+   ],
+   "whyItMatters": "Smaller dev and AI tooling updates from overnight.",
+   "sources": [
+    {
+     "label": "@addyosmani",
+     "url": "https://x.com/addyosmani/status/2117848568535106001",
+     "kind": "x",
+     "time": "2026-11-04T05:17:01Z"
+    },
+    {
+     "label": "Vercel changelog",
+     "url": "https://vercel.com/changelog/vercel-security-review-public-beta",
+     "kind": "article"
+    },
+    {
+     "label": "Vercel changelog",
+     "url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+     "kind": "primary"
+    },
+    {
+     "label": "@rauchg",
+     "url": "https://x.com/rauchg/status/2117802827519250568",
+     "kind": "x",
+     "time": "2026-11-04T02:15:15Z"
+    },
+    {
+     "label": "@ctatedev",
+     "url": "https://x.com/ctatedev/status/2117767084444631285",
+     "kind": "x",
+     "time": "2026-11-03T23:53:13Z"
+    },
+    {
+     "label": "@unsafemut",
+     "url": "https://x.com/unsafemut/status/2117618451984572451",
+     "kind": "x",
+     "time": "2026-11-03T14:02:37Z"
+    },
+    {
+     "label": "microsoft/TypeScript #65289",
+     "url": "https://github.com/microsoft/TypeScript/pull/65289",
+     "kind": "primary"
+    },
+    {
+     "label": "oven-sh/bun #47893",
+     "url": "https://github.com/oven-sh/bun/pull/47893",
+     "kind": "primary"
+    },
+    {
+     "label": "oven-sh/bun #47871",
+     "url": "https://github.com/oven-sh/bun/pull/47871",
+     "kind": "primary"
+    },
+    {
+     "label": "WebKit blog",
+     "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+     "kind": "article"
+    },
+    {
+     "label": "kitty changelog",
+     "url": "https://sw.kovidgoyal.net/kitty/changelog/#id1",
+     "kind": "article"
+    },
+    {
+     "label": "NetBSD",
+     "url": "https://www.netbsd.org/releases/formal-11/NetBSD-11.1.html",
+     "kind": "primary"
+    }
+   ]
+  }
+ ]
+}
